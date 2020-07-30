@@ -1,0 +1,270 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+/*
+  PALETTE
+  ======================= */
+
+$primary-color        : #171820 !default;
+$primary-light-color  : #292929 !default;
+$primary-dark-color   : #000000 !default;
+$secondary-color      : #df861d !default;
+$secondary-light-color: #fdc029 !default;
+$secondary-dark-color : #aa3d01 !default;
+$primary-text-color   : #eeeeee !default;
+$secondary-text-color : #000000 !default;
+
+$body-color                 : $primary-text-color !default;
+$navigation-color           : $primary-light-color !default;
+$link-color                 : $secondary-color !default;
+$link-color-hover           : $secondary-light-color !default;
+$masthead-link-color        : $primary-text-color !default;
+$masthead-link-color-hover  : $secondary-color !default;
+
+/*
+  FONT CUSTOMIZATION
+  ======================= */
+
+$old-sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+  "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+$montserrat: 'Montserrat', $old-sans-serif;
+$rubik: 'Rubik Mono One', $old-sans-serif;
+
+$global-font-family: $montserrat !default;
+$header-font-family: $rubik !default;
+$sans-serif: $montserrat !default;
+$sans-serif-narrow: $montserrat !default;
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+
+strong, b {
+  font-weight: 700
+}
+
+/*
+  PAGE HERO
+  ======================= */
+
+.typewriter-wrapper {
+  color: #63ffd1;
+}
+
+.typewriter-container {
+  padding-top: 0.8em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.page__hero--overlay {
+  padding: 8em 0;
+}
+
+/*
+  FONT SIZING
+  ======================= */
+
+.talk-section {
+  font-size: 0.75em;
+}
+
+/*
+  POST PREVIEW
+  ======================= */
+
+.archive {
+  h3.archive__date {
+    margin: 0 0 0 0;
+    font-size: $type-size-6;
+    color: $light-gray;
+    font-style: normal;
+    border-bottom: none;
+
+    + .list__item .archive__item-title {
+      margin-top: 0em;
+    }
+  }
+
+  .archive__item-title {
+    margin-top: 0em;
+    color: white;
+  }
+
+  .archive_item p {
+    color: white;
+  }
+
+  .archive__item_titlecontainer {
+    border-radius: $border-radius;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.35);
+    padding: 1rem 1rem 1rem 1rem;
+    margin-bottom: 8px;
+    width:100%;
+  }
+
+  .feature__item--row .archive__item_titlecontainer {
+    background-color: rgba(0, 0, 0, 0.35);
+    padding: 0.2rem 0.2rem 0.2rem 1rem;
+    margin-bottom: 8px;
+  }
+
+  .archive__item-teaser, .archive__item-teaser-imageclickhandler {
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 240px;
+    width: 100%;
+  }
+
+  .wrapped_body {
+    margin: 0em 10em;
+  }
+
+  .feature__item--row .archive__item-teaser {
+    min-height: 0px;
+  }
+
+  .archive__item-excerpt {
+    display: block;
+  }
+
+  .archive__item:hover {
+    .archive__item-title {
+      color: $lighter-gray  ;
+      text-decoration: none;
+    }
+  }
+
+  .list__item {
+    margin-bottom: 2em;
+  }
+}
+
+/*
+  FEATURE WRAPPER
+  ======================= */
+
+.feature__wrapper {
+  .archive__item {
+    width: 100%;
+  }
+  .archive__item-teaser {
+    @media (min-width: 37.5em) {
+      max-width: 20%;
+      max-height: 20%;
+    }
+    max-width: 50%;
+    max-height: 50%;
+    margin: 0 auto !important;
+  }
+  .feature__item--center {
+    text-align: center !important;
+  }
+  //.archive__item-body {
+  //  width: 50vw;
+  //}
+}
+
+/*
+  NAVIGATION BAR
+  ======================= */
+
+.masthead {
+  background-color: $navigation-color;
+  border-bottom: 1px solid $navigation-color;
+
+  &__inner-wrap {
+    padding: 0.3em 1em;
+  }
+}
+
+.greedy-nav {
+  background: $navigation-color;
+
+  a {
+    font-size: $type-size-5;
+  }
+
+  button {
+    background-color: $navigation-color;
+  }
+
+  .visible-links a {
+      &:before {
+        height: 0px;
+      }
+  }
+
+  .hidden-links {
+    border: 1px solid $navigation-color;
+    background: $navigation-color;
+
+    a {
+      &:hover {
+        background: $navigation-color;
+      }
+    }
+  }
+}
+
+.search__toggle {
+  color: $masthead-link-color;
+  &:hover {
+    color: $masthead-link-color-hover;
+  }
+}
+
+/*
+  IFRAMES
+  ======================= */
+
+.plkotlin {
+  width: 100%;
+  height: auto;
+  min-height: 320px;
+  border-width: 0;
+}
+
+/*
+   HEADER BOX
+   ========================================================================== */
+
+.header_box {
+  color: $primary-text-color;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+
+  .author__avatar {
+    display: table-cell;
+    vertical-align: top;
+    width: 60px;
+    height: 60px;
+
+    img {
+      max-width: 180px;
+      border-radius: 50%;
+
+      padding: 8px;
+      border: 3px solid #f2f2f2;
+    }
+  }
+
+  .social__links {
+    margin-top: 1.5em;
+  }
+
+  a {
+      font-size: $type-size-3;
+      margin: 0em 0.6em 0em 0em;
+      &:hover {
+        color: $secondary-color;
+      }
+  }
+}

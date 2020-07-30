@@ -1,0 +1,8 @@
+# main links
+main:
+  - title: "Episodes"
+    url: /episodes
+  - title: "About"
+    url: /about
+  - title: "Contact"
+    url: /contact
