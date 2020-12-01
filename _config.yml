@@ -77,7 +77,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : "devbakery"
+  username               : "thebakerydev"
 facebook:
   username               :
   app_id                 :
@@ -89,6 +89,7 @@ social:
   type                   : "Organization" # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://twitter.com/thebakerydev"
     - "https://twitter.com/cortinico"
 
 # Analytics
@@ -126,7 +127,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          : "devbakery"
+  twitter          : "thebakerydev"
   vine             :
   weibo            :
   xing             :
