@@ -136,12 +136,12 @@ author:
     - label: "Spotify"
       icon: "fab fa-fw fa-spotify"
       url: "https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug"
-    - label: "Google Podcast"
+    - label: "Google Podcasts"
       icon: "fab fa-fw fa-google-play"
       url: "https://ncorti.com"
-    - label: "Apple Music"
+    - label: "Apple Podcasts"
       icon: "fas fa-fw fa-podcast"
-      url: "https://ncorti.com"
+      url: "https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034"
 
 
 # Reading Files
