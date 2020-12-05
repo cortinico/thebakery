@@ -8,7 +8,7 @@ description: "Nelson presents gradle-doctor, a tool to get prescriptions for you
 header:
   teaser: "/assets/images/header-single-episode.png"
   overlay_image: "/assets/images/header-single-episode.png"
-  show_overlay_excerpt: true
+  show_overlay_excerpt: false
   overlay_filter: "0.6"
   og_image: "/assets/images/episodes/01-cover.png"
 
@@ -21,7 +21,7 @@ podcast_duration: "41:42"
 podcast_length: 16595189
 ---
 
-In this episode, we talk about gradle doctor with its author Nelson Osacky. Gradle doctor will help you to fix performance problems and errors in your Gradle build. The tool work as a Gradle plugin emitting prescriptions for all the problems found. Nelson tells us how he came to the idea behind this tool, and how
+In this episode, we talk about [gradle doctor](https://github.com/runningcode/gradle-doctor) with its author Nelson Osacky. Gradle doctor will help you to fix performance problems and errors in your Gradle build. The tool work as a Gradle plugin emitting prescriptions for all the problems found. Nelson tells us how he came to the idea behind this tool, and how
 
 Enjoy the show 👨‍🍳
 
