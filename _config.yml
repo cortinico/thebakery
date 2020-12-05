@@ -305,7 +305,7 @@ defaults:
       header:
         hero: true
 
-# Podcast Configuration TODO
+# Podcast Configuration
 podcast_url: "https://thebakery.dev/"
 podcast_copyright: "Copyright 2020 Nicola Corti"
 podcast_album_art: "/assets/images/show-logo.png"
