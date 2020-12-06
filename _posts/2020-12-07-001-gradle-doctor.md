@@ -56,5 +56,4 @@ Enjoy the show 👨‍🍳
 * <i class="fab fa-spotify"></i> [The Developers' Bakery on Spotify](https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug)
 * <i class="fas fa-podcast"></i> [The Developers' Bakery on Apple Podcasts](https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034)
 * <i class="fab fa-google-play"></i> [The Developers' Bakery on Google Podcasts](https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s)
-* <i class="fab fa-twitter"></i> [@thebakerydev on Twitter](https://twitter.com/thebakerydev)
 * <i class="fab fa-twitter"></i> [@cortinico on Twitter](https://twitter.com/cortinico)
