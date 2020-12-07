@@ -35,8 +35,8 @@ Enjoy the show 👨‍🍳
 * **04:22**	What is gradle-doctor?
 * **08:44**	Remote build cache
 * **16:19** `JAVA_HOME` madness
-* **21:36**	The most mistake in your build.gradle
-* **24:34** gradle-doctor and performances
+* **21:36**	The most common mistake in your build.gradle
+* **24:34** gradle-doctor and performance
 * **31:17**	Extensibility
 * **33:12**	The future of gradle-doctor
 * **39:56**	Where to find Nelson online?
