@@ -16,7 +16,7 @@ date: 2020-12-07
 permalink: /01/
 podcast_image: "/assets/images/episodes/01-cover.png"
 podcast_episode_number: 1
-podcast_link: https://dts.podtrac.com/redirect.m4a/https://hosting.thebakery.dev/01-thedevelopersbakery-gradle-doctor.m4a
+podcast_link: https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/01-thedevelopersbakery-gradle-doctor.m4a
 podcast_duration: "41:42"
 podcast_length: 16595189
 ---
