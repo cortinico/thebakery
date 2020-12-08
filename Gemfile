@@ -14,9 +14,10 @@ source "https://rubygems.org"
 # To upgrade, run `bundle update`.
 
 
-gem "jekyll", "~> 3.8.5"
+gem "jekyll", "~> 3"
 # gem "github-pages","~> 202" , group: :jekyll_plugins
 gem "jekyll-remote-theme"
 gem "minimal-mistakes-jekyll"
 gem "rouge", ">= 3.2.1"
 gem "jemoji"
+gem "kramdown-parser-gfm"
