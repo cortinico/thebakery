@@ -21,7 +21,7 @@ test:
 pages:
   stage: deploy
   script:
-    - bundle exec jekyll build -d public --drafts --unpublished --future -c _config.yml
+    - bundle exec jekyll build -d public -c _config.yml
   artifacts:
     paths:
       - public
