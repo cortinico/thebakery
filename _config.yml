@@ -227,6 +227,7 @@ timezone: "Europe/Stockholm"
 # Plugins (previously gems:)
 plugins:
   - jekyll-remote-theme
+  - jekyll-redirect-from
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
