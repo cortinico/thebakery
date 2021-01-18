@@ -25,7 +25,7 @@ podcast_duration: "37:59"
 podcast_length: 15258234
 ---
 
-<iframe src="https://open.spotify.com/embed-podcast/episode/685g5XevPoWLnW0uNQshXr" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe src="https://open.spotify.com/embed-podcast/episode/2W41vADsX38UJILmTCaaGu" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 Today, I'm more than excited to welcome on stage **Sebastian Aigner**, Developer Advocate at JetBrains.
 
