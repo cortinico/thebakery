@@ -1,4 +1,4 @@
-name: Deploy Website
+name: Test Website
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
       - *
 
 jobs:
-  build-website:
+  jekyll:
     runs-on: ubuntu-latest
     container: jekyll/builder
     steps:
