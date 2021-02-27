@@ -1,0 +1,659 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.22.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>#03 - Danger with Franco Meloni - The Developers’ Bakery</title>
+<meta name="description" content="Time to kick-off 2021 with an amazing tool to automatize your pull-requests: Danger, and Franco Meloni is on stage to present it!">
+
+
+  <meta name="author" content="The Developers' Bakery">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en">
+<meta property="og:site_name" content="The Developers' Bakery">
+<meta property="og:title" content="#03 - Danger with Franco Meloni">
+<meta property="og:url" content="https://thebakery.dev/03/">
+
+
+  <meta property="og:description" content="Time to kick-off 2021 with an amazing tool to automatize your pull-requests: Danger, and Franco Meloni is on stage to present it!">
+
+
+
+  <meta property="og:image" content="https://thebakery.dev/assets/images/episodes/03-cover.png">
+
+
+
+  <meta name="twitter:site" content="@thebakerydev">
+  <meta name="twitter:title" content="#03 - Danger with Franco Meloni">
+  <meta name="twitter:description" content="Time to kick-off 2021 with an amazing tool to automatize your pull-requests: Danger, and Franco Meloni is on stage to present it!">
+  <meta name="twitter:url" content="https://thebakery.dev/03/">
+
+  
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://thebakery.dev/assets/images/episodes/03-cover.png">
+  
+
+  
+    <meta name="twitter:creator" content="@thebakerydev">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="The Developers' Bakery">
+  
+
+  
+    <meta name="twitter:label2" content="Published in">
+    <meta name="twitter:data2" content="">
+  
+
+
+
+  <meta property="article:published_time" content="2021-01-04T00:00:00+01:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://thebakery.dev/03/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Nicola Corti",
+      "url": "https://thebakery.dev",
+      "sameAs": ["https://twitter.com/thebakerydev","https://twitter.com/cortinico"]
+    }
+  </script>
+
+
+
+
+
+
+
+
+<link href="/podcast.xml" type="application/rss+xml" rel="alternate" title="The Developers' Bakery Podcast Feed">
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="The Developers' Bakery Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          The Developers' Bakery
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/episodes">Episodes</a>
+            </li><li class="masthead__menu-item">
+              <a href="/about">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/contact">Contact</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=" background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/images/header-single-episode.png');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          #03 - Danger with Franco Meloni
+
+        
+      </h1>
+      
+      
+
+
+      
+      
+    </div>
+  
+  
+</div>
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="/assets/images/avatar.png" alt="The Developers' Bakery" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">The Developers' Bakery</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>A Podcast about Developer tools and libraries</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Stockholm, Sweden</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-spotify" aria-hidden="true"></i><span class="label">Spotify</span></a></li>
+          
+        
+          
+            <li><a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-google-play" aria-hidden="true"></i><span class="label">Google Podcasts</span></a></li>
+          
+        
+          
+            <li><a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-podcast" aria-hidden="true"></i><span class="label">Apple Podcasts</span></a></li>
+          
+        
+          
+            <li><a href="https://pca.st/vq8ml6pl" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-microphone-alt" aria-hidden="true"></i><span class="label">Pocket Casts</span></a></li>
+          
+        
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:info@thebakery.dev">
+            <meta itemprop="email" content="info@thebakery.dev" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+        <li>
+          <a href="https://twitter.com/thebakerydev" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="#03 - Danger with Franco Meloni">
+    <meta itemprop="description" content="Time to kick-off 2021 with an amazing tool to automatize your pull-requests: Danger, and Franco Meloni is on stage to present it!">
+    <meta itemprop="datePublished" content="2021-01-04T00:00:00+01:00">
+    
+
+    <div class="page__inner-wrap">
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <iframe src="https://open.spotify.com/embed-podcast/episode/685g5XevPoWLnW0uNQshXr" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>Let’s kickoff 2021 with a great open-source tool: <a href="https://github.com/danger/danger"><strong>danger</strong> ⚠️</a>! Danger’s motto is <em>Stop saying “You forgot to…” in code review</em> and it definitely delivers greatly on promises. With Danger, you can automatize recurrent and tedious tasks that affect your pull-requests.</p>
+
+<p>Today, we have <strong>Franco Meloni</strong> on stage, one of the maintainer of danger/swift &amp; danger/kotlin that will tell us the recipe for a friction-less pull code-review process.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00:20</strong>	Intro</li>
+  <li><strong>01:06</strong>	Episode Start</li>
+  <li><strong>01:54</strong> Franco’s Introduction</li>
+  <li><strong>03:23</strong> What is Danger?</li>
+  <li><strong>06:05</strong> Danger setup in a nutshell</li>
+  <li><strong>07:16</strong> Dangerfiles</li>
+  <li><strong>09:35</strong> Danger and package managers</li>
+  <li><strong>11:01</strong> What Danger can do to your Pull-requests</li>
+  <li><strong>12:56</strong> Which version of Danger to pick?</li>
+  <li><strong>16:35</strong> Franco’s memorable automation</li>
+  <li><strong>20:56</strong> Running Danger offline</li>
+  <li><strong>22:24</strong> Extending Danger</li>
+  <li><strong>25:39</strong> Franco’s Top Plugins</li>
+  <li><strong>27:51</strong> How Franco got involved in Danger?</li>
+  <li><strong>32:47</strong> Github &amp; Sponsorships</li>
+  <li><strong>34:27</strong> What is missing in Danger?</li>
+  <li><strong>38:00</strong> How to contribute?</li>
+  <li><strong>40:10</strong> Further readings</li>
+  <li><strong>40:51</strong> Where to find Franco online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://danger.systems/">danger.systems</a> official website</li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/danger/danger">danger/danger</a> on Github</li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/danger/danger-js">danger/danger-js</a> on Github</li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/danger/swift">danger/swift</a> on Github</li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/danger/kotlin">danger/kotlin</a> on Github</li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/f-meloni">@f-meloni on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/fmeloni1">@fmeloni1 on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Posted:</strong> <time datetime="2021-01-04T00:00:00+01:00">January 4, 2021</time></p>
+
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?via=thebakerydev&text=%2303+-+Danger+with+Franco+Meloni%20https%3A%2F%2Fthebakery.dev%2F03%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fthebakery.dev%2F03%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fthebakery.dev%2F03%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/02/" class="pagination--pager" title="#02 - Coil with Colin White
+">Previous</a>
+    
+    
+      <a href="/04/" class="pagination--pager" title="#04 - Jetpack Compose Desktop with Sebastian Aigner
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+      <div class="page__comments">
+  
+  
+</div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item" style="position: relative">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    <div style="position:relative;">
+      
+        <div class="archive__item-teaser" style="background-image: url(https://thebakery.dev/assets/images/header-single-episode.png)"></div>
+      
+      <div class="archive__item_titlecontainer">
+        <h2 class="archive__item-title" itemprop="headline">
+            <a href="https://thebakery.dev/06/" rel="permalink">#06 - Koin with Arnaud Giuliani
+</a>
+        </h2>
+        <h3 class="archive__date">15 Feb 2021</h3>
+      </div>
+    </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">Are you up for some Dependency Injection? Because today we have Arnaud Giuliani on stage, to talk about Koin, a DI framework for Kotlin, Android and more!
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item" style="position: relative">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    <div style="position:relative;">
+      
+        <div class="archive__item-teaser" style="background-image: url(https://thebakery.dev/assets/images/header-single-episode.png)"></div>
+      
+      <div class="archive__item_titlecontainer">
+        <h2 class="archive__item-title" itemprop="headline">
+            <a href="https://thebakery.dev/05/" rel="permalink">#05 - Starship with Matan Kushner
+</a>
+        </h2>
+        <h3 class="archive__date">01 Feb 2021</h3>
+      </div>
+    </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">Today we talk about Starship, the minimal, blazing-fast and infinitely customizable prompt shell with its author Matan Kushner
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item" style="position: relative">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    <div style="position:relative;">
+      
+        <div class="archive__item-teaser" style="background-image: url(https://thebakery.dev/assets/images/header-single-episode.png)"></div>
+      
+      <div class="archive__item_titlecontainer">
+        <h2 class="archive__item-title" itemprop="headline">
+            <a href="https://thebakery.dev/04/" rel="permalink">#04 - Jetpack Compose Desktop with Sebastian Aigner
+</a>
+        </h2>
+        <h3 class="archive__date">18 Jan 2021</h3>
+      </div>
+    </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">Directly from JetBrains, we have Sebastian Aigner on stage to talk about Jetpack Compose Desktop, the new desktop UI declarative framework from JB.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item" style="position: relative">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    <div style="position:relative;">
+      
+        <div class="archive__item-teaser" style="background-image: url(https://thebakery.dev/assets/images/header-single-episode.png)"></div>
+      
+      <div class="archive__item_titlecontainer">
+        <h2 class="archive__item-title" itemprop="headline">
+            <a href="https://thebakery.dev/02/" rel="permalink">#02 - Coil with Colin White
+</a>
+        </h2>
+        <h3 class="archive__date">21 Dec 2020</h3>
+      </div>
+    </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">Colin is here to introduce Coil, Coroutine Image Loader. A library to reshape image loading on Android
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 Nicola Corti. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+  <script>
+  window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+  ga('create','UA-71657172-3','auto');
+  ga('set', 'anonymizeIp', false);
+  ga('send','pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,43 @@
+var store = [{
+        "title": "#00 - Show Trailer",
+        "excerpt":"Show Notes Hi everyone and welcome to the Developers Bakery 👋 A podcast about open-source projects, tools and libraries for software developers. If you ever developed any kind of software, you probably know that a significant amount of code is not the one you wrote but the one others wrote....","categories": [],
+        "tags": [],
+        "url": "/00/",
+        "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#01 - Gradle Doctor with Nelson Osacky",
+        "excerpt":"In this episode, we talk about Gradle Doctor with its author Nelson Osacky. Gradle doctor helps you fix performance problems and errors in your Gradle build. The tool works as a Gradle plugin - emitting prescriptions for all the problems found. Nelson tells us how he came up with the...","categories": [],
+        "tags": [],
+        "url": "/01/",
+        "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#02 - Coil with Colin White",
+        "excerpt":"In this episode, we welcome on stage Colin White to introduce us Coil, COroutines Image Loader. Coil is an Android image loading library that recently hit the 1.0 milestone, completely written in Kotlin and with first class support for Kotlin Coroutines. In this episode, Colin tells us challenges, fun facts...","categories": [],
+        "tags": [],
+        "url": "/02/",
+        "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#03 - Danger with Franco Meloni",
+        "excerpt":"Let’s kickoff 2021 with a great open-source tool: danger ⚠️! Danger’s motto is Stop saying “You forgot to…” in code review and it definitely delivers greatly on promises. With Danger, you can automatize recurrent and tedious tasks that affect your pull-requests. Today, we have Franco Meloni on stage, one of...","categories": [],
+        "tags": [],
+        "url": "/03/",
+        "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#04 - Jetpack Compose Desktop with Sebastian Aigner",
+        "excerpt":"Today, I’m more than excited to welcome on stage Sebastian Aigner, Developer Advocate at JetBrains. Sebastian is with us to talk about Jetpack Compose Desktop, a new declarative UI framework for Desktop applications written in Kotlin. Jetpack Compose Desktop is the porting of Jetpack Compose, the declarative UI framework for...","categories": [],
+        "tags": [],
+        "url": "/04/",
+        "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#05 - Starship with Matan Kushner",
+        "excerpt":"In this episode, we shift a bit from Mobile &amp; Kotlin to talk about shells, prompts and Rust! 🦀 Today we have Matan Kushner with us on stage to talk about Starship 🚀. From their website: The minimal, blazing-fast, and infinitely customizable prompt for any shell! Still confused? A picture...","categories": [],
+        "tags": [],
+        "url": "/05/",
+        "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#06 - Koin with Arnaud Giuliani",
+        "excerpt":"In this episode, we talk about Dependency Injection 🗡. We have Arnaud Giuliani on stage, Kotlin GDE and author of Koin, a popular dependency injection framework for Kotlin. Koin works well for Android projects, but it can be used also in backend projects and the Multiplatform support is just behind...","categories": [],
+        "tags": [],
+        "url": "/06/",
+        "teaser": "/assets/images/header-single-episode.png"
+      }]

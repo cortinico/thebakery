@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
+>
+
+<channel>
+<title>The Developers' Bakery</title>
+<atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
+<link>https://thebakery.dev</link>
+<description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
+<lastBuildDate>Sat, 27 Feb 2021 23:58:49 +0100</lastBuildDate>
+<language>en-US</language>
+<sy:updatePeriod>hourly</sy:updatePeriod>
+<sy:updateFrequency>1</sy:updateFrequency>
+<generator>http://jekyllrb.com</generator>
+<itunes:summary>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</itunes:summary>
+<itunes:author>Nicola Corti</itunes:author>
+<itunes:explicit>false</itunes:explicit>
+<itunes:image href="https://thebakery.dev/assets/images/show-logo.png" />
+<itunes:owner>
+<itunes:name>Nicola Corti</itunes:name>
+<itunes:email>info@thebakery.dev</itunes:email>
+</itunes:owner>
+<managingEditor>info@thebakery.dev (Nicola Corti)</managingEditor>
+<itunes:subtitle>A developer podcast about tools, libraries, and productivity. Featuring open-source developers and maintainers sharing their own experiences.</itunes:subtitle>
+<image>
+<title>The Developers' Bakery</title>
+<url>https://thebakery.dev/assets/images/show-logo.png</url>
+<link>https://thebakery.dev</link>
+</image>
+<copyright>Copyright 2020 Nicola Corti</copyright>
+<itunes:category text="Technology"/>
+<itunes:category text="Education">
+<itunes:category text="How To" />
+</itunes:category>
+
+    <item>
+        
+        <title>Koin with Arnaud Giuliani</title>
+        <itunes:title>Koin with Arnaud Giuliani</itunes:title>
+        <link>https://thebakery.dev/06/</link>
+        <pubDate>Mon, 15 Feb 2021 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/06/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>6</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/06-thedevelopersbakery-koin.m4a" length="20309780" type="audio/mpeg" />
+
+        <itunes:subtitle>Are you up for some Dependency Injection? Because today we have Arnaud Giuliani on stage, to talk about Koin, a DI framework for Kotlin, Android and more!</itunes:subtitle>
+        <itunes:summary>Are you up for some Dependency Injection? Because today we have Arnaud Giuliani on stage, to talk about Koin, a DI framework for Kotlin, Android and more!</itunes:summary>
+
+        
+        <description>
+            <![CDATA[In this episode, we talk about Dependency Injection 🗡. We have Arnaud Giuliani on stage, Kotlin GDE and author of Koin, a popular dependency injection framework for Kotlin. Koin works well for Android projects, but it can be used also in backend projects and the Multiplatform support is just behind...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>In this episode, we talk about <strong>Dependency Injection</strong> 🗡. We have <a href="https://twitter.com/arnogiu">Arnaud Giuliani</a> on stage, Kotlin GDE and author of <a href="https://insert-koin.io/">Koin</a>, a popular dependency injection framework for Kotlin.</p>
+
+<p>Koin works well for Android projects, but it can be used also in backend projects and the <strong>Multiplatform</strong> support is just behind the corner.</p>
+
+<p>Arnaud will tell us the story of this framework: how it started, how it grew and how its feature will look like.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00:36</strong> Intro</li>
+  <li><strong>01:11</strong> Episode Start</li>
+  <li><strong>01:46</strong> Arnaud’s Introduction</li>
+  <li><strong>03:20</strong> What is Koin?</li>
+  <li><strong>04:47</strong> Reified Types &amp; Annotations</li>
+  <li><strong>08:48</strong> The path to success</li>
+  <li><strong>11:42</strong> Koin’s killer feature</li>
+  <li><strong>13:47</strong> What is missing in Koin?</li>
+  <li><strong>15:21</strong> Compile time verification</li>
+  <li><strong>18:35</strong> The DI ecosystem</li>
+  <li><strong>20:56</strong> Koin in the Android world</li>
+  <li><strong>23:56</strong> Koin in the Multiplatform world</li>
+  <li><strong>28:10</strong> Koin internals</li>
+  <li><strong>31:00</strong> Kotlin’s feature used by Koin</li>
+  <li><strong>32:08</strong> What’s new in Koin 3.x</li>
+  <li><strong>35:16</strong> Breaking API Changes</li>
+  <li><strong>39:24</strong> Koin 4.x?</li>
+  <li><strong>42:35</strong> How to contribute to Koin?</li>
+  <li><strong>46:46</strong> Learning Material</li>
+  <li><strong>49:41</strong> Where to find Arnaud online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/InsertKoinIO/koin">InsertKoinIO/koin on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://insert-koin.io/">Koin Official Documentation</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/insertkoin_io">@insertkoin_io on Twitter</a></li>
+  <li><i class="fab fa-youtube"></i> <a href="https://youtu.be/chCsNkjotfc">Dependency injection from zero to hero with Koin on Youtube</a></li>
+  <li><i class="fab fa-medium-m"></i> <a href="https://medium.com/koin-developers">Koin Developers on Medium</a></li>
+  <li><i class="fab fa-slack"></i> <a href="https://kotlinlang.slack.com/archives/C67HDJZ2N">#koin on Kotlinlang Slack</a> (get an <a href="https://surveys.jetbrains.com/s3/kotlin-slack-sign-up">invite here</a>)</li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/arnaudgiuliani">@arnaudgiuliani on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/arnogiu">@arnogiu on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/06-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>51:03</itunes:duration>
+
+        
+    </item>
+    
+    <item>
+        
+        <title>Starship with Matan Kushner</title>
+        <itunes:title>Starship with Matan Kushner</itunes:title>
+        <link>https://thebakery.dev/05/</link>
+        <pubDate>Mon, 01 Feb 2021 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/05/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>5</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/05-thedevelopersbakery-starship.m4a" length="15703101" type="audio/mpeg" />
+
+        <itunes:subtitle>Today we talk about Starship, the minimal, blazing-fast and infinitely customizable prompt shell with its author Matan Kushner</itunes:subtitle>
+        <itunes:summary>Today we talk about Starship, the minimal, blazing-fast and infinitely customizable prompt shell with its author Matan Kushner</itunes:summary>
+
+        
+        <description>
+            <![CDATA[In this episode, we shift a bit from Mobile &amp; Kotlin to talk about shells, prompts and Rust! 🦀 Today we have Matan Kushner with us on stage to talk about Starship 🚀. From their website: The minimal, blazing-fast, and infinitely customizable prompt for any shell! Still confused? A picture...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>In this episode, we shift a bit from Mobile &amp; Kotlin to talk about shells, prompts and Rust! 🦀</p>
+
+<p>Today we have Matan Kushner with us on stage to talk about <a href="https://github.com/starship/starship">Starship 🚀</a>. From their website: <em>The minimal, blazing-fast, and infinitely customizable <strong>prompt</strong> for any shell!</em></p>
+
+<p>Still confused? A picture is worth a thousand words:</p>
+
+<p><img src="/assets/images/posts/starship-demo.gif" alt="starship-demo" /></p>
+
+<p><small><em>Starship in action, from <a href="https://starship.rs">starship.rs</a></em></small></p>
+
+<p>If you’re curious to know more about shells, prompts, customizations and what are the challenges behind Starship, make sure you don’t this episode.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00:27</strong> Intro</li>
+  <li><strong>01:13</strong> Episode Start</li>
+  <li><strong>01:53</strong> Matan’s Introduction</li>
+  <li><strong>03:05</strong> What is Starship?</li>
+  <li><strong>04:20</strong> Supported shells</li>
+  <li><strong>05:27</strong> The idea behind writing a prompt</li>
+  <li><strong>08:49</strong> Matan’s favourite plugin</li>
+  <li><strong>10:02</strong> Missing features and space for improvements</li>
+  <li><strong>11:44</strong> What is your current setup?</li>
+  <li><strong>13:36</strong> Is there a “prompt market”?</li>
+  <li><strong>15:19</strong> Would you write it again in Rust?</li>
+  <li><strong>17:07</strong> Challenges of a prompt author</li>
+  <li><strong>19:40</strong> Where is Starship collecting information?</li>
+  <li><strong>21:05</strong> Async support</li>
+  <li><strong>22:37</strong> Which shell is the hardest to work with</li>
+  <li><strong>24:14</strong> The secret to build a vibrant community</li>
+  <li><strong>26:16</strong> Communities and Discord</li>
+  <li><strong>29:41</strong> What’s the future for Starship?</li>
+  <li><strong>32:16</strong> Roadmap and Vision</li>
+  <li><strong>33:33</strong> How to contribute?</li>
+  <li><strong>35:18</strong> Translating Starship</li>
+  <li><strong>36:34</strong> Learning Material</li>
+  <li><strong>37:40</strong> Where to find Matan online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/starship/starship">starship/starship on Github</a></li>
+  <li><i class="fas fa-rocket"></i> <a href="https://starship.rs/">Starship Official Documentation</a></li>
+  <li><i class="fas fa-book"></i> <a href="https://doc.rust-lang.org/book/">The Rust Book</a></li>
+  <li>Other mentioned prompts:
+    <ul>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/romkatv/powerlevel10k">romkatv/powerlevel10k - A Zsh theme</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/IlanCosman/tide">IlanCosman/tide - The ultimate Fish prompt</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/StarshipPrompt">@StarshipPrompt on Twitter</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/matchai">@matchai on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/matchai">@matchai on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/05-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>39:18</itunes:duration>
+
+        
+    </item>
+    
+    <item>
+        
+        <title>Jetpack Compose Desktop with Sebastian Aigner</title>
+        <itunes:title>Jetpack Compose Desktop with Sebastian Aigner</itunes:title>
+        <link>https://thebakery.dev/04/</link>
+        <pubDate>Mon, 18 Jan 2021 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/04/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>4</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/04-thedevelopersbakery-compose-desktop.m4a" length="15258234" type="audio/mpeg" />
+
+        <itunes:subtitle>Directly from JetBrains, we have Sebastian Aigner on stage to talk about Jetpack Compose Desktop, the new desktop UI declarative framework from JB.</itunes:subtitle>
+        <itunes:summary>Directly from JetBrains, we have Sebastian Aigner on stage to talk about Jetpack Compose Desktop, the new desktop UI declarative framework from JB.</itunes:summary>
+
+        
+        <description>
+            <![CDATA[Today, I’m more than excited to welcome on stage Sebastian Aigner, Developer Advocate at JetBrains. Sebastian is with us to talk about Jetpack Compose Desktop, a new declarative UI framework for Desktop applications written in Kotlin. Jetpack Compose Desktop is the porting of Jetpack Compose, the declarative UI framework for...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>Today, I’m more than excited to welcome on stage <strong>Sebastian Aigner</strong>, Developer Advocate at JetBrains.</p>
+
+<p>Sebastian is with us to talk about <a href="https://github.com/JetBrains/compose-jb">Jetpack Compose Desktop</a>, a new <strong>declarative UI framework</strong> for <strong>Desktop</strong> applications written in <strong>Kotlin</strong>.</p>
+
+<p>Jetpack Compose Desktop is the porting of Jetpack Compose, the declarative UI framework for <strong>Android</strong>. JetBrains took the Compose to the next level offering a lot of new APIs and tools to make Desktop UI development a pleasure again. The project gained a lot of popularity recently on Github.</p>
+
+<p>Sebastian is here to talk about his <strong>experience</strong> with the tool, how to write your first Compose Desktop application and how to contribute to the framework.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00:27</strong>	Intro</li>
+  <li><strong>01:13</strong>	Episode Start</li>
+  <li><strong>01:44</strong> Sebastian’s Introduction</li>
+  <li><strong>03:14</strong> What is Jetpack Compose Desktop?</li>
+  <li><strong>04:37</strong> Jetpack Compose for Android</li>
+  <li><strong>05:35</strong> Desktop and UIs</li>
+  <li><strong>07:30</strong> Why not Jetbrains UI?</li>
+  <li><strong>09:12</strong> It just works TM</li>
+  <li><strong>09:42</strong> Package naming</li>
+  <li><strong>10:21</strong> Supported platforms</li>
+  <li><strong>11:43</strong> Migrating existing applications</li>
+  <li><strong>13:42</strong> The next Compose Desktop app from JB?</li>
+  <li><strong>14:39</strong> How to contribute to Ccompose Desktop?</li>
+  <li><strong>16:49</strong> What is the current project direction?</li>
+  <li><strong>18:35</strong> Where to provide feedback?</li>
+  <li><strong>19:49</strong> Where to find support?</li>
+  <li><strong>20:55</strong> Official Compose Desktop Examples</li>
+  <li><strong>23:17</strong> Seb’s experience with Compose Desktop</li>
+  <li><strong>28:49</strong> What is still missing in Compose Desktop?</li>
+  <li><strong>30:07</strong> Push notifications on Desktop</li>
+  <li><strong>31:44</strong> What’s the future for Compose Desktop?</li>
+  <li><strong>33:01</strong> Compose for Web!?</li>
+  <li><strong>34:41</strong> Learning material</li>
+  <li><strong>36:30</strong> Where to find Seb online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/JetBrains/compose-jb">JetBrains/compose-jb on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://www.jetbrains.com/lp/compose/">Compose for Desktop Official Documentation</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://tigeroakes.com/posts/react-to-compose-dictionary/">React to Jetpack Compose Dictionary</a></li>
+  <li><i class="fas fa-briefcase"></i> <a href="https://www.jetbrains.com/careers/jobs/ui-framework-developer-400/">Job Opening - UI Framework Developer (JetBrains Compose Team)</a></li>
+  <li>Learning Material
+    <ul>
+      <li><i class="fas fa-graduation-cap"></i> <a href="https://developer.android.com/courses/pathways/compose">Jetpack Compose Pathways</a></li>
+      <li><i class="fas fa-graduation-cap"></i> <a href="https://github.com/JetBrains/compose-jb/blob/master/tutorials/Getting_Started/README.md">Tutorial for Compose Desktop</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/JetBrains/compose-jb/tree/master/examples/codeviewer">Codeviewer Example on Github</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/JetBrains/compose-jb/tree/master/examples/issues">JetIssues Example on Github</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/JetBrains/compose-jb/tree/master/examples/imageviewer">ImageViewer Example on Github</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/JetBrains/compose-jb/tree/master/examples/todoapp">Todoapp Example on Github</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/SebastianAigner">@SebastianAigner on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/sebi_io">@sebi_io on Twitter</a></li>
+  <li><i class="fab fa-slack"></i> <a href="https://kotlinlang.slack.com/archives/C01D6HTPATV">#compose-desktop on Kotlinlang Slack</a> (get an <a href="https://surveys.jetbrains.com/s3/kotlin-slack-sign-up?_ga=2.193829357.1956188841.1610124096-293668568.1579015494">invite here</a>)</li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/04-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>37:59</itunes:duration>
+
+        
+    </item>
+    
+    <item>
+        
+        <title>Danger with Franco Meloni</title>
+        <itunes:title>Danger with Franco Meloni</itunes:title>
+        <link>https://thebakery.dev/03/</link>
+        <pubDate>Mon, 04 Jan 2021 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/03/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>3</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/03-thedevelopersbakery-danger.m4a" length="16694377" type="audio/mpeg" />
+
+        <itunes:subtitle>Time to kick-off 2021 with an amazing tool to automatize your pull-requests: Danger, and Franco Meloni is on stage to present it!</itunes:subtitle>
+        <itunes:summary>Time to kick-off 2021 with an amazing tool to automatize your pull-requests: Danger, and Franco Meloni is on stage to present it!</itunes:summary>
+
+        
+        <description>
+            <![CDATA[Let’s kickoff 2021 with a great open-source tool: danger ⚠️! Danger’s motto is Stop saying “You forgot to…” in code review and it definitely delivers greatly on promises. With Danger, you can automatize recurrent and tedious tasks that affect your pull-requests. Today, we have Franco Meloni on stage, one of...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>Let’s kickoff 2021 with a great open-source tool: <a href="https://github.com/danger/danger"><strong>danger</strong> ⚠️</a>! Danger’s motto is <em>Stop saying “You forgot to…” in code review</em> and it definitely delivers greatly on promises. With Danger, you can automatize recurrent and tedious tasks that affect your pull-requests.</p>
+
+<p>Today, we have <strong>Franco Meloni</strong> on stage, one of the maintainer of danger/swift &amp; danger/kotlin that will tell us the recipe for a friction-less pull code-review process.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00:20</strong>	Intro</li>
+  <li><strong>01:06</strong>	Episode Start</li>
+  <li><strong>01:54</strong> Franco’s Introduction</li>
+  <li><strong>03:23</strong> What is Danger?</li>
+  <li><strong>06:05</strong> Danger setup in a nutshell</li>
+  <li><strong>07:16</strong> Dangerfiles</li>
+  <li><strong>09:35</strong> Danger and package managers</li>
+  <li><strong>11:01</strong> What Danger can do to your Pull-requests</li>
+  <li><strong>12:56</strong> Which version of Danger to pick?</li>
+  <li><strong>16:35</strong> Franco’s memorable automation</li>
+  <li><strong>20:56</strong> Running Danger offline</li>
+  <li><strong>22:24</strong> Extending Danger</li>
+  <li><strong>25:39</strong> Franco’s Top Plugins</li>
+  <li><strong>27:51</strong> How Franco got involved in Danger?</li>
+  <li><strong>32:47</strong> Github &amp; Sponsorships</li>
+  <li><strong>34:27</strong> What is missing in Danger?</li>
+  <li><strong>38:00</strong> How to contribute?</li>
+  <li><strong>40:10</strong> Further readings</li>
+  <li><strong>40:51</strong> Where to find Franco online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://danger.systems/">danger.systems</a> official website</li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/danger/danger">danger/danger</a> on Github</li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/danger/danger-js">danger/danger-js</a> on Github</li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/danger/swift">danger/swift</a> on Github</li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/danger/kotlin">danger/kotlin</a> on Github</li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/f-meloni">@f-meloni on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/fmeloni1">@fmeloni1 on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/03-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>42:32</itunes:duration>
+
+        
+    </item>
+    
+    <item>
+        
+        <title>Coil with Colin White</title>
+        <itunes:title>Coil with Colin White</itunes:title>
+        <link>https://thebakery.dev/02/</link>
+        <pubDate>Mon, 21 Dec 2020 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/02/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>2</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/02-thedevelopersbakery-coil.m4a" length="14750196" type="audio/mpeg" />
+
+        <itunes:subtitle>Colin is here to introduce Coil, Coroutine Image Loader. A library to reshape image loading on Android</itunes:subtitle>
+        <itunes:summary>Colin is here to introduce Coil, Coroutine Image Loader. A library to reshape image loading on Android</itunes:summary>
+
+        
+        <description>
+            <![CDATA[In this episode, we welcome on stage Colin White to introduce us Coil, COroutines Image Loader. Coil is an Android image loading library that recently hit the 1.0 milestone, completely written in Kotlin and with first class support for Kotlin Coroutines. In this episode, Colin tells us challenges, fun facts...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>In this episode, we welcome on stage Colin White to introduce us <a href="https://github.com/coil-kt/coil">Coil</a>, <strong>CO</strong>routines <strong>I</strong>mage <strong>L</strong>oader. Coil is an Android image loading library that recently hit the <strong>1.0 milestone</strong>, completely written in <strong>Kotlin</strong> and with first class support for Kotlin <strong>Coroutines</strong>. In this episode, Colin tells us challenges, fun facts and future projects for this library.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00:20</strong> Intro</li>
+  <li><strong>01:06</strong> Episode Start</li>
+  <li><strong>02:00</strong> Colin’s Introduction</li>
+  <li><strong>02:45</strong> What is Coil?</li>
+  <li><strong>04:12</strong> How you came up with Coil?</li>
+  <li><strong>08:05</strong> Coil &lt;3 Kotlin</li>
+  <li><strong>09:36</strong> The challenges of image loading</li>
+  <li><strong>13:08</strong> What’s the faster library?</li>
+  <li><strong>16:17</strong> Screenshot Testing</li>
+  <li><strong>17:48</strong> We all love animated GIFs</li>
+  <li><strong>19:53</strong> Coil &amp; Jetpack Compose</li>
+  <li><strong>21:30</strong> What’s the roadmap for Coil?</li>
+  <li><strong>23:31</strong> Debug Tools</li>
+  <li><strong>25:32</strong> Prefetching and Animating</li>
+  <li><strong>28:58</strong> Challenges in the Open Source ecosystems</li>
+  <li><strong>30:42</strong> How to contribute?</li>
+  <li><strong>32:24</strong> The future of Coil</li>
+  <li><strong>34:09</strong> Learning Coil</li>
+  <li><strong>35:17</strong> Where to find Colin online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/coil-kt/coil">coil-kt/coil</a> on Github</li>
+  <li><i class="fab fa-github"></i> <a href="https://coil-kt.github.io/coil/">Coil Documentation</a></li>
+  <li><i class="fab fa-medium"></i> <a href="https://medium.com/swlh/benchmarking-image-loading-libraries-on-android-3ddf365a1927">Benchmarking Image Loading Libraries on Android</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/colinwhi">@colinwhi on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/02-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>36:22</itunes:duration>
+
+        
+    </item>
+    
+    <item>
+        
+        <title>Gradle Doctor with Nelson Osacky</title>
+        <itunes:title>Gradle Doctor with Nelson Osacky</itunes:title>
+        <link>https://thebakery.dev/01/</link>
+        <pubDate>Mon, 07 Dec 2020 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/01/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>1</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/01-thedevelopersbakery-gradle-doctor.m4a" length="16595189" type="audio/mpeg" />
+
+        <itunes:subtitle>Nelson presents gradle-doctor, a tool to get prescriptions for your inefficient Gradle build</itunes:subtitle>
+        <itunes:summary>Nelson presents gradle-doctor, a tool to get prescriptions for your inefficient Gradle build</itunes:summary>
+
+        
+        <description>
+            <![CDATA[In this episode, we talk about Gradle Doctor with its author Nelson Osacky. Gradle doctor helps you fix performance problems and errors in your Gradle build. The tool works as a Gradle plugin - emitting prescriptions for all the problems found. Nelson tells us how he came up with the...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>In this episode, we talk about <a href="https://github.com/runningcode/gradle-doctor">Gradle Doctor</a> with its author Nelson Osacky. Gradle doctor helps you fix performance problems and errors in your Gradle build. The tool works as a Gradle plugin - emitting prescriptions for all the problems found. Nelson tells us how he came up with the idea behind this tool, and what the future is for Gradle Doctor.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>0:20</strong> Intro</li>
+  <li><strong>1:06</strong> Episode Start</li>
+  <li><strong>1:49</strong> Nelson’s Introduction</li>
+  <li><strong>04:22</strong>	What is Gradle Doctor?</li>
+  <li><strong>08:44</strong>	Remote build cache</li>
+  <li><strong>16:19</strong> <code class="language-plaintext highlighter-rouge">JAVA_HOME</code> madness</li>
+  <li><strong>21:36</strong>	The most common mistake in your build.gradle</li>
+  <li><strong>24:34</strong> Gradle Doctor and performance</li>
+  <li><strong>31:17</strong>	Extensibility</li>
+  <li><strong>33:12</strong>	The future of Gradle Doctor</li>
+  <li><strong>39:56</strong>	Where to find Nelson online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/runningcode/gradle-doctor">runningcode/gradle-doctor</a> on Github</li>
+  <li><i class="fab fa-github"></i> <a href="https://runningcode.github.io/gradle-doctor/">Gradle Doctor Documentation</a></li>
+  <li><i class="fab fa-medium"></i> How fast does my internet need to be to use the Gradle Remote Build Cache? - <a href="https://medium.com/swlh/how-fast-does-my-internet-need-to-be-to-use-the-gradle-remote-build-cache-part-1-4acaa6f9a2fa">Part 1</a> and <a href="https://medium.com/@runningcode/how-fast-does-my-internet-need-to-be-to-use-the-gradle-remote-build-cache-part-2-1bc2b171f19">Part 2</a></li>
+  <li><i class="fab fa-youtube"></i> The Secrets of the Build Scan Plugin and the internals of Gradle - <a href="https://www.youtube.com/watch?v=lgaqS0pmUzk">Video from Android Makers</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/nellyspageli">@nellyspageli on Twitter</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://osacky.com/">Nelson’s Website</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/01-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>41:42</itunes:duration>
+
+        
+    </item>
+    
+    <item>
+        
+        <title>Show Trailer</title>
+        <itunes:title>Show Trailer</itunes:title>
+        <link>https://thebakery.dev/00/</link>
+        <pubDate>Tue, 01 Dec 2020 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/00/</guid>
+        
+            <itunes:episodeType>trailer</itunes:episodeType>
+        
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/00-thedevelopersbakery-trailer.m4a" length="1991629" type="audio/mpeg" />
+
+        <itunes:subtitle>Welcome to The Developers's Bakery</itunes:subtitle>
+        <itunes:summary>Hi everyone and welcome to the Developers' Bakery. A podcast about open-source projects, tools and libraries for software developers.</itunes:summary>
+
+        
+        <description>
+            <![CDATA[Show Notes Hi everyone and welcome to the Developers Bakery 👋 A podcast about open-source projects, tools and libraries for software developers. If you ever developed any kind of software, you probably know that a significant amount of code is not the one you wrote but the one others wrote....]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<h1 id="show-notes">Show Notes</h1>
+
+<p>Hi everyone and welcome to the Developers Bakery 👋</p>
+
+<p>A podcast about open-source projects, tools and libraries for software developers.</p>
+
+<p>If you ever developed any kind of software, you probably know that a significant amount of code is not the one you wrote but the one others wrote. Frameworks, Libraries and SDKs are the building blocks to write great software for our end users. It’s just unthinkable to reinvent the wheel every time, right?</p>
+
+<p>In this show we will meet authors and maintainers of libraries that are used worldwide to bake great software every day. We will hear stories from the open source community and learn what is happening behind the scenes of famous tools and projects.</p>
+
+<p>My name is Nicola Corti and I’ll be your host for this show.</p>
+
+<p>Make sure you subscribe to the podcast on either Spotify, Apple Podcasts, Google Podcasts or directly from the website thebakery.dev. To be notified of the latest episodes, you can follow the show as <a href="https://twitter.com/thebakerydev">@thebakerydev</a> on twitter.</p>
+
+<p>And if you have a tool or a library to share, feel free to drop me a message on the contact form on the website.</p>
+
+<p>That being said, enjoy the show! 🎙</p>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers Bakery on Spotify</a></li>
+  <li><a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers Bakery on Apple Podcasts</a></li>
+  <li><a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers Bakery on Google Podcasts</a></li>
+  <li><a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/00-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>01:45</itunes:duration>
+
+        
+    </item>
+    
+</channel>
+</rss>

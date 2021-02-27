@@ -1,0 +1,678 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.22.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>#04 - Jetpack Compose Desktop with Sebastian Aigner - The Developers’ Bakery</title>
+<meta name="description" content="Directly from JetBrains, we have Sebastian Aigner on stage to talk about Jetpack Compose Desktop, the new desktop UI declarative framework from JB.">
+
+
+  <meta name="author" content="The Developers' Bakery">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en">
+<meta property="og:site_name" content="The Developers' Bakery">
+<meta property="og:title" content="#04 - Jetpack Compose Desktop with Sebastian Aigner">
+<meta property="og:url" content="https://thebakery.dev/04/">
+
+
+  <meta property="og:description" content="Directly from JetBrains, we have Sebastian Aigner on stage to talk about Jetpack Compose Desktop, the new desktop UI declarative framework from JB.">
+
+
+
+  <meta property="og:image" content="https://thebakery.dev/assets/images/episodes/04-cover.png">
+
+
+
+  <meta name="twitter:site" content="@thebakerydev">
+  <meta name="twitter:title" content="#04 - Jetpack Compose Desktop with Sebastian Aigner">
+  <meta name="twitter:description" content="Directly from JetBrains, we have Sebastian Aigner on stage to talk about Jetpack Compose Desktop, the new desktop UI declarative framework from JB.">
+  <meta name="twitter:url" content="https://thebakery.dev/04/">
+
+  
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://thebakery.dev/assets/images/episodes/04-cover.png">
+  
+
+  
+    <meta name="twitter:creator" content="@thebakerydev">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="The Developers' Bakery">
+  
+
+  
+    <meta name="twitter:label2" content="Published in">
+    <meta name="twitter:data2" content="">
+  
+
+
+
+  <meta property="article:published_time" content="2021-01-18T00:00:00+01:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://thebakery.dev/04/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Nicola Corti",
+      "url": "https://thebakery.dev",
+      "sameAs": ["https://twitter.com/thebakerydev","https://twitter.com/cortinico"]
+    }
+  </script>
+
+
+
+
+
+
+
+
+<link href="/podcast.xml" type="application/rss+xml" rel="alternate" title="The Developers' Bakery Podcast Feed">
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="The Developers' Bakery Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          The Developers' Bakery
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/episodes">Episodes</a>
+            </li><li class="masthead__menu-item">
+              <a href="/about">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/contact">Contact</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=" background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/images/header-single-episode.png');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          #04 - Jetpack Compose Desktop with Sebastian Aigner
+
+        
+      </h1>
+      
+      
+
+
+      
+      
+    </div>
+  
+  
+</div>
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="/assets/images/avatar.png" alt="The Developers' Bakery" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">The Developers' Bakery</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>A Podcast about Developer tools and libraries</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Stockholm, Sweden</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-spotify" aria-hidden="true"></i><span class="label">Spotify</span></a></li>
+          
+        
+          
+            <li><a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-google-play" aria-hidden="true"></i><span class="label">Google Podcasts</span></a></li>
+          
+        
+          
+            <li><a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-podcast" aria-hidden="true"></i><span class="label">Apple Podcasts</span></a></li>
+          
+        
+          
+            <li><a href="https://pca.st/vq8ml6pl" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-microphone-alt" aria-hidden="true"></i><span class="label">Pocket Casts</span></a></li>
+          
+        
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:info@thebakery.dev">
+            <meta itemprop="email" content="info@thebakery.dev" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+        <li>
+          <a href="https://twitter.com/thebakerydev" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="#04 - Jetpack Compose Desktop with Sebastian Aigner">
+    <meta itemprop="description" content="Directly from JetBrains, we have Sebastian Aigner on stage to talk about Jetpack Compose Desktop, the new desktop UI declarative framework from JB.">
+    <meta itemprop="datePublished" content="2021-01-18T00:00:00+01:00">
+    
+
+    <div class="page__inner-wrap">
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <iframe src="https://open.spotify.com/embed-podcast/episode/2W41vADsX38UJILmTCaaGu" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>Today, I’m more than excited to welcome on stage <strong>Sebastian Aigner</strong>, Developer Advocate at JetBrains.</p>
+
+<p>Sebastian is with us to talk about <a href="https://github.com/JetBrains/compose-jb">Jetpack Compose Desktop</a>, a new <strong>declarative UI framework</strong> for <strong>Desktop</strong> applications written in <strong>Kotlin</strong>.</p>
+
+<p>Jetpack Compose Desktop is the porting of Jetpack Compose, the declarative UI framework for <strong>Android</strong>. JetBrains took the Compose to the next level offering a lot of new APIs and tools to make Desktop UI development a pleasure again. The project gained a lot of popularity recently on Github.</p>
+
+<p>Sebastian is here to talk about his <strong>experience</strong> with the tool, how to write your first Compose Desktop application and how to contribute to the framework.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00:27</strong>	Intro</li>
+  <li><strong>01:13</strong>	Episode Start</li>
+  <li><strong>01:44</strong> Sebastian’s Introduction</li>
+  <li><strong>03:14</strong> What is Jetpack Compose Desktop?</li>
+  <li><strong>04:37</strong> Jetpack Compose for Android</li>
+  <li><strong>05:35</strong> Desktop and UIs</li>
+  <li><strong>07:30</strong> Why not Jetbrains UI?</li>
+  <li><strong>09:12</strong> It just works TM</li>
+  <li><strong>09:42</strong> Package naming</li>
+  <li><strong>10:21</strong> Supported platforms</li>
+  <li><strong>11:43</strong> Migrating existing applications</li>
+  <li><strong>13:42</strong> The next Compose Desktop app from JB?</li>
+  <li><strong>14:39</strong> How to contribute to Ccompose Desktop?</li>
+  <li><strong>16:49</strong> What is the current project direction?</li>
+  <li><strong>18:35</strong> Where to provide feedback?</li>
+  <li><strong>19:49</strong> Where to find support?</li>
+  <li><strong>20:55</strong> Official Compose Desktop Examples</li>
+  <li><strong>23:17</strong> Seb’s experience with Compose Desktop</li>
+  <li><strong>28:49</strong> What is still missing in Compose Desktop?</li>
+  <li><strong>30:07</strong> Push notifications on Desktop</li>
+  <li><strong>31:44</strong> What’s the future for Compose Desktop?</li>
+  <li><strong>33:01</strong> Compose for Web!?</li>
+  <li><strong>34:41</strong> Learning material</li>
+  <li><strong>36:30</strong> Where to find Seb online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/JetBrains/compose-jb">JetBrains/compose-jb on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://www.jetbrains.com/lp/compose/">Compose for Desktop Official Documentation</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://tigeroakes.com/posts/react-to-compose-dictionary/">React to Jetpack Compose Dictionary</a></li>
+  <li><i class="fas fa-briefcase"></i> <a href="https://www.jetbrains.com/careers/jobs/ui-framework-developer-400/">Job Opening - UI Framework Developer (JetBrains Compose Team)</a></li>
+  <li>Learning Material
+    <ul>
+      <li><i class="fas fa-graduation-cap"></i> <a href="https://developer.android.com/courses/pathways/compose">Jetpack Compose Pathways</a></li>
+      <li><i class="fas fa-graduation-cap"></i> <a href="https://github.com/JetBrains/compose-jb/blob/master/tutorials/Getting_Started/README.md">Tutorial for Compose Desktop</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/JetBrains/compose-jb/tree/master/examples/codeviewer">Codeviewer Example on Github</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/JetBrains/compose-jb/tree/master/examples/issues">JetIssues Example on Github</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/JetBrains/compose-jb/tree/master/examples/imageviewer">ImageViewer Example on Github</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/JetBrains/compose-jb/tree/master/examples/todoapp">Todoapp Example on Github</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/SebastianAigner">@SebastianAigner on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/sebi_io">@sebi_io on Twitter</a></li>
+  <li><i class="fab fa-slack"></i> <a href="https://kotlinlang.slack.com/archives/C01D6HTPATV">#compose-desktop on Kotlinlang Slack</a> (get an <a href="https://surveys.jetbrains.com/s3/kotlin-slack-sign-up?_ga=2.193829357.1956188841.1610124096-293668568.1579015494">invite here</a>)</li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Posted:</strong> <time datetime="2021-01-18T00:00:00+01:00">January 18, 2021</time></p>
+
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?via=thebakerydev&text=%2304+-+Jetpack+Compose+Desktop+with+Sebastian+Aigner%20https%3A%2F%2Fthebakery.dev%2F04%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fthebakery.dev%2F04%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fthebakery.dev%2F04%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/03/" class="pagination--pager" title="#03 - Danger with Franco Meloni
+">Previous</a>
+    
+    
+      <a href="/05/" class="pagination--pager" title="#05 - Starship with Matan Kushner
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+      <div class="page__comments">
+  
+  
+</div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item" style="position: relative">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    <div style="position:relative;">
+      
+        <div class="archive__item-teaser" style="background-image: url(https://thebakery.dev/assets/images/header-single-episode.png)"></div>
+      
+      <div class="archive__item_titlecontainer">
+        <h2 class="archive__item-title" itemprop="headline">
+            <a href="https://thebakery.dev/06/" rel="permalink">#06 - Koin with Arnaud Giuliani
+</a>
+        </h2>
+        <h3 class="archive__date">15 Feb 2021</h3>
+      </div>
+    </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">Are you up for some Dependency Injection? Because today we have Arnaud Giuliani on stage, to talk about Koin, a DI framework for Kotlin, Android and more!
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item" style="position: relative">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    <div style="position:relative;">
+      
+        <div class="archive__item-teaser" style="background-image: url(https://thebakery.dev/assets/images/header-single-episode.png)"></div>
+      
+      <div class="archive__item_titlecontainer">
+        <h2 class="archive__item-title" itemprop="headline">
+            <a href="https://thebakery.dev/05/" rel="permalink">#05 - Starship with Matan Kushner
+</a>
+        </h2>
+        <h3 class="archive__date">01 Feb 2021</h3>
+      </div>
+    </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">Today we talk about Starship, the minimal, blazing-fast and infinitely customizable prompt shell with its author Matan Kushner
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item" style="position: relative">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    <div style="position:relative;">
+      
+        <div class="archive__item-teaser" style="background-image: url(https://thebakery.dev/assets/images/header-single-episode.png)"></div>
+      
+      <div class="archive__item_titlecontainer">
+        <h2 class="archive__item-title" itemprop="headline">
+            <a href="https://thebakery.dev/03/" rel="permalink">#03 - Danger with Franco Meloni
+</a>
+        </h2>
+        <h3 class="archive__date">04 Jan 2021</h3>
+      </div>
+    </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">Time to kick-off 2021 with an amazing tool to automatize your pull-requests: Danger, and Franco Meloni is on stage to present it!
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item" style="position: relative">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    <div style="position:relative;">
+      
+        <div class="archive__item-teaser" style="background-image: url(https://thebakery.dev/assets/images/header-single-episode.png)"></div>
+      
+      <div class="archive__item_titlecontainer">
+        <h2 class="archive__item-title" itemprop="headline">
+            <a href="https://thebakery.dev/02/" rel="permalink">#02 - Coil with Colin White
+</a>
+        </h2>
+        <h3 class="archive__date">21 Dec 2020</h3>
+      </div>
+    </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">Colin is here to introduce Coil, Coroutine Image Loader. A library to reshape image loading on Android
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 Nicola Corti. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+  <script>
+  window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+  ga('create','UA-71657172-3','auto');
+  ga('set', 'anonymizeIp', false);
+  ga('send','pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
