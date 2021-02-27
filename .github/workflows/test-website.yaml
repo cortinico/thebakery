@@ -1,0 +1,38 @@
+name: Deploy Website
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - *
+
+jobs:
+  build-website:
+    runs-on: ubuntu-latest
+    container: jekyll/builder
+    steps:
+    - name: Checkout Repo
+      uses: actions/checkout@v2
+
+    - uses: actions/cache@v2
+      with:
+        path: docs/vendor/bundle
+        key: cache-gems-${{ hashFiles('**/Gemfile.lock') }}
+        restore-keys: cache-gems-
+
+    - name: Create Directories
+      run: |
+        mkdir _site/
+        mkdir -p vendor/bundle/
+        chmod -R 777 _site/
+        chmod -R 777 vendor/
+
+    - name: Install Ruby Dependencies
+      run: |
+        bundle config path vendor/bundle
+        bundle install --jobs 4 --retry 3
+
+    - name: Try to build the Jekyll Website
+      run: bundle exec jekyll build --drafts --unpublished --future
