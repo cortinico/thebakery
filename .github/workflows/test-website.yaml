@@ -16,6 +16,9 @@ jobs:
     - name: Checkout Repo
       uses: actions/checkout@v2
 
+    - name: Install tar for caching
+      run: apk update && apk add tar
+
     - uses: actions/cache@v2
       with:
         path: docs/vendor/bundle
