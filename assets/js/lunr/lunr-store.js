@@ -40,4 +40,10 @@ var store = [{
         "tags": [],
         "url": "/06/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#07 - VelocityX and Flutter with Pawan Kumar",
+        "excerpt":"Do you know Flutter 💙 ? I bet you do, if you’re into mobile development. Today, we have Pawan Kumar on stage, he’s a Flutter &amp; Dart GDE and he is on stage to advocate for cross-platform development. Pawan is the author of VelocityX, a framework that will make your...","categories": [],
+        "tags": [],
+        "url": "/07/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

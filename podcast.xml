@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Sun, 28 Feb 2021 00:16:04 +0100</lastBuildDate>
+<lastBuildDate>Mon, 01 Mar 2021 13:38:39 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,109 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>VelocityX and Flutter with Pawan Kumar</title>
+        <itunes:title>VelocityX and Flutter with Pawan Kumar</itunes:title>
+        <link>https://thebakery.dev/07/</link>
+        <pubDate>Mon, 01 Mar 2021 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/07/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>7</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/07-thedevelopersbakery-velocityx.m4a" length="17164848" type="audio/mpeg" />
+
+        <itunes:subtitle>It's time to talk about Flutter and Cross-platform development with Pawan Kumar and his framework VelocityX.</itunes:subtitle>
+        <itunes:summary>It's time to talk about Flutter and Cross-platform development with Pawan Kumar and his framework VelocityX.</itunes:summary>
+
+        
+        <description>
+            <![CDATA[Do you know Flutter 💙 ? I bet you do, if you’re into mobile development. Today, we have Pawan Kumar on stage, he’s a Flutter &amp; Dart GDE and he is on stage to advocate for cross-platform development. Pawan is the author of VelocityX, a framework that will make your...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>Do you know Flutter 💙 ? I bet you do, if you’re into mobile development. Today, we have <a href="https://twitter.com/imthepk">Pawan Kumar</a> on stage, he’s a <strong>Flutter &amp; Dart</strong> GDE and he is on stage to advocate for cross-platform development.</p>
+
+<p>Pawan is the author of <a href="https://velocityx.dev/"><strong>VelocityX</strong></a>, a framework that will make your UI development experience even faster. He will tell us more about this framework, how it started and what the inspiration came from.</p>
+
+<p>Also, make sure to don’t miss the bonus question <strong>Kotlin vs Dart</strong> (39:50) ⁉️</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00:37</strong> Intro</li>
+  <li><strong>01:12</strong> Episode Start</li>
+  <li><strong>02:02</strong> Pawan’s Introduction</li>
+  <li><strong>03:00</strong> What is Flutter?</li>
+  <li><strong>05:11</strong> Android Native vs Flutter?</li>
+  <li><strong>08:12</strong> Kotlin Multiplatform vs Flutter?</li>
+  <li><strong>10:43</strong> What is VelocityX?</li>
+  <li><strong>15:51</strong> VelocityX Key Features</li>
+  <li><strong>18:12</strong> State Management &amp; VelocityX</li>
+  <li><strong>20:41</strong> Who is using VelocityX?</li>
+  <li><strong>22:58</strong> Open-source examples?</li>
+  <li><strong>24:50</strong> What inspired VelocityX?</li>
+  <li><strong>28:30</strong> Is VelocityX production ready?</li>
+  <li><strong>30:02</strong> What’s missing in VelocityX?</li>
+  <li><strong>32:35</strong> Contributing to VelocityX</li>
+  <li><strong>34:50</strong> VelocityX’s future</li>
+  <li><strong>37:36</strong> Learning Material</li>
+  <li><strong>38:50</strong> Where to find Pawan online?</li>
+  <li><strong>39:50</strong> Bonus question: Kotlin vs Dart?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/iampawan/VelocityX">VelocityX on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://velocityx.dev/">VelocityX Official Documentation</a></li>
+  <li><i class="fab fa-youtube"></i> <a href="https://youtu.be/Peo5Wuos8CM">VxToast #1 - Flutter Meets VelocityX</a></li>
+  <li>
+    <p><i class="fab fa-github"></i> <a href="https://github.com/iampawan/PortfolioX">PortfolioX Sample App</a></p>
+  </li>
+  <li>Other mentioned frameworks and packages:
+    <ul>
+      <li><a href="https://pub.dev/packages/provider">provider package for Flutter</a></li>
+      <li><a href="https://tailwindcss.com/">Tailwind CSS</a></li>
+      <li><a href="https://developer.apple.com/xcode/swiftui">Swift UI</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="pawans-contacts">Pawan’s Contacts</h1>
+
+<ul>
+  <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/mtechviral">@mtechviral on Youtube</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/iampawan">@iampawan on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/imthepk">@imthepk on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/07-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>43:02</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Koin with Arnaud Giuliani</title>

@@ -1,4 +1,73 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2021-02-28T00:16:04+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#06 - Koin with Arnaud Giuliani</title><link href="https://thebakery.dev/06/" rel="alternate" type="text/html" title="#06 - Koin with Arnaud Giuliani" /><published>2021-02-15T00:00:00+01:00</published><updated>2021-02-15T00:00:00+01:00</updated><id>https://thebakery.dev/006-koin</id><content type="html" xml:base="https://thebakery.dev/06/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/episode/1m0ZprEnH65y95EOHxX2a5&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2021-03-01T13:38:39+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#07 - VelocityX and Flutter with Pawan Kumar</title><link href="https://thebakery.dev/07/" rel="alternate" type="text/html" title="#07 - VelocityX and Flutter with Pawan Kumar" /><published>2021-03-01T00:00:00+01:00</published><updated>2021-03-01T00:00:00+01:00</updated><id>https://thebakery.dev/007-velocityx</id><content type="html" xml:base="https://thebakery.dev/07/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/episode/1m0ZprEnH65y95EOHxX2a5&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Do you know Flutter 💙 ? I bet you do, if you’re into mobile development. Today, we have &lt;a href=&quot;https://twitter.com/imthepk&quot;&gt;Pawan Kumar&lt;/a&gt; on stage, he’s a &lt;strong&gt;Flutter &amp;amp; Dart&lt;/strong&gt; GDE and he is on stage to advocate for cross-platform development.&lt;/p&gt;
+
+&lt;p&gt;Pawan is the author of &lt;a href=&quot;https://velocityx.dev/&quot;&gt;&lt;strong&gt;VelocityX&lt;/strong&gt;&lt;/a&gt;, a framework that will make your UI development experience even faster. He will tell us more about this framework, how it started and what the inspiration came from.&lt;/p&gt;
+
+&lt;p&gt;Also, make sure to don’t miss the bonus question &lt;strong&gt;Kotlin vs Dart&lt;/strong&gt; (39:50) ⁉️&lt;/p&gt;
+
+&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
+
+&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;00:37&lt;/strong&gt; Intro&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;01:12&lt;/strong&gt; Episode Start&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;02:02&lt;/strong&gt; Pawan’s Introduction&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;03:00&lt;/strong&gt; What is Flutter?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;05:11&lt;/strong&gt; Android Native vs Flutter?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;08:12&lt;/strong&gt; Kotlin Multiplatform vs Flutter?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;10:43&lt;/strong&gt; What is VelocityX?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;15:51&lt;/strong&gt; VelocityX Key Features&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;18:12&lt;/strong&gt; State Management &amp;amp; VelocityX&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;20:41&lt;/strong&gt; Who is using VelocityX?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;22:58&lt;/strong&gt; Open-source examples?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;24:50&lt;/strong&gt; What inspired VelocityX?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;28:30&lt;/strong&gt; Is VelocityX production ready?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;30:02&lt;/strong&gt; What’s missing in VelocityX?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;32:35&lt;/strong&gt; Contributing to VelocityX&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;34:50&lt;/strong&gt; VelocityX’s future&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;37:36&lt;/strong&gt; Learning Material&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;38:50&lt;/strong&gt; Where to find Pawan online?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;39:50&lt;/strong&gt; Bonus question: Kotlin vs Dart?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/iampawan/VelocityX&quot;&gt;VelocityX on Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://velocityx.dev/&quot;&gt;VelocityX Official Documentation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-youtube&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://youtu.be/Peo5Wuos8CM&quot;&gt;VxToast #1 - Flutter Meets VelocityX&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/iampawan/PortfolioX&quot;&gt;PortfolioX Sample App&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Other mentioned frameworks and packages:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://pub.dev/packages/provider&quot;&gt;provider package for Flutter&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://tailwindcss.com/&quot;&gt;Tailwind CSS&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://developer.apple.com/xcode/swiftui&quot;&gt;Swift UI&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;pawans-contacts&quot;&gt;Pawan’s Contacts&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-youtube&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.youtube.com/mtechviral&quot;&gt;@mtechviral on Youtube&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/iampawan&quot;&gt;@iampawan on Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/imthepk&quot;&gt;@imthepk on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">It's time to talk about Flutter and Cross-platform development with Pawan Kumar and his framework VelocityX.</summary></entry><entry><title type="html">#06 - Koin with Arnaud Giuliani</title><link href="https://thebakery.dev/06/" rel="alternate" type="text/html" title="#06 - Koin with Arnaud Giuliani" /><published>2021-02-15T00:00:00+01:00</published><updated>2021-02-15T00:00:00+01:00</updated><id>https://thebakery.dev/006-koin</id><content type="html" xml:base="https://thebakery.dev/06/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/episode/1m0ZprEnH65y95EOHxX2a5&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;In this episode, we talk about &lt;strong&gt;Dependency Injection&lt;/strong&gt; 🗡. We have &lt;a href=&quot;https://twitter.com/arnogiu&quot;&gt;Arnaud Giuliani&lt;/a&gt; on stage, Kotlin GDE and author of &lt;a href=&quot;https://insert-koin.io/&quot;&gt;Koin&lt;/a&gt;, a popular dependency injection framework for Kotlin.&lt;/p&gt;
 
