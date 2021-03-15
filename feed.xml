@@ -1,4 +1,73 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2021-03-01T15:05:40+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#07 - VelocityX and Flutter with Pawan Kumar</title><link href="https://thebakery.dev/07/" rel="alternate" type="text/html" title="#07 - VelocityX and Flutter with Pawan Kumar" /><published>2021-03-01T00:00:00+01:00</published><updated>2021-03-01T00:00:00+01:00</updated><id>https://thebakery.dev/007-velocityx</id><content type="html" xml:base="https://thebakery.dev/07/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/episode/2j4DhpqS83zeCJWQGdidOF&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2021-03-15T12:54:58+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#08 - Tuist with Pedro Piñera Buendía</title><link href="https://thebakery.dev/08/" rel="alternate" type="text/html" title="#08 - Tuist with Pedro Piñera Buendía" /><published>2021-03-15T00:00:00+01:00</published><updated>2021-03-15T00:00:00+01:00</updated><id>https://thebakery.dev/008-tuist</id><content type="html" xml:base="https://thebakery.dev/08/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;You don’t need a tooling team&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;That’s &lt;a href=&quot;https://tuist.io/&quot;&gt;&lt;strong&gt;Tuist&lt;/strong&gt;&lt;/a&gt; motto, and if you’re an iOS Developer 🍎 you really don’t want to miss it.&lt;/p&gt;
+
+&lt;p&gt;Today we have &lt;a href=&quot;https://twitter.com/pedropbuendia&quot;&gt;Pedro Piñera Buendía&lt;/a&gt; on stage. He’s the author and maintainer of Tuist, a tool to help you maintain and generate your XCode Projects. Pedro will tell us about the history of this tool and how it plays with monorepo and dependency management.&lt;/p&gt;
+
+&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
+
+&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;00:18&lt;/strong&gt; Intro&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;01:05&lt;/strong&gt; Episode Start&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;01:46&lt;/strong&gt; Pedro’s Introduction&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;03:04&lt;/strong&gt; What is Tuist?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;05:36&lt;/strong&gt; Tuist vs Gradle&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;10:59&lt;/strong&gt; “Focused” projects&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;14:26&lt;/strong&gt; XCode’s pain points&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;15:42&lt;/strong&gt; 3rd party dependencies&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;18:10&lt;/strong&gt; Monorepos&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;21:44&lt;/strong&gt; How you came up with Tuist?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;25:25&lt;/strong&gt; The Tuist Core Team&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;27:06&lt;/strong&gt; Major adopters&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;29:09&lt;/strong&gt; What’s the future for Tuist?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;31:23&lt;/strong&gt; Collecting Build Metrics&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;32:53&lt;/strong&gt; Tuist Internals&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;35:35&lt;/strong&gt; How to contribute to Tuist?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;39:16&lt;/strong&gt; Slack and Tuist community&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;41:31&lt;/strong&gt; Documentation and Material&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;43:49&lt;/strong&gt; Where to find Pedro online?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/tuist/tuist&quot;&gt;tuist/tuist on Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://tuist.io/&quot;&gt;Tuist Official Documentation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://tuist.io/docs/contribution/get-started/&quot;&gt;Tuist Contributors Documentation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/tuistio&quot;&gt;@tuistio on Twitter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Other mentioned tools:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/yonaskolb/XcodeGen&quot;&gt;yonaskolb/XcodeGen&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/spotify/XCMetrics&quot;&gt;spotify/XCMetrics&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/redwoodjs/redwood&quot;&gt;redwoodjs/redwood&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;pedross-contacts&quot;&gt;Pedros’s Contacts&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.ppinera.es/&quot;&gt;Pedro’s website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/pepibumur&quot;&gt;@pepibumur on Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/pedropbuendia&quot;&gt;@pedropbuendia on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">Today we have Pedro on stage to tell us how to build iOS projects with Tuist!</summary></entry><entry><title type="html">#07 - VelocityX and Flutter with Pawan Kumar</title><link href="https://thebakery.dev/07/" rel="alternate" type="text/html" title="#07 - VelocityX and Flutter with Pawan Kumar" /><published>2021-03-01T00:00:00+01:00</published><updated>2021-03-01T00:00:00+01:00</updated><id>https://thebakery.dev/007-velocityx</id><content type="html" xml:base="https://thebakery.dev/07/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/episode/2j4DhpqS83zeCJWQGdidOF&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;Do you know Flutter 💙 ? I bet you do, if you’re into mobile development. Today, we have &lt;a href=&quot;https://twitter.com/imthepk&quot;&gt;Pawan Kumar&lt;/a&gt; on stage, he’s a &lt;strong&gt;Flutter &amp;amp; Dart&lt;/strong&gt; GDE and he is on stage to advocate for cross-platform development.&lt;/p&gt;
 

@@ -46,4 +46,10 @@ var store = [{
         "tags": [],
         "url": "/07/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#08 - Tuist with Pedro Piñera Buendía",
+        "excerpt":"You don’t need a tooling team That’s Tuist motto, and if you’re an iOS Developer 🍎 you really don’t want to miss it. Today we have Pedro Piñera Buendía on stage. He’s the author and maintainer of Tuist, a tool to help you maintain and generate your XCode Projects. Pedro...","categories": [],
+        "tags": [],
+        "url": "/08/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

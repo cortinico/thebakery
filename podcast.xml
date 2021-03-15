@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Mon, 01 Mar 2021 15:05:40 +0100</lastBuildDate>
+<lastBuildDate>Mon, 15 Mar 2021 12:54:58 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,109 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Tuist with Pedro Piñera Buendía</title>
+        <itunes:title>Tuist with Pedro Piñera Buendía</itunes:title>
+        <link>https://thebakery.dev/08/</link>
+        <pubDate>Mon, 15 Mar 2021 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/08/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>8</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/08-thedevelopersbakery-tuist.m4a" length="18048271" type="audio/mpeg" />
+
+        <itunes:subtitle>Today we have Pedro on stage to tell us how to build iOS projects with Tuist!</itunes:subtitle>
+        <itunes:summary>Today we have Pedro on stage to tell us how to build iOS projects with Tuist!</itunes:summary>
+
+        
+        <description>
+            <![CDATA[You don’t need a tooling team That’s Tuist motto, and if you’re an iOS Developer 🍎 you really don’t want to miss it. Today we have Pedro Piñera Buendía on stage. He’s the author and maintainer of Tuist, a tool to help you maintain and generate your XCode Projects. Pedro...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<blockquote>
+  <p>You don’t need a tooling team</p>
+</blockquote>
+
+<p>That’s <a href="https://tuist.io/"><strong>Tuist</strong></a> motto, and if you’re an iOS Developer 🍎 you really don’t want to miss it.</p>
+
+<p>Today we have <a href="https://twitter.com/pedropbuendia">Pedro Piñera Buendía</a> on stage. He’s the author and maintainer of Tuist, a tool to help you maintain and generate your XCode Projects. Pedro will tell us about the history of this tool and how it plays with monorepo and dependency management.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00:18</strong> Intro</li>
+  <li><strong>01:05</strong> Episode Start</li>
+  <li><strong>01:46</strong> Pedro’s Introduction</li>
+  <li><strong>03:04</strong> What is Tuist?</li>
+  <li><strong>05:36</strong> Tuist vs Gradle</li>
+  <li><strong>10:59</strong> “Focused” projects</li>
+  <li><strong>14:26</strong> XCode’s pain points</li>
+  <li><strong>15:42</strong> 3rd party dependencies</li>
+  <li><strong>18:10</strong> Monorepos</li>
+  <li><strong>21:44</strong> How you came up with Tuist?</li>
+  <li><strong>25:25</strong> The Tuist Core Team</li>
+  <li><strong>27:06</strong> Major adopters</li>
+  <li><strong>29:09</strong> What’s the future for Tuist?</li>
+  <li><strong>31:23</strong> Collecting Build Metrics</li>
+  <li><strong>32:53</strong> Tuist Internals</li>
+  <li><strong>35:35</strong> How to contribute to Tuist?</li>
+  <li><strong>39:16</strong> Slack and Tuist community</li>
+  <li><strong>41:31</strong> Documentation and Material</li>
+  <li><strong>43:49</strong> Where to find Pedro online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/tuist/tuist">tuist/tuist on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://tuist.io/">Tuist Official Documentation</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://tuist.io/docs/contribution/get-started/">Tuist Contributors Documentation</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/tuistio">@tuistio on Twitter</a></li>
+  <li>Other mentioned tools:
+    <ul>
+      <li><i class="fab fa-twitter"></i> <a href="https://github.com/yonaskolb/XcodeGen">yonaskolb/XcodeGen</a></li>
+      <li><i class="fab fa-twitter"></i> <a href="https://github.com/spotify/XCMetrics">spotify/XCMetrics</a></li>
+      <li><i class="fab fa-twitter"></i> <a href="https://github.com/redwoodjs/redwood">redwoodjs/redwood</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="pedross-contacts">Pedros’s Contacts</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://www.ppinera.es/">Pedro’s website</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/pepibumur">@pepibumur on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/pedropbuendia">@pedropbuendia on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/08-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>45:11</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>VelocityX and Flutter with Pawan Kumar</title>
