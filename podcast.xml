@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Mon, 15 Mar 2021 12:54:58 +0100</lastBuildDate>
+<lastBuildDate>Mon, 29 Mar 2021 16:39:17 +0200</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,105 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>JaCoCo with Evgeny Mandrikov</title>
+        <itunes:title>JaCoCo with Evgeny Mandrikov</itunes:title>
+        <link>https://thebakery.dev/09/</link>
+        <pubDate>Mon, 29 Mar 2021 00:00:00 +0200</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/09/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>9</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/09-thedevelopersbakery-jacoco.m4a" length="20784933" type="audio/mpeg" />
+
+        <itunes:subtitle>Are you ready to uncover all the secrets of code coverage? Don't miss this episode where Evgeny Mandrikov will tell us the story behind JaCoCo!</itunes:subtitle>
+        <itunes:summary>Are you ready to uncover all the secrets of code coverage? Don't miss this episode where Evgeny Mandrikov will tell us the story behind JaCoCo!</itunes:summary>
+
+        
+        <description>
+            <![CDATA[This episode is going to be all about testing and code coverage 🧪 as we have Evgeny Mandrikov on stage! He’s going to tell use the story behind JaCoCo, aka Java Code Coverage, one the most popular code coverage library for Java, Kotlin and the JVM. If you’re curious to...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>This episode is going to be all about <strong>testing</strong> and <strong>code coverage</strong> 🧪 as we have <a href="https://twitter.com/_Godin_">Evgeny Mandrikov</a> on stage!</p>
+
+<p>He’s going to tell use the story behind <a href="https://www.jacoco.org/jacoco/">JaCoCo</a>, aka <strong>Ja</strong>va <strong>Co</strong>de <strong>Co</strong>verage, one the most popular code coverage library for Java, Kotlin and the JVM.</p>
+
+<p>If you’re curious to learn how a code coverage tool works internally, make sure to don’t miss this episode.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00:15</strong> Intro</li>
+  <li><strong>01:02</strong> Episode Start</li>
+  <li><strong>01:42</strong> Evgeny’s Introduction</li>
+  <li><strong>02:45</strong> What is JaCoCo?</li>
+  <li><strong>03:52</strong> One tool for one function</li>
+  <li><strong>04:59</strong> Is JaCoCo in “maintenance” mode?</li>
+  <li><strong>07:03</strong> Convince us that coverage is important</li>
+  <li><strong>09:59</strong> JaCoCo as a debugging tool</li>
+  <li><strong>11:50</strong> Where to use code coverage?</li>
+  <li><strong>14:11</strong> Patch vs total coverage</li>
+  <li><strong>18:04</strong> How JaCoCo works?</li>
+  <li><strong>21:57</strong> Source based instrumentation</li>
+  <li><strong>24:54</strong> Pattern matching and code coverage</li>
+  <li><strong>26:54</strong> Is JaCoCo ever failing?</li>
+  <li><strong>29:57</strong> Kotlin inline functions</li>
+  <li><strong>34:30</strong> Integrating with JaCoCo</li>
+  <li><strong>36:00</strong> JaCoCo vs IntelliJ Code Coverage?</li>
+  <li><strong>39:57</strong> Is a mailing anachronistic?</li>
+  <li><strong>42:28</strong> How to contribute to JaCoCo?</li>
+  <li><strong>45:13</strong> What’s the future for JaCoCo?</li>
+  <li><strong>48:07</strong> Evgeny’s dream about JaCoCo</li>
+  <li><strong>49:53</strong> Learning Material</li>
+  <li><strong>51:04</strong> Where to find Evgeny online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/jacoco/jacoco">jacoco/jacoco on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://www.jacoco.org/jacoco/">JaCoCo Official Documentation</a></li>
+  <li><i class="fas fa-at"></i> <a href="https://groups.google.com/forum/#!forum/jacoco-dev">JaCoCo Mailing List</a></li>
+  <li><i class="fab fa-stack-overflow"></i> <a href="https://stackoverflow.com/questions/tagged/jacoco">JaCoCo on StackOverflow</a></li>
+  <li>Further reference:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://github.com/jacoco/jacoco/wiki/FilteringOptions">JaCoCo &amp; Language support</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://www.jacoco.org/jacoco/trunk/doc/integrations.html">List of all the JaCoCo Integrations</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://www.jacoco.org/research/index.html">Talks and presentations about JaCoCo</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/Godin">@Godin on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/_Godin_">@_Godin_ on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/09-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>53:05</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Tuist with Pedro Piñera Buendía</title>

@@ -1,4 +1,69 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2021-03-15T12:54:58+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#08 - Tuist with Pedro Piñera Buendía</title><link href="https://thebakery.dev/08/" rel="alternate" type="text/html" title="#08 - Tuist with Pedro Piñera Buendía" /><published>2021-03-15T00:00:00+01:00</published><updated>2021-03-15T00:00:00+01:00</updated><id>https://thebakery.dev/008-tuist</id><content type="html" xml:base="https://thebakery.dev/08/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2021-03-29T16:39:17+02:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#09 - JaCoCo with Evgeny Mandrikov</title><link href="https://thebakery.dev/09/" rel="alternate" type="text/html" title="#09 - JaCoCo with Evgeny Mandrikov" /><published>2021-03-29T00:00:00+02:00</published><updated>2021-03-29T00:00:00+02:00</updated><id>https://thebakery.dev/009-jacoco</id><content type="html" xml:base="https://thebakery.dev/09/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;This episode is going to be all about &lt;strong&gt;testing&lt;/strong&gt; and &lt;strong&gt;code coverage&lt;/strong&gt; 🧪 as we have &lt;a href=&quot;https://twitter.com/_Godin_&quot;&gt;Evgeny Mandrikov&lt;/a&gt; on stage!&lt;/p&gt;
+
+&lt;p&gt;He’s going to tell use the story behind &lt;a href=&quot;https://www.jacoco.org/jacoco/&quot;&gt;JaCoCo&lt;/a&gt;, aka &lt;strong&gt;Ja&lt;/strong&gt;va &lt;strong&gt;Co&lt;/strong&gt;de &lt;strong&gt;Co&lt;/strong&gt;verage, one the most popular code coverage library for Java, Kotlin and the JVM.&lt;/p&gt;
+
+&lt;p&gt;If you’re curious to learn how a code coverage tool works internally, make sure to don’t miss this episode.&lt;/p&gt;
+
+&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
+
+&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;00:15&lt;/strong&gt; Intro&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;01:02&lt;/strong&gt; Episode Start&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;01:42&lt;/strong&gt; Evgeny’s Introduction&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;02:45&lt;/strong&gt; What is JaCoCo?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;03:52&lt;/strong&gt; One tool for one function&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;04:59&lt;/strong&gt; Is JaCoCo in “maintenance” mode?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;07:03&lt;/strong&gt; Convince us that coverage is important&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;09:59&lt;/strong&gt; JaCoCo as a debugging tool&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;11:50&lt;/strong&gt; Where to use code coverage?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;14:11&lt;/strong&gt; Patch vs total coverage&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;18:04&lt;/strong&gt; How JaCoCo works?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;21:57&lt;/strong&gt; Source based instrumentation&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;24:54&lt;/strong&gt; Pattern matching and code coverage&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;26:54&lt;/strong&gt; Is JaCoCo ever failing?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;29:57&lt;/strong&gt; Kotlin inline functions&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;34:30&lt;/strong&gt; Integrating with JaCoCo&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;36:00&lt;/strong&gt; JaCoCo vs IntelliJ Code Coverage?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;39:57&lt;/strong&gt; Is a mailing anachronistic?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;42:28&lt;/strong&gt; How to contribute to JaCoCo?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;45:13&lt;/strong&gt; What’s the future for JaCoCo?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;48:07&lt;/strong&gt; Evgeny’s dream about JaCoCo&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;49:53&lt;/strong&gt; Learning Material&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;51:04&lt;/strong&gt; Where to find Evgeny online?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/jacoco/jacoco&quot;&gt;jacoco/jacoco on Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.jacoco.org/jacoco/&quot;&gt;JaCoCo Official Documentation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-at&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://groups.google.com/forum/#!forum/jacoco-dev&quot;&gt;JaCoCo Mailing List&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-stack-overflow&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://stackoverflow.com/questions/tagged/jacoco&quot;&gt;JaCoCo on StackOverflow&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Further reference:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/jacoco/jacoco/wiki/FilteringOptions&quot;&gt;JaCoCo &amp;amp; Language support&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.jacoco.org/jacoco/trunk/doc/integrations.html&quot;&gt;List of all the JaCoCo Integrations&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.jacoco.org/research/index.html&quot;&gt;Talks and presentations about JaCoCo&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/Godin&quot;&gt;@Godin on Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/_Godin_&quot;&gt;@_Godin_ on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">Are you ready to uncover all the secrets of code coverage? Don't miss this episode where Evgeny Mandrikov will tell us the story behind JaCoCo!</summary></entry><entry><title type="html">#08 - Tuist with Pedro Piñera Buendía</title><link href="https://thebakery.dev/08/" rel="alternate" type="text/html" title="#08 - Tuist with Pedro Piñera Buendía" /><published>2021-03-15T00:00:00+01:00</published><updated>2021-03-15T00:00:00+01:00</updated><id>https://thebakery.dev/008-tuist</id><content type="html" xml:base="https://thebakery.dev/08/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/episode/2gNx76xoAEJLzfjzdDk68p&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;You don’t need a tooling team&lt;/p&gt;

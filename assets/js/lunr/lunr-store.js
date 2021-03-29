@@ -52,4 +52,10 @@ var store = [{
         "tags": [],
         "url": "/08/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#09 - JaCoCo with Evgeny Mandrikov",
+        "excerpt":"This episode is going to be all about testing and code coverage 🧪 as we have Evgeny Mandrikov on stage! He’s going to tell use the story behind JaCoCo, aka Java Code Coverage, one the most popular code coverage library for Java, Kotlin and the JVM. If you’re curious to...","categories": [],
+        "tags": [],
+        "url": "/09/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]
