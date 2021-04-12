@@ -58,4 +58,10 @@ var store = [{
         "tags": [],
         "url": "/09/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#10 - Press with Saket Narayan",
+        "excerpt":"🎂 We’re happy to celebrate our 10th episode! 🎂 And today we have on stage, Saket Narayan, Android Engineer at Square. Saket is an master of Android UI and Custom Views and today is on stage to talk to us about Press. Press is a beautiful App for taking notes...","categories": [],
+        "tags": [],
+        "url": "/10/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Mon, 12 Apr 2021 16:24:45 +0200</lastBuildDate>
+<lastBuildDate>Mon, 12 Apr 2021 16:32:00 +0200</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,102 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Press with Saket Narayan</title>
+        <itunes:title>Press with Saket Narayan</itunes:title>
+        <link>https://thebakery.dev/10/</link>
+        <pubDate>Mon, 12 Apr 2021 00:00:00 +0200</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/10/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>10</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/10-thedevelopersbakery-press.m4a" length="12983967" type="audio/mpeg" />
+
+        <itunes:subtitle>It's time to discover a beautiful Kotlin Multiplatform mobile app: Press with Saket Narayan</itunes:subtitle>
+        <itunes:summary>It's time to discover a beautiful Kotlin Multiplatform mobile app: Press with Saket Narayan</itunes:summary>
+
+        
+        <description>
+            <![CDATA[🎂 We’re happy to celebrate our 10th episode! 🎂 And today we have on stage, Saket Narayan, Android Engineer at Square. Saket is an master of Android UI and Custom Views and today is on stage to talk to us about Press. Press is a beautiful App for taking notes...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>🎂 <strong>We’re happy to celebrate our 10th episode!</strong> 🎂</p>
+
+<p>And today we have on stage, <a href="https://twitter.com/saketme">Saket Narayan</a>, Android Engineer at Square. Saket is an master of Android <strong>UI</strong> and <strong>Custom Views</strong> and today is on stage to talk to us about <strong>Press</strong>.</p>
+
+<p><a href="https://github.com/saket/press">Press</a> is a beautiful App for taking notes as <strong>markdown</strong>. The app is completely <strong>open source</strong> and is a great inspiration for minimal yet elegant UI.</p>
+
+<p>Moreover, Press is developed with <strong>Kotlin Multiplatform</strong>. This project is a great example of how you can share Kotlin code between <strong>Android</strong>, <strong>iOS</strong> and <strong>MacOS</strong>. Make sure to don’t miss it.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00:13</strong> Intro</li>
+  <li><strong>00:59</strong> Episode Start</li>
+  <li><strong>01:35</strong> Saket’s Introduction</li>
+  <li><strong>02:34</strong> What is Press?</li>
+  <li><strong>03:45</strong> What makes Press special?</li>
+  <li><strong>05:40</strong> What is Kotlin Multiplatform?</li>
+  <li><strong>07:27</strong> Flutter vs Kotlin Multiplatform?</li>
+  <li><strong>08:37</strong> How much code where you able to share?</li>
+  <li><strong>09:50</strong> What are the challenges of shipping iOS/MacOS apps?</li>
+  <li><strong>11:51</strong> From Mobile to Desktop</li>
+  <li><strong>12:45</strong> Shipping to ChromeOS?</li>
+  <li><strong>13:20</strong> What’s your Multiplatform Stack?</li>
+  <li><strong>14:12</strong> Network in a Multiplatform environment</li>
+  <li><strong>15:12</strong> KTor as a client library</li>
+  <li><strong>16:08</strong> How have you wrote the UI?</li>
+  <li><strong>17:05</strong> What are the benefits of Custom Views</li>
+  <li><strong>19:12</strong> Is Jetpack Compose on the horizon?</li>
+  <li><strong>21:05</strong> Which IDE for iOS?</li>
+  <li><strong>21:59</strong> What is missing in AppCode?</li>
+  <li><strong>24:40</strong> What would you do differently?</li>
+  <li><strong>26:22</strong> Are you looking for contributors?</li>
+  <li><strong>28:37</strong> Missing features?</li>
+  <li><strong>29:34</strong> Further reading</li>
+  <li><strong>30:39</strong> Where to find Saket online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/saket/press">saket/press on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://github.com/saket/press/tree/trunk/documentation">Press Official Documentation</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://play.google.com/store/apps/details?id=me.saket.press">Press on Play Store</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/cashapp/contour">cashapp/contour on Github</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/saket">@saket on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://saket.me">Saket Blog</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/saketme">@saketme on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/10-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>32:12</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>JaCoCo with Evgeny Mandrikov</title>

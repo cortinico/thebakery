@@ -41,6 +41,10 @@
 <lastmod>2021-03-29T00:00:00+02:00</lastmod>
 </url>
 <url>
+<loc>https://thebakery.dev/10/</loc>
+<lastmod>2021-04-12T00:00:00+02:00</lastmod>
+</url>
+<url>
 <loc>https://thebakery.dev/about</loc>
 </url>
 <url>
@@ -60,5 +64,8 @@
 </url>
 <url>
 <loc>https://thebakery.dev/page2/</loc>
+</url>
+<url>
+<loc>https://thebakery.dev/page3/</loc>
 </url>
 </urlset>
