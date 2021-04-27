@@ -1,5 +1,5 @@
 ---
-title: "#11 - MoshiX & KSP with Zac Sweers"
+title: "#11 - MoshiX and KSP with Zac Sweers"
 excerpt: "Today we deep dive into metaprogramming, code generation and compiler plugins with Zac Sweers, talking about his experience with MoshiX and KSP"
 author_profile: true
 
