@@ -1,4 +1,64 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2021-04-27T14:21:35+02:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#10 - Press with Saket Narayan</title><link href="https://thebakery.dev/10/" rel="alternate" type="text/html" title="#10 - Press with Saket Narayan" /><published>2021-04-12T00:00:00+02:00</published><updated>2021-04-12T00:00:00+02:00</updated><id>https://thebakery.dev/010-press</id><content type="html" xml:base="https://thebakery.dev/10/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2021-04-27T16:32:57+02:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#11 - MoshiX &amp;amp; KSP with Zac Sweers</title><link href="https://thebakery.dev/11/" rel="alternate" type="text/html" title="#11 - MoshiX &amp;amp; KSP with Zac Sweers" /><published>2021-04-27T00:00:00+02:00</published><updated>2021-04-27T00:00:00+02:00</updated><id>https://thebakery.dev/011-moshix-and-ksp</id><content type="html" xml:base="https://thebakery.dev/11/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k&quot; width=&quot;110%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;It’s time to talk about &lt;strong&gt;meta-programming&lt;/strong&gt;, &lt;strong&gt;annotation processors&lt;/strong&gt; and &lt;strong&gt;compiler plugins&lt;/strong&gt; 🧙‍♂️. Today we have &lt;a href=&quot;https://twitter.com/ZacSweers&quot;&gt;&lt;strong&gt;Zac Sweers&lt;/strong&gt;&lt;/a&gt; on stage, Mobile Engineer @ Square and maintainer of &lt;a href=&quot;https://github.com/square/moshi&quot;&gt;Moshi&lt;/a&gt;, a popular Json library.&lt;/p&gt;
+
+&lt;p&gt;Zac is the author of &lt;a href=&quot;https://github.com/ZacSweers/MoshiX&quot;&gt;MoshiX&lt;/a&gt;, a set of extensions for Moshi. Between those, one that caught my attention was &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;moshi-ksp&lt;/code&gt;. &lt;a href=&quot;(https://github.com/google/ksp)&quot;&gt;KSP (Kotlin Symbol Processing API)&lt;/a&gt; is set to revolutionize the landscape of annotations processors in Kotlin. Join us on this deep dive on &lt;strong&gt;code generation&lt;/strong&gt; and more.&lt;/p&gt;
+
+&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
+
+&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;00.18&lt;/strong&gt; Intro&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;01.05&lt;/strong&gt; Episode Start&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;01.28&lt;/strong&gt; Zac’s Introduction&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;03.03&lt;/strong&gt; What is Metaprogramming?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;04.42&lt;/strong&gt; What is KSP?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;05.26&lt;/strong&gt; What about KAPT&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;08.20&lt;/strong&gt; Overcoming KAPT costs&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;09.50&lt;/strong&gt; Beyond KAPT&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;11.26&lt;/strong&gt; KSP API &amp;amp; Features&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;15.02&lt;/strong&gt; Your story of Moshi&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;17.46&lt;/strong&gt; Kotlin Metadata&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;19.16&lt;/strong&gt; Generating Moshi Adapters&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;20.18&lt;/strong&gt; What is MoshiX?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;23.44&lt;/strong&gt; MoshiX &amp;amp; KSP&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;25.07&lt;/strong&gt; Adopters and Success Stories&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;28.02&lt;/strong&gt; From MoshiX to Moshi&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;30.57&lt;/strong&gt; Kotlin Compiler Plugins&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;36.20&lt;/strong&gt; Compiler Plugin opportunities&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;38.53&lt;/strong&gt; A Moshi Compiler Plugin?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;41.00&lt;/strong&gt; Metaprogramming beyond Java/Kotlin&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;45.06&lt;/strong&gt; What’s next for MoshiX?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;54.44&lt;/strong&gt; Further reading&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;60.15&lt;/strong&gt; Where to find Zac online?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/ZacSweers/MoshiX&quot;&gt;ZacSweers/MoshiX on Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/google/ksp&quot;&gt;google/ksp on Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/square/moshi&quot;&gt;square/moshi on Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/ZacSweers/redacted-compiler-plugin&quot;&gt;ZacSweers/redacted-compiler-plugin on Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/square/kotlinpoet&quot;&gt;square/kotlinpoet on Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/google/ksp/blob/master/docs/quickstart.md&quot;&gt;KSP Quick Start&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-youtube&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://youtu.be/a2RoLFzrFG0&quot;&gt;KotlinConf 2018 - Annotation Processing in a Kotlin World&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/ZacSweers&quot;&gt;@ZacSweers on Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.zacsweers.dev/&quot;&gt;Zac’s Blog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/ZacSweers&quot;&gt;@ZacSweers on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">Today we deep dive into metaprogramming, code generation and compiler plugins with Zac Sweers, talking about his experience with MoshiX and KSP</summary></entry><entry><title type="html">#10 - Press with Saket Narayan</title><link href="https://thebakery.dev/10/" rel="alternate" type="text/html" title="#10 - Press with Saket Narayan" /><published>2021-04-12T00:00:00+02:00</published><updated>2021-04-12T00:00:00+02:00</updated><id>https://thebakery.dev/010-press</id><content type="html" xml:base="https://thebakery.dev/10/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/episode/3FhR98b7Z3UU1lTl7Xujyu&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;🎂 &lt;strong&gt;We’re happy to celebrate our 10th episode!&lt;/strong&gt; 🎂&lt;/p&gt;
 
@@ -563,46 +623,4 @@
   &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">Colin is here to introduce Coil, Coroutine Image Loader. A library to reshape image loading on Android</summary></entry><entry><title type="html">#01 - Gradle Doctor with Nelson Osacky</title><link href="https://thebakery.dev/01/" rel="alternate" type="text/html" title="#01 - Gradle Doctor with Nelson Osacky" /><published>2020-12-07T00:00:00+01:00</published><updated>2020-12-07T00:00:00+01:00</updated><id>https://thebakery.dev/001-gradle-doctor</id><content type="html" xml:base="https://thebakery.dev/01/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/episode/472S9FHpiOL3SmhR16ZxpZ&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;In this episode, we talk about &lt;a href=&quot;https://github.com/runningcode/gradle-doctor&quot;&gt;Gradle Doctor&lt;/a&gt; with its author Nelson Osacky. Gradle doctor helps you fix performance problems and errors in your Gradle build. The tool works as a Gradle plugin - emitting prescriptions for all the problems found. Nelson tells us how he came up with the idea behind this tool, and what the future is for Gradle Doctor.&lt;/p&gt;
-
-&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
-
-&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;0:20&lt;/strong&gt; Intro&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;1:06&lt;/strong&gt; Episode Start&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;1:49&lt;/strong&gt; Nelson’s Introduction&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;04:22&lt;/strong&gt;	What is Gradle Doctor?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;08:44&lt;/strong&gt;	Remote build cache&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;16:19&lt;/strong&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;JAVA_HOME&lt;/code&gt; madness&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;21:36&lt;/strong&gt;	The most common mistake in your build.gradle&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;24:34&lt;/strong&gt; Gradle Doctor and performance&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;31:17&lt;/strong&gt;	Extensibility&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;33:12&lt;/strong&gt;	The future of Gradle Doctor&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;39:56&lt;/strong&gt;	Where to find Nelson online?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/runningcode/gradle-doctor&quot;&gt;runningcode/gradle-doctor&lt;/a&gt; on Github&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://runningcode.github.io/gradle-doctor/&quot;&gt;Gradle Doctor Documentation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-medium&quot;&gt;&lt;/i&gt; How fast does my internet need to be to use the Gradle Remote Build Cache? - &lt;a href=&quot;https://medium.com/swlh/how-fast-does-my-internet-need-to-be-to-use-the-gradle-remote-build-cache-part-1-4acaa6f9a2fa&quot;&gt;Part 1&lt;/a&gt; and &lt;a href=&quot;https://medium.com/@runningcode/how-fast-does-my-internet-need-to-be-to-use-the-gradle-remote-build-cache-part-2-1bc2b171f19&quot;&gt;Part 2&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-youtube&quot;&gt;&lt;/i&gt; The Secrets of the Build Scan Plugin and the internals of Gradle - &lt;a href=&quot;https://www.youtube.com/watch?v=lgaqS0pmUzk&quot;&gt;Video from Android Makers&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/nellyspageli&quot;&gt;@nellyspageli on Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://osacky.com/&quot;&gt;Nelson’s Website&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">Nelson presents gradle-doctor, a tool to get prescriptions for your inefficient Gradle build</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">Colin is here to introduce Coil, Coroutine Image Loader. A library to reshape image loading on Android</summary></entry></feed>
