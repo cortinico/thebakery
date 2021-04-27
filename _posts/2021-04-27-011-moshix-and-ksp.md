@@ -27,7 +27,7 @@ podcast_length: 24302815
 
 <iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="110%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-It's time to talk about **meta-programming**, **annotation processors** and **compiler plugins** 🧙‍♂️. Today we have [**Zac Sweers**](https://twitter.com/ZacSweers) on stage, Mobile Engineer @ Square and maintainer of [Moshi](https://github.com/square/moshi), a popular Json library.
+It's time to talk about **meta-programming**, **annotation processors** and **compiler plugins** 🧙‍♂️. Today we have [**Zac Sweers**](https://twitter.com/ZacSweers) on stage, Mobile Engineer @ Slack and maintainer of [Moshi](https://github.com/square/moshi), a popular Json library.
 
 Zac is the author of [MoshiX](https://github.com/ZacSweers/MoshiX), a set of extensions for Moshi. Between those, one that caught my attention was `moshi-ksp`. [KSP (Kotlin Symbol Processing API)]((https://github.com/google/ksp)) is set to revolutionize the landscape of annotations processors in Kotlin. Join us on this deep dive on **code generation** and more.
 
