@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Tue, 27 Apr 2021 16:32:57 +0200</lastBuildDate>
+<lastBuildDate>Tue, 27 Apr 2021 17:32:09 +0200</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -42,8 +42,8 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 
     <item>
         
-        <title>MoshiX & KSP with Zac Sweers</title>
-        <itunes:title>MoshiX & KSP with Zac Sweers</itunes:title>
+        <title>MoshiX and KSP with Zac Sweers</title>
+        <itunes:title>MoshiX and KSP with Zac Sweers</itunes:title>
         <link>https://thebakery.dev/11/</link>
         <pubDate>Tue, 27 Apr 2021 00:00:00 +0200</pubDate>
         <dc:creator>Nicola Corti</dc:creator>

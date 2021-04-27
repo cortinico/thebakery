@@ -65,7 +65,7 @@ var store = [{
         "url": "/10/",
         "teaser": "/assets/images/header-single-episode.png"
       },{
-        "title": "#11 - MoshiX & KSP with Zac Sweers",
+        "title": "#11 - MoshiX and KSP with Zac Sweers",
         "excerpt":"It’s time to talk about meta-programming, annotation processors and compiler plugins 🧙‍♂️. Today we have Zac Sweers on stage, Mobile Engineer @ Square and maintainer of Moshi, a popular Json library. Zac is the author of MoshiX, a set of extensions for Moshi. Between those, one that caught my attention...","categories": [],
         "tags": [],
         "url": "/11/",
