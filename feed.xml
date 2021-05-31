@@ -1,4 +1,80 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2021-05-21T13:36:19+02:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#11 - MoshiX and KSP with Zac Sweers</title><link href="https://thebakery.dev/11/" rel="alternate" type="text/html" title="#11 - MoshiX and KSP with Zac Sweers" /><published>2021-04-27T00:00:00+02:00</published><updated>2021-04-27T00:00:00+02:00</updated><id>https://thebakery.dev/011-moshix-and-ksp</id><content type="html" xml:base="https://thebakery.dev/11/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k&quot; width=&quot;110%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2021-05-31T15:48:19+02:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#12 - refreshVersions with Louis CAD</title><link href="https://thebakery.dev/12/" rel="alternate" type="text/html" title="#12 - refreshVersions with Louis CAD" /><published>2021-05-31T00:00:00+02:00</published><updated>2021-05-31T00:00:00+02:00</updated><id>https://thebakery.dev/012-refreshversions</id><content type="html" xml:base="https://thebakery.dev/12/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k&quot; width=&quot;110%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Have you ever ventured inside the &lt;strong&gt;dependency hell&lt;/strong&gt; 😈? &lt;a href=&quot;https://twitter.com/Louis_CAD&quot;&gt;Louis CAD&lt;/a&gt; has for sure. Today we’re talking about &lt;a href=&quot;https://github.com/jmfayard/refreshVersions&quot;&gt;refreshVersions&lt;/a&gt;, a Gradle plugin to help you keep your third-party dependencies up to date.&lt;/p&gt;
+
+&lt;p&gt;The killer feature of refreshVersions is the possibility to see all the available versions &lt;strong&gt;as comments&lt;/strong&gt; in your versions file. They’re just a ⇧ + &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;down&lt;/code&gt; keystroke away to update:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/refreshVersions-demo.png&quot; alt=&quot;Updating a dependency version with refreshVersions&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Louis will also tell us his personal experience with &lt;strong&gt;pair programming&lt;/strong&gt; in the open-source ecosystem. If you’re looking for a peer to get into open-source, make sure you send Louis a message!&lt;/p&gt;
+
+&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
+
+&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;00.25&lt;/strong&gt; Intro&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;01.11&lt;/strong&gt; Episode Start&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;01.41&lt;/strong&gt; Louis’ Introduction&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;02.56&lt;/strong&gt; What is refreshVersion?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;04.56&lt;/strong&gt; The Dependency Hell problem&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;05.54&lt;/strong&gt; API breaking changes&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;06.35&lt;/strong&gt; The cost of bumping dependencies&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;07.25&lt;/strong&gt; Dependency bundles and versions alignment&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;09.27&lt;/strong&gt; The history of this project&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;13.18&lt;/strong&gt; How the find newer versions?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;15.05&lt;/strong&gt; A new dependency notation&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;16.46&lt;/strong&gt; How to use refreshVersions?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;19.14&lt;/strong&gt; New versions as comments&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;19.51&lt;/strong&gt; Java Properties vs JSON/YAML&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;22.24&lt;/strong&gt; refreshVersions vs Gradle Version Catalog&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;26.33&lt;/strong&gt; refreshVersions vs Dependabot&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;29.42&lt;/strong&gt; How to contribute to refreshVersions?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;32.13&lt;/strong&gt; Pair programming in open source&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;35.36&lt;/strong&gt; Have you ever had bad experiences with pair programming?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;37.59&lt;/strong&gt; Tools for pair programming&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;39.31&lt;/strong&gt; How to pair program with Louis?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;42.02&lt;/strong&gt; What’s next for refreshVersions?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;43.38&lt;/strong&gt; Where to find Louis online?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/jmfayard/refreshVersions&quot;&gt;refreshVersions on Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-wikipedia-w&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://en.wikipedia.org/wiki/Dependency_hell&quot;&gt;Dependency hell on Wikipedia&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://jmfayard.github.io/refreshVersions/&quot;&gt;Official Documentation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://jmfayard.github.io/refreshVersions/contributing/before-you-contribute/&quot;&gt;Contribution Guide&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-slack&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://kotlinlang.slack.com/archives/CP5659EL9&quot;&gt;#gradle-refresh-versions on Kotlinlang Slack&lt;/a&gt; (get an &lt;a href=&quot;https://surveys.jetbrains.com/s3/kotlin-slack-sign-up&quot;&gt;invite here&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Other mentioned projects:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/ben-manes/gradle-versions-plugin&quot;&gt;ben-manes/gradle-versions-plugin on Github&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/LouisCAD/Splitties&quot;&gt;LouisCAD/Splitties on Github&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Pair programming resources:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/jmfayard/refreshVersions/discussions/330&quot;&gt;Open pair-programming. Let us know if you’re up for it!&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.jetbrains.com/help/idea/code-with-me.html&quot;&gt;Code With Me - IntelliJ IDEA&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://pop.com/&quot;&gt;pop.com&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/LouisCAD&quot;&gt;@LouisCAD on Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/Louis_CAD&quot;&gt;@Louis_CAD on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- * TODO Pub.com pair programming tool --&gt;
+
+&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">In this episode we will talk about dependency hell and how to escape it, with Louis CAD and the refershVersions project!</summary></entry><entry><title type="html">#11 - MoshiX and KSP with Zac Sweers</title><link href="https://thebakery.dev/11/" rel="alternate" type="text/html" title="#11 - MoshiX and KSP with Zac Sweers" /><published>2021-04-27T00:00:00+02:00</published><updated>2021-04-27T00:00:00+02:00</updated><id>https://thebakery.dev/011-moshix-and-ksp</id><content type="html" xml:base="https://thebakery.dev/11/">&lt;iframe src=&quot;https://open.spotify.com/embed/episode/1b2W8hcerDw0BSbQAvqHLK&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;It’s time to talk about &lt;strong&gt;meta-programming&lt;/strong&gt;, &lt;strong&gt;annotation processors&lt;/strong&gt; and &lt;strong&gt;compiler plugins&lt;/strong&gt; 🧙‍♂️. Today we have &lt;a href=&quot;https://twitter.com/ZacSweers&quot;&gt;&lt;strong&gt;Zac Sweers&lt;/strong&gt;&lt;/a&gt; on stage, Mobile Engineer @ Slack and maintainer of &lt;a href=&quot;https://github.com/square/moshi&quot;&gt;Moshi&lt;/a&gt;, a popular Json library.&lt;/p&gt;
 
@@ -575,52 +651,4 @@
   &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">Time to kick-off 2021 with an amazing tool to automatize your pull-requests: Danger, and Franco Meloni is on stage to present it!</summary></entry><entry><title type="html">#02 - Coil with Colin White</title><link href="https://thebakery.dev/02/" rel="alternate" type="text/html" title="#02 - Coil with Colin White" /><published>2020-12-21T00:00:00+01:00</published><updated>2020-12-21T00:00:00+01:00</updated><id>https://thebakery.dev/002-coil</id><content type="html" xml:base="https://thebakery.dev/02/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/episode/32uGuqg9M8ST8nOpkjNbuu&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;In this episode, we welcome on stage Colin White to introduce us &lt;a href=&quot;https://github.com/coil-kt/coil&quot;&gt;Coil&lt;/a&gt;, &lt;strong&gt;CO&lt;/strong&gt;routines &lt;strong&gt;I&lt;/strong&gt;mage &lt;strong&gt;L&lt;/strong&gt;oader. Coil is an Android image loading library that recently hit the &lt;strong&gt;1.0 milestone&lt;/strong&gt;, completely written in &lt;strong&gt;Kotlin&lt;/strong&gt; and with first class support for Kotlin &lt;strong&gt;Coroutines&lt;/strong&gt;. In this episode, Colin tells us challenges, fun facts and future projects for this library.&lt;/p&gt;
-
-&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
-
-&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;00:20&lt;/strong&gt; Intro&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;01:06&lt;/strong&gt; Episode Start&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;02:00&lt;/strong&gt; Colin’s Introduction&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;02:45&lt;/strong&gt; What is Coil?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;04:12&lt;/strong&gt; How you came up with Coil?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;08:05&lt;/strong&gt; Coil &amp;lt;3 Kotlin&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;09:36&lt;/strong&gt; The challenges of image loading&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;13:08&lt;/strong&gt; What’s the faster library?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;16:17&lt;/strong&gt; Screenshot Testing&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;17:48&lt;/strong&gt; We all love animated GIFs&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;19:53&lt;/strong&gt; Coil &amp;amp; Jetpack Compose&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;21:30&lt;/strong&gt; What’s the roadmap for Coil?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;23:31&lt;/strong&gt; Debug Tools&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;25:32&lt;/strong&gt; Prefetching and Animating&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;28:58&lt;/strong&gt; Challenges in the Open Source ecosystems&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;30:42&lt;/strong&gt; How to contribute?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;32:24&lt;/strong&gt; The future of Coil&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;34:09&lt;/strong&gt; Learning Coil&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;35:17&lt;/strong&gt; Where to find Colin online?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/coil-kt/coil&quot;&gt;coil-kt/coil&lt;/a&gt; on Github&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://coil-kt.github.io/coil/&quot;&gt;Coil Documentation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-medium&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://medium.com/swlh/benchmarking-image-loading-libraries-on-android-3ddf365a1927&quot;&gt;Benchmarking Image Loading Libraries on Android&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/colinwhi&quot;&gt;@colinwhi on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">Colin is here to introduce Coil, Coroutine Image Loader. A library to reshape image loading on Android</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">Time to kick-off 2021 with an amazing tool to automatize your pull-requests: Danger, and Franco Meloni is on stage to present it!</summary></entry></feed>

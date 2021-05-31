@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Fri, 21 May 2021 13:36:19 +0200</lastBuildDate>
+<lastBuildDate>Mon, 31 May 2021 15:48:19 +0200</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,116 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>refreshVersions with Louis CAD</title>
+        <itunes:title>refreshVersions with Louis CAD</itunes:title>
+        <link>https://thebakery.dev/12/</link>
+        <pubDate>Mon, 31 May 2021 00:00:00 +0200</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/12/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>12</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/12-thedevelopersbakery-refreshversions.m4a" length="18035580" type="audio/mpeg" />
+
+        <itunes:subtitle>In this episode we will talk about dependency hell and how to escape it, with Louis CAD and the refershVersions project!</itunes:subtitle>
+        <itunes:summary>In this episode we will talk about dependency hell and how to escape it, with Louis CAD and the refershVersions project!</itunes:summary>
+
+        
+        <description>
+            <![CDATA[Have you ever ventured inside the dependency hell 😈? Louis CAD has for sure. Today we’re talking about refreshVersions, a Gradle plugin to help you keep your third-party dependencies up to date. The killer feature of refreshVersions is the possibility to see all the available versions as comments in your...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>Have you ever ventured inside the <strong>dependency hell</strong> 😈? <a href="https://twitter.com/Louis_CAD">Louis CAD</a> has for sure. Today we’re talking about <a href="https://github.com/jmfayard/refreshVersions">refreshVersions</a>, a Gradle plugin to help you keep your third-party dependencies up to date.</p>
+
+<p>The killer feature of refreshVersions is the possibility to see all the available versions <strong>as comments</strong> in your versions file. They’re just a ⇧ + <code class="language-plaintext highlighter-rouge">down</code> keystroke away to update:</p>
+
+<p><img src="/assets/images/posts/refreshVersions-demo.png" alt="Updating a dependency version with refreshVersions" /></p>
+
+<p>Louis will also tell us his personal experience with <strong>pair programming</strong> in the open-source ecosystem. If you’re looking for a peer to get into open-source, make sure you send Louis a message!</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.25</strong> Intro</li>
+  <li><strong>01.11</strong> Episode Start</li>
+  <li><strong>01.41</strong> Louis’ Introduction</li>
+  <li><strong>02.56</strong> What is refreshVersion?</li>
+  <li><strong>04.56</strong> The Dependency Hell problem</li>
+  <li><strong>05.54</strong> API breaking changes</li>
+  <li><strong>06.35</strong> The cost of bumping dependencies</li>
+  <li><strong>07.25</strong> Dependency bundles and versions alignment</li>
+  <li><strong>09.27</strong> The history of this project</li>
+  <li><strong>13.18</strong> How the find newer versions?</li>
+  <li><strong>15.05</strong> A new dependency notation</li>
+  <li><strong>16.46</strong> How to use refreshVersions?</li>
+  <li><strong>19.14</strong> New versions as comments</li>
+  <li><strong>19.51</strong> Java Properties vs JSON/YAML</li>
+  <li><strong>22.24</strong> refreshVersions vs Gradle Version Catalog</li>
+  <li><strong>26.33</strong> refreshVersions vs Dependabot</li>
+  <li><strong>29.42</strong> How to contribute to refreshVersions?</li>
+  <li><strong>32.13</strong> Pair programming in open source</li>
+  <li><strong>35.36</strong> Have you ever had bad experiences with pair programming?</li>
+  <li><strong>37.59</strong> Tools for pair programming</li>
+  <li><strong>39.31</strong> How to pair program with Louis?</li>
+  <li><strong>42.02</strong> What’s next for refreshVersions?</li>
+  <li><strong>43.38</strong> Where to find Louis online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/jmfayard/refreshVersions">refreshVersions on Github</a></li>
+  <li><i class="fab fa-wikipedia-w"></i> <a href="https://en.wikipedia.org/wiki/Dependency_hell">Dependency hell on Wikipedia</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://jmfayard.github.io/refreshVersions/">Official Documentation</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://jmfayard.github.io/refreshVersions/contributing/before-you-contribute/">Contribution Guide</a></li>
+  <li><i class="fab fa-slack"></i> <a href="https://kotlinlang.slack.com/archives/CP5659EL9">#gradle-refresh-versions on Kotlinlang Slack</a> (get an <a href="https://surveys.jetbrains.com/s3/kotlin-slack-sign-up">invite here</a>)</li>
+  <li>Other mentioned projects:
+    <ul>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/ben-manes/gradle-versions-plugin">ben-manes/gradle-versions-plugin on Github</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/LouisCAD/Splitties">LouisCAD/Splitties on Github</a></li>
+    </ul>
+  </li>
+  <li>Pair programming resources:
+    <ul>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/jmfayard/refreshVersions/discussions/330">Open pair-programming. Let us know if you’re up for it!</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://www.jetbrains.com/help/idea/code-with-me.html">Code With Me - IntelliJ IDEA</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://pop.com/">pop.com</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/LouisCAD">@LouisCAD on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/Louis_CAD">@Louis_CAD on Twitter</a></li>
+</ul>
+
+<!-- * TODO Pub.com pair programming tool -->
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/12-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>45:19</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>MoshiX and KSP with Zac Sweers</title>

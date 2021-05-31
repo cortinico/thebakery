@@ -70,4 +70,10 @@ var store = [{
         "tags": [],
         "url": "/11/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#12 - refreshVersions with Louis CAD",
+        "excerpt":"Have you ever ventured inside the dependency hell 😈? Louis CAD has for sure. Today we’re talking about refreshVersions, a Gradle plugin to help you keep your third-party dependencies up to date. The killer feature of refreshVersions is the possibility to see all the available versions as comments in your...","categories": [],
+        "tags": [],
+        "url": "/12/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]
