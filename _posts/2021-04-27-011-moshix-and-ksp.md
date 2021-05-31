@@ -25,7 +25,7 @@ podcast_duration: "01:01:46"
 podcast_length: 24302815
 ---
 
-<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="110%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe src="https://open.spotify.com/embed/episode/1b2W8hcerDw0BSbQAvqHLK" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 It's time to talk about **meta-programming**, **annotation processors** and **compiler plugins** 🧙‍♂️. Today we have [**Zac Sweers**](https://twitter.com/ZacSweers) on stage, Mobile Engineer @ Slack and maintainer of [Moshi](https://github.com/square/moshi), a popular Json library.
 
