@@ -25,7 +25,7 @@ podcast_duration: "45:19"
 podcast_length: 18035580
 ---
 
-<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="110%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe src="https://open.spotify.com/embed/episode/7jBzUZVM2H4GiG1jKdfEtj" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 Have you ever ventured inside the **dependency hell** 😈? [Louis CAD](https://twitter.com/Louis_CAD) has for sure. Today we're talking about [refreshVersions](https://github.com/jmfayard/refreshVersions), a Gradle plugin to help you keep your third-party dependencies up to date.
 
@@ -79,8 +79,6 @@ Enjoy the show 👨‍🍳
     * <i class="fas fa-link"></i> [pop.com](https://pop.com/)
 * <i class="fab fa-github"></i> [@LouisCAD on Github](https://github.com/LouisCAD)
 * <i class="fab fa-twitter"></i> [@Louis_CAD on Twitter](https://twitter.com/Louis_CAD)
-
-<!-- * TODO Pub.com pair programming tool -->
 
 # Show links
 
