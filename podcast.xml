@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Mon, 31 May 2021 15:48:19 +0200</lastBuildDate>
+<lastBuildDate>Mon, 14 Jun 2021 18:50:47 +0200</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,113 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Apollo GraphQL with Martin Bonnin</title>
+        <itunes:title>Apollo GraphQL with Martin Bonnin</itunes:title>
+        <link>https://thebakery.dev/13/</link>
+        <pubDate>Mon, 14 Jun 2021 00:00:00 +0200</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/13/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>13</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/13-thedevelopersbakery-apollo-graphql.m4a" length="17275215" type="audio/mpeg" />
+
+        <itunes:subtitle>Martin is on stage to tell us about GraphQL and Apollo Android, the most popular GraphQL client for Android</itunes:subtitle>
+        <itunes:summary>Martin is on stage to tell us about GraphQL and Apollo Android, the most popular GraphQL client for Android</itunes:summary>
+
+        
+        <description>
+            <![CDATA[Today we have on stage Martin Bonnin, Android Engineer at Apollo GraphQL 🚀. Martin has the amazing opportunity to work full time for an open-source project: Apollo Android, probably the most popular GraphQL client for Android. In this episode Martin will tell us his experience with GraphQL, how he got...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>Today we have on stage <a href="https://twitter.com/martinbonnin">Martin Bonnin</a>, Android Engineer at <a href="https://www.apollographql.com/">Apollo GraphQL</a> 🚀.</p>
+
+<p>Martin has the amazing opportunity to work full time for an open-source project: <a href="https://github.com/apollographql/apollo-android"><strong>Apollo Android</strong></a>, probably the most popular GraphQL client for Android.</p>
+
+<p>In this episode Martin will tell us his experience with GraphQL, how he got involved with Apollo and how it is to work full time on a oss project.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.21</strong> Intro</li>
+  <li><strong>01.07</strong> Episode Start</li>
+  <li><strong>01.38</strong> Martin’s Introduction</li>
+  <li><strong>02.59</strong> What is GraphQL?</li>
+  <li><strong>06.31</strong> Can you convince us that GraphQL is better than REST?</li>
+  <li><strong>09.38</strong> What do you feel is blocking a wider GraphQL adoption?</li>
+  <li><strong>12.50</strong> What is offered by Apollo?</li>
+  <li><strong>15.07</strong> What is Apollo Android?</li>
+  <li><strong>16.45</strong> The internals of Apollo Android</li>
+  <li><strong>20.17</strong> Are the APIs inspired by OkHTTP or Retrofit?</li>
+  <li><strong>23.19</strong> The Normalized Cache</li>
+  <li><strong>26.35</strong> How you got involved in Apollo?</li>
+  <li><strong>28.25</strong> How do you feel working fulltime for open-source?</li>
+  <li><strong>31.03</strong> Who are the Apollo Android maintainers?</li>
+  <li><strong>33.09</strong> Project governance</li>
+  <li><strong>35.08</strong> Company open-source vs Fully open-source</li>
+  <li><strong>36.16</strong> What’s next in 3.0?</li>
+  <li><strong>38.22</strong> How to contribute to Apollo?</li>
+  <li><strong>39.33</strong> Where to find examples?</li>
+  <li><strong>41.17</strong> Further readings</li>
+  <li><strong>42.22</strong> Where to find Martin online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/apollographql/apollo-android">apollographql/apollo-android on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://www.apollographql.com/">Apollo GraphQL Website</a></li>
+  <li>
+    <p><i class="fab fa-slack"></i> <a href="https://app.slack.com/client/T09229ZC6/C01A6KM1SBZ">#apollo-android on Kotlinlang Slack</a> (get an <a href="kotl.in/slack">invite here</a>)</p>
+  </li>
+  <li>Official Documentation:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://www.apollographql.com/docs/android/">Official Android Documentation</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/apollographql/apollo-android-tutorial">Official Android Tutorial</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://www.apollographql.com/docs/android/essentials/normalized-cache/">Normalized Cache</a></li>
+    </ul>
+  </li>
+  <li>Mentioned Resources &amp; Projects:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://docs.github.com/en/graphql/overview/explorer">Github GraphQL API Explorer</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/ExpediaGroup/graphql-kotlin">ExpediaGroup/graphql-kotlin on GitHub</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/joreilly/MortyComposeKMM">joreilly/MortyComposeKMM on GitHub</a></li>
+      <li><i class="fab fa-youtube"></i> <a href="https://youtu.be/GN6LHrqyimI">Kotliners - Apollo-Android: a Journey to Kotlin Multiplatform</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/martinbonnin">@martinbonnin on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/martinbonnin">@martinbonnin on Twitter</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://mbonnin.net/">Martin’s Blog</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/13-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>43:24</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>refreshVersions with Louis CAD</title>
@@ -127,8 +234,6 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
   <li><i class="fab fa-github"></i> <a href="https://github.com/LouisCAD">@LouisCAD on Github</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/Louis_CAD">@Louis_CAD on Twitter</a></li>
 </ul>
-
-<!-- * TODO Pub.com pair programming tool -->
 
 <h1 id="show-links">Show links</h1>
 

@@ -1,4 +1,77 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2021-05-31T15:48:19+02:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#12 - refreshVersions with Louis CAD</title><link href="https://thebakery.dev/12/" rel="alternate" type="text/html" title="#12 - refreshVersions with Louis CAD" /><published>2021-05-31T00:00:00+02:00</published><updated>2021-05-31T00:00:00+02:00</updated><id>https://thebakery.dev/012-refreshversions</id><content type="html" xml:base="https://thebakery.dev/12/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k&quot; width=&quot;110%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2021-06-14T18:50:47+02:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#13 - Apollo GraphQL with Martin Bonnin</title><link href="https://thebakery.dev/13/" rel="alternate" type="text/html" title="#13 - Apollo GraphQL with Martin Bonnin" /><published>2021-06-14T00:00:00+02:00</published><updated>2021-06-14T00:00:00+02:00</updated><id>https://thebakery.dev/013-apollo-graphql</id><content type="html" xml:base="https://thebakery.dev/13/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k&quot; width=&quot;110%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Today we have on stage &lt;a href=&quot;https://twitter.com/martinbonnin&quot;&gt;Martin Bonnin&lt;/a&gt;, Android Engineer at &lt;a href=&quot;https://www.apollographql.com/&quot;&gt;Apollo GraphQL&lt;/a&gt; 🚀.&lt;/p&gt;
+
+&lt;p&gt;Martin has the amazing opportunity to work full time for an open-source project: &lt;a href=&quot;https://github.com/apollographql/apollo-android&quot;&gt;&lt;strong&gt;Apollo Android&lt;/strong&gt;&lt;/a&gt;, probably the most popular GraphQL client for Android.&lt;/p&gt;
+
+&lt;p&gt;In this episode Martin will tell us his experience with GraphQL, how he got involved with Apollo and how it is to work full time on a oss project.&lt;/p&gt;
+
+&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
+
+&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;00.21&lt;/strong&gt; Intro&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;01.07&lt;/strong&gt; Episode Start&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;01.38&lt;/strong&gt; Martin’s Introduction&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;02.59&lt;/strong&gt; What is GraphQL?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;06.31&lt;/strong&gt; Can you convince us that GraphQL is better than REST?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;09.38&lt;/strong&gt; What do you feel is blocking a wider GraphQL adoption?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;12.50&lt;/strong&gt; What is offered by Apollo?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;15.07&lt;/strong&gt; What is Apollo Android?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;16.45&lt;/strong&gt; The internals of Apollo Android&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;20.17&lt;/strong&gt; Are the APIs inspired by OkHTTP or Retrofit?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;23.19&lt;/strong&gt; The Normalized Cache&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;26.35&lt;/strong&gt; How you got involved in Apollo?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;28.25&lt;/strong&gt; How do you feel working fulltime for open-source?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;31.03&lt;/strong&gt; Who are the Apollo Android maintainers?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;33.09&lt;/strong&gt; Project governance&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;35.08&lt;/strong&gt; Company open-source vs Fully open-source&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;36.16&lt;/strong&gt; What’s next in 3.0?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;38.22&lt;/strong&gt; How to contribute to Apollo?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;39.33&lt;/strong&gt; Where to find examples?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;41.17&lt;/strong&gt; Further readings&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;42.22&lt;/strong&gt; Where to find Martin online?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/apollographql/apollo-android&quot;&gt;apollographql/apollo-android on Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.apollographql.com/&quot;&gt;Apollo GraphQL Website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;i class=&quot;fab fa-slack&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://app.slack.com/client/T09229ZC6/C01A6KM1SBZ&quot;&gt;#apollo-android on Kotlinlang Slack&lt;/a&gt; (get an &lt;a href=&quot;kotl.in/slack&quot;&gt;invite here&lt;/a&gt;)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Official Documentation:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.apollographql.com/docs/android/&quot;&gt;Official Android Documentation&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/apollographql/apollo-android-tutorial&quot;&gt;Official Android Tutorial&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.apollographql.com/docs/android/essentials/normalized-cache/&quot;&gt;Normalized Cache&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Mentioned Resources &amp;amp; Projects:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://docs.github.com/en/graphql/overview/explorer&quot;&gt;Github GraphQL API Explorer&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/ExpediaGroup/graphql-kotlin&quot;&gt;ExpediaGroup/graphql-kotlin on GitHub&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/joreilly/MortyComposeKMM&quot;&gt;joreilly/MortyComposeKMM on GitHub&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fab fa-youtube&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://youtu.be/GN6LHrqyimI&quot;&gt;Kotliners - Apollo-Android: a Journey to Kotlin Multiplatform&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/martinbonnin&quot;&gt;@martinbonnin on Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/martinbonnin&quot;&gt;@martinbonnin on Twitter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://mbonnin.net/&quot;&gt;Martin’s Blog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">Martin is on stage to tell us about GraphQL and Apollo Android, the most popular GraphQL client for Android</summary></entry><entry><title type="html">#12 - refreshVersions with Louis CAD</title><link href="https://thebakery.dev/12/" rel="alternate" type="text/html" title="#12 - refreshVersions with Louis CAD" /><published>2021-05-31T00:00:00+02:00</published><updated>2021-05-31T00:00:00+02:00</updated><id>https://thebakery.dev/012-refreshversions</id><content type="html" xml:base="https://thebakery.dev/12/">&lt;iframe src=&quot;https://open.spotify.com/embed/episode/7jBzUZVM2H4GiG1jKdfEtj&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;Have you ever ventured inside the &lt;strong&gt;dependency hell&lt;/strong&gt; 😈? &lt;a href=&quot;https://twitter.com/Louis_CAD&quot;&gt;Louis CAD&lt;/a&gt; has for sure. Today we’re talking about &lt;a href=&quot;https://github.com/jmfayard/refreshVersions&quot;&gt;refreshVersions&lt;/a&gt;, a Gradle plugin to help you keep your third-party dependencies up to date.&lt;/p&gt;
 
@@ -62,8 +135,6 @@
   &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/LouisCAD&quot;&gt;@LouisCAD on Github&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/Louis_CAD&quot;&gt;@Louis_CAD on Twitter&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;!-- * TODO Pub.com pair programming tool --&gt;
 
 &lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
 
@@ -598,57 +669,4 @@
   &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">Directly from JetBrains, we have Sebastian Aigner on stage to talk about Jetpack Compose Desktop, the new desktop UI declarative framework from JB.</summary></entry><entry><title type="html">#03 - Danger with Franco Meloni</title><link href="https://thebakery.dev/03/" rel="alternate" type="text/html" title="#03 - Danger with Franco Meloni" /><published>2021-01-04T00:00:00+01:00</published><updated>2021-01-04T00:00:00+01:00</updated><id>https://thebakery.dev/003-danger</id><content type="html" xml:base="https://thebakery.dev/03/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/episode/685g5XevPoWLnW0uNQshXr&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Let’s kickoff 2021 with a great open-source tool: &lt;a href=&quot;https://github.com/danger/danger&quot;&gt;&lt;strong&gt;danger&lt;/strong&gt; ⚠️&lt;/a&gt;! Danger’s motto is &lt;em&gt;Stop saying “You forgot to…” in code review&lt;/em&gt; and it definitely delivers greatly on promises. With Danger, you can automatize recurrent and tedious tasks that affect your pull-requests.&lt;/p&gt;
-
-&lt;p&gt;Today, we have &lt;strong&gt;Franco Meloni&lt;/strong&gt; on stage, one of the maintainer of danger/swift &amp;amp; danger/kotlin that will tell us the recipe for a friction-less pull code-review process.&lt;/p&gt;
-
-&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
-
-&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;00:20&lt;/strong&gt;	Intro&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;01:06&lt;/strong&gt;	Episode Start&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;01:54&lt;/strong&gt; Franco’s Introduction&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;03:23&lt;/strong&gt; What is Danger?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;06:05&lt;/strong&gt; Danger setup in a nutshell&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;07:16&lt;/strong&gt; Dangerfiles&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;09:35&lt;/strong&gt; Danger and package managers&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;11:01&lt;/strong&gt; What Danger can do to your Pull-requests&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;12:56&lt;/strong&gt; Which version of Danger to pick?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;16:35&lt;/strong&gt; Franco’s memorable automation&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;20:56&lt;/strong&gt; Running Danger offline&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;22:24&lt;/strong&gt; Extending Danger&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;25:39&lt;/strong&gt; Franco’s Top Plugins&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;27:51&lt;/strong&gt; How Franco got involved in Danger?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;32:47&lt;/strong&gt; Github &amp;amp; Sponsorships&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;34:27&lt;/strong&gt; What is missing in Danger?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;38:00&lt;/strong&gt; How to contribute?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;40:10&lt;/strong&gt; Further readings&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;40:51&lt;/strong&gt; Where to find Franco online?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://danger.systems/&quot;&gt;danger.systems&lt;/a&gt; official website&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/danger/danger&quot;&gt;danger/danger&lt;/a&gt; on Github&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/danger/danger-js&quot;&gt;danger/danger-js&lt;/a&gt; on Github&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/danger/swift&quot;&gt;danger/swift&lt;/a&gt; on Github&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/danger/kotlin&quot;&gt;danger/kotlin&lt;/a&gt; on Github&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/f-meloni&quot;&gt;@f-meloni on Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/fmeloni1&quot;&gt;@fmeloni1 on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">Time to kick-off 2021 with an amazing tool to automatize your pull-requests: Danger, and Franco Meloni is on stage to present it!</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">Directly from JetBrains, we have Sebastian Aigner on stage to talk about Jetpack Compose Desktop, the new desktop UI declarative framework from JB.</summary></entry></feed>

@@ -76,4 +76,10 @@ var store = [{
         "tags": [],
         "url": "/12/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#13 - Apollo GraphQL with Martin Bonnin",
+        "excerpt":"Today we have on stage Martin Bonnin, Android Engineer at Apollo GraphQL 🚀. Martin has the amazing opportunity to work full time for an open-source project: Apollo Android, probably the most popular GraphQL client for Android. In this episode Martin will tell us his experience with GraphQL, how he got...","categories": [],
+        "tags": [],
+        "url": "/13/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]
