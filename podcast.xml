@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Fri, 25 Jun 2021 00:04:20 +0200</lastBuildDate>
+<lastBuildDate>Mon, 28 Jun 2021 13:37:29 +0200</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,108 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Anvil with Ralf Wondratschek</title>
+        <itunes:title>Anvil with Ralf Wondratschek</itunes:title>
+        <link>https://thebakery.dev/14/</link>
+        <pubDate>Mon, 28 Jun 2021 00:00:00 +0200</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/14/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>14</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/14-thedevelopersbakery-anvil.m4a" length="19617785" type="audio/mpeg" />
+
+        <itunes:subtitle>Forging a faster and easier dependency injection with Anvil!</itunes:subtitle>
+        <itunes:summary>Forging a faster and easier dependency injection with Anvil!</itunes:summary>
+
+        
+        <description>
+            <![CDATA[“When all you have is an anvil, every problem looks like a hammer.” - Abraham Maslow So it starts the Anvil 🔨 README. Anvil is a plugin to make your dependency injection with Dagger 2 easier. We have the pleasure to host Ralf Wondratschek, Mobile Engineer @ Square. He’s going...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<blockquote>
+  <p><em>“When all you have is an anvil, every problem looks like a hammer.”</em> - <a href="https://en.wikipedia.org/wiki/Law_of_the_instrument">Abraham Maslow</a></p>
+</blockquote>
+
+<p>So it starts the <a href="https://github.com/square/anvil"><strong>Anvil 🔨</strong></a> README.</p>
+
+<p>Anvil is a plugin to make your <strong>dependency injection</strong> with Dagger 2 <strong>easier</strong>.</p>
+
+<p>We have the pleasure to host <a href="https://twitter.com/vRallev"><strong>Ralf Wondratschek</strong></a>, Mobile Engineer @ Square. He’s going to tell us how Anvil can make your life with Dagger 2 easier and <strong>faster</strong>.</p>
+
+<p>Did you know that this project was originally called <a href="https://github.com/square/anvil/issues/12#issuecomment-663291099"><em>Hephaestus</em></a>? Make sure to don’t miss this episode if you want to learn this and other stories behind this project.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.19</strong> Intro</li>
+  <li><strong>01.05</strong> Episode Start</li>
+  <li><strong>01.31</strong> Ralf’s Introduction</li>
+  <li><strong>02.21</strong> What is Anvil?</li>
+  <li><strong>02.51</strong> What is Dagger?</li>
+  <li><strong>05.20</strong> Ralf’s opinion on Dependency Injection</li>
+  <li><strong>07.27</strong> Any bad experiences with Dagger?</li>
+  <li><strong>08.41</strong> What problem is Anvil solving?</li>
+  <li><strong>14.03</strong> Is Anvil useful if I have only one Android project?</li>
+  <li><strong>15.47</strong> What’s the story of Anvil?</li>
+  <li><strong>17.56</strong> Anvil Internals</li>
+  <li><strong>22.12</strong> How stable is Anvil?</li>
+  <li><strong>25.00</strong> Anvil vs Hilt</li>
+  <li><strong>28.57</strong> What do you recommend using in a fresh Android project?</li>
+  <li><strong>34.37</strong> Tips for project naming</li>
+  <li><strong>36.56</strong> Shiny new features</li>
+  <li><strong>37.24</strong> Anvil &amp; Dagger @Binds</li>
+  <li><strong>38.29</strong> Anvil &amp; Dagger Factories</li>
+  <li><strong>40.51</strong> Anvil extensibility</li>
+  <li><strong>44.53</strong> What to expect for Anvil in the future?</li>
+  <li><strong>47.18</strong> Further reading</li>
+  <li><strong>48.35</strong> Where to find Ralf online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/square/anvil">square/anvil on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://github.com/square/anvil/blob/main/README.md">Official Documentation</a></li>
+  <li>Mentioned Resources &amp; Projects:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://dagger.dev/">Dagger Official Website</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://dagger.dev/hilt/">Hilt Documentation</a></li>
+      <li><i class="fab fa-youtube"></i> <a href="https://www.droidcon.com/media-detail?video=380843878">Android at Scale @Square - Droidcon San Francisco 2019</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/vRallev">@vRallev on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/vRallev">@vRallev on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/14-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>49:34</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Apollo GraphQL with Martin Bonnin</title>

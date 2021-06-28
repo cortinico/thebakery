@@ -1,4 +1,72 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2021-06-25T00:04:20+02:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#13 - Apollo GraphQL with Martin Bonnin</title><link href="https://thebakery.dev/13/" rel="alternate" type="text/html" title="#13 - Apollo GraphQL with Martin Bonnin" /><published>2021-06-14T00:00:00+02:00</published><updated>2021-06-14T00:00:00+02:00</updated><id>https://thebakery.dev/013-apollo-graphql</id><content type="html" xml:base="https://thebakery.dev/13/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k&quot; width=&quot;110%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2021-06-28T13:37:29+02:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#14 - Anvil with Ralf Wondratschek</title><link href="https://thebakery.dev/14/" rel="alternate" type="text/html" title="#14 - Anvil with Ralf Wondratschek" /><published>2021-06-28T00:00:00+02:00</published><updated>2021-06-28T00:00:00+02:00</updated><id>https://thebakery.dev/014-anvil</id><content type="html" xml:base="https://thebakery.dev/14/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k&quot; width=&quot;110%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;“When all you have is an anvil, every problem looks like a hammer.”&lt;/em&gt; - &lt;a href=&quot;https://en.wikipedia.org/wiki/Law_of_the_instrument&quot;&gt;Abraham Maslow&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So it starts the &lt;a href=&quot;https://github.com/square/anvil&quot;&gt;&lt;strong&gt;Anvil 🔨&lt;/strong&gt;&lt;/a&gt; README.&lt;/p&gt;
+
+&lt;p&gt;Anvil is a plugin to make your &lt;strong&gt;dependency injection&lt;/strong&gt; with Dagger 2 &lt;strong&gt;easier&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;We have the pleasure to host &lt;a href=&quot;https://twitter.com/vRallev&quot;&gt;&lt;strong&gt;Ralf Wondratschek&lt;/strong&gt;&lt;/a&gt;, Mobile Engineer @ Square. He’s going to tell us how Anvil can make your life with Dagger 2 easier and &lt;strong&gt;faster&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Did you know that this project was originally called &lt;a href=&quot;https://github.com/square/anvil/issues/12#issuecomment-663291099&quot;&gt;&lt;em&gt;Hephaestus&lt;/em&gt;&lt;/a&gt;? Make sure to don’t miss this episode if you want to learn this and other stories behind this project.&lt;/p&gt;
+
+&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
+
+&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;00.19&lt;/strong&gt; Intro&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;01.05&lt;/strong&gt; Episode Start&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;01.31&lt;/strong&gt; Ralf’s Introduction&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;02.21&lt;/strong&gt; What is Anvil?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;02.51&lt;/strong&gt; What is Dagger?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;05.20&lt;/strong&gt; Ralf’s opinion on Dependency Injection&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;07.27&lt;/strong&gt; Any bad experiences with Dagger?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;08.41&lt;/strong&gt; What problem is Anvil solving?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;14.03&lt;/strong&gt; Is Anvil useful if I have only one Android project?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;15.47&lt;/strong&gt; What’s the story of Anvil?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;17.56&lt;/strong&gt; Anvil Internals&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;22.12&lt;/strong&gt; How stable is Anvil?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;25.00&lt;/strong&gt; Anvil vs Hilt&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;28.57&lt;/strong&gt; What do you recommend using in a fresh Android project?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;34.37&lt;/strong&gt; Tips for project naming&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;36.56&lt;/strong&gt; Shiny new features&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;37.24&lt;/strong&gt; Anvil &amp;amp; Dagger @Binds&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;38.29&lt;/strong&gt; Anvil &amp;amp; Dagger Factories&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;40.51&lt;/strong&gt; Anvil extensibility&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;44.53&lt;/strong&gt; What to expect for Anvil in the future?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;47.18&lt;/strong&gt; Further reading&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;48.35&lt;/strong&gt; Where to find Ralf online?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/square/anvil&quot;&gt;square/anvil on Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/square/anvil/blob/main/README.md&quot;&gt;Official Documentation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Mentioned Resources &amp;amp; Projects:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://dagger.dev/&quot;&gt;Dagger Official Website&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://dagger.dev/hilt/&quot;&gt;Hilt Documentation&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fab fa-youtube&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.droidcon.com/media-detail?video=380843878&quot;&gt;Android at Scale @Square - Droidcon San Francisco 2019&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/vRallev&quot;&gt;@vRallev on Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/vRallev&quot;&gt;@vRallev on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">Forging a faster and easier dependency injection with Anvil!</summary></entry><entry><title type="html">#13 - Apollo GraphQL with Martin Bonnin</title><link href="https://thebakery.dev/13/" rel="alternate" type="text/html" title="#13 - Apollo GraphQL with Martin Bonnin" /><published>2021-06-14T00:00:00+02:00</published><updated>2021-06-14T00:00:00+02:00</updated><id>https://thebakery.dev/013-apollo-graphql</id><content type="html" xml:base="https://thebakery.dev/13/">&lt;iframe src=&quot;https://open.spotify.com/embed/episode/5jjtuwpSJnKRRD5Xpr6Bs0&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;Today we have on stage &lt;a href=&quot;https://twitter.com/martinbonnin&quot;&gt;Martin Bonnin&lt;/a&gt;, Android Engineer at &lt;a href=&quot;https://www.apollographql.com/&quot;&gt;Apollo GraphQL&lt;/a&gt; 🚀.&lt;/p&gt;
 
@@ -597,76 +665,4 @@
   &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">Today we talk about Starship, the minimal, blazing-fast and infinitely customizable prompt shell with its author Matan Kushner</summary></entry><entry><title type="html">#04 - Jetpack Compose Desktop with Sebastian Aigner</title><link href="https://thebakery.dev/04/" rel="alternate" type="text/html" title="#04 - Jetpack Compose Desktop with Sebastian Aigner" /><published>2021-01-18T00:00:00+01:00</published><updated>2021-01-18T00:00:00+01:00</updated><id>https://thebakery.dev/004-compose-desktop</id><content type="html" xml:base="https://thebakery.dev/04/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/episode/2W41vADsX38UJILmTCaaGu&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Today, I’m more than excited to welcome on stage &lt;strong&gt;Sebastian Aigner&lt;/strong&gt;, Developer Advocate at JetBrains.&lt;/p&gt;
-
-&lt;p&gt;Sebastian is with us to talk about &lt;a href=&quot;https://github.com/JetBrains/compose-jb&quot;&gt;Jetpack Compose Desktop&lt;/a&gt;, a new &lt;strong&gt;declarative UI framework&lt;/strong&gt; for &lt;strong&gt;Desktop&lt;/strong&gt; applications written in &lt;strong&gt;Kotlin&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Jetpack Compose Desktop is the porting of Jetpack Compose, the declarative UI framework for &lt;strong&gt;Android&lt;/strong&gt;. JetBrains took the Compose to the next level offering a lot of new APIs and tools to make Desktop UI development a pleasure again. The project gained a lot of popularity recently on Github.&lt;/p&gt;
-
-&lt;p&gt;Sebastian is here to talk about his &lt;strong&gt;experience&lt;/strong&gt; with the tool, how to write your first Compose Desktop application and how to contribute to the framework.&lt;/p&gt;
-
-&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
-
-&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;00:27&lt;/strong&gt;	Intro&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;01:13&lt;/strong&gt;	Episode Start&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;01:44&lt;/strong&gt; Sebastian’s Introduction&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;03:14&lt;/strong&gt; What is Jetpack Compose Desktop?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;04:37&lt;/strong&gt; Jetpack Compose for Android&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;05:35&lt;/strong&gt; Desktop and UIs&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;07:30&lt;/strong&gt; Why not Jetbrains UI?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;09:12&lt;/strong&gt; It just works TM&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;09:42&lt;/strong&gt; Package naming&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;10:21&lt;/strong&gt; Supported platforms&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;11:43&lt;/strong&gt; Migrating existing applications&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;13:42&lt;/strong&gt; The next Compose Desktop app from JB?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;14:39&lt;/strong&gt; How to contribute to Ccompose Desktop?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;16:49&lt;/strong&gt; What is the current project direction?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;18:35&lt;/strong&gt; Where to provide feedback?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;19:49&lt;/strong&gt; Where to find support?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;20:55&lt;/strong&gt; Official Compose Desktop Examples&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;23:17&lt;/strong&gt; Seb’s experience with Compose Desktop&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;28:49&lt;/strong&gt; What is still missing in Compose Desktop?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;30:07&lt;/strong&gt; Push notifications on Desktop&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;31:44&lt;/strong&gt; What’s the future for Compose Desktop?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;33:01&lt;/strong&gt; Compose for Web!?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;34:41&lt;/strong&gt; Learning material&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;36:30&lt;/strong&gt; Where to find Seb online?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/JetBrains/compose-jb&quot;&gt;JetBrains/compose-jb on Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.jetbrains.com/lp/compose/&quot;&gt;Compose for Desktop Official Documentation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://tigeroakes.com/posts/react-to-compose-dictionary/&quot;&gt;React to Jetpack Compose Dictionary&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-briefcase&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.jetbrains.com/careers/jobs/ui-framework-developer-400/&quot;&gt;Job Opening - UI Framework Developer (JetBrains Compose Team)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Learning Material
-    &lt;ul&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-graduation-cap&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://developer.android.com/courses/pathways/compose&quot;&gt;Jetpack Compose Pathways&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-graduation-cap&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/JetBrains/compose-jb/blob/master/tutorials/Getting_Started/README.md&quot;&gt;Tutorial for Compose Desktop&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/JetBrains/compose-jb/tree/master/examples/codeviewer&quot;&gt;Codeviewer Example on Github&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/JetBrains/compose-jb/tree/master/examples/issues&quot;&gt;JetIssues Example on Github&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/JetBrains/compose-jb/tree/master/examples/imageviewer&quot;&gt;ImageViewer Example on Github&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/JetBrains/compose-jb/tree/master/examples/todoapp&quot;&gt;Todoapp Example on Github&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/SebastianAigner&quot;&gt;@SebastianAigner on Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/sebi_io&quot;&gt;@sebi_io on Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-slack&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://kotlinlang.slack.com/archives/C01D6HTPATV&quot;&gt;#compose-desktop on Kotlinlang Slack&lt;/a&gt; (get an &lt;a href=&quot;https://surveys.jetbrains.com/s3/kotlin-slack-sign-up?_ga=2.193829357.1956188841.1610124096-293668568.1579015494&quot;&gt;invite here&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">Directly from JetBrains, we have Sebastian Aigner on stage to talk about Jetpack Compose Desktop, the new desktop UI declarative framework from JB.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">Today we talk about Starship, the minimal, blazing-fast and infinitely customizable prompt shell with its author Matan Kushner</summary></entry></feed>

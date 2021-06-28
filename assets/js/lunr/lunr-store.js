@@ -82,4 +82,10 @@ var store = [{
         "tags": [],
         "url": "/13/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#14 - Anvil with Ralf Wondratschek",
+        "excerpt":"“When all you have is an anvil, every problem looks like a hammer.” - Abraham Maslow So it starts the Anvil 🔨 README. Anvil is a plugin to make your dependency injection with Dagger 2 easier. We have the pleasure to host Ralf Wondratschek, Mobile Engineer @ Square. He’s going...","categories": [],
+        "tags": [],
+        "url": "/14/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]
