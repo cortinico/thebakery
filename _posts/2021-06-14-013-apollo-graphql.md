@@ -25,7 +25,7 @@ podcast_duration: "43:24"
 podcast_length: 17275215
 ---
 
-<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="110%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe src="https://open.spotify.com/embed/episode/5jjtuwpSJnKRRD5Xpr6Bs0" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 Today we have on stage [Martin Bonnin](https://twitter.com/martinbonnin), Android Engineer at [Apollo GraphQL](https://www.apollographql.com/) 🚀.
 
