@@ -88,4 +88,10 @@ var store = [{
         "tags": [],
         "url": "/14/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#15 - Deep-clean with Sebastiano Poggi",
+        "excerpt":"☢️☢️☢️ When Gradle or the IDE let you down, just --nuke all them caches ☢️☢️☢️ Today’s project is basically a script: deep-clean. This script is the last resort to unblock yourself when your Android/JVM/Gradle builds are damn broken. deep-clean will take care of cleaning up your build caches. If you’re...","categories": [],
+        "tags": [],
+        "url": "/15/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

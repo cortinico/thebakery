@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Mon, 28 Jun 2021 13:37:29 +0200</lastBuildDate>
+<lastBuildDate>Mon, 12 Jul 2021 16:19:36 +0200</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,110 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Deep-clean with Sebastiano Poggi</title>
+        <itunes:title>Deep-clean with Sebastiano Poggi</itunes:title>
+        <link>https://thebakery.dev/15/</link>
+        <pubDate>Mon, 12 Jul 2021 00:00:00 +0200</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/15/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>15</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/15-thedevelopersbakery-deep-clean.m4a" length="18058877" type="audio/mpeg" />
+
+        <itunes:subtitle>deep-clean is what happens when someone gets really frustrated. Sebastiano is on stage to talk us about it.</itunes:subtitle>
+        <itunes:summary>deep-clean is what happens when someone gets really frustrated. Sebastiano is on stage to talk us about it.</itunes:summary>
+
+        
+        <description>
+            <![CDATA[☢️☢️☢️ When Gradle or the IDE let you down, just --nuke all them caches ☢️☢️☢️ Today’s project is basically a script: deep-clean. This script is the last resort to unblock yourself when your Android/JVM/Gradle builds are damn broken. deep-clean will take care of cleaning up your build caches. If you’re...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>☢️☢️☢️ When Gradle or the IDE let you down, just <code class="language-plaintext highlighter-rouge">--nuke</code> all them caches ☢️☢️☢️</p>
+
+<p>Today’s project is basically a script: <a href="https://github.com/rock3r/deep-clean"><strong>deep-clean</strong></a>.</p>
+
+<p>This script is the last resort to unblock yourself when your Android/JVM/Gradle builds are damn broken.
+deep-clean will take care of cleaning up your build caches. If you’re really stuck, you should also look
+ into the <code class="language-plaintext highlighter-rouge">--nuke</code> option to purge every possible cache and start from a clean environment.</p>
+
+<p>Its author, <a href="https://twitter.com/seebrock3r"><strong>Sebastiano Poggi</strong></a>, is on stage to tell us the story behind it.</p>
+
+<p>As a bonus, we also talk a bit about Seb’s new journey with Twitch: <a href="https://codewiththeitalians.it">CodeWithTheItalians</a> 🍕.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.19</strong> Intro</li>
+  <li><strong>01.05</strong> Episode Start</li>
+  <li><strong>01.36</strong> Seb’s Introduction</li>
+  <li><strong>03.35</strong> What is deep-clean?</li>
+  <li><strong>05.36</strong> What is deep-clean cleaning?</li>
+  <li><strong>08.31</strong> deep-clean as a last resort</li>
+  <li><strong>11.25</strong> From a script to a popular project</li>
+  <li><strong>13.30</strong> Kotlin as a scripting language</li>
+  <li><strong>15.35</strong> How do you distribute deep-clean?</li>
+  <li><strong>18.05</strong> Community contributions</li>
+  <li><strong>19.59</strong> deep-clean on Brew?</li>
+  <li><strong>22.43</strong> kscript vs Kotlin Scripting</li>
+  <li><strong>25.08</strong> Command line parameters</li>
+  <li><strong>26.34</strong> Do you have tests?</li>
+  <li><strong>30.02</strong> Further reading</li>
+  <li><strong>33.16</strong> Bonus: Code with the Italians</li>
+  <li><strong>43.48</strong> Where to find Seb online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/rock3r/deep-clean">rock3r/deep-clean on Github</a></li>
+  <li>Mentioned Resources &amp; Projects:
+    <ul>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/holgerbrandl/kscript">holgerbrandl/kscript on Github</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/Kotlin/kotlinx-cli">Kotlin/kotlinx-cli on Github</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/ajalt/clikt">ajalt/clikt on Github</a></li>
+    </ul>
+  </li>
+  <li>Code with the Italians: 🍕
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="codewiththeitalians.it">codewiththeitalians.it Official Website</a></li>
+      <li><i class="fab fa-twitch"></i> <a href="http://bit.ly/cwi-tw">CodeWithTheItalians on Twitch</a></li>
+      <li><i class="fab fa-youtube"></i> <a href="bit.ly/cwi-yt">Code with the Italians on YouTube</a></li>
+      <li><i class="fab fa-twitter"></i> <a href="https://github.com/ajalt/clikt">@codewiththeita on Twitter</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/rock3r">@rock3r on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/seebrock3r">@seebrock3r on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/15-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>45:02</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Anvil with Ralf Wondratschek</title>

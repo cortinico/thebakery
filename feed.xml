@@ -1,4 +1,74 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2021-06-28T13:37:29+02:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#14 - Anvil with Ralf Wondratschek</title><link href="https://thebakery.dev/14/" rel="alternate" type="text/html" title="#14 - Anvil with Ralf Wondratschek" /><published>2021-06-28T00:00:00+02:00</published><updated>2021-06-28T00:00:00+02:00</updated><id>https://thebakery.dev/014-anvil</id><content type="html" xml:base="https://thebakery.dev/14/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k&quot; width=&quot;110%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2021-07-12T16:19:36+02:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#15 - Deep-clean with Sebastiano Poggi</title><link href="https://thebakery.dev/15/" rel="alternate" type="text/html" title="#15 - Deep-clean with Sebastiano Poggi" /><published>2021-07-12T00:00:00+02:00</published><updated>2021-07-12T00:00:00+02:00</updated><id>https://thebakery.dev/015-deep-clean</id><content type="html" xml:base="https://thebakery.dev/15/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k&quot; width=&quot;110%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;☢️☢️☢️ When Gradle or the IDE let you down, just &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--nuke&lt;/code&gt; all them caches ☢️☢️☢️&lt;/p&gt;
+
+&lt;p&gt;Today’s project is basically a script: &lt;a href=&quot;https://github.com/rock3r/deep-clean&quot;&gt;&lt;strong&gt;deep-clean&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This script is the last resort to unblock yourself when your Android/JVM/Gradle builds are damn broken.
+deep-clean will take care of cleaning up your build caches. If you’re really stuck, you should also look
+ into the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--nuke&lt;/code&gt; option to purge every possible cache and start from a clean environment.&lt;/p&gt;
+
+&lt;p&gt;Its author, &lt;a href=&quot;https://twitter.com/seebrock3r&quot;&gt;&lt;strong&gt;Sebastiano Poggi&lt;/strong&gt;&lt;/a&gt;, is on stage to tell us the story behind it.&lt;/p&gt;
+
+&lt;p&gt;As a bonus, we also talk a bit about Seb’s new journey with Twitch: &lt;a href=&quot;https://codewiththeitalians.it&quot;&gt;CodeWithTheItalians&lt;/a&gt; 🍕.&lt;/p&gt;
+
+&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
+
+&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;00.19&lt;/strong&gt; Intro&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;01.05&lt;/strong&gt; Episode Start&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;01.36&lt;/strong&gt; Seb’s Introduction&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;03.35&lt;/strong&gt; What is deep-clean?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;05.36&lt;/strong&gt; What is deep-clean cleaning?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;08.31&lt;/strong&gt; deep-clean as a last resort&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;11.25&lt;/strong&gt; From a script to a popular project&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;13.30&lt;/strong&gt; Kotlin as a scripting language&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;15.35&lt;/strong&gt; How do you distribute deep-clean?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;18.05&lt;/strong&gt; Community contributions&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;19.59&lt;/strong&gt; deep-clean on Brew?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;22.43&lt;/strong&gt; kscript vs Kotlin Scripting&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;25.08&lt;/strong&gt; Command line parameters&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;26.34&lt;/strong&gt; Do you have tests?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;30.02&lt;/strong&gt; Further reading&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;33.16&lt;/strong&gt; Bonus: Code with the Italians&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;43.48&lt;/strong&gt; Where to find Seb online?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/rock3r/deep-clean&quot;&gt;rock3r/deep-clean on Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Mentioned Resources &amp;amp; Projects:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/holgerbrandl/kscript&quot;&gt;holgerbrandl/kscript on Github&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/Kotlin/kotlinx-cli&quot;&gt;Kotlin/kotlinx-cli on Github&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/ajalt/clikt&quot;&gt;ajalt/clikt on Github&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Code with the Italians: 🍕
+    &lt;ul&gt;
+      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;codewiththeitalians.it&quot;&gt;codewiththeitalians.it Official Website&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fab fa-twitch&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://bit.ly/cwi-tw&quot;&gt;CodeWithTheItalians on Twitch&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fab fa-youtube&quot;&gt;&lt;/i&gt; &lt;a href=&quot;bit.ly/cwi-yt&quot;&gt;Code with the Italians on YouTube&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/ajalt/clikt&quot;&gt;@codewiththeita on Twitter&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/rock3r&quot;&gt;@rock3r on Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/seebrock3r&quot;&gt;@seebrock3r on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">deep-clean is what happens when someone gets really frustrated. Sebastiano is on stage to talk us about it.</summary></entry><entry><title type="html">#14 - Anvil with Ralf Wondratschek</title><link href="https://thebakery.dev/14/" rel="alternate" type="text/html" title="#14 - Anvil with Ralf Wondratschek" /><published>2021-06-28T00:00:00+02:00</published><updated>2021-06-28T00:00:00+02:00</updated><id>https://thebakery.dev/014-anvil</id><content type="html" xml:base="https://thebakery.dev/14/">&lt;iframe src=&quot;https://open.spotify.com/embed/episode/06yvUIUdpAq8lsP7ynzVS1&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;em&gt;“When all you have is an anvil, every problem looks like a hammer.”&lt;/em&gt; - &lt;a href=&quot;https://en.wikipedia.org/wiki/Law_of_the_instrument&quot;&gt;Abraham Maslow&lt;/a&gt;&lt;/p&gt;
@@ -595,74 +665,4 @@
   &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">Are you up for some Dependency Injection? Because today we have Arnaud Giuliani on stage, to talk about Koin, a DI framework for Kotlin, Android and more!</summary></entry><entry><title type="html">#05 - Starship with Matan Kushner</title><link href="https://thebakery.dev/05/" rel="alternate" type="text/html" title="#05 - Starship with Matan Kushner" /><published>2021-02-01T00:00:00+01:00</published><updated>2021-02-01T00:00:00+01:00</updated><id>https://thebakery.dev/005-starship</id><content type="html" xml:base="https://thebakery.dev/05/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/episode/2fHLnVU6PgxZ5VeW3hWTSZ&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;In this episode, we shift a bit from Mobile &amp;amp; Kotlin to talk about shells, prompts and Rust! 🦀&lt;/p&gt;
-
-&lt;p&gt;Today we have Matan Kushner with us on stage to talk about &lt;a href=&quot;https://github.com/starship/starship&quot;&gt;Starship 🚀&lt;/a&gt;. From their website: &lt;em&gt;The minimal, blazing-fast, and infinitely customizable &lt;strong&gt;prompt&lt;/strong&gt; for any shell!&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Still confused? A picture is worth a thousand words:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/posts/starship-demo.gif&quot; alt=&quot;starship-demo&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;small&gt;&lt;em&gt;Starship in action, from &lt;a href=&quot;https://starship.rs&quot;&gt;starship.rs&lt;/a&gt;&lt;/em&gt;&lt;/small&gt;&lt;/p&gt;
-
-&lt;p&gt;If you’re curious to know more about shells, prompts, customizations and what are the challenges behind Starship, make sure you don’t this episode.&lt;/p&gt;
-
-&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
-
-&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;00:27&lt;/strong&gt; Intro&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;01:13&lt;/strong&gt; Episode Start&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;01:53&lt;/strong&gt; Matan’s Introduction&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;03:05&lt;/strong&gt; What is Starship?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;04:20&lt;/strong&gt; Supported shells&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;05:27&lt;/strong&gt; The idea behind writing a prompt&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;08:49&lt;/strong&gt; Matan’s favourite plugin&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;10:02&lt;/strong&gt; Missing features and space for improvements&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;11:44&lt;/strong&gt; What is your current setup?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;13:36&lt;/strong&gt; Is there a “prompt market”?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;15:19&lt;/strong&gt; Would you write it again in Rust?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;17:07&lt;/strong&gt; Challenges of a prompt author&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;19:40&lt;/strong&gt; Where is Starship collecting information?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;21:05&lt;/strong&gt; Async support&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;22:37&lt;/strong&gt; Which shell is the hardest to work with&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;24:14&lt;/strong&gt; The secret to build a vibrant community&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;26:16&lt;/strong&gt; Communities and Discord&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;29:41&lt;/strong&gt; What’s the future for Starship?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;32:16&lt;/strong&gt; Roadmap and Vision&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;33:33&lt;/strong&gt; How to contribute?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;35:18&lt;/strong&gt; Translating Starship&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;36:34&lt;/strong&gt; Learning Material&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;37:40&lt;/strong&gt; Where to find Matan online?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/starship/starship&quot;&gt;starship/starship on Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-rocket&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://starship.rs/&quot;&gt;Starship Official Documentation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-book&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://doc.rust-lang.org/book/&quot;&gt;The Rust Book&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Other mentioned prompts:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/romkatv/powerlevel10k&quot;&gt;romkatv/powerlevel10k - A Zsh theme&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/IlanCosman/tide&quot;&gt;IlanCosman/tide - The ultimate Fish prompt&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/StarshipPrompt&quot;&gt;@StarshipPrompt on Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/matchai&quot;&gt;@matchai on Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/matchai&quot;&gt;@matchai on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">Today we talk about Starship, the minimal, blazing-fast and infinitely customizable prompt shell with its author Matan Kushner</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">Are you up for some Dependency Injection? Because today we have Arnaud Giuliani on stage, to talk about Koin, a DI framework for Kotlin, Android and more!</summary></entry></feed>
