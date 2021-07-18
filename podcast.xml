@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Tue, 13 Jul 2021 18:58:14 +0200</lastBuildDate>
+<lastBuildDate>Sun, 18 Jul 2021 21:49:52 +0200</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -117,7 +117,7 @@ deep-clean will take care of cleaning up your build caches. If you’re really s
       <li><i class="fas fa-link"></i> <a href="codewiththeitalians.it">codewiththeitalians.it Official Website</a></li>
       <li><i class="fab fa-twitch"></i> <a href="http://bit.ly/cwi-tw">CodeWithTheItalians on Twitch</a></li>
       <li><i class="fab fa-youtube"></i> <a href="bit.ly/cwi-yt">Code with the Italians on YouTube</a></li>
-      <li><i class="fab fa-twitter"></i> <a href="https://github.com/ajalt/clikt">@codewiththeita on Twitter</a></li>
+      <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/codewiththeita">@codewiththeita on Twitter</a></li>
     </ul>
   </li>
   <li><i class="fab fa-github"></i> <a href="https://github.com/rock3r">@rock3r on Github</a></li>
