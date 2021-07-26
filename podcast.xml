@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Sun, 18 Jul 2021 21:49:52 +0200</lastBuildDate>
+<lastBuildDate>Mon, 26 Jul 2021 14:19:15 +0200</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,110 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>FastHub with Kosh Sergani</title>
+        <itunes:title>FastHub with Kosh Sergani</itunes:title>
+        <link>https://thebakery.dev/16/</link>
+        <pubDate>Mon, 26 Jul 2021 00:00:00 +0200</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/16/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>16</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/16-thedevelopersbakery-fasthub.m4a" length="16450921" type="audio/mpeg" />
+
+        <itunes:subtitle>An open-source app to browse open-source code? That's FastHub, one of the best Android app for Github. Kosh it's on stage to tell us the story behind it.</itunes:subtitle>
+        <itunes:summary>An open-source app to browse open-source code? That's FastHub, one of the best Android app for Github. Kosh it's on stage to tell us the story behind it.</itunes:summary>
+
+        
+        <description>
+            <![CDATA[Today I have the honor to host on-stage Kosh Sergani, author and maintainer of FastHub. If you don’t know FastHub yet, it’s one of the most popular Github client for Android. It’s obviously fully open-sourced and Kosh has been developing it from day 1. Today he’s sharing with us the...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>Today I have the honor to host on-stage <a href="https://twitter.com/im_kosh"><strong>Kosh Sergani</strong></a>, author and maintainer of <a href="https://github.com/k0shk0sh/FastHub"><strong>FastHub</strong></a>.</p>
+
+<p align="center">
+ <img src="/assets/images/posts/fasthub-logo.png" />
+</p>
+
+<p>If you don’t know FastHub yet, it’s one of the most popular Github client for Android. It’s obviously <strong>fully open-sourced</strong> and Kosh has been developing it from day 1. Today he’s sharing with us the story of this project, how it started and how it evolved.</p>
+
+<p>Make sure you don’t miss this episode as we’re going to talk about a lot of topics: the the FastHub <strong>business model</strong>, how Kosh handled <strong>piracy</strong> problems and what is the future for this project.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.11</strong> Intro</li>
+  <li><strong>00.56</strong> Episode Start</li>
+  <li><strong>01.26</strong> Kosh’s Introduction</li>
+  <li><strong>02.21</strong> What is FastHub?</li>
+  <li><strong>03.17</strong> The story of FastHub</li>
+  <li><strong>05.11</strong> The tech stack</li>
+  <li><strong>08.29</strong> Was FastHub open-sourced from day 1?</li>
+  <li><strong>09.28</strong> Community contributions</li>
+  <li><strong>11.36</strong> Deploying to the Play Store</li>
+  <li><strong>13.10</strong> Reproducible builds</li>
+  <li><strong>15.16</strong> Piracy problems</li>
+  <li><strong>20.11</strong> Who is maintaining FastHub?</li>
+  <li><strong>22.18</strong> The business model</li>
+  <li><strong>25.16</strong> FastHub vs Github Native App</li>
+  <li><strong>28.53</strong> Is FastHub v5 happening?</li>
+  <li><strong>30.52</strong> Are you looking for contributors?</li>
+  <li><strong>31.56</strong> Further reading</li>
+  <li><strong>33.14</strong> The burden of a maintainer</li>
+  <li><strong>36.07</strong> Your passion for open source</li>
+  <li><strong>37.32</strong> Open source impact on career growth</li>
+  <li><strong>39.48</strong> Where to find Kosh online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/k0shk0sh/FastHub">k0shk0sh/FastHub on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://github.com/k0shk0sh/FastHub/blob/development/.github/CONTRIBUTING.md">Contribution Guide</a></li>
+  <li>Mentioned Resources &amp; Projects:
+    <ul>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/GCX-HCI/ThirtyInch">GCX-HCI/ThirtyInch on Github</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/requery/requery">requery/requery on Github</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/aNNiMON/Lightweight-Stream-API">aNNiMON/Lightweight-Stream-API on Github</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/JakeWharton/butterknife">JakeWharton/butterknife on Github</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/bumptech/glide">bumptech/glide on Github</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/airbnb/lottie-android">airbnb/lottie-android on Github</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/commonmark/commonmark-java">commonmark/commonmark-java on Github</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://projectlombok.org/">Project Lombok</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/k0shk0sh">@k0shk0sh on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/im_kosh">@im_kosh on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/16-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>41:08</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Deep-clean with Sebastiano Poggi</title>

@@ -94,4 +94,10 @@ var store = [{
         "tags": [],
         "url": "/15/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#16 - FastHub with Kosh Sergani",
+        "excerpt":"Today I have the honor to host on-stage Kosh Sergani, author and maintainer of FastHub. If you don’t know FastHub yet, it’s one of the most popular Github client for Android. It’s obviously fully open-sourced and Kosh has been developing it from day 1. Today he’s sharing with us the...","categories": [],
+        "tags": [],
+        "url": "/16/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]
