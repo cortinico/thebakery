@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Mon, 26 Jul 2021 14:19:15 +0200</lastBuildDate>
+<lastBuildDate>Mon, 16 Aug 2021 19:15:39 +0200</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,110 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Strawberry with Patrick Arminio</title>
+        <itunes:title>Strawberry with Patrick Arminio</itunes:title>
+        <link>https://thebakery.dev/17/</link>
+        <pubDate>Mon, 16 Aug 2021 00:00:00 +0200</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/17/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>17</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/17-thedevelopersbakery-strawberry.m4a" length="16450549" type="audio/mpeg" />
+
+        <itunes:subtitle>We talk about Python, GraphQL and Community on this episode about Strawberry with Patrick Arminio</itunes:subtitle>
+        <itunes:summary>We talk about Python, GraphQL and Community on this episode about Strawberry with Patrick Arminio</itunes:summary>
+
+        
+        <description>
+            <![CDATA[Today we touch a bit on the Python 🐍 world as I have the honor to have on-stage Patrick Arminio, author and maintainer of Strawberry 🍓. Strawberry is a GraphQL library for Python 3. It comes with a lot of nice features built on top of language feature such as...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>Today we touch a bit on the Python 🐍 world as I have the honor to have on-stage <a href="https://twitter.com/patrick91"><strong>Patrick Arminio</strong></a>, author and maintainer of <a href="https://github.com/strawberry-graphql/strawberry"><strong>Strawberry</strong></a> 🍓.</p>
+
+<p>Strawberry is a <strong>GraphQL library</strong> for Python 3. It comes with a lot of nice features built on top of language feature such as <strong>dataclasses</strong> and <strong>type hints</strong>.</p>
+
+<p>Patrick is also doing an amazing work in building a <strong>vibrant community</strong> around this project.
+In this episode he will walk us through the story of this project, and some of the community initiatives he started to support this project.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.13</strong> Intro</li>
+  <li><strong>00.59</strong> Episode Start</li>
+  <li><strong>01.26</strong> Patrick’s Introduction</li>
+  <li><strong>02.09</strong> Patrick’s background</li>
+  <li><strong>03.23</strong> What is Strawberry?</li>
+  <li><strong>04.37</strong> The story of Strawberry</li>
+  <li><strong>06.50</strong> Strawberry’s selling point</li>
+  <li><strong>07.52</strong> A new release for every pull-request</li>
+  <li><strong>08.57</strong> Building communities around side projects</li>
+  <li><strong>10.53</strong> Who is maintaining the project?</li>
+  <li><strong>12.11</strong> Meeting with the contributors</li>
+  <li><strong>14.01</strong> Is it worth to organize a meeting?</li>
+  <li><strong>15.24</strong> Where to find time for open source?</li>
+  <li><strong>17.01</strong> Weekly reporting your contributions</li>
+  <li><strong>18.45</strong> Release Twitter cards</li>
+  <li><strong>22.22</strong> A retrospective on the community health</li>
+  <li><strong>24.09</strong> Why Strawberry vs other popular libraries?</li>
+  <li><strong>25.44</strong> Strawberry’s upcoming features</li>
+  <li><strong>27.37</strong> When to 1.0?</li>
+  <li><strong>29.06</strong> Strawberry on Twitch</li>
+  <li><strong>30.09</strong> Roadmap to beyond 1.0</li>
+  <li><strong>32.15</strong> Onboarding new contributors</li>
+  <li><strong>33.52</strong> Further reading</li>
+  <li><strong>37.06</strong> Sponsoring the project</li>
+  <li><strong>39.53</strong> Where to find Patrick online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/strawberry-graphql/strawberry">strawberry-graphql/strawberry on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://strawberry.rocks">Official Strawberry documentation</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://strawberry.rocks/code-of-conduct">Code of Conduct</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/strawberry_gql">@strawberry_gql on Twitter</a></li>
+  <li><i class="fab fa-discord"></i> <a href="https://strawberry.rocks/discord">Strawberry Discord server</a></li>
+  <li>Mentioned Resources &amp; Projects:
+    <ul>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/graphql-python/graphene">graphql-python/graphene on Github</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/strawberry-graphql/release-cards">strawberry-graphql/release-cards on Github</a></li>
+      <li><i class="fab fa-twitch"></i> <a href="https://www.twitch.tv/aaronbassettdev">aaronbassettdev on Twitch</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/patrick91">@patrick91 on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://patrick.wtf/">Patrick’s Blog</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/patrick91">@patrick91 on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/17-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>40:59</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>FastHub with Kosh Sergani</title>

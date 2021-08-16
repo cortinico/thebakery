@@ -100,4 +100,10 @@ var store = [{
         "tags": [],
         "url": "/16/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#17 - Strawberry with Patrick Arminio",
+        "excerpt":"Today we touch a bit on the Python 🐍 world as I have the honor to have on-stage Patrick Arminio, author and maintainer of Strawberry 🍓. Strawberry is a GraphQL library for Python 3. It comes with a lot of nice features built on top of language feature such as...","categories": [],
+        "tags": [],
+        "url": "/17/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

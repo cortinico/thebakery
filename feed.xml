@@ -1,4 +1,74 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2021-07-26T14:19:15+02:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#16 - FastHub with Kosh Sergani</title><link href="https://thebakery.dev/16/" rel="alternate" type="text/html" title="#16 - FastHub with Kosh Sergani" /><published>2021-07-26T00:00:00+02:00</published><updated>2021-07-26T00:00:00+02:00</updated><id>https://thebakery.dev/016-fasthub</id><content type="html" xml:base="https://thebakery.dev/16/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k&quot; width=&quot;110%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2021-08-16T19:15:39+02:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#17 - Strawberry with Patrick Arminio</title><link href="https://thebakery.dev/17/" rel="alternate" type="text/html" title="#17 - Strawberry with Patrick Arminio" /><published>2021-08-16T00:00:00+02:00</published><updated>2021-08-16T00:00:00+02:00</updated><id>https://thebakery.dev/017-strawberry</id><content type="html" xml:base="https://thebakery.dev/17/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Today we touch a bit on the Python 🐍 world as I have the honor to have on-stage &lt;a href=&quot;https://twitter.com/patrick91&quot;&gt;&lt;strong&gt;Patrick Arminio&lt;/strong&gt;&lt;/a&gt;, author and maintainer of &lt;a href=&quot;https://github.com/strawberry-graphql/strawberry&quot;&gt;&lt;strong&gt;Strawberry&lt;/strong&gt;&lt;/a&gt; 🍓.&lt;/p&gt;
+
+&lt;p&gt;Strawberry is a &lt;strong&gt;GraphQL library&lt;/strong&gt; for Python 3. It comes with a lot of nice features built on top of language feature such as &lt;strong&gt;dataclasses&lt;/strong&gt; and &lt;strong&gt;type hints&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Patrick is also doing an amazing work in building a &lt;strong&gt;vibrant community&lt;/strong&gt; around this project.
+In this episode he will walk us through the story of this project, and some of the community initiatives he started to support this project.&lt;/p&gt;
+
+&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
+
+&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;00.13&lt;/strong&gt; Intro&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;00.59&lt;/strong&gt; Episode Start&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;01.26&lt;/strong&gt; Patrick’s Introduction&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;02.09&lt;/strong&gt; Patrick’s background&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;03.23&lt;/strong&gt; What is Strawberry?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;04.37&lt;/strong&gt; The story of Strawberry&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;06.50&lt;/strong&gt; Strawberry’s selling point&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;07.52&lt;/strong&gt; A new release for every pull-request&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;08.57&lt;/strong&gt; Building communities around side projects&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;10.53&lt;/strong&gt; Who is maintaining the project?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;12.11&lt;/strong&gt; Meeting with the contributors&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;14.01&lt;/strong&gt; Is it worth to organize a meeting?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;15.24&lt;/strong&gt; Where to find time for open source?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;17.01&lt;/strong&gt; Weekly reporting your contributions&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;18.45&lt;/strong&gt; Release Twitter cards&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;22.22&lt;/strong&gt; A retrospective on the community health&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;24.09&lt;/strong&gt; Why Strawberry vs other popular libraries?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;25.44&lt;/strong&gt; Strawberry’s upcoming features&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;27.37&lt;/strong&gt; When to 1.0?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;29.06&lt;/strong&gt; Strawberry on Twitch&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;30.09&lt;/strong&gt; Roadmap to beyond 1.0&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;32.15&lt;/strong&gt; Onboarding new contributors&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;33.52&lt;/strong&gt; Further reading&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;37.06&lt;/strong&gt; Sponsoring the project&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;39.53&lt;/strong&gt; Where to find Patrick online?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/strawberry-graphql/strawberry&quot;&gt;strawberry-graphql/strawberry on Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://strawberry.rocks&quot;&gt;Official Strawberry documentation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://strawberry.rocks/code-of-conduct&quot;&gt;Code of Conduct&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/strawberry_gql&quot;&gt;@strawberry_gql on Twitter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-discord&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://strawberry.rocks/discord&quot;&gt;Strawberry Discord server&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Mentioned Resources &amp;amp; Projects:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/graphql-python/graphene&quot;&gt;graphql-python/graphene on Github&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/strawberry-graphql/release-cards&quot;&gt;strawberry-graphql/release-cards on Github&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fab fa-twitch&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.twitch.tv/aaronbassettdev&quot;&gt;aaronbassettdev on Twitch&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/patrick91&quot;&gt;@patrick91 on Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://patrick.wtf/&quot;&gt;Patrick’s Blog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/patrick91&quot;&gt;@patrick91 on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">We talk about Python, GraphQL and Community on this episode about Strawberry with Patrick Arminio</summary></entry><entry><title type="html">#16 - FastHub with Kosh Sergani</title><link href="https://thebakery.dev/16/" rel="alternate" type="text/html" title="#16 - FastHub with Kosh Sergani" /><published>2021-07-26T00:00:00+02:00</published><updated>2021-07-26T00:00:00+02:00</updated><id>https://thebakery.dev/016-fasthub</id><content type="html" xml:base="https://thebakery.dev/16/">&lt;iframe src=&quot;https://open.spotify.com/embed/episode/0QxzQs5YevhNqZjIzf8Hw9&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;Today I have the honor to host on-stage &lt;a href=&quot;https://twitter.com/im_kosh&quot;&gt;&lt;strong&gt;Kosh Sergani&lt;/strong&gt;&lt;/a&gt;, author and maintainer of &lt;a href=&quot;https://github.com/k0shk0sh/FastHub&quot;&gt;&lt;strong&gt;FastHub&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 
@@ -609,73 +679,4 @@ deep-clean will take care of cleaning up your build caches. If you’re really s
   &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">Today we have Pedro on stage to tell us how to build iOS projects with Tuist!</summary></entry><entry><title type="html">#07 - VelocityX and Flutter with Pawan Kumar</title><link href="https://thebakery.dev/07/" rel="alternate" type="text/html" title="#07 - VelocityX and Flutter with Pawan Kumar" /><published>2021-03-01T00:00:00+01:00</published><updated>2021-03-01T00:00:00+01:00</updated><id>https://thebakery.dev/007-velocityx</id><content type="html" xml:base="https://thebakery.dev/07/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/episode/2j4DhpqS83zeCJWQGdidOF&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Do you know Flutter 💙 ? I bet you do, if you’re into mobile development. Today, we have &lt;a href=&quot;https://twitter.com/imthepk&quot;&gt;Pawan Kumar&lt;/a&gt; on stage, he’s a &lt;strong&gt;Flutter &amp;amp; Dart&lt;/strong&gt; GDE and he is on stage to advocate for cross-platform development.&lt;/p&gt;
-
-&lt;p&gt;Pawan is the author of &lt;a href=&quot;https://velocityx.dev/&quot;&gt;&lt;strong&gt;VelocityX&lt;/strong&gt;&lt;/a&gt;, a framework that will make your UI development experience even faster. He will tell us more about this framework, how it started and what the inspiration came from.&lt;/p&gt;
-
-&lt;p&gt;Also, make sure to don’t miss the bonus question &lt;strong&gt;Kotlin vs Dart&lt;/strong&gt; (39:50) ⁉️&lt;/p&gt;
-
-&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
-
-&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;00:37&lt;/strong&gt; Intro&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;01:12&lt;/strong&gt; Episode Start&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;02:02&lt;/strong&gt; Pawan’s Introduction&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;03:00&lt;/strong&gt; What is Flutter?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;05:11&lt;/strong&gt; Android Native vs Flutter?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;08:12&lt;/strong&gt; Kotlin Multiplatform vs Flutter?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;10:43&lt;/strong&gt; What is VelocityX?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;15:51&lt;/strong&gt; VelocityX Key Features&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;18:12&lt;/strong&gt; State Management &amp;amp; VelocityX&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;20:41&lt;/strong&gt; Who is using VelocityX?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;22:58&lt;/strong&gt; Open-source examples?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;24:50&lt;/strong&gt; What inspired VelocityX?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;28:30&lt;/strong&gt; Is VelocityX production ready?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;30:02&lt;/strong&gt; What’s missing in VelocityX?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;32:35&lt;/strong&gt; Contributing to VelocityX&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;34:50&lt;/strong&gt; VelocityX’s future&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;37:36&lt;/strong&gt; Learning Material&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;38:50&lt;/strong&gt; Where to find Pawan online?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;39:50&lt;/strong&gt; Bonus question: Kotlin vs Dart?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/iampawan/VelocityX&quot;&gt;VelocityX on Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://velocityx.dev/&quot;&gt;VelocityX Official Documentation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-youtube&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://youtu.be/Peo5Wuos8CM&quot;&gt;VxToast #1 - Flutter Meets VelocityX&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/iampawan/PortfolioX&quot;&gt;PortfolioX Sample App&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Other mentioned frameworks and packages:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://pub.dev/packages/provider&quot;&gt;provider package for Flutter&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://tailwindcss.com/&quot;&gt;Tailwind CSS&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://developer.apple.com/xcode/swiftui&quot;&gt;Swift UI&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;pawans-contacts&quot;&gt;Pawan’s Contacts&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-youtube&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.youtube.com/mtechviral&quot;&gt;@mtechviral on Youtube&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/iampawan&quot;&gt;@iampawan on Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/imthepk&quot;&gt;@imthepk on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">It's time to talk about Flutter and Cross-platform development with Pawan Kumar and his framework VelocityX.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">Today we have Pedro on stage to tell us how to build iOS projects with Tuist!</summary></entry></feed>
