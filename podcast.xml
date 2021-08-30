@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Mon, 16 Aug 2021 19:15:39 +0200</lastBuildDate>
+<lastBuildDate>Mon, 30 Aug 2021 19:38:13 +0200</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,122 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>code-server with Joe Previte</title>
+        <itunes:title>code-server with Joe Previte</itunes:title>
+        <link>https://thebakery.dev/18/</link>
+        <pubDate>Mon, 30 Aug 2021 00:00:00 +0200</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/18/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>18</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/18-thedevelopersbakery-code-server.m4a" length="22194025" type="audio/mpeg" />
+
+        <itunes:subtitle>It's time to relocate your IDE to the cloud with code-server and Joe Previte!</itunes:subtitle>
+        <itunes:summary>It's time to relocate your IDE to the cloud with code-server and Joe Previte!</itunes:summary>
+
+        
+        <description>
+            <![CDATA[Are you ready to relocate your IDE to the cloud ☁️? In this episode we welcome on stage Joe Previte to talk about code-server, the solution to run VS Code in your browser. Joe is also working for coder.com, an enterprise service that offers code-server deployment ready to use. Today...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>Are you ready to <strong>relocate</strong> your IDE to the <strong>cloud</strong> ☁️?</p>
+
+<p>In this episode we welcome on stage <a href="https://twitter.com/jsjoeio"><strong>Joe Previte</strong></a> to talk about <a href="https://github.com/cdr/code-server"><strong>code-server</strong></a>, the solution to run VS Code in <strong>your browser</strong>. Joe is also working for <a href="https://coder.com"><strong>coder.com</strong></a>, an enterprise service that offers code-server deployment ready to use.</p>
+
+<p>Today he will tell us about his journey with cloud IDEs, through shiny features and the current limitations. We even get to run VS Code on <strong>his mobile phone</strong> 😬!</p>
+
+<p><img src="/assets/images/posts/codeserver-on-mobile.jpg" alt="codeserver-on-mobile" /></p>
+
+<p>If you want to get a glimpse of how the IDE experience <em>might</em> look like in some years, make sure to don’t miss this episode!</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.13</strong> Intro</li>
+  <li><strong>00.59</strong> Episode Start</li>
+  <li><strong>01.24</strong> Joe’s Introduction</li>
+  <li><strong>02.51</strong> What is code-server?</li>
+  <li><strong>04.24</strong> Who had the idea of having an IDE in the browser?</li>
+  <li><strong>06.22</strong> Keeping developers in flow</li>
+  <li><strong>08.50</strong> What is coder.com</li>
+  <li><strong>11.27</strong> Convince us that cloud IDEs are the future</li>
+  <li><strong>14.17</strong> Limitations of cloud IDEs</li>
+  <li><strong>15.43</strong> Backend development in the cloud</li>
+  <li><strong>17.03</strong> With browsers getting slower, do you want your IDE there?</li>
+  <li><strong>20.43</strong> What is blocking a wider adoption?</li>
+  <li><strong>23.25</strong> What to invest for a cloud IDE setup?</li>
+  <li><strong>26.13</strong> code-server internals</li>
+  <li><strong>28.54</strong> Why typescript?</li>
+  <li><strong>30.02</strong> VS Code extensions</li>
+  <li><strong>32.45</strong> Keyboard shortcuts</li>
+  <li><strong>41.05</strong> code-server vs Github Codespaces</li>
+  <li><strong>43.43</strong> How can we contribute to code-server?</li>
+  <li><strong>48.59</strong> Which future for code-server?</li>
+  <li><strong>50.49</strong> Are we all doomed to develop on our smartphones?</li>
+  <li><strong>54.09</strong> Further reading</li>
+  <li><strong>55.23</strong> Where to find Joe online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/cdr/code-server">cdr/code-server on Github</a></li>
+  <li>Official resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://coder.com">coder.com Official Website</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://coder.com/docs/code-server/latest">code-server official documentation</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://github.com/cdr/deploy-code-server">deploy-code-server - Scripts and guides for deploying code-server to various platforms</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://community.coder.com/coffee-and-coder">Coffee and Coder</a></li>
+      <li><i class="fab fa-twitch"></i> <a href="https://www.twitch.tv/coderhq_">coderhq_ on Twitch</a></li>
+      <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/channel/UCWexK_ECcUU3vEIdb-VYkfw">Coder on YouTube</a></li>
+      <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/strawberry_gql">@coderhq on Twitter</a></li>
+      <li><i class="fab fa-slack"></i> <a href="https://cdr.co/join-community">Official Coder Slack</a></li>
+    </ul>
+  </li>
+  <li>Mentioned Resources &amp; Projects:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://xtermjs.org/">xtermjs.org - A terminal for the web</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://mightyapp.com/">mightyapp.com - Make Chrome Faster</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://jestjs.io/">jestjs.io - Delightful JavaScript Testing</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://playwright.dev /">jestjs.io - E2E Browser Testing</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://open-vsx.org/">open-vsx.org - Opensource VS Code Extensions</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://duckly.com/">duckly.com - Real-time code sharing and collaboration inside IDE</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://termux.com/">termux.com - Android terminal emulator</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/jsjoeio">@jsjoeio on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/jsjoeio">@jsjoeio on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/18-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>56:36</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Strawberry with Patrick Arminio</title>

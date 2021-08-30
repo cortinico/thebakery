@@ -106,4 +106,10 @@ var store = [{
         "tags": [],
         "url": "/17/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#18 - code-server with Joe Previte",
+        "excerpt":"Are you ready to relocate your IDE to the cloud ☁️? In this episode we welcome on stage Joe Previte to talk about code-server, the solution to run VS Code in your browser. Joe is also working for coder.com, an enterprise service that offers code-server deployment ready to use. Today...","categories": [],
+        "tags": [],
+        "url": "/18/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]
