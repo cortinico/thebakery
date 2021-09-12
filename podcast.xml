@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Mon, 30 Aug 2021 19:39:59 +0200</lastBuildDate>
+<lastBuildDate>Sun, 12 Sep 2021 22:10:50 +0200</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -117,7 +117,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
       <li><i class="fas fa-link"></i> <a href="https://community.coder.com/coffee-and-coder">Coffee and Coder</a></li>
       <li><i class="fab fa-twitch"></i> <a href="https://www.twitch.tv/coderhq_">coderhq_ on Twitch</a></li>
       <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/channel/UCWexK_ECcUU3vEIdb-VYkfw">Coder on YouTube</a></li>
-      <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/strawberry_gql">@coderhq on Twitter</a></li>
+      <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/coderhq">@coderhq on Twitter</a></li>
       <li><i class="fab fa-slack"></i> <a href="https://cdr.co/join-community">Official Coder Slack</a></li>
     </ul>
   </li>
