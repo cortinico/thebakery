@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Sun, 12 Sep 2021 22:10:50 +0200</lastBuildDate>
+<lastBuildDate>Mon, 20 Sep 2021 16:21:57 +0200</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,113 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Arrow with Simon Vergauwen</title>
+        <itunes:title>Arrow with Simon Vergauwen</itunes:title>
+        <link>https://thebakery.dev/19/</link>
+        <pubDate>Mon, 20 Sep 2021 00:00:00 +0200</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/19/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>19</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/19-thedevelopersbakery-arrow.m4a" length="16981603" type="audio/mpeg" />
+
+        <itunes:subtitle>Today we venture into the realm of Functional Programming with Arrow and Simon Vergauwen</itunes:subtitle>
+        <itunes:summary>Today we venture into the realm of Functional Programming with Arrow and Simon Vergauwen</itunes:summary>
+
+        
+        <description>
+            <![CDATA[Today we venture into the realm of Functional Programming with Arrow 🏹 and Simon Vergauwen. Arrow is the functional companion library for Kotlin. It makes writing FP code easier thanks to classes and extensions to the Kotlin standard library. In this episode we talk about the story of this library...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>Today we venture into the realm of Functional Programming with <a href="https://github.com/arrow-kt/arrow"><strong>Arrow</strong></a> 🏹 and <a href="https://twitter.com/vergauwen_simon"><strong>Simon Vergauwen</strong></a>.</p>
+
+<p>Arrow is the <strong>functional companion</strong> library for Kotlin. It makes writing FP code easier thanks to classes and extensions to the Kotlin standard library. In this episode we talk about the story of this library and what is offering nowadays to Kotlin developers.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.25</strong> Intro</li>
+  <li><strong>01.11</strong> Episode Start</li>
+  <li><strong>01.28</strong> Simon’s Introduction</li>
+  <li><strong>02.17</strong> What is Arrow?</li>
+  <li><strong>03.10</strong> Let’s talk about Functional Programming</li>
+  <li><strong>05.51</strong> Examples of FP</li>
+  <li><strong>07.23</strong> Kotlin vs other FP languages</li>
+  <li><strong>08.55</strong> What is Arrow providing on top of Kotlin?</li>
+  <li><strong>11.28</strong> Extensions and Classes from Arrow</li>
+  <li><strong>13.37</strong> Arrow Core and other Arrow libraries</li>
+  <li><strong>15.21</strong> The story of Arrow</li>
+  <li><strong>17.18</strong> The learning curve</li>
+  <li><strong>20.13</strong> Do I need to know FP before using Arrow?</li>
+  <li><strong>21.47</strong> What’s the prospective of the Arrow community?</li>
+  <li><strong>23.26</strong> Arrow Optics and Arrow Meta</li>
+  <li><strong>25.10</strong> Monorepo in the Arrow org</li>
+  <li><strong>27.17</strong> What is 47 Degrees?</li>
+  <li><strong>28.47</strong> How to see FP to a customer?</li>
+  <li><strong>30.35</strong> How is 47 Degrees supporting Arrow?</li>
+  <li><strong>31.57</strong> How you got involved with Arrow?</li>
+  <li><strong>33.19</strong> How is Arrow maintained?</li>
+  <li><strong>34.45</strong> How to contribute to Arrow?</li>
+  <li><strong>36.22</strong> Further reading</li>
+  <li><strong>37.52</strong> The future of Arrow</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/arrow-kt/arrow">arrow-kt/arrow on Github</a></li>
+  <li>Official Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://media.arrow-kt.io/">Arrow Media Resources</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://arrow-kt.io/">Arrow Official Website</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://arrow-kt.io/docs/core/">Arrow Core Documentation</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://arrow-kt.io/docs/fx/">Arrow Fx Documentation</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://arrow-kt.io/docs/optics/dsl/">Arrow Optics Documentation</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://arrow-kt.io/docs/meta/">Arrow Meta Documentation</a></li>
+    </ul>
+  </li>
+  <li>Mentioned Projects:
+    <ul>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/MarioAriasC/funKTionale">MarioAriasC/funKTionale on Github</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/47deg/kategory-intro">47deg/kategory-intro on Github</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/arrow_kt">@arrow_kt on Twitter</a></li>
+  <li><i class="fab fa-slack"></i> <a href="https://kotlinlang.slack.com/archives/C5UPMM0A0">#arrow on Kotlinlang Slack</a> (get an <a href="https://surveys.jetbrains.com/s3/kotlin-slack-sign-up?_ga=2.193829357.1956188841.1610124096-293668568.1579015494">invite here</a>)</li>
+  <li><i class="fas fa-link"></i> <a href="https://www.47deg.com/">47 Degrees Website</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/nomisRev">@nomisRev on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/vergauwen_simon">@vergauwen_simon on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/19-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>42:35</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>code-server with Joe Previte</title>

@@ -1,4 +1,77 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2021-09-12T22:10:50+02:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#18 - code-server with Joe Previte</title><link href="https://thebakery.dev/18/" rel="alternate" type="text/html" title="#18 - code-server with Joe Previte" /><published>2021-08-30T00:00:00+02:00</published><updated>2021-08-30T00:00:00+02:00</updated><id>https://thebakery.dev/018-code-server</id><content type="html" xml:base="https://thebakery.dev/18/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2021-09-20T16:21:57+02:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#19 - Arrow with Simon Vergauwen</title><link href="https://thebakery.dev/19/" rel="alternate" type="text/html" title="#19 - Arrow with Simon Vergauwen" /><published>2021-09-20T00:00:00+02:00</published><updated>2021-09-20T00:00:00+02:00</updated><id>https://thebakery.dev/019-arrow</id><content type="html" xml:base="https://thebakery.dev/19/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Today we venture into the realm of Functional Programming with &lt;a href=&quot;https://github.com/arrow-kt/arrow&quot;&gt;&lt;strong&gt;Arrow&lt;/strong&gt;&lt;/a&gt; 🏹 and &lt;a href=&quot;https://twitter.com/vergauwen_simon&quot;&gt;&lt;strong&gt;Simon Vergauwen&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Arrow is the &lt;strong&gt;functional companion&lt;/strong&gt; library for Kotlin. It makes writing FP code easier thanks to classes and extensions to the Kotlin standard library. In this episode we talk about the story of this library and what is offering nowadays to Kotlin developers.&lt;/p&gt;
+
+&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
+
+&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;00.25&lt;/strong&gt; Intro&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;01.11&lt;/strong&gt; Episode Start&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;01.28&lt;/strong&gt; Simon’s Introduction&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;02.17&lt;/strong&gt; What is Arrow?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;03.10&lt;/strong&gt; Let’s talk about Functional Programming&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;05.51&lt;/strong&gt; Examples of FP&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;07.23&lt;/strong&gt; Kotlin vs other FP languages&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;08.55&lt;/strong&gt; What is Arrow providing on top of Kotlin?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;11.28&lt;/strong&gt; Extensions and Classes from Arrow&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;13.37&lt;/strong&gt; Arrow Core and other Arrow libraries&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;15.21&lt;/strong&gt; The story of Arrow&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;17.18&lt;/strong&gt; The learning curve&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;20.13&lt;/strong&gt; Do I need to know FP before using Arrow?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;21.47&lt;/strong&gt; What’s the prospective of the Arrow community?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;23.26&lt;/strong&gt; Arrow Optics and Arrow Meta&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;25.10&lt;/strong&gt; Monorepo in the Arrow org&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;27.17&lt;/strong&gt; What is 47 Degrees?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;28.47&lt;/strong&gt; How to see FP to a customer?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;30.35&lt;/strong&gt; How is 47 Degrees supporting Arrow?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;31.57&lt;/strong&gt; How you got involved with Arrow?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;33.19&lt;/strong&gt; How is Arrow maintained?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;34.45&lt;/strong&gt; How to contribute to Arrow?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;36.22&lt;/strong&gt; Further reading&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;37.52&lt;/strong&gt; The future of Arrow&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/arrow-kt/arrow&quot;&gt;arrow-kt/arrow on Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Official Resources:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://media.arrow-kt.io/&quot;&gt;Arrow Media Resources&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://arrow-kt.io/&quot;&gt;Arrow Official Website&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://arrow-kt.io/docs/core/&quot;&gt;Arrow Core Documentation&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://arrow-kt.io/docs/fx/&quot;&gt;Arrow Fx Documentation&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://arrow-kt.io/docs/optics/dsl/&quot;&gt;Arrow Optics Documentation&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://arrow-kt.io/docs/meta/&quot;&gt;Arrow Meta Documentation&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Mentioned Projects:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/MarioAriasC/funKTionale&quot;&gt;MarioAriasC/funKTionale on Github&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/47deg/kategory-intro&quot;&gt;47deg/kategory-intro on Github&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/arrow_kt&quot;&gt;@arrow_kt on Twitter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-slack&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://kotlinlang.slack.com/archives/C5UPMM0A0&quot;&gt;#arrow on Kotlinlang Slack&lt;/a&gt; (get an &lt;a href=&quot;https://surveys.jetbrains.com/s3/kotlin-slack-sign-up?_ga=2.193829357.1956188841.1610124096-293668568.1579015494&quot;&gt;invite here&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.47deg.com/&quot;&gt;47 Degrees Website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/nomisRev&quot;&gt;@nomisRev on Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/vergauwen_simon&quot;&gt;@vergauwen_simon on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">Today we venture into the realm of Functional Programming with Arrow and Simon Vergauwen</summary></entry><entry><title type="html">#18 - code-server with Joe Previte</title><link href="https://thebakery.dev/18/" rel="alternate" type="text/html" title="#18 - code-server with Joe Previte" /><published>2021-08-30T00:00:00+02:00</published><updated>2021-08-30T00:00:00+02:00</updated><id>https://thebakery.dev/018-code-server</id><content type="html" xml:base="https://thebakery.dev/18/">&lt;iframe src=&quot;https://open.spotify.com/embed/episode/13kkTyxXbSU04bdWYOk9vs&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;Are you ready to &lt;strong&gt;relocate&lt;/strong&gt; your IDE to the &lt;strong&gt;cloud&lt;/strong&gt; ☁️?&lt;/p&gt;
 
@@ -627,69 +700,4 @@ deep-clean will take care of cleaning up your build caches. If you’re really s
   &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">It's time to discover a beautiful Kotlin Multiplatform mobile app: Press with Saket Narayan</summary></entry><entry><title type="html">#09 - JaCoCo with Evgeny Mandrikov</title><link href="https://thebakery.dev/09/" rel="alternate" type="text/html" title="#09 - JaCoCo with Evgeny Mandrikov" /><published>2021-03-29T00:00:00+02:00</published><updated>2021-03-29T00:00:00+02:00</updated><id>https://thebakery.dev/009-jacoco</id><content type="html" xml:base="https://thebakery.dev/09/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/episode/2xzTlDHdQYbAUCnu32TwxT&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;This episode is going to be all about &lt;strong&gt;testing&lt;/strong&gt; and &lt;strong&gt;code coverage&lt;/strong&gt; 🧪 as we have &lt;a href=&quot;https://twitter.com/_Godin_&quot;&gt;Evgeny Mandrikov&lt;/a&gt; on stage!&lt;/p&gt;
-
-&lt;p&gt;He’s going to tell use the story behind &lt;a href=&quot;https://www.jacoco.org/jacoco/&quot;&gt;JaCoCo&lt;/a&gt;, aka &lt;strong&gt;Ja&lt;/strong&gt;va &lt;strong&gt;Co&lt;/strong&gt;de &lt;strong&gt;Co&lt;/strong&gt;verage, one the most popular code coverage library for Java, Kotlin and the JVM.&lt;/p&gt;
-
-&lt;p&gt;If you’re curious to learn how a code coverage tool works internally, make sure to don’t miss this episode.&lt;/p&gt;
-
-&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
-
-&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;00:15&lt;/strong&gt; Intro&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;01:02&lt;/strong&gt; Episode Start&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;01:42&lt;/strong&gt; Evgeny’s Introduction&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;02:45&lt;/strong&gt; What is JaCoCo?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;03:52&lt;/strong&gt; One tool for one function&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;04:59&lt;/strong&gt; Is JaCoCo in “maintenance” mode?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;07:03&lt;/strong&gt; Convince us that coverage is important&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;09:59&lt;/strong&gt; JaCoCo as a debugging tool&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;11:50&lt;/strong&gt; Where to use code coverage?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;14:11&lt;/strong&gt; Patch vs total coverage&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;18:04&lt;/strong&gt; How JaCoCo works?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;21:57&lt;/strong&gt; Source based instrumentation&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;24:54&lt;/strong&gt; Pattern matching and code coverage&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;26:54&lt;/strong&gt; Is JaCoCo ever failing?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;29:57&lt;/strong&gt; Kotlin inline functions&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;34:30&lt;/strong&gt; Integrating with JaCoCo&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;36:00&lt;/strong&gt; JaCoCo vs IntelliJ Code Coverage?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;39:57&lt;/strong&gt; Is a mailing anachronistic?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;42:28&lt;/strong&gt; How to contribute to JaCoCo?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;45:13&lt;/strong&gt; What’s the future for JaCoCo?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;48:07&lt;/strong&gt; Evgeny’s dream about JaCoCo&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;49:53&lt;/strong&gt; Learning Material&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;51:04&lt;/strong&gt; Where to find Evgeny online?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/jacoco/jacoco&quot;&gt;jacoco/jacoco on Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.jacoco.org/jacoco/&quot;&gt;JaCoCo Official Documentation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-at&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://groups.google.com/forum/#!forum/jacoco-dev&quot;&gt;JaCoCo Mailing List&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-stack-overflow&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://stackoverflow.com/questions/tagged/jacoco&quot;&gt;JaCoCo on StackOverflow&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Further reference:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/jacoco/jacoco/wiki/FilteringOptions&quot;&gt;JaCoCo &amp;amp; Language support&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.jacoco.org/jacoco/trunk/doc/integrations.html&quot;&gt;List of all the JaCoCo Integrations&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.jacoco.org/research/index.html&quot;&gt;Talks and presentations about JaCoCo&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/Godin&quot;&gt;@Godin on Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/_Godin_&quot;&gt;@_Godin_ on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">Are you ready to uncover all the secrets of code coverage? Don't miss this episode where Evgeny Mandrikov will tell us the story behind JaCoCo!</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">It's time to discover a beautiful Kotlin Multiplatform mobile app: Press with Saket Narayan</summary></entry></feed>

@@ -112,4 +112,10 @@ var store = [{
         "tags": [],
         "url": "/18/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#19 - Arrow with Simon Vergauwen",
+        "excerpt":"Today we venture into the realm of Functional Programming with Arrow 🏹 and Simon Vergauwen. Arrow is the functional companion library for Kotlin. It makes writing FP code easier thanks to classes and extensions to the Kotlin standard library. In this episode we talk about the story of this library...","categories": [],
+        "tags": [],
+        "url": "/19/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]
