@@ -118,4 +118,10 @@ var store = [{
         "tags": [],
         "url": "/19/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#20 - Running with Enrique López-Mañas",
+        "excerpt":"So we made it to Episode 20! 🎂. If you’ve been enjoying this podcast so far, please consider making a small donation to my London Marathon 2021 fundaraising. You’ll be supporting Mencap, the voice of Learning Disabilities 🙏 Thank you so much. We’re celebrating this milestone with a special episode....","categories": [],
+        "tags": [],
+        "url": "/20/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

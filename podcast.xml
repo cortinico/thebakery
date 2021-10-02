@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Thu, 30 Sep 2021 14:34:48 +0200</lastBuildDate>
+<lastBuildDate>Sat, 02 Oct 2021 16:16:06 +0200</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,93 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Running with Enrique López-Mañas</title>
+        <itunes:title>Running with Enrique López-Mañas</itunes:title>
+        <link>https://thebakery.dev/20/</link>
+        <pubDate>Sat, 02 Oct 2021 00:00:00 +0200</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/20/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>20</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/20-thedevelopersbakery-running.m4a" length="23825194" type="audio/mpeg" />
+
+        <itunes:subtitle>In this special episode we ask Enrique to tell us his personal experiences with Running</itunes:subtitle>
+        <itunes:summary>In this special episode we ask Enrique to tell us his personal experiences with Running</itunes:summary>
+
+        
+        <description>
+            <![CDATA[So we made it to Episode 20! 🎂. If you’ve been enjoying this podcast so far, please consider making a small donation to my London Marathon 2021 fundaraising. You’ll be supporting Mencap, the voice of Learning Disabilities 🙏 Thank you so much. We’re celebrating this milestone with a special episode....]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>So we made it to <strong>Episode 20! 🎂</strong>.</p>
+
+<p class="notice--info">If you’ve been enjoying this podcast so far, please consider making a <a href="https://www.gofundme.com/f/run-4-learning-disabilities">small donation to my London Marathon 2021 fundaraising</a>. You’ll be supporting Mencap, the voice of Learning Disabilities 🙏 Thank you so much.</p>
+
+<p>We’re celebrating this milestone with a special episode.
+The tool we’re going to talk about today is not a Github library, but a sport that is getting more and more popular in the developer community: <strong>Running 🏃‍♂️</strong>.</p>
+
+<p>I’m excited to have on stage <a href="https://twitter.com/eenriquelopez"><strong>Enrique López-Mañas</strong></a>, GDE for Kotlin &amp; Android, Maitnainer of Kotlin Weekly and (Ultra) Marathon runner.</p>
+
+<p>Enrique will share with us his passion for running and will tell us how <strong>software engineers</strong> can <strong>benefit</strong> from this sport. He has also been successufully running Kotlin weekly for the last 5 years, so he has a lot to tell about <strong>endurance</strong> as well.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.46</strong> Episode Start</li>
+  <li><strong>02.07</strong> Enrique’s Introduction</li>
+  <li><strong>03.17</strong> How you got into running?</li>
+  <li><strong>07.39</strong> How hard is to run a marathon?</li>
+  <li><strong>10.37</strong> Aren’t you bored of running?</li>
+  <li><strong>15.26</strong> Any memorable run to share?</li>
+  <li><strong>23.08</strong> Running the New York Marathon</li>
+  <li><strong>26.28</strong> Meeting new people while running</li>
+  <li><strong>28.23</strong> The psychology of running a marathon</li>
+  <li><strong>31.51</strong> What software developers can learn from running?</li>
+  <li><strong>36.07</strong> Running a marathon vs running a newsletter: Kotlin Weekly</li>
+  <li><strong>45.17</strong> Have you ever fundraised for a race?</li>
+  <li><strong>50.55</strong> What would you suggest to new runners?</li>
+  <li><strong>56.45</strong> Where to find Enrique online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="http://www.kotlinweekly.net/">Kotlin Weekly Website</a></li>
+  <li><i class="fab fa-strava"></i> <a href="https://www.strava.com/athletes/25656586">Enrique on Strava</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/eenriquelopez">@eenriquelopez on Twitter</a></li>
+  <li><i class="fas fa-hand-holding-heart"></i> <a href="https://www.gofundme.com/f/run-4-learning-disabilities">Run 4 Learning Disabilities - Fundraising on Gofundme</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/20-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>01:00:15</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Arrow with Simon Vergauwen</title>

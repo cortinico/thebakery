@@ -1,4 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2021-09-30T14:34:48+02:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#19 - Arrow with Simon Vergauwen</title><link href="https://thebakery.dev/19/" rel="alternate" type="text/html" title="#19 - Arrow with Simon Vergauwen" /><published>2021-09-20T00:00:00+02:00</published><updated>2021-09-20T00:00:00+02:00</updated><id>https://thebakery.dev/019-arrow</id><content type="html" xml:base="https://thebakery.dev/19/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2021-10-02T16:16:06+02:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#20 - Running with Enrique López-Mañas</title><link href="https://thebakery.dev/20/" rel="alternate" type="text/html" title="#20 - Running with Enrique López-Mañas" /><published>2021-10-02T00:00:00+02:00</published><updated>2021-10-02T00:00:00+02:00</updated><id>https://thebakery.dev/020-running</id><content type="html" xml:base="https://thebakery.dev/20/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;So we made it to &lt;strong&gt;Episode 20! 🎂&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p class=&quot;notice--info&quot;&gt;If you’ve been enjoying this podcast so far, please consider making a &lt;a href=&quot;https://www.gofundme.com/f/run-4-learning-disabilities&quot;&gt;small donation to my London Marathon 2021 fundaraising&lt;/a&gt;. You’ll be supporting Mencap, the voice of Learning Disabilities 🙏 Thank you so much.&lt;/p&gt;
+
+&lt;p&gt;We’re celebrating this milestone with a special episode.
+The tool we’re going to talk about today is not a Github library, but a sport that is getting more and more popular in the developer community: &lt;strong&gt;Running 🏃‍♂️&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;I’m excited to have on stage &lt;a href=&quot;https://twitter.com/eenriquelopez&quot;&gt;&lt;strong&gt;Enrique López-Mañas&lt;/strong&gt;&lt;/a&gt;, GDE for Kotlin &amp;amp; Android, Maitnainer of Kotlin Weekly and (Ultra) Marathon runner.&lt;/p&gt;
+
+&lt;p&gt;Enrique will share with us his passion for running and will tell us how &lt;strong&gt;software engineers&lt;/strong&gt; can &lt;strong&gt;benefit&lt;/strong&gt; from this sport. He has also been successufully running Kotlin weekly for the last 5 years, so he has a lot to tell about &lt;strong&gt;endurance&lt;/strong&gt; as well.&lt;/p&gt;
+
+&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
+
+&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;00.00&lt;/strong&gt; Intro&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;00.46&lt;/strong&gt; Episode Start&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;02.07&lt;/strong&gt; Enrique’s Introduction&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;03.17&lt;/strong&gt; How you got into running?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;07.39&lt;/strong&gt; How hard is to run a marathon?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;10.37&lt;/strong&gt; Aren’t you bored of running?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;15.26&lt;/strong&gt; Any memorable run to share?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;23.08&lt;/strong&gt; Running the New York Marathon&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;26.28&lt;/strong&gt; Meeting new people while running&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;28.23&lt;/strong&gt; The psychology of running a marathon&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;31.51&lt;/strong&gt; What software developers can learn from running?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;36.07&lt;/strong&gt; Running a marathon vs running a newsletter: Kotlin Weekly&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;45.17&lt;/strong&gt; Have you ever fundraised for a race?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;50.55&lt;/strong&gt; What would you suggest to new runners?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;56.45&lt;/strong&gt; Where to find Enrique online?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://www.kotlinweekly.net/&quot;&gt;Kotlin Weekly Website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-strava&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.strava.com/athletes/25656586&quot;&gt;Enrique on Strava&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/eenriquelopez&quot;&gt;@eenriquelopez on Twitter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-hand-holding-heart&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.gofundme.com/f/run-4-learning-disabilities&quot;&gt;Run 4 Learning Disabilities - Fundraising on Gofundme&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">In this special episode we ask Enrique to tell us his personal experiences with Running</summary></entry><entry><title type="html">#19 - Arrow with Simon Vergauwen</title><link href="https://thebakery.dev/19/" rel="alternate" type="text/html" title="#19 - Arrow with Simon Vergauwen" /><published>2021-09-20T00:00:00+02:00</published><updated>2021-09-20T00:00:00+02:00</updated><id>https://thebakery.dev/019-arrow</id><content type="html" xml:base="https://thebakery.dev/19/">&lt;iframe src=&quot;https://open.spotify.com/embed/episode/0dSWvqOSnAGayyBRWsE8sT&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;Today we venture into the realm of Functional Programming with &lt;a href=&quot;https://github.com/arrow-kt/arrow&quot;&gt;&lt;strong&gt;Arrow&lt;/strong&gt;&lt;/a&gt; 🏹 and &lt;a href=&quot;https://twitter.com/vergauwen_simon&quot;&gt;&lt;strong&gt;Simon Vergauwen&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 
@@ -638,66 +691,4 @@ deep-clean will take care of cleaning up your build caches. If you’re really s
   &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">Today we deep dive into metaprogramming, code generation and compiler plugins with Zac Sweers, talking about his experience with MoshiX and KSP</summary></entry><entry><title type="html">#10 - Press with Saket Narayan</title><link href="https://thebakery.dev/10/" rel="alternate" type="text/html" title="#10 - Press with Saket Narayan" /><published>2021-04-12T00:00:00+02:00</published><updated>2021-04-12T00:00:00+02:00</updated><id>https://thebakery.dev/010-press</id><content type="html" xml:base="https://thebakery.dev/10/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/episode/3FhR98b7Z3UU1lTl7Xujyu&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;🎂 &lt;strong&gt;We’re happy to celebrate our 10th episode!&lt;/strong&gt; 🎂&lt;/p&gt;
-
-&lt;p&gt;And today we have on stage, &lt;a href=&quot;https://twitter.com/saketme&quot;&gt;Saket Narayan&lt;/a&gt;, Android Engineer at Square. Saket is an master of Android &lt;strong&gt;UI&lt;/strong&gt; and &lt;strong&gt;Custom Views&lt;/strong&gt; and today is on stage to talk to us about &lt;strong&gt;Press&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/saket/press&quot;&gt;Press&lt;/a&gt; is a beautiful App for taking notes as &lt;strong&gt;markdown&lt;/strong&gt;. The app is completely &lt;strong&gt;open source&lt;/strong&gt; and is a great inspiration for minimal yet elegant UI.&lt;/p&gt;
-
-&lt;p&gt;Moreover, Press is developed with &lt;strong&gt;Kotlin Multiplatform&lt;/strong&gt;. This project is a great example of how you can share Kotlin code between &lt;strong&gt;Android&lt;/strong&gt;, &lt;strong&gt;iOS&lt;/strong&gt; and &lt;strong&gt;MacOS&lt;/strong&gt;. Make sure to don’t miss it.&lt;/p&gt;
-
-&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
-
-&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;00:13&lt;/strong&gt; Intro&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;00:59&lt;/strong&gt; Episode Start&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;01:35&lt;/strong&gt; Saket’s Introduction&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;02:34&lt;/strong&gt; What is Press?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;03:45&lt;/strong&gt; What makes Press special?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;05:40&lt;/strong&gt; What is Kotlin Multiplatform?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;07:27&lt;/strong&gt; Flutter vs Kotlin Multiplatform?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;08:37&lt;/strong&gt; How much code where you able to share?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;09:50&lt;/strong&gt; What are the challenges of shipping iOS/MacOS apps?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;11:51&lt;/strong&gt; From Mobile to Desktop&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;12:45&lt;/strong&gt; Shipping to ChromeOS?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;13:20&lt;/strong&gt; What’s your Multiplatform Stack?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;14:12&lt;/strong&gt; Network in a Multiplatform environment&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;15:12&lt;/strong&gt; KTor as a client library&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;16:08&lt;/strong&gt; How have you wrote the UI?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;17:05&lt;/strong&gt; What are the benefits of Custom Views&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;19:12&lt;/strong&gt; Is Jetpack Compose on the horizon?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;21:05&lt;/strong&gt; Which IDE for iOS?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;21:59&lt;/strong&gt; What is missing in AppCode?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;24:40&lt;/strong&gt; What would you do differently?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;26:22&lt;/strong&gt; Are you looking for contributors?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;28:37&lt;/strong&gt; Missing features?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;29:34&lt;/strong&gt; Further reading&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;30:39&lt;/strong&gt; Where to find Saket online?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/saket/press&quot;&gt;saket/press on Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/saket/press/tree/trunk/documentation&quot;&gt;Press Official Documentation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://play.google.com/store/apps/details?id=me.saket.press&quot;&gt;Press on Play Store&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/cashapp/contour&quot;&gt;cashapp/contour on Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/saket&quot;&gt;@saket on Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://saket.me&quot;&gt;Saket Blog&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/saketme&quot;&gt;@saketme on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">It's time to discover a beautiful Kotlin Multiplatform mobile app: Press with Saket Narayan</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">Today we deep dive into metaprogramming, code generation and compiler plugins with Zac Sweers, talking about his experience with MoshiX and KSP</summary></entry></feed>
