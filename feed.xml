@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2021-10-02T16:16:06+02:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#20 - Running with Enrique López-Mañas</title><link href="https://thebakery.dev/20/" rel="alternate" type="text/html" title="#20 - Running with Enrique López-Mañas" /><published>2021-10-02T00:00:00+02:00</published><updated>2021-10-02T00:00:00+02:00</updated><id>https://thebakery.dev/020-running</id><content type="html" xml:base="https://thebakery.dev/20/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2021-10-06T21:44:05+02:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#20 - Running with Enrique López-Mañas</title><link href="https://thebakery.dev/20/" rel="alternate" type="text/html" title="#20 - Running with Enrique López-Mañas" /><published>2021-10-02T00:00:00+02:00</published><updated>2021-10-02T00:00:00+02:00</updated><id>https://thebakery.dev/020-running</id><content type="html" xml:base="https://thebakery.dev/20/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;So we made it to &lt;strong&gt;Episode 20! 🎂&lt;/strong&gt;.&lt;/p&gt;
 
@@ -18,19 +18,19 @@ The tool we’re going to talk about today is not a Github library, but a sport 
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;00.00&lt;/strong&gt; Intro&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;00.46&lt;/strong&gt; Episode Start&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;02.07&lt;/strong&gt; Enrique’s Introduction&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;03.17&lt;/strong&gt; How you got into running?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;07.39&lt;/strong&gt; How hard is to run a marathon?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;10.37&lt;/strong&gt; Aren’t you bored of running?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;15.26&lt;/strong&gt; Any memorable run to share?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;23.08&lt;/strong&gt; Running the New York Marathon&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;26.28&lt;/strong&gt; Meeting new people while running&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;28.23&lt;/strong&gt; The psychology of running a marathon&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;31.51&lt;/strong&gt; What software developers can learn from running?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;36.07&lt;/strong&gt; Running a marathon vs running a newsletter: Kotlin Weekly&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;45.17&lt;/strong&gt; Have you ever fundraised for a race?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;50.55&lt;/strong&gt; What would you suggest to new runners?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;56.45&lt;/strong&gt; Where to find Enrique online?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;03.18&lt;/strong&gt; Enrique’s Introduction&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;04.28&lt;/strong&gt; How you got into running?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;08.51&lt;/strong&gt; How hard is to run a marathon?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;11.49&lt;/strong&gt; Aren’t you bored of running?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;16.37&lt;/strong&gt; Any memorable run to share?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;24.19&lt;/strong&gt; Running the New York Marathon&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;27.39&lt;/strong&gt; Meeting new people while running&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;29.34&lt;/strong&gt; The psychology of running a marathon&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;33.02&lt;/strong&gt; What software developers can learn from running?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;37.18&lt;/strong&gt; Running a marathon vs running a newsletter: Kotlin Weekly&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;46.29&lt;/strong&gt; Have you ever fundraised for a race?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;52.06&lt;/strong&gt; What would you suggest to new runners?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;57.56&lt;/strong&gt; Where to find Enrique online?&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
