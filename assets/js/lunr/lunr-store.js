@@ -124,4 +124,10 @@ var store = [{
         "tags": [],
         "url": "/20/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#21 - Firefox for Android with Sebastian Kaspari",
+        "excerpt":"You don’t get to build a browser every day right? Today we have Sebastian Kaspari on stage to talk us about Firefox for Android 🦊. Together we will walk through what it takes to write a mobile browser, and we will discover some of the open-source projects in the Mozilla...","categories": [],
+        "tags": [],
+        "url": "/21/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

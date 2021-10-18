@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Wed, 06 Oct 2021 21:44:05 +0200</lastBuildDate>
+<lastBuildDate>Mon, 18 Oct 2021 15:08:33 +0200</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,103 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Firefox for Android with Sebastian Kaspari</title>
+        <itunes:title>Firefox for Android with Sebastian Kaspari</itunes:title>
+        <link>https://thebakery.dev/21/</link>
+        <pubDate>Mon, 18 Oct 2021 00:00:00 +0200</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/21/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>21</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/21-thedevelopersbakery-firefox.m4a" length="19860125" type="audio/mpeg" />
+
+        <itunes:subtitle>What it takes to build a browser? Today we have Sebastian Kaspari on stage to tell us about it with Firefox for Android</itunes:subtitle>
+        <itunes:summary>What it takes to build a browser? Today we have Sebastian Kaspari on stage to tell us about it with Firefox for Android</itunes:summary>
+
+        
+        <description>
+            <![CDATA[You don’t get to build a browser every day right? Today we have Sebastian Kaspari on stage to talk us about Firefox for Android 🦊. Together we will walk through what it takes to write a mobile browser, and we will discover some of the open-source projects in the Mozilla...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>You don’t get to build a <strong>browser</strong> every day right? Today we have <a href="https://twitter.com/Anti_Hype"><strong>Sebastian Kaspari</strong></a> on stage to talk us about <a href="https://github.com/mozilla-mobile/fenix"><strong>Firefox for Android</strong></a> 🦊.</p>
+
+<p>Together we will walk through what it takes to <strong>write a mobile browser</strong>, and we will discover some of the open-source projects in the Mozilla ecosystem such as Firefox <strong>Focus</strong>, <strong>GeckoView</strong> and Mozilla <strong>Android Components</strong>.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.13</strong> Intro</li>
+  <li><strong>00.59</strong> Episode Start</li>
+  <li><strong>01.24</strong> Sebastian’s Introduction</li>
+  <li><strong>02.12</strong> What is Fenix?</li>
+  <li><strong>03.11</strong> The big rewrite</li>
+  <li><strong>04.42</strong> Code sharing between Mobile and Desktop</li>
+  <li><strong>07.26</strong> Feature parity</li>
+  <li><strong>09.34</strong> From monorepo to separate repos</li>
+  <li><strong>12.29</strong> The story of Firefox for Android</li>
+  <li><strong>18.23</strong> What is needed to build a browser?</li>
+  <li><strong>20.06</strong> GeckoView</li>
+  <li><strong>22.15</strong> WebViews vs GeckoViews</li>
+  <li><strong>24.01</strong> Mozilla Android Components</li>
+  <li><strong>26.34</strong> Specific Browser Components</li>
+  <li><strong>27.46</strong> From Github to the PlayStore</li>
+  <li><strong>29.12</strong> Nightly, Alpha, Beta and Stable</li>
+  <li><strong>31.01</strong> Reproducible Builds</li>
+  <li><strong>33.56</strong> Firefox Focus</li>
+  <li><strong>37.31</strong> Firefox Tech Stack and Architecture</li>
+  <li><strong>40.56</strong> How many engineers are behind Firefox for Android?</li>
+  <li><strong>42.05</strong> External Contributors to Firefox</li>
+  <li><strong>43.36</strong> How to start contributing to Firefox?</li>
+  <li><strong>46.24</strong> Further reading</li>
+  <li><strong>47.48</strong> What’s the future for Firefox on Android?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/mozilla-mobile/fenix">mozilla-mobile/fenix on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://www.mozilla.org/en-US/firefox/mobile/">Firefox for Android Official Website</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://whatcanidoformozilla.org/">whatcanidoformozilla.org</a></li>
+  <li>Mentioned Projects:
+    <ul>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/mozilla-mobile/focus-android">mozilla-mobile/focus-android on Github</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/mozilla-mobile/android-components">mozilla-mobile/android-components on Github</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://mozilla.github.io/geckovi_gql">GeckoView Official Website</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/pocmo">@pocmo on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/Anti_Hype">@Anti_Hype on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/21-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>50:06</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Running with Enrique López-Mañas</title>
