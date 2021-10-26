@@ -68,7 +68,7 @@ Enjoy the show 👨‍🍳
 * Mentioned Projects:
     * <i class="fab fa-github"></i> [mozilla-mobile/focus-android on Github](https://github.com/mozilla-mobile/focus-android)
     * <i class="fab fa-github"></i> [mozilla-mobile/android-components on Github](https://github.com/mozilla-mobile/android-components)
-    * <i class="fas fa-link"></i> [GeckoView Official Website](https://mozilla.github.io/geckovi_gql)
+    * <i class="fas fa-link"></i> [GeckoView Official Website](https://mozilla.github.io/geckoview)
 * <i class="fab fa-github"></i> [@pocmo on Github](https://github.com/pocmo)
 * <i class="fab fa-twitter"></i> [@Anti_Hype on Twitter](https://twitter.com/Anti_Hype)
 
