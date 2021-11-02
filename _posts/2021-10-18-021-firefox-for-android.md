@@ -25,7 +25,7 @@ podcast_duration: "50:06"
 podcast_length: 19860125
 ---
 
-<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe src="https://open.spotify.com/embed/episode/3xAILb4BdZH5KxLTiFTSw8" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
 You don't get to build a **browser** every day right? Today we have [**Sebastian Kaspari**](https://twitter.com/Anti_Hype) on stage to talk us about [**Firefox for Android**](https://github.com/mozilla-mobile/fenix) 🦊.
 
