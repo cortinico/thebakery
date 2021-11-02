@@ -16,7 +16,7 @@ test:
     paths:
       - test
   except:
-    - master
+    - main
 
 pages:
   stage: deploy
@@ -26,4 +26,4 @@ pages:
     paths:
       - public
   only:
-    - master
+    - main
