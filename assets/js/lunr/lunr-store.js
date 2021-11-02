@@ -130,4 +130,10 @@ var store = [{
         "tags": [],
         "url": "/21/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#22 - Gitpod with Geoffrey Huntley",
+        "excerpt":"In this episode we’re back on the topic of Cloud IDEs with Geoffrey Huntley to talk us about Gitpod 🚀. First, I had the pleasure to ask Geoff some insights on his van life ⛺️. Geoff is living remote work at its finest, working from his van in Australia and...","categories": [],
+        "tags": [],
+        "url": "/22/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

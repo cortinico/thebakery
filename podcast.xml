@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Tue, 02 Nov 2021 21:11:49 +0100</lastBuildDate>
+<lastBuildDate>Tue, 02 Nov 2021 21:19:19 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,111 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Gitpod with Geoffrey Huntley</title>
+        <itunes:title>Gitpod with Geoffrey Huntley</itunes:title>
+        <link>https://thebakery.dev/22/</link>
+        <pubDate>Tue, 02 Nov 2021 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/22/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>22</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/22-thedevelopersbakery-gitpod.m4a" length="17626761" type="audio/mpeg" />
+
+        <itunes:subtitle>We're back on Cloud IDEs with Geoffrey Huntley talking about Gitpod and his vanlife!</itunes:subtitle>
+        <itunes:summary>We're back on Cloud IDEs with Geoffrey Huntley talking about Gitpod and his vanlife!</itunes:summary>
+
+        
+        <description>
+            <![CDATA[In this episode we’re back on the topic of Cloud IDEs with Geoffrey Huntley to talk us about Gitpod 🚀. First, I had the pleasure to ask Geoff some insights on his van life ⛺️. Geoff is living remote work at its finest, working from his van in Australia and...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>In this episode we’re back on the topic of <strong>Cloud IDEs</strong> with <a href="https://twitter.com/GeoffreyHuntley"><strong>Geoffrey Huntley</strong></a> to talk us about <a href="https://www.gitpod.io/"><strong>Gitpod</strong></a> 🚀.</p>
+
+<p>First, I had the pleasure to ask Geoff some insights on his <em>van life</em> ⛺️. Geoff is living remote work at its finest, working from his van in Australia and apparently enjoying it a lot (make sure to checkout <a href="https://ghuntley.com/tag/vanlife/">his blogposts about it</a>)!</p>
+
+<p>But Geoff is also highly involved with Gitpod, a tool that will help you spin-up <strong>development environment</strong> and get you up to speed in seconds. They’re also extremely supportive towards the open-source ecosystem, offering free licenses for OSS projects.</p>
+
+<p>In this epidesode we walk through Gitpod, how it can help you in your daily development and what the future of Cloud IDE might look like.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.46</strong> Episode Start</li>
+  <li><strong>01.12</strong> Geoff’s Introduction</li>
+  <li><strong>01.55</strong> Working from a van</li>
+  <li><strong>03.41</strong> Funny stories from a camping life</li>
+  <li><strong>05.05</strong> Living without abstraction</li>
+  <li><strong>07.11</strong> What is Gitpod?</li>
+  <li><strong>09.15</strong> What makes Gitpod unique?</li>
+  <li><strong>12.33</strong> Prebuilt workspaces</li>
+  <li><strong>14.15</strong> The gitpod.io magic URL</li>
+  <li><strong>16.50</strong> Development workflow with Gitpod</li>
+  <li><strong>19.08</strong> VS Code @ Gitpod</li>
+  <li><strong>21.52</strong> OpenVSX</li>
+  <li><strong>23.09</strong> What are the major blockers to cloud IDEs adoption?</li>
+  <li><strong>25.04</strong> Developing daily on a iPad</li>
+  <li><strong>26.33</strong> Mobile development in the cloud</li>
+  <li><strong>30.53</strong> It works on my machine</li>
+  <li><strong>32.23</strong> Deplyoing GitPod to your infrastructure</li>
+  <li><strong>35.22</strong> Geoff’s Browser setup</li>
+  <li><strong>36.28</strong> How you go involved with Gitpod?</li>
+  <li><strong>38.24</strong> How to contribute to Gitpod?</li>
+  <li><strong>40.42</strong> Further reading</li>
+  <li><strong>43.05</strong> Where to find Geoff online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/gitpod-io/gitpod">gitpod-io/gitpod on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://www.gitpod.io/">Gitpod Official Website</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://github.com/gitpod-io/roadmap/issues/27#issuecomment-947010907">Gitpod Contribution Resources</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://ghuntley.com/tag/remote-work/">Geoff’s Article on Remote Work</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://open-vsx.org/">OpenVSX</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://youtrack.jetbrains.com/issue/IDEA-226455#focus=Comments-27-5290105.0-0">JetBrains Remote Development Support</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/gitpod-io/gitpod/issues/6342">GitPod Private Beta for JetBrains IDE</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/gitpod-io/gitpod/issues/6447">GitPod Roadmap for Mobile Devs</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://appetize.io/">Appetize - Run native mobile apps in your browser</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://thebakery.dev/18/">The Developers’ Bakery - Ep 18 - code-server with Joe Previte</a></li>
+    </ul>
+  </li>
+  <li><i class="fas fa-link"></i> <a href="https://ghuntley.com/">Geoff’s Website</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/ghuntley">@ghuntley on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/GeoffreyHuntley">@GeoffreyHuntley on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/22-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>44:11</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Firefox for Android with Sebastian Kaspari</title>

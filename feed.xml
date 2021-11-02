@@ -1,4 +1,75 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2021-11-02T21:11:49+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#21 - Firefox for Android with Sebastian Kaspari</title><link href="https://thebakery.dev/21/" rel="alternate" type="text/html" title="#21 - Firefox for Android with Sebastian Kaspari" /><published>2021-10-18T00:00:00+02:00</published><updated>2021-10-18T00:00:00+02:00</updated><id>https://thebakery.dev/021-firefox-for-android</id><content type="html" xml:base="https://thebakery.dev/21/">&lt;iframe src=&quot;https://open.spotify.com/embed/episode/3xAILb4BdZH5KxLTiFTSw8&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot;&gt;&lt;/iframe&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2021-11-02T21:19:19+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#22 - Gitpod with Geoffrey Huntley</title><link href="https://thebakery.dev/22/" rel="alternate" type="text/html" title="#22 - Gitpod with Geoffrey Huntley" /><published>2021-11-02T00:00:00+01:00</published><updated>2021-11-02T00:00:00+01:00</updated><id>https://thebakery.dev/022-gitpod</id><content type="html" xml:base="https://thebakery.dev/22/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;In this episode we’re back on the topic of &lt;strong&gt;Cloud IDEs&lt;/strong&gt; with &lt;a href=&quot;https://twitter.com/GeoffreyHuntley&quot;&gt;&lt;strong&gt;Geoffrey Huntley&lt;/strong&gt;&lt;/a&gt; to talk us about &lt;a href=&quot;https://www.gitpod.io/&quot;&gt;&lt;strong&gt;Gitpod&lt;/strong&gt;&lt;/a&gt; 🚀.&lt;/p&gt;
+
+&lt;p&gt;First, I had the pleasure to ask Geoff some insights on his &lt;em&gt;van life&lt;/em&gt; ⛺️. Geoff is living remote work at its finest, working from his van in Australia and apparently enjoying it a lot (make sure to checkout &lt;a href=&quot;https://ghuntley.com/tag/vanlife/&quot;&gt;his blogposts about it&lt;/a&gt;)!&lt;/p&gt;
+
+&lt;p&gt;But Geoff is also highly involved with Gitpod, a tool that will help you spin-up &lt;strong&gt;development environment&lt;/strong&gt; and get you up to speed in seconds. They’re also extremely supportive towards the open-source ecosystem, offering free licenses for OSS projects.&lt;/p&gt;
+
+&lt;p&gt;In this epidesode we walk through Gitpod, how it can help you in your daily development and what the future of Cloud IDE might look like.&lt;/p&gt;
+
+&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
+
+&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;00.00&lt;/strong&gt; Intro&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;00.46&lt;/strong&gt; Episode Start&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;01.12&lt;/strong&gt; Geoff’s Introduction&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;01.55&lt;/strong&gt; Working from a van&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;03.41&lt;/strong&gt; Funny stories from a camping life&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;05.05&lt;/strong&gt; Living without abstraction&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;07.11&lt;/strong&gt; What is Gitpod?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;09.15&lt;/strong&gt; What makes Gitpod unique?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;12.33&lt;/strong&gt; Prebuilt workspaces&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;14.15&lt;/strong&gt; The gitpod.io magic URL&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;16.50&lt;/strong&gt; Development workflow with Gitpod&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;19.08&lt;/strong&gt; VS Code @ Gitpod&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;21.52&lt;/strong&gt; OpenVSX&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;23.09&lt;/strong&gt; What are the major blockers to cloud IDEs adoption?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;25.04&lt;/strong&gt; Developing daily on a iPad&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;26.33&lt;/strong&gt; Mobile development in the cloud&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;30.53&lt;/strong&gt; It works on my machine&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;32.23&lt;/strong&gt; Deplyoing GitPod to your infrastructure&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;35.22&lt;/strong&gt; Geoff’s Browser setup&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;36.28&lt;/strong&gt; How you go involved with Gitpod?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;38.24&lt;/strong&gt; How to contribute to Gitpod?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;40.42&lt;/strong&gt; Further reading&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;43.05&lt;/strong&gt; Where to find Geoff online?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/gitpod-io/gitpod&quot;&gt;gitpod-io/gitpod on Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.gitpod.io/&quot;&gt;Gitpod Official Website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/gitpod-io/roadmap/issues/27#issuecomment-947010907&quot;&gt;Gitpod Contribution Resources&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Mentioned Resources:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://ghuntley.com/tag/remote-work/&quot;&gt;Geoff’s Article on Remote Work&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open-vsx.org/&quot;&gt;OpenVSX&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://youtrack.jetbrains.com/issue/IDEA-226455#focus=Comments-27-5290105.0-0&quot;&gt;JetBrains Remote Development Support&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/gitpod-io/gitpod/issues/6342&quot;&gt;GitPod Private Beta for JetBrains IDE&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/gitpod-io/gitpod/issues/6447&quot;&gt;GitPod Roadmap for Mobile Devs&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://appetize.io/&quot;&gt;Appetize - Run native mobile apps in your browser&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev/18/&quot;&gt;The Developers’ Bakery - Ep 18 - code-server with Joe Previte&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://ghuntley.com/&quot;&gt;Geoff’s Website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/ghuntley&quot;&gt;@ghuntley on Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/GeoffreyHuntley&quot;&gt;@GeoffreyHuntley on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">We're back on Cloud IDEs with Geoffrey Huntley talking about Gitpod and his vanlife!</summary></entry><entry><title type="html">#21 - Firefox for Android with Sebastian Kaspari</title><link href="https://thebakery.dev/21/" rel="alternate" type="text/html" title="#21 - Firefox for Android with Sebastian Kaspari" /><published>2021-10-18T00:00:00+02:00</published><updated>2021-10-18T00:00:00+02:00</updated><id>https://thebakery.dev/021-firefox-for-android</id><content type="html" xml:base="https://thebakery.dev/21/">&lt;iframe src=&quot;https://open.spotify.com/embed/episode/3xAILb4BdZH5KxLTiFTSw8&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;You don’t get to build a &lt;strong&gt;browser&lt;/strong&gt; every day right? Today we have &lt;a href=&quot;https://twitter.com/Anti_Hype&quot;&gt;&lt;strong&gt;Sebastian Kaspari&lt;/strong&gt;&lt;/a&gt; on stage to talk us about &lt;a href=&quot;https://github.com/mozilla-mobile/fenix&quot;&gt;&lt;strong&gt;Firefox for Android&lt;/strong&gt;&lt;/a&gt; 🦊.&lt;/p&gt;
 
@@ -620,78 +691,4 @@ deep-clean will take care of cleaning up your build caches. If you’re really s
   &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">Martin is on stage to tell us about GraphQL and Apollo Android, the most popular GraphQL client for Android</summary></entry><entry><title type="html">#12 - refreshVersions with Louis CAD</title><link href="https://thebakery.dev/12/" rel="alternate" type="text/html" title="#12 - refreshVersions with Louis CAD" /><published>2021-05-31T00:00:00+02:00</published><updated>2021-05-31T00:00:00+02:00</updated><id>https://thebakery.dev/012-refreshversions</id><content type="html" xml:base="https://thebakery.dev/12/">&lt;iframe src=&quot;https://open.spotify.com/embed/episode/7jBzUZVM2H4GiG1jKdfEtj&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Have you ever ventured inside the &lt;strong&gt;dependency hell&lt;/strong&gt; 😈? &lt;a href=&quot;https://twitter.com/Louis_CAD&quot;&gt;Louis CAD&lt;/a&gt; has for sure. Today we’re talking about &lt;a href=&quot;https://github.com/jmfayard/refreshVersions&quot;&gt;refreshVersions&lt;/a&gt;, a Gradle plugin to help you keep your third-party dependencies up to date.&lt;/p&gt;
-
-&lt;p&gt;The killer feature of refreshVersions is the possibility to see all the available versions &lt;strong&gt;as comments&lt;/strong&gt; in your versions file. They’re just a ⇧ + &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;down&lt;/code&gt; keystroke away to update:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/posts/refreshVersions-demo.png&quot; alt=&quot;Updating a dependency version with refreshVersions&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Louis will also tell us his personal experience with &lt;strong&gt;pair programming&lt;/strong&gt; in the open-source ecosystem. If you’re looking for a peer to get into open-source, make sure you send Louis a message!&lt;/p&gt;
-
-&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
-
-&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;00.25&lt;/strong&gt; Intro&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;01.11&lt;/strong&gt; Episode Start&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;01.41&lt;/strong&gt; Louis’ Introduction&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;02.56&lt;/strong&gt; What is refreshVersion?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;04.56&lt;/strong&gt; The Dependency Hell problem&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;05.54&lt;/strong&gt; API breaking changes&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;06.35&lt;/strong&gt; The cost of bumping dependencies&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;07.25&lt;/strong&gt; Dependency bundles and versions alignment&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;09.27&lt;/strong&gt; The history of this project&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;13.18&lt;/strong&gt; How the find newer versions?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;15.05&lt;/strong&gt; A new dependency notation&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;16.46&lt;/strong&gt; How to use refreshVersions?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;19.14&lt;/strong&gt; New versions as comments&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;19.51&lt;/strong&gt; Java Properties vs JSON/YAML&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;22.24&lt;/strong&gt; refreshVersions vs Gradle Version Catalog&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;26.33&lt;/strong&gt; refreshVersions vs Dependabot&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;29.42&lt;/strong&gt; How to contribute to refreshVersions?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;32.13&lt;/strong&gt; Pair programming in open source&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;35.36&lt;/strong&gt; Have you ever had bad experiences with pair programming?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;37.59&lt;/strong&gt; Tools for pair programming&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;39.31&lt;/strong&gt; How to pair program with Louis?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;42.02&lt;/strong&gt; What’s next for refreshVersions?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;43.38&lt;/strong&gt; Where to find Louis online?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/jmfayard/refreshVersions&quot;&gt;refreshVersions on Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-wikipedia-w&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://en.wikipedia.org/wiki/Dependency_hell&quot;&gt;Dependency hell on Wikipedia&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://jmfayard.github.io/refreshVersions/&quot;&gt;Official Documentation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://jmfayard.github.io/refreshVersions/contributing/before-you-contribute/&quot;&gt;Contribution Guide&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-slack&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://kotlinlang.slack.com/archives/CP5659EL9&quot;&gt;#gradle-refresh-versions on Kotlinlang Slack&lt;/a&gt; (get an &lt;a href=&quot;https://surveys.jetbrains.com/s3/kotlin-slack-sign-up&quot;&gt;invite here&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;Other mentioned projects:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/ben-manes/gradle-versions-plugin&quot;&gt;ben-manes/gradle-versions-plugin on Github&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/LouisCAD/Splitties&quot;&gt;LouisCAD/Splitties on Github&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Pair programming resources:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/jmfayard/refreshVersions/discussions/330&quot;&gt;Open pair-programming. Let us know if you’re up for it!&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.jetbrains.com/help/idea/code-with-me.html&quot;&gt;Code With Me - IntelliJ IDEA&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://pop.com/&quot;&gt;pop.com&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/LouisCAD&quot;&gt;@LouisCAD on Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/Louis_CAD&quot;&gt;@Louis_CAD on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">In this episode we will talk about dependency hell and how to escape it, with Louis CAD and the refershVersions project!</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">Martin is on stage to tell us about GraphQL and Apollo Android, the most popular GraphQL client for Android</summary></entry></feed>
