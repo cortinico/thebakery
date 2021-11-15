@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Tue, 09 Nov 2021 03:05:49 +0100</lastBuildDate>
+<lastBuildDate>Mon, 15 Nov 2021 16:16:38 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,97 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>PlusPlugins with Miguel Beltran</title>
+        <itunes:title>PlusPlugins with Miguel Beltran</itunes:title>
+        <link>https://thebakery.dev/23/</link>
+        <pubDate>Mon, 15 Nov 2021 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/23/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>23</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/23-thedevelopersbakery-plusplugins.m4a" length="15874024" type="audio/mpeg" />
+
+        <itunes:subtitle>Back on Flutter with Miguel Beltran talking about one of the most important library: Plus Plugins</itunes:subtitle>
+        <itunes:summary>Back on Flutter with Miguel Beltran talking about one of the most important library: Plus Plugins</itunes:summary>
+
+        
+        <description>
+            <![CDATA[It’s been since episode #07 that we haven’t talked about Flutter 💙, so today we have Miguel Beltran on stage to talk about one of the most important library for it: Plus Plugins. Miguel is one of the maintainer of this popular collection of plugins. Plus plugins offer multiplatform capability...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>It’s been since <a href="/07">episode #07</a> that we haven’t talked about Flutter 💙, so today we have <a href="https://twitter.com/MiBLT"><strong>Miguel Beltran</strong></a> on stage to talk about one of the most important library for it: <a href="https://github.com/fluttercommunity/plus_plugins"><strong>Plus Plugins</strong></a>.</p>
+
+<p>Miguel is one of the maintainer of this popular <strong>collection of plugins</strong>. Plus plugins offer multiplatform capability to access informations 
+such as <strong>battery</strong>, <strong>connectivity</strong>, <strong>sensors</strong> and more across a variety of platforms: Android, iOS, Web, MacOS, Windows &amp; Linux!</p>
+
+<p>In this episode we will talk about the story of this project, how it evolved from Google to Flutter community, and
+how people can <strong>contribute</strong> to such a critical piece of the Flutter ecosystem.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.46</strong> Episode Start</li>
+  <li><strong>01.21</strong> Miguel’s Introduction</li>
+  <li><strong>02.26</strong> What are the Plus Plugins?</li>
+  <li><strong>04.55</strong> Who owns the Plus Plugins?</li>
+  <li><strong>08.56</strong> Flutter Plugin Ecosystem</li>
+  <li><strong>11.00</strong> Contributing to Flutter</li>
+  <li><strong>12.13</strong> Miguel’s favorite plus plugin</li>
+  <li><strong>14.31</strong> Are plus plugins offering also UI?</li>
+  <li><strong>15.34</strong> The hardest plus plugin to maintain</li>
+  <li><strong>17.37</strong> Multiplatform support</li>
+  <li><strong>19.40</strong> The monorepo</li>
+  <li><strong>24.05</strong> What makes a plugin a plus plugin?</li>
+  <li><strong>27.20</strong> How you got involved in this project?</li>
+  <li><strong>30.20</strong> How do you handle oss contributions?</li>
+  <li><strong>32.08</strong> How to contribute?</li>
+  <li><strong>33.55</strong> How do you keep docs and code on sync?</li>
+  <li><strong>35.55</strong> Do you version your docs?</li>
+  <li><strong>37.36</strong> Further reading</li>
+  <li><strong>38.44</strong> Where to find Miguel online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/fluttercommunity/plus_plugins">fluttercommunity/plus_plugins on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://plus.fluttercommunity.dev/">Plus Plugins Official Website</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://github.com/fluttercommunity/plus_plugins/blob/main/CONTRIBUTING.md">Plus Plugins CONTRIBUTING.md File</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://www.pluralsight.com/courses/developing-packages-flutter">Developing Packages in Flutter - Pluralsight Course</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/MiBLT">@MiBLT on Twitter</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/miquelbeltran">@miquelbeltran on Github</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/23-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>39:35</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Gitpod with Geoffrey Huntley</title>

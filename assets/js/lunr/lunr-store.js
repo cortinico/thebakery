@@ -136,4 +136,10 @@ var store = [{
         "tags": [],
         "url": "/22/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#23 - PlusPlugins with Miguel Beltran",
+        "excerpt":"It’s been since episode #07 that we haven’t talked about Flutter 💙, so today we have Miguel Beltran on stage to talk about one of the most important library for it: Plus Plugins. Miguel is one of the maintainer of this popular collection of plugins. Plus plugins offer multiplatform capability...","categories": [],
+        "tags": [],
+        "url": "/23/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]
