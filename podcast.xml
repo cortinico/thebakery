@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Mon, 15 Nov 2021 16:16:38 +0100</lastBuildDate>
+<lastBuildDate>Mon, 06 Dec 2021 15:22:56 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,99 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Datadog for Android with Xavier F. Gouchet</title>
+        <itunes:title>Datadog for Android with Xavier F. Gouchet</itunes:title>
+        <link>https://thebakery.dev/24/</link>
+        <pubDate>Mon, 06 Dec 2021 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/24/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>24</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/24-thedevelopersbakery-datadog-for-android.m4a" length="16838179" type="audio/mpeg" />
+
+        <itunes:subtitle>Time to talk about mobile app monitoring with Xavier Gouchet and Datadog SDK</itunes:subtitle>
+        <itunes:summary>Time to talk about mobile app monitoring with Xavier Gouchet and Datadog SDK</itunes:summary>
+
+        
+        <description>
+            <![CDATA[In this episode we are going to meet Xavier Gouchet and the Datadog Android SDK 🐶. Datadog helps you monitor and track problems with your mobile applications, such as crashes and ANR. The Android SDK offers a large variety of plugins that helps you track the health of your app...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>In this episode we are going to meet <a href="https://twitter.com/xgouchet"><strong>Xavier Gouchet</strong></a> and the <a href="https://github.com/DataDog/dd-sdk-android"><strong>Datadog Android SDK</strong></a> 🐶.</p>
+
+<p>Datadog helps you monitor and track problems with your mobile applications, such as crashes and ANR. The Android SDK
+offers a large variety of plugins that helps you track the health of your app with integration for popular libraries
+such as Timber, Glide, Jetpack Compose or the Android NDK.</p>
+
+<p>In this episode, Xavier will walk us through their SDK and what are the most challenging tasks for a monitoring SDK such as this one.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.17</strong> Intro</li>
+  <li><strong>01.04</strong> Episode Start</li>
+  <li><strong>01.38</strong> Xav’s Introduction</li>
+  <li><strong>02.54</strong> What is Datadog?</li>
+  <li><strong>03.20</strong> What mobile engineers can do with Datadog?</li>
+  <li><strong>04.22</strong> How Datadog works on Android?</li>
+  <li><strong>05.50</strong> What are the complexity of a monitoring SDK?</li>
+  <li><strong>08.25</strong> Which type of monitoring is it offering?</li>
+  <li><strong>10.21</strong> What’s the performance impact of a monitoring SDK?</li>
+  <li><strong>12.51</strong> Which OSS applications are you using for benchmarking?</li>
+  <li><strong>13.56</strong> What was the most complex plugin to develop?</li>
+  <li><strong>17.00</strong> Are you also giving suggestions to developers?</li>
+  <li><strong>19.33</strong> Machine Learning and App Crashes</li>
+  <li><strong>21.09</strong> The most common performance pitfall</li>
+  <li><strong>23.03</strong> How do you handle collection of personal information?</li>
+  <li><strong>27.56</strong> Integrations with popular Android libraries</li>
+  <li><strong>32.51</strong> Can people contribute to Datadog SDK?</li>
+  <li><strong>35.05</strong> Reproducible builds and SDKs</li>
+  <li><strong>36.23</strong> What’s in the future for this SDK?</li>
+  <li><strong>38.45</strong> How can people contribute to this project?</li>
+  <li><strong>39.46</strong> Further reading</li>
+  <li><strong>41.09</strong> Where to find Xav online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/DataDog/dd-sdk-android">DataDog/dd-sdk-android on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://docs.datadoghq.com/real_user_monitoring/android/">Datadog - RUM Android Monitoring documentation</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://docs.datadoghq.com/logs/log_collection/android/">Datadog - Android Log Collection documentation</a></li>
+  <li><i class="fab fa-youtube"></i><a href="https://www.droidcon.com/2021/11/17/benchmarking-your-application/">Benchmarking your Application - Droidcon London 2021</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://github.com/xgouchet">@xgouchet on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/xgouchet">@xgouchet on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/24-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>42:05</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>PlusPlugins with Miguel Beltran</title>

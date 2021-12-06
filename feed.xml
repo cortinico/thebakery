@@ -1,4 +1,63 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2021-11-15T16:16:38+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#23 - PlusPlugins with Miguel Beltran</title><link href="https://thebakery.dev/23/" rel="alternate" type="text/html" title="#23 - PlusPlugins with Miguel Beltran" /><published>2021-11-15T00:00:00+01:00</published><updated>2021-11-15T00:00:00+01:00</updated><id>https://thebakery.dev/023-plusplugins</id><content type="html" xml:base="https://thebakery.dev/23/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2021-12-06T15:22:56+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#24 - Datadog for Android with Xavier F. Gouchet</title><link href="https://thebakery.dev/24/" rel="alternate" type="text/html" title="#24 - Datadog for Android with Xavier F. Gouchet" /><published>2021-12-06T00:00:00+01:00</published><updated>2021-12-06T00:00:00+01:00</updated><id>https://thebakery.dev/024-datadog-for-android</id><content type="html" xml:base="https://thebakery.dev/24/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;In this episode we are going to meet &lt;a href=&quot;https://twitter.com/xgouchet&quot;&gt;&lt;strong&gt;Xavier Gouchet&lt;/strong&gt;&lt;/a&gt; and the &lt;a href=&quot;https://github.com/DataDog/dd-sdk-android&quot;&gt;&lt;strong&gt;Datadog Android SDK&lt;/strong&gt;&lt;/a&gt; 🐶.&lt;/p&gt;
+
+&lt;p&gt;Datadog helps you monitor and track problems with your mobile applications, such as crashes and ANR. The Android SDK
+offers a large variety of plugins that helps you track the health of your app with integration for popular libraries
+such as Timber, Glide, Jetpack Compose or the Android NDK.&lt;/p&gt;
+
+&lt;p&gt;In this episode, Xavier will walk us through their SDK and what are the most challenging tasks for a monitoring SDK such as this one.&lt;/p&gt;
+
+&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
+
+&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;00.17&lt;/strong&gt; Intro&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;01.04&lt;/strong&gt; Episode Start&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;01.38&lt;/strong&gt; Xav’s Introduction&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;02.54&lt;/strong&gt; What is Datadog?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;03.20&lt;/strong&gt; What mobile engineers can do with Datadog?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;04.22&lt;/strong&gt; How Datadog works on Android?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;05.50&lt;/strong&gt; What are the complexity of a monitoring SDK?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;08.25&lt;/strong&gt; Which type of monitoring is it offering?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;10.21&lt;/strong&gt; What’s the performance impact of a monitoring SDK?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;12.51&lt;/strong&gt; Which OSS applications are you using for benchmarking?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;13.56&lt;/strong&gt; What was the most complex plugin to develop?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;17.00&lt;/strong&gt; Are you also giving suggestions to developers?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;19.33&lt;/strong&gt; Machine Learning and App Crashes&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;21.09&lt;/strong&gt; The most common performance pitfall&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;23.03&lt;/strong&gt; How do you handle collection of personal information?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;27.56&lt;/strong&gt; Integrations with popular Android libraries&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;32.51&lt;/strong&gt; Can people contribute to Datadog SDK?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;35.05&lt;/strong&gt; Reproducible builds and SDKs&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;36.23&lt;/strong&gt; What’s in the future for this SDK?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;38.45&lt;/strong&gt; How can people contribute to this project?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;39.46&lt;/strong&gt; Further reading&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;41.09&lt;/strong&gt; Where to find Xav online?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/DataDog/dd-sdk-android&quot;&gt;DataDog/dd-sdk-android on Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://docs.datadoghq.com/real_user_monitoring/android/&quot;&gt;Datadog - RUM Android Monitoring documentation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://docs.datadoghq.com/logs/log_collection/android/&quot;&gt;Datadog - Android Log Collection documentation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-youtube&quot;&gt;&lt;/i&gt;&lt;a href=&quot;https://www.droidcon.com/2021/11/17/benchmarking-your-application/&quot;&gt;Benchmarking your Application - Droidcon London 2021&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/xgouchet&quot;&gt;@xgouchet on Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/xgouchet&quot;&gt;@xgouchet on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">Time to talk about mobile app monitoring with Xavier Gouchet and Datadog SDK</summary></entry><entry><title type="html">#23 - PlusPlugins with Miguel Beltran</title><link href="https://thebakery.dev/23/" rel="alternate" type="text/html" title="#23 - PlusPlugins with Miguel Beltran" /><published>2021-11-15T00:00:00+01:00</published><updated>2021-11-15T00:00:00+01:00</updated><id>https://thebakery.dev/023-plusplugins</id><content type="html" xml:base="https://thebakery.dev/23/">&lt;iframe src=&quot;https://open.spotify.com/embed/episode/7EpUMNSGnT6ak0olulHgTF?utm_source=generator&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;It’s been since &lt;a href=&quot;/07&quot;&gt;episode #07&lt;/a&gt; that we haven’t talked about Flutter 💙, so today we have &lt;a href=&quot;https://twitter.com/MiBLT&quot;&gt;&lt;strong&gt;Miguel Beltran&lt;/strong&gt;&lt;/a&gt; on stage to talk about one of the most important library for it: &lt;a href=&quot;https://github.com/fluttercommunity/plus_plugins&quot;&gt;&lt;strong&gt;Plus Plugins&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 
@@ -607,72 +666,4 @@ deep-clean will take care of cleaning up your build caches. If you’re really s
   &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">deep-clean is what happens when someone gets really frustrated. Sebastiano is on stage to talk us about it.</summary></entry><entry><title type="html">#14 - Anvil with Ralf Wondratschek</title><link href="https://thebakery.dev/14/" rel="alternate" type="text/html" title="#14 - Anvil with Ralf Wondratschek" /><published>2021-06-28T00:00:00+02:00</published><updated>2021-06-28T00:00:00+02:00</updated><id>https://thebakery.dev/014-anvil</id><content type="html" xml:base="https://thebakery.dev/14/">&lt;iframe src=&quot;https://open.spotify.com/embed/episode/06yvUIUdpAq8lsP7ynzVS1&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;“When all you have is an anvil, every problem looks like a hammer.”&lt;/em&gt; - &lt;a href=&quot;https://en.wikipedia.org/wiki/Law_of_the_instrument&quot;&gt;Abraham Maslow&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;So it starts the &lt;a href=&quot;https://github.com/square/anvil&quot;&gt;&lt;strong&gt;Anvil 🔨&lt;/strong&gt;&lt;/a&gt; README.&lt;/p&gt;
-
-&lt;p&gt;Anvil is a plugin to make your &lt;strong&gt;dependency injection&lt;/strong&gt; with Dagger 2 &lt;strong&gt;easier&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;We have the pleasure to host &lt;a href=&quot;https://twitter.com/vRallev&quot;&gt;&lt;strong&gt;Ralf Wondratschek&lt;/strong&gt;&lt;/a&gt;, Mobile Engineer @ Square. He’s going to tell us how Anvil can make your life with Dagger 2 easier and &lt;strong&gt;faster&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Did you know that this project was originally called &lt;a href=&quot;https://github.com/square/anvil/issues/12#issuecomment-663291099&quot;&gt;&lt;em&gt;Hephaestus&lt;/em&gt;&lt;/a&gt;? Make sure to don’t miss this episode if you want to learn this and other stories behind this project.&lt;/p&gt;
-
-&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
-
-&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;00.19&lt;/strong&gt; Intro&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;01.05&lt;/strong&gt; Episode Start&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;01.31&lt;/strong&gt; Ralf’s Introduction&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;02.21&lt;/strong&gt; What is Anvil?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;02.51&lt;/strong&gt; What is Dagger?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;05.20&lt;/strong&gt; Ralf’s opinion on Dependency Injection&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;07.27&lt;/strong&gt; Any bad experiences with Dagger?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;08.41&lt;/strong&gt; What problem is Anvil solving?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;14.03&lt;/strong&gt; Is Anvil useful if I have only one Android project?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;15.47&lt;/strong&gt; What’s the story of Anvil?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;17.56&lt;/strong&gt; Anvil Internals&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;22.12&lt;/strong&gt; How stable is Anvil?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;25.00&lt;/strong&gt; Anvil vs Hilt&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;28.57&lt;/strong&gt; What do you recommend using in a fresh Android project?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;34.37&lt;/strong&gt; Tips for project naming&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;36.56&lt;/strong&gt; Shiny new features&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;37.24&lt;/strong&gt; Anvil &amp;amp; Dagger @Binds&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;38.29&lt;/strong&gt; Anvil &amp;amp; Dagger Factories&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;40.51&lt;/strong&gt; Anvil extensibility&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;44.53&lt;/strong&gt; What to expect for Anvil in the future?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;47.18&lt;/strong&gt; Further reading&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;48.35&lt;/strong&gt; Where to find Ralf online?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/square/anvil&quot;&gt;square/anvil on Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/square/anvil/blob/main/README.md&quot;&gt;Official Documentation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Mentioned Resources &amp;amp; Projects:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://dagger.dev/&quot;&gt;Dagger Official Website&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://dagger.dev/hilt/&quot;&gt;Hilt Documentation&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fab fa-youtube&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.droidcon.com/media-detail?video=380843878&quot;&gt;Android at Scale @Square - Droidcon San Francisco 2019&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/vRallev&quot;&gt;@vRallev on Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/vRallev&quot;&gt;@vRallev on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">Forging a faster and easier dependency injection with Anvil!</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">deep-clean is what happens when someone gets really frustrated. Sebastiano is on stage to talk us about it.</summary></entry></feed>

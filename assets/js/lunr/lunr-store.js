@@ -142,4 +142,10 @@ var store = [{
         "tags": [],
         "url": "/23/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#24 - Datadog for Android with Xavier F. Gouchet",
+        "excerpt":"In this episode we are going to meet Xavier Gouchet and the Datadog Android SDK 🐶. Datadog helps you monitor and track problems with your mobile applications, such as crashes and ANR. The Android SDK offers a large variety of plugins that helps you track the health of your app...","categories": [],
+        "tags": [],
+        "url": "/24/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]
