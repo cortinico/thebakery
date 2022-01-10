@@ -148,4 +148,10 @@ var store = [{
         "tags": [],
         "url": "/24/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#25 - Realm with Christian Melchior",
+        "excerpt":"Let’s start this new year venturing inside the realm of mobile databases, with Christian Melchior and the Realm Kotlin SDK. Realm is an on-device database, that helps you handle your app state with a lot of convenient built-in features such as lazy loading, encryption, and cloud synchronization. In this episode,...","categories": [],
+        "tags": [],
+        "url": "/25/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

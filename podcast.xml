@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Mon, 06 Dec 2021 15:22:56 +0100</lastBuildDate>
+<lastBuildDate>Mon, 10 Jan 2022 20:07:08 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,117 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Realm with Christian Melchior</title>
+        <itunes:title>Realm with Christian Melchior</itunes:title>
+        <link>https://thebakery.dev/25/</link>
+        <pubDate>Mon, 10 Jan 2022 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/25/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>25</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/25-thedevelopersbakery-realm.m4a" length="16758210" type="audio/mpeg" />
+
+        <itunes:subtitle>Today, we venture through the realm of mobile databases with Christian Melchior from MongoDB Realm</itunes:subtitle>
+        <itunes:summary>Today, we venture through the realm of mobile databases with Christian Melchior from MongoDB Realm</itunes:summary>
+
+        
+        <description>
+            <![CDATA[Let’s start this new year venturing inside the realm of mobile databases, with Christian Melchior and the Realm Kotlin SDK. Realm is an on-device database, that helps you handle your app state with a lot of convenient built-in features such as lazy loading, encryption, and cloud synchronization. In this episode,...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>Let’s start this new year venturing inside the realm of mobile databases, with <a href="https://twitter.com/cmelchior"><strong>Christian Melchior</strong></a> and the <a href="https://github.com/realm/realm-kotlin"><strong>Realm Kotlin SDK</strong></a>.</p>
+
+<p>Realm is an on-device database, that helps you handle your app state with a lot of convenient built-in features such as <strong>lazy loading</strong>, <strong>encryption</strong>, and <strong>cloud synchronization</strong>.</p>
+
+<p>In this episode, Christian is guiding us through the Realm SDK for Android developers. When using Realm on Android, you have the freedom to pick between the <a href="https://github.com/realm/realm-java">Java SDK</a> and the <a href="https://github.com/realm/realm-kotlin">Kotlin SDK</a>. During the show, we will look through the offering of the two and how Kotlin Multiplatform is going to shape the future for Realm.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.17</strong> Intro</li>
+  <li><strong>01.04</strong> Episode Start</li>
+  <li><strong>01.35</strong> Christian’s Introduction</li>
+  <li><strong>02.20</strong> What is Realm?</li>
+  <li><strong>03.55</strong> Which platforms are supported?</li>
+  <li><strong>05.21</strong> Why a separate Java and a Kotlin SDK?</li>
+  <li><strong>09.01</strong> Why pick Realm over Room?</li>
+  <li><strong>11.54</strong> Modelling domains that are relationship heavy</li>
+  <li><strong>12.51</strong> Native encryption support</li>
+  <li><strong>14.52</strong> Multiuser support</li>
+  <li><strong>16.59</strong> Realm Sync and offline-first apps</li>
+  <li><strong>19.15</strong> Multiplatform support</li>
+  <li><strong>20.33</strong> Kotlin Multiplatform to take over C++?</li>
+  <li><strong>22.53</strong> Is Realm KMP production ready?</li>
+  <li><strong>24.31</strong> How you got involved with Realm?</li>
+  <li><strong>25.22</strong> How is the releationship with the OSS community?</li>
+  <li><strong>27.48</strong> Which contribs are the most common?</li>
+  <li><strong>29.44</strong> The Mongo acquisition &amp; OSS</li>
+  <li><strong>31.29</strong> Any OSS app that is using Realm to use as inspiration?</li>
+  <li><strong>32.43</strong> Where do you interact with the Realm community?</li>
+  <li><strong>34.36</strong> Async vs Sync comms</li>
+  <li><strong>36.09</strong> How do you handle the incoming flow of Github issues?</li>
+  <li><strong>37.53</strong> The Realm roadmap</li>
+  <li><strong>40.13</strong> Further reading</li>
+  <li><strong>41.09</strong> Where to find Christian online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li>Realm Kotlin Multiplatform:
+    <ul>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/realm/realm-kotlin">realm/realm-kotlin on Github</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://docs.mongodb.com/realm/sdk/kotlin-multiplatform/">Realm Kotlin Documentation</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://github.com/realm/realm-kotlin-samples">Official Samples</a></li>
+    </ul>
+  </li>
+  <li>Realm Java:
+    <ul>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/realm/realm-java">realm/realm-java on Github</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://docs.mongodb.com/realm/sdk/android/">Realm Java Documentation</a></li>
+    </ul>
+  </li>
+  <li>Talks and Podcasts about Realm:
+    <ul>
+      <li><i class="fas fa-podcast"></i> <a href="https://www.youtube.com/watch?v=pU9yaCPmQ2g">Talking Kotlin #98 - Realm for Kotlin Multiplatform</a></li>
+      <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/gb/podcast/ep-45-mongodb-realm-mobile-for-android-christian-melchior/id1500452446?i=1000510453804">The MongoDB Podcast #45 - MongoDB Realm Mobile for Android</a></li>
+      <li><i class="fab fa-youtube"></i> <a href="https://www.droidcon.com/2021/10/08/painless-persistence-on-kotlin-multiplatform-with-realm-kotlin/">Droidcon Online - Painless Persistence on Kotlin Multiplatform with Realm Kotlin</a></li>
+      <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/watch?v=F1cEI9OKI-E&amp;ab_channel=MongoDB">Realm Meetup - Realm Kotlin Multiplatform for modern mobile apps Meetup recording</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/cmelchior">@cmelchior on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/chrmelchior">@chrmelchior on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/25-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>41:59</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Datadog for Android with Xavier F. Gouchet</title>
