@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Mon, 10 Jan 2022 20:07:08 +0100</lastBuildDate>
+<lastBuildDate>Mon, 24 Jan 2022 15:50:35 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,89 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Material UI Swing with Vincenzo Palazzo</title>
+        <itunes:title>Material UI Swing with Vincenzo Palazzo</itunes:title>
+        <link>https://thebakery.dev/26/</link>
+        <pubDate>Mon, 24 Jan 2022 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/26/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>26</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/26-thedevelopersbakery-material-ui-swing.m4a" length="19352230" type="audio/mpeg" />
+
+        <itunes:subtitle>This time, we fly up to Mars with Vincenzo and Material UI Swing</itunes:subtitle>
+        <itunes:summary>This time, we fly up to Mars with Vincenzo and Material UI Swing</itunes:summary>
+
+        
+        <description>
+            <![CDATA[This time, we fly up to Mars with Vincenzo Palazzo and the Material UI Swing. Vincenzo is the maintainer of this library, a custom theme for Swing which is bringing a material look-n-feel to the Swing UI toolkit. While this might sound boring at first, Material UI Swing is currently...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>This time, we fly up to Mars with <a href="https://twitter.com/PalazzoVincenzo"><strong>Vincenzo Palazzo</strong></a> and the <a href="https://github.com/vincenzopalazzo/material-ui-swing"><strong>Material UI Swing</strong></a>.</p>
+
+<p>Vincenzo is the maintainer of this library, a custom theme for Swing which is bringing a material <em>look-n-feel</em> to the Swing UI toolkit. While this might sound boring at first, 
+Material UI Swing is currently used on <a href="https://jmars.mars.asu.edu/"><strong>JMars</strong></a> (Java Mission-planning and Analysis for Remote Sensing) 🪐 and sponsored by the <a href="https://www.asu.edu/">Arizona State University</a>.</p>
+
+<p>In this episode Vincenzo will tell us the challenges of having to deal with Swing, and what it means to have a <strong>University sponsoring</strong> your open-source project.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.09</strong> Intro</li>
+  <li><strong>00.55</strong> Episode Start</li>
+  <li><strong>01.48</strong> Vincenzo’s Introduction</li>
+  <li><strong>04.24</strong> What are you favourite programming languages?</li>
+  <li><strong>06.21</strong> What is Material UI Swing?</li>
+  <li><strong>10.20</strong> How about JMars?</li>
+  <li><strong>14.03</strong> A bit of project history</li>
+  <li><strong>17.07</strong> What was the impact of being sponsored by a University?</li>
+  <li><strong>24.16</strong> Vincenzo goes to Arizona</li>
+  <li><strong>30.26</strong> Swing and Themes</li>
+  <li><strong>37.44</strong> Would you rewrite it in Kotlin?</li>
+  <li><strong>41.07</strong> What’s up in the future for this library?</li>
+  <li><strong>44.27</strong> Further reading</li>
+  <li><strong>47.13</strong> Where to find Vincenzo online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/vincenzopalazzo/material-ui-swing">vincenzopalazzo/material-ui-swing on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://jmars.mars.asu.edu/">JMars Official Website</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/atarw/material-ui-swing">Original Material UI Swing repository</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/vincenzopalazzo">@vincenzopalazzo on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/PalazzoVincenzo">@PalazzoVincenzo on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/26-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>49:02</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Realm with Christian Melchior</title>

@@ -154,4 +154,10 @@ var store = [{
         "tags": [],
         "url": "/25/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#26 - Material UI Swing with Vincenzo Palazzo",
+        "excerpt":"This time, we fly up to Mars with Vincenzo Palazzo and the Material UI Swing. Vincenzo is the maintainer of this library, a custom theme for Swing which is bringing a material look-n-feel to the Swing UI toolkit. While this might sound boring at first, Material UI Swing is currently...","categories": [],
+        "tags": [],
+        "url": "/26/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

@@ -1,4 +1,53 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2022-01-10T20:07:08+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#25 - Realm with Christian Melchior</title><link href="https://thebakery.dev/25/" rel="alternate" type="text/html" title="#25 - Realm with Christian Melchior" /><published>2022-01-10T00:00:00+01:00</published><updated>2022-01-10T00:00:00+01:00</updated><id>https://thebakery.dev/025-realm</id><content type="html" xml:base="https://thebakery.dev/25/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2022-01-24T15:50:35+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#26 - Material UI Swing with Vincenzo Palazzo</title><link href="https://thebakery.dev/26/" rel="alternate" type="text/html" title="#26 - Material UI Swing with Vincenzo Palazzo" /><published>2022-01-24T00:00:00+01:00</published><updated>2022-01-24T00:00:00+01:00</updated><id>https://thebakery.dev/026-material-ui-swing</id><content type="html" xml:base="https://thebakery.dev/26/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;This time, we fly up to Mars with &lt;a href=&quot;https://twitter.com/PalazzoVincenzo&quot;&gt;&lt;strong&gt;Vincenzo Palazzo&lt;/strong&gt;&lt;/a&gt; and the &lt;a href=&quot;https://github.com/vincenzopalazzo/material-ui-swing&quot;&gt;&lt;strong&gt;Material UI Swing&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Vincenzo is the maintainer of this library, a custom theme for Swing which is bringing a material &lt;em&gt;look-n-feel&lt;/em&gt; to the Swing UI toolkit. While this might sound boring at first, 
+Material UI Swing is currently used on &lt;a href=&quot;https://jmars.mars.asu.edu/&quot;&gt;&lt;strong&gt;JMars&lt;/strong&gt;&lt;/a&gt; (Java Mission-planning and Analysis for Remote Sensing) 🪐 and sponsored by the &lt;a href=&quot;https://www.asu.edu/&quot;&gt;Arizona State University&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In this episode Vincenzo will tell us the challenges of having to deal with Swing, and what it means to have a &lt;strong&gt;University sponsoring&lt;/strong&gt; your open-source project.&lt;/p&gt;
+
+&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
+
+&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;00.09&lt;/strong&gt; Intro&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;00.55&lt;/strong&gt; Episode Start&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;01.48&lt;/strong&gt; Vincenzo’s Introduction&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;04.24&lt;/strong&gt; What are you favourite programming languages?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;06.21&lt;/strong&gt; What is Material UI Swing?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;10.20&lt;/strong&gt; How about JMars?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;14.03&lt;/strong&gt; A bit of project history&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;17.07&lt;/strong&gt; What was the impact of being sponsored by a University?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;24.16&lt;/strong&gt; Vincenzo goes to Arizona&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;30.26&lt;/strong&gt; Swing and Themes&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;37.44&lt;/strong&gt; Would you rewrite it in Kotlin?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;41.07&lt;/strong&gt; What’s up in the future for this library?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;44.27&lt;/strong&gt; Further reading&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;47.13&lt;/strong&gt; Where to find Vincenzo online?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/vincenzopalazzo/material-ui-swing&quot;&gt;vincenzopalazzo/material-ui-swing on Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://jmars.mars.asu.edu/&quot;&gt;JMars Official Website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/atarw/material-ui-swing&quot;&gt;Original Material UI Swing repository&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/vincenzopalazzo&quot;&gt;@vincenzopalazzo on Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/PalazzoVincenzo&quot;&gt;@PalazzoVincenzo on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">This time, we fly up to Mars with Vincenzo and Material UI Swing</summary></entry><entry><title type="html">#25 - Realm with Christian Melchior</title><link href="https://thebakery.dev/25/" rel="alternate" type="text/html" title="#25 - Realm with Christian Melchior" /><published>2022-01-10T00:00:00+01:00</published><updated>2022-01-10T00:00:00+01:00</updated><id>https://thebakery.dev/025-realm</id><content type="html" xml:base="https://thebakery.dev/25/">&lt;iframe style=&quot;border-radius:12px&quot; src=&quot;https://open.spotify.com/embed/episode/1SIaXMs2ZLKguCRR4M9J3J?utm_source=generator&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;Let’s start this new year venturing inside the realm of mobile databases, with &lt;a href=&quot;https://twitter.com/cmelchior&quot;&gt;&lt;strong&gt;Christian Melchior&lt;/strong&gt;&lt;/a&gt; and the &lt;a href=&quot;https://github.com/realm/realm-kotlin&quot;&gt;&lt;strong&gt;Realm Kotlin SDK&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 
@@ -603,74 +652,4 @@ In this episode he will walk us through the story of this project, and some of t
   &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">We talk about Python, GraphQL and Community on this episode about Strawberry with Patrick Arminio</summary></entry><entry><title type="html">#16 - FastHub with Kosh Sergani</title><link href="https://thebakery.dev/16/" rel="alternate" type="text/html" title="#16 - FastHub with Kosh Sergani" /><published>2021-07-26T00:00:00+02:00</published><updated>2021-07-26T00:00:00+02:00</updated><id>https://thebakery.dev/016-fasthub</id><content type="html" xml:base="https://thebakery.dev/16/">&lt;iframe src=&quot;https://open.spotify.com/embed/episode/0QxzQs5YevhNqZjIzf8Hw9&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Today I have the honor to host on-stage &lt;a href=&quot;https://twitter.com/im_kosh&quot;&gt;&lt;strong&gt;Kosh Sergani&lt;/strong&gt;&lt;/a&gt;, author and maintainer of &lt;a href=&quot;https://github.com/k0shk0sh/FastHub&quot;&gt;&lt;strong&gt;FastHub&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
- &lt;img src=&quot;/assets/images/posts/fasthub-logo.png&quot; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;If you don’t know FastHub yet, it’s one of the most popular Github client for Android. It’s obviously &lt;strong&gt;fully open-sourced&lt;/strong&gt; and Kosh has been developing it from day 1. Today he’s sharing with us the story of this project, how it started and how it evolved.&lt;/p&gt;
-
-&lt;p&gt;Make sure you don’t miss this episode as we’re going to talk about a lot of topics: the the FastHub &lt;strong&gt;business model&lt;/strong&gt;, how Kosh handled &lt;strong&gt;piracy&lt;/strong&gt; problems and what is the future for this project.&lt;/p&gt;
-
-&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
-
-&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;00.11&lt;/strong&gt; Intro&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;00.56&lt;/strong&gt; Episode Start&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;01.26&lt;/strong&gt; Kosh’s Introduction&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;02.21&lt;/strong&gt; What is FastHub?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;03.17&lt;/strong&gt; The story of FastHub&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;05.11&lt;/strong&gt; The tech stack&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;08.29&lt;/strong&gt; Was FastHub open-sourced from day 1?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;09.28&lt;/strong&gt; Community contributions&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;11.36&lt;/strong&gt; Deploying to the Play Store&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;13.10&lt;/strong&gt; Reproducible builds&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;15.16&lt;/strong&gt; Piracy problems&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;20.11&lt;/strong&gt; Who is maintaining FastHub?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;22.18&lt;/strong&gt; The business model&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;25.16&lt;/strong&gt; FastHub vs Github Native App&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;28.53&lt;/strong&gt; Is FastHub v5 happening?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;30.52&lt;/strong&gt; Are you looking for contributors?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;31.56&lt;/strong&gt; Further reading&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;33.14&lt;/strong&gt; The burden of a maintainer&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;36.07&lt;/strong&gt; Your passion for open source&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;37.32&lt;/strong&gt; Open source impact on career growth&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;39.48&lt;/strong&gt; Where to find Kosh online?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/k0shk0sh/FastHub&quot;&gt;k0shk0sh/FastHub on Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/k0shk0sh/FastHub/blob/development/.github/CONTRIBUTING.md&quot;&gt;Contribution Guide&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Mentioned Resources &amp;amp; Projects:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/GCX-HCI/ThirtyInch&quot;&gt;GCX-HCI/ThirtyInch on Github&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/requery/requery&quot;&gt;requery/requery on Github&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/aNNiMON/Lightweight-Stream-API&quot;&gt;aNNiMON/Lightweight-Stream-API on Github&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/JakeWharton/butterknife&quot;&gt;JakeWharton/butterknife on Github&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/bumptech/glide&quot;&gt;bumptech/glide on Github&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/airbnb/lottie-android&quot;&gt;airbnb/lottie-android on Github&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/commonmark/commonmark-java&quot;&gt;commonmark/commonmark-java on Github&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://projectlombok.org/&quot;&gt;Project Lombok&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/k0shk0sh&quot;&gt;@k0shk0sh on Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/im_kosh&quot;&gt;@im_kosh on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">An open-source app to browse open-source code? That's FastHub, one of the best Android app for Github. Kosh it's on stage to tell us the story behind it.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">We talk about Python, GraphQL and Community on this episode about Strawberry with Patrick Arminio</summary></entry></feed>
