@@ -25,7 +25,7 @@ podcast_duration: "49:02"
 podcast_length: 19352230
 ---
 
-<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/3vMIOP9iqVS1XlZ2gWOHHw?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
 This time, we fly up to Mars with [**Vincenzo Palazzo**](https://twitter.com/PalazzoVincenzo) and the [**Material UI Swing**](https://github.com/vincenzopalazzo/material-ui-swing).
 
