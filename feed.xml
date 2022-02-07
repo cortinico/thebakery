@@ -1,4 +1,63 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2022-01-24T15:50:35+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#26 - Material UI Swing with Vincenzo Palazzo</title><link href="https://thebakery.dev/26/" rel="alternate" type="text/html" title="#26 - Material UI Swing with Vincenzo Palazzo" /><published>2022-01-24T00:00:00+01:00</published><updated>2022-01-24T00:00:00+01:00</updated><id>https://thebakery.dev/026-material-ui-swing</id><content type="html" xml:base="https://thebakery.dev/26/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2022-02-07T16:25:19+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#27 - Krabs with Michele Riva</title><link href="https://thebakery.dev/27/" rel="alternate" type="text/html" title="#27 - Krabs with Michele Riva" /><published>2022-02-07T00:00:00+01:00</published><updated>2022-02-07T00:00:00+01:00</updated><id>https://thebakery.dev/027-krabs</id><content type="html" xml:base="https://thebakery.dev/27/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;In this episode of The Developers’ Bakery we touch on &lt;a href=&quot;https://nextjs.org/&quot;&gt;Next.js&lt;/a&gt; and a middleware to overcome one of its missing capability with &lt;a href=&quot;https://twitter.com/MicheleRivaCode&quot;&gt;&lt;strong&gt;Michele Riva&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&quot;https://github.com/micheleriva/krabs&quot;&gt;&lt;strong&gt;Krabs&lt;/strong&gt;&lt;/a&gt; 🦀&lt;/p&gt;
+
+&lt;p&gt;Krabs is a Express.js/Fastify middleware that will help you deploying &lt;strong&gt;multi-tenancy&lt;/strong&gt; application on Next.js.
+We’re going to walk through what this tool does and why it was even needed in the first place.&lt;/p&gt;
+
+&lt;p&gt;Michele is also a &lt;strong&gt;book author&lt;/strong&gt; and has a lot of opinion on programming languages. We’re going to hear a bit
+about his experience writing a book and some of his lessons learned.&lt;/p&gt;
+
+&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
+
+&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;00.09&lt;/strong&gt; Intro&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;00.55&lt;/strong&gt; Episode Start&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;01.28&lt;/strong&gt; Michele’s Introduction&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;02.31&lt;/strong&gt; What is Krabs?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;03.36&lt;/strong&gt; What is NextJS?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;05.25&lt;/strong&gt; What is multi tenancy?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;08.05&lt;/strong&gt; Is Krabs used in production?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;11.00&lt;/strong&gt; FLIP - Functional-like Imperative Programming&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;12.37&lt;/strong&gt; Native Multi-tenancy support in Next.js&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;14.30&lt;/strong&gt; Upcoming features for Krabs?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;16.57&lt;/strong&gt; Who is currently maintaining the project?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;17.58&lt;/strong&gt; Who is sponsoring this project?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;19.07&lt;/strong&gt; Could you imagine doing OSS full-time?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;20.47&lt;/strong&gt; What’s your experience as a book author?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;23.51&lt;/strong&gt; Real-world Next.js&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;26.17&lt;/strong&gt; If you were to rewrite Krabs, what would you do differently?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;29.11&lt;/strong&gt; If you were to rewrite your book, what would you do differently?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;31.36&lt;/strong&gt; Further reading&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;33.41&lt;/strong&gt; Bonus: What is your favourite programming language?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;35.54&lt;/strong&gt; Bonus: …and why it’s not Javascript?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;40.46&lt;/strong&gt; Where to find Michele online?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/micheleriva/krabs&quot;&gt;micheleriva/krabs on Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://krabs.vercel.app/&quot;&gt;Krabs Official Website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://krabs.vercel.app/docs/intro&quot;&gt;Krabs Tutorial&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-youtube&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://youtu.be/71NRAnT4G4Q&quot;&gt;Serving thousands of websites with a single Next.js installation on YouTube&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-book&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.packtpub.com/product/real-world-next-js/9781801073493&quot;&gt;Real-World Next.js - Packt Publishing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/micheleriva&quot;&gt;@micheleriva on Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/MicheleRivaCode&quot;&gt;@MicheleRivaCode on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">In this episode we will talk about Next.js and multi-tenancy with Krabs by Michele Riva</summary></entry><entry><title type="html">#26 - Material UI Swing with Vincenzo Palazzo</title><link href="https://thebakery.dev/26/" rel="alternate" type="text/html" title="#26 - Material UI Swing with Vincenzo Palazzo" /><published>2022-01-24T00:00:00+01:00</published><updated>2022-01-24T00:00:00+01:00</updated><id>https://thebakery.dev/026-material-ui-swing</id><content type="html" xml:base="https://thebakery.dev/26/">&lt;iframe style=&quot;border-radius:12px&quot; src=&quot;https://open.spotify.com/embed/episode/3vMIOP9iqVS1XlZ2gWOHHw?utm_source=generator&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;This time, we fly up to Mars with &lt;a href=&quot;https://twitter.com/PalazzoVincenzo&quot;&gt;&lt;strong&gt;Vincenzo Palazzo&lt;/strong&gt;&lt;/a&gt; and the &lt;a href=&quot;https://github.com/vincenzopalazzo/material-ui-swing&quot;&gt;&lt;strong&gt;Material UI Swing&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 
@@ -582,74 +641,4 @@ The tool we’re going to talk about today is not a Github library, but a sport 
   &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">It's time to relocate your IDE to the cloud with code-server and Joe Previte!</summary></entry><entry><title type="html">#17 - Strawberry with Patrick Arminio</title><link href="https://thebakery.dev/17/" rel="alternate" type="text/html" title="#17 - Strawberry with Patrick Arminio" /><published>2021-08-16T00:00:00+02:00</published><updated>2021-08-16T00:00:00+02:00</updated><id>https://thebakery.dev/017-strawberry</id><content type="html" xml:base="https://thebakery.dev/17/">&lt;iframe src=&quot;https://open.spotify.com/embed/episode/2SlFblSiBqkuaV9WKLzNsQ&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Today we touch a bit on the Python 🐍 world as I have the honor to have on-stage &lt;a href=&quot;https://twitter.com/patrick91&quot;&gt;&lt;strong&gt;Patrick Arminio&lt;/strong&gt;&lt;/a&gt;, author and maintainer of &lt;a href=&quot;https://github.com/strawberry-graphql/strawberry&quot;&gt;&lt;strong&gt;Strawberry&lt;/strong&gt;&lt;/a&gt; 🍓.&lt;/p&gt;
-
-&lt;p&gt;Strawberry is a &lt;strong&gt;GraphQL library&lt;/strong&gt; for Python 3. It comes with a lot of nice features built on top of language feature such as &lt;strong&gt;dataclasses&lt;/strong&gt; and &lt;strong&gt;type hints&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Patrick is also doing an amazing work in building a &lt;strong&gt;vibrant community&lt;/strong&gt; around this project.
-In this episode he will walk us through the story of this project, and some of the community initiatives he started to support this project.&lt;/p&gt;
-
-&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
-
-&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;00.13&lt;/strong&gt; Intro&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;00.59&lt;/strong&gt; Episode Start&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;01.26&lt;/strong&gt; Patrick’s Introduction&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;02.09&lt;/strong&gt; Patrick’s background&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;03.23&lt;/strong&gt; What is Strawberry?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;04.37&lt;/strong&gt; The story of Strawberry&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;06.50&lt;/strong&gt; Strawberry’s selling point&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;07.52&lt;/strong&gt; A new release for every pull-request&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;08.57&lt;/strong&gt; Building communities around side projects&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;10.53&lt;/strong&gt; Who is maintaining the project?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;12.11&lt;/strong&gt; Meeting with the contributors&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;14.01&lt;/strong&gt; Is it worth to organize a meeting?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;15.24&lt;/strong&gt; Where to find time for open source?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;17.01&lt;/strong&gt; Weekly reporting your contributions&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;18.45&lt;/strong&gt; Release Twitter cards&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;22.22&lt;/strong&gt; A retrospective on the community health&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;24.09&lt;/strong&gt; Why Strawberry vs other popular libraries?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;25.44&lt;/strong&gt; Strawberry’s upcoming features&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;27.37&lt;/strong&gt; When to 1.0?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;29.06&lt;/strong&gt; Strawberry on Twitch&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;30.09&lt;/strong&gt; Roadmap to beyond 1.0&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;32.15&lt;/strong&gt; Onboarding new contributors&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;33.52&lt;/strong&gt; Further reading&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;37.06&lt;/strong&gt; Sponsoring the project&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;39.53&lt;/strong&gt; Where to find Patrick online?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/strawberry-graphql/strawberry&quot;&gt;strawberry-graphql/strawberry on Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://strawberry.rocks&quot;&gt;Official Strawberry documentation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://strawberry.rocks/code-of-conduct&quot;&gt;Code of Conduct&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/strawberry_gql&quot;&gt;@strawberry_gql on Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-discord&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://strawberry.rocks/discord&quot;&gt;Strawberry Discord server&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Mentioned Resources &amp;amp; Projects:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/graphql-python/graphene&quot;&gt;graphql-python/graphene on Github&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/strawberry-graphql/release-cards&quot;&gt;strawberry-graphql/release-cards on Github&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fab fa-twitch&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.twitch.tv/aaronbassettdev&quot;&gt;aaronbassettdev on Twitch&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/patrick91&quot;&gt;@patrick91 on Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://patrick.wtf/&quot;&gt;Patrick’s Blog&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/patrick91&quot;&gt;@patrick91 on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">We talk about Python, GraphQL and Community on this episode about Strawberry with Patrick Arminio</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">It's time to relocate your IDE to the cloud with code-server and Joe Previte!</summary></entry></feed>

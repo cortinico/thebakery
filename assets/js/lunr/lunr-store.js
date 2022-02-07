@@ -160,4 +160,10 @@ var store = [{
         "tags": [],
         "url": "/26/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#27 - Krabs with Michele Riva",
+        "excerpt":"In this episode of The Developers’ Bakery we touch on Next.js and a middleware to overcome one of its missing capability with Michele Riva and Krabs 🦀 Krabs is a Express.js/Fastify middleware that will help you deploying multi-tenancy application on Next.js. We’re going to walk through what this tool does...","categories": [],
+        "tags": [],
+        "url": "/27/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

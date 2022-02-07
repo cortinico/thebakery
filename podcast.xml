@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Mon, 24 Jan 2022 15:50:35 +0100</lastBuildDate>
+<lastBuildDate>Mon, 07 Feb 2022 16:25:19 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,99 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Krabs with Michele Riva</title>
+        <itunes:title>Krabs with Michele Riva</itunes:title>
+        <link>https://thebakery.dev/27/</link>
+        <pubDate>Mon, 07 Feb 2022 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/27/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>27</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/27-thedevelopersbakery-krabs.m4a" length="16618125" type="audio/mpeg" />
+
+        <itunes:subtitle>In this episode we will talk about Next.js and multi-tenancy with Krabs by Michele Riva</itunes:subtitle>
+        <itunes:summary>In this episode we will talk about Next.js and multi-tenancy with Krabs by Michele Riva</itunes:summary>
+
+        
+        <description>
+            <![CDATA[In this episode of The Developers’ Bakery we touch on Next.js and a middleware to overcome one of its missing capability with Michele Riva and Krabs 🦀 Krabs is a Express.js/Fastify middleware that will help you deploying multi-tenancy application on Next.js. We’re going to walk through what this tool does...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>In this episode of The Developers’ Bakery we touch on <a href="https://nextjs.org/">Next.js</a> and a middleware to overcome one of its missing capability with <a href="https://twitter.com/MicheleRivaCode"><strong>Michele Riva</strong></a> and <a href="https://github.com/micheleriva/krabs"><strong>Krabs</strong></a> 🦀</p>
+
+<p>Krabs is a Express.js/Fastify middleware that will help you deploying <strong>multi-tenancy</strong> application on Next.js.
+We’re going to walk through what this tool does and why it was even needed in the first place.</p>
+
+<p>Michele is also a <strong>book author</strong> and has a lot of opinion on programming languages. We’re going to hear a bit
+about his experience writing a book and some of his lessons learned.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.09</strong> Intro</li>
+  <li><strong>00.55</strong> Episode Start</li>
+  <li><strong>01.28</strong> Michele’s Introduction</li>
+  <li><strong>02.31</strong> What is Krabs?</li>
+  <li><strong>03.36</strong> What is NextJS?</li>
+  <li><strong>05.25</strong> What is multi tenancy?</li>
+  <li><strong>08.05</strong> Is Krabs used in production?</li>
+  <li><strong>11.00</strong> FLIP - Functional-like Imperative Programming</li>
+  <li><strong>12.37</strong> Native Multi-tenancy support in Next.js</li>
+  <li><strong>14.30</strong> Upcoming features for Krabs?</li>
+  <li><strong>16.57</strong> Who is currently maintaining the project?</li>
+  <li><strong>17.58</strong> Who is sponsoring this project?</li>
+  <li><strong>19.07</strong> Could you imagine doing OSS full-time?</li>
+  <li><strong>20.47</strong> What’s your experience as a book author?</li>
+  <li><strong>23.51</strong> Real-world Next.js</li>
+  <li><strong>26.17</strong> If you were to rewrite Krabs, what would you do differently?</li>
+  <li><strong>29.11</strong> If you were to rewrite your book, what would you do differently?</li>
+  <li><strong>31.36</strong> Further reading</li>
+  <li><strong>33.41</strong> Bonus: What is your favourite programming language?</li>
+  <li><strong>35.54</strong> Bonus: …and why it’s not Javascript?</li>
+  <li><strong>40.46</strong> Where to find Michele online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/micheleriva/krabs">micheleriva/krabs on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://krabs.vercel.app/">Krabs Official Website</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://krabs.vercel.app/docs/intro">Krabs Tutorial</a></li>
+  <li><i class="fab fa-youtube"></i> <a href="https://youtu.be/71NRAnT4G4Q">Serving thousands of websites with a single Next.js installation on YouTube</a></li>
+  <li><i class="fas fa-book"></i> <a href="https://www.packtpub.com/product/real-world-next-js/9781801073493">Real-World Next.js - Packt Publishing</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/micheleriva">@micheleriva on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/MicheleRivaCode">@MicheleRivaCode on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/27-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>41:50</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Material UI Swing with Vincenzo Palazzo</title>
