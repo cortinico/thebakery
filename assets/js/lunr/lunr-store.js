@@ -166,4 +166,10 @@ var store = [{
         "tags": [],
         "url": "/27/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#28 - Stream SDK with Filip Babić",
+        "excerpt":"Building a chat client is hard. Sending messages, uploading attachments, and handling reactions are all tedious and quite complicate tasks that are common to a wide variety of apps. Those are the foundation of the Android Stream SDK. With Stream you can build a customized chat experience for your mobile...","categories": [],
+        "tags": [],
+        "url": "/28/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Mon, 07 Feb 2022 16:25:19 +0100</lastBuildDate>
+<lastBuildDate>Mon, 21 Feb 2022 19:37:09 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,101 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Stream SDK with Filip Babić</title>
+        <itunes:title>Stream SDK with Filip Babić</itunes:title>
+        <link>https://thebakery.dev/28/</link>
+        <pubDate>Mon, 21 Feb 2022 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/28/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>28</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/28-thedevelopersbakery-stream-sdk.m4a" length="20947096" type="audio/mpeg" />
+
+        <itunes:subtitle>Filip is on stage to walk us through the Stream, a Chat SDK to help you power your mobile apps.</itunes:subtitle>
+        <itunes:summary>Filip is on stage to walk us through the Stream, a Chat SDK to help you power your mobile apps.</itunes:summary>
+
+        
+        <description>
+            <![CDATA[Building a chat client is hard. Sending messages, uploading attachments, and handling reactions are all tedious and quite complicate tasks that are common to a wide variety of apps. Those are the foundation of the Android Stream SDK. With Stream you can build a customized chat experience for your mobile...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>Building a chat client is hard.</p>
+
+<p>Sending messages, uploading attachments, and handling reactions are all tedious and quite complicate tasks that are common to a wide variety of apps. Those are the foundation of the <a href="https://github.com/GetStream/stream-chat-android/"><strong>Android Stream SDK</strong></a>. With Stream you can build a customized chat experience for your mobile apps. The various SDKs are completely open-source and are available for several platforms (Web, iOS, Android and even gaming platforms).</p>
+
+<p>Today we have <a href="https://github.com/filbabic"><strong>Filip Babić</strong></a> on stage, Android UI Team Lead at Stream, to walk us through their Android SDK. Specifically, Stream is offering both an Android <strong>XML</strong> SDK and a <strong>Compose</strong> SDK. We’re going to talk about the differences between the two, and the challenges of building a chat SDK to serve millions of messages.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.09</strong> Intro</li>
+  <li><strong>00.55</strong> Episode Start</li>
+  <li><strong>01.10</strong> Filip’s Introduction</li>
+  <li><strong>02.20</strong> What is Stream?</li>
+  <li><strong>04.14</strong> Stream SDK Offering</li>
+  <li><strong>06.50</strong> The killer features</li>
+  <li><strong>10.14</strong> The Jetpack Compose SDK</li>
+  <li><strong>15.17</strong> The biggest challenge when building the Stream SDK</li>
+  <li><strong>18.07</strong> Protecting the API surface</li>
+  <li><strong>23.26</strong> Offline mode</li>
+  <li><strong>27.51</strong> End-to-end encryption</li>
+  <li><strong>31.14</strong> Kotlin language feature in the SDK</li>
+  <li><strong>34.06</strong> The Maker plan</li>
+  <li><strong>39.12</strong> Everything is open-source</li>
+  <li><strong>40.47</strong> The most requested feature</li>
+  <li><strong>45.21</strong> How can people contribute to the Stream SDK?</li>
+  <li><strong>47.58</strong> Further reading</li>
+  <li><strong>50.43</strong> Where to find Filip online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/GetStream/stream-chat-android/">GetStream/stream-chat-android on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://getstream.io/">Stream Official Website</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://getstream.io/chat/sdk/android/">Stream Android SDK Docs</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://getstream.io/chat/sdk/compose/">Stream Compose SDK Docs</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://getstream.io/chat/docs/sdk/android/compose/overview/">Stream Compose SDK Overview</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/GetStream/stream-chat-android/tree/main/stream-chat-android-compose-sample/">Compose SDK Sample App</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://getstream.io/chat/compose/tutorial/">Compose SDK Tutorial</a></li>
+      <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/channel/UC2xOn0xQj1HIpHJpOy5tvpA">Stream YouTube Channel</a></li>
+      <li><i class="fab fa-youtube"></i> <a href="https://www.droidcon.com/2021/11/10/building-a-production-ready-chat-sdk-using-jetpack-compose/">Building a Production-Ready Chat SDK Using Jetpack Compose - Droidcon Berlin 2021</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/filbabic">@filbabic on Github</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/28-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>52:58</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Krabs with Michele Riva</title>

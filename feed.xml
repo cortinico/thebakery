@@ -1,4 +1,65 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2022-02-07T16:25:19+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#27 - Krabs with Michele Riva</title><link href="https://thebakery.dev/27/" rel="alternate" type="text/html" title="#27 - Krabs with Michele Riva" /><published>2022-02-07T00:00:00+01:00</published><updated>2022-02-07T00:00:00+01:00</updated><id>https://thebakery.dev/027-krabs</id><content type="html" xml:base="https://thebakery.dev/27/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2022-02-21T19:37:09+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#28 - Stream SDK with Filip Babić</title><link href="https://thebakery.dev/28/" rel="alternate" type="text/html" title="#28 - Stream SDK with Filip Babić" /><published>2022-02-21T00:00:00+01:00</published><updated>2022-02-21T00:00:00+01:00</updated><id>https://thebakery.dev/028-stream-sdk</id><content type="html" xml:base="https://thebakery.dev/28/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Building a chat client is hard.&lt;/p&gt;
+
+&lt;p&gt;Sending messages, uploading attachments, and handling reactions are all tedious and quite complicate tasks that are common to a wide variety of apps. Those are the foundation of the &lt;a href=&quot;https://github.com/GetStream/stream-chat-android/&quot;&gt;&lt;strong&gt;Android Stream SDK&lt;/strong&gt;&lt;/a&gt;. With Stream you can build a customized chat experience for your mobile apps. The various SDKs are completely open-source and are available for several platforms (Web, iOS, Android and even gaming platforms).&lt;/p&gt;
+
+&lt;p&gt;Today we have &lt;a href=&quot;https://github.com/filbabic&quot;&gt;&lt;strong&gt;Filip Babić&lt;/strong&gt;&lt;/a&gt; on stage, Android UI Team Lead at Stream, to walk us through their Android SDK. Specifically, Stream is offering both an Android &lt;strong&gt;XML&lt;/strong&gt; SDK and a &lt;strong&gt;Compose&lt;/strong&gt; SDK. We’re going to talk about the differences between the two, and the challenges of building a chat SDK to serve millions of messages.&lt;/p&gt;
+
+&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
+
+&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;00.09&lt;/strong&gt; Intro&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;00.55&lt;/strong&gt; Episode Start&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;01.10&lt;/strong&gt; Filip’s Introduction&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;02.20&lt;/strong&gt; What is Stream?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;04.14&lt;/strong&gt; Stream SDK Offering&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;06.50&lt;/strong&gt; The killer features&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;10.14&lt;/strong&gt; The Jetpack Compose SDK&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;15.17&lt;/strong&gt; The biggest challenge when building the Stream SDK&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;18.07&lt;/strong&gt; Protecting the API surface&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;23.26&lt;/strong&gt; Offline mode&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;27.51&lt;/strong&gt; End-to-end encryption&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;31.14&lt;/strong&gt; Kotlin language feature in the SDK&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;34.06&lt;/strong&gt; The Maker plan&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;39.12&lt;/strong&gt; Everything is open-source&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;40.47&lt;/strong&gt; The most requested feature&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;45.21&lt;/strong&gt; How can people contribute to the Stream SDK?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;47.58&lt;/strong&gt; Further reading&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;50.43&lt;/strong&gt; Where to find Filip online?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/GetStream/stream-chat-android/&quot;&gt;GetStream/stream-chat-android on Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://getstream.io/&quot;&gt;Stream Official Website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Mentioned Resources:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://getstream.io/chat/sdk/android/&quot;&gt;Stream Android SDK Docs&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://getstream.io/chat/sdk/compose/&quot;&gt;Stream Compose SDK Docs&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://getstream.io/chat/docs/sdk/android/compose/overview/&quot;&gt;Stream Compose SDK Overview&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/GetStream/stream-chat-android/tree/main/stream-chat-android-compose-sample/&quot;&gt;Compose SDK Sample App&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://getstream.io/chat/compose/tutorial/&quot;&gt;Compose SDK Tutorial&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fab fa-youtube&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.youtube.com/channel/UC2xOn0xQj1HIpHJpOy5tvpA&quot;&gt;Stream YouTube Channel&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fab fa-youtube&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.droidcon.com/2021/11/10/building-a-production-ready-chat-sdk-using-jetpack-compose/&quot;&gt;Building a Production-Ready Chat SDK Using Jetpack Compose - Droidcon Berlin 2021&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/filbabic&quot;&gt;@filbabic on Github&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">Filip is on stage to walk us through the Stream, a Chat SDK to help you power your mobile apps.</summary></entry><entry><title type="html">#27 - Krabs with Michele Riva</title><link href="https://thebakery.dev/27/" rel="alternate" type="text/html" title="#27 - Krabs with Michele Riva" /><published>2022-02-07T00:00:00+01:00</published><updated>2022-02-07T00:00:00+01:00</updated><id>https://thebakery.dev/027-krabs</id><content type="html" xml:base="https://thebakery.dev/27/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;In this episode of The Developers’ Bakery we touch on &lt;a href=&quot;https://nextjs.org/&quot;&gt;Next.js&lt;/a&gt; and a middleware to overcome one of its missing capability with &lt;a href=&quot;https://twitter.com/MicheleRivaCode&quot;&gt;&lt;strong&gt;Michele Riva&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&quot;https://github.com/micheleriva/krabs&quot;&gt;&lt;strong&gt;Krabs&lt;/strong&gt;&lt;/a&gt; 🦀&lt;/p&gt;
 
@@ -559,86 +620,4 @@ The tool we’re going to talk about today is not a Github library, but a sport 
   &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">Today we venture into the realm of Functional Programming with Arrow and Simon Vergauwen</summary></entry><entry><title type="html">#18 - code-server with Joe Previte</title><link href="https://thebakery.dev/18/" rel="alternate" type="text/html" title="#18 - code-server with Joe Previte" /><published>2021-08-30T00:00:00+02:00</published><updated>2021-08-30T00:00:00+02:00</updated><id>https://thebakery.dev/018-code-server</id><content type="html" xml:base="https://thebakery.dev/18/">&lt;iframe src=&quot;https://open.spotify.com/embed/episode/13kkTyxXbSU04bdWYOk9vs&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Are you ready to &lt;strong&gt;relocate&lt;/strong&gt; your IDE to the &lt;strong&gt;cloud&lt;/strong&gt; ☁️?&lt;/p&gt;
-
-&lt;p&gt;In this episode we welcome on stage &lt;a href=&quot;https://twitter.com/jsjoeio&quot;&gt;&lt;strong&gt;Joe Previte&lt;/strong&gt;&lt;/a&gt; to talk about &lt;a href=&quot;https://github.com/cdr/code-server&quot;&gt;&lt;strong&gt;code-server&lt;/strong&gt;&lt;/a&gt;, the solution to run VS Code in &lt;strong&gt;your browser&lt;/strong&gt;. Joe is also working for &lt;a href=&quot;https://coder.com&quot;&gt;&lt;strong&gt;coder.com&lt;/strong&gt;&lt;/a&gt;, an enterprise service that offers code-server deployment ready to use.&lt;/p&gt;
-
-&lt;p&gt;Today he will tell us about his journey with cloud IDEs, through shiny features and the current limitations. We even get to run VS Code on &lt;strong&gt;his mobile phone&lt;/strong&gt; 😬!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/posts/codeserver-on-mobile.jpg&quot; alt=&quot;codeserver-on-mobile&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;If you want to get a glimpse of how the IDE experience &lt;em&gt;might&lt;/em&gt; look like in some years, make sure to don’t miss this episode!&lt;/p&gt;
-
-&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
-
-&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;00.13&lt;/strong&gt; Intro&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;00.59&lt;/strong&gt; Episode Start&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;01.24&lt;/strong&gt; Joe’s Introduction&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;02.51&lt;/strong&gt; What is code-server?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;04.24&lt;/strong&gt; Who had the idea of having an IDE in the browser?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;06.22&lt;/strong&gt; Keeping developers in flow&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;08.50&lt;/strong&gt; What is coder.com&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;11.27&lt;/strong&gt; Convince us that cloud IDEs are the future&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;14.17&lt;/strong&gt; Limitations of cloud IDEs&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;15.43&lt;/strong&gt; Backend development in the cloud&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;17.03&lt;/strong&gt; With browsers getting slower, do you want your IDE there?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;20.43&lt;/strong&gt; What is blocking a wider adoption?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;23.25&lt;/strong&gt; What to invest for a cloud IDE setup?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;26.13&lt;/strong&gt; code-server internals&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;28.54&lt;/strong&gt; Why typescript?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;30.02&lt;/strong&gt; VS Code extensions&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;32.45&lt;/strong&gt; Keyboard shortcuts&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;41.05&lt;/strong&gt; code-server vs Github Codespaces&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;43.43&lt;/strong&gt; How can we contribute to code-server?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;48.59&lt;/strong&gt; Which future for code-server?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;50.49&lt;/strong&gt; Are we all doomed to develop on our smartphones?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;54.09&lt;/strong&gt; Further reading&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;55.23&lt;/strong&gt; Where to find Joe online?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/cdr/code-server&quot;&gt;cdr/code-server on Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Official resources:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://coder.com&quot;&gt;coder.com Official Website&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://coder.com/docs/code-server/latest&quot;&gt;code-server official documentation&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/cdr/deploy-code-server&quot;&gt;deploy-code-server - Scripts and guides for deploying code-server to various platforms&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://community.coder.com/coffee-and-coder&quot;&gt;Coffee and Coder&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fab fa-twitch&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.twitch.tv/coderhq_&quot;&gt;coderhq_ on Twitch&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fab fa-youtube&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.youtube.com/channel/UCWexK_ECcUU3vEIdb-VYkfw&quot;&gt;Coder on YouTube&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/coderhq&quot;&gt;@coderhq on Twitter&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fab fa-slack&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://cdr.co/join-community&quot;&gt;Official Coder Slack&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Mentioned Resources &amp;amp; Projects:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://xtermjs.org/&quot;&gt;xtermjs.org - A terminal for the web&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://mightyapp.com/&quot;&gt;mightyapp.com - Make Chrome Faster&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://jestjs.io/&quot;&gt;jestjs.io - Delightful JavaScript Testing&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://playwright.dev /&quot;&gt;jestjs.io - E2E Browser Testing&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open-vsx.org/&quot;&gt;open-vsx.org - Opensource VS Code Extensions&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://duckly.com/&quot;&gt;duckly.com - Real-time code sharing and collaboration inside IDE&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://termux.com/&quot;&gt;termux.com - Android terminal emulator&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/jsjoeio&quot;&gt;@jsjoeio on Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/jsjoeio&quot;&gt;@jsjoeio on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">It's time to relocate your IDE to the cloud with code-server and Joe Previte!</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">Today we venture into the realm of Functional Programming with Arrow and Simon Vergauwen</summary></entry></feed>
