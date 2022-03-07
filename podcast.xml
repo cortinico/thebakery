@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Fri, 04 Mar 2022 17:38:30 +0100</lastBuildDate>
+<lastBuildDate>Mon, 07 Mar 2022 20:56:32 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,112 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Kodein with Salomon Brys</title>
+        <itunes:title>Kodein with Salomon Brys</itunes:title>
+        <link>https://thebakery.dev/29/</link>
+        <pubDate>Mon, 07 Mar 2022 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/29/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>29</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/29-thedevelopersbakery-kodein.m4a" length="18691066" type="audio/mpeg" />
+
+        <itunes:subtitle>It's time to spotlight another Dependency Injection framework for Kotlin: please welcome Salomon with Kodein</itunes:subtitle>
+        <itunes:summary>It's time to spotlight another Dependency Injection framework for Kotlin: please welcome Salomon with Kodein</itunes:summary>
+
+        
+        <description>
+            <![CDATA[Today we have the pleasure to host another popular Dependency Injection framework at the Developers’ Bakery. Please welcome Kodein-DI and Salomon Brys on stage! Kodein is an acronym for KOtlin DEpendency INjection, a framework to help you handle your dependencies in your Kotlin code (on all the platforms!). But Kodein...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>Today we have the pleasure to host another popular <strong>Dependency Injection</strong> framework at the Developers’ Bakery.</p>
+
+<p>Please welcome <a href="https://github.com/Kodein-Framework/Kodein-DI"><strong>Kodein-DI</strong></a> and <a href="https://twitter.com/salomonbrys"><strong>Salomon Brys</strong></a> on stage! 
+Kodein is an acronym for KOtlin DEpendency INjection, a framework to help you handle your dependencies in your Kotlin code (on all the platforms!).</p>
+
+<p>But Kodein is not only a DI framework. There is an entire ecosystem of libraries that can help you such as a DB, a logging library and a mocking framework.
+In this episode, Salomon is going to tell us how Kodein was born and how the whole <a href="https://kodein.org/">Kodein initiative</a> kicked off.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.18</strong> Intro</li>
+  <li><strong>01.05</strong> Episode Start</li>
+  <li><strong>01.33</strong> Salomon’s Introduction</li>
+  <li><strong>02.26</strong> Board games &amp; French</li>
+  <li><strong>04.14</strong> What is Kodein?</li>
+  <li><strong>05.49</strong> The Kodein Framework and library naming</li>
+  <li><strong>07.38</strong> What is Kodein Koders?</li>
+  <li><strong>10.08</strong> Kodein vs Dagger</li>
+  <li><strong>12.33</strong> Dagger error messages</li>
+  <li><strong>14.23</strong> Compile-time safety vs Unit-test safety</li>
+  <li><strong>20.51</strong> Testing with Kodein</li>
+  <li><strong>23.08</strong> MockKMP</li>
+  <li><strong>27.57</strong> Kodein vs Koin</li>
+  <li><strong>30.54</strong> The most requested feature</li>
+  <li><strong>33.15</strong> Is Kodein Multiplatform ready?</li>
+  <li><strong>36.53</strong> Upcoming features</li>
+  <li><strong>38.39</strong> Who is maintaining Kodein?</li>
+  <li><strong>41.39</strong> Is Kodein a good project to start doing open-source?</li>
+  <li><strong>43.55</strong> Further reading</li>
+  <li><strong>45.42</strong> Where to find Salomon online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/Kodein-Framework/Kodein-DI">Kodein-Framework/Kodein-DI on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://kodein.org/">Kodein Framework Official Website</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://docs.kodein.org/kodein-framework/index.html">Kodein Framework Official Docs</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://docs.kodein.org/kodein-di/7.10/index.html">Kodein DI Official Docs</a></li>
+  <li><i class="fab fa-slack"></i> <a href="https://kotlinlang.slack.com/archives/C0BLU9K96">#kodein on Kotlinlang Slack</a> (get an <a href="https://surveys.jetbrains.com/s3/kotlin-slack-sign-up">invite here</a>)</li>
+  <li>Talks about Kodein
+    <ul>
+      <li><i class="fab fa-youtube"></i> <a href="https://www.droidcon.com/2021/11/17/building-a-kotlin-multi-platform-advanced-library/">Building a Kotlin multi-platform advanced library - Droidcon Berlin 2021</a></li>
+      <li><i class="fab fa-youtube"></i> <a href="https://fosdem.org/2022/schedule/event/advanced_multiplatform_dependency_injection/">Advanced multi-platform dependency injection with Kotlin - FOSDEM 2022</a></li>
+      <li><i class="fab fa-youtube"></i> <a href="https://fosdem.org/2022/schedule/event/mocking_without_reflection_for_kotlin_multiplatform/">Mocking without reflection for Kotlin/Multiplatform - FOSDEM 2022</a></li>
+    </ul>
+  </li>
+  <li>Other Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://kodein.net/">Kodein Koders Official Website</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://kotlin-koders.eu/">Kodein Koders Conference 2021</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/Kodein-Framework/MocKMP">Kodein-Framework/MocKMP on Github</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/salomonbrys">@salomonbrys on Twitter</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/SalomonBrys">@SalomonBrys on Github</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/29-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>47:05</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Stream SDK with Filip Babić</title>

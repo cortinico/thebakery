@@ -1,4 +1,76 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2022-03-04T17:38:30+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#28 - Stream SDK with Filip Babić</title><link href="https://thebakery.dev/28/" rel="alternate" type="text/html" title="#28 - Stream SDK with Filip Babić" /><published>2022-02-21T00:00:00+01:00</published><updated>2022-02-21T00:00:00+01:00</updated><id>https://thebakery.dev/028-stream-sdk</id><content type="html" xml:base="https://thebakery.dev/28/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2022-03-07T20:56:32+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#29 - Kodein with Salomon Brys</title><link href="https://thebakery.dev/29/" rel="alternate" type="text/html" title="#29 - Kodein with Salomon Brys" /><published>2022-03-07T00:00:00+01:00</published><updated>2022-03-07T00:00:00+01:00</updated><id>https://thebakery.dev/029-kodein</id><content type="html" xml:base="https://thebakery.dev/29/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Today we have the pleasure to host another popular &lt;strong&gt;Dependency Injection&lt;/strong&gt; framework at the Developers’ Bakery.&lt;/p&gt;
+
+&lt;p&gt;Please welcome &lt;a href=&quot;https://github.com/Kodein-Framework/Kodein-DI&quot;&gt;&lt;strong&gt;Kodein-DI&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/salomonbrys&quot;&gt;&lt;strong&gt;Salomon Brys&lt;/strong&gt;&lt;/a&gt; on stage! 
+Kodein is an acronym for KOtlin DEpendency INjection, a framework to help you handle your dependencies in your Kotlin code (on all the platforms!).&lt;/p&gt;
+
+&lt;p&gt;But Kodein is not only a DI framework. There is an entire ecosystem of libraries that can help you such as a DB, a logging library and a mocking framework.
+In this episode, Salomon is going to tell us how Kodein was born and how the whole &lt;a href=&quot;https://kodein.org/&quot;&gt;Kodein initiative&lt;/a&gt; kicked off.&lt;/p&gt;
+
+&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
+
+&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;00.18&lt;/strong&gt; Intro&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;01.05&lt;/strong&gt; Episode Start&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;01.33&lt;/strong&gt; Salomon’s Introduction&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;02.26&lt;/strong&gt; Board games &amp;amp; French&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;04.14&lt;/strong&gt; What is Kodein?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;05.49&lt;/strong&gt; The Kodein Framework and library naming&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;07.38&lt;/strong&gt; What is Kodein Koders?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;10.08&lt;/strong&gt; Kodein vs Dagger&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;12.33&lt;/strong&gt; Dagger error messages&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;14.23&lt;/strong&gt; Compile-time safety vs Unit-test safety&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;20.51&lt;/strong&gt; Testing with Kodein&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;23.08&lt;/strong&gt; MockKMP&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;27.57&lt;/strong&gt; Kodein vs Koin&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;30.54&lt;/strong&gt; The most requested feature&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;33.15&lt;/strong&gt; Is Kodein Multiplatform ready?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;36.53&lt;/strong&gt; Upcoming features&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;38.39&lt;/strong&gt; Who is maintaining Kodein?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;41.39&lt;/strong&gt; Is Kodein a good project to start doing open-source?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;43.55&lt;/strong&gt; Further reading&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;45.42&lt;/strong&gt; Where to find Salomon online?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/Kodein-Framework/Kodein-DI&quot;&gt;Kodein-Framework/Kodein-DI on Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://kodein.org/&quot;&gt;Kodein Framework Official Website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://docs.kodein.org/kodein-framework/index.html&quot;&gt;Kodein Framework Official Docs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://docs.kodein.org/kodein-di/7.10/index.html&quot;&gt;Kodein DI Official Docs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-slack&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://kotlinlang.slack.com/archives/C0BLU9K96&quot;&gt;#kodein on Kotlinlang Slack&lt;/a&gt; (get an &lt;a href=&quot;https://surveys.jetbrains.com/s3/kotlin-slack-sign-up&quot;&gt;invite here&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Talks about Kodein
+    &lt;ul&gt;
+      &lt;li&gt;&lt;i class=&quot;fab fa-youtube&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.droidcon.com/2021/11/17/building-a-kotlin-multi-platform-advanced-library/&quot;&gt;Building a Kotlin multi-platform advanced library - Droidcon Berlin 2021&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fab fa-youtube&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://fosdem.org/2022/schedule/event/advanced_multiplatform_dependency_injection/&quot;&gt;Advanced multi-platform dependency injection with Kotlin - FOSDEM 2022&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fab fa-youtube&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://fosdem.org/2022/schedule/event/mocking_without_reflection_for_kotlin_multiplatform/&quot;&gt;Mocking without reflection for Kotlin/Multiplatform - FOSDEM 2022&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Other Resources:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://kodein.net/&quot;&gt;Kodein Koders Official Website&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://kotlin-koders.eu/&quot;&gt;Kodein Koders Conference 2021&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/Kodein-Framework/MocKMP&quot;&gt;Kodein-Framework/MocKMP on Github&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/salomonbrys&quot;&gt;@salomonbrys on Twitter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/SalomonBrys&quot;&gt;@SalomonBrys on Github&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">It's time to spotlight another Dependency Injection framework for Kotlin: please welcome Salomon with Kodein</summary></entry><entry><title type="html">#28 - Stream SDK with Filip Babić</title><link href="https://thebakery.dev/28/" rel="alternate" type="text/html" title="#28 - Stream SDK with Filip Babić" /><published>2022-02-21T00:00:00+01:00</published><updated>2022-02-21T00:00:00+01:00</updated><id>https://thebakery.dev/028-stream-sdk</id><content type="html" xml:base="https://thebakery.dev/28/">&lt;iframe style=&quot;border-radius:12px&quot; src=&quot;https://open.spotify.com/embed/episode/6YaSmUmGDQk3RtZmGrvNeE?utm_source=generator&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;Building a chat client is hard.&lt;/p&gt;
 
@@ -547,77 +619,4 @@ The tool we’re going to talk about today is not a Github library, but a sport 
   &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">In this special episode we ask Enrique to tell us his personal experiences with Running</summary></entry><entry><title type="html">#19 - Arrow with Simon Vergauwen</title><link href="https://thebakery.dev/19/" rel="alternate" type="text/html" title="#19 - Arrow with Simon Vergauwen" /><published>2021-09-20T00:00:00+02:00</published><updated>2021-09-20T00:00:00+02:00</updated><id>https://thebakery.dev/019-arrow</id><content type="html" xml:base="https://thebakery.dev/19/">&lt;iframe src=&quot;https://open.spotify.com/embed/episode/0dSWvqOSnAGayyBRWsE8sT&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Today we venture into the realm of Functional Programming with &lt;a href=&quot;https://github.com/arrow-kt/arrow&quot;&gt;&lt;strong&gt;Arrow&lt;/strong&gt;&lt;/a&gt; 🏹 and &lt;a href=&quot;https://twitter.com/vergauwen_simon&quot;&gt;&lt;strong&gt;Simon Vergauwen&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Arrow is the &lt;strong&gt;functional companion&lt;/strong&gt; library for Kotlin. It makes writing FP code easier thanks to classes and extensions to the Kotlin standard library. In this episode we talk about the story of this library and what is offering nowadays to Kotlin developers.&lt;/p&gt;
-
-&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
-
-&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;00.25&lt;/strong&gt; Intro&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;01.11&lt;/strong&gt; Episode Start&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;01.28&lt;/strong&gt; Simon’s Introduction&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;02.17&lt;/strong&gt; What is Arrow?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;03.10&lt;/strong&gt; Let’s talk about Functional Programming&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;05.51&lt;/strong&gt; Examples of FP&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;07.23&lt;/strong&gt; Kotlin vs other FP languages&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;08.55&lt;/strong&gt; What is Arrow providing on top of Kotlin?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;11.28&lt;/strong&gt; Extensions and Classes from Arrow&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;13.37&lt;/strong&gt; Arrow Core and other Arrow libraries&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;15.21&lt;/strong&gt; The story of Arrow&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;17.18&lt;/strong&gt; The learning curve&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;20.13&lt;/strong&gt; Do I need to know FP before using Arrow?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;21.47&lt;/strong&gt; What’s the prospective of the Arrow community?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;23.26&lt;/strong&gt; Arrow Optics and Arrow Meta&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;25.10&lt;/strong&gt; Monorepo in the Arrow org&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;27.17&lt;/strong&gt; What is 47 Degrees?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;28.47&lt;/strong&gt; How to see FP to a customer?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;30.35&lt;/strong&gt; How is 47 Degrees supporting Arrow?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;31.57&lt;/strong&gt; How you got involved with Arrow?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;33.19&lt;/strong&gt; How is Arrow maintained?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;34.45&lt;/strong&gt; How to contribute to Arrow?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;36.22&lt;/strong&gt; Further reading&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;37.52&lt;/strong&gt; The future of Arrow&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/arrow-kt/arrow&quot;&gt;arrow-kt/arrow on Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Official Resources:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://media.arrow-kt.io/&quot;&gt;Arrow Media Resources&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://arrow-kt.io/&quot;&gt;Arrow Official Website&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://arrow-kt.io/docs/core/&quot;&gt;Arrow Core Documentation&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://arrow-kt.io/docs/fx/&quot;&gt;Arrow Fx Documentation&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://arrow-kt.io/docs/optics/dsl/&quot;&gt;Arrow Optics Documentation&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://arrow-kt.io/docs/meta/&quot;&gt;Arrow Meta Documentation&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Mentioned Projects:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/MarioAriasC/funKTionale&quot;&gt;MarioAriasC/funKTionale on Github&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/47deg/kategory-intro&quot;&gt;47deg/kategory-intro on Github&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/arrow_kt&quot;&gt;@arrow_kt on Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-slack&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://kotlinlang.slack.com/archives/C5UPMM0A0&quot;&gt;#arrow on Kotlinlang Slack&lt;/a&gt; (get an &lt;a href=&quot;https://surveys.jetbrains.com/s3/kotlin-slack-sign-up?_ga=2.193829357.1956188841.1610124096-293668568.1579015494&quot;&gt;invite here&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.47deg.com/&quot;&gt;47 Degrees Website&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/nomisRev&quot;&gt;@nomisRev on Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/vergauwen_simon&quot;&gt;@vergauwen_simon on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">Today we venture into the realm of Functional Programming with Arrow and Simon Vergauwen</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">In this special episode we ask Enrique to tell us his personal experiences with Running</summary></entry></feed>

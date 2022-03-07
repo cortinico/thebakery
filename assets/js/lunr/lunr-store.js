@@ -172,4 +172,10 @@ var store = [{
         "tags": [],
         "url": "/28/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#29 - Kodein with Salomon Brys",
+        "excerpt":"Today we have the pleasure to host another popular Dependency Injection framework at the Developers’ Bakery. Please welcome Kodein-DI and Salomon Brys on stage! Kodein is an acronym for KOtlin DEpendency INjection, a framework to help you handle your dependencies in your Kotlin code (on all the platforms!). But Kodein...","categories": [],
+        "tags": [],
+        "url": "/29/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]
