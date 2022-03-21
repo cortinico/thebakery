@@ -178,4 +178,10 @@ var store = [{
         "tags": [],
         "url": "/29/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#30 - Detekt with The Detekt Maintainers",
+        "excerpt":"Today, we celebrate episode #30 of the Developers’ Bakery 🥐🎉 We do so with a special episode and three special guests: Brais Gabin, Chao Zhang and Markus Schwarz. They are, together with Nicola, some of the maintainers of Detekt, the Kotlin static analyzer. In this episode we will walk you...","categories": [],
+        "tags": [],
+        "url": "/30/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

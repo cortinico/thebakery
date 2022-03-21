@@ -1,4 +1,89 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2022-03-21T14:50:36+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#29 - Kodein with Salomon Brys</title><link href="https://thebakery.dev/29/" rel="alternate" type="text/html" title="#29 - Kodein with Salomon Brys" /><published>2022-03-07T00:00:00+01:00</published><updated>2022-03-07T00:00:00+01:00</updated><id>https://thebakery.dev/029-kodein</id><content type="html" xml:base="https://thebakery.dev/29/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2022-03-21T17:43:06+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#30 - Detekt with The Detekt Maintainers</title><link href="https://thebakery.dev/30/" rel="alternate" type="text/html" title="#30 - Detekt with The Detekt Maintainers" /><published>2022-03-21T00:00:00+01:00</published><updated>2022-03-21T00:00:00+01:00</updated><id>https://thebakery.dev/030-detekt</id><content type="html" xml:base="https://thebakery.dev/30/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Today, we celebrate &lt;strong&gt;episode #30&lt;/strong&gt; of the Developers’ Bakery 🥐🎉&lt;/p&gt;
+
+&lt;p&gt;We do so with a special episode and &lt;strong&gt;three special guests&lt;/strong&gt;: &lt;a href=&quot;https://twitter.com/BraisGabin&quot;&gt;&lt;strong&gt;Brais Gabin&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/chao2zhang&quot;&gt;&lt;strong&gt;Chao Zhang&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/marschwar&quot;&gt;&lt;strong&gt;Markus Schwarz&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;They are, together with Nicola, some of the &lt;strong&gt;maintainers of &lt;a href=&quot;https://detekt.dev/&quot;&gt;Detekt&lt;/a&gt;&lt;/strong&gt;, the Kotlin static analyzer.&lt;/p&gt;
+
+&lt;p&gt;In this episode we will walk you through some of the features of Detekt, how it integrates with Android &amp;amp; Kotlin Multiplatform projects and much more. You’ll get to hear some hidden gems like the maintainers &lt;strong&gt;favorite rules&lt;/strong&gt; or some stories about &lt;strong&gt;the history&lt;/strong&gt; of this project.&lt;/p&gt;
+
+&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
+
+&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;00.14&lt;/strong&gt; Intro&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;01.00&lt;/strong&gt; Episode Start&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;01.54&lt;/strong&gt; Markus’ Introduction&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;02.33&lt;/strong&gt; Chao’s Introduction&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;03.07&lt;/strong&gt; Brais’ Introduction&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;04.56&lt;/strong&gt; What is Detekt?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;08.10&lt;/strong&gt; How to use Detekt?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;10.31&lt;/strong&gt; Extending Detekt&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;14.25&lt;/strong&gt; Markus’ Favorite Rules&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;15.43&lt;/strong&gt; Brais’ Favorite Rules&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;17.33&lt;/strong&gt; Chao’s Favorite Rules&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;19.48&lt;/strong&gt; Nicola’s Favorite Rules&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;22.56&lt;/strong&gt; What is Type Resolution?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;26.44&lt;/strong&gt; Using Detekt with Android &amp;amp; Kotlin Multiplatform&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;29.38&lt;/strong&gt; Detekt’s Documentation Pipeline&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;34.04&lt;/strong&gt; What is SARIF?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;37.48&lt;/strong&gt; How Chao got involved in this project&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;39.50&lt;/strong&gt; How Markus got involved in this project?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;43.04&lt;/strong&gt; How Brais got involved in this project?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;46.14&lt;/strong&gt; How Nicola got involved in this project?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;48.52&lt;/strong&gt; How Detekt started?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;51.22&lt;/strong&gt; How to get involved in this project?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;55.17&lt;/strong&gt; Where to start contributing from?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;61.34&lt;/strong&gt; What would like in the future of Detekt, Brais?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;63.05&lt;/strong&gt; What would like in the future of Detekt, Chao?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;64.44&lt;/strong&gt; What would like in the future of Detekt, Markus?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;66.48&lt;/strong&gt; What would like in the future of Detekt, Nicola?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;71.36&lt;/strong&gt; Further reading&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;74.37&lt;/strong&gt; Where people can find you online?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/detekt/detekt&quot;&gt;detekt/detekt on Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://detekt.dev/&quot;&gt;Detekt Official Website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-slack&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://kotlinlang.slack.com/archives/C88E12QH4&quot;&gt;#detekt on Kotlinlang Slack&lt;/a&gt; (get an &lt;a href=&quot;https://surveys.jetbrains.com/s3/kotlin-slack-sign-up&quot;&gt;invite here&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Mentioned Resources:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;i class=&quot;fas fa-book&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://leanpub.com/effectivekotlin&quot;&gt;Effective Kotlin by Marcin Moskala&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://sarifweb.azurewebsites.net/&quot;&gt;SARIF Home Page&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/detekt/detekt-compiler-plugin&quot;&gt;Detekt Compiler Plugin&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fab fa-youtube&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.droidcon.com/2021/11/17/detekt-state-of-the-union-2/&quot;&gt;Detekt - State of the Union - Droidcon London 2021&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/detekt/detekt#mentions&quot;&gt;List of articles mentioning Detekt&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.jetbrains.com/help/idea/psi-viewer.html&quot;&gt;PSI Viewer - IntelliJ Plugins&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;maintainers-contacts&quot;&gt;Maintainers’ Contacts&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/BraisGabin&quot;&gt;@BraisGabin on Twitter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/BraisGabin&quot;&gt;@BraisGabin on Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/chao2zhang&quot;&gt;@chao2zhang on Twitter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/chao2zhang&quot;&gt;@chao2zhang on Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/cortinico&quot;&gt;@cortinico on Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/marschwar&quot;&gt;@marschwar on Twitter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/marschwar&quot;&gt;@marschwar on Github&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">We're celebrating #30 with a special episode with the maintainers of Detekt, the Kotlin static analyizer</summary></entry><entry><title type="html">#29 - Kodein with Salomon Brys</title><link href="https://thebakery.dev/29/" rel="alternate" type="text/html" title="#29 - Kodein with Salomon Brys" /><published>2022-03-07T00:00:00+01:00</published><updated>2022-03-07T00:00:00+01:00</updated><id>https://thebakery.dev/029-kodein</id><content type="html" xml:base="https://thebakery.dev/29/">&lt;iframe style=&quot;border-radius:12px&quot; src=&quot;https://open.spotify.com/embed/episode/3R3syhDSKRBH0tnwve7Oob?utm_source=generator&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;Today we have the pleasure to host another popular &lt;strong&gt;Dependency Injection&lt;/strong&gt; framework at the Developers’ Bakery.&lt;/p&gt;
 
@@ -566,57 +651,4 @@ how people can &lt;strong&gt;contribute&lt;/strong&gt; to such a critical piece 
   &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">What it takes to build a browser? Today we have Sebastian Kaspari on stage to tell us about it with Firefox for Android</summary></entry><entry><title type="html">#20 - Running with Enrique López-Mañas</title><link href="https://thebakery.dev/20/" rel="alternate" type="text/html" title="#20 - Running with Enrique López-Mañas" /><published>2021-10-02T00:00:00+02:00</published><updated>2021-10-02T00:00:00+02:00</updated><id>https://thebakery.dev/020-running</id><content type="html" xml:base="https://thebakery.dev/20/">&lt;iframe src=&quot;https://open.spotify.com/embed/episode/5V0qKMN9alOadElGrmI5Ac&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;So we made it to &lt;strong&gt;Episode 20! 🎂&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;If you’ve been enjoying this podcast so far, please consider making a &lt;a href=&quot;https://www.gofundme.com/f/run-4-learning-disabilities&quot;&gt;small donation to my London Marathon 2021 fundaraising&lt;/a&gt;. You’ll be supporting Mencap, the voice of Learning Disabilities 🙏 Thank you so much.&lt;/p&gt;
-
-&lt;p&gt;We’re celebrating this milestone with a special episode.
-The tool we’re going to talk about today is not a Github library, but a sport that is getting more and more popular in the developer community: &lt;strong&gt;Running 🏃‍♂️&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;I’m excited to have on stage &lt;a href=&quot;https://twitter.com/eenriquelopez&quot;&gt;&lt;strong&gt;Enrique López-Mañas&lt;/strong&gt;&lt;/a&gt;, GDE for Kotlin &amp;amp; Android, Maitnainer of Kotlin Weekly and (Ultra) Marathon runner.&lt;/p&gt;
-
-&lt;p&gt;Enrique will share with us his passion for running and will tell us how &lt;strong&gt;software engineers&lt;/strong&gt; can &lt;strong&gt;benefit&lt;/strong&gt; from this sport. He has also been successufully running Kotlin weekly for the last 5 years, so he has a lot to tell about &lt;strong&gt;endurance&lt;/strong&gt; as well.&lt;/p&gt;
-
-&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
-
-&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;00.00&lt;/strong&gt; Intro&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;00.46&lt;/strong&gt; Episode Start&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;03.18&lt;/strong&gt; Enrique’s Introduction&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;04.28&lt;/strong&gt; How you got into running?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;08.51&lt;/strong&gt; How hard is to run a marathon?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;11.49&lt;/strong&gt; Aren’t you bored of running?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;16.37&lt;/strong&gt; Any memorable run to share?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;24.19&lt;/strong&gt; Running the New York Marathon&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;27.39&lt;/strong&gt; Meeting new people while running&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;29.34&lt;/strong&gt; The psychology of running a marathon&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;33.02&lt;/strong&gt; What software developers can learn from running?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;37.18&lt;/strong&gt; Running a marathon vs running a newsletter: Kotlin Weekly&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;46.29&lt;/strong&gt; Have you ever fundraised for a race?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;52.06&lt;/strong&gt; What would you suggest to new runners?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;57.56&lt;/strong&gt; Where to find Enrique online?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://www.kotlinweekly.net/&quot;&gt;Kotlin Weekly Website&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-strava&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.strava.com/athletes/25656586&quot;&gt;Enrique on Strava&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/eenriquelopez&quot;&gt;@eenriquelopez on Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-hand-holding-heart&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.gofundme.com/f/run-4-learning-disabilities&quot;&gt;Run 4 Learning Disabilities - Fundraising on Gofundme&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">In this special episode we ask Enrique to tell us his personal experiences with Running</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">What it takes to build a browser? Today we have Sebastian Kaspari on stage to tell us about it with Firefox for Android</summary></entry></feed>

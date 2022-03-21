@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Mon, 21 Mar 2022 14:50:36 +0100</lastBuildDate>
+<lastBuildDate>Mon, 21 Mar 2022 17:43:06 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,125 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Detekt with The Detekt Maintainers</title>
+        <itunes:title>Detekt with The Detekt Maintainers</itunes:title>
+        <link>https://thebakery.dev/30/</link>
+        <pubDate>Mon, 21 Mar 2022 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/30/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>30</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/30-thedevelopersbakery-detekt.m4a" length="29705034" type="audio/mpeg" />
+
+        <itunes:subtitle>We're celebrating #30 with a special episode with the maintainers of Detekt, the Kotlin static analyizer</itunes:subtitle>
+        <itunes:summary>We're celebrating #30 with a special episode with the maintainers of Detekt, the Kotlin static analyizer</itunes:summary>
+
+        
+        <description>
+            <![CDATA[Today, we celebrate episode #30 of the Developers’ Bakery 🥐🎉 We do so with a special episode and three special guests: Brais Gabin, Chao Zhang and Markus Schwarz. They are, together with Nicola, some of the maintainers of Detekt, the Kotlin static analyzer. In this episode we will walk you...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>Today, we celebrate <strong>episode #30</strong> of the Developers’ Bakery 🥐🎉</p>
+
+<p>We do so with a special episode and <strong>three special guests</strong>: <a href="https://twitter.com/BraisGabin"><strong>Brais Gabin</strong></a>, <a href="https://twitter.com/chao2zhang"><strong>Chao Zhang</strong></a> and <a href="https://twitter.com/marschwar"><strong>Markus Schwarz</strong></a>.</p>
+
+<p>They are, together with Nicola, some of the <strong>maintainers of <a href="https://detekt.dev/">Detekt</a></strong>, the Kotlin static analyzer.</p>
+
+<p>In this episode we will walk you through some of the features of Detekt, how it integrates with Android &amp; Kotlin Multiplatform projects and much more. You’ll get to hear some hidden gems like the maintainers <strong>favorite rules</strong> or some stories about <strong>the history</strong> of this project.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.14</strong> Intro</li>
+  <li><strong>01.00</strong> Episode Start</li>
+  <li><strong>01.54</strong> Markus’ Introduction</li>
+  <li><strong>02.33</strong> Chao’s Introduction</li>
+  <li><strong>03.07</strong> Brais’ Introduction</li>
+  <li><strong>04.56</strong> What is Detekt?</li>
+  <li><strong>08.10</strong> How to use Detekt?</li>
+  <li><strong>10.31</strong> Extending Detekt</li>
+  <li><strong>14.25</strong> Markus’ Favorite Rules</li>
+  <li><strong>15.43</strong> Brais’ Favorite Rules</li>
+  <li><strong>17.33</strong> Chao’s Favorite Rules</li>
+  <li><strong>19.48</strong> Nicola’s Favorite Rules</li>
+  <li><strong>22.56</strong> What is Type Resolution?</li>
+  <li><strong>26.44</strong> Using Detekt with Android &amp; Kotlin Multiplatform</li>
+  <li><strong>29.38</strong> Detekt’s Documentation Pipeline</li>
+  <li><strong>34.04</strong> What is SARIF?</li>
+  <li><strong>37.48</strong> How Chao got involved in this project</li>
+  <li><strong>39.50</strong> How Markus got involved in this project?</li>
+  <li><strong>43.04</strong> How Brais got involved in this project?</li>
+  <li><strong>46.14</strong> How Nicola got involved in this project?</li>
+  <li><strong>48.52</strong> How Detekt started?</li>
+  <li><strong>51.22</strong> How to get involved in this project?</li>
+  <li><strong>55.17</strong> Where to start contributing from?</li>
+  <li><strong>61.34</strong> What would like in the future of Detekt, Brais?</li>
+  <li><strong>63.05</strong> What would like in the future of Detekt, Chao?</li>
+  <li><strong>64.44</strong> What would like in the future of Detekt, Markus?</li>
+  <li><strong>66.48</strong> What would like in the future of Detekt, Nicola?</li>
+  <li><strong>71.36</strong> Further reading</li>
+  <li><strong>74.37</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/detekt/detekt">detekt/detekt on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://detekt.dev/">Detekt Official Website</a></li>
+  <li><i class="fab fa-slack"></i> <a href="https://kotlinlang.slack.com/archives/C88E12QH4">#detekt on Kotlinlang Slack</a> (get an <a href="https://surveys.jetbrains.com/s3/kotlin-slack-sign-up">invite here</a>)</li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-book"></i> <a href="https://leanpub.com/effectivekotlin">Effective Kotlin by Marcin Moskala</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://sarifweb.azurewebsites.net/">SARIF Home Page</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/detekt/detekt-compiler-plugin">Detekt Compiler Plugin</a></li>
+      <li><i class="fab fa-youtube"></i> <a href="https://www.droidcon.com/2021/11/17/detekt-state-of-the-union-2/">Detekt - State of the Union - Droidcon London 2021</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://github.com/detekt/detekt#mentions">List of articles mentioning Detekt</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://www.jetbrains.com/help/idea/psi-viewer.html">PSI Viewer - IntelliJ Plugins</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="maintainers-contacts">Maintainers’ Contacts</h1>
+
+<ul>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/BraisGabin">@BraisGabin on Twitter</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/BraisGabin">@BraisGabin on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/chao2zhang">@chao2zhang on Twitter</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/chao2zhang">@chao2zhang on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/cortinico">@cortinico on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/marschwar">@marschwar on Twitter</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/marschwar">@marschwar on Github</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/30-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>01:16:43</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Kodein with Salomon Brys</title>
