@@ -1,4 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2022-04-05T05:46:56+02:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#30 - Detekt with The Detekt Maintainers</title><link href="https://thebakery.dev/30/" rel="alternate" type="text/html" title="#30 - Detekt with The Detekt Maintainers" /><published>2022-03-21T00:00:00+01:00</published><updated>2022-03-21T00:00:00+01:00</updated><id>https://thebakery.dev/030-detekt</id><content type="html" xml:base="https://thebakery.dev/30/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2022-04-05T19:18:04+02:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#31 - Dependency Analysis Android Gradle Plugin with Tony Robalyk</title><link href="https://thebakery.dev/31/" rel="alternate" type="text/html" title="#31 - Dependency Analysis Android Gradle Plugin with Tony Robalyk" /><published>2022-04-05T00:00:00+02:00</published><updated>2022-04-05T00:00:00+02:00</updated><id>https://thebakery.dev/031-dependency-analysis-android-gradle-plugin</id><content type="html" xml:base="https://thebakery.dev/31/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;We’re back to talk about Gradle 🐘 with &lt;a href=&quot;https://twitter.com/autonomousapps&quot;&gt;&lt;strong&gt;Tony Robalyk&lt;/strong&gt;&lt;/a&gt; and the &lt;a href=&quot;https://github.com/autonomousapps/dependency-analysis-android-gradle-plugin&quot;&gt;&lt;strong&gt;Dependency Analysis Android Gradle Plugin (DAAGP)&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Tony wrote this plugin to help you with &lt;strong&gt;unused&lt;/strong&gt; and &lt;strong&gt;misused dependencies&lt;/strong&gt; and save yourself from some depenceny hell. We will learn about the story of this plugin and some of the internals. Tony is a great source of knowledge about Gradle and he’s also one of the member of the Gradle Fellowship program.&lt;/p&gt;
+
+&lt;p&gt;In this episode we’re going to touch on &lt;strong&gt;his opinion about Gradle&lt;/strong&gt; as a tool. Moreover we will also learn more about Tony’s background as a urban planner and how it made him a better engineer.&lt;/p&gt;
+
+&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
+
+&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;00.18&lt;/strong&gt; Intro&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;01.05&lt;/strong&gt; Episode Start&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;01.38&lt;/strong&gt; Tony’s Introduction&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;03.18&lt;/strong&gt; What is the Dependency Analysis Android Gradle Plugin?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;07.22&lt;/strong&gt; What is Gradle?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;11.48&lt;/strong&gt; Do we finally get to use some graph theory?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;16.10&lt;/strong&gt; Which projects are supported by this plugin?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;18.13&lt;/strong&gt; How is plugin working internally?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;21.51&lt;/strong&gt; How being an urban planner helped you being a better software engineer?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;24.21&lt;/strong&gt; What’s your opinion about Gradle as a tool?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;28.00&lt;/strong&gt; Do you feel that Gradle gives you too much freedom?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;32.25&lt;/strong&gt; Gradle &amp;amp; Documentation&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;36.03&lt;/strong&gt; The Gradle Fellowship&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;38.27&lt;/strong&gt; What have you learned from open source?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;42.57&lt;/strong&gt; Do you have suggestions for firstimers to Open Source?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;46.03&lt;/strong&gt; Further reading&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;48.09&lt;/strong&gt; Where to find Tony online?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/autonomousapps/dependency-analysis-android-gradle-plugin&quot;&gt;autonomousapps/dependency-analysis-android-gradle-plugin on Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Tony’s Blogposts:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;a href=&quot;https://dev.to/autonomousapps/learning-in-public-lessons-from-open-source-4g6l&quot;&gt;Learning in public: Lessons from open source&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;a href=&quot;https://dev.to/autonomousapps/the-proper-care-and-feeding-of-your-gradle-build-d8g&quot;&gt;The proper care and feeding of your Gradle build&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;a href=&quot;https://dev.to/autonomousapps/dependency-analysis-gradle-plugin-using-bytecode-analysis-to-find-unused-dependencies-509n&quot;&gt;Dependency Analysis Gradle Plugin: Using bytecode analysis to find unused dependencies&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;a href=&quot;https://dev.to/autonomousapps/dependency-analysis-gradle-plugin-what-s-an-abi-3l2h&quot;&gt;Dependency Analysis Gradle Plugin: What’s an ABI?&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;a href=&quot;https://dev.to/autonomousapps/reducing-my-gradle-plugin-s-impact-on-configuration-time-a-journey-32h2&quot;&gt;Reducing my Gradle plugin’s impact on configuration time: A journey&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Mentioned Gradle Documentation
+    &lt;ul&gt;
+      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;a href=&quot;https://docs.gradle.org/current/userguide/more_about_tasks.html&quot;&gt;Gradle: Authoring Tasks&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;a href=&quot;https://docs.gradle.org/current/dsl/&quot;&gt;Gradle: JavaDoc&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/autonomousapps&quot;&gt;@autonomousapps on Twitter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/autonomousapps&quot;&gt;@autonomousapps on Github&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">Gradle, Graphs and Urban Planning with Tony Robalyk</summary></entry><entry><title type="html">#30 - Detekt with The Detekt Maintainers</title><link href="https://thebakery.dev/30/" rel="alternate" type="text/html" title="#30 - Detekt with The Detekt Maintainers" /><published>2022-03-21T00:00:00+01:00</published><updated>2022-03-21T00:00:00+01:00</updated><id>https://thebakery.dev/030-detekt</id><content type="html" xml:base="https://thebakery.dev/30/">&lt;iframe style=&quot;border-radius:12px&quot; src=&quot;https://open.spotify.com/embed/episode/1OTCEfqNYkJfTzXVzvwcDd?utm_source=generator&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;Today, we celebrate &lt;strong&gt;episode #30&lt;/strong&gt; of the Developers’ Bakery 🥐🎉&lt;/p&gt;
 
@@ -588,67 +652,4 @@ how people can &lt;strong&gt;contribute&lt;/strong&gt; to such a critical piece 
   &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">We're back on Cloud IDEs with Geoffrey Huntley talking about Gitpod and his vanlife!</summary></entry><entry><title type="html">#21 - Firefox for Android with Sebastian Kaspari</title><link href="https://thebakery.dev/21/" rel="alternate" type="text/html" title="#21 - Firefox for Android with Sebastian Kaspari" /><published>2021-10-18T00:00:00+02:00</published><updated>2021-10-18T00:00:00+02:00</updated><id>https://thebakery.dev/021-firefox-for-android</id><content type="html" xml:base="https://thebakery.dev/21/">&lt;iframe src=&quot;https://open.spotify.com/embed/episode/3xAILb4BdZH5KxLTiFTSw8&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;You don’t get to build a &lt;strong&gt;browser&lt;/strong&gt; every day right? Today we have &lt;a href=&quot;https://twitter.com/Anti_Hype&quot;&gt;&lt;strong&gt;Sebastian Kaspari&lt;/strong&gt;&lt;/a&gt; on stage to talk us about &lt;a href=&quot;https://github.com/mozilla-mobile/fenix&quot;&gt;&lt;strong&gt;Firefox for Android&lt;/strong&gt;&lt;/a&gt; 🦊.&lt;/p&gt;
-
-&lt;p&gt;Together we will walk through what it takes to &lt;strong&gt;write a mobile browser&lt;/strong&gt;, and we will discover some of the open-source projects in the Mozilla ecosystem such as Firefox &lt;strong&gt;Focus&lt;/strong&gt;, &lt;strong&gt;GeckoView&lt;/strong&gt; and Mozilla &lt;strong&gt;Android Components&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
-
-&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;00.13&lt;/strong&gt; Intro&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;00.59&lt;/strong&gt; Episode Start&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;01.24&lt;/strong&gt; Sebastian’s Introduction&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;02.12&lt;/strong&gt; What is Fenix?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;03.11&lt;/strong&gt; The big rewrite&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;04.42&lt;/strong&gt; Code sharing between Mobile and Desktop&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;07.26&lt;/strong&gt; Feature parity&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;09.34&lt;/strong&gt; From monorepo to separate repos&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;12.29&lt;/strong&gt; The story of Firefox for Android&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;18.23&lt;/strong&gt; What is needed to build a browser?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;20.06&lt;/strong&gt; GeckoView&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;22.15&lt;/strong&gt; WebViews vs GeckoViews&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;24.01&lt;/strong&gt; Mozilla Android Components&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;26.34&lt;/strong&gt; Specific Browser Components&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;27.46&lt;/strong&gt; From Github to the PlayStore&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;29.12&lt;/strong&gt; Nightly, Alpha, Beta and Stable&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;31.01&lt;/strong&gt; Reproducible Builds&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;33.56&lt;/strong&gt; Firefox Focus&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;37.31&lt;/strong&gt; Firefox Tech Stack and Architecture&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;40.56&lt;/strong&gt; How many engineers are behind Firefox for Android?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;42.05&lt;/strong&gt; External Contributors to Firefox&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;43.36&lt;/strong&gt; How to start contributing to Firefox?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;46.24&lt;/strong&gt; Further reading&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;47.48&lt;/strong&gt; What’s the future for Firefox on Android?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/mozilla-mobile/fenix&quot;&gt;mozilla-mobile/fenix on Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.mozilla.org/en-US/firefox/mobile/&quot;&gt;Firefox for Android Official Website&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://whatcanidoformozilla.org/&quot;&gt;whatcanidoformozilla.org&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Mentioned Projects:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/mozilla-mobile/focus-android&quot;&gt;mozilla-mobile/focus-android on Github&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/mozilla-mobile/android-components&quot;&gt;mozilla-mobile/android-components on Github&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://mozilla.github.io/geckoview&quot;&gt;GeckoView Official Website&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/pocmo&quot;&gt;@pocmo on Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/Anti_Hype&quot;&gt;@Anti_Hype on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">What it takes to build a browser? Today we have Sebastian Kaspari on stage to tell us about it with Firefox for Android</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">We're back on Cloud IDEs with Geoffrey Huntley talking about Gitpod and his vanlife!</summary></entry></feed>

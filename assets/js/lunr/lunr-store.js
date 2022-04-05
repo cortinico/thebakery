@@ -184,4 +184,10 @@ var store = [{
         "tags": [],
         "url": "/30/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#31 - Dependency Analysis Android Gradle Plugin with Tony Robalyk",
+        "excerpt":"We’re back to talk about Gradle 🐘 with Tony Robalyk and the Dependency Analysis Android Gradle Plugin (DAAGP). Tony wrote this plugin to help you with unused and misused dependencies and save yourself from some depenceny hell. We will learn about the story of this plugin and some of the...","categories": [],
+        "tags": [],
+        "url": "/31/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]
