@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Tue, 05 Apr 2022 19:18:04 +0200</lastBuildDate>
+<lastBuildDate>Tue, 05 Apr 2022 20:54:49 +0200</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -42,8 +42,8 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 
     <item>
         
-        <title>Dependency Analysis Android Gradle Plugin with Tony Robalyk</title>
-        <itunes:title>Dependency Analysis Android Gradle Plugin with Tony Robalyk</itunes:title>
+        <title>Dependency Analysis Android Gradle Plugin with Tony Robalik</title>
+        <itunes:title>Dependency Analysis Android Gradle Plugin with Tony Robalik</itunes:title>
         <link>https://thebakery.dev/31/</link>
         <pubDate>Tue, 05 Apr 2022 00:00:00 +0200</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
@@ -57,15 +57,15 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 
         <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/31-thedevelopersbakery-daagp.m4a" length="19398076" type="audio/mpeg" />
 
-        <itunes:subtitle>Gradle, Graphs and Urban Planning with Tony Robalyk</itunes:subtitle>
-        <itunes:summary>Gradle, Graphs and Urban Planning with Tony Robalyk</itunes:summary>
+        <itunes:subtitle>Gradle, Graphs and Urban Planning with Tony Robalik</itunes:subtitle>
+        <itunes:summary>Gradle, Graphs and Urban Planning with Tony Robalik</itunes:summary>
 
         
         <description>
-            <![CDATA[We’re back to talk about Gradle 🐘 with Tony Robalyk and the Dependency Analysis Android Gradle Plugin (DAAGP). Tony wrote this plugin to help you with unused and misused dependencies and save yourself from some depenceny hell. We will learn about the story of this plugin and some of the...]]>
+            <![CDATA[We’re back to talk about Gradle 🐘 with Tony Robalik and the Dependency Analysis Android Gradle Plugin (DAAGP). Tony wrote this plugin to help you with unused and misused dependencies and save yourself from some depenceny hell. We will learn about the story of this plugin and some of the...]]>
         </description>
         <content:encoded>
-            <![CDATA[<p>We’re back to talk about Gradle 🐘 with <a href="https://twitter.com/autonomousapps"><strong>Tony Robalyk</strong></a> and the <a href="https://github.com/autonomousapps/dependency-analysis-android-gradle-plugin"><strong>Dependency Analysis Android Gradle Plugin (DAAGP)</strong></a>.</p>
+            <![CDATA[<p>We’re back to talk about Gradle 🐘 with <a href="https://twitter.com/autonomousapps"><strong>Tony Robalik</strong></a> and the <a href="https://github.com/autonomousapps/dependency-analysis-android-gradle-plugin"><strong>Dependency Analysis Android Gradle Plugin (DAAGP)</strong></a>.</p>
 
 <p>Tony wrote this plugin to help you with <strong>unused</strong> and <strong>misused dependencies</strong> and save yourself from some depenceny hell. We will learn about the story of this plugin and some of the internals. Tony is a great source of knowledge about Gradle and he’s also one of the member of the Gradle Fellowship program.</p>
 
