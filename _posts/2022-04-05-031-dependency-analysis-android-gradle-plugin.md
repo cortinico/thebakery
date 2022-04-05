@@ -1,9 +1,9 @@
 ---
-title: "#31 - Dependency Analysis Android Gradle Plugin with Tony Robalyk"
-excerpt: "Gradle, Graphs and Urban Planning with Tony Robalyk"
+title: "#31 - Dependency Analysis Android Gradle Plugin with Tony Robalik"
+excerpt: "Gradle, Graphs and Urban Planning with Tony Robalik"
 author_profile: true
 
-description: "Gradle, Graphs and Urban Planning with Tony Robalyk"
+description: "Gradle, Graphs and Urban Planning with Tony Robalik"
 
 header:
   teaser: "/assets/images/header-single-episode.png"
@@ -16,7 +16,7 @@ date: 2022-04-05
 permalink: /31/
 redirect_from:
 - /31/dependency-analysis-android-gradle-plugin/
-- /31/dependency-analysis-android-gradle-plugin-with-tony-robalyk/
+- /31/dependency-analysis-android-gradle-plugin-with-tony-robalik/
 
 podcast_image: "/assets/images/episodes/31-cover.png"
 podcast_episode_number: 31
@@ -27,7 +27,7 @@ podcast_length: 19398076
 
 <iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-We're back to talk about Gradle 🐘 with [**Tony Robalyk**](https://twitter.com/autonomousapps) and the [**Dependency Analysis Android Gradle Plugin (DAAGP)**](https://github.com/autonomousapps/dependency-analysis-android-gradle-plugin).
+We're back to talk about Gradle 🐘 with [**Tony Robalik**](https://twitter.com/autonomousapps) and the [**Dependency Analysis Android Gradle Plugin (DAAGP)**](https://github.com/autonomousapps/dependency-analysis-android-gradle-plugin).
 
 Tony wrote this plugin to help you with **unused** and **misused dependencies** and save yourself from some depenceny hell. We will learn about the story of this plugin and some of the internals. Tony is a great source of knowledge about Gradle and he's also one of the member of the Gradle Fellowship program. 
 
