@@ -1,655 +1,655 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2022-04-05T20:54:49+02:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#31 - Dependency Analysis Android Gradle Plugin with Tony Robalik</title><link href="https://thebakery.dev/31/" rel="alternate" type="text/html" title="#31 - Dependency Analysis Android Gradle Plugin with Tony Robalik" /><published>2022-04-05T00:00:00+02:00</published><updated>2022-04-05T00:00:00+02:00</updated><id>https://thebakery.dev/031-dependency-analysis-android-gradle-plugin</id><content type="html" xml:base="https://thebakery.dev/31/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;We’re back to talk about Gradle 🐘 with &lt;a href=&quot;https://twitter.com/autonomousapps&quot;&gt;&lt;strong&gt;Tony Robalik&lt;/strong&gt;&lt;/a&gt; and the &lt;a href=&quot;https://github.com/autonomousapps/dependency-analysis-android-gradle-plugin&quot;&gt;&lt;strong&gt;Dependency Analysis Android Gradle Plugin (DAAGP)&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Tony wrote this plugin to help you with &lt;strong&gt;unused&lt;/strong&gt; and &lt;strong&gt;misused dependencies&lt;/strong&gt; and save yourself from some depenceny hell. We will learn about the story of this plugin and some of the internals. Tony is a great source of knowledge about Gradle and he’s also one of the member of the Gradle Fellowship program.&lt;/p&gt;
-
-&lt;p&gt;In this episode we’re going to touch on &lt;strong&gt;his opinion about Gradle&lt;/strong&gt; as a tool. Moreover we will also learn more about Tony’s background as a urban planner and how it made him a better engineer.&lt;/p&gt;
-
-&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
-
-&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;00.18&lt;/strong&gt; Intro&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;01.05&lt;/strong&gt; Episode Start&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;01.38&lt;/strong&gt; Tony’s Introduction&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;03.18&lt;/strong&gt; What is the Dependency Analysis Android Gradle Plugin?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;07.22&lt;/strong&gt; What is Gradle?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;11.48&lt;/strong&gt; Do we finally get to use some graph theory?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;16.10&lt;/strong&gt; Which projects are supported by this plugin?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;18.13&lt;/strong&gt; How is plugin working internally?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;21.51&lt;/strong&gt; How being an urban planner helped you being a better software engineer?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;24.21&lt;/strong&gt; What’s your opinion about Gradle as a tool?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;28.00&lt;/strong&gt; Do you feel that Gradle gives you too much freedom?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;32.25&lt;/strong&gt; Gradle &amp;amp; Documentation&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;36.03&lt;/strong&gt; The Gradle Fellowship&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;38.27&lt;/strong&gt; What have you learned from open source?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;42.57&lt;/strong&gt; Do you have suggestions for firstimers to Open Source?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;46.03&lt;/strong&gt; Further reading&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;48.09&lt;/strong&gt; Where to find Tony online?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/autonomousapps/dependency-analysis-android-gradle-plugin&quot;&gt;autonomousapps/dependency-analysis-android-gradle-plugin on Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Tony’s Blogposts:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;a href=&quot;https://dev.to/autonomousapps/learning-in-public-lessons-from-open-source-4g6l&quot;&gt;Learning in public: Lessons from open source&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;a href=&quot;https://dev.to/autonomousapps/the-proper-care-and-feeding-of-your-gradle-build-d8g&quot;&gt;The proper care and feeding of your Gradle build&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;a href=&quot;https://dev.to/autonomousapps/dependency-analysis-gradle-plugin-using-bytecode-analysis-to-find-unused-dependencies-509n&quot;&gt;Dependency Analysis Gradle Plugin: Using bytecode analysis to find unused dependencies&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;a href=&quot;https://dev.to/autonomousapps/dependency-analysis-gradle-plugin-what-s-an-abi-3l2h&quot;&gt;Dependency Analysis Gradle Plugin: What’s an ABI?&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;a href=&quot;https://dev.to/autonomousapps/reducing-my-gradle-plugin-s-impact-on-configuration-time-a-journey-32h2&quot;&gt;Reducing my Gradle plugin’s impact on configuration time: A journey&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Mentioned Gradle Documentation
-    &lt;ul&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;a href=&quot;https://docs.gradle.org/current/userguide/more_about_tasks.html&quot;&gt;Gradle: Authoring Tasks&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;a href=&quot;https://docs.gradle.org/current/dsl/&quot;&gt;Gradle: JavaDoc&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/autonomousapps&quot;&gt;@autonomousapps on Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/autonomousapps&quot;&gt;@autonomousapps on Github&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">Gradle, Graphs and Urban Planning with Tony Robalik</summary></entry><entry><title type="html">#30 - Detekt with The Detekt Maintainers</title><link href="https://thebakery.dev/30/" rel="alternate" type="text/html" title="#30 - Detekt with The Detekt Maintainers" /><published>2022-03-21T00:00:00+01:00</published><updated>2022-03-21T00:00:00+01:00</updated><id>https://thebakery.dev/030-detekt</id><content type="html" xml:base="https://thebakery.dev/30/">&lt;iframe style=&quot;border-radius:12px&quot; src=&quot;https://open.spotify.com/embed/episode/1OTCEfqNYkJfTzXVzvwcDd?utm_source=generator&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Today, we celebrate &lt;strong&gt;episode #30&lt;/strong&gt; of the Developers’ Bakery 🥐🎉&lt;/p&gt;
-
-&lt;p&gt;We do so with a special episode and &lt;strong&gt;three special guests&lt;/strong&gt;: &lt;a href=&quot;https://twitter.com/BraisGabin&quot;&gt;&lt;strong&gt;Brais Gabin&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/chao2zhang&quot;&gt;&lt;strong&gt;Chao Zhang&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/marschwar&quot;&gt;&lt;strong&gt;Markus Schwarz&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;They are, together with Nicola, some of the &lt;strong&gt;maintainers of &lt;a href=&quot;https://detekt.dev/&quot;&gt;Detekt&lt;/a&gt;&lt;/strong&gt;, the Kotlin static analyzer.&lt;/p&gt;
-
-&lt;p&gt;In this episode we will walk you through some of the features of Detekt, how it integrates with Android &amp;amp; Kotlin Multiplatform projects and much more. You’ll get to hear some hidden gems like the maintainers &lt;strong&gt;favorite rules&lt;/strong&gt; or some stories about &lt;strong&gt;the history&lt;/strong&gt; of this project.&lt;/p&gt;
-
-&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
-
-&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;00.14&lt;/strong&gt; Intro&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;01.00&lt;/strong&gt; Episode Start&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;01.54&lt;/strong&gt; Markus’ Introduction&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;02.33&lt;/strong&gt; Chao’s Introduction&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;03.07&lt;/strong&gt; Brais’ Introduction&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;04.56&lt;/strong&gt; What is Detekt?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;08.10&lt;/strong&gt; How to use Detekt?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;10.31&lt;/strong&gt; Extending Detekt&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;14.25&lt;/strong&gt; Markus’ Favorite Rules&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;15.43&lt;/strong&gt; Brais’ Favorite Rules&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;17.33&lt;/strong&gt; Chao’s Favorite Rules&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;19.48&lt;/strong&gt; Nicola’s Favorite Rules&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;22.56&lt;/strong&gt; What is Type Resolution?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;26.44&lt;/strong&gt; Using Detekt with Android &amp;amp; Kotlin Multiplatform&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;29.38&lt;/strong&gt; Detekt’s Documentation Pipeline&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;34.04&lt;/strong&gt; What is SARIF?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;37.48&lt;/strong&gt; How Chao got involved in this project&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;39.50&lt;/strong&gt; How Markus got involved in this project?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;43.04&lt;/strong&gt; How Brais got involved in this project?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;46.14&lt;/strong&gt; How Nicola got involved in this project?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;48.52&lt;/strong&gt; How Detekt started?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;51.22&lt;/strong&gt; How to get involved in this project?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;55.17&lt;/strong&gt; Where to start contributing from?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;61.34&lt;/strong&gt; What would like in the future of Detekt, Brais?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;63.05&lt;/strong&gt; What would like in the future of Detekt, Chao?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;64.44&lt;/strong&gt; What would like in the future of Detekt, Markus?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;66.48&lt;/strong&gt; What would like in the future of Detekt, Nicola?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;71.36&lt;/strong&gt; Further reading&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;74.37&lt;/strong&gt; Where people can find you online?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/detekt/detekt&quot;&gt;detekt/detekt on Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://detekt.dev/&quot;&gt;Detekt Official Website&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-slack&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://kotlinlang.slack.com/archives/C88E12QH4&quot;&gt;#detekt on Kotlinlang Slack&lt;/a&gt; (get an &lt;a href=&quot;https://surveys.jetbrains.com/s3/kotlin-slack-sign-up&quot;&gt;invite here&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;Mentioned Resources:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-book&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://leanpub.com/effectivekotlin&quot;&gt;Effective Kotlin by Marcin Moskala&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://sarifweb.azurewebsites.net/&quot;&gt;SARIF Home Page&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/detekt/detekt-compiler-plugin&quot;&gt;Detekt Compiler Plugin&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fab fa-youtube&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.droidcon.com/2021/11/17/detekt-state-of-the-union-2/&quot;&gt;Detekt - State of the Union - Droidcon London 2021&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/detekt/detekt#mentions&quot;&gt;List of articles mentioning Detekt&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.jetbrains.com/help/idea/psi-viewer.html&quot;&gt;PSI Viewer - IntelliJ Plugins&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;maintainers-contacts&quot;&gt;Maintainers’ Contacts&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/BraisGabin&quot;&gt;@BraisGabin on Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/BraisGabin&quot;&gt;@BraisGabin on Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/chao2zhang&quot;&gt;@chao2zhang on Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/chao2zhang&quot;&gt;@chao2zhang on Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/cortinico&quot;&gt;@cortinico on Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/marschwar&quot;&gt;@marschwar on Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/marschwar&quot;&gt;@marschwar on Github&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">We're celebrating #30 with a special episode with the maintainers of Detekt, the Kotlin static analyizer</summary></entry><entry><title type="html">#29 - Kodein with Salomon Brys</title><link href="https://thebakery.dev/29/" rel="alternate" type="text/html" title="#29 - Kodein with Salomon Brys" /><published>2022-03-07T00:00:00+01:00</published><updated>2022-03-07T00:00:00+01:00</updated><id>https://thebakery.dev/029-kodein</id><content type="html" xml:base="https://thebakery.dev/29/">&lt;iframe style=&quot;border-radius:12px&quot; src=&quot;https://open.spotify.com/embed/episode/3R3syhDSKRBH0tnwve7Oob?utm_source=generator&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Today we have the pleasure to host another popular &lt;strong&gt;Dependency Injection&lt;/strong&gt; framework at the Developers’ Bakery.&lt;/p&gt;
-
-&lt;p&gt;Please welcome &lt;a href=&quot;https://github.com/Kodein-Framework/Kodein-DI&quot;&gt;&lt;strong&gt;Kodein-DI&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/salomonbrys&quot;&gt;&lt;strong&gt;Salomon Brys&lt;/strong&gt;&lt;/a&gt; on stage! 
-Kodein is an acronym for KOtlin DEpendency INjection, a framework to help you handle your dependencies in your Kotlin code (on all the platforms!).&lt;/p&gt;
-
-&lt;p&gt;But Kodein is not only a DI framework. There is an entire ecosystem of libraries that can help you such as a DB, a logging library and a mocking framework.
-In this episode, Salomon is going to tell us how Kodein was born and how the whole &lt;a href=&quot;https://kodein.org/&quot;&gt;Kodein initiative&lt;/a&gt; kicked off.&lt;/p&gt;
-
-&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
-
-&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;00.18&lt;/strong&gt; Intro&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;01.05&lt;/strong&gt; Episode Start&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;01.33&lt;/strong&gt; Salomon’s Introduction&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;02.26&lt;/strong&gt; Board games &amp;amp; French&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;04.14&lt;/strong&gt; What is Kodein?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;05.49&lt;/strong&gt; The Kodein Framework and library naming&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;07.38&lt;/strong&gt; What is Kodein Koders?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;10.08&lt;/strong&gt; Kodein vs Dagger&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;12.33&lt;/strong&gt; Dagger error messages&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;14.23&lt;/strong&gt; Compile-time safety vs Unit-test safety&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;20.51&lt;/strong&gt; Testing with Kodein&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;23.08&lt;/strong&gt; MockKMP&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;27.57&lt;/strong&gt; Kodein vs Koin&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;30.54&lt;/strong&gt; The most requested feature&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;33.15&lt;/strong&gt; Is Kodein Multiplatform ready?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;36.53&lt;/strong&gt; Upcoming features&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;38.39&lt;/strong&gt; Who is maintaining Kodein?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;41.39&lt;/strong&gt; Is Kodein a good project to start doing open-source?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;43.55&lt;/strong&gt; Further reading&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;45.42&lt;/strong&gt; Where to find Salomon online?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/Kodein-Framework/Kodein-DI&quot;&gt;Kodein-Framework/Kodein-DI on Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://kodein.org/&quot;&gt;Kodein Framework Official Website&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://docs.kodein.org/kodein-framework/index.html&quot;&gt;Kodein Framework Official Docs&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://docs.kodein.org/kodein-di/7.10/index.html&quot;&gt;Kodein DI Official Docs&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-slack&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://kotlinlang.slack.com/archives/C0BLU9K96&quot;&gt;#kodein on Kotlinlang Slack&lt;/a&gt; (get an &lt;a href=&quot;https://surveys.jetbrains.com/s3/kotlin-slack-sign-up&quot;&gt;invite here&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;Talks about Kodein
-    &lt;ul&gt;
-      &lt;li&gt;&lt;i class=&quot;fab fa-youtube&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.droidcon.com/2021/11/17/building-a-kotlin-multi-platform-advanced-library/&quot;&gt;Building a Kotlin multi-platform advanced library - Droidcon Berlin 2021&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fab fa-youtube&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://fosdem.org/2022/schedule/event/advanced_multiplatform_dependency_injection/&quot;&gt;Advanced multi-platform dependency injection with Kotlin - FOSDEM 2022&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fab fa-youtube&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://fosdem.org/2022/schedule/event/mocking_without_reflection_for_kotlin_multiplatform/&quot;&gt;Mocking without reflection for Kotlin/Multiplatform - FOSDEM 2022&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Other Resources:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://kodein.net/&quot;&gt;Kodein Koders Official Website&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://kotlin-koders.eu/&quot;&gt;Kodein Koders Conference 2021&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/Kodein-Framework/MocKMP&quot;&gt;Kodein-Framework/MocKMP on Github&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/salomonbrys&quot;&gt;@salomonbrys on Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/SalomonBrys&quot;&gt;@SalomonBrys on Github&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">It's time to spotlight another Dependency Injection framework for Kotlin: please welcome Salomon with Kodein</summary></entry><entry><title type="html">#28 - Stream SDK with Filip Babić</title><link href="https://thebakery.dev/28/" rel="alternate" type="text/html" title="#28 - Stream SDK with Filip Babić" /><published>2022-02-21T00:00:00+01:00</published><updated>2022-02-21T00:00:00+01:00</updated><id>https://thebakery.dev/028-stream-sdk</id><content type="html" xml:base="https://thebakery.dev/28/">&lt;iframe style=&quot;border-radius:12px&quot; src=&quot;https://open.spotify.com/embed/episode/6YaSmUmGDQk3RtZmGrvNeE?utm_source=generator&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Building a chat client is hard.&lt;/p&gt;
-
-&lt;p&gt;Sending messages, uploading attachments, and handling reactions are all tedious and quite complicate tasks that are common to a wide variety of apps. Those are the foundation of the &lt;a href=&quot;https://github.com/GetStream/stream-chat-android/&quot;&gt;&lt;strong&gt;Android Stream SDK&lt;/strong&gt;&lt;/a&gt;. With Stream you can build a customized chat experience for your mobile apps. The various SDKs are completely open-source and are available for several platforms (Web, iOS, Android and even gaming platforms).&lt;/p&gt;
-
-&lt;p&gt;Today we have &lt;a href=&quot;https://github.com/filbabic&quot;&gt;&lt;strong&gt;Filip Babić&lt;/strong&gt;&lt;/a&gt; on stage, Android UI Team Lead at Stream, to walk us through their Android SDK. Specifically, Stream is offering both an Android &lt;strong&gt;XML&lt;/strong&gt; SDK and a &lt;strong&gt;Compose&lt;/strong&gt; SDK. We’re going to talk about the differences between the two, and the challenges of building a chat SDK to serve millions of messages.&lt;/p&gt;
-
-&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
-
-&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;00.09&lt;/strong&gt; Intro&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;00.55&lt;/strong&gt; Episode Start&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;01.10&lt;/strong&gt; Filip’s Introduction&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;02.20&lt;/strong&gt; What is Stream?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;04.14&lt;/strong&gt; Stream SDK Offering&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;06.50&lt;/strong&gt; The killer features&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;10.14&lt;/strong&gt; The Jetpack Compose SDK&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;15.17&lt;/strong&gt; The biggest challenge when building the Stream SDK&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;18.07&lt;/strong&gt; Protecting the API surface&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;23.26&lt;/strong&gt; Offline mode&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;27.51&lt;/strong&gt; End-to-end encryption&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;31.14&lt;/strong&gt; Kotlin language feature in the SDK&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;34.06&lt;/strong&gt; The Maker plan&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;39.12&lt;/strong&gt; Everything is open-source&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;40.47&lt;/strong&gt; The most requested feature&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;45.21&lt;/strong&gt; How can people contribute to the Stream SDK?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;47.58&lt;/strong&gt; Further reading&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;50.43&lt;/strong&gt; Where to find Filip online?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/GetStream/stream-chat-android/&quot;&gt;GetStream/stream-chat-android on Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://getstream.io/&quot;&gt;Stream Official Website&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Mentioned Resources:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://getstream.io/chat/sdk/android/&quot;&gt;Stream Android SDK Docs&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://getstream.io/chat/sdk/compose/&quot;&gt;Stream Compose SDK Docs&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://getstream.io/chat/docs/sdk/android/compose/overview/&quot;&gt;Stream Compose SDK Overview&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/GetStream/stream-chat-android/tree/main/stream-chat-android-compose-sample/&quot;&gt;Compose SDK Sample App&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://getstream.io/chat/compose/tutorial/&quot;&gt;Compose SDK Tutorial&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fab fa-youtube&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.youtube.com/channel/UC2xOn0xQj1HIpHJpOy5tvpA&quot;&gt;Stream YouTube Channel&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fab fa-youtube&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.droidcon.com/2021/11/10/building-a-production-ready-chat-sdk-using-jetpack-compose/&quot;&gt;Building a Production-Ready Chat SDK Using Jetpack Compose - Droidcon Berlin 2021&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/filbabic&quot;&gt;@filbabic on Github&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">Filip is on stage to walk us through the Stream, a Chat SDK to help you power your mobile apps.</summary></entry><entry><title type="html">#27 - Krabs with Michele Riva</title><link href="https://thebakery.dev/27/" rel="alternate" type="text/html" title="#27 - Krabs with Michele Riva" /><published>2022-02-07T00:00:00+01:00</published><updated>2022-02-07T00:00:00+01:00</updated><id>https://thebakery.dev/027-krabs</id><content type="html" xml:base="https://thebakery.dev/27/">&lt;iframe src=&quot;https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;In this episode of The Developers’ Bakery we touch on &lt;a href=&quot;https://nextjs.org/&quot;&gt;Next.js&lt;/a&gt; and a middleware to overcome one of its missing capability with &lt;a href=&quot;https://twitter.com/MicheleRivaCode&quot;&gt;&lt;strong&gt;Michele Riva&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&quot;https://github.com/micheleriva/krabs&quot;&gt;&lt;strong&gt;Krabs&lt;/strong&gt;&lt;/a&gt; 🦀&lt;/p&gt;
-
-&lt;p&gt;Krabs is a Express.js/Fastify middleware that will help you deploying &lt;strong&gt;multi-tenancy&lt;/strong&gt; application on Next.js.
-We’re going to walk through what this tool does and why it was even needed in the first place.&lt;/p&gt;
-
-&lt;p&gt;Michele is also a &lt;strong&gt;book author&lt;/strong&gt; and has a lot of opinion on programming languages. We’re going to hear a bit
-about his experience writing a book and some of his lessons learned.&lt;/p&gt;
-
-&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
-
-&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;00.09&lt;/strong&gt; Intro&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;00.55&lt;/strong&gt; Episode Start&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;01.28&lt;/strong&gt; Michele’s Introduction&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;02.31&lt;/strong&gt; What is Krabs?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;03.36&lt;/strong&gt; What is NextJS?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;05.25&lt;/strong&gt; What is multi tenancy?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;08.05&lt;/strong&gt; Is Krabs used in production?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;11.00&lt;/strong&gt; FLIP - Functional-like Imperative Programming&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;12.37&lt;/strong&gt; Native Multi-tenancy support in Next.js&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;14.30&lt;/strong&gt; Upcoming features for Krabs?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;16.57&lt;/strong&gt; Who is currently maintaining the project?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;17.58&lt;/strong&gt; Who is sponsoring this project?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;19.07&lt;/strong&gt; Could you imagine doing OSS full-time?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;20.47&lt;/strong&gt; What’s your experience as a book author?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;23.51&lt;/strong&gt; Real-world Next.js&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;26.17&lt;/strong&gt; If you were to rewrite Krabs, what would you do differently?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;29.11&lt;/strong&gt; If you were to rewrite your book, what would you do differently?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;31.36&lt;/strong&gt; Further reading&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;33.41&lt;/strong&gt; Bonus: What is your favourite programming language?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;35.54&lt;/strong&gt; Bonus: …and why it’s not Javascript?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;40.46&lt;/strong&gt; Where to find Michele online?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/micheleriva/krabs&quot;&gt;micheleriva/krabs on Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://krabs.vercel.app/&quot;&gt;Krabs Official Website&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://krabs.vercel.app/docs/intro&quot;&gt;Krabs Tutorial&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-youtube&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://youtu.be/71NRAnT4G4Q&quot;&gt;Serving thousands of websites with a single Next.js installation on YouTube&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-book&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.packtpub.com/product/real-world-next-js/9781801073493&quot;&gt;Real-World Next.js - Packt Publishing&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/micheleriva&quot;&gt;@micheleriva on Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/MicheleRivaCode&quot;&gt;@MicheleRivaCode on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">In this episode we will talk about Next.js and multi-tenancy with Krabs by Michele Riva</summary></entry><entry><title type="html">#26 - Material UI Swing with Vincenzo Palazzo</title><link href="https://thebakery.dev/26/" rel="alternate" type="text/html" title="#26 - Material UI Swing with Vincenzo Palazzo" /><published>2022-01-24T00:00:00+01:00</published><updated>2022-01-24T00:00:00+01:00</updated><id>https://thebakery.dev/026-material-ui-swing</id><content type="html" xml:base="https://thebakery.dev/26/">&lt;iframe style=&quot;border-radius:12px&quot; src=&quot;https://open.spotify.com/embed/episode/3vMIOP9iqVS1XlZ2gWOHHw?utm_source=generator&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;This time, we fly up to Mars with &lt;a href=&quot;https://twitter.com/PalazzoVincenzo&quot;&gt;&lt;strong&gt;Vincenzo Palazzo&lt;/strong&gt;&lt;/a&gt; and the &lt;a href=&quot;https://github.com/vincenzopalazzo/material-ui-swing&quot;&gt;&lt;strong&gt;Material UI Swing&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Vincenzo is the maintainer of this library, a custom theme for Swing which is bringing a material &lt;em&gt;look-n-feel&lt;/em&gt; to the Swing UI toolkit. While this might sound boring at first, 
-Material UI Swing is currently used on &lt;a href=&quot;https://jmars.mars.asu.edu/&quot;&gt;&lt;strong&gt;JMars&lt;/strong&gt;&lt;/a&gt; (Java Mission-planning and Analysis for Remote Sensing) 🪐 and sponsored by the &lt;a href=&quot;https://www.asu.edu/&quot;&gt;Arizona State University&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;In this episode Vincenzo will tell us the challenges of having to deal with Swing, and what it means to have a &lt;strong&gt;University sponsoring&lt;/strong&gt; your open-source project.&lt;/p&gt;
-
-&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
-
-&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;00.09&lt;/strong&gt; Intro&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;00.55&lt;/strong&gt; Episode Start&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;01.48&lt;/strong&gt; Vincenzo’s Introduction&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;04.24&lt;/strong&gt; What are you favourite programming languages?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;06.21&lt;/strong&gt; What is Material UI Swing?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;10.20&lt;/strong&gt; How about JMars?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;14.03&lt;/strong&gt; A bit of project history&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;17.07&lt;/strong&gt; What was the impact of being sponsored by a University?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;24.16&lt;/strong&gt; Vincenzo goes to Arizona&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;30.26&lt;/strong&gt; Swing and Themes&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;37.44&lt;/strong&gt; Would you rewrite it in Kotlin?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;41.07&lt;/strong&gt; What’s up in the future for this library?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;44.27&lt;/strong&gt; Further reading&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;47.13&lt;/strong&gt; Where to find Vincenzo online?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/vincenzopalazzo/material-ui-swing&quot;&gt;vincenzopalazzo/material-ui-swing on Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://jmars.mars.asu.edu/&quot;&gt;JMars Official Website&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/atarw/material-ui-swing&quot;&gt;Original Material UI Swing repository&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/vincenzopalazzo&quot;&gt;@vincenzopalazzo on Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/PalazzoVincenzo&quot;&gt;@PalazzoVincenzo on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">This time, we fly up to Mars with Vincenzo and Material UI Swing</summary></entry><entry><title type="html">#25 - Realm with Christian Melchior</title><link href="https://thebakery.dev/25/" rel="alternate" type="text/html" title="#25 - Realm with Christian Melchior" /><published>2022-01-10T00:00:00+01:00</published><updated>2022-01-10T00:00:00+01:00</updated><id>https://thebakery.dev/025-realm</id><content type="html" xml:base="https://thebakery.dev/25/">&lt;iframe style=&quot;border-radius:12px&quot; src=&quot;https://open.spotify.com/embed/episode/1SIaXMs2ZLKguCRR4M9J3J?utm_source=generator&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Let’s start this new year venturing inside the realm of mobile databases, with &lt;a href=&quot;https://twitter.com/cmelchior&quot;&gt;&lt;strong&gt;Christian Melchior&lt;/strong&gt;&lt;/a&gt; and the &lt;a href=&quot;https://github.com/realm/realm-kotlin&quot;&gt;&lt;strong&gt;Realm Kotlin SDK&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Realm is an on-device database, that helps you handle your app state with a lot of convenient built-in features such as &lt;strong&gt;lazy loading&lt;/strong&gt;, &lt;strong&gt;encryption&lt;/strong&gt;, and &lt;strong&gt;cloud synchronization&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;In this episode, Christian is guiding us through the Realm SDK for Android developers. When using Realm on Android, you have the freedom to pick between the &lt;a href=&quot;https://github.com/realm/realm-java&quot;&gt;Java SDK&lt;/a&gt; and the &lt;a href=&quot;https://github.com/realm/realm-kotlin&quot;&gt;Kotlin SDK&lt;/a&gt;. During the show, we will look through the offering of the two and how Kotlin Multiplatform is going to shape the future for Realm.&lt;/p&gt;
-
-&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
-
-&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;00.17&lt;/strong&gt; Intro&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;01.04&lt;/strong&gt; Episode Start&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;01.35&lt;/strong&gt; Christian’s Introduction&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;02.20&lt;/strong&gt; What is Realm?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;03.55&lt;/strong&gt; Which platforms are supported?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;05.21&lt;/strong&gt; Why a separate Java and a Kotlin SDK?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;09.01&lt;/strong&gt; Why pick Realm over Room?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;11.54&lt;/strong&gt; Modelling domains that are relationship heavy&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;12.51&lt;/strong&gt; Native encryption support&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;14.52&lt;/strong&gt; Multiuser support&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;16.59&lt;/strong&gt; Realm Sync and offline-first apps&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;19.15&lt;/strong&gt; Multiplatform support&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;20.33&lt;/strong&gt; Kotlin Multiplatform to take over C++?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;22.53&lt;/strong&gt; Is Realm KMP production ready?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;24.31&lt;/strong&gt; How you got involved with Realm?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;25.22&lt;/strong&gt; How is the releationship with the OSS community?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;27.48&lt;/strong&gt; Which contribs are the most common?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;29.44&lt;/strong&gt; The Mongo acquisition &amp;amp; OSS&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;31.29&lt;/strong&gt; Any OSS app that is using Realm to use as inspiration?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;32.43&lt;/strong&gt; Where do you interact with the Realm community?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;34.36&lt;/strong&gt; Async vs Sync comms&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;36.09&lt;/strong&gt; How do you handle the incoming flow of Github issues?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;37.53&lt;/strong&gt; The Realm roadmap&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;40.13&lt;/strong&gt; Further reading&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;41.09&lt;/strong&gt; Where to find Christian online?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Realm Kotlin Multiplatform:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/realm/realm-kotlin&quot;&gt;realm/realm-kotlin on Github&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://docs.mongodb.com/realm/sdk/kotlin-multiplatform/&quot;&gt;Realm Kotlin Documentation&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/realm/realm-kotlin-samples&quot;&gt;Official Samples&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Realm Java:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/realm/realm-java&quot;&gt;realm/realm-java on Github&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://docs.mongodb.com/realm/sdk/android/&quot;&gt;Realm Java Documentation&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Talks and Podcasts about Realm:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.youtube.com/watch?v=pU9yaCPmQ2g&quot;&gt;Talking Kotlin #98 - Realm for Kotlin Multiplatform&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/gb/podcast/ep-45-mongodb-realm-mobile-for-android-christian-melchior/id1500452446?i=1000510453804&quot;&gt;The MongoDB Podcast #45 - MongoDB Realm Mobile for Android&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fab fa-youtube&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.droidcon.com/2021/10/08/painless-persistence-on-kotlin-multiplatform-with-realm-kotlin/&quot;&gt;Droidcon Online - Painless Persistence on Kotlin Multiplatform with Realm Kotlin&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fab fa-youtube&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.youtube.com/watch?v=F1cEI9OKI-E&amp;amp;ab_channel=MongoDB&quot;&gt;Realm Meetup - Realm Kotlin Multiplatform for modern mobile apps Meetup recording&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/cmelchior&quot;&gt;@cmelchior on Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/chrmelchior&quot;&gt;@chrmelchior on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">Today, we venture through the realm of mobile databases with Christian Melchior from MongoDB Realm</summary></entry><entry><title type="html">#24 - Datadog for Android with Xavier F. Gouchet</title><link href="https://thebakery.dev/24/" rel="alternate" type="text/html" title="#24 - Datadog for Android with Xavier F. Gouchet" /><published>2021-12-06T00:00:00+01:00</published><updated>2021-12-06T00:00:00+01:00</updated><id>https://thebakery.dev/024-datadog-for-android</id><content type="html" xml:base="https://thebakery.dev/24/">&lt;iframe src=&quot;https://open.spotify.com/embed/episode/5lzDRc0yZcbFFXYzyarEyf?utm_source=generator&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;In this episode we are going to meet &lt;a href=&quot;https://twitter.com/xgouchet&quot;&gt;&lt;strong&gt;Xavier Gouchet&lt;/strong&gt;&lt;/a&gt; and the &lt;a href=&quot;https://github.com/DataDog/dd-sdk-android&quot;&gt;&lt;strong&gt;Datadog Android SDK&lt;/strong&gt;&lt;/a&gt; 🐶.&lt;/p&gt;
-
-&lt;p&gt;Datadog helps you monitor and track problems with your mobile applications, such as crashes and ANR. The Android SDK
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2022-04-09T16:16:47+02:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#31 - Dependency Analysis Android Gradle Plugin with Tony Robalik</title><link href="https://thebakery.dev/31/" rel="alternate" type="text/html" title="#31 - Dependency Analysis Android Gradle Plugin with Tony Robalik" /><published>2022-04-05T00:00:00+02:00</published><updated>2022-04-05T00:00:00+02:00</updated><id>https://thebakery.dev/031-dependency-analysis-android-gradle-plugin</id><content type="html" xml:base="https://thebakery.dev/31/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>We’re back to talk about Gradle 🐘 with <a href="https://twitter.com/autonomousapps"><strong>Tony Robalik</strong></a> and the <a href="https://github.com/autonomousapps/dependency-analysis-android-gradle-plugin"><strong>Dependency Analysis Android Gradle Plugin (DAAGP)</strong></a>.</p>
+
+<p>Tony wrote this plugin to help you with <strong>unused</strong> and <strong>misused dependencies</strong> and save yourself from some depenceny hell. We will learn about the story of this plugin and some of the internals. Tony is a great source of knowledge about Gradle and he’s also one of the member of the Gradle Fellowship program.</p>
+
+<p>In this episode we’re going to touch on <strong>his opinion about Gradle</strong> as a tool. Moreover we will also learn more about Tony’s background as a urban planner and how it made him a better engineer.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.18</strong> Intro</li>
+  <li><strong>01.05</strong> Episode Start</li>
+  <li><strong>01.38</strong> Tony’s Introduction</li>
+  <li><strong>03.18</strong> What is the Dependency Analysis Android Gradle Plugin?</li>
+  <li><strong>07.22</strong> What is Gradle?</li>
+  <li><strong>11.48</strong> Do we finally get to use some graph theory?</li>
+  <li><strong>16.10</strong> Which projects are supported by this plugin?</li>
+  <li><strong>18.13</strong> How is plugin working internally?</li>
+  <li><strong>21.51</strong> How being an urban planner helped you being a better software engineer?</li>
+  <li><strong>24.21</strong> What’s your opinion about Gradle as a tool?</li>
+  <li><strong>28.00</strong> Do you feel that Gradle gives you too much freedom?</li>
+  <li><strong>32.25</strong> Gradle &amp; Documentation</li>
+  <li><strong>36.03</strong> The Gradle Fellowship</li>
+  <li><strong>38.27</strong> What have you learned from open source?</li>
+  <li><strong>42.57</strong> Do you have suggestions for firstimers to Open Source?</li>
+  <li><strong>46.03</strong> Further reading</li>
+  <li><strong>48.09</strong> Where to find Tony online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/autonomousapps/dependency-analysis-android-gradle-plugin">autonomousapps/dependency-analysis-android-gradle-plugin on Github</a></li>
+  <li>Tony’s Blogposts:
+    <ul>
+      <li><i class="fas fa-link"></i><a href="https://dev.to/autonomousapps/learning-in-public-lessons-from-open-source-4g6l">Learning in public: Lessons from open source</a></li>
+      <li><i class="fas fa-link"></i><a href="https://dev.to/autonomousapps/the-proper-care-and-feeding-of-your-gradle-build-d8g">The proper care and feeding of your Gradle build</a></li>
+      <li><i class="fas fa-link"></i><a href="https://dev.to/autonomousapps/dependency-analysis-gradle-plugin-using-bytecode-analysis-to-find-unused-dependencies-509n">Dependency Analysis Gradle Plugin: Using bytecode analysis to find unused dependencies</a></li>
+      <li><i class="fas fa-link"></i><a href="https://dev.to/autonomousapps/dependency-analysis-gradle-plugin-what-s-an-abi-3l2h">Dependency Analysis Gradle Plugin: What’s an ABI?</a></li>
+      <li><i class="fas fa-link"></i><a href="https://dev.to/autonomousapps/reducing-my-gradle-plugin-s-impact-on-configuration-time-a-journey-32h2">Reducing my Gradle plugin’s impact on configuration time: A journey</a></li>
+    </ul>
+  </li>
+  <li>Mentioned Gradle Documentation
+    <ul>
+      <li><i class="fas fa-link"></i><a href="https://docs.gradle.org/current/userguide/more_about_tasks.html">Gradle: Authoring Tasks</a></li>
+      <li><i class="fas fa-link"></i><a href="https://docs.gradle.org/current/dsl/">Gradle: JavaDoc</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/autonomousapps">@autonomousapps on Twitter</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/autonomousapps">@autonomousapps on Github</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Gradle, Graphs and Urban Planning with Tony Robalik]]></summary></entry><entry><title type="html">#30 - Detekt with The Detekt Maintainers</title><link href="https://thebakery.dev/30/" rel="alternate" type="text/html" title="#30 - Detekt with The Detekt Maintainers" /><published>2022-03-21T00:00:00+01:00</published><updated>2022-03-21T00:00:00+01:00</updated><id>https://thebakery.dev/030-detekt</id><content type="html" xml:base="https://thebakery.dev/30/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/1OTCEfqNYkJfTzXVzvwcDd?utm_source=generator" width="100%" height="232" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+<p>Today, we celebrate <strong>episode #30</strong> of the Developers’ Bakery 🥐🎉</p>
+
+<p>We do so with a special episode and <strong>three special guests</strong>: <a href="https://twitter.com/BraisGabin"><strong>Brais Gabin</strong></a>, <a href="https://twitter.com/chao2zhang"><strong>Chao Zhang</strong></a> and <a href="https://twitter.com/marschwar"><strong>Markus Schwarz</strong></a>.</p>
+
+<p>They are, together with Nicola, some of the <strong>maintainers of <a href="https://detekt.dev/">Detekt</a></strong>, the Kotlin static analyzer.</p>
+
+<p>In this episode we will walk you through some of the features of Detekt, how it integrates with Android &amp; Kotlin Multiplatform projects and much more. You’ll get to hear some hidden gems like the maintainers <strong>favorite rules</strong> or some stories about <strong>the history</strong> of this project.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.14</strong> Intro</li>
+  <li><strong>01.00</strong> Episode Start</li>
+  <li><strong>01.54</strong> Markus’ Introduction</li>
+  <li><strong>02.33</strong> Chao’s Introduction</li>
+  <li><strong>03.07</strong> Brais’ Introduction</li>
+  <li><strong>04.56</strong> What is Detekt?</li>
+  <li><strong>08.10</strong> How to use Detekt?</li>
+  <li><strong>10.31</strong> Extending Detekt</li>
+  <li><strong>14.25</strong> Markus’ Favorite Rules</li>
+  <li><strong>15.43</strong> Brais’ Favorite Rules</li>
+  <li><strong>17.33</strong> Chao’s Favorite Rules</li>
+  <li><strong>19.48</strong> Nicola’s Favorite Rules</li>
+  <li><strong>22.56</strong> What is Type Resolution?</li>
+  <li><strong>26.44</strong> Using Detekt with Android &amp; Kotlin Multiplatform</li>
+  <li><strong>29.38</strong> Detekt’s Documentation Pipeline</li>
+  <li><strong>34.04</strong> What is SARIF?</li>
+  <li><strong>37.48</strong> How Chao got involved in this project</li>
+  <li><strong>39.50</strong> How Markus got involved in this project?</li>
+  <li><strong>43.04</strong> How Brais got involved in this project?</li>
+  <li><strong>46.14</strong> How Nicola got involved in this project?</li>
+  <li><strong>48.52</strong> How Detekt started?</li>
+  <li><strong>51.22</strong> How to get involved in this project?</li>
+  <li><strong>55.17</strong> Where to start contributing from?</li>
+  <li><strong>61.34</strong> What would like in the future of Detekt, Brais?</li>
+  <li><strong>63.05</strong> What would like in the future of Detekt, Chao?</li>
+  <li><strong>64.44</strong> What would like in the future of Detekt, Markus?</li>
+  <li><strong>66.48</strong> What would like in the future of Detekt, Nicola?</li>
+  <li><strong>71.36</strong> Further reading</li>
+  <li><strong>74.37</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/detekt/detekt">detekt/detekt on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://detekt.dev/">Detekt Official Website</a></li>
+  <li><i class="fab fa-slack"></i> <a href="https://kotlinlang.slack.com/archives/C88E12QH4">#detekt on Kotlinlang Slack</a> (get an <a href="https://surveys.jetbrains.com/s3/kotlin-slack-sign-up">invite here</a>)</li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-book"></i> <a href="https://leanpub.com/effectivekotlin">Effective Kotlin by Marcin Moskala</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://sarifweb.azurewebsites.net/">SARIF Home Page</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/detekt/detekt-compiler-plugin">Detekt Compiler Plugin</a></li>
+      <li><i class="fab fa-youtube"></i> <a href="https://www.droidcon.com/2021/11/17/detekt-state-of-the-union-2/">Detekt - State of the Union - Droidcon London 2021</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://github.com/detekt/detekt#mentions">List of articles mentioning Detekt</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://www.jetbrains.com/help/idea/psi-viewer.html">PSI Viewer - IntelliJ Plugins</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="maintainers-contacts">Maintainers’ Contacts</h1>
+
+<ul>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/BraisGabin">@BraisGabin on Twitter</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/BraisGabin">@BraisGabin on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/chao2zhang">@chao2zhang on Twitter</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/chao2zhang">@chao2zhang on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/cortinico">@cortinico on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/marschwar">@marschwar on Twitter</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/marschwar">@marschwar on Github</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+</ul>]]></content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[We're celebrating #30 with a special episode with the maintainers of Detekt, the Kotlin static analyizer]]></summary></entry><entry><title type="html">#29 - Kodein with Salomon Brys</title><link href="https://thebakery.dev/29/" rel="alternate" type="text/html" title="#29 - Kodein with Salomon Brys" /><published>2022-03-07T00:00:00+01:00</published><updated>2022-03-07T00:00:00+01:00</updated><id>https://thebakery.dev/029-kodein</id><content type="html" xml:base="https://thebakery.dev/29/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/3R3syhDSKRBH0tnwve7Oob?utm_source=generator" width="100%" height="232" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+<p>Today we have the pleasure to host another popular <strong>Dependency Injection</strong> framework at the Developers’ Bakery.</p>
+
+<p>Please welcome <a href="https://github.com/Kodein-Framework/Kodein-DI"><strong>Kodein-DI</strong></a> and <a href="https://twitter.com/salomonbrys"><strong>Salomon Brys</strong></a> on stage! 
+Kodein is an acronym for KOtlin DEpendency INjection, a framework to help you handle your dependencies in your Kotlin code (on all the platforms!).</p>
+
+<p>But Kodein is not only a DI framework. There is an entire ecosystem of libraries that can help you such as a DB, a logging library and a mocking framework.
+In this episode, Salomon is going to tell us how Kodein was born and how the whole <a href="https://kodein.org/">Kodein initiative</a> kicked off.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.18</strong> Intro</li>
+  <li><strong>01.05</strong> Episode Start</li>
+  <li><strong>01.33</strong> Salomon’s Introduction</li>
+  <li><strong>02.26</strong> Board games &amp; French</li>
+  <li><strong>04.14</strong> What is Kodein?</li>
+  <li><strong>05.49</strong> The Kodein Framework and library naming</li>
+  <li><strong>07.38</strong> What is Kodein Koders?</li>
+  <li><strong>10.08</strong> Kodein vs Dagger</li>
+  <li><strong>12.33</strong> Dagger error messages</li>
+  <li><strong>14.23</strong> Compile-time safety vs Unit-test safety</li>
+  <li><strong>20.51</strong> Testing with Kodein</li>
+  <li><strong>23.08</strong> MockKMP</li>
+  <li><strong>27.57</strong> Kodein vs Koin</li>
+  <li><strong>30.54</strong> The most requested feature</li>
+  <li><strong>33.15</strong> Is Kodein Multiplatform ready?</li>
+  <li><strong>36.53</strong> Upcoming features</li>
+  <li><strong>38.39</strong> Who is maintaining Kodein?</li>
+  <li><strong>41.39</strong> Is Kodein a good project to start doing open-source?</li>
+  <li><strong>43.55</strong> Further reading</li>
+  <li><strong>45.42</strong> Where to find Salomon online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/Kodein-Framework/Kodein-DI">Kodein-Framework/Kodein-DI on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://kodein.org/">Kodein Framework Official Website</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://docs.kodein.org/kodein-framework/index.html">Kodein Framework Official Docs</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://docs.kodein.org/kodein-di/7.10/index.html">Kodein DI Official Docs</a></li>
+  <li><i class="fab fa-slack"></i> <a href="https://kotlinlang.slack.com/archives/C0BLU9K96">#kodein on Kotlinlang Slack</a> (get an <a href="https://surveys.jetbrains.com/s3/kotlin-slack-sign-up">invite here</a>)</li>
+  <li>Talks about Kodein
+    <ul>
+      <li><i class="fab fa-youtube"></i> <a href="https://www.droidcon.com/2021/11/17/building-a-kotlin-multi-platform-advanced-library/">Building a Kotlin multi-platform advanced library - Droidcon Berlin 2021</a></li>
+      <li><i class="fab fa-youtube"></i> <a href="https://fosdem.org/2022/schedule/event/advanced_multiplatform_dependency_injection/">Advanced multi-platform dependency injection with Kotlin - FOSDEM 2022</a></li>
+      <li><i class="fab fa-youtube"></i> <a href="https://fosdem.org/2022/schedule/event/mocking_without_reflection_for_kotlin_multiplatform/">Mocking without reflection for Kotlin/Multiplatform - FOSDEM 2022</a></li>
+    </ul>
+  </li>
+  <li>Other Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://kodein.net/">Kodein Koders Official Website</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://kotlin-koders.eu/">Kodein Koders Conference 2021</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/Kodein-Framework/MocKMP">Kodein-Framework/MocKMP on Github</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/salomonbrys">@salomonbrys on Twitter</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/SalomonBrys">@SalomonBrys on Github</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[It's time to spotlight another Dependency Injection framework for Kotlin: please welcome Salomon with Kodein]]></summary></entry><entry><title type="html">#28 - Stream SDK with Filip Babić</title><link href="https://thebakery.dev/28/" rel="alternate" type="text/html" title="#28 - Stream SDK with Filip Babić" /><published>2022-02-21T00:00:00+01:00</published><updated>2022-02-21T00:00:00+01:00</updated><id>https://thebakery.dev/028-stream-sdk</id><content type="html" xml:base="https://thebakery.dev/28/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/6YaSmUmGDQk3RtZmGrvNeE?utm_source=generator" width="100%" height="232" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+<p>Building a chat client is hard.</p>
+
+<p>Sending messages, uploading attachments, and handling reactions are all tedious and quite complicate tasks that are common to a wide variety of apps. Those are the foundation of the <a href="https://github.com/GetStream/stream-chat-android/"><strong>Android Stream SDK</strong></a>. With Stream you can build a customized chat experience for your mobile apps. The various SDKs are completely open-source and are available for several platforms (Web, iOS, Android and even gaming platforms).</p>
+
+<p>Today we have <a href="https://github.com/filbabic"><strong>Filip Babić</strong></a> on stage, Android UI Team Lead at Stream, to walk us through their Android SDK. Specifically, Stream is offering both an Android <strong>XML</strong> SDK and a <strong>Compose</strong> SDK. We’re going to talk about the differences between the two, and the challenges of building a chat SDK to serve millions of messages.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.09</strong> Intro</li>
+  <li><strong>00.55</strong> Episode Start</li>
+  <li><strong>01.10</strong> Filip’s Introduction</li>
+  <li><strong>02.20</strong> What is Stream?</li>
+  <li><strong>04.14</strong> Stream SDK Offering</li>
+  <li><strong>06.50</strong> The killer features</li>
+  <li><strong>10.14</strong> The Jetpack Compose SDK</li>
+  <li><strong>15.17</strong> The biggest challenge when building the Stream SDK</li>
+  <li><strong>18.07</strong> Protecting the API surface</li>
+  <li><strong>23.26</strong> Offline mode</li>
+  <li><strong>27.51</strong> End-to-end encryption</li>
+  <li><strong>31.14</strong> Kotlin language feature in the SDK</li>
+  <li><strong>34.06</strong> The Maker plan</li>
+  <li><strong>39.12</strong> Everything is open-source</li>
+  <li><strong>40.47</strong> The most requested feature</li>
+  <li><strong>45.21</strong> How can people contribute to the Stream SDK?</li>
+  <li><strong>47.58</strong> Further reading</li>
+  <li><strong>50.43</strong> Where to find Filip online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/GetStream/stream-chat-android/">GetStream/stream-chat-android on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://getstream.io/">Stream Official Website</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://getstream.io/chat/sdk/android/">Stream Android SDK Docs</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://getstream.io/chat/sdk/compose/">Stream Compose SDK Docs</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://getstream.io/chat/docs/sdk/android/compose/overview/">Stream Compose SDK Overview</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/GetStream/stream-chat-android/tree/main/stream-chat-android-compose-sample/">Compose SDK Sample App</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://getstream.io/chat/compose/tutorial/">Compose SDK Tutorial</a></li>
+      <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/channel/UC2xOn0xQj1HIpHJpOy5tvpA">Stream YouTube Channel</a></li>
+      <li><i class="fab fa-youtube"></i> <a href="https://www.droidcon.com/2021/11/10/building-a-production-ready-chat-sdk-using-jetpack-compose/">Building a Production-Ready Chat SDK Using Jetpack Compose - Droidcon Berlin 2021</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/filbabic">@filbabic on Github</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Filip is on stage to walk us through the Stream, a Chat SDK to help you power your mobile apps.]]></summary></entry><entry><title type="html">#27 - Krabs with Michele Riva</title><link href="https://thebakery.dev/27/" rel="alternate" type="text/html" title="#27 - Krabs with Michele Riva" /><published>2022-02-07T00:00:00+01:00</published><updated>2022-02-07T00:00:00+01:00</updated><id>https://thebakery.dev/027-krabs</id><content type="html" xml:base="https://thebakery.dev/27/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>In this episode of The Developers’ Bakery we touch on <a href="https://nextjs.org/">Next.js</a> and a middleware to overcome one of its missing capability with <a href="https://twitter.com/MicheleRivaCode"><strong>Michele Riva</strong></a> and <a href="https://github.com/micheleriva/krabs"><strong>Krabs</strong></a> 🦀</p>
+
+<p>Krabs is a Express.js/Fastify middleware that will help you deploying <strong>multi-tenancy</strong> application on Next.js.
+We’re going to walk through what this tool does and why it was even needed in the first place.</p>
+
+<p>Michele is also a <strong>book author</strong> and has a lot of opinion on programming languages. We’re going to hear a bit
+about his experience writing a book and some of his lessons learned.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.09</strong> Intro</li>
+  <li><strong>00.55</strong> Episode Start</li>
+  <li><strong>01.28</strong> Michele’s Introduction</li>
+  <li><strong>02.31</strong> What is Krabs?</li>
+  <li><strong>03.36</strong> What is NextJS?</li>
+  <li><strong>05.25</strong> What is multi tenancy?</li>
+  <li><strong>08.05</strong> Is Krabs used in production?</li>
+  <li><strong>11.00</strong> FLIP - Functional-like Imperative Programming</li>
+  <li><strong>12.37</strong> Native Multi-tenancy support in Next.js</li>
+  <li><strong>14.30</strong> Upcoming features for Krabs?</li>
+  <li><strong>16.57</strong> Who is currently maintaining the project?</li>
+  <li><strong>17.58</strong> Who is sponsoring this project?</li>
+  <li><strong>19.07</strong> Could you imagine doing OSS full-time?</li>
+  <li><strong>20.47</strong> What’s your experience as a book author?</li>
+  <li><strong>23.51</strong> Real-world Next.js</li>
+  <li><strong>26.17</strong> If you were to rewrite Krabs, what would you do differently?</li>
+  <li><strong>29.11</strong> If you were to rewrite your book, what would you do differently?</li>
+  <li><strong>31.36</strong> Further reading</li>
+  <li><strong>33.41</strong> Bonus: What is your favourite programming language?</li>
+  <li><strong>35.54</strong> Bonus: …and why it’s not Javascript?</li>
+  <li><strong>40.46</strong> Where to find Michele online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/micheleriva/krabs">micheleriva/krabs on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://krabs.vercel.app/">Krabs Official Website</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://krabs.vercel.app/docs/intro">Krabs Tutorial</a></li>
+  <li><i class="fab fa-youtube"></i> <a href="https://youtu.be/71NRAnT4G4Q">Serving thousands of websites with a single Next.js installation on YouTube</a></li>
+  <li><i class="fas fa-book"></i> <a href="https://www.packtpub.com/product/real-world-next-js/9781801073493">Real-World Next.js - Packt Publishing</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/micheleriva">@micheleriva on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/MicheleRivaCode">@MicheleRivaCode on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[In this episode we will talk about Next.js and multi-tenancy with Krabs by Michele Riva]]></summary></entry><entry><title type="html">#26 - Material UI Swing with Vincenzo Palazzo</title><link href="https://thebakery.dev/26/" rel="alternate" type="text/html" title="#26 - Material UI Swing with Vincenzo Palazzo" /><published>2022-01-24T00:00:00+01:00</published><updated>2022-01-24T00:00:00+01:00</updated><id>https://thebakery.dev/026-material-ui-swing</id><content type="html" xml:base="https://thebakery.dev/26/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/3vMIOP9iqVS1XlZ2gWOHHw?utm_source=generator" width="100%" height="232" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+<p>This time, we fly up to Mars with <a href="https://twitter.com/PalazzoVincenzo"><strong>Vincenzo Palazzo</strong></a> and the <a href="https://github.com/vincenzopalazzo/material-ui-swing"><strong>Material UI Swing</strong></a>.</p>
+
+<p>Vincenzo is the maintainer of this library, a custom theme for Swing which is bringing a material <em>look-n-feel</em> to the Swing UI toolkit. While this might sound boring at first, 
+Material UI Swing is currently used on <a href="https://jmars.mars.asu.edu/"><strong>JMars</strong></a> (Java Mission-planning and Analysis for Remote Sensing) 🪐 and sponsored by the <a href="https://www.asu.edu/">Arizona State University</a>.</p>
+
+<p>In this episode Vincenzo will tell us the challenges of having to deal with Swing, and what it means to have a <strong>University sponsoring</strong> your open-source project.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.09</strong> Intro</li>
+  <li><strong>00.55</strong> Episode Start</li>
+  <li><strong>01.48</strong> Vincenzo’s Introduction</li>
+  <li><strong>04.24</strong> What are you favourite programming languages?</li>
+  <li><strong>06.21</strong> What is Material UI Swing?</li>
+  <li><strong>10.20</strong> How about JMars?</li>
+  <li><strong>14.03</strong> A bit of project history</li>
+  <li><strong>17.07</strong> What was the impact of being sponsored by a University?</li>
+  <li><strong>24.16</strong> Vincenzo goes to Arizona</li>
+  <li><strong>30.26</strong> Swing and Themes</li>
+  <li><strong>37.44</strong> Would you rewrite it in Kotlin?</li>
+  <li><strong>41.07</strong> What’s up in the future for this library?</li>
+  <li><strong>44.27</strong> Further reading</li>
+  <li><strong>47.13</strong> Where to find Vincenzo online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/vincenzopalazzo/material-ui-swing">vincenzopalazzo/material-ui-swing on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://jmars.mars.asu.edu/">JMars Official Website</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/atarw/material-ui-swing">Original Material UI Swing repository</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/vincenzopalazzo">@vincenzopalazzo on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/PalazzoVincenzo">@PalazzoVincenzo on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[This time, we fly up to Mars with Vincenzo and Material UI Swing]]></summary></entry><entry><title type="html">#25 - Realm with Christian Melchior</title><link href="https://thebakery.dev/25/" rel="alternate" type="text/html" title="#25 - Realm with Christian Melchior" /><published>2022-01-10T00:00:00+01:00</published><updated>2022-01-10T00:00:00+01:00</updated><id>https://thebakery.dev/025-realm</id><content type="html" xml:base="https://thebakery.dev/25/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/1SIaXMs2ZLKguCRR4M9J3J?utm_source=generator" width="100%" height="232" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+<p>Let’s start this new year venturing inside the realm of mobile databases, with <a href="https://twitter.com/cmelchior"><strong>Christian Melchior</strong></a> and the <a href="https://github.com/realm/realm-kotlin"><strong>Realm Kotlin SDK</strong></a>.</p>
+
+<p>Realm is an on-device database, that helps you handle your app state with a lot of convenient built-in features such as <strong>lazy loading</strong>, <strong>encryption</strong>, and <strong>cloud synchronization</strong>.</p>
+
+<p>In this episode, Christian is guiding us through the Realm SDK for Android developers. When using Realm on Android, you have the freedom to pick between the <a href="https://github.com/realm/realm-java">Java SDK</a> and the <a href="https://github.com/realm/realm-kotlin">Kotlin SDK</a>. During the show, we will look through the offering of the two and how Kotlin Multiplatform is going to shape the future for Realm.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.17</strong> Intro</li>
+  <li><strong>01.04</strong> Episode Start</li>
+  <li><strong>01.35</strong> Christian’s Introduction</li>
+  <li><strong>02.20</strong> What is Realm?</li>
+  <li><strong>03.55</strong> Which platforms are supported?</li>
+  <li><strong>05.21</strong> Why a separate Java and a Kotlin SDK?</li>
+  <li><strong>09.01</strong> Why pick Realm over Room?</li>
+  <li><strong>11.54</strong> Modelling domains that are relationship heavy</li>
+  <li><strong>12.51</strong> Native encryption support</li>
+  <li><strong>14.52</strong> Multiuser support</li>
+  <li><strong>16.59</strong> Realm Sync and offline-first apps</li>
+  <li><strong>19.15</strong> Multiplatform support</li>
+  <li><strong>20.33</strong> Kotlin Multiplatform to take over C++?</li>
+  <li><strong>22.53</strong> Is Realm KMP production ready?</li>
+  <li><strong>24.31</strong> How you got involved with Realm?</li>
+  <li><strong>25.22</strong> How is the releationship with the OSS community?</li>
+  <li><strong>27.48</strong> Which contribs are the most common?</li>
+  <li><strong>29.44</strong> The Mongo acquisition &amp; OSS</li>
+  <li><strong>31.29</strong> Any OSS app that is using Realm to use as inspiration?</li>
+  <li><strong>32.43</strong> Where do you interact with the Realm community?</li>
+  <li><strong>34.36</strong> Async vs Sync comms</li>
+  <li><strong>36.09</strong> How do you handle the incoming flow of Github issues?</li>
+  <li><strong>37.53</strong> The Realm roadmap</li>
+  <li><strong>40.13</strong> Further reading</li>
+  <li><strong>41.09</strong> Where to find Christian online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li>Realm Kotlin Multiplatform:
+    <ul>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/realm/realm-kotlin">realm/realm-kotlin on Github</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://docs.mongodb.com/realm/sdk/kotlin-multiplatform/">Realm Kotlin Documentation</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://github.com/realm/realm-kotlin-samples">Official Samples</a></li>
+    </ul>
+  </li>
+  <li>Realm Java:
+    <ul>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/realm/realm-java">realm/realm-java on Github</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://docs.mongodb.com/realm/sdk/android/">Realm Java Documentation</a></li>
+    </ul>
+  </li>
+  <li>Talks and Podcasts about Realm:
+    <ul>
+      <li><i class="fas fa-podcast"></i> <a href="https://www.youtube.com/watch?v=pU9yaCPmQ2g">Talking Kotlin #98 - Realm for Kotlin Multiplatform</a></li>
+      <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/gb/podcast/ep-45-mongodb-realm-mobile-for-android-christian-melchior/id1500452446?i=1000510453804">The MongoDB Podcast #45 - MongoDB Realm Mobile for Android</a></li>
+      <li><i class="fab fa-youtube"></i> <a href="https://www.droidcon.com/2021/10/08/painless-persistence-on-kotlin-multiplatform-with-realm-kotlin/">Droidcon Online - Painless Persistence on Kotlin Multiplatform with Realm Kotlin</a></li>
+      <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/watch?v=F1cEI9OKI-E&amp;ab_channel=MongoDB">Realm Meetup - Realm Kotlin Multiplatform for modern mobile apps Meetup recording</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/cmelchior">@cmelchior on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/chrmelchior">@chrmelchior on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Today, we venture through the realm of mobile databases with Christian Melchior from MongoDB Realm]]></summary></entry><entry><title type="html">#24 - Datadog for Android with Xavier F. Gouchet</title><link href="https://thebakery.dev/24/" rel="alternate" type="text/html" title="#24 - Datadog for Android with Xavier F. Gouchet" /><published>2021-12-06T00:00:00+01:00</published><updated>2021-12-06T00:00:00+01:00</updated><id>https://thebakery.dev/024-datadog-for-android</id><content type="html" xml:base="https://thebakery.dev/24/"><![CDATA[<iframe src="https://open.spotify.com/embed/episode/5lzDRc0yZcbFFXYzyarEyf?utm_source=generator" width="100%" height="232" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+<p>In this episode we are going to meet <a href="https://twitter.com/xgouchet"><strong>Xavier Gouchet</strong></a> and the <a href="https://github.com/DataDog/dd-sdk-android"><strong>Datadog Android SDK</strong></a> 🐶.</p>
+
+<p>Datadog helps you monitor and track problems with your mobile applications, such as crashes and ANR. The Android SDK
 offers a large variety of plugins that helps you track the health of your app with integration for popular libraries
-such as Timber, Glide, Jetpack Compose or the Android NDK.&lt;/p&gt;
+such as Timber, Glide, Jetpack Compose or the Android NDK.</p>
 
-&lt;p&gt;In this episode, Xavier will walk us through their SDK and what are the most challenging tasks for a monitoring SDK such as this one.&lt;/p&gt;
+<p>In this episode, Xavier will walk us through their SDK and what are the most challenging tasks for a monitoring SDK such as this one.</p>
 
-&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
+<p>Enjoy the show 👨‍🍳</p>
 
-&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
+<h1 id="show-notes">Show Notes</h1>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;00.17&lt;/strong&gt; Intro&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;01.04&lt;/strong&gt; Episode Start&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;01.38&lt;/strong&gt; Xav’s Introduction&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;02.54&lt;/strong&gt; What is Datadog?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;03.20&lt;/strong&gt; What mobile engineers can do with Datadog?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;04.22&lt;/strong&gt; How Datadog works on Android?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;05.50&lt;/strong&gt; What are the complexity of a monitoring SDK?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;08.25&lt;/strong&gt; Which type of monitoring is it offering?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;10.21&lt;/strong&gt; What’s the performance impact of a monitoring SDK?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;12.51&lt;/strong&gt; Which OSS applications are you using for benchmarking?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;13.56&lt;/strong&gt; What was the most complex plugin to develop?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;17.00&lt;/strong&gt; Are you also giving suggestions to developers?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;19.33&lt;/strong&gt; Machine Learning and App Crashes&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;21.09&lt;/strong&gt; The most common performance pitfall&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;23.03&lt;/strong&gt; How do you handle collection of personal information?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;27.56&lt;/strong&gt; Integrations with popular Android libraries&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;32.51&lt;/strong&gt; Can people contribute to Datadog SDK?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;35.05&lt;/strong&gt; Reproducible builds and SDKs&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;36.23&lt;/strong&gt; What’s in the future for this SDK?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;38.45&lt;/strong&gt; How can people contribute to this project?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;39.46&lt;/strong&gt; Further reading&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;41.09&lt;/strong&gt; Where to find Xav online?&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li><strong>00.17</strong> Intro</li>
+  <li><strong>01.04</strong> Episode Start</li>
+  <li><strong>01.38</strong> Xav’s Introduction</li>
+  <li><strong>02.54</strong> What is Datadog?</li>
+  <li><strong>03.20</strong> What mobile engineers can do with Datadog?</li>
+  <li><strong>04.22</strong> How Datadog works on Android?</li>
+  <li><strong>05.50</strong> What are the complexity of a monitoring SDK?</li>
+  <li><strong>08.25</strong> Which type of monitoring is it offering?</li>
+  <li><strong>10.21</strong> What’s the performance impact of a monitoring SDK?</li>
+  <li><strong>12.51</strong> Which OSS applications are you using for benchmarking?</li>
+  <li><strong>13.56</strong> What was the most complex plugin to develop?</li>
+  <li><strong>17.00</strong> Are you also giving suggestions to developers?</li>
+  <li><strong>19.33</strong> Machine Learning and App Crashes</li>
+  <li><strong>21.09</strong> The most common performance pitfall</li>
+  <li><strong>23.03</strong> How do you handle collection of personal information?</li>
+  <li><strong>27.56</strong> Integrations with popular Android libraries</li>
+  <li><strong>32.51</strong> Can people contribute to Datadog SDK?</li>
+  <li><strong>35.05</strong> Reproducible builds and SDKs</li>
+  <li><strong>36.23</strong> What’s in the future for this SDK?</li>
+  <li><strong>38.45</strong> How can people contribute to this project?</li>
+  <li><strong>39.46</strong> Further reading</li>
+  <li><strong>41.09</strong> Where to find Xav online?</li>
+</ul>
 
-&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
+<h1 id="resources">Resources</h1>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/DataDog/dd-sdk-android&quot;&gt;DataDog/dd-sdk-android on Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://docs.datadoghq.com/real_user_monitoring/android/&quot;&gt;Datadog - RUM Android Monitoring documentation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://docs.datadoghq.com/logs/log_collection/android/&quot;&gt;Datadog - Android Log Collection documentation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-youtube&quot;&gt;&lt;/i&gt;&lt;a href=&quot;https://www.droidcon.com/2021/11/17/benchmarking-your-application/&quot;&gt;Benchmarking your Application - Droidcon London 2021&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/xgouchet&quot;&gt;@xgouchet on Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/xgouchet&quot;&gt;@xgouchet on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/DataDog/dd-sdk-android">DataDog/dd-sdk-android on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://docs.datadoghq.com/real_user_monitoring/android/">Datadog - RUM Android Monitoring documentation</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://docs.datadoghq.com/logs/log_collection/android/">Datadog - Android Log Collection documentation</a></li>
+  <li><i class="fab fa-youtube"></i><a href="https://www.droidcon.com/2021/11/17/benchmarking-your-application/">Benchmarking your Application - Droidcon London 2021</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://github.com/xgouchet">@xgouchet on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/xgouchet">@xgouchet on Twitter</a></li>
+</ul>
 
-&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
+<h1 id="show-links">Show links</h1>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">Time to talk about mobile app monitoring with Xavier Gouchet and Datadog SDK</summary></entry><entry><title type="html">#23 - PlusPlugins with Miguel Beltran</title><link href="https://thebakery.dev/23/" rel="alternate" type="text/html" title="#23 - PlusPlugins with Miguel Beltran" /><published>2021-11-15T00:00:00+01:00</published><updated>2021-11-15T00:00:00+01:00</updated><id>https://thebakery.dev/023-plusplugins</id><content type="html" xml:base="https://thebakery.dev/23/">&lt;iframe src=&quot;https://open.spotify.com/embed/episode/7EpUMNSGnT6ak0olulHgTF?utm_source=generator&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot;&gt;&lt;/iframe&gt;
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Time to talk about mobile app monitoring with Xavier Gouchet and Datadog SDK]]></summary></entry><entry><title type="html">#23 - PlusPlugins with Miguel Beltran</title><link href="https://thebakery.dev/23/" rel="alternate" type="text/html" title="#23 - PlusPlugins with Miguel Beltran" /><published>2021-11-15T00:00:00+01:00</published><updated>2021-11-15T00:00:00+01:00</updated><id>https://thebakery.dev/023-plusplugins</id><content type="html" xml:base="https://thebakery.dev/23/"><![CDATA[<iframe src="https://open.spotify.com/embed/episode/7EpUMNSGnT6ak0olulHgTF?utm_source=generator" width="100%" height="232" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
-&lt;p&gt;It’s been since &lt;a href=&quot;/07&quot;&gt;episode #07&lt;/a&gt; that we haven’t talked about Flutter 💙, so today we have &lt;a href=&quot;https://twitter.com/MiBLT&quot;&gt;&lt;strong&gt;Miguel Beltran&lt;/strong&gt;&lt;/a&gt; on stage to talk about one of the most important library for it: &lt;a href=&quot;https://github.com/fluttercommunity/plus_plugins&quot;&gt;&lt;strong&gt;Plus Plugins&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+<p>It’s been since <a href="/07">episode #07</a> that we haven’t talked about Flutter 💙, so today we have <a href="https://twitter.com/MiBLT"><strong>Miguel Beltran</strong></a> on stage to talk about one of the most important library for it: <a href="https://github.com/fluttercommunity/plus_plugins"><strong>Plus Plugins</strong></a>.</p>
 
-&lt;p&gt;Miguel is one of the maintainer of this popular &lt;strong&gt;collection of plugins&lt;/strong&gt;. Plus plugins offer multiplatform capability to access informations 
-such as &lt;strong&gt;battery&lt;/strong&gt;, &lt;strong&gt;connectivity&lt;/strong&gt;, &lt;strong&gt;sensors&lt;/strong&gt; and more across a variety of platforms: Android, iOS, Web, MacOS, Windows &amp;amp; Linux!&lt;/p&gt;
+<p>Miguel is one of the maintainer of this popular <strong>collection of plugins</strong>. Plus plugins offer multiplatform capability to access informations 
+such as <strong>battery</strong>, <strong>connectivity</strong>, <strong>sensors</strong> and more across a variety of platforms: Android, iOS, Web, MacOS, Windows &amp; Linux!</p>
 
-&lt;p&gt;In this episode we will talk about the story of this project, how it evolved from Google to Flutter community, and
-how people can &lt;strong&gt;contribute&lt;/strong&gt; to such a critical piece of the Flutter ecosystem.&lt;/p&gt;
+<p>In this episode we will talk about the story of this project, how it evolved from Google to Flutter community, and
+how people can <strong>contribute</strong> to such a critical piece of the Flutter ecosystem.</p>
 
-&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
+<p>Enjoy the show 👨‍🍳</p>
 
-&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
+<h1 id="show-notes">Show Notes</h1>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;00.00&lt;/strong&gt; Intro&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;00.46&lt;/strong&gt; Episode Start&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;01.21&lt;/strong&gt; Miguel’s Introduction&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;02.26&lt;/strong&gt; What are the Plus Plugins?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;04.55&lt;/strong&gt; Who owns the Plus Plugins?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;08.56&lt;/strong&gt; Flutter Plugin Ecosystem&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;11.00&lt;/strong&gt; Contributing to Flutter&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;12.13&lt;/strong&gt; Miguel’s favorite plus plugin&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;14.31&lt;/strong&gt; Are plus plugins offering also UI?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;15.34&lt;/strong&gt; The hardest plus plugin to maintain&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;17.37&lt;/strong&gt; Multiplatform support&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;19.40&lt;/strong&gt; The monorepo&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;24.05&lt;/strong&gt; What makes a plugin a plus plugin?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;27.20&lt;/strong&gt; How you got involved in this project?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;30.20&lt;/strong&gt; How do you handle oss contributions?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;32.08&lt;/strong&gt; How to contribute?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;33.55&lt;/strong&gt; How do you keep docs and code on sync?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;35.55&lt;/strong&gt; Do you version your docs?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;37.36&lt;/strong&gt; Further reading&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;38.44&lt;/strong&gt; Where to find Miguel online?&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.46</strong> Episode Start</li>
+  <li><strong>01.21</strong> Miguel’s Introduction</li>
+  <li><strong>02.26</strong> What are the Plus Plugins?</li>
+  <li><strong>04.55</strong> Who owns the Plus Plugins?</li>
+  <li><strong>08.56</strong> Flutter Plugin Ecosystem</li>
+  <li><strong>11.00</strong> Contributing to Flutter</li>
+  <li><strong>12.13</strong> Miguel’s favorite plus plugin</li>
+  <li><strong>14.31</strong> Are plus plugins offering also UI?</li>
+  <li><strong>15.34</strong> The hardest plus plugin to maintain</li>
+  <li><strong>17.37</strong> Multiplatform support</li>
+  <li><strong>19.40</strong> The monorepo</li>
+  <li><strong>24.05</strong> What makes a plugin a plus plugin?</li>
+  <li><strong>27.20</strong> How you got involved in this project?</li>
+  <li><strong>30.20</strong> How do you handle oss contributions?</li>
+  <li><strong>32.08</strong> How to contribute?</li>
+  <li><strong>33.55</strong> How do you keep docs and code on sync?</li>
+  <li><strong>35.55</strong> Do you version your docs?</li>
+  <li><strong>37.36</strong> Further reading</li>
+  <li><strong>38.44</strong> Where to find Miguel online?</li>
+</ul>
 
-&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
+<h1 id="resources">Resources</h1>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/fluttercommunity/plus_plugins&quot;&gt;fluttercommunity/plus_plugins on Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://plus.fluttercommunity.dev/&quot;&gt;Plus Plugins Official Website&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/fluttercommunity/plus_plugins/blob/main/CONTRIBUTING.md&quot;&gt;Plus Plugins CONTRIBUTING.md File&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.pluralsight.com/courses/developing-packages-flutter&quot;&gt;Developing Packages in Flutter - Pluralsight Course&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/MiBLT&quot;&gt;@MiBLT on Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/miquelbeltran&quot;&gt;@miquelbeltran on Github&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/fluttercommunity/plus_plugins">fluttercommunity/plus_plugins on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://plus.fluttercommunity.dev/">Plus Plugins Official Website</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://github.com/fluttercommunity/plus_plugins/blob/main/CONTRIBUTING.md">Plus Plugins CONTRIBUTING.md File</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://www.pluralsight.com/courses/developing-packages-flutter">Developing Packages in Flutter - Pluralsight Course</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/MiBLT">@MiBLT on Twitter</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/miquelbeltran">@miquelbeltran on Github</a></li>
+</ul>
 
-&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
+<h1 id="show-links">Show links</h1>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">Back on Flutter with Miguel Beltran talking about one of the most important library: Plus Plugins</summary></entry><entry><title type="html">#22 - Gitpod with Geoffrey Huntley</title><link href="https://thebakery.dev/22/" rel="alternate" type="text/html" title="#22 - Gitpod with Geoffrey Huntley" /><published>2021-11-02T00:00:00+01:00</published><updated>2021-11-02T00:00:00+01:00</updated><id>https://thebakery.dev/022-gitpod</id><content type="html" xml:base="https://thebakery.dev/22/">&lt;iframe src=&quot;https://open.spotify.com/embed/episode/4VjiB4DI4jJqhARDctIETn?utm_source=generator&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot;&gt;&lt;/iframe&gt;
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Back on Flutter with Miguel Beltran talking about one of the most important library: Plus Plugins]]></summary></entry><entry><title type="html">#22 - Gitpod with Geoffrey Huntley</title><link href="https://thebakery.dev/22/" rel="alternate" type="text/html" title="#22 - Gitpod with Geoffrey Huntley" /><published>2021-11-02T00:00:00+01:00</published><updated>2021-11-02T00:00:00+01:00</updated><id>https://thebakery.dev/022-gitpod</id><content type="html" xml:base="https://thebakery.dev/22/"><![CDATA[<iframe src="https://open.spotify.com/embed/episode/4VjiB4DI4jJqhARDctIETn?utm_source=generator" width="100%" height="232" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
-&lt;p&gt;In this episode we’re back on the topic of &lt;strong&gt;Cloud IDEs&lt;/strong&gt; with &lt;a href=&quot;https://twitter.com/GeoffreyHuntley&quot;&gt;&lt;strong&gt;Geoffrey Huntley&lt;/strong&gt;&lt;/a&gt; to talk us about &lt;a href=&quot;https://www.gitpod.io/&quot;&gt;&lt;strong&gt;Gitpod&lt;/strong&gt;&lt;/a&gt; 🚀.&lt;/p&gt;
+<p>In this episode we’re back on the topic of <strong>Cloud IDEs</strong> with <a href="https://twitter.com/GeoffreyHuntley"><strong>Geoffrey Huntley</strong></a> to talk us about <a href="https://www.gitpod.io/"><strong>Gitpod</strong></a> 🚀.</p>
 
-&lt;p&gt;First, I had the pleasure to ask Geoff some insights on his &lt;em&gt;van life&lt;/em&gt; ⛺️. Geoff is living remote work at its finest, working from his van in Australia and apparently enjoying it a lot (make sure to checkout &lt;a href=&quot;https://ghuntley.com/tag/vanlife/&quot;&gt;his blogposts about it&lt;/a&gt;)!&lt;/p&gt;
+<p>First, I had the pleasure to ask Geoff some insights on his <em>van life</em> ⛺️. Geoff is living remote work at its finest, working from his van in Australia and apparently enjoying it a lot (make sure to checkout <a href="https://ghuntley.com/tag/vanlife/">his blogposts about it</a>)!</p>
 
-&lt;p&gt;But Geoff is also highly involved with Gitpod, a tool that will help you spin-up &lt;strong&gt;development environment&lt;/strong&gt; and get you up to speed in seconds. They’re also extremely supportive towards the open-source ecosystem, offering free licenses for OSS projects.&lt;/p&gt;
+<p>But Geoff is also highly involved with Gitpod, a tool that will help you spin-up <strong>development environment</strong> and get you up to speed in seconds. They’re also extremely supportive towards the open-source ecosystem, offering free licenses for OSS projects.</p>
 
-&lt;p&gt;In this epidesode we walk through Gitpod, how it can help you in your daily development and what the future of Cloud IDE might look like.&lt;/p&gt;
+<p>In this epidesode we walk through Gitpod, how it can help you in your daily development and what the future of Cloud IDE might look like.</p>
 
-&lt;p&gt;Enjoy the show 👨‍🍳&lt;/p&gt;
+<p>Enjoy the show 👨‍🍳</p>
 
-&lt;h1 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h1&gt;
+<h1 id="show-notes">Show Notes</h1>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;00.00&lt;/strong&gt; Intro&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;00.46&lt;/strong&gt; Episode Start&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;01.12&lt;/strong&gt; Geoff’s Introduction&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;01.55&lt;/strong&gt; Working from a van&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;03.41&lt;/strong&gt; Funny stories from a camping life&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;05.05&lt;/strong&gt; Living without abstraction&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;07.11&lt;/strong&gt; What is Gitpod?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;09.15&lt;/strong&gt; What makes Gitpod unique?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;12.33&lt;/strong&gt; Prebuilt workspaces&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;14.15&lt;/strong&gt; The gitpod.io magic URL&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;16.50&lt;/strong&gt; Development workflow with Gitpod&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;19.08&lt;/strong&gt; VS Code @ Gitpod&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;21.52&lt;/strong&gt; OpenVSX&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;23.09&lt;/strong&gt; What are the major blockers to cloud IDEs adoption?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;25.04&lt;/strong&gt; Developing daily on a iPad&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;26.33&lt;/strong&gt; Mobile development in the cloud&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;30.53&lt;/strong&gt; It works on my machine&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;32.23&lt;/strong&gt; Deplyoing GitPod to your infrastructure&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;35.22&lt;/strong&gt; Geoff’s Browser setup&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;36.28&lt;/strong&gt; How you go involved with Gitpod?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;38.24&lt;/strong&gt; How to contribute to Gitpod?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;40.42&lt;/strong&gt; Further reading&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;43.05&lt;/strong&gt; Where to find Geoff online?&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.46</strong> Episode Start</li>
+  <li><strong>01.12</strong> Geoff’s Introduction</li>
+  <li><strong>01.55</strong> Working from a van</li>
+  <li><strong>03.41</strong> Funny stories from a camping life</li>
+  <li><strong>05.05</strong> Living without abstraction</li>
+  <li><strong>07.11</strong> What is Gitpod?</li>
+  <li><strong>09.15</strong> What makes Gitpod unique?</li>
+  <li><strong>12.33</strong> Prebuilt workspaces</li>
+  <li><strong>14.15</strong> The gitpod.io magic URL</li>
+  <li><strong>16.50</strong> Development workflow with Gitpod</li>
+  <li><strong>19.08</strong> VS Code @ Gitpod</li>
+  <li><strong>21.52</strong> OpenVSX</li>
+  <li><strong>23.09</strong> What are the major blockers to cloud IDEs adoption?</li>
+  <li><strong>25.04</strong> Developing daily on a iPad</li>
+  <li><strong>26.33</strong> Mobile development in the cloud</li>
+  <li><strong>30.53</strong> It works on my machine</li>
+  <li><strong>32.23</strong> Deplyoing GitPod to your infrastructure</li>
+  <li><strong>35.22</strong> Geoff’s Browser setup</li>
+  <li><strong>36.28</strong> How you go involved with Gitpod?</li>
+  <li><strong>38.24</strong> How to contribute to Gitpod?</li>
+  <li><strong>40.42</strong> Further reading</li>
+  <li><strong>43.05</strong> Where to find Geoff online?</li>
+</ul>
 
-&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
+<h1 id="resources">Resources</h1>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/gitpod-io/gitpod&quot;&gt;gitpod-io/gitpod on Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.gitpod.io/&quot;&gt;Gitpod Official Website&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/gitpod-io/roadmap/issues/27#issuecomment-947010907&quot;&gt;Gitpod Contribution Resources&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Mentioned Resources:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://ghuntley.com/tag/remote-work/&quot;&gt;Geoff’s Article on Remote Work&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open-vsx.org/&quot;&gt;OpenVSX&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://youtrack.jetbrains.com/issue/IDEA-226455#focus=Comments-27-5290105.0-0&quot;&gt;JetBrains Remote Development Support&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/gitpod-io/gitpod/issues/6342&quot;&gt;GitPod Private Beta for JetBrains IDE&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/gitpod-io/gitpod/issues/6447&quot;&gt;GitPod Roadmap for Mobile Devs&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://appetize.io/&quot;&gt;Appetize - Run native mobile apps in your browser&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev/18/&quot;&gt;The Developers’ Bakery - Ep 18 - code-server with Joe Previte&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://ghuntley.com/&quot;&gt;Geoff’s Website&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/ghuntley&quot;&gt;@ghuntley on Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/GeoffreyHuntley&quot;&gt;@GeoffreyHuntley on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/gitpod-io/gitpod">gitpod-io/gitpod on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://www.gitpod.io/">Gitpod Official Website</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://github.com/gitpod-io/roadmap/issues/27#issuecomment-947010907">Gitpod Contribution Resources</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://ghuntley.com/tag/remote-work/">Geoff’s Article on Remote Work</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://open-vsx.org/">OpenVSX</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://youtrack.jetbrains.com/issue/IDEA-226455#focus=Comments-27-5290105.0-0">JetBrains Remote Development Support</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/gitpod-io/gitpod/issues/6342">GitPod Private Beta for JetBrains IDE</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/gitpod-io/gitpod/issues/6447">GitPod Roadmap for Mobile Devs</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://appetize.io/">Appetize - Run native mobile apps in your browser</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://thebakery.dev/18/">The Developers’ Bakery - Ep 18 - code-server with Joe Previte</a></li>
+    </ul>
+  </li>
+  <li><i class="fas fa-link"></i> <a href="https://ghuntley.com/">Geoff’s Website</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/ghuntley">@ghuntley on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/GeoffreyHuntley">@GeoffreyHuntley on Twitter</a></li>
+</ul>
 
-&lt;h1 id=&quot;show-links&quot;&gt;Show links&lt;/h1&gt;
+<h1 id="show-links">Show links</h1>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://thebakery.dev&quot;&gt;Podcast Website&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-spotify&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug&quot;&gt;The Developers’ Bakery on Spotify&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fas fa-podcast&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034&quot;&gt;The Developers’ Bakery on Apple Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-google-play&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s&quot;&gt;The Developers’ Bakery on Google Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/thebakerydev&quot;&gt;@thebakerydev on Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://twitter.com/cortinico&quot;&gt;@cortinico on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html">We're back on Cloud IDEs with Geoffrey Huntley talking about Gitpod and his vanlife!</summary></entry></feed>
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers' Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[We're back on Cloud IDEs with Geoffrey Huntley talking about Gitpod and his vanlife!]]></summary></entry></feed>
