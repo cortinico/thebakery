@@ -1,5 +1,5 @@
 ---
-title: "#32 - Testcontainers with Sergei Egovor"
+title: "#32 - Testcontainers with Sergei Egorov"
 excerpt: "Learn how to power up your tests with Docker, Testcontainers and Sergei Egorov"
 author_profile: true
 
@@ -16,7 +16,7 @@ date: 2022-04-18
 permalink: /32/
 redirect_from:
 - /32/testcontainers/
-- /32/testcontainers-with-sergei-egovor/
+- /32/testcontainers-with-sergei-egorov/
 
 podcast_image: "/assets/images/episodes/32-cover.png"
 podcast_episode_number: 32
