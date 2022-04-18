@@ -1,4 +1,63 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2022-04-10T17:32:17+02:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#31 - Dependency Analysis Android Gradle Plugin with Tony Robalik</title><link href="https://thebakery.dev/31/" rel="alternate" type="text/html" title="#31 - Dependency Analysis Android Gradle Plugin with Tony Robalik" /><published>2022-04-05T00:00:00+02:00</published><updated>2022-04-05T00:00:00+02:00</updated><id>https://thebakery.dev/031-dependency-analysis-android-gradle-plugin</id><content type="html" xml:base="https://thebakery.dev/31/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2022-04-18T19:56:31+02:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#32 - Testcontainers with Sergei Egovor</title><link href="https://thebakery.dev/32/" rel="alternate" type="text/html" title="#32 - Testcontainers with Sergei Egovor" /><published>2022-04-18T00:00:00+02:00</published><updated>2022-04-18T00:00:00+02:00</updated><id>https://thebakery.dev/032-testcontainers</id><content type="html" xml:base="https://thebakery.dev/32/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>It’s time to talk about Docker 🐳  and how it can help you improve your integration tests, with <a href="https://twitter.com/bsideup"><strong>Sergei Egorov</strong></a> and <a href="https://github.com/autonomousapps/dependency-analysis-android-gradle-plugin"><strong>Testcontainers</strong></a>.</p>
+
+<p>Testcontainers make easy to start instances of DBs, web browsers, or any other tool that can be containerized to help you write integration tests. This will allow you to test your code against real dependencies and not fake/mocks anymore.</p>
+
+<p>Sergei will guide us throgh this project and will share some insights on his experience in Open Source.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.46</strong> Episode Start</li>
+  <li><strong>01.35</strong> Sergei’s Introduction</li>
+  <li><strong>03.20</strong> What are Testcontainers?</li>
+  <li><strong>06.34</strong> Testcontainers with Java, Go, Node and more</li>
+  <li><strong>09.28</strong> Are Testcontianers just a wrapper on top of Docker?</li>
+  <li><strong>11.38</strong> Stopping containers</li>
+  <li><strong>15.16</strong> How do you handle resources?</li>
+  <li><strong>21.16</strong> Built-in modules for popular DBs</li>
+  <li><strong>26.27</strong> Integrating Testcontainers in your tests</li>
+  <li><strong>29.46</strong> What is AtomicJar and Testcontainers Cloud?</li>
+  <li><strong>35.21</strong> Flakyness when testing on the cloud</li>
+  <li><strong>38.45</strong> Java Champions</li>
+  <li><strong>43.02</strong> What do you think about Kotlin?</li>
+  <li><strong>46.53</strong> Sergei’s OSS journey</li>
+  <li><strong>50.35</strong> Suggestions for new contributors</li>
+  <li><strong>54.51</strong> Where to find Sergei online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/testcontainerss/testcontainerss-java">testcontainerss/testcontainerss-java on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://www.testcontainers.org/">Testcontainers Official Documentation</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://www.atomicjar.com/">AtomicJar Official Website</a></li>
+  <li>Relevant Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://www.atomicjar.com/2021/12/why-will-2022-be-the-year-of-devtools-2-0/">Blogpost: Why will 2022 be the year of DevTools 2.0</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://bsideup.github.io/posts/debugging_containers/">Blogpost: Debugging Containers</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://engineering.atspotify.com/2018/01/testing-of-microservices/">Blogpost: Testing of Microservices</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://www.testcontainers.org/contributing/">Testcontainers contribution guide</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/bsideup">@bsideup on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/bsideup">@bsideup on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Learn how to power up your tests with Docker, Testcontainers and Sergei Egorov]]></summary></entry><entry><title type="html">#31 - Dependency Analysis Android Gradle Plugin with Tony Robalik</title><link href="https://thebakery.dev/31/" rel="alternate" type="text/html" title="#31 - Dependency Analysis Android Gradle Plugin with Tony Robalik" /><published>2022-04-05T00:00:00+02:00</published><updated>2022-04-05T00:00:00+02:00</updated><id>https://thebakery.dev/031-dependency-analysis-android-gradle-plugin</id><content type="html" xml:base="https://thebakery.dev/31/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/7iD2E7Ma4AdOx9m8DQg9fP?utm_source=generator" width="100%" height="232" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
 <p>We’re back to talk about Gradle 🐘 with <a href="https://twitter.com/autonomousapps"><strong>Tony Robalik</strong></a> and the <a href="https://github.com/autonomousapps/dependency-analysis-android-gradle-plugin"><strong>Dependency Analysis Android Gradle Plugin (DAAGP)</strong></a>.</p>
 
@@ -581,75 +640,4 @@ how people can <strong>contribute</strong> to such a critical piece of the Flutt
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Back on Flutter with Miguel Beltran talking about one of the most important library: Plus Plugins]]></summary></entry><entry><title type="html">#22 - Gitpod with Geoffrey Huntley</title><link href="https://thebakery.dev/22/" rel="alternate" type="text/html" title="#22 - Gitpod with Geoffrey Huntley" /><published>2021-11-02T00:00:00+01:00</published><updated>2021-11-02T00:00:00+01:00</updated><id>https://thebakery.dev/022-gitpod</id><content type="html" xml:base="https://thebakery.dev/22/"><![CDATA[<iframe src="https://open.spotify.com/embed/episode/4VjiB4DI4jJqhARDctIETn?utm_source=generator" width="100%" height="232" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-
-<p>In this episode we’re back on the topic of <strong>Cloud IDEs</strong> with <a href="https://twitter.com/GeoffreyHuntley"><strong>Geoffrey Huntley</strong></a> to talk us about <a href="https://www.gitpod.io/"><strong>Gitpod</strong></a> 🚀.</p>
-
-<p>First, I had the pleasure to ask Geoff some insights on his <em>van life</em> ⛺️. Geoff is living remote work at its finest, working from his van in Australia and apparently enjoying it a lot (make sure to checkout <a href="https://ghuntley.com/tag/vanlife/">his blogposts about it</a>)!</p>
-
-<p>But Geoff is also highly involved with Gitpod, a tool that will help you spin-up <strong>development environment</strong> and get you up to speed in seconds. They’re also extremely supportive towards the open-source ecosystem, offering free licenses for OSS projects.</p>
-
-<p>In this epidesode we walk through Gitpod, how it can help you in your daily development and what the future of Cloud IDE might look like.</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.00</strong> Intro</li>
-  <li><strong>00.46</strong> Episode Start</li>
-  <li><strong>01.12</strong> Geoff’s Introduction</li>
-  <li><strong>01.55</strong> Working from a van</li>
-  <li><strong>03.41</strong> Funny stories from a camping life</li>
-  <li><strong>05.05</strong> Living without abstraction</li>
-  <li><strong>07.11</strong> What is Gitpod?</li>
-  <li><strong>09.15</strong> What makes Gitpod unique?</li>
-  <li><strong>12.33</strong> Prebuilt workspaces</li>
-  <li><strong>14.15</strong> The gitpod.io magic URL</li>
-  <li><strong>16.50</strong> Development workflow with Gitpod</li>
-  <li><strong>19.08</strong> VS Code @ Gitpod</li>
-  <li><strong>21.52</strong> OpenVSX</li>
-  <li><strong>23.09</strong> What are the major blockers to cloud IDEs adoption?</li>
-  <li><strong>25.04</strong> Developing daily on a iPad</li>
-  <li><strong>26.33</strong> Mobile development in the cloud</li>
-  <li><strong>30.53</strong> It works on my machine</li>
-  <li><strong>32.23</strong> Deplyoing GitPod to your infrastructure</li>
-  <li><strong>35.22</strong> Geoff’s Browser setup</li>
-  <li><strong>36.28</strong> How you go involved with Gitpod?</li>
-  <li><strong>38.24</strong> How to contribute to Gitpod?</li>
-  <li><strong>40.42</strong> Further reading</li>
-  <li><strong>43.05</strong> Where to find Geoff online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/gitpod-io/gitpod">gitpod-io/gitpod on Github</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://www.gitpod.io/">Gitpod Official Website</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://github.com/gitpod-io/roadmap/issues/27#issuecomment-947010907">Gitpod Contribution Resources</a></li>
-  <li>Mentioned Resources:
-    <ul>
-      <li><i class="fas fa-link"></i> <a href="https://ghuntley.com/tag/remote-work/">Geoff’s Article on Remote Work</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://open-vsx.org/">OpenVSX</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://youtrack.jetbrains.com/issue/IDEA-226455#focus=Comments-27-5290105.0-0">JetBrains Remote Development Support</a></li>
-      <li><i class="fab fa-github"></i> <a href="https://github.com/gitpod-io/gitpod/issues/6342">GitPod Private Beta for JetBrains IDE</a></li>
-      <li><i class="fab fa-github"></i> <a href="https://github.com/gitpod-io/gitpod/issues/6447">GitPod Roadmap for Mobile Devs</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://appetize.io/">Appetize - Run native mobile apps in your browser</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://thebakery.dev/18/">The Developers’ Bakery - Ep 18 - code-server with Joe Previte</a></li>
-    </ul>
-  </li>
-  <li><i class="fas fa-link"></i> <a href="https://ghuntley.com/">Geoff’s Website</a></li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/ghuntley">@ghuntley on Github</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/GeoffreyHuntley">@GeoffreyHuntley on Twitter</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[We're back on Cloud IDEs with Geoffrey Huntley talking about Gitpod and his vanlife!]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Back on Flutter with Miguel Beltran talking about one of the most important library: Plus Plugins]]></summary></entry></feed>

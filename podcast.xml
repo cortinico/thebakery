@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Sun, 10 Apr 2022 17:32:17 +0200</lastBuildDate>
+<lastBuildDate>Mon, 18 Apr 2022 19:56:31 +0200</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,99 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Testcontainers with Sergei Egovor</title>
+        <itunes:title>Testcontainers with Sergei Egovor</itunes:title>
+        <link>https://thebakery.dev/32/</link>
+        <pubDate>Mon, 18 Apr 2022 00:00:00 +0200</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/32/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>32</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/32-thedevelopersbakery-testcontainers.m4a" length="22541938" type="audio/mpeg" />
+
+        <itunes:subtitle>Learn how to power up your tests with Docker, Testcontainers and Sergei Egorov</itunes:subtitle>
+        <itunes:summary>Learn how to power up your tests with Docker, Testcontainers and Sergei Egorov</itunes:summary>
+
+        
+        <description>
+            <![CDATA[It’s time to talk about Docker 🐳 and how it can help you improve your integration tests, with Sergei Egorov and Testcontainers. Testcontainers make easy to start instances of DBs, web browsers, or any other tool that can be containerized to help you write integration tests. This will allow you...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>It’s time to talk about Docker 🐳  and how it can help you improve your integration tests, with <a href="https://twitter.com/bsideup"><strong>Sergei Egorov</strong></a> and <a href="https://github.com/autonomousapps/dependency-analysis-android-gradle-plugin"><strong>Testcontainers</strong></a>.</p>
+
+<p>Testcontainers make easy to start instances of DBs, web browsers, or any other tool that can be containerized to help you write integration tests. This will allow you to test your code against real dependencies and not fake/mocks anymore.</p>
+
+<p>Sergei will guide us throgh this project and will share some insights on his experience in Open Source.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.46</strong> Episode Start</li>
+  <li><strong>01.35</strong> Sergei’s Introduction</li>
+  <li><strong>03.20</strong> What are Testcontainers?</li>
+  <li><strong>06.34</strong> Testcontainers with Java, Go, Node and more</li>
+  <li><strong>09.28</strong> Are Testcontianers just a wrapper on top of Docker?</li>
+  <li><strong>11.38</strong> Stopping containers</li>
+  <li><strong>15.16</strong> How do you handle resources?</li>
+  <li><strong>21.16</strong> Built-in modules for popular DBs</li>
+  <li><strong>26.27</strong> Integrating Testcontainers in your tests</li>
+  <li><strong>29.46</strong> What is AtomicJar and Testcontainers Cloud?</li>
+  <li><strong>35.21</strong> Flakyness when testing on the cloud</li>
+  <li><strong>38.45</strong> Java Champions</li>
+  <li><strong>43.02</strong> What do you think about Kotlin?</li>
+  <li><strong>46.53</strong> Sergei’s OSS journey</li>
+  <li><strong>50.35</strong> Suggestions for new contributors</li>
+  <li><strong>54.51</strong> Where to find Sergei online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/testcontainerss/testcontainerss-java">testcontainerss/testcontainerss-java on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://www.testcontainers.org/">Testcontainers Official Documentation</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://www.atomicjar.com/">AtomicJar Official Website</a></li>
+  <li>Relevant Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://www.atomicjar.com/2021/12/why-will-2022-be-the-year-of-devtools-2-0/">Blogpost: Why will 2022 be the year of DevTools 2.0</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://bsideup.github.io/posts/debugging_containers/">Blogpost: Debugging Containers</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://engineering.atspotify.com/2018/01/testing-of-microservices/">Blogpost: Testing of Microservices</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://www.testcontainers.org/contributing/">Testcontainers contribution guide</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/bsideup">@bsideup on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/bsideup">@bsideup on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/32-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>57:04</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Dependency Analysis Android Gradle Plugin with Tony Robalik</title>
