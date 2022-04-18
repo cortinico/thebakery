@@ -25,7 +25,7 @@ podcast_duration: "49:20"
 podcast_length: 19398076
 ---
 
-<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/7iD2E7Ma4AdOx9m8DQg9fP?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
 We're back to talk about Gradle 🐘 with [**Tony Robalik**](https://twitter.com/autonomousapps) and the [**Dependency Analysis Android Gradle Plugin (DAAGP)**](https://github.com/autonomousapps/dependency-analysis-android-gradle-plugin).
 
