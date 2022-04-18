@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Mon, 18 Apr 2022 19:56:31 +0200</lastBuildDate>
+<lastBuildDate>Mon, 18 Apr 2022 21:45:54 +0200</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -42,8 +42,8 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 
     <item>
         
-        <title>Testcontainers with Sergei Egovor</title>
-        <itunes:title>Testcontainers with Sergei Egovor</itunes:title>
+        <title>Testcontainers with Sergei Egorov</title>
+        <itunes:title>Testcontainers with Sergei Egorov</itunes:title>
         <link>https://thebakery.dev/32/</link>
         <pubDate>Mon, 18 Apr 2022 00:00:00 +0200</pubDate>
         <dc:creator>Nicola Corti</dc:creator>

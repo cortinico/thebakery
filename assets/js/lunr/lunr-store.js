@@ -191,7 +191,7 @@ var store = [{
         "url": "/31/",
         "teaser": "/assets/images/header-single-episode.png"
       },{
-        "title": "#32 - Testcontainers with Sergei Egovor",
+        "title": "#32 - Testcontainers with Sergei Egorov",
         "excerpt":"It’s time to talk about Docker 🐳 and how it can help you improve your integration tests, with Sergei Egorov and Testcontainers. Testcontainers make easy to start instances of DBs, web browsers, or any other tool that can be containerized to help you write integration tests. This will allow you...","categories": [],
         "tags": [],
         "url": "/32/",
