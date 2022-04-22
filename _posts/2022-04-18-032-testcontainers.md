@@ -27,7 +27,7 @@ podcast_length: 22541938
 
 <iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-It's time to talk about Docker 🐳  and how it can help you improve your integration tests, with [**Sergei Egorov**](https://twitter.com/bsideup) and [**Testcontainers**](https://github.com/autonomousapps/dependency-analysis-android-gradle-plugin).
+It's time to talk about Docker 🐳  and how it can help you improve your integration tests, with [**Sergei Egorov**](https://twitter.com/bsideup) and [**Testcontainers**](https://github.com/testcontainers/testcontainers-java).
 
 Testcontainers make easy to start instances of DBs, web browsers, or any other tool that can be containerized to help you write integration tests. This will allow you to test your code against real dependencies and not fake/mocks anymore.
 
@@ -57,7 +57,7 @@ Enjoy the show 👨‍🍳
 
 # Resources
 
-* <i class="fab fa-github"></i> [testcontainerss/testcontainerss-java on Github](https://github.com/testcontainerss/testcontainerss-java)
+* <i class="fab fa-github"></i> [testcontainers/testcontainers-java on Github](https://github.com/testcontainers/testcontainers-java)
 * <i class="fas fa-link"></i> [Testcontainers Official Documentation](https://www.testcontainers.org/)
 * <i class="fas fa-link"></i> [AtomicJar Official Website](https://www.atomicjar.com/)
 * Relevant Resources:
