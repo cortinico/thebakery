@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Mon, 18 Apr 2022 21:45:54 +0200</lastBuildDate>
+<lastBuildDate>Fri, 22 Apr 2022 12:34:59 +0200</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -65,7 +65,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
             <![CDATA[It’s time to talk about Docker 🐳 and how it can help you improve your integration tests, with Sergei Egorov and Testcontainers. Testcontainers make easy to start instances of DBs, web browsers, or any other tool that can be containerized to help you write integration tests. This will allow you...]]>
         </description>
         <content:encoded>
-            <![CDATA[<p>It’s time to talk about Docker 🐳  and how it can help you improve your integration tests, with <a href="https://twitter.com/bsideup"><strong>Sergei Egorov</strong></a> and <a href="https://github.com/autonomousapps/dependency-analysis-android-gradle-plugin"><strong>Testcontainers</strong></a>.</p>
+            <![CDATA[<p>It’s time to talk about Docker 🐳  and how it can help you improve your integration tests, with <a href="https://twitter.com/bsideup"><strong>Sergei Egorov</strong></a> and <a href="https://github.com/testcontainers/testcontainers-java"><strong>Testcontainers</strong></a>.</p>
 
 <p>Testcontainers make easy to start instances of DBs, web browsers, or any other tool that can be containerized to help you write integration tests. This will allow you to test your code against real dependencies and not fake/mocks anymore.</p>
 
@@ -98,7 +98,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <h1 id="resources">Resources</h1>
 
 <ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/testcontainerss/testcontainerss-java">testcontainerss/testcontainerss-java on Github</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/testcontainers/testcontainers-java">testcontainers/testcontainers-java on Github</a></li>
   <li><i class="fas fa-link"></i> <a href="https://www.testcontainers.org/">Testcontainers Official Documentation</a></li>
   <li><i class="fas fa-link"></i> <a href="https://www.atomicjar.com/">AtomicJar Official Website</a></li>
   <li>Relevant Resources:
