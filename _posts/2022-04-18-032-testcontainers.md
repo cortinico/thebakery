@@ -25,7 +25,7 @@ podcast_duration: "57:04"
 podcast_length: 22541938
 ---
 
-<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/1ESNsW9WxoYOzeqBiqIyjO?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
 It's time to talk about Docker 🐳  and how it can help you improve your integration tests, with [**Sergei Egorov**](https://twitter.com/bsideup) and [**Testcontainers**](https://github.com/testcontainers/testcontainers-java).
 
