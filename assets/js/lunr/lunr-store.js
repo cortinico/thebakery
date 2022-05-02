@@ -196,4 +196,10 @@ var store = [{
         "tags": [],
         "url": "/32/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#33 - Sentry SDK with Manoel Aranda Neto & Roman Zavarnitsyn",
+        "excerpt":"We’re back at talking about Monitoring, Profiling and Instrumentation with folks from the Sentry SDK. I’m excited to have on stage Manoel Aranda Neto and Roman Zavarnitsyn to talk as a bit about their Android SDK. The Sentry Android SDK goes beyond just monitoring. It’s able to auto-instrument your code,...","categories": [],
+        "tags": [],
+        "url": "/33/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

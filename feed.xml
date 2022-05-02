@@ -1,4 +1,75 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2022-04-26T12:46:37+02:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#32 - Testcontainers with Sergei Egorov</title><link href="https://thebakery.dev/32/" rel="alternate" type="text/html" title="#32 - Testcontainers with Sergei Egorov" /><published>2022-04-18T00:00:00+02:00</published><updated>2022-04-18T00:00:00+02:00</updated><id>https://thebakery.dev/032-testcontainers</id><content type="html" xml:base="https://thebakery.dev/32/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2022-05-02T14:38:09+02:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#33 - Sentry SDK with Manoel Aranda Neto &amp;amp; Roman Zavarnitsyn</title><link href="https://thebakery.dev/33/" rel="alternate" type="text/html" title="#33 - Sentry SDK with Manoel Aranda Neto &amp;amp; Roman Zavarnitsyn" /><published>2022-05-02T00:00:00+02:00</published><updated>2022-05-02T00:00:00+02:00</updated><id>https://thebakery.dev/033-sentry</id><content type="html" xml:base="https://thebakery.dev/33/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="233" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>We’re back at talking about Monitoring, Profiling and Instrumentation with folks from the <a href="https://sentry.io/welcome/"><strong>Sentry</strong></a> SDK. I’m excited to have on stage <a href="https://github.com/marandaneto"><strong>Manoel Aranda Neto</strong></a> and <a href="https://github.com/romtsn"><strong>Roman Zavarnitsyn</strong></a> to talk as a bit about their Android SDK.</p>
+
+<p>The Sentry Android SDK goes beyond just monitoring. It’s able to <strong>auto-instrument</strong> your code, using <strong>bytecode manipulation</strong> (which sounds both scary and cool). Join me in this episode, while the folks from Sentry tell us how this works internally and how Sentry can help you improve your application performances.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.23</strong> Manoel’s Introduction</li>
+  <li><strong>01.45</strong> Roman’s Introduction</li>
+  <li><strong>02.31</strong> What is Sentry?</li>
+  <li><strong>03.20</strong> Is Sentry only for Mobile?</li>
+  <li><strong>03.52</strong> Which languages and SDKs are you supporting?</li>
+  <li><strong>04.50</strong> How is Sentry SDK working internally?</li>
+  <li><strong>06.46</strong> Sentry &amp; the NDK</li>
+  <li><strong>08.07</strong> Symbolicating Native Stacktraces</li>
+  <li><strong>10.16</strong> Monitoring &amp; Performance Impact</li>
+  <li><strong>11.04</strong> Sentry’s Killer Feature</li>
+  <li><strong>13.10</strong> What makes Sentry different from other platforms?</li>
+  <li><strong>14.38</strong> The Sentry Gradle Plugin</li>
+  <li><strong>16.11</strong> Tracing Auto-Instrumentation</li>
+  <li><strong>18.55</strong> How is Auto-Instrumentation working?</li>
+  <li><strong>22.16</strong> Bytecode Manipulation</li>
+  <li><strong>26.03</strong> Which features are you instrumenting?</li>
+  <li><strong>27.51</strong> New ideas for automatic instrumentation?</li>
+  <li><strong>29.54</strong> Sentry &amp; Open Source</li>
+  <li><strong>31.15</strong> The New Github Projects</li>
+  <li><strong>32.33</strong> External Contributors</li>
+  <li><strong>34.08</strong> The feature of Sentry</li>
+  <li><strong>35.56</strong> How you got involved with Sentry?</li>
+  <li><strong>38.06</strong> Further reading</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/getsentry/sentry-java">getsentry/sentry-java on Github</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/getsentry/sentry-native">getsentry/sentry-native on Github</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/getsentry/sentry-android-gradle-plugin">getsentry/sentry-android-gradle-plugin on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://docs.sentry.io/platforms/android/">Sentry Android Official Documentation</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://docs.sentry.io/platforms/">List of Sentry Supported Platforms</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://develop.sentry.dev/sdk/unified-api/">Sentry Unified API</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://twitter.com/mitsuhiko/status/1517545800632569863">Profiling Early Access</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://asm.ow2.io/">ASM Library Official Documentation</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://plugins.jetbrains.com/plugin/5918-asm-bytecode-outline">ASM Bytecode Plugin</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://blog.sentry.io/2021/12/14/bytecode-transformations-the-android-gradle-plugin">Blogpost: Bytecode transformations: The Android Gradle Plugin</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://github.com/getsentry/sentry-java#blog-posts">Further Sentry Blogpost</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/marandaneto">@marandaneto on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/marandaneto">@marandaneto on Twitter</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/romtsn">@romtsn on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/romtsn">@romtsn on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Let's discover how you can auto-instrument your apps with the Sentry SDK, Roman Zavarnitsyn and Manoel Aranda Neto]]></summary></entry><entry><title type="html">#32 - Testcontainers with Sergei Egorov</title><link href="https://thebakery.dev/32/" rel="alternate" type="text/html" title="#32 - Testcontainers with Sergei Egorov" /><published>2022-04-18T00:00:00+02:00</published><updated>2022-04-18T00:00:00+02:00</updated><id>https://thebakery.dev/032-testcontainers</id><content type="html" xml:base="https://thebakery.dev/32/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/1ESNsW9WxoYOzeqBiqIyjO?utm_source=generator" width="100%" height="232" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
 <p>It’s time to talk about Docker 🐳  and how it can help you improve your integration tests, with <a href="https://twitter.com/bsideup"><strong>Sergei Egorov</strong></a> and <a href="https://github.com/testcontainers/testcontainers-java"><strong>Testcontainers</strong></a>.</p>
 
@@ -583,61 +654,4 @@ such as Timber, Glide, Jetpack Compose or the Android NDK.</p>
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Time to talk about mobile app monitoring with Xavier Gouchet and Datadog SDK]]></summary></entry><entry><title type="html">#23 - PlusPlugins with Miguel Beltran</title><link href="https://thebakery.dev/23/" rel="alternate" type="text/html" title="#23 - PlusPlugins with Miguel Beltran" /><published>2021-11-15T00:00:00+01:00</published><updated>2021-11-15T00:00:00+01:00</updated><id>https://thebakery.dev/023-plusplugins</id><content type="html" xml:base="https://thebakery.dev/23/"><![CDATA[<iframe src="https://open.spotify.com/embed/episode/7EpUMNSGnT6ak0olulHgTF?utm_source=generator" width="100%" height="232" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-
-<p>It’s been since <a href="/07">episode #07</a> that we haven’t talked about Flutter 💙, so today we have <a href="https://twitter.com/MiBLT"><strong>Miguel Beltran</strong></a> on stage to talk about one of the most important library for it: <a href="https://github.com/fluttercommunity/plus_plugins"><strong>Plus Plugins</strong></a>.</p>
-
-<p>Miguel is one of the maintainer of this popular <strong>collection of plugins</strong>. Plus plugins offer multiplatform capability to access informations 
-such as <strong>battery</strong>, <strong>connectivity</strong>, <strong>sensors</strong> and more across a variety of platforms: Android, iOS, Web, MacOS, Windows &amp; Linux!</p>
-
-<p>In this episode we will talk about the story of this project, how it evolved from Google to Flutter community, and
-how people can <strong>contribute</strong> to such a critical piece of the Flutter ecosystem.</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.00</strong> Intro</li>
-  <li><strong>00.46</strong> Episode Start</li>
-  <li><strong>01.21</strong> Miguel’s Introduction</li>
-  <li><strong>02.26</strong> What are the Plus Plugins?</li>
-  <li><strong>04.55</strong> Who owns the Plus Plugins?</li>
-  <li><strong>08.56</strong> Flutter Plugin Ecosystem</li>
-  <li><strong>11.00</strong> Contributing to Flutter</li>
-  <li><strong>12.13</strong> Miguel’s favorite plus plugin</li>
-  <li><strong>14.31</strong> Are plus plugins offering also UI?</li>
-  <li><strong>15.34</strong> The hardest plus plugin to maintain</li>
-  <li><strong>17.37</strong> Multiplatform support</li>
-  <li><strong>19.40</strong> The monorepo</li>
-  <li><strong>24.05</strong> What makes a plugin a plus plugin?</li>
-  <li><strong>27.20</strong> How you got involved in this project?</li>
-  <li><strong>30.20</strong> How do you handle oss contributions?</li>
-  <li><strong>32.08</strong> How to contribute?</li>
-  <li><strong>33.55</strong> How do you keep docs and code on sync?</li>
-  <li><strong>35.55</strong> Do you version your docs?</li>
-  <li><strong>37.36</strong> Further reading</li>
-  <li><strong>38.44</strong> Where to find Miguel online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/fluttercommunity/plus_plugins">fluttercommunity/plus_plugins on Github</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://plus.fluttercommunity.dev/">Plus Plugins Official Website</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://github.com/fluttercommunity/plus_plugins/blob/main/CONTRIBUTING.md">Plus Plugins CONTRIBUTING.md File</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://www.pluralsight.com/courses/developing-packages-flutter">Developing Packages in Flutter - Pluralsight Course</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/MiBLT">@MiBLT on Twitter</a></li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/miquelbeltran">@miquelbeltran on Github</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Back on Flutter with Miguel Beltran talking about one of the most important library: Plus Plugins]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Time to talk about mobile app monitoring with Xavier Gouchet and Datadog SDK]]></summary></entry></feed>
