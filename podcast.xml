@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Mon, 02 May 2022 17:58:03 +0200</lastBuildDate>
+<lastBuildDate>Tue, 17 May 2022 11:32:21 +0200</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,91 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>gdb-dashboard with Andrea Cardaci</title>
+        <itunes:title>gdb-dashboard with Andrea Cardaci</itunes:title>
+        <link>https://thebakery.dev/34/</link>
+        <pubDate>Tue, 17 May 2022 00:00:00 +0200</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/34/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>34</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/34-thedevelopersbakery-gdb-dashboard.m4a" length="20721722" type="audio/mpeg" />
+
+        <itunes:subtitle>Debugging, Terminals and Security with gdb-dashboard and Andrea Cardaci</itunes:subtitle>
+        <itunes:summary>Debugging, Terminals and Security with gdb-dashboard and Andrea Cardaci</itunes:summary>
+
+        
+        <description>
+            <![CDATA[Have you ever debugged an application using gdb? If yes, you probably know how unfriendly the user interface of gdb is. That’s why Andrea Cardaci developed gdb-dashboard, a graphical interface for gdb. Today, we’ll walk through how this project started and we’ll talk about some of the challenges of developing...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>Have you ever debugged an application using <strong>gdb</strong>? If yes, you probably know how <em>unfriendly</em> the user interface of gdb is.
+That’s why <a href="https://github.com/cyrus-and"><strong>Andrea Cardaci</strong></a> developed <a href="https://github.com/cyrus-and/gdb-dashboard/"><strong>gdb-dashboard</strong></a>, a graphical interface for gdb.</p>
+
+<p>Today, we’ll walk through how this project started and we’ll talk about some of the challenges of developing graphical applications for terminal.</p>
+
+<p>Andrea is also an Application Security Specialist. In this episode, he’s going to share of security tips &amp; stories with all of us.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.13</strong> Intro</li>
+  <li><strong>00.59</strong> Episode Start</li>
+  <li><strong>02.10</strong> Andrea’s Introduction</li>
+  <li><strong>04.52</strong> What is an Application Security Specialist doing daily?</li>
+  <li><strong>08.05</strong> Security Tips for every developer</li>
+  <li><strong>11.21</strong> What is gdb?</li>
+  <li><strong>13.38</strong> What is gdb-dashboard?</li>
+  <li><strong>18.45</strong> Why gdb-dashboard is not by default inside gdb?</li>
+  <li><strong>23.45</strong> So this project is just 2K lines of code… how comes?</li>
+  <li><strong>27.08</strong> What are the Ncurses libraries?</li>
+  <li><strong>29.25</strong> Why you developed gdb-dashboard?</li>
+  <li><strong>34.41</strong> Tests and external contribs</li>
+  <li><strong>39.32</strong> What’s your most popular CVE?</li>
+  <li><strong>47.02</strong> Andrea’s Terminal Setup</li>
+  <li><strong>50.01</strong> Further reading</li>
+  <li><strong>51.48</strong> Where to find Andrea online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/cyrus-and/gdb-dashboard/">cyrus-and/gdb-dashboard on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://sourceware.org/gdb/onlinedocs/gdb/Python-API.html">GDB’s Python API Reference</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://cardaci.xyz/">Andrea’s Website</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/cyrus-and">@cyrus-and on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cyrus_and">@cyrus_and on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/34-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>52:46</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Sentry SDK with Manoel Aranda Neto and Roman Zavarnitsyn</title>

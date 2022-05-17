@@ -202,4 +202,10 @@ var store = [{
         "tags": [],
         "url": "/33/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#34 - gdb-dashboard with Andrea Cardaci",
+        "excerpt":"Have you ever debugged an application using gdb? If yes, you probably know how unfriendly the user interface of gdb is. That’s why Andrea Cardaci developed gdb-dashboard, a graphical interface for gdb. Today, we’ll walk through how this project started and we’ll talk about some of the challenges of developing...","categories": [],
+        "tags": [],
+        "url": "/34/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

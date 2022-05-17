@@ -1,4 +1,55 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2022-05-02T17:58:03+02:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#33 - Sentry SDK with Manoel Aranda Neto and Roman Zavarnitsyn</title><link href="https://thebakery.dev/33/" rel="alternate" type="text/html" title="#33 - Sentry SDK with Manoel Aranda Neto and Roman Zavarnitsyn" /><published>2022-05-02T00:00:00+02:00</published><updated>2022-05-02T00:00:00+02:00</updated><id>https://thebakery.dev/033-sentry</id><content type="html" xml:base="https://thebakery.dev/33/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="233" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2022-05-17T11:32:21+02:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#34 - gdb-dashboard with Andrea Cardaci</title><link href="https://thebakery.dev/34/" rel="alternate" type="text/html" title="#34 - gdb-dashboard with Andrea Cardaci" /><published>2022-05-17T00:00:00+02:00</published><updated>2022-05-17T00:00:00+02:00</updated><id>https://thebakery.dev/034-gdb-dashboard</id><content type="html" xml:base="https://thebakery.dev/34/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>Have you ever debugged an application using <strong>gdb</strong>? If yes, you probably know how <em>unfriendly</em> the user interface of gdb is.
+That’s why <a href="https://github.com/cyrus-and"><strong>Andrea Cardaci</strong></a> developed <a href="https://github.com/cyrus-and/gdb-dashboard/"><strong>gdb-dashboard</strong></a>, a graphical interface for gdb.</p>
+
+<p>Today, we’ll walk through how this project started and we’ll talk about some of the challenges of developing graphical applications for terminal.</p>
+
+<p>Andrea is also an Application Security Specialist. In this episode, he’s going to share of security tips &amp; stories with all of us.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.13</strong> Intro</li>
+  <li><strong>00.59</strong> Episode Start</li>
+  <li><strong>02.10</strong> Andrea’s Introduction</li>
+  <li><strong>04.52</strong> What is an Application Security Specialist doing daily?</li>
+  <li><strong>08.05</strong> Security Tips for every developer</li>
+  <li><strong>11.21</strong> What is gdb?</li>
+  <li><strong>13.38</strong> What is gdb-dashboard?</li>
+  <li><strong>18.45</strong> Why gdb-dashboard is not by default inside gdb?</li>
+  <li><strong>23.45</strong> So this project is just 2K lines of code… how comes?</li>
+  <li><strong>27.08</strong> What are the Ncurses libraries?</li>
+  <li><strong>29.25</strong> Why you developed gdb-dashboard?</li>
+  <li><strong>34.41</strong> Tests and external contribs</li>
+  <li><strong>39.32</strong> What’s your most popular CVE?</li>
+  <li><strong>47.02</strong> Andrea’s Terminal Setup</li>
+  <li><strong>50.01</strong> Further reading</li>
+  <li><strong>51.48</strong> Where to find Andrea online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/cyrus-and/gdb-dashboard/">cyrus-and/gdb-dashboard on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://sourceware.org/gdb/onlinedocs/gdb/Python-API.html">GDB’s Python API Reference</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://cardaci.xyz/">Andrea’s Website</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/cyrus-and">@cyrus-and on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cyrus_and">@cyrus_and on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Debugging, Terminals and Security with gdb-dashboard and Andrea Cardaci]]></summary></entry><entry><title type="html">#33 - Sentry SDK with Manoel Aranda Neto and Roman Zavarnitsyn</title><link href="https://thebakery.dev/33/" rel="alternate" type="text/html" title="#33 - Sentry SDK with Manoel Aranda Neto and Roman Zavarnitsyn" /><published>2022-05-02T00:00:00+02:00</published><updated>2022-05-02T00:00:00+02:00</updated><id>https://thebakery.dev/033-sentry</id><content type="html" xml:base="https://thebakery.dev/33/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/118bthnOTVU2vIfwKayiE7?utm_source=generator" width="100%" height="232" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
 <p>We’re back at talking about Monitoring, Profiling and Instrumentation with folks from the <a href="https://sentry.io/welcome/"><strong>Sentry</strong></a> SDK. I’m excited to have on stage <a href="https://github.com/marandaneto"><strong>Manoel Aranda Neto</strong></a> and <a href="https://github.com/romtsn"><strong>Roman Zavarnitsyn</strong></a> to talk as a bit about their Android SDK.</p>
 
@@ -595,63 +646,4 @@ Material UI Swing is currently used on <a href="https://jmars.mars.asu.edu/"><st
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Today, we venture through the realm of mobile databases with Christian Melchior from MongoDB Realm]]></summary></entry><entry><title type="html">#24 - Datadog for Android with Xavier F. Gouchet</title><link href="https://thebakery.dev/24/" rel="alternate" type="text/html" title="#24 - Datadog for Android with Xavier F. Gouchet" /><published>2021-12-06T00:00:00+01:00</published><updated>2021-12-06T00:00:00+01:00</updated><id>https://thebakery.dev/024-datadog-for-android</id><content type="html" xml:base="https://thebakery.dev/24/"><![CDATA[<iframe src="https://open.spotify.com/embed/episode/5lzDRc0yZcbFFXYzyarEyf?utm_source=generator" width="100%" height="232" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-
-<p>In this episode we are going to meet <a href="https://twitter.com/xgouchet"><strong>Xavier Gouchet</strong></a> and the <a href="https://github.com/DataDog/dd-sdk-android"><strong>Datadog Android SDK</strong></a> 🐶.</p>
-
-<p>Datadog helps you monitor and track problems with your mobile applications, such as crashes and ANR. The Android SDK
-offers a large variety of plugins that helps you track the health of your app with integration for popular libraries
-such as Timber, Glide, Jetpack Compose or the Android NDK.</p>
-
-<p>In this episode, Xavier will walk us through their SDK and what are the most challenging tasks for a monitoring SDK such as this one.</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.17</strong> Intro</li>
-  <li><strong>01.04</strong> Episode Start</li>
-  <li><strong>01.38</strong> Xav’s Introduction</li>
-  <li><strong>02.54</strong> What is Datadog?</li>
-  <li><strong>03.20</strong> What mobile engineers can do with Datadog?</li>
-  <li><strong>04.22</strong> How Datadog works on Android?</li>
-  <li><strong>05.50</strong> What are the complexity of a monitoring SDK?</li>
-  <li><strong>08.25</strong> Which type of monitoring is it offering?</li>
-  <li><strong>10.21</strong> What’s the performance impact of a monitoring SDK?</li>
-  <li><strong>12.51</strong> Which OSS applications are you using for benchmarking?</li>
-  <li><strong>13.56</strong> What was the most complex plugin to develop?</li>
-  <li><strong>17.00</strong> Are you also giving suggestions to developers?</li>
-  <li><strong>19.33</strong> Machine Learning and App Crashes</li>
-  <li><strong>21.09</strong> The most common performance pitfall</li>
-  <li><strong>23.03</strong> How do you handle collection of personal information?</li>
-  <li><strong>27.56</strong> Integrations with popular Android libraries</li>
-  <li><strong>32.51</strong> Can people contribute to Datadog SDK?</li>
-  <li><strong>35.05</strong> Reproducible builds and SDKs</li>
-  <li><strong>36.23</strong> What’s in the future for this SDK?</li>
-  <li><strong>38.45</strong> How can people contribute to this project?</li>
-  <li><strong>39.46</strong> Further reading</li>
-  <li><strong>41.09</strong> Where to find Xav online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/DataDog/dd-sdk-android">DataDog/dd-sdk-android on Github</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://docs.datadoghq.com/real_user_monitoring/android/">Datadog - RUM Android Monitoring documentation</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://docs.datadoghq.com/logs/log_collection/android/">Datadog - Android Log Collection documentation</a></li>
-  <li><i class="fab fa-youtube"></i><a href="https://www.droidcon.com/2021/11/17/benchmarking-your-application/">Benchmarking your Application - Droidcon London 2021</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://github.com/xgouchet">@xgouchet on Github</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/xgouchet">@xgouchet on Twitter</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Time to talk about mobile app monitoring with Xavier Gouchet and Datadog SDK]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Today, we venture through the realm of mobile databases with Christian Melchior from MongoDB Realm]]></summary></entry></feed>
