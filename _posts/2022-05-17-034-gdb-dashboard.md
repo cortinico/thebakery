@@ -25,7 +25,7 @@ podcast_duration: "52:46"
 podcast_length: 20721722
 ---
 
-<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/3QPjZhEi9fv0bLqhYds4IY?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
 Have you ever debugged an application using **gdb**? If yes, you probably know how _unfriendly_ the user interface of gdb is.
 That's why [**Andrea Cardaci**](https://github.com/cyrus-and) developed [**gdb-dashboard**](https://github.com/cyrus-and/gdb-dashboard/), a graphical interface for gdb.
