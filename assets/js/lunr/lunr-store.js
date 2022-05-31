@@ -208,4 +208,10 @@ var store = [{
         "tags": [],
         "url": "/34/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#35 - ktlint-gradle with Jonathan Leitschuh and Yahor Berdnikau",
+        "excerpt":"I’m really excited to have on stage Jonathan Leitschuh and Yahor Berdnikau, maintainers of ktlint-gradle. ktlint-gradle is a Gradle Plugin that allows you to lint and reformat your Kotlin code during a Gradle build. We’re going to touch and what are the challenges of building such a tool and a...","categories": [],
+        "tags": [],
+        "url": "/35/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

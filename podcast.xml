@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Thu, 19 May 2022 13:32:29 +0200</lastBuildDate>
+<lastBuildDate>Tue, 31 May 2022 15:02:07 +0200</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,103 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>ktlint-gradle with Jonathan Leitschuh and Yahor Berdnikau</title>
+        <itunes:title>ktlint-gradle with Jonathan Leitschuh and Yahor Berdnikau</itunes:title>
+        <link>https://thebakery.dev/35/</link>
+        <pubDate>Mon, 30 May 2022 00:00:00 +0200</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/35/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>35</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/35-thedevelopersbakery-ktlint-gradle.m4a" length="19659131" type="audio/mpeg" />
+
+        <itunes:subtitle>Linters, Formatters and Sustainability with Yahor and Jonathan from ktlint-gradle</itunes:subtitle>
+        <itunes:summary>Linters, Formatters and Sustainability with Yahor and Jonathan from ktlint-gradle</itunes:summary>
+
+        
+        <description>
+            <![CDATA[I’m really excited to have on stage Jonathan Leitschuh and Yahor Berdnikau, maintainers of ktlint-gradle. ktlint-gradle is a Gradle Plugin that allows you to lint and reformat your Kotlin code during a Gradle build. We’re going to touch and what are the challenges of building such a tool and a...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>I’m really excited to have on stage <a href="https://github.com/JLLeitschuh"><strong>Jonathan Leitschuh</strong></a> and <a href="https://github.com/Tapchicoma"><strong>Yahor Berdnikau</strong></a>, maintainers of <a href="https://github.com/jlleitschuh/ktlint-gradle"><strong>ktlint-gradle</strong></a>.</p>
+
+<p>ktlint-gradle is a Gradle Plugin that allows you to lint and reformat your Kotlin code during a Gradle build. We’re going to touch and what are the challenges of building such a tool and a bit of the story of this project.</p>
+
+<p>Moreover, we’ll discuss on a topic which is really crucial in the OSS community: <strong>Sustainability</strong>. Most of us struggle to find new maintainers. It’s crucial to understand how we can foster a sustainable ecosystem and what are the risks of unmaintained projects.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.15</strong> Intro</li>
+  <li><strong>01.01</strong> Episode Start</li>
+  <li><strong>01.32</strong> Jonathan’s Introduction</li>
+  <li><strong>02.07</strong> Yahor’s Introduction</li>
+  <li><strong>02.59</strong> What is Ktlint?</li>
+  <li><strong>05.25</strong> What is Ktlint-gradle?</li>
+  <li><strong>08.06</strong> What are the challenges of writing a formatter?</li>
+  <li><strong>09.01</strong> How hard was to integrate with Gradle?</li>
+  <li><strong>12.25</strong> Pros &amp; Cons of having separate repos</li>
+  <li><strong>15.26</strong> Why Kotlin is lacking a 1st party formatter?</li>
+  <li><strong>19.11</strong> Openrewrite &amp; Mass code refractoring</li>
+  <li><strong>21.32</strong> Naming is hard</li>
+  <li><strong>25.31</strong> How you got involved in this project?</li>
+  <li><strong>30.19</strong> Open Source Sustainability</li>
+  <li><strong>35.43</strong> How to seek new maintainers?</li>
+  <li><strong>40.06</strong> Github Sponsorships</li>
+  <li><strong>43.02</strong> The event-stream incident</li>
+  <li><strong>46.08</strong> Further reading</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/jlleitschuh/ktlint-gradle">jlleitschuh/ktlint-gradle on Github</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/pinterest/ktlint">pinterest/ktlint on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://ktlint.github.io/">Ktlint Official Website</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://github.com/JLLeitschuh/ktlint-gradle/issues/569">Issue #569 - Looking for new maintainers</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/diffplug/spotless">diffplug/spotless on Github</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/facebookincubator/ktfmt">facebookincubator/ktfmt on Github</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/jeremymailen/kotlinter-gradle">jeremymailen/kotlinter-gradle on Github</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://www.jetbrains.com/qodana">Qodana by JetBrains</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://docs.openrewrite.org/">Openrewrite Official Website</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/JLLeitschuh">@JLLeitschuh on Github</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/Tapchicoma">@Tapchicoma on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/JLLeitschuh">@JLLeitschuh on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/35-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>49:30</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>gdb-dashboard with Andrea Cardaci</title>
