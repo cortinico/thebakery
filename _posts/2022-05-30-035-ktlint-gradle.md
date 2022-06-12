@@ -24,7 +24,7 @@ podcast_duration: "49:30"
 podcast_length: 19659131
 ---
 
-<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/0utkgqtTQoYnkj5htX092A?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
 I'm really excited to have on stage [**Jonathan Leitschuh**](https://github.com/JLLeitschuh) and [**Yahor Berdnikau**](https://github.com/Tapchicoma), maintainers of [**ktlint-gradle**](https://github.com/jlleitschuh/ktlint-gradle).
 
