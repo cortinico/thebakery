@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Tue, 31 May 2022 15:02:07 +0200</lastBuildDate>
+<lastBuildDate>Mon, 13 Jun 2022 17:21:25 +0200</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,101 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Duck Duck Go with Marcos Holgado</title>
+        <itunes:title>Duck Duck Go with Marcos Holgado</itunes:title>
+        <link>https://thebakery.dev/36/</link>
+        <pubDate>Mon, 13 Jun 2022 00:00:00 +0200</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/36/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>36</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/36-thedevelopersbakery-duckduckgo.m4a" length="18354297" type="audio/mpeg" />
+
+        <itunes:subtitle>Today we have Marcos Holgado on stage to tell us about Duck Duck Go, the search engine and their Privacy Browser for Android.</itunes:subtitle>
+        <itunes:summary>Today we have Marcos Holgado on stage to tell us about Duck Duck Go, the search engine and their Privacy Browser for Android.</itunes:summary>
+
+        
+        <description>
+            <![CDATA[It’s time to talk about search engines with Marcos Holgado and Duck Duck Go. Marcos is one of the developers of the Duck Duck Go Privacy Browser, a browser for Android designed with privacy first. As you can imagine, developing a web browser is no easy task. In this episode,...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>It’s time to talk about search engines with <a href="https://github.com/marcosholgado"><strong>Marcos Holgado</strong></a> and <a href="https://duckduckgo.com/"><strong>Duck Duck Go</strong></a>. Marcos is one of the developers of the Duck Duck Go Privacy Browser, a browser for Android designed with privacy first.</p>
+
+<p>As you can imagine, developing a web browser is no easy task.
+In this episode, Marcos will walk us through some of the challenges they’re facing daily and how they go from Github to the Play Store and beyond.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.46</strong> Episode Start</li>
+  <li><strong>01.20</strong> Marcos’ Introduction</li>
+  <li><strong>02.17</strong> What is Duck Duck Go?</li>
+  <li><strong>03.50</strong> What is Duck Duck Go Privacy Browser?</li>
+  <li><strong>05.46</strong> The history of the name</li>
+  <li><strong>06.57</strong> Convince us to use Duck Duck Go rather than other search engine</li>
+  <li><strong>09.58</strong> Bangs</li>
+  <li><strong>12.03</strong> How is Duck Duck Go Android Browser different?</li>
+  <li><strong>14.04</strong> How the app works internally?</li>
+  <li><strong>15.58</strong> WebViews WebViews WebViews</li>
+  <li><strong>20.29</strong> Do you share code with iOS?</li>
+  <li><strong>25.14</strong> How would you rewrite the app differently?</li>
+  <li><strong>28.31</strong> How your release process looks like?</li>
+  <li><strong>34.12</strong> Employee vs External Contributors</li>
+  <li><strong>37.20</strong> Major features coming from the community</li>
+  <li><strong>38.50</strong> How to contribute to Duck Duck Go?</li>
+  <li><strong>40.10</strong> Future Projects</li>
+  <li><strong>43.21</strong> Further reading</li>
+  <li><strong>45.06</strong> Where to find Marcos online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/duckduckgo/Android">duckduckgo/Android on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://duckduckgo.com/">Duck Duck Go Search Engine</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://duckduckgo.com/">Duck Duck Go Privacy Browser Front Page</a>
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android">Download on Play Store</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://f-droid.org/en/packages/com.duckduckgo.mobile.android/">Download on FDroid</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://github.com/duckduckgo/Android/releases">Download APK on Github</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-youtube"></i> <a href="https://www.droidcon.com/2021/11/17/this-is-not-about-coding-anymore/">This is not about coding anymore - Droidcon London 2021</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/Orbycius">@Orbycius on Twitter</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/marcosholgado">@marcosholgado on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://www.marcosholgado.com/">Marcos’ Personal Website</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/36-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>46:18</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>ktlint-gradle with Jonathan Leitschuh and Yahor Berdnikau</title>

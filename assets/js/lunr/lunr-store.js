@@ -214,4 +214,10 @@ var store = [{
         "tags": [],
         "url": "/35/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#36 - Duck Duck Go with Marcos Holgado",
+        "excerpt":"It’s time to talk about search engines with Marcos Holgado and Duck Duck Go. Marcos is one of the developers of the Duck Duck Go Privacy Browser, a browser for Android designed with privacy first. As you can imagine, developing a web browser is no easy task. In this episode,...","categories": [],
+        "tags": [],
+        "url": "/36/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

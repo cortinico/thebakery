@@ -1,4 +1,65 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2022-05-31T15:02:07+02:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#35 - ktlint-gradle with Jonathan Leitschuh and Yahor Berdnikau</title><link href="https://thebakery.dev/35/" rel="alternate" type="text/html" title="#35 - ktlint-gradle with Jonathan Leitschuh and Yahor Berdnikau" /><published>2022-05-30T00:00:00+02:00</published><updated>2022-05-30T00:00:00+02:00</updated><id>https://thebakery.dev/035-ktlint-gradle</id><content type="html" xml:base="https://thebakery.dev/35/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2022-06-13T17:21:25+02:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#36 - Duck Duck Go with Marcos Holgado</title><link href="https://thebakery.dev/36/" rel="alternate" type="text/html" title="#36 - Duck Duck Go with Marcos Holgado" /><published>2022-06-13T00:00:00+02:00</published><updated>2022-06-13T00:00:00+02:00</updated><id>https://thebakery.dev/036-duck-duck-go</id><content type="html" xml:base="https://thebakery.dev/36/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>It’s time to talk about search engines with <a href="https://github.com/marcosholgado"><strong>Marcos Holgado</strong></a> and <a href="https://duckduckgo.com/"><strong>Duck Duck Go</strong></a>. Marcos is one of the developers of the Duck Duck Go Privacy Browser, a browser for Android designed with privacy first.</p>
+
+<p>As you can imagine, developing a web browser is no easy task.
+In this episode, Marcos will walk us through some of the challenges they’re facing daily and how they go from Github to the Play Store and beyond.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.46</strong> Episode Start</li>
+  <li><strong>01.20</strong> Marcos’ Introduction</li>
+  <li><strong>02.17</strong> What is Duck Duck Go?</li>
+  <li><strong>03.50</strong> What is Duck Duck Go Privacy Browser?</li>
+  <li><strong>05.46</strong> The history of the name</li>
+  <li><strong>06.57</strong> Convince us to use Duck Duck Go rather than other search engine</li>
+  <li><strong>09.58</strong> Bangs</li>
+  <li><strong>12.03</strong> How is Duck Duck Go Android Browser different?</li>
+  <li><strong>14.04</strong> How the app works internally?</li>
+  <li><strong>15.58</strong> WebViews WebViews WebViews</li>
+  <li><strong>20.29</strong> Do you share code with iOS?</li>
+  <li><strong>25.14</strong> How would you rewrite the app differently?</li>
+  <li><strong>28.31</strong> How your release process looks like?</li>
+  <li><strong>34.12</strong> Employee vs External Contributors</li>
+  <li><strong>37.20</strong> Major features coming from the community</li>
+  <li><strong>38.50</strong> How to contribute to Duck Duck Go?</li>
+  <li><strong>40.10</strong> Future Projects</li>
+  <li><strong>43.21</strong> Further reading</li>
+  <li><strong>45.06</strong> Where to find Marcos online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/duckduckgo/Android">duckduckgo/Android on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://duckduckgo.com/">Duck Duck Go Search Engine</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://duckduckgo.com/">Duck Duck Go Privacy Browser Front Page</a>
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android">Download on Play Store</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://f-droid.org/en/packages/com.duckduckgo.mobile.android/">Download on FDroid</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://github.com/duckduckgo/Android/releases">Download APK on Github</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-youtube"></i> <a href="https://www.droidcon.com/2021/11/17/this-is-not-about-coding-anymore/">This is not about coding anymore - Droidcon London 2021</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/Orbycius">@Orbycius on Twitter</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/marcosholgado">@marcosholgado on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://www.marcosholgado.com/">Marcos’ Personal Website</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Today we have Marcos Holgado on stage to tell us about Duck Duck Go, the search engine and their Privacy Browser for Android.]]></summary></entry><entry><title type="html">#35 - ktlint-gradle with Jonathan Leitschuh and Yahor Berdnikau</title><link href="https://thebakery.dev/35/" rel="alternate" type="text/html" title="#35 - ktlint-gradle with Jonathan Leitschuh and Yahor Berdnikau" /><published>2022-05-30T00:00:00+02:00</published><updated>2022-05-30T00:00:00+02:00</updated><id>https://thebakery.dev/035-ktlint-gradle</id><content type="html" xml:base="https://thebakery.dev/35/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/0utkgqtTQoYnkj5htX092A?utm_source=generator" width="100%" height="232" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
 <p>I’m really excited to have on stage <a href="https://github.com/JLLeitschuh"><strong>Jonathan Leitschuh</strong></a> and <a href="https://github.com/Tapchicoma"><strong>Yahor Berdnikau</strong></a>, maintainers of <a href="https://github.com/jlleitschuh/ktlint-gradle"><strong>ktlint-gradle</strong></a>.</p>
 
@@ -583,53 +644,4 @@ about his experience writing a book and some of his lessons learned.</p>
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[In this episode we will talk about Next.js and multi-tenancy with Krabs by Michele Riva]]></summary></entry><entry><title type="html">#26 - Material UI Swing with Vincenzo Palazzo</title><link href="https://thebakery.dev/26/" rel="alternate" type="text/html" title="#26 - Material UI Swing with Vincenzo Palazzo" /><published>2022-01-24T00:00:00+01:00</published><updated>2022-01-24T00:00:00+01:00</updated><id>https://thebakery.dev/026-material-ui-swing</id><content type="html" xml:base="https://thebakery.dev/26/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/3vMIOP9iqVS1XlZ2gWOHHw?utm_source=generator" width="100%" height="232" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-
-<p>This time, we fly up to Mars with <a href="https://twitter.com/PalazzoVincenzo"><strong>Vincenzo Palazzo</strong></a> and the <a href="https://github.com/vincenzopalazzo/material-ui-swing"><strong>Material UI Swing</strong></a>.</p>
-
-<p>Vincenzo is the maintainer of this library, a custom theme for Swing which is bringing a material <em>look-n-feel</em> to the Swing UI toolkit. While this might sound boring at first, 
-Material UI Swing is currently used on <a href="https://jmars.mars.asu.edu/"><strong>JMars</strong></a> (Java Mission-planning and Analysis for Remote Sensing) 🪐 and sponsored by the <a href="https://www.asu.edu/">Arizona State University</a>.</p>
-
-<p>In this episode Vincenzo will tell us the challenges of having to deal with Swing, and what it means to have a <strong>University sponsoring</strong> your open-source project.</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.09</strong> Intro</li>
-  <li><strong>00.55</strong> Episode Start</li>
-  <li><strong>01.48</strong> Vincenzo’s Introduction</li>
-  <li><strong>04.24</strong> What are you favourite programming languages?</li>
-  <li><strong>06.21</strong> What is Material UI Swing?</li>
-  <li><strong>10.20</strong> How about JMars?</li>
-  <li><strong>14.03</strong> A bit of project history</li>
-  <li><strong>17.07</strong> What was the impact of being sponsored by a University?</li>
-  <li><strong>24.16</strong> Vincenzo goes to Arizona</li>
-  <li><strong>30.26</strong> Swing and Themes</li>
-  <li><strong>37.44</strong> Would you rewrite it in Kotlin?</li>
-  <li><strong>41.07</strong> What’s up in the future for this library?</li>
-  <li><strong>44.27</strong> Further reading</li>
-  <li><strong>47.13</strong> Where to find Vincenzo online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/vincenzopalazzo/material-ui-swing">vincenzopalazzo/material-ui-swing on Github</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://jmars.mars.asu.edu/">JMars Official Website</a></li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/atarw/material-ui-swing">Original Material UI Swing repository</a></li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/vincenzopalazzo">@vincenzopalazzo on Github</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/PalazzoVincenzo">@PalazzoVincenzo on Twitter</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[This time, we fly up to Mars with Vincenzo and Material UI Swing]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[In this episode we will talk about Next.js and multi-tenancy with Krabs by Michele Riva]]></summary></entry></feed>
