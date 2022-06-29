@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Mon, 27 Jun 2022 01:17:21 +0200</lastBuildDate>
+<lastBuildDate>Wed, 29 Jun 2022 17:46:50 +0200</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,107 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Lottie with Gabriel Peal</title>
+        <itunes:title>Lottie with Gabriel Peal</itunes:title>
+        <link>https://thebakery.dev/37/</link>
+        <pubDate>Mon, 27 Jun 2022 00:00:00 +0200</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/37/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>37</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/37-thedevelopersbakery-lottie.m4a" length="18012415" type="audio/mpeg" />
+
+        <itunes:subtitle>Who doesn't like animations? Let's discover how you can run smooth animations everywhere with Lottie and Gabriel Peal</itunes:subtitle>
+        <itunes:summary>Who doesn't like animations? Let's discover how you can run smooth animations everywhere with Lottie and Gabriel Peal</itunes:summary>
+
+        
+        <description>
+            <![CDATA[Who doesn’t like animations? Thanks to Lottie, we can experience beautiful smooth animations on our mobile devices! Today we have on stage Gabriel Peal, maintainer of Lottie Android, to tell us about this project. We will start from how this project started, as a simple proof of concept inside AirBnB...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>Who doesn’t like animations?</p>
+
+<p>Thanks to <a href="https://airbnb.io/lottie/"><strong>Lottie</strong></a>, we can experience beautiful smooth animations on our mobile devices! Today we have on stage <a href="https://twitter.com/gpeal8"><strong>Gabriel Peal</strong></a>, maintainer of Lottie Android, to tell us about this project.</p>
+
+<p>We will start from how this project started, as a simple proof of concept inside AirBnB to become the <strong>industry standard</strong> for animations on mobile.</p>
+
+<p>We will discover how Lottie works internally and what’s coming next in the future of this project. Finally, as Gabriel is not at AirBnB anymore, we’ll talk about the challenges of maintainers and companies supporting OSS projects.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.14</strong> Intro</li>
+  <li><strong>01.00</strong> Episode Start</li>
+  <li><strong>01.31</strong> Gabriel’s Introduction</li>
+  <li><strong>02.33</strong> What is Lottie?</li>
+  <li><strong>03.52</strong> What’s the story of Lottie?</li>
+  <li><strong>08.39</strong> Lottie Success Recipe</li>
+  <li><strong>10.07</strong> Lottie Internals</li>
+  <li><strong>11.24</strong> Challenges on Android</li>
+  <li><strong>15.32</strong> AfterFX feature support</li>
+  <li><strong>17.10</strong> If you were to rewrite Lottie, what would you do differently?</li>
+  <li><strong>21.24</strong> Lottie on other platforms</li>
+  <li><strong>23.37</strong> Who’s maintaining Lottie?</li>
+  <li><strong>26.43</strong> OSS projects coming from companies</li>
+  <li><strong>29.48</strong> Sponsorship stories</li>
+  <li><strong>32.32</strong> Lottie Foundation?</li>
+  <li><strong>37.56</strong> Upcoming features?</li>
+  <li><strong>42.54</strong> Further reading</li>
+  <li><strong>44.31</strong> Where to find Gabriel online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/airbnb/lottie-android">airbnb/lottie-android on Github</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/airbnb/lottie-android">airbnb/lottie-ios on Github</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/airbnb/lottie-android">airbnb/lottie-web on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://airbnb.io/lottie/">Lottie Official Website</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://lottiefiles.com/">Lottiefiles</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://lottielab.com/">Lottielab</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://exchange.adobe.com/creativecloud.details.12557.bodymovin.html">Bodymovin extension on Adobe Exchange</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/airbnb/lottie-android">airbnb/lottie-android on Github</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://skia.org/docs/user/modules/skottie/">Skottie - Lottie Animation Player for Skia</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/Samsung/rlottie">Samsung/rlottie on Github</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://airbnb.io/lottie/#/supported-features">Lottie - Supported AfterFX Feature Table</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/watch?v=mNrx3cBI9N8">Lottie and the Language of Motion Design - Droidcon NYC 2017</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/gpeal">@gpeal on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/gpeal8">@gpeal8 on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/37-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>45:32</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Duck Duck Go with Marcos Holgado</title>

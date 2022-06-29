@@ -1,4 +1,71 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2022-06-27T01:17:21+02:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#36 - Duck Duck Go with Marcos Holgado</title><link href="https://thebakery.dev/36/" rel="alternate" type="text/html" title="#36 - Duck Duck Go with Marcos Holgado" /><published>2022-06-13T00:00:00+02:00</published><updated>2022-06-13T00:00:00+02:00</updated><id>https://thebakery.dev/036-duck-duck-go</id><content type="html" xml:base="https://thebakery.dev/36/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2022-06-29T17:46:50+02:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#37 - Lottie with Gabriel Peal</title><link href="https://thebakery.dev/37/" rel="alternate" type="text/html" title="#37 - Lottie with Gabriel Peal" /><published>2022-06-27T00:00:00+02:00</published><updated>2022-06-27T00:00:00+02:00</updated><id>https://thebakery.dev/037-lottie</id><content type="html" xml:base="https://thebakery.dev/37/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>Who doesn’t like animations?</p>
+
+<p>Thanks to <a href="https://airbnb.io/lottie/"><strong>Lottie</strong></a>, we can experience beautiful smooth animations on our mobile devices! Today we have on stage <a href="https://twitter.com/gpeal8"><strong>Gabriel Peal</strong></a>, maintainer of Lottie Android, to tell us about this project.</p>
+
+<p>We will start from how this project started, as a simple proof of concept inside AirBnB to become the <strong>industry standard</strong> for animations on mobile.</p>
+
+<p>We will discover how Lottie works internally and what’s coming next in the future of this project. Finally, as Gabriel is not at AirBnB anymore, we’ll talk about the challenges of maintainers and companies supporting OSS projects.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.14</strong> Intro</li>
+  <li><strong>01.00</strong> Episode Start</li>
+  <li><strong>01.31</strong> Gabriel’s Introduction</li>
+  <li><strong>02.33</strong> What is Lottie?</li>
+  <li><strong>03.52</strong> What’s the story of Lottie?</li>
+  <li><strong>08.39</strong> Lottie Success Recipe</li>
+  <li><strong>10.07</strong> Lottie Internals</li>
+  <li><strong>11.24</strong> Challenges on Android</li>
+  <li><strong>15.32</strong> AfterFX feature support</li>
+  <li><strong>17.10</strong> If you were to rewrite Lottie, what would you do differently?</li>
+  <li><strong>21.24</strong> Lottie on other platforms</li>
+  <li><strong>23.37</strong> Who’s maintaining Lottie?</li>
+  <li><strong>26.43</strong> OSS projects coming from companies</li>
+  <li><strong>29.48</strong> Sponsorship stories</li>
+  <li><strong>32.32</strong> Lottie Foundation?</li>
+  <li><strong>37.56</strong> Upcoming features?</li>
+  <li><strong>42.54</strong> Further reading</li>
+  <li><strong>44.31</strong> Where to find Gabriel online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/airbnb/lottie-android">airbnb/lottie-android on Github</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/airbnb/lottie-android">airbnb/lottie-ios on Github</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/airbnb/lottie-android">airbnb/lottie-web on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://airbnb.io/lottie/">Lottie Official Website</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://lottiefiles.com/">Lottiefiles</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://lottielab.com/">Lottielab</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://exchange.adobe.com/creativecloud.details.12557.bodymovin.html">Bodymovin extension on Adobe Exchange</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/airbnb/lottie-android">airbnb/lottie-android on Github</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://skia.org/docs/user/modules/skottie/">Skottie - Lottie Animation Player for Skia</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/Samsung/rlottie">Samsung/rlottie on Github</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://airbnb.io/lottie/#/supported-features">Lottie - Supported AfterFX Feature Table</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/watch?v=mNrx3cBI9N8">Lottie and the Language of Motion Design - Droidcon NYC 2017</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/gpeal">@gpeal on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/gpeal8">@gpeal8 on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Who doesn't like animations? Let's discover how you can run smooth animations everywhere with Lottie and Gabriel Peal]]></summary></entry><entry><title type="html">#36 - Duck Duck Go with Marcos Holgado</title><link href="https://thebakery.dev/36/" rel="alternate" type="text/html" title="#36 - Duck Duck Go with Marcos Holgado" /><published>2022-06-13T00:00:00+02:00</published><updated>2022-06-13T00:00:00+02:00</updated><id>https://thebakery.dev/036-duck-duck-go</id><content type="html" xml:base="https://thebakery.dev/36/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/2xr5d6x1GHQkkvQnCmVt9p?utm_source=generator" width="100%" height="232" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
 <p>It’s time to talk about search engines with <a href="https://github.com/marcosholgado"><strong>Marcos Holgado</strong></a> and <a href="https://duckduckgo.com/"><strong>Duck Duck Go</strong></a>. Marcos is one of the developers of the Duck Duck Go Privacy Browser, a browser for Android designed with privacy first.</p>
 
@@ -585,63 +652,4 @@ In this episode, Salomon is going to tell us how Kodein was born and how the who
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Filip is on stage to walk us through the Stream, a Chat SDK to help you power your mobile apps.]]></summary></entry><entry><title type="html">#27 - Krabs with Michele Riva</title><link href="https://thebakery.dev/27/" rel="alternate" type="text/html" title="#27 - Krabs with Michele Riva" /><published>2022-02-07T00:00:00+01:00</published><updated>2022-02-07T00:00:00+01:00</updated><id>https://thebakery.dev/027-krabs</id><content type="html" xml:base="https://thebakery.dev/27/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-
-<p>In this episode of The Developers’ Bakery we touch on <a href="https://nextjs.org/">Next.js</a> and a middleware to overcome one of its missing capability with <a href="https://twitter.com/MicheleRivaCode"><strong>Michele Riva</strong></a> and <a href="https://github.com/micheleriva/krabs"><strong>Krabs</strong></a> 🦀</p>
-
-<p>Krabs is a Express.js/Fastify middleware that will help you deploying <strong>multi-tenancy</strong> application on Next.js.
-We’re going to walk through what this tool does and why it was even needed in the first place.</p>
-
-<p>Michele is also a <strong>book author</strong> and has a lot of opinion on programming languages. We’re going to hear a bit
-about his experience writing a book and some of his lessons learned.</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.09</strong> Intro</li>
-  <li><strong>00.55</strong> Episode Start</li>
-  <li><strong>01.28</strong> Michele’s Introduction</li>
-  <li><strong>02.31</strong> What is Krabs?</li>
-  <li><strong>03.36</strong> What is NextJS?</li>
-  <li><strong>05.25</strong> What is multi tenancy?</li>
-  <li><strong>08.05</strong> Is Krabs used in production?</li>
-  <li><strong>11.00</strong> FLIP - Functional-like Imperative Programming</li>
-  <li><strong>12.37</strong> Native Multi-tenancy support in Next.js</li>
-  <li><strong>14.30</strong> Upcoming features for Krabs?</li>
-  <li><strong>16.57</strong> Who is currently maintaining the project?</li>
-  <li><strong>17.58</strong> Who is sponsoring this project?</li>
-  <li><strong>19.07</strong> Could you imagine doing OSS full-time?</li>
-  <li><strong>20.47</strong> What’s your experience as a book author?</li>
-  <li><strong>23.51</strong> Real-world Next.js</li>
-  <li><strong>26.17</strong> If you were to rewrite Krabs, what would you do differently?</li>
-  <li><strong>29.11</strong> If you were to rewrite your book, what would you do differently?</li>
-  <li><strong>31.36</strong> Further reading</li>
-  <li><strong>33.41</strong> Bonus: What is your favourite programming language?</li>
-  <li><strong>35.54</strong> Bonus: …and why it’s not Javascript?</li>
-  <li><strong>40.46</strong> Where to find Michele online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/micheleriva/krabs">micheleriva/krabs on Github</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://krabs.vercel.app/">Krabs Official Website</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://krabs.vercel.app/docs/intro">Krabs Tutorial</a></li>
-  <li><i class="fab fa-youtube"></i> <a href="https://youtu.be/71NRAnT4G4Q">Serving thousands of websites with a single Next.js installation on YouTube</a></li>
-  <li><i class="fas fa-book"></i> <a href="https://www.packtpub.com/product/real-world-next-js/9781801073493">Real-World Next.js - Packt Publishing</a></li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/micheleriva">@micheleriva on Github</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/MicheleRivaCode">@MicheleRivaCode on Twitter</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[In this episode we will talk about Next.js and multi-tenancy with Krabs by Michele Riva]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Filip is on stage to walk us through the Stream, a Chat SDK to help you power your mobile apps.]]></summary></entry></feed>

@@ -220,4 +220,10 @@ var store = [{
         "tags": [],
         "url": "/36/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#37 - Lottie with Gabriel Peal",
+        "excerpt":"Who doesn’t like animations? Thanks to Lottie, we can experience beautiful smooth animations on our mobile devices! Today we have on stage Gabriel Peal, maintainer of Lottie Android, to tell us about this project. We will start from how this project started, as a simple proof of concept inside AirBnB...","categories": [],
+        "tags": [],
+        "url": "/37/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]
