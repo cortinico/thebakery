@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Wed, 29 Jun 2022 17:46:50 +0200</lastBuildDate>
+<lastBuildDate>Wed, 29 Jun 2022 18:14:10 +0200</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -45,7 +45,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
         <title>Lottie with Gabriel Peal</title>
         <itunes:title>Lottie with Gabriel Peal</itunes:title>
         <link>https://thebakery.dev/37/</link>
-        <pubDate>Mon, 27 Jun 2022 00:00:00 +0200</pubDate>
+        <pubDate>Wed, 29 Jun 2022 00:00:00 +0200</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/37/</guid>
         
