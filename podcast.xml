@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Wed, 29 Jun 2022 18:14:10 +0200</lastBuildDate>
+<lastBuildDate>Tue, 12 Jul 2022 15:51:21 +0200</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,121 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>ProGuard with James Hamilton</title>
+        <itunes:title>ProGuard with James Hamilton</itunes:title>
+        <link>https://thebakery.dev/38/</link>
+        <pubDate>Mon, 11 Jul 2022 00:00:00 +0200</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/38/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>38</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/38-thedevelopersbakery-proguard.m4a" length="17875763" type="audio/mpeg" />
+
+        <itunes:subtitle>Obfuscation, Code-shrinking and optimizations with Proguard and James Hamilton</itunes:subtitle>
+        <itunes:summary>Obfuscation, Code-shrinking and optimizations with Proguard and James Hamilton</itunes:summary>
+
+        
+        <description>
+            <![CDATA[If you ever shipped an Android App to production, you probably know about ProGuard, a tool to optimize, shrink and obfuscate your Java/Kotlin code. Today we have James Hamilton on stage, to tell us about how it works internally and why you should never forget to enable it in your...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>If you ever shipped an Android App to production, you probably know about <a href="https://github.com/Guardsquare/proguard"><strong>ProGuard</strong></a>, a tool to optimize, shrink and obfuscate your Java/Kotlin code.</p>
+
+<p>Today we have <a href="https://twitter.com/jag_hamilton"><strong>James Hamilton</strong></a> on stage, to tell us about how it works internally and why you should never forget to enable it in your builds.</p>
+
+<p>If you’re wondering what are the differences between ProGuard, DexGuard and R8, make sure to don’t miss this episode!</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.11</strong> Intro</li>
+  <li><strong>00.57</strong> Episode Start</li>
+  <li><strong>01.31</strong> James’s Introduction</li>
+  <li><strong>02.52</strong> What is ProGuard?</li>
+  <li><strong>04.07</strong> What is DexGuard?</li>
+  <li><strong>05.44</strong> Is ProGuard obfuscation secure enough?</li>
+  <li><strong>06.58</strong> Who is using DexGuard?</li>
+  <li><strong>08.23</strong> ProGuard vs ProGuard-code</li>
+  <li><strong>10.31</strong> ProGuard vs R8</li>
+  <li><strong>13.46</strong> How is the obfuscation working?</li>
+  <li><strong>15.42</strong> Obfuscation and 3rd party libraries</li>
+  <li><strong>16.49</strong> Deobfuscation</li>
+  <li><strong>18.03</strong> Shrinking and Tree shaking</li>
+  <li><strong>19.02</strong> How much space is ProGuard making us save?</li>
+  <li><strong>20.04</strong> ProGuard &amp; Reflection</li>
+  <li><strong>21.38</strong> ProGuard and Runtime optimizations</li>
+  <li><strong>23.48</strong> ProGuard Rules</li>
+  <li><strong>25.56</strong> ProGuard Configuration Debugging</li>
+  <li><strong>27.17</strong> ProGuard Playground</li>
+  <li><strong>28.19</strong> Which language is used for Rules?</li>
+  <li><strong>29.20</strong> Beyond Android</li>
+  <li><strong>30.46</strong> Obfuscating Kotlin vs Java</li>
+  <li><strong>37.06</strong> Kotlin Metadata and Playground</li>
+  <li><strong>38.19</strong> Who is developing ProGuard?</li>
+  <li><strong>40.01</strong> Which type of contributions do you normally receive?</li>
+  <li><strong>41.05</strong> What’s up next in the future of ProGuard?</li>
+  <li><strong>43.33</strong> Further reading</li>
+  <li><strong>44.40</strong> Where to find James online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/Guardsquare/proguard">Guardsquare/proguard on Github</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/Guardsquare/proguard-core">Guardsquare/proguard-core on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://www.guardsquare.com/proguard">ProGuard Official Website</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://playground.proguard.com/">ProGuard Playground</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://guardsquare.github.io/proguard-core/">ProGuard Core Manual</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://www.guardsquare.com/manual/setup/gradleplugin">ProGuard Gradle Plugin</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://community.guardsquare.com/">Guardsquare Community</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://appsweep.guardsquare.com/">AppSweep</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://www.guardsquare.com/proguard-20th-anniversary">ProGuard 20th Anniversary</a></li>
+      <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/watch?v=wdUaeMiw3QE">Keep Rules in the Age of Kotlin - Droidcon London 2021</a></li>
+    </ul>
+  </li>
+  <li>Relevant Blogposts:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://www.guardsquare.com/blog/keep-rules-in-the-age-of-kotlin">Keep Rules in the Age of Kotlin</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://www.guardsquare.com/blog/how-to-build-a-log4shell-detector-with-proguardcore">Building a Log4Shell detector with ProGuardCORE</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://www.guardsquare.com/blog/detecting-data-flows-in-java-applications-with-proguardcore">More in-depth blog about data flow analysis with ProGuardCORE</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/mrjameshamilton">@mrjameshamilton on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/jag_hamilton">@jag_hamilton on Twitter</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://jameshamilton.eu/">James’ website</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/38-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>45:26</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Lottie with Gabriel Peal</title>

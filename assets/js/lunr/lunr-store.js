@@ -226,4 +226,10 @@ var store = [{
         "tags": [],
         "url": "/37/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#38 - ProGuard with James Hamilton",
+        "excerpt":"If you ever shipped an Android App to production, you probably know about ProGuard, a tool to optimize, shrink and obfuscate your Java/Kotlin code. Today we have James Hamilton on stage, to tell us about how it works internally and why you should never forget to enable it in your...","categories": [],
+        "tags": [],
+        "url": "/38/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]
