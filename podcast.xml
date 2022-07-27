@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Wed, 27 Jul 2022 14:58:33 +0200</lastBuildDate>
+<lastBuildDate>Wed, 27 Jul 2022 15:15:39 +0200</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -103,7 +103,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <ul>
   <li><i class="fab fa-github"></i> <a href="https://github.com/facebook/docusaurus">facebook/docusaurus on Github</a></li>
   <li><i class="fas fa-link"></i> <a href="https://docusaurus.io/">Docusaurus Official Website</a></li>
-  <li><i class="fa-brands fa-discord"></i> <a href="https://discord.gg/docusaurus">Docusaurus Discord Server</a></li>
+  <li><i class="fab fa-discord"></i> <a href="https://discord.gg/docusaurus">Docusaurus Discord Server</a></li>
   <li>Mentioned Features:
     <ul>
       <li><i class="fas fa-link"></i> <a href="https://docusaurus.io/docs/search">Integrated Search</a></li>
@@ -118,7 +118,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
       <li><i class="fas fa-link"></i> <a href="https://remark.js.org/">Remark JS</a></li>
     </ul>
   </li>
-  <li><i class="fa-solid fa-envelope-open-text"></i> <a href="https://thisweekinreact.com/">This week in React Newsletter</a></li>
+  <li><i class="fas fa-envelope-open-text"></i> <a href="https://thisweekinreact.com/">This week in React Newsletter</a></li>
   <li><i class="fas fa-link"></i> <a href="https://sebastienlorber.com/">Sébastien’s Website</a></li>
   <li><i class="fab fa-github"></i> <a href="https://github.com/slorber">@slorber on GitHub</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/sebastienlorber">@sebastienlorber on Twitter</a></li>
