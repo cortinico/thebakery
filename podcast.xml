@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Fri, 22 Jul 2022 11:07:00 +0200</lastBuildDate>
+<lastBuildDate>Wed, 27 Jul 2022 14:58:33 +0200</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,110 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Docusaurus with Sébastien Lorber</title>
+        <itunes:title>Docusaurus with Sébastien Lorber</itunes:title>
+        <link>https://thebakery.dev/39/</link>
+        <pubDate>Wed, 27 Jul 2022 00:00:00 +0200</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/39/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>39</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/39-thedevelopersbakery-docusaurus.m4a" length="18073784" type="audio/mpeg" />
+
+        <itunes:subtitle>Let's talk about Static Site Generator and Documentation with Sébastien Lorber and Docusaurus</itunes:subtitle>
+        <itunes:summary>Let's talk about Static Site Generator and Documentation with Sébastien Lorber and Docusaurus</itunes:summary>
+
+        
+        <description>
+            <![CDATA[The topic of today’s episode is all about Static Website Generators. I’m really excited to have on stage Sébastien Lorber to talk about Docusaurus 🦕. There is nothing better than great software, than great software with great documentation! That’s why having a great documentation website is crucial for the success...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>The topic of today’s episode is all about <strong>Static Website Generators</strong>. I’m really excited to have on stage <a href="https://twitter.com/sebastienlorber"><strong>Sébastien Lorber</strong></a> to talk about  <a href="https://github.com/facebook/docusaurus"><strong>Docusaurus</strong></a> 🦕.</p>
+
+<p>There is nothing better than great software, than great software with great documentation!</p>
+
+<p>That’s why having a great <strong>documentation website</strong> is crucial for the success of a project. Docusaurus helps you build a great website for your project with great features such as full-text search, localization &amp; versioned docs.</p>
+
+<p>In this episode, Sébastien will walk us through the project and will give a sneak previous of the release of Docusaurus v2!</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.11</strong> Intro</li>
+  <li><strong>00.57</strong> Episode Start</li>
+  <li><strong>01.27</strong> Sébastien’s Introduction</li>
+  <li><strong>02.46</strong> Curating a Newsletter</li>
+  <li><strong>05.51</strong> What is Docusaurus?</li>
+  <li><strong>08.28</strong> Docusaurus’ killer features</li>
+  <li><strong>11.29</strong> Versioned Docs</li>
+  <li><strong>12.37</strong> Docusaurs vs Gatsby, Hugo &amp; Jekyll</li>
+  <li><strong>14.48</strong> What is missing in Docusaurus?</li>
+  <li><strong>18.19</strong> Beyond simple Markdown</li>
+  <li><strong>23.03</strong> MDX</li>
+  <li><strong>27.10</strong> Docusaurus 1 vs 2</li>
+  <li><strong>29.58</strong> Brace yourself: v2 Stable is coming!</li>
+  <li><strong>32.06</strong> Let’s spotlight some great website</li>
+  <li><strong>34.57</strong> How Sébastien got involved in the project</li>
+  <li><strong>37.55</strong> What’s up next in the future of Docusaurus?</li>
+  <li><strong>43.06</strong> Further reading</li>
+  <li><strong>44.51</strong> Where to find Sébastien online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/facebook/docusaurus">facebook/docusaurus on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://docusaurus.io/">Docusaurus Official Website</a></li>
+  <li><i class="fa-brands fa-discord"></i> <a href="https://discord.gg/docusaurus">Docusaurus Discord Server</a></li>
+  <li>Mentioned Features:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://docusaurus.io/docs/search">Integrated Search</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://docusaurus.io/docs/api/themes/configuration">Theming</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://docusaurus.io/docs/versioning">Versioning Docs</a></li>
+    </ul>
+  </li>
+  <li>Mentioned Projects:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://commonmark.org/">Commonmark</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://mdxjs.com/">MDX</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://remark.js.org/">Remark JS</a></li>
+    </ul>
+  </li>
+  <li><i class="fa-solid fa-envelope-open-text"></i> <a href="https://thisweekinreact.com/">This week in React Newsletter</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://sebastienlorber.com/">Sébastien’s Website</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/slorber">@slorber on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/sebastienlorber">@sebastienlorber on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/39-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>45:34</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>ProGuard with James Hamilton</title>

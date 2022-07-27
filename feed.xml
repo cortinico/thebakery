@@ -1,4 +1,74 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2022-07-22T11:07:00+02:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#38 - ProGuard with James Hamilton</title><link href="https://thebakery.dev/38/" rel="alternate" type="text/html" title="#38 - ProGuard with James Hamilton" /><published>2022-07-11T00:00:00+02:00</published><updated>2022-07-11T00:00:00+02:00</updated><id>https://thebakery.dev/038-proguard</id><content type="html" xml:base="https://thebakery.dev/38/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2022-07-27T14:58:33+02:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#39 - Docusaurus with Sébastien Lorber</title><link href="https://thebakery.dev/39/" rel="alternate" type="text/html" title="#39 - Docusaurus with Sébastien Lorber" /><published>2022-07-27T00:00:00+02:00</published><updated>2022-07-27T00:00:00+02:00</updated><id>https://thebakery.dev/039-docusaurus</id><content type="html" xml:base="https://thebakery.dev/39/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>The topic of today’s episode is all about <strong>Static Website Generators</strong>. I’m really excited to have on stage <a href="https://twitter.com/sebastienlorber"><strong>Sébastien Lorber</strong></a> to talk about  <a href="https://github.com/facebook/docusaurus"><strong>Docusaurus</strong></a> 🦕.</p>
+
+<p>There is nothing better than great software, than great software with great documentation!</p>
+
+<p>That’s why having a great <strong>documentation website</strong> is crucial for the success of a project. Docusaurus helps you build a great website for your project with great features such as full-text search, localization &amp; versioned docs.</p>
+
+<p>In this episode, Sébastien will walk us through the project and will give a sneak previous of the release of Docusaurus v2!</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.11</strong> Intro</li>
+  <li><strong>00.57</strong> Episode Start</li>
+  <li><strong>01.27</strong> Sébastien’s Introduction</li>
+  <li><strong>02.46</strong> Curating a Newsletter</li>
+  <li><strong>05.51</strong> What is Docusaurus?</li>
+  <li><strong>08.28</strong> Docusaurus’ killer features</li>
+  <li><strong>11.29</strong> Versioned Docs</li>
+  <li><strong>12.37</strong> Docusaurs vs Gatsby, Hugo &amp; Jekyll</li>
+  <li><strong>14.48</strong> What is missing in Docusaurus?</li>
+  <li><strong>18.19</strong> Beyond simple Markdown</li>
+  <li><strong>23.03</strong> MDX</li>
+  <li><strong>27.10</strong> Docusaurus 1 vs 2</li>
+  <li><strong>29.58</strong> Brace yourself: v2 Stable is coming!</li>
+  <li><strong>32.06</strong> Let’s spotlight some great website</li>
+  <li><strong>34.57</strong> How Sébastien got involved in the project</li>
+  <li><strong>37.55</strong> What’s up next in the future of Docusaurus?</li>
+  <li><strong>43.06</strong> Further reading</li>
+  <li><strong>44.51</strong> Where to find Sébastien online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/facebook/docusaurus">facebook/docusaurus on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://docusaurus.io/">Docusaurus Official Website</a></li>
+  <li><i class="fa-brands fa-discord"></i> <a href="https://discord.gg/docusaurus">Docusaurus Discord Server</a></li>
+  <li>Mentioned Features:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://docusaurus.io/docs/search">Integrated Search</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://docusaurus.io/docs/api/themes/configuration">Theming</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://docusaurus.io/docs/versioning">Versioning Docs</a></li>
+    </ul>
+  </li>
+  <li>Mentioned Projects:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://commonmark.org/">Commonmark</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://mdxjs.com/">MDX</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://remark.js.org/">Remark JS</a></li>
+    </ul>
+  </li>
+  <li><i class="fa-solid fa-envelope-open-text"></i> <a href="https://thisweekinreact.com/">This week in React Newsletter</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://sebastienlorber.com/">Sébastien’s Website</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/slorber">@slorber on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/sebastienlorber">@sebastienlorber on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Let's talk about Static Site Generator and Documentation with Sébastien Lorber and Docusaurus]]></summary></entry><entry><title type="html">#38 - ProGuard with James Hamilton</title><link href="https://thebakery.dev/38/" rel="alternate" type="text/html" title="#38 - ProGuard with James Hamilton" /><published>2022-07-11T00:00:00+02:00</published><updated>2022-07-11T00:00:00+02:00</updated><id>https://thebakery.dev/038-proguard</id><content type="html" xml:base="https://thebakery.dev/38/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/6YS5FPVwavVelJkugS8Hej?utm_source=generator" width="100%" height="232" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
 <p>If you ever shipped an Android App to production, you probably know about <a href="https://github.com/Guardsquare/proguard"><strong>ProGuard</strong></a>, a tool to optimize, shrink and obfuscate your Java/Kotlin code.</p>
 
@@ -600,76 +670,4 @@ That’s why <a href="https://github.com/cyrus-and"><strong>Andrea Cardaci</stro
   <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[We're celebrating #30 with a special episode with the maintainers of Detekt, the Kotlin static analyizer]]></summary></entry><entry><title type="html">#29 - Kodein with Salomon Brys</title><link href="https://thebakery.dev/29/" rel="alternate" type="text/html" title="#29 - Kodein with Salomon Brys" /><published>2022-03-07T00:00:00+01:00</published><updated>2022-03-07T00:00:00+01:00</updated><id>https://thebakery.dev/029-kodein</id><content type="html" xml:base="https://thebakery.dev/29/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/3R3syhDSKRBH0tnwve7Oob?utm_source=generator" width="100%" height="232" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-
-<p>Today we have the pleasure to host another popular <strong>Dependency Injection</strong> framework at the Developers’ Bakery.</p>
-
-<p>Please welcome <a href="https://github.com/Kodein-Framework/Kodein-DI"><strong>Kodein-DI</strong></a> and <a href="https://twitter.com/salomonbrys"><strong>Salomon Brys</strong></a> on stage! 
-Kodein is an acronym for KOtlin DEpendency INjection, a framework to help you handle your dependencies in your Kotlin code (on all the platforms!).</p>
-
-<p>But Kodein is not only a DI framework. There is an entire ecosystem of libraries that can help you such as a DB, a logging library and a mocking framework.
-In this episode, Salomon is going to tell us how Kodein was born and how the whole <a href="https://kodein.org/">Kodein initiative</a> kicked off.</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.18</strong> Intro</li>
-  <li><strong>01.05</strong> Episode Start</li>
-  <li><strong>01.33</strong> Salomon’s Introduction</li>
-  <li><strong>02.26</strong> Board games &amp; French</li>
-  <li><strong>04.14</strong> What is Kodein?</li>
-  <li><strong>05.49</strong> The Kodein Framework and library naming</li>
-  <li><strong>07.38</strong> What is Kodein Koders?</li>
-  <li><strong>10.08</strong> Kodein vs Dagger</li>
-  <li><strong>12.33</strong> Dagger error messages</li>
-  <li><strong>14.23</strong> Compile-time safety vs Unit-test safety</li>
-  <li><strong>20.51</strong> Testing with Kodein</li>
-  <li><strong>23.08</strong> MockKMP</li>
-  <li><strong>27.57</strong> Kodein vs Koin</li>
-  <li><strong>30.54</strong> The most requested feature</li>
-  <li><strong>33.15</strong> Is Kodein Multiplatform ready?</li>
-  <li><strong>36.53</strong> Upcoming features</li>
-  <li><strong>38.39</strong> Who is maintaining Kodein?</li>
-  <li><strong>41.39</strong> Is Kodein a good project to start doing open-source?</li>
-  <li><strong>43.55</strong> Further reading</li>
-  <li><strong>45.42</strong> Where to find Salomon online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/Kodein-Framework/Kodein-DI">Kodein-Framework/Kodein-DI on Github</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://kodein.org/">Kodein Framework Official Website</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://docs.kodein.org/kodein-framework/index.html">Kodein Framework Official Docs</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://docs.kodein.org/kodein-di/7.10/index.html">Kodein DI Official Docs</a></li>
-  <li><i class="fab fa-slack"></i> <a href="https://kotlinlang.slack.com/archives/C0BLU9K96">#kodein on Kotlinlang Slack</a> (get an <a href="https://surveys.jetbrains.com/s3/kotlin-slack-sign-up">invite here</a>)</li>
-  <li>Talks about Kodein
-    <ul>
-      <li><i class="fab fa-youtube"></i> <a href="https://www.droidcon.com/2021/11/17/building-a-kotlin-multi-platform-advanced-library/">Building a Kotlin multi-platform advanced library - Droidcon Berlin 2021</a></li>
-      <li><i class="fab fa-youtube"></i> <a href="https://fosdem.org/2022/schedule/event/advanced_multiplatform_dependency_injection/">Advanced multi-platform dependency injection with Kotlin - FOSDEM 2022</a></li>
-      <li><i class="fab fa-youtube"></i> <a href="https://fosdem.org/2022/schedule/event/mocking_without_reflection_for_kotlin_multiplatform/">Mocking without reflection for Kotlin/Multiplatform - FOSDEM 2022</a></li>
-    </ul>
-  </li>
-  <li>Other Resources:
-    <ul>
-      <li><i class="fas fa-link"></i> <a href="https://kodein.net/">Kodein Koders Official Website</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://kotlin-koders.eu/">Kodein Koders Conference 2021</a></li>
-      <li><i class="fab fa-github"></i> <a href="https://github.com/Kodein-Framework/MocKMP">Kodein-Framework/MocKMP on Github</a></li>
-    </ul>
-  </li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/salomonbrys">@salomonbrys on Twitter</a></li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/SalomonBrys">@SalomonBrys on Github</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[It's time to spotlight another Dependency Injection framework for Kotlin: please welcome Salomon with Kodein]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[We're celebrating #30 with a special episode with the maintainers of Detekt, the Kotlin static analyizer]]></summary></entry></feed>

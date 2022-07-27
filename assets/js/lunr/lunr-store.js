@@ -232,4 +232,10 @@ var store = [{
         "tags": [],
         "url": "/38/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#39 - Docusaurus with Sébastien Lorber",
+        "excerpt":"The topic of today’s episode is all about Static Website Generators. I’m really excited to have on stage Sébastien Lorber to talk about Docusaurus 🦕. There is nothing better than great software, than great software with great documentation! That’s why having a great documentation website is crucial for the success...","categories": [],
+        "tags": [],
+        "url": "/39/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]
