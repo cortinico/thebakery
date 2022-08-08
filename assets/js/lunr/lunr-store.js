@@ -238,4 +238,10 @@ var store = [{
         "tags": [],
         "url": "/39/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#40 - thebakery.dev with Nicola Corti",
+        "excerpt":"As with every 10 episodes, we’re back with a special episode! 🎁 Today we’re talking about an open-source project which is a bit atypical: thebakery.dev. Exactly, we’re going to walk through the website and the infrastructure that is powering The Developers’ Bakery. Did you know that this podcast is fully...","categories": [],
+        "tags": [],
+        "url": "/40/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

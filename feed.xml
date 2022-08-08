@@ -1,4 +1,67 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2022-07-27T15:15:39+02:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#39 - Docusaurus with Sébastien Lorber</title><link href="https://thebakery.dev/39/" rel="alternate" type="text/html" title="#39 - Docusaurus with Sébastien Lorber" /><published>2022-07-27T00:00:00+02:00</published><updated>2022-07-27T00:00:00+02:00</updated><id>https://thebakery.dev/039-docusaurus</id><content type="html" xml:base="https://thebakery.dev/39/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2022-08-08T16:35:32+02:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#40 - thebakery.dev with Nicola Corti</title><link href="https://thebakery.dev/40/" rel="alternate" type="text/html" title="#40 - thebakery.dev with Nicola Corti" /><published>2022-08-08T00:00:00+02:00</published><updated>2022-08-08T00:00:00+02:00</updated><id>https://thebakery.dev/040-thebakery.dev</id><content type="html" xml:base="https://thebakery.dev/40/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>As with every 10 episodes, we’re back with a <strong>special episode</strong>! 🎁</p>
+
+<p>Today we’re talking about an open-source project which is a bit atypical: <a href="https://thebakery.dev"><strong>thebakery.dev</strong></a>. Exactly, we’re going to walk through the website and the infrastructure that is powering The Developers’ Bakery.</p>
+
+<p>Did you know that this podcast is fully open-source, self-hosted and running on GitHub pages?</p>
+
+<p>In this episode, I will walk you through all my <strong>secrets</strong> and <strong>automations</strong> that help me publish a podcast every other week!</p>
+
+<p>Do you have any feedback on the show so far? If so, drop me a message <a href="https://thebakery.dev/contact">either on the website</a> or <a href="https://twitter.com/thebakerydev">on Twitter</a>.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.11</strong> Intro</li>
+  <li><strong>00.57</strong> Episode Start</li>
+  <li><strong>01.40</strong> thebakery.dev?</li>
+  <li><strong>03.38</strong> Jekyll</li>
+  <li><strong>04.13</strong> Github Pages</li>
+  <li><strong>04.59</strong> Minimal Mistakes</li>
+  <li><strong>07.35</strong> Formspree</li>
+  <li><strong>08.54</strong> Renovate</li>
+  <li><strong>11.10</strong> podcast.xml</li>
+  <li><strong>16.29</strong> The hosting</li>
+  <li><strong>23.53</strong> Podtrac</li>
+  <li><strong>28.44</strong> Automations</li>
+  <li><strong>31.54</strong> Ideas for the future</li>
+  <li><strong>36.12</strong> Looking for feedback :)</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/cortinico/thebakery">cortinico/thebakery on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev/">thebakery.dev website (lol so recursive!)</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://jekyllrb.com/">Jekyll - Static Website Generator</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://mmistakes.github.io/minimal-mistakes/">Minimal Mistakes Theme</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/benbalter/jekyll-remote-theme">benbalter/jekyll-remote-theme on Github</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://formspree.io/">Formspree Contact Forms</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://renovatebot.com/">Renovate Bot</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://podcasters.apple.com/support/823-podcast-requirements">Apple - Podcast RSS feed requirements</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://podba.se/validate/">Podbase feed validator</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://www.castfeedvalidator.com/">Cast feed validator</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://firebase.google.com/docs/hosting/">Firebase Hosting Docs</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://analytics.podtrac.com/">Podtrac Analytics</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[A special episode to talk about the infrastructure behind thebakery.dev with Nicola Corti]]></summary></entry><entry><title type="html">#39 - Docusaurus with Sébastien Lorber</title><link href="https://thebakery.dev/39/" rel="alternate" type="text/html" title="#39 - Docusaurus with Sébastien Lorber" /><published>2022-07-27T00:00:00+02:00</published><updated>2022-07-27T00:00:00+02:00</updated><id>https://thebakery.dev/039-docusaurus</id><content type="html" xml:base="https://thebakery.dev/39/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/4kMyyco0wwhhbqDCLJw8Wx?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
 <p>The topic of today’s episode is all about <strong>Static Website Generators</strong>. I’m really excited to have on stage <a href="https://twitter.com/sebastienlorber"><strong>Sébastien Lorber</strong></a> to talk about  <a href="https://github.com/facebook/docusaurus"><strong>Docusaurus</strong></a> 🦕.</p>
 
@@ -585,89 +648,4 @@ That’s why <a href="https://github.com/cyrus-and"><strong>Andrea Cardaci</stro
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Gradle, Graphs and Urban Planning with Tony Robalik]]></summary></entry><entry><title type="html">#30 - Detekt with The Detekt Maintainers</title><link href="https://thebakery.dev/30/" rel="alternate" type="text/html" title="#30 - Detekt with The Detekt Maintainers" /><published>2022-03-21T00:00:00+01:00</published><updated>2022-03-21T00:00:00+01:00</updated><id>https://thebakery.dev/030-detekt</id><content type="html" xml:base="https://thebakery.dev/30/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/1OTCEfqNYkJfTzXVzvwcDd?utm_source=generator" width="100%" height="232" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-
-<p>Today, we celebrate <strong>episode #30</strong> of the Developers’ Bakery 🥐🎉</p>
-
-<p>We do so with a special episode and <strong>three special guests</strong>: <a href="https://twitter.com/BraisGabin"><strong>Brais Gabin</strong></a>, <a href="https://twitter.com/chao2zhang"><strong>Chao Zhang</strong></a> and <a href="https://twitter.com/marschwar"><strong>Markus Schwarz</strong></a>.</p>
-
-<p>They are, together with Nicola, some of the <strong>maintainers of <a href="https://detekt.dev/">Detekt</a></strong>, the Kotlin static analyzer.</p>
-
-<p>In this episode we will walk you through some of the features of Detekt, how it integrates with Android &amp; Kotlin Multiplatform projects and much more. You’ll get to hear some hidden gems like the maintainers <strong>favorite rules</strong> or some stories about <strong>the history</strong> of this project.</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.14</strong> Intro</li>
-  <li><strong>01.00</strong> Episode Start</li>
-  <li><strong>01.54</strong> Markus’ Introduction</li>
-  <li><strong>02.33</strong> Chao’s Introduction</li>
-  <li><strong>03.07</strong> Brais’ Introduction</li>
-  <li><strong>04.56</strong> What is Detekt?</li>
-  <li><strong>08.10</strong> How to use Detekt?</li>
-  <li><strong>10.31</strong> Extending Detekt</li>
-  <li><strong>14.25</strong> Markus’ Favorite Rules</li>
-  <li><strong>15.43</strong> Brais’ Favorite Rules</li>
-  <li><strong>17.33</strong> Chao’s Favorite Rules</li>
-  <li><strong>19.48</strong> Nicola’s Favorite Rules</li>
-  <li><strong>22.56</strong> What is Type Resolution?</li>
-  <li><strong>26.44</strong> Using Detekt with Android &amp; Kotlin Multiplatform</li>
-  <li><strong>29.38</strong> Detekt’s Documentation Pipeline</li>
-  <li><strong>34.04</strong> What is SARIF?</li>
-  <li><strong>37.48</strong> How Chao got involved in this project</li>
-  <li><strong>39.50</strong> How Markus got involved in this project?</li>
-  <li><strong>43.04</strong> How Brais got involved in this project?</li>
-  <li><strong>46.14</strong> How Nicola got involved in this project?</li>
-  <li><strong>48.52</strong> How Detekt started?</li>
-  <li><strong>51.22</strong> How to get involved in this project?</li>
-  <li><strong>55.17</strong> Where to start contributing from?</li>
-  <li><strong>61.34</strong> What would like in the future of Detekt, Brais?</li>
-  <li><strong>63.05</strong> What would like in the future of Detekt, Chao?</li>
-  <li><strong>64.44</strong> What would like in the future of Detekt, Markus?</li>
-  <li><strong>66.48</strong> What would like in the future of Detekt, Nicola?</li>
-  <li><strong>71.36</strong> Further reading</li>
-  <li><strong>74.37</strong> Where people can find you online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/detekt/detekt">detekt/detekt on Github</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://detekt.dev/">Detekt Official Website</a></li>
-  <li><i class="fab fa-slack"></i> <a href="https://kotlinlang.slack.com/archives/C88E12QH4">#detekt on Kotlinlang Slack</a> (get an <a href="https://surveys.jetbrains.com/s3/kotlin-slack-sign-up">invite here</a>)</li>
-  <li>Mentioned Resources:
-    <ul>
-      <li><i class="fas fa-book"></i> <a href="https://leanpub.com/effectivekotlin">Effective Kotlin by Marcin Moskala</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://sarifweb.azurewebsites.net/">SARIF Home Page</a></li>
-      <li><i class="fab fa-github"></i> <a href="https://github.com/detekt/detekt-compiler-plugin">Detekt Compiler Plugin</a></li>
-      <li><i class="fab fa-youtube"></i> <a href="https://www.droidcon.com/2021/11/17/detekt-state-of-the-union-2/">Detekt - State of the Union - Droidcon London 2021</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://github.com/detekt/detekt#mentions">List of articles mentioning Detekt</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://www.jetbrains.com/help/idea/psi-viewer.html">PSI Viewer - IntelliJ Plugins</a></li>
-    </ul>
-  </li>
-</ul>
-
-<h1 id="maintainers-contacts">Maintainers’ Contacts</h1>
-
-<ul>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/BraisGabin">@BraisGabin on Twitter</a></li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/BraisGabin">@BraisGabin on Github</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/chao2zhang">@chao2zhang on Twitter</a></li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/chao2zhang">@chao2zhang on Github</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/cortinico">@cortinico on Github</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/marschwar">@marschwar on Twitter</a></li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/marschwar">@marschwar on Github</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[We're celebrating #30 with a special episode with the maintainers of Detekt, the Kotlin static analyizer]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Gradle, Graphs and Urban Planning with Tony Robalik]]></summary></entry></feed>

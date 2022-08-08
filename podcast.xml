@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Wed, 27 Jul 2022 15:15:39 +0200</lastBuildDate>
+<lastBuildDate>Mon, 08 Aug 2022 16:35:32 +0200</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,103 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>thebakery.dev with Nicola Corti</title>
+        <itunes:title>thebakery.dev with Nicola Corti</itunes:title>
+        <link>https://thebakery.dev/40/</link>
+        <pubDate>Mon, 08 Aug 2022 00:00:00 +0200</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/40/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>40</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/40-thedevelopersbakery-thebakerydev.m4a" length="16216285" type="audio/mpeg" />
+
+        <itunes:subtitle>A special episode to talk about the infrastructure behind thebakery.dev with Nicola Corti</itunes:subtitle>
+        <itunes:summary>A special episode to talk about the infrastructure behind thebakery.dev with Nicola Corti</itunes:summary>
+
+        
+        <description>
+            <![CDATA[As with every 10 episodes, we’re back with a special episode! 🎁 Today we’re talking about an open-source project which is a bit atypical: thebakery.dev. Exactly, we’re going to walk through the website and the infrastructure that is powering The Developers’ Bakery. Did you know that this podcast is fully...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>As with every 10 episodes, we’re back with a <strong>special episode</strong>! 🎁</p>
+
+<p>Today we’re talking about an open-source project which is a bit atypical: <a href="https://thebakery.dev"><strong>thebakery.dev</strong></a>. Exactly, we’re going to walk through the website and the infrastructure that is powering The Developers’ Bakery.</p>
+
+<p>Did you know that this podcast is fully open-source, self-hosted and running on GitHub pages?</p>
+
+<p>In this episode, I will walk you through all my <strong>secrets</strong> and <strong>automations</strong> that help me publish a podcast every other week!</p>
+
+<p>Do you have any feedback on the show so far? If so, drop me a message <a href="https://thebakery.dev/contact">either on the website</a> or <a href="https://twitter.com/thebakerydev">on Twitter</a>.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.11</strong> Intro</li>
+  <li><strong>00.57</strong> Episode Start</li>
+  <li><strong>01.40</strong> thebakery.dev?</li>
+  <li><strong>03.38</strong> Jekyll</li>
+  <li><strong>04.13</strong> Github Pages</li>
+  <li><strong>04.59</strong> Minimal Mistakes</li>
+  <li><strong>07.35</strong> Formspree</li>
+  <li><strong>08.54</strong> Renovate</li>
+  <li><strong>11.10</strong> podcast.xml</li>
+  <li><strong>16.29</strong> The hosting</li>
+  <li><strong>23.53</strong> Podtrac</li>
+  <li><strong>28.44</strong> Automations</li>
+  <li><strong>31.54</strong> Ideas for the future</li>
+  <li><strong>36.12</strong> Looking for feedback :)</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/cortinico/thebakery">cortinico/thebakery on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev/">thebakery.dev website (lol so recursive!)</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://jekyllrb.com/">Jekyll - Static Website Generator</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://mmistakes.github.io/minimal-mistakes/">Minimal Mistakes Theme</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/benbalter/jekyll-remote-theme">benbalter/jekyll-remote-theme on Github</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://formspree.io/">Formspree Contact Forms</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://renovatebot.com/">Renovate Bot</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://podcasters.apple.com/support/823-podcast-requirements">Apple - Podcast RSS feed requirements</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://podba.se/validate/">Podbase feed validator</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://www.castfeedvalidator.com/">Cast feed validator</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://firebase.google.com/docs/hosting/">Firebase Hosting Docs</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://analytics.podtrac.com/">Podtrac Analytics</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/40-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>41:30</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Docusaurus with Sébastien Lorber</title>
