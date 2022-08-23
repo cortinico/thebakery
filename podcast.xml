@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Fri, 19 Aug 2022 18:48:46 +0100</lastBuildDate>
+<lastBuildDate>Tue, 23 Aug 2022 16:20:18 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,101 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>FlowRedux with Gabriel Ittner and Hannes Dorfmann</title>
+        <itunes:title>FlowRedux with Gabriel Ittner and Hannes Dorfmann</itunes:title>
+        <link>https://thebakery.dev/41/</link>
+        <pubDate>Tue, 23 Aug 2022 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/41/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>41</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/41-thedevelopersbakery-flowredux.m4a" length="15860095" type="audio/mpeg" />
+
+        <itunes:subtitle>MVI, State machines and DSLs with Gabriel, Hannes and FlowRedux</itunes:subtitle>
+        <itunes:summary>MVI, State machines and DSLs with Gabriel, Hannes and FlowRedux</itunes:summary>
+
+        
+        <description>
+            <![CDATA[Today we have the pleasure to host two amazing guests on stage: Gabriel Ittner and Hannes Dorfmann. Gabriel and Hannes have been working on FlowRedux, an MVI architecture library for Android and beyond. FlowRedux offers a beautiful DSL to represent the state machine of your application and is built on...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>Today we have the pleasure to host two amazing guests on stage: <a href="https://github.com/gabrielittner"><strong>Gabriel Ittner</strong></a> and <a href="https://github.com/sockeqwe"><strong>Hannes Dorfmann</strong></a>.</p>
+
+<p>Gabriel and Hannes have been working on <a href="https://github.com/freeletics/FlowRedux"><strong>FlowRedux</strong></a>, an MVI architecture library for Android and beyond.</p>
+
+<p>FlowRedux offers a beautiful DSL to represent the state machine of your application and is built on top of first class Kotlin API such as Flow and Coroutines.</p>
+
+<p>Join us in this episode where Gabriel and Hannes will walk us through the history and the internals of this library.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.04</strong> Gabriel’s Introduction</li>
+  <li><strong>01.31</strong> Hannes’ Introduction</li>
+  <li><strong>01.50</strong> What is FlowRedux?</li>
+  <li><strong>03.31</strong> Gabriel’s favorite architecture</li>
+  <li><strong>04.51</strong> DSL &amp; State Machines</li>
+  <li><strong>07.25</strong> Coroutines, Flow and Kotlin specific features</li>
+  <li><strong>12.02</strong> How FlowRedux works under the hood?</li>
+  <li><strong>15.23</strong> What’s the story of this library?</li>
+  <li><strong>19.49</strong> Why you rewrote yet another MVI library?</li>
+  <li><strong>22.59</strong> FlowRedux on iOS</li>
+  <li><strong>25.34</strong> Are you using FlowRedux also at OneFootball?</li>
+  <li><strong>29.40</strong> How you got involved with Open Source?</li>
+  <li><strong>31.59</strong> What’s the future for FlowRedux?</li>
+  <li><strong>36.36</strong> Further reading</li>
+  <li><strong>38.04</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/freeletics/FlowRedux">freeletics/FlowRedux on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://freeletics.github.io/FlowRedux/">FlowRedux Official Documentation</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://github.com/cashapp/turbine">cashapp/turbine on Github</a></li>
+      <li><i class="fab fa-youtube"></i> <a href="https://www.droidcon.com/2022/08/01/scaling-productivity-how-we-have-improved-our-dev-experience/">Scaling Productivity: How we have improved our dev experience - Droidcon Berlin 2022</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/gabrielittner">@gabrielittner on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/gabrielittner">@gabrielittner on Twitter</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/sockeqwe">@sockeqwe on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/sockeqwe">@sockeqwe on Twitter</a></li>
+  <li><i class="fas fa-link"></i> <a href="http://hannesdorfmann.com/">Hannes’ Personal Website</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/41-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>39:36</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>thebakery.dev with Nicola Corti</title>

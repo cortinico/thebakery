@@ -1,4 +1,65 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2022-08-19T18:48:46+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#40 - thebakery.dev with Nicola Corti</title><link href="https://thebakery.dev/40/" rel="alternate" type="text/html" title="#40 - thebakery.dev with Nicola Corti" /><published>2022-08-08T00:00:00+01:00</published><updated>2022-08-08T00:00:00+01:00</updated><id>https://thebakery.dev/040-thebakery.dev</id><content type="html" xml:base="https://thebakery.dev/40/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2022-08-23T16:20:18+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#41 - FlowRedux with Gabriel Ittner and Hannes Dorfmann</title><link href="https://thebakery.dev/41/" rel="alternate" type="text/html" title="#41 - FlowRedux with Gabriel Ittner and Hannes Dorfmann" /><published>2022-08-23T00:00:00+01:00</published><updated>2022-08-23T00:00:00+01:00</updated><id>https://thebakery.dev/041-flowredux</id><content type="html" xml:base="https://thebakery.dev/41/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>Today we have the pleasure to host two amazing guests on stage: <a href="https://github.com/gabrielittner"><strong>Gabriel Ittner</strong></a> and <a href="https://github.com/sockeqwe"><strong>Hannes Dorfmann</strong></a>.</p>
+
+<p>Gabriel and Hannes have been working on <a href="https://github.com/freeletics/FlowRedux"><strong>FlowRedux</strong></a>, an MVI architecture library for Android and beyond.</p>
+
+<p>FlowRedux offers a beautiful DSL to represent the state machine of your application and is built on top of first class Kotlin API such as Flow and Coroutines.</p>
+
+<p>Join us in this episode where Gabriel and Hannes will walk us through the history and the internals of this library.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.04</strong> Gabriel’s Introduction</li>
+  <li><strong>01.31</strong> Hannes’ Introduction</li>
+  <li><strong>01.50</strong> What is FlowRedux?</li>
+  <li><strong>03.31</strong> Gabriel’s favorite architecture</li>
+  <li><strong>04.51</strong> DSL &amp; State Machines</li>
+  <li><strong>07.25</strong> Coroutines, Flow and Kotlin specific features</li>
+  <li><strong>12.02</strong> How FlowRedux works under the hood?</li>
+  <li><strong>15.23</strong> What’s the story of this library?</li>
+  <li><strong>19.49</strong> Why you rewrote yet another MVI library?</li>
+  <li><strong>22.59</strong> FlowRedux on iOS</li>
+  <li><strong>25.34</strong> Are you using FlowRedux also at OneFootball?</li>
+  <li><strong>29.40</strong> How you got involved with Open Source?</li>
+  <li><strong>31.59</strong> What’s the future for FlowRedux?</li>
+  <li><strong>36.36</strong> Further reading</li>
+  <li><strong>38.04</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/freeletics/FlowRedux">freeletics/FlowRedux on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://freeletics.github.io/FlowRedux/">FlowRedux Official Documentation</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://github.com/cashapp/turbine">cashapp/turbine on Github</a></li>
+      <li><i class="fab fa-youtube"></i> <a href="https://www.droidcon.com/2022/08/01/scaling-productivity-how-we-have-improved-our-dev-experience/">Scaling Productivity: How we have improved our dev experience - Droidcon Berlin 2022</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/gabrielittner">@gabrielittner on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/gabrielittner">@gabrielittner on Twitter</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/sockeqwe">@sockeqwe on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/sockeqwe">@sockeqwe on Twitter</a></li>
+  <li><i class="fas fa-link"></i> <a href="http://hannesdorfmann.com/">Hannes’ Personal Website</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[MVI, State machines and DSLs with Gabriel, Hannes and FlowRedux]]></summary></entry><entry><title type="html">#40 - thebakery.dev with Nicola Corti</title><link href="https://thebakery.dev/40/" rel="alternate" type="text/html" title="#40 - thebakery.dev with Nicola Corti" /><published>2022-08-08T00:00:00+01:00</published><updated>2022-08-08T00:00:00+01:00</updated><id>https://thebakery.dev/040-thebakery.dev</id><content type="html" xml:base="https://thebakery.dev/40/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/5aFgYInCVBEoA3K1RsYbLF?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
 <p>As with every 10 episodes, we’re back with a <strong>special episode</strong>! 🎁</p>
 
@@ -584,68 +645,4 @@ That’s why <a href="https://github.com/cyrus-and"><strong>Andrea Cardaci</stro
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Learn how to power up your tests with Docker, Testcontainers and Sergei Egorov]]></summary></entry><entry><title type="html">#31 - Dependency Analysis Android Gradle Plugin with Tony Robalik</title><link href="https://thebakery.dev/31/" rel="alternate" type="text/html" title="#31 - Dependency Analysis Android Gradle Plugin with Tony Robalik" /><published>2022-04-05T00:00:00+01:00</published><updated>2022-04-05T00:00:00+01:00</updated><id>https://thebakery.dev/031-dependency-analysis-android-gradle-plugin</id><content type="html" xml:base="https://thebakery.dev/31/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/7iD2E7Ma4AdOx9m8DQg9fP?utm_source=generator" width="100%" height="232" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-
-<p>We’re back to talk about Gradle 🐘 with <a href="https://twitter.com/autonomousapps"><strong>Tony Robalik</strong></a> and the <a href="https://github.com/autonomousapps/dependency-analysis-android-gradle-plugin"><strong>Dependency Analysis Android Gradle Plugin (DAAGP)</strong></a>.</p>
-
-<p>Tony wrote this plugin to help you with <strong>unused</strong> and <strong>misused dependencies</strong> and save yourself from some depenceny hell. We will learn about the story of this plugin and some of the internals. Tony is a great source of knowledge about Gradle and he’s also one of the member of the Gradle Fellowship program.</p>
-
-<p>In this episode we’re going to touch on <strong>his opinion about Gradle</strong> as a tool. Moreover we will also learn more about Tony’s background as a urban planner and how it made him a better engineer.</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.18</strong> Intro</li>
-  <li><strong>01.05</strong> Episode Start</li>
-  <li><strong>01.38</strong> Tony’s Introduction</li>
-  <li><strong>03.18</strong> What is the Dependency Analysis Android Gradle Plugin?</li>
-  <li><strong>07.22</strong> What is Gradle?</li>
-  <li><strong>11.48</strong> Do we finally get to use some graph theory?</li>
-  <li><strong>16.10</strong> Which projects are supported by this plugin?</li>
-  <li><strong>18.13</strong> How is plugin working internally?</li>
-  <li><strong>21.51</strong> How being an urban planner helped you being a better software engineer?</li>
-  <li><strong>24.21</strong> What’s your opinion about Gradle as a tool?</li>
-  <li><strong>28.00</strong> Do you feel that Gradle gives you too much freedom?</li>
-  <li><strong>32.25</strong> Gradle &amp; Documentation</li>
-  <li><strong>36.03</strong> The Gradle Fellowship</li>
-  <li><strong>38.27</strong> What have you learned from open source?</li>
-  <li><strong>42.57</strong> Do you have suggestions for firstimers to Open Source?</li>
-  <li><strong>46.03</strong> Further reading</li>
-  <li><strong>48.09</strong> Where to find Tony online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/autonomousapps/dependency-analysis-android-gradle-plugin">autonomousapps/dependency-analysis-android-gradle-plugin on Github</a></li>
-  <li>Tony’s Blogposts:
-    <ul>
-      <li><i class="fas fa-link"></i><a href="https://dev.to/autonomousapps/learning-in-public-lessons-from-open-source-4g6l">Learning in public: Lessons from open source</a></li>
-      <li><i class="fas fa-link"></i><a href="https://dev.to/autonomousapps/the-proper-care-and-feeding-of-your-gradle-build-d8g">The proper care and feeding of your Gradle build</a></li>
-      <li><i class="fas fa-link"></i><a href="https://dev.to/autonomousapps/dependency-analysis-gradle-plugin-using-bytecode-analysis-to-find-unused-dependencies-509n">Dependency Analysis Gradle Plugin: Using bytecode analysis to find unused dependencies</a></li>
-      <li><i class="fas fa-link"></i><a href="https://dev.to/autonomousapps/dependency-analysis-gradle-plugin-what-s-an-abi-3l2h">Dependency Analysis Gradle Plugin: What’s an ABI?</a></li>
-      <li><i class="fas fa-link"></i><a href="https://dev.to/autonomousapps/reducing-my-gradle-plugin-s-impact-on-configuration-time-a-journey-32h2">Reducing my Gradle plugin’s impact on configuration time: A journey</a></li>
-    </ul>
-  </li>
-  <li>Mentioned Gradle Documentation
-    <ul>
-      <li><i class="fas fa-link"></i><a href="https://docs.gradle.org/current/userguide/more_about_tasks.html">Gradle: Authoring Tasks</a></li>
-      <li><i class="fas fa-link"></i><a href="https://docs.gradle.org/current/dsl/">Gradle: JavaDoc</a></li>
-    </ul>
-  </li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/autonomousapps">@autonomousapps on Twitter</a></li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/autonomousapps">@autonomousapps on Github</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Gradle, Graphs and Urban Planning with Tony Robalik]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Learn how to power up your tests with Docker, Testcontainers and Sergei Egorov]]></summary></entry></feed>

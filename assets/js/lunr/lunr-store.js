@@ -244,4 +244,10 @@ var store = [{
         "tags": [],
         "url": "/40/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#41 - FlowRedux with Gabriel Ittner and Hannes Dorfmann",
+        "excerpt":"Today we have the pleasure to host two amazing guests on stage: Gabriel Ittner and Hannes Dorfmann. Gabriel and Hannes have been working on FlowRedux, an MVI architecture library for Android and beyond. FlowRedux offers a beautiful DSL to represent the state machine of your application and is built on...","categories": [],
+        "tags": [],
+        "url": "/41/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]
