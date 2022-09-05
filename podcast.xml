@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Thu, 25 Aug 2022 11:53:43 +0100</lastBuildDate>
+<lastBuildDate>Mon, 05 Sep 2022 14:35:21 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,103 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Kscript with Marcin Kuszczak</title>
+        <itunes:title>Kscript with Marcin Kuszczak</itunes:title>
+        <link>https://thebakery.dev/42/</link>
+        <pubDate>Mon, 05 Sep 2022 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/42/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>42</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/42-thedevelopersbakery-kscript.m4a" length="17105361" type="audio/mpeg" />
+
+        <itunes:subtitle>Kotlin meets scripting with Kscript, on show in this episode together with Marcin Kuszczak</itunes:subtitle>
+        <itunes:summary>Kotlin meets scripting with Kscript, on show in this episode together with Marcin Kuszczak</itunes:summary>
+
+        
+        <description>
+            <![CDATA[As teased in episode 40, today we’re going to have on stage Kscript and Marcin Kuszczak! Kscript brings the power of Kotlin to the scripting world. It makes writing scripts a pleasure thanks to the elegant Kotlin APIs, and allows you to directly use tons of libraries and dependencies from...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>As teased in <a href="https://thebakery.dev/40/">episode 40</a>, today we’re going to have on stage <a href="https://github.com/kscripting/kscript"><strong>Kscript</strong></a> and <a href="https://github.com/aartiPl"><strong>Marcin Kuszczak</strong></a>!</p>
+
+<p>Kscript brings the power of Kotlin to the scripting world. It makes writing scripts a pleasure thanks to the elegant Kotlin APIs, and allows you to directly use tons of libraries and dependencies from the Maven ecosystem.</p>
+
+<p>Kscript recently moved under the <a href="https://github.com/kscripting">kscripting</a> organization and Marcin is here on stage to tell us about the future of this project.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.01</strong> Marcin’s Introduction</li>
+  <li><strong>01.40</strong> What is Kscript?</li>
+  <li><strong>02.33</strong> Why using Kotlin for scripting?</li>
+  <li><strong>04.08</strong> Brief history of Kscript</li>
+  <li><strong>06.31</strong> Differences between Kscript and Kotlin Scripting</li>
+  <li><strong>08.19</strong> How portable is Kscript?</li>
+  <li><strong>11.08</strong> Compiled languages &amp; Caching</li>
+  <li><strong>13.51</strong> What happens when you invoke Kscript?</li>
+  <li><strong>15.48</strong> Why using Kscript?</li>
+  <li><strong>17.34</strong> @DependsOn external libraries</li>
+  <li><strong>19.56</strong> IDE Support</li>
+  <li><strong>22.26</strong> kscript –idea</li>
+  <li><strong>23.37</strong> Who’s maintaining Kscript today?</li>
+  <li><strong>25.17</strong> How you got involved in this project?</li>
+  <li><strong>28.45</strong> The kscripting org and new projects</li>
+  <li><strong>32.27</strong> Invoking external commands</li>
+  <li><strong>34.56</strong> What’s next in the future of Kscript?</li>
+  <li><strong>37.09</strong> Where to connect with other Kscript users?</li>
+  <li><strong>38.14</strong> What’s the best way to contribute to Kscript?</li>
+  <li><strong>40.36</strong> Further reading</li>
+  <li><strong>41.28</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/kscripting/kscript">kscripting/kscript on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://github.com/kscripting/kscript/blob/master/docs/user_guide.md">Kscript User Guide</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/orgs/kscripting/discussions">Kscripting Discussion Board</a></li>
+  <li><i class="fab fa-slack"></i> <a href="https://kotlinlang.slack.com/archives/C0BT46EL8">#scripting on Kotlinlang Slack</a> (get an <a href="https://surveys.jetbrains.com/s3/kotlin-slack-sign-up">invite here</a>).</li>
+  <li>Talk: Scripting Enhancements for Kotlin - KotlinConf 2017
+    <ul>
+      <li><i class="fab fa-slideshare"></i> <a href="https://holgerbrandl.github.io/kscript_kotlinconf_2017/kscript_kotlinconf.html">Slides</a></li>
+      <li><i class="fab fa-youtube"></i> <a href="https://youtu.be/cOJPKhlRa8c">Video</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/aartiPl">@aartiPl on Github</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/42-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>42:52</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>FlowRedux with Gabriel Ittner and Hannes Dorfmann</title>

@@ -250,4 +250,10 @@ var store = [{
         "tags": [],
         "url": "/41/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#42 - Kscript with Marcin Kuszczak",
+        "excerpt":"As teased in episode 40, today we’re going to have on stage Kscript and Marcin Kuszczak! Kscript brings the power of Kotlin to the scripting world. It makes writing scripts a pleasure thanks to the elegant Kotlin APIs, and allows you to directly use tons of libraries and dependencies from...","categories": [],
+        "tags": [],
+        "url": "/42/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]
