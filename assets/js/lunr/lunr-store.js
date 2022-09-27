@@ -256,4 +256,10 @@ var store = [{
         "tags": [],
         "url": "/42/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#43 - KaMPKit with Kevin Galligan",
+        "excerpt":"Today we venture in the mobile cross-platform world with Kevin Galligan from TouchLab. Kevin has been using and advocating Kotlin Multiplatform since the early days! Together with TouchLab they’ve released tools and libraries that are crucial to the development of the Kotlin Multiplatform ecosystem. Today, Kevin in on-stage to talk...","categories": [],
+        "tags": [],
+        "url": "/43/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

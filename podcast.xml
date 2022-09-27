@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Mon, 05 Sep 2022 14:35:21 +0100</lastBuildDate>
+<lastBuildDate>Tue, 27 Sep 2022 16:41:50 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,98 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>KaMPKit with Kevin Galligan</title>
+        <itunes:title>KaMPKit with Kevin Galligan</itunes:title>
+        <link>https://thebakery.dev/43/</link>
+        <pubDate>Mon, 26 Sep 2022 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/43/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>43</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/43-thedevelopersbakery-kampkit.m4a" length="22352779" type="audio/mpeg" />
+
+        <itunes:subtitle>A sneak peak to the Kotlin Multiplatform ecosystem with Kevin Galligan and KaMPKit</itunes:subtitle>
+        <itunes:summary>A sneak peak to the Kotlin Multiplatform ecosystem with Kevin Galligan and KaMPKit</itunes:summary>
+
+        
+        <description>
+            <![CDATA[Today we venture in the mobile cross-platform world with Kevin Galligan from TouchLab. Kevin has been using and advocating Kotlin Multiplatform since the early days! Together with TouchLab they’ve released tools and libraries that are crucial to the development of the Kotlin Multiplatform ecosystem. Today, Kevin in on-stage to talk...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>Today we venture in the mobile cross-platform world with <a href="https://twitter.com/kpgalligan"><strong>Kevin Galligan</strong></a> from TouchLab.</p>
+
+<p>Kevin has been using and advocating Kotlin Multiplatform since the early days! Together with TouchLab they’ve released tools and libraries that are crucial to the development of the Kotlin Multiplatform ecosystem.</p>
+
+<p>Today, Kevin in on-stage to talk to us about <a href="https://github.com/touchlab/KaMPKit"><strong>KaMPKit</strong></a>, a collection of samples and tools to get you started quickly with Kotlin Multiplatform.</p>
+
+<p>We’re going to touch on where Kotlin Multiplatform is placed today and how TouchLab released the Droidcon NYC app with 100% (for both Android &amp; iOS!).</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.27</strong> Intro</li>
+  <li><strong>01.13</strong> Episode Start</li>
+  <li><strong>01.40</strong> Kevin’s Introduction</li>
+  <li><strong>03.24</strong> What is KamMPKit?</li>
+  <li><strong>06.23</strong> What is Kotlin Multiplatform?</li>
+  <li><strong>09.11</strong> KMP vs KMM</li>
+  <li><strong>10.36</strong> How can KaMPKit help you?</li>
+  <li><strong>14.06</strong> The biggest friction with adopting KMP</li>
+  <li><strong>18.33</strong> The biggest selling point for KMP</li>
+  <li><strong>23.18</strong> Shared UI with Kotlin Multiplatform</li>
+  <li><strong>32.35</strong> KMP in production at TouchLab</li>
+  <li><strong>36.04</strong> Biggest players in the KMP space</li>
+  <li><strong>40.27</strong> Brownfield applications and KaMPKit</li>
+  <li><strong>45.59</strong> Which future for KaMPKit?</li>
+  <li><strong>48.54</strong> How can people contribute to KaMPKit?</li>
+  <li><strong>51.19</strong> Further reading</li>
+  <li><strong>54.44</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/touchlab/KaMPKit">touchlab/KaMPKit on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://touchlab.co/">TouchLab Official Website</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://touchlab.co/droidcon-nyc-ios-app-with-compose/">Blogpost - Droidcon NYC iOS app with Compose</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/touchlab/DroidconKotlin">touchlab/DroidconKotlin on Github</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/kpgalligan">@kpgalligan on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/kpgalligan">@kpgalligan on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/43-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>56:41</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Kscript with Marcin Kuszczak</title>
