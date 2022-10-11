@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Tue, 27 Sep 2022 16:41:50 +0100</lastBuildDate>
+<lastBuildDate>Tue, 11 Oct 2022 11:33:45 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,108 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>OpenStreetMap with Said Turksever</title>
+        <itunes:title>OpenStreetMap with Said Turksever</itunes:title>
+        <link>https://thebakery.dev/44/</link>
+        <pubDate>Mon, 10 Oct 2022 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/44/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>44</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/44-thedevelopersbakery-openstreetmap.m4a" length="20034490" type="audio/mpeg" />
+
+        <itunes:subtitle>From open source to open data, with OpenStreetMap and Said Turksever</itunes:subtitle>
+        <itunes:summary>From open source to open data, with OpenStreetMap and Said Turksever</itunes:summary>
+
+        
+        <description>
+            <![CDATA[It’s not just open source that we showcase on the Developers’ Bakery. Today we’ll talk about open data. We’re glad to have on stage Said Turksever to talk about his experience with OpenStreetMap. If you’ve ever built a product that displays a map, you know what we’re talking about. OpenStreetMap...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>It’s not just open source that we showcase on the Developers’ Bakery. Today we’ll talk about <strong>open data</strong>.</p>
+
+<p>We’re glad to have on stage <a href="https://twitter.com/asturksever"><strong>Said Turksever</strong></a> to talk about his experience with <a href="https://www.openstreetmap.org/"><strong>OpenStreetMap</strong></a>.</p>
+
+<p>If you’ve ever built a product that displays a map, you know what we’re talking about. OpenStreetMap is a collaborative project to create a <strong>free</strong> and <strong>editable</strong> geographic database of the world. It relies on contributions from individuals to be up to date and reliable.</p>
+
+<p>In this episode Said will tell us about his experience with OSM, how the community works, and how you can contribute as well.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.27</strong> Said’s Introduction</li>
+  <li><strong>02.00</strong> What is OpenStreetMap?</li>
+  <li><strong>03.45</strong> Community of Communities</li>
+  <li><strong>04.55</strong> The history of OSM</li>
+  <li><strong>08.19</strong> What’s the OSM license?</li>
+  <li><strong>09.23</strong> Where is the map stored?</li>
+  <li><strong>10.45</strong> How is the map stored?</li>
+  <li><strong>12.49</strong> The challenges of maintaining OSM</li>
+  <li><strong>15.07</strong> How fast is the map updated?</li>
+  <li><strong>18.33</strong> Using OSM in your apps</li>
+  <li><strong>21.17</strong> OsmAnd</li>
+  <li><strong>22.17</strong> How to contribute to OSM?</li>
+  <li><strong>25.30</strong> Contributing while walking, driving and running</li>
+  <li><strong>27.21</strong> OSM for humanitarian support</li>
+  <li><strong>32.15</strong> How Said got started with OSM?</li>
+  <li><strong>37.55</strong> The State of the Map Conference</li>
+  <li><strong>42.00</strong> Street Level Images on OSM</li>
+  <li><strong>43.21</strong> The tech for image mapping</li>
+  <li><strong>46.50</strong> Further reading</li>
+  <li><strong>48.52</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://www.openstreetmap.org/">OpenStreetMap Official Website</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/openstreetmap">openstreetmap on Github</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://wiki.openstreetmap.org/wiki/Main_Page">OSM - Wiki</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://usergroups.openstreetmap.de/">OSM - Map of Local Chapters</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://wiki.openstreetmap.org/wiki/Data_working_group">OSM - Data working group</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://www.hotosm.org/">OSM - Humanitarian Team</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://www.mapillary.com/">Mapillary - Street-level images for OSM</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://learnosm.org">learnosm.org - Learn OpenStreetMap Step by Step</a></li>
+      <li><i class="fab fa-google-play"></i> <a href="https://play.google.com/store/apps/details?id=net.osmand">OsmAnd - Google Play Store</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/asturksever">@asturksever on Twitter</a></li>
+  <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/asturksever/">Said Turksever on LinkedIn</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/44-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>50:36</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>KaMPKit with Kevin Galligan</title>

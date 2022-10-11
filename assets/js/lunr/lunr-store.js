@@ -262,4 +262,10 @@ var store = [{
         "tags": [],
         "url": "/43/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#44 - OpenStreetMap with Said Turksever",
+        "excerpt":"It’s not just open source that we showcase on the Developers’ Bakery. Today we’ll talk about open data. We’re glad to have on stage Said Turksever to talk about his experience with OpenStreetMap. If you’ve ever built a product that displays a map, you know what we’re talking about. OpenStreetMap...","categories": [],
+        "tags": [],
+        "url": "/44/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]
