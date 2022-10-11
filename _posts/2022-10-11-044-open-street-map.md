@@ -12,7 +12,7 @@ header:
   overlay_filter: "0.6"
   og_image: "/assets/images/episodes/44-cover.png"
 
-date: 2022-10-10
+date: 2022-10-11
 permalink: /44/
 redirect_from:
 - /44/openstreetmap/
