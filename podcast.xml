@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Fri, 21 Oct 2022 11:52:06 +0100</lastBuildDate>
+<lastBuildDate>Tue, 25 Oct 2022 17:33:25 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,99 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Balloon with Jaewoong Eum</title>
+        <itunes:title>Balloon with Jaewoong Eum</itunes:title>
+        <link>https://thebakery.dev/45/</link>
+        <pubDate>Mon, 24 Oct 2022 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/45/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>45</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/45-thedevelopersbakery-balloon.m4a" length="13537935" type="audio/mpeg" />
+
+        <itunes:subtitle>Elegant Android UI libraries and much more with Jaewoong Eum</itunes:subtitle>
+        <itunes:summary>Elegant Android UI libraries and much more with Jaewoong Eum</itunes:summary>
+
+        
+        <description>
+            <![CDATA[Elegant Android UI libraries are the mastery of today’s guest! Please welcome Jaewoong Eum on stage to talk about Balloon 🎈. Balloon is a library to display tooltips on Android apps. Display tooltips might sound easy, but it turns out that there is much complexity under the hood. Jaewoong will...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>Elegant Android UI libraries are the mastery of today’s guest! Please welcome <a href="https://twitter.com/github_skydoves"><strong>Jaewoong Eum</strong></a> on stage to talk about <a href="https://github.com/skydoves/balloon"><strong>Balloon</strong></a> 🎈.</p>
+
+<p>Balloon is a library to display <strong>tooltips</strong> on Android apps. Display tooltips might sound easy, but it turns out that there is much complexity under the hood.</p>
+
+<p>Jaewoong will walk us through this project, and will share his experience as a <strong>sole maintainer</strong> of this and other popular Android libraries.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.46</strong> Episode Start</li>
+  <li><strong>01.14</strong> Jaewoong’s Introduction</li>
+  <li><strong>02.19</strong> What is Balloon?</li>
+  <li><strong>02.52</strong> Use cases</li>
+  <li><strong>03.33</strong> Missing features</li>
+  <li><strong>04.46</strong> Jetpack Compose Support</li>
+  <li><strong>05.45</strong> What it takes to render a Tooltip?</li>
+  <li><strong>09.01</strong> The Android API you hate the most</li>
+  <li><strong>10.01</strong> Who’s using Balloon?</li>
+  <li><strong>11.57</strong> Balloon on iOS?</li>
+  <li><strong>12.56</strong> The history of balloon</li>
+  <li><strong>15.40</strong> What drives you to do Open Source?</li>
+  <li><strong>17.30</strong> Where do you find the time for Open Source?</li>
+  <li><strong>18.05</strong> Burnout and Open Source Maintainers</li>
+  <li><strong>18.50</strong> Tips for sole maintainer?</li>
+  <li><strong>19.48</strong> Onboarding external maintainers</li>
+  <li><strong>20.46</strong> Bringing a library to success</li>
+  <li><strong>23.08</strong> Jaewoong’s recipe for crafting new libraries</li>
+  <li><strong>24.37</strong> Promoting your libraries</li>
+  <li><strong>25.43</strong> The future of Balloon</li>
+  <li><strong>26.40</strong> Looking for maintainers</li>
+  <li><strong>27.15</strong> Donating a project</li>
+  <li><strong>30.57</strong> Further reading</li>
+  <li><strong>32.02</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/skydoves/balloon">skydoves/balloon on Github</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/skydoves/orchestra#balloon">skydoves/orchestra on Github</a></li>
+  <li><i class="fab fa-medium"></i> <a href="https://skydoves.medium.com/">Jaewoong Eum on Medium</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/github_skydoves">Jaewoong Eum on Twitter</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/skydoves">Jaewoong Eum on Github</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/45-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>33:24</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>OpenStreetMap with Said Turksever</title>

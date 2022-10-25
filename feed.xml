@@ -1,4 +1,63 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2022-10-21T11:52:06+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#44 - OpenStreetMap with Said Turksever</title><link href="https://thebakery.dev/44/" rel="alternate" type="text/html" title="#44 - OpenStreetMap with Said Turksever" /><published>2022-10-11T00:00:00+01:00</published><updated>2022-10-11T00:00:00+01:00</updated><id>https://thebakery.dev/044-open-street-map</id><content type="html" xml:base="https://thebakery.dev/44/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2022-10-25T17:33:25+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#45 - Balloon with Jaewoong Eum</title><link href="https://thebakery.dev/45/" rel="alternate" type="text/html" title="#45 - Balloon with Jaewoong Eum" /><published>2022-10-24T00:00:00+01:00</published><updated>2022-10-24T00:00:00+01:00</updated><id>https://thebakery.dev/045-balloon</id><content type="html" xml:base="https://thebakery.dev/45/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>Elegant Android UI libraries are the mastery of today’s guest! Please welcome <a href="https://twitter.com/github_skydoves"><strong>Jaewoong Eum</strong></a> on stage to talk about <a href="https://github.com/skydoves/balloon"><strong>Balloon</strong></a> 🎈.</p>
+
+<p>Balloon is a library to display <strong>tooltips</strong> on Android apps. Display tooltips might sound easy, but it turns out that there is much complexity under the hood.</p>
+
+<p>Jaewoong will walk us through this project, and will share his experience as a <strong>sole maintainer</strong> of this and other popular Android libraries.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.46</strong> Episode Start</li>
+  <li><strong>01.14</strong> Jaewoong’s Introduction</li>
+  <li><strong>02.19</strong> What is Balloon?</li>
+  <li><strong>02.52</strong> Use cases</li>
+  <li><strong>03.33</strong> Missing features</li>
+  <li><strong>04.46</strong> Jetpack Compose Support</li>
+  <li><strong>05.45</strong> What it takes to render a Tooltip?</li>
+  <li><strong>09.01</strong> The Android API you hate the most</li>
+  <li><strong>10.01</strong> Who’s using Balloon?</li>
+  <li><strong>11.57</strong> Balloon on iOS?</li>
+  <li><strong>12.56</strong> The history of balloon</li>
+  <li><strong>15.40</strong> What drives you to do Open Source?</li>
+  <li><strong>17.30</strong> Where do you find the time for Open Source?</li>
+  <li><strong>18.05</strong> Burnout and Open Source Maintainers</li>
+  <li><strong>18.50</strong> Tips for sole maintainer?</li>
+  <li><strong>19.48</strong> Onboarding external maintainers</li>
+  <li><strong>20.46</strong> Bringing a library to success</li>
+  <li><strong>23.08</strong> Jaewoong’s recipe for crafting new libraries</li>
+  <li><strong>24.37</strong> Promoting your libraries</li>
+  <li><strong>25.43</strong> The future of Balloon</li>
+  <li><strong>26.40</strong> Looking for maintainers</li>
+  <li><strong>27.15</strong> Donating a project</li>
+  <li><strong>30.57</strong> Further reading</li>
+  <li><strong>32.02</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/skydoves/balloon">skydoves/balloon on Github</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/skydoves/orchestra#balloon">skydoves/orchestra on Github</a></li>
+  <li><i class="fab fa-medium"></i> <a href="https://skydoves.medium.com/">Jaewoong Eum on Medium</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/github_skydoves">Jaewoong Eum on Twitter</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/skydoves">Jaewoong Eum on Github</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Elegant Android UI libraries and much more with Jaewoong Eum]]></summary></entry><entry><title type="html">#44 - OpenStreetMap with Said Turksever</title><link href="https://thebakery.dev/44/" rel="alternate" type="text/html" title="#44 - OpenStreetMap with Said Turksever" /><published>2022-10-11T00:00:00+01:00</published><updated>2022-10-11T00:00:00+01:00</updated><id>https://thebakery.dev/044-open-street-map</id><content type="html" xml:base="https://thebakery.dev/44/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/7EHfplsLXa0wsM9jfZv5lf?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <p>It’s not just open source that we showcase on the Developers’ Bakery. Today we’ll talk about <strong>open data</strong>.</p>
 
@@ -590,67 +649,4 @@ In this episode, Marcos will walk us through some of the challenges they’re fa
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Today we have Marcos Holgado on stage to tell us about Duck Duck Go, the search engine and their Privacy Browser for Android.]]></summary></entry><entry><title type="html">#35 - ktlint-gradle with Jonathan Leitschuh and Yahor Berdnikau</title><link href="https://thebakery.dev/35/" rel="alternate" type="text/html" title="#35 - ktlint-gradle with Jonathan Leitschuh and Yahor Berdnikau" /><published>2022-05-30T00:00:00+01:00</published><updated>2022-05-30T00:00:00+01:00</updated><id>https://thebakery.dev/035-ktlint-gradle</id><content type="html" xml:base="https://thebakery.dev/35/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/0utkgqtTQoYnkj5htX092A?utm_source=generator" width="100%" height="232" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-
-<p>I’m really excited to have on stage <a href="https://github.com/JLLeitschuh"><strong>Jonathan Leitschuh</strong></a> and <a href="https://github.com/Tapchicoma"><strong>Yahor Berdnikau</strong></a>, maintainers of <a href="https://github.com/jlleitschuh/ktlint-gradle"><strong>ktlint-gradle</strong></a>.</p>
-
-<p>ktlint-gradle is a Gradle Plugin that allows you to lint and reformat your Kotlin code during a Gradle build. We’re going to touch and what are the challenges of building such a tool and a bit of the story of this project.</p>
-
-<p>Moreover, we’ll discuss on a topic which is really crucial in the OSS community: <strong>Sustainability</strong>. Most of us struggle to find new maintainers. It’s crucial to understand how we can foster a sustainable ecosystem and what are the risks of unmaintained projects.</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.15</strong> Intro</li>
-  <li><strong>01.01</strong> Episode Start</li>
-  <li><strong>01.32</strong> Jonathan’s Introduction</li>
-  <li><strong>02.07</strong> Yahor’s Introduction</li>
-  <li><strong>02.59</strong> What is Ktlint?</li>
-  <li><strong>05.25</strong> What is Ktlint-gradle?</li>
-  <li><strong>08.06</strong> What are the challenges of writing a formatter?</li>
-  <li><strong>09.01</strong> How hard was to integrate with Gradle?</li>
-  <li><strong>12.25</strong> Pros &amp; Cons of having separate repos</li>
-  <li><strong>15.26</strong> Why Kotlin is lacking a 1st party formatter?</li>
-  <li><strong>19.11</strong> Openrewrite &amp; Mass code refractoring</li>
-  <li><strong>21.32</strong> Naming is hard</li>
-  <li><strong>25.31</strong> How you got involved in this project?</li>
-  <li><strong>30.19</strong> Open Source Sustainability</li>
-  <li><strong>35.43</strong> How to seek new maintainers?</li>
-  <li><strong>40.06</strong> Github Sponsorships</li>
-  <li><strong>43.02</strong> The event-stream incident</li>
-  <li><strong>46.08</strong> Further reading</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/jlleitschuh/ktlint-gradle">jlleitschuh/ktlint-gradle on Github</a></li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/pinterest/ktlint">pinterest/ktlint on Github</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://ktlint.github.io/">Ktlint Official Website</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://github.com/JLLeitschuh/ktlint-gradle/issues/569">Issue #569 - Looking for new maintainers</a></li>
-  <li>Mentioned Resources:
-    <ul>
-      <li><i class="fab fa-github"></i> <a href="https://github.com/diffplug/spotless">diffplug/spotless on Github</a></li>
-      <li><i class="fab fa-github"></i> <a href="https://github.com/facebookincubator/ktfmt">facebookincubator/ktfmt on Github</a></li>
-      <li><i class="fab fa-github"></i> <a href="https://github.com/jeremymailen/kotlinter-gradle">jeremymailen/kotlinter-gradle on Github</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://www.jetbrains.com/qodana">Qodana by JetBrains</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://docs.openrewrite.org/">Openrewrite Official Website</a></li>
-    </ul>
-  </li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/JLLeitschuh">@JLLeitschuh on Github</a></li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/Tapchicoma">@Tapchicoma on Github</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/JLLeitschuh">@JLLeitschuh on Twitter</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Linters, Formatters and Sustainability with Yahor and Jonathan from ktlint-gradle]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Today we have Marcos Holgado on stage to tell us about Duck Duck Go, the search engine and their Privacy Browser for Android.]]></summary></entry></feed>

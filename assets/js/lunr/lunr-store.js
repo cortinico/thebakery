@@ -268,4 +268,10 @@ var store = [{
         "tags": [],
         "url": "/44/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#45 - Balloon with Jaewoong Eum",
+        "excerpt":"Elegant Android UI libraries are the mastery of today’s guest! Please welcome Jaewoong Eum on stage to talk about Balloon 🎈. Balloon is a library to display tooltips on Android apps. Display tooltips might sound easy, but it turns out that there is much complexity under the hood. Jaewoong will...","categories": [],
+        "tags": [],
+        "url": "/45/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]
