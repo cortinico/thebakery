@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Tue, 25 Oct 2022 17:36:53 +0100</lastBuildDate>
+<lastBuildDate>Mon, 07 Nov 2022 13:10:37 +0000</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,108 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Storybook with Norbert de Langen</title>
+        <itunes:title>Storybook with Norbert de Langen</itunes:title>
+        <link>https://thebakery.dev/46/</link>
+        <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/46/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>46</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/46-thedevelopersbakery-storybook.m4a" length="21324334" type="audio/mpeg" />
+
+        <itunes:subtitle>Build bulletproof web UI components faster with Storybook and Norbert de Langen</itunes:subtitle>
+        <itunes:summary>Build bulletproof web UI components faster with Storybook and Norbert de Langen</itunes:summary>
+
+        
+        <description>
+            <![CDATA[Today we talk about tools to build beautiful Web UIs! 💫 How often have you written custom components that are hard to test or visualize as they’re complex and have multiple states? Components such as graphs, lists, checkboxes, list items, can be really hard to develop in isolation. Here Storybook...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>Today we talk about tools to build beautiful Web UIs! 💫</p>
+
+<p>How often have you written custom components that are hard to test or visualize as they’re complex and have multiple states? Components such as graphs, lists, checkboxes, list items, can be really hard to develop in <strong>isolation</strong>.</p>
+
+<p>Here <a href="https://github.com/storybookjs/storybook"><strong>Storybook</strong></a> comes to the rescue! Storybook lets you test and develop your UI components through all it’s possible states. <a href="https://twitter.com/NorbertdeLangen"><strong>Norbert De Langen</strong></a> is on stage to tell us more about how he got involved in this project, and how to improve your development flow with it!</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.17</strong> Intro</li>
+  <li><strong>01.03</strong> Episode Start</li>
+  <li><strong>01.39</strong> Norbert’s Introduction</li>
+  <li><strong>02.51</strong> What is Storybook?</li>
+  <li><strong>05.29</strong> From top down to bottom up</li>
+  <li><strong>08.27</strong> Accidentally duplicating components</li>
+  <li><strong>10.25</strong> Who’s Storybook for?</li>
+  <li><strong>12.23</strong> Storybook for native platforms?</li>
+  <li><strong>14.34</strong> Storybook’s history</li>
+  <li><strong>18.25</strong> How Norbert became a maintainer of Storybook?</li>
+  <li><strong>20.49</strong> What is a Story?</li>
+  <li><strong>22.07</strong> The most requested feature</li>
+  <li><strong>24.11</strong> Can you use Storybook at runtime?</li>
+  <li><strong>25.57</strong> Building design systems with Storybook</li>
+  <li><strong>29.30</strong> UI Testing with Storybook</li>
+  <li><strong>32.31</strong> Connecting developers and designers</li>
+  <li><strong>33.22</strong> What is Chromatic?</li>
+  <li><strong>35.33</strong> The Play function</li>
+  <li><strong>36.46</strong> Who’s using Storybook?</li>
+  <li><strong>39.26</strong> Storybook supporters</li>
+  <li><strong>40.57</strong> Moving the ecosystem</li>
+  <li><strong>45.12</strong> Maintaining big projects</li>
+  <li><strong>50.16</strong> Elegant documentation</li>
+  <li><strong>52.34</strong> Further reading</li>
+  <li><strong>54.09</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/storybookjs/storybook">storybookjs/storybook on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://storybook.js.org/">Storybook Official Website</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://www.chromatic.com/">Chromatic Official Website</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://storybook.js.org/docs/react/why-storybook">Why Storybook</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://storybook.js.org/docs/react/get-started/whats-a-story">What’s a Story</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://opencollective.com/storybook">Storybook on OpenCollective</a></li>
+      <li><i class="fab fa-discord"></i> <a href="https://discord.com/invite/storybook">Storybook Discord server</a></li>
+      <li><i class="fab fa-youtube"></i> Developing, Documenting, and Testing your Vite app with Storybook - Ian VanSchooten - <a href="https://youtu.be/Znd11rVHQOE?t=10356">Video from ViteConf 2022</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/NorbertdeLangen">@NorbertdeLangen on Twitter</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/ndelange">@ndelange on Github</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/46-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>55:44</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Balloon with Jaewoong Eum</title>

@@ -274,4 +274,10 @@ var store = [{
         "tags": [],
         "url": "/45/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#46 - Storybook with Norbert de Langen",
+        "excerpt":"Today we talk about tools to build beautiful Web UIs! 💫 How often have you written custom components that are hard to test or visualize as they’re complex and have multiple states? Components such as graphs, lists, checkboxes, list items, can be really hard to develop in isolation. Here Storybook...","categories": [],
+        "tags": [],
+        "url": "/46/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]
