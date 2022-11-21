@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Mon, 07 Nov 2022 13:10:37 +0000</lastBuildDate>
+<lastBuildDate>Mon, 21 Nov 2022 14:50:23 +0000</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,110 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>MotionScape with Amos Gyamfi</title>
+        <itunes:title>MotionScape with Amos Gyamfi</itunes:title>
+        <link>https://thebakery.dev/47/</link>
+        <pubDate>Mon, 21 Nov 2022 00:00:00 +0000</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/47/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>47</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/47-thedevelopersbakery-motionscape.m4a" length="17633656" type="audio/mpeg" />
+
+        <itunes:subtitle>Beautiful Swift UI animations on iOS with MotionScape and Amos Gyamfi</itunes:subtitle>
+        <itunes:summary>Beautiful Swift UI animations on iOS with MotionScape and Amos Gyamfi</itunes:summary>
+
+        
+        <description>
+            <![CDATA[It’s time to talk again about beautiful UI animations, but this time for iOS 🍎! It’s my pleasure to have Amos Gyamfi on stage to talk about MotionScape. Amos has a long history of building animations for iOS, and today he’s with us to talk about the challenges of building...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>It’s time to talk again about beautiful UI animations, but this time for <strong>iOS</strong> 🍎!</p>
+
+<p>It’s my pleasure to have <a href="https://twitter.com/amos_gyamfi"><strong>Amos Gyamfi</strong></a> on stage to talk about <a href="https://github.com/GetStream/motionscape-app"><strong>MotionScape</strong></a>.</p>
+
+<p>Amos has a long history of building animations for iOS, and today he’s with us to talk about the challenges of building animation. Thanks to MotionScape, you can easily preview and customize your animations on desktop and get the SwiftUI code to run it in your iOS app.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.19</strong> Amos’s Introduction</li>
+  <li><strong>03.33</strong> What is Motionscape?</li>
+  <li><strong>07.09</strong> What is SwiftUI?</li>
+  <li><strong>08.49</strong> Animating in the iOS world</li>
+  <li><strong>11.56</strong> How Amos got involved with animations?</li>
+  <li><strong>15.21</strong> The challenges of writing animations</li>
+  <li><strong>18.17</strong> How is this project related to Stream?</li>
+  <li><strong>21.13</strong> Are you looking for contributors?</li>
+  <li><strong>21.48</strong> Desktop app in SwiftUI?</li>
+  <li><strong>23.36</strong> Cross-platform support</li>
+  <li><strong>25.12</strong> Do you have tests?</li>
+  <li><strong>27.44</strong> What future for MotionScape?</li>
+  <li><strong>29.36</strong> Animation Interchange Format</li>
+  <li><strong>33.01</strong> How Amos got involved with Open Source?</li>
+  <li><strong>34.52</strong> Documentation</li>
+  <li><strong>36.14</strong> Effects Library &amp; Spring Animation Parameter</li>
+  <li><strong>39.21</strong> Animation Island</li>
+  <li><strong>41.00</strong> Further reading</li>
+  <li><strong>43.30</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/GetStream/motionscape-app">GetStream/motionscape-app on Github</a></li>
+  <li><i class="fab fa-app-store"></i> <a href="https://apps.apple.com/us/app/motionscape-animation-studio/id1616840951">MotionScape on the AppStore</a></li>
+  <li>Related Projects:
+    <ul>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/GetStream/effects-library">GetStream/effects-library on Github</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/GetStream/swiftui-spring-animations">GetStream/swiftui-spring-animations on Github</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/amosgyamfi/swiftui-animations-island">amosgyamfi/swiftui-animations-island on Github</a></li>
+    </ul>
+  </li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="/37">The Developers’ Bakery #37 - Lottie with Gabriel Peal</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://www.kiteapp.co/">Kite Compositor</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://www.hackingwithswift.com/100">100 Days of Swift</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://www.bigmountainstudio.com/animations-16">SwiftUI Animations Mastery - Big Mountain Studio</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/amos_gyamfi">@amos_gyamfi on Twitter</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/amosgyamfi">@amosgyamfi on Github</a></li>
+  <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/amosgyamfi/">Amos Gyamfi on LinkedIn</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/47-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>44:45</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Storybook with Norbert de Langen</title>

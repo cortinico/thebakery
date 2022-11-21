@@ -280,4 +280,10 @@ var store = [{
         "tags": [],
         "url": "/46/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#47 - MotionScape with Amos Gyamfi",
+        "excerpt":"It’s time to talk again about beautiful UI animations, but this time for iOS 🍎! It’s my pleasure to have Amos Gyamfi on stage to talk about MotionScape. Amos has a long history of building animations for iOS, and today he’s with us to talk about the challenges of building...","categories": [],
+        "tags": [],
+        "url": "/47/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

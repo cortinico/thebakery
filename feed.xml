@@ -1,4 +1,74 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2022-11-07T13:10:37+00:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#46 - Storybook with Norbert de Langen</title><link href="https://thebakery.dev/46/" rel="alternate" type="text/html" title="#46 - Storybook with Norbert de Langen" /><published>2022-11-07T00:00:00+00:00</published><updated>2022-11-07T00:00:00+00:00</updated><id>https://thebakery.dev/046-storybook</id><content type="html" xml:base="https://thebakery.dev/46/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2022-11-21T14:50:23+00:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#47 - MotionScape with Amos Gyamfi</title><link href="https://thebakery.dev/47/" rel="alternate" type="text/html" title="#47 - MotionScape with Amos Gyamfi" /><published>2022-11-21T00:00:00+00:00</published><updated>2022-11-21T00:00:00+00:00</updated><id>https://thebakery.dev/047-motionscape</id><content type="html" xml:base="https://thebakery.dev/47/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>It’s time to talk again about beautiful UI animations, but this time for <strong>iOS</strong> 🍎!</p>
+
+<p>It’s my pleasure to have <a href="https://twitter.com/amos_gyamfi"><strong>Amos Gyamfi</strong></a> on stage to talk about <a href="https://github.com/GetStream/motionscape-app"><strong>MotionScape</strong></a>.</p>
+
+<p>Amos has a long history of building animations for iOS, and today he’s with us to talk about the challenges of building animation. Thanks to MotionScape, you can easily preview and customize your animations on desktop and get the SwiftUI code to run it in your iOS app.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.19</strong> Amos’s Introduction</li>
+  <li><strong>03.33</strong> What is Motionscape?</li>
+  <li><strong>07.09</strong> What is SwiftUI?</li>
+  <li><strong>08.49</strong> Animating in the iOS world</li>
+  <li><strong>11.56</strong> How Amos got involved with animations?</li>
+  <li><strong>15.21</strong> The challenges of writing animations</li>
+  <li><strong>18.17</strong> How is this project related to Stream?</li>
+  <li><strong>21.13</strong> Are you looking for contributors?</li>
+  <li><strong>21.48</strong> Desktop app in SwiftUI?</li>
+  <li><strong>23.36</strong> Cross-platform support</li>
+  <li><strong>25.12</strong> Do you have tests?</li>
+  <li><strong>27.44</strong> What future for MotionScape?</li>
+  <li><strong>29.36</strong> Animation Interchange Format</li>
+  <li><strong>33.01</strong> How Amos got involved with Open Source?</li>
+  <li><strong>34.52</strong> Documentation</li>
+  <li><strong>36.14</strong> Effects Library &amp; Spring Animation Parameter</li>
+  <li><strong>39.21</strong> Animation Island</li>
+  <li><strong>41.00</strong> Further reading</li>
+  <li><strong>43.30</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/GetStream/motionscape-app">GetStream/motionscape-app on Github</a></li>
+  <li><i class="fab fa-app-store"></i> <a href="https://apps.apple.com/us/app/motionscape-animation-studio/id1616840951">MotionScape on the AppStore</a></li>
+  <li>Related Projects:
+    <ul>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/GetStream/effects-library">GetStream/effects-library on Github</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/GetStream/swiftui-spring-animations">GetStream/swiftui-spring-animations on Github</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/amosgyamfi/swiftui-animations-island">amosgyamfi/swiftui-animations-island on Github</a></li>
+    </ul>
+  </li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="/37">The Developers’ Bakery #37 - Lottie with Gabriel Peal</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://www.kiteapp.co/">Kite Compositor</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://www.hackingwithswift.com/100">100 Days of Swift</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://www.bigmountainstudio.com/animations-16">SwiftUI Animations Mastery - Big Mountain Studio</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/amos_gyamfi">@amos_gyamfi on Twitter</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/amosgyamfi">@amosgyamfi on Github</a></li>
+  <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/amosgyamfi/">Amos Gyamfi on LinkedIn</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Beautiful Swift UI animations on iOS with MotionScape and Amos Gyamfi]]></summary></entry><entry><title type="html">#46 - Storybook with Norbert de Langen</title><link href="https://thebakery.dev/46/" rel="alternate" type="text/html" title="#46 - Storybook with Norbert de Langen" /><published>2022-11-07T00:00:00+00:00</published><updated>2022-11-07T00:00:00+00:00</updated><id>https://thebakery.dev/046-storybook</id><content type="html" xml:base="https://thebakery.dev/46/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/18Sau8YO5Y3tVyGx4XfwBh?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <p>Today we talk about tools to build beautiful Web UIs! 💫</p>
 
@@ -589,71 +659,4 @@
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Obfuscation, Code-shrinking and optimizations with Proguard and James Hamilton]]></summary></entry><entry><title type="html">#37 - Lottie with Gabriel Peal</title><link href="https://thebakery.dev/37/" rel="alternate" type="text/html" title="#37 - Lottie with Gabriel Peal" /><published>2022-06-29T00:00:00+01:00</published><updated>2022-06-29T00:00:00+01:00</updated><id>https://thebakery.dev/037-lottie</id><content type="html" xml:base="https://thebakery.dev/37/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/2f92MWW0glqRJsTkUerjxv?utm_source=generator" width="100%" height="232" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-
-<p>Who doesn’t like animations?</p>
-
-<p>Thanks to <a href="https://airbnb.io/lottie/"><strong>Lottie</strong></a>, we can experience beautiful smooth animations on our mobile devices! Today we have on stage <a href="https://twitter.com/gpeal8"><strong>Gabriel Peal</strong></a>, maintainer of Lottie Android, to tell us about this project.</p>
-
-<p>We will start from how this project started, as a simple proof of concept inside AirBnB to become the <strong>industry standard</strong> for animations on mobile.</p>
-
-<p>We will discover how Lottie works internally and what’s coming next in the future of this project. Finally, as Gabriel is not at AirBnB anymore, we’ll talk about the challenges of maintainers and companies supporting OSS projects.</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.14</strong> Intro</li>
-  <li><strong>01.00</strong> Episode Start</li>
-  <li><strong>01.31</strong> Gabriel’s Introduction</li>
-  <li><strong>02.33</strong> What is Lottie?</li>
-  <li><strong>03.52</strong> What’s the story of Lottie?</li>
-  <li><strong>08.39</strong> Lottie Success Recipe</li>
-  <li><strong>10.07</strong> Lottie Internals</li>
-  <li><strong>11.24</strong> Challenges on Android</li>
-  <li><strong>15.32</strong> AfterFX feature support</li>
-  <li><strong>17.10</strong> If you were to rewrite Lottie, what would you do differently?</li>
-  <li><strong>21.24</strong> Lottie on other platforms</li>
-  <li><strong>23.37</strong> Who’s maintaining Lottie?</li>
-  <li><strong>26.43</strong> OSS projects coming from companies</li>
-  <li><strong>29.48</strong> Sponsorship stories</li>
-  <li><strong>32.32</strong> Lottie Foundation?</li>
-  <li><strong>37.56</strong> Upcoming features?</li>
-  <li><strong>42.54</strong> Further reading</li>
-  <li><strong>44.31</strong> Where to find Gabriel online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/airbnb/lottie-android">airbnb/lottie-android on Github</a></li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/airbnb/lottie-android">airbnb/lottie-ios on Github</a></li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/airbnb/lottie-android">airbnb/lottie-web on Github</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://airbnb.io/lottie/">Lottie Official Website</a></li>
-  <li>Mentioned Resources:
-    <ul>
-      <li><i class="fas fa-link"></i> <a href="https://lottiefiles.com/">Lottiefiles</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://lottielab.com/">Lottielab</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://exchange.adobe.com/creativecloud.details.12557.bodymovin.html">Bodymovin extension on Adobe Exchange</a></li>
-      <li><i class="fab fa-github"></i> <a href="https://github.com/airbnb/lottie-android">airbnb/lottie-android on Github</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://skia.org/docs/user/modules/skottie/">Skottie - Lottie Animation Player for Skia</a></li>
-      <li><i class="fab fa-github"></i> <a href="https://github.com/Samsung/rlottie">Samsung/rlottie on Github</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://airbnb.io/lottie/#/supported-features">Lottie - Supported AfterFX Feature Table</a></li>
-    </ul>
-  </li>
-  <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/watch?v=mNrx3cBI9N8">Lottie and the Language of Motion Design - Droidcon NYC 2017</a></li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/gpeal">@gpeal on Github</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/gpeal8">@gpeal8 on Twitter</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Who doesn't like animations? Let's discover how you can run smooth animations everywhere with Lottie and Gabriel Peal]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Obfuscation, Code-shrinking and optimizations with Proguard and James Hamilton]]></summary></entry></feed>
