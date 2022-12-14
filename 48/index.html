@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>#01 - Gradle Doctor with Nelson Osacky - The Developers’ Bakery</title>
-<meta name="description" content="Nelson presents gradle-doctor, a tool to get prescriptions for your inefficient Gradle build">
+<!-- begin _includes/seo.html --><title>#48 - MockK with Mattia Tommasone - The Developers’ Bakery</title>
+<meta name="description" content="Elegant Mocking in Kotlin with MockK and Mattia Tommasone">
 
 
   <meta name="author" content="The Developers' Bakery">
@@ -19,26 +19,26 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en">
 <meta property="og:site_name" content="The Developers' Bakery">
-<meta property="og:title" content="#01 - Gradle Doctor with Nelson Osacky">
-<meta property="og:url" content="https://thebakery.dev/01/">
+<meta property="og:title" content="#48 - MockK with Mattia Tommasone">
+<meta property="og:url" content="https://thebakery.dev/48/">
 
 
-  <meta property="og:description" content="Nelson presents gradle-doctor, a tool to get prescriptions for your inefficient Gradle build">
+  <meta property="og:description" content="Elegant Mocking in Kotlin with MockK and Mattia Tommasone">
 
 
 
-  <meta property="og:image" content="https://thebakery.dev/assets/images/episodes/01-cover.png">
+  <meta property="og:image" content="https://thebakery.dev/assets/images/episodes/48-cover.png">
 
 
 
   <meta name="twitter:site" content="@thebakerydev">
-  <meta name="twitter:title" content="#01 - Gradle Doctor with Nelson Osacky">
-  <meta name="twitter:description" content="Nelson presents gradle-doctor, a tool to get prescriptions for your inefficient Gradle build">
-  <meta name="twitter:url" content="https://thebakery.dev/01/">
+  <meta name="twitter:title" content="#48 - MockK with Mattia Tommasone">
+  <meta name="twitter:description" content="Elegant Mocking in Kotlin with MockK and Mattia Tommasone">
+  <meta name="twitter:url" content="https://thebakery.dev/48/">
 
   
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="https://thebakery.dev/assets/images/episodes/01-cover.png">
+    <meta name="twitter:image" content="https://thebakery.dev/assets/images/episodes/48-cover.png">
   
 
   
@@ -54,7 +54,7 @@
 
 
 
-  <meta property="article:published_time" content="2020-12-07T00:00:00+00:00">
+  <meta property="article:published_time" content="2022-12-14T00:00:00+00:00">
 
 
 
@@ -65,7 +65,7 @@
   
 
 
-<link rel="canonical" href="https://thebakery.dev/01/">
+<link rel="canonical" href="https://thebakery.dev/48/">
 
 
 
@@ -184,7 +184,7 @@
     <div class="wrapper">
       <h1 id="page-title" class="page__title" itemprop="headline">
         
-          #01 - Gradle Doctor with Nelson Osacky
+          #48 - MockK with Mattia Tommasone
 
         
       </h1>
@@ -340,9 +340,9 @@
 
 
   <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="#01 - Gradle Doctor with Nelson Osacky">
-    <meta itemprop="description" content="Nelson presents gradle-doctor, a tool to get prescriptions for your inefficient Gradle build">
-    <meta itemprop="datePublished" content="2020-12-07T00:00:00+00:00">
+    <meta itemprop="headline" content="#48 - MockK with Mattia Tommasone">
+    <meta itemprop="description" content="Elegant Mocking in Kotlin with MockK and Mattia Tommasone">
+    <meta itemprop="datePublished" content="2022-12-14T00:00:00+00:00">
     
 
     <div class="page__inner-wrap">
@@ -350,37 +350,59 @@
 
       <section class="page__content e-content" itemprop="text">
         
-        <iframe src="https://open.spotify.com/embed-podcast/episode/472S9FHpiOL3SmhR16ZxpZ" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-<p>In this episode, we talk about <a href="https://github.com/runningcode/gradle-doctor">Gradle Doctor</a> with its author Nelson Osacky. Gradle doctor helps you fix performance problems and errors in your Gradle build. The tool works as a Gradle plugin - emitting prescriptions for all the problems found. Nelson tells us how he came up with the idea behind this tool, and what the future is for Gradle Doctor.</p>
+<p>It’s time to talk about <em>Fake vs Mock</em> once for all!</p>
+
+<p>Today, we do have <a href="https://github.com/Raibaz"><strong>Mattia Tommasone</strong></a> on stage to talk about <a href="https://github.com/mockk/mockk"><strong>MockK</strong></a> a popular mocking framework for Kotlin.</p>
+
+<p>MockK allows you to write elegant tests thanks to its idiomatic DSL. Mattia had the opportunity to take over the maintainance of this library and he’s going to explain us how it works internally.</p>
+
+<p>But do we even need to mock at all? In this episode we’ll touch on when mocking is useful and when you should think twice before using it.</p>
 
 <p>Enjoy the show 👨‍🍳</p>
 
 <h1 id="show-notes">Show Notes</h1>
 
 <ul>
-  <li><strong>0:20</strong> Intro</li>
-  <li><strong>1:06</strong> Episode Start</li>
-  <li><strong>1:49</strong> Nelson’s Introduction</li>
-  <li><strong>04:22</strong>	What is Gradle Doctor?</li>
-  <li><strong>08:44</strong>	Remote build cache</li>
-  <li><strong>16:19</strong> <code class="language-plaintext highlighter-rouge">JAVA_HOME</code> madness</li>
-  <li><strong>21:36</strong>	The most common mistake in your build.gradle</li>
-  <li><strong>24:34</strong> Gradle Doctor and performance</li>
-  <li><strong>31:17</strong>	Extensibility</li>
-  <li><strong>33:12</strong>	The future of Gradle Doctor</li>
-  <li><strong>39:56</strong>	Where to find Nelson online?</li>
+  <li><strong>00.13</strong> Intro</li>
+  <li><strong>00.58</strong> Episode Start</li>
+  <li><strong>01.28</strong> Mattia’s Introduction</li>
+  <li><strong>05.34</strong> Mocking on the JVM</li>
+  <li><strong>09.24</strong> What is MockK?</li>
+  <li><strong>11.41</strong> Why the need for a new mocking library?</li>
+  <li><strong>14.31</strong> How mocking works internally?</li>
+  <li><strong>18.50</strong> Testing a mocking framework</li>
+  <li><strong>21.49</strong> MockK’s Performances</li>
+  <li><strong>24.46</strong> Multiplatform support</li>
+  <li><strong>27.03</strong> Fake vs Mock</li>
+  <li><strong>31.40</strong> Auto-detecting what to don’t mock</li>
+  <li><strong>32.51</strong> What’s next for MockK?</li>
+  <li><strong>35.26</strong> Looking for new maintainers</li>
+  <li><strong>38.32</strong> Hacktoberfest</li>
+  <li><strong>40.29</strong> Further reading</li>
+  <li><strong>45.16</strong> Where people can find you online?</li>
 </ul>
 
 <h1 id="resources">Resources</h1>
 
 <ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/runningcode/gradle-doctor">runningcode/gradle-doctor</a> on Github</li>
-  <li><i class="fab fa-github"></i> <a href="https://runningcode.github.io/gradle-doctor/">Gradle Doctor Documentation</a></li>
-  <li><i class="fab fa-medium"></i> How fast does my internet need to be to use the Gradle Remote Build Cache? - <a href="https://medium.com/swlh/how-fast-does-my-internet-need-to-be-to-use-the-gradle-remote-build-cache-part-1-4acaa6f9a2fa">Part 1</a> and <a href="https://medium.com/@runningcode/how-fast-does-my-internet-need-to-be-to-use-the-gradle-remote-build-cache-part-2-1bc2b171f19">Part 2</a></li>
-  <li><i class="fab fa-youtube"></i> The Secrets of the Build Scan Plugin and the internals of Gradle - <a href="https://www.youtube.com/watch?v=lgaqS0pmUzk">Video from Android Makers</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/nellyspageli">@nellyspageli on Twitter</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://osacky.com/">Nelson’s Website</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/mockk/mockk">mockk/mockk on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://mockk.io/">MockK Official Website</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-book"></i> <a href="http://www.growing-object-oriented-software.com/">Growing Object-Oriented Software Guided by Tests</a></li>
+      <li><i class="fas fa-book"></i> <a href="https://pragprog.com/titles/uboop/from-objects-to-functions/">From Objects to Functions</a></li>
+      <li>On mocking value objects:
+        <ul>
+          <li><i class="fas fa-link"></i> <a href="http://www.mockobjects.com/2007/04/test-smell-everything-is-mocked.html">Test Smell: Everything is mocked</a></li>
+          <li><i class="fas fa-link"></i> <a href="https://github.com/mockito/mockito/wiki/How-to-write-good-tests#dont-mock-value-objects">Don’t mock value objects - Mockito Docs</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/Raibaz">@Raibaz on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://github.com/Raibaz">@Raibaz on GitHub</a></li>
 </ul>
 
 <h1 id="show-links">Show links</h1>
@@ -404,7 +426,7 @@
 
         
 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Posted:</strong> <time class="dt-published" datetime="2020-12-07T00:00:00+00:00">December 7, 2020</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Posted:</strong> <time class="dt-published" datetime="2022-12-14T00:00:00+00:00">December 14, 2022</time></p>
 
       </footer>
 
@@ -413,23 +435,22 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?via=thebakerydev&text=%2301+-+Gradle+Doctor+with+Nelson+Osacky%20https%3A%2F%2Fthebakery.dev%2F01%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?via=thebakerydev&text=%2348+-+MockK+with+Mattia+Tommasone%20https%3A%2F%2Fthebakery.dev%2F48%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fthebakery.dev%2F01%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fthebakery.dev%2F48%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fthebakery.dev%2F01%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fthebakery.dev%2F48%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="/00/" class="pagination--pager" title="#00 - Show Trailer
+      <a href="/47/" class="pagination--pager" title="#47 - MotionScape with Amos Gyamfi
 ">Previous</a>
     
     
-      <a href="/02/" class="pagination--pager" title="#02 - Coil with Colin White
-">Next</a>
+      <a href="#" class="pagination--pager disabled">Next</a>
     
   </nav>
 
@@ -449,31 +470,6 @@
     <div class="page__related">
       <h2 class="page__related-title">You may also enjoy</h2>
       <div class="grid__wrapper">
-        
-          
-
-
-
-<div class="grid__item" style="position: relative">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    <div style="position:relative;">
-      
-        <div class="archive__item-teaser" style="background-image: url(https://thebakery.dev/assets/images/header-single-episode.png)"></div>
-      
-      <div class="archive__item_titlecontainer">
-        <h2 class="archive__item-title" itemprop="headline">
-            <a href="https://thebakery.dev/48/" rel="permalink">#48 - MockK with Mattia Tommasone
-</a>
-        </h2>
-        <h3 class="archive__date">14 Dec 2022</h3>
-      </div>
-    </div>
-    
-    <p class="archive__item-excerpt" itemprop="description">Elegant Mocking in Kotlin with MockK and Mattia Tommasone
-</p>
-  </article>
-</div>
-
         
           
 
@@ -545,6 +541,31 @@
     </div>
     
     <p class="archive__item-excerpt" itemprop="description">Elegant Android UI libraries and much more with Jaewoong Eum
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item" style="position: relative">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    <div style="position:relative;">
+      
+        <div class="archive__item-teaser" style="background-image: url(https://thebakery.dev/assets/images/header-single-episode.png)"></div>
+      
+      <div class="archive__item_titlecontainer">
+        <h2 class="archive__item-title" itemprop="headline">
+            <a href="https://thebakery.dev/44/" rel="permalink">#44 - OpenStreetMap with Said Turksever
+</a>
+        </h2>
+        <h3 class="archive__date">11 Oct 2022</h3>
+      </div>
+    </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">From open source to open data, with OpenStreetMap and Said Turksever
 </p>
   </article>
 </div>

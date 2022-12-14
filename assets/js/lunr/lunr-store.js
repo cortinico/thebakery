@@ -286,4 +286,10 @@ var store = [{
         "tags": [],
         "url": "/47/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#48 - MockK with Mattia Tommasone",
+        "excerpt":"It’s time to talk about Fake vs Mock once for all! Today, we do have Mattia Tommasone on stage to talk about MockK a popular mocking framework for Kotlin. MockK allows you to write elegant tests thanks to its idiomatic DSL. Mattia had the opportunity to take over the maintainance...","categories": [],
+        "tags": [],
+        "url": "/48/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]
