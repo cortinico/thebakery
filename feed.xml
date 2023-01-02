@@ -1,4 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2022-12-28T16:03:59+00:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#48 - MockK with Mattia Tommasone</title><link href="https://thebakery.dev/48/" rel="alternate" type="text/html" title="#48 - MockK with Mattia Tommasone" /><published>2022-12-14T00:00:00+00:00</published><updated>2022-12-14T00:00:00+00:00</updated><id>https://thebakery.dev/048-mockk</id><content type="html" xml:base="https://thebakery.dev/48/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2023-01-02T10:04:22+00:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#49 - Espanso with Federico Terzi</title><link href="https://thebakery.dev/49/" rel="alternate" type="text/html" title="#49 - Espanso with Federico Terzi" /><published>2023-01-02T00:00:00+00:00</published><updated>2023-01-02T00:00:00+00:00</updated><id>https://thebakery.dev/049-espanso</id><content type="html" xml:base="https://thebakery.dev/49/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>It’s time to expand our horizons in the <strong>text expander</strong> realm with <a href="https://github.com/espanso/espanso"><strong>Espanso</strong></a>! Today we have <a href="https://twitter.com/terzi_federico"><strong>Federico Terzi</strong></a> on stage to present his project, a cross-platform text expander entirely written in Rust 🦀.</p>
+
+<p>If you’re into automating every workflow, you probably know how crucial a text expander can be in helping you. Espanso is much more than a simple text expander, with support for complex patterns, forms, regexes and even a <a href="https://hub.espanso.org/">Hub</a> where you can share your patterns with others!</p>
+
+<p>I’m sure you’re going to love it!
+Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.07</strong> Intro</li>
+  <li><strong>00.53</strong> Episode Start</li>
+  <li><strong>01.30</strong> Federico’s Introduction</li>
+  <li><strong>02.21</strong> What is Espanso?</li>
+  <li><strong>03.30</strong> What does Espanso mean?</li>
+  <li><strong>03.58</strong> A bit of history</li>
+  <li><strong>06.39</strong> Espanso’s killer features</li>
+  <li><strong>09.15</strong> Federico’s daily routines</li>
+  <li><strong>10.32</strong> Canned responses</li>
+  <li><strong>11.29</strong> Espanso internals</li>
+  <li><strong>12.51</strong> How to replace the user’s input</li>
+  <li><strong>14.44</strong> Using Rust</li>
+  <li><strong>16.43</strong> Text expansion on Mobile</li>
+  <li><strong>19.21</strong> Elegant websites</li>
+  <li><strong>23.27</strong> The Espanso Hub</li>
+  <li><strong>25.23</strong> Hub’s hall of fame</li>
+  <li><strong>29.13</strong> The r/espanso Subreddit</li>
+  <li><strong>31.04</strong> Who is maintaining Espanso?</li>
+  <li><strong>35.03</strong> What’s next for Espanso?</li>
+  <li><strong>36.02</strong> Configuration: YAML vs UI</li>
+  <li><strong>38.04</strong> The current UI</li>
+  <li><strong>41.18</strong> Further reading</li>
+  <li><strong>43.08</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/espanso/espanso">espanso/espanso on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://espanso.org/">Espanso Official Website</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://hub.espanso.org/">The Espanso Hub</a></li>
+  <li>Mentioned packages:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://hub.espanso.org/translate-fr-en">Bidirectional French-English translation package</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://hub.espanso.org/typofixer-en">Typofixer-en package</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://hub.espanso.org/medical-docs">Medical Docs package</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/federico-terzi">@federico-terzi on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/terzi_federico">@terzi_federico on Twitter</a></li>
+  <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/c/FedericoTerzi">@FedericoTerzi on YouTube</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Expanding our horizons in the text expander worlds, with Espanso and Federico Terzi]]></summary></entry><entry><title type="html">#48 - MockK with Mattia Tommasone</title><link href="https://thebakery.dev/48/" rel="alternate" type="text/html" title="#48 - MockK with Mattia Tommasone" /><published>2022-12-14T00:00:00+00:00</published><updated>2022-12-14T00:00:00+00:00</updated><id>https://thebakery.dev/048-mockk</id><content type="html" xml:base="https://thebakery.dev/48/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/3Yy5np29cwqho3bGoS3Ggo?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <p>It’s time to talk about <em>Fake vs Mock</em> once for all!</p>
 
@@ -572,74 +636,4 @@
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[A special episode to talk about the infrastructure behind thebakery.dev with Nicola Corti]]></summary></entry><entry><title type="html">#39 - Docusaurus with Sébastien Lorber</title><link href="https://thebakery.dev/39/" rel="alternate" type="text/html" title="#39 - Docusaurus with Sébastien Lorber" /><published>2022-07-27T00:00:00+01:00</published><updated>2022-07-27T00:00:00+01:00</updated><id>https://thebakery.dev/039-docusaurus</id><content type="html" xml:base="https://thebakery.dev/39/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/4kMyyco0wwhhbqDCLJw8Wx?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-
-<p>The topic of today’s episode is all about <strong>Static Website Generators</strong>. I’m really excited to have on stage <a href="https://twitter.com/sebastienlorber"><strong>Sébastien Lorber</strong></a> to talk about  <a href="https://github.com/facebook/docusaurus"><strong>Docusaurus</strong></a> 🦕.</p>
-
-<p>There is nothing better than great software, than great software with great documentation!</p>
-
-<p>That’s why having a great <strong>documentation website</strong> is crucial for the success of a project. Docusaurus helps you build a great website for your project with great features such as full-text search, localization &amp; versioned docs.</p>
-
-<p>In this episode, Sébastien will walk us through the project and will give a sneak previous of the release of Docusaurus v2!</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.11</strong> Intro</li>
-  <li><strong>00.57</strong> Episode Start</li>
-  <li><strong>01.27</strong> Sébastien’s Introduction</li>
-  <li><strong>02.46</strong> Curating a Newsletter</li>
-  <li><strong>05.51</strong> What is Docusaurus?</li>
-  <li><strong>08.28</strong> Docusaurus’ killer features</li>
-  <li><strong>11.29</strong> Versioned Docs</li>
-  <li><strong>12.37</strong> Docusaurs vs Gatsby, Hugo &amp; Jekyll</li>
-  <li><strong>14.48</strong> What is missing in Docusaurus?</li>
-  <li><strong>18.19</strong> Beyond simple Markdown</li>
-  <li><strong>23.03</strong> MDX</li>
-  <li><strong>27.10</strong> Docusaurus 1 vs 2</li>
-  <li><strong>29.58</strong> Brace yourself: v2 Stable is coming!</li>
-  <li><strong>32.06</strong> Let’s spotlight some great website</li>
-  <li><strong>34.57</strong> How Sébastien got involved in the project</li>
-  <li><strong>37.55</strong> What’s up next in the future of Docusaurus?</li>
-  <li><strong>43.06</strong> Further reading</li>
-  <li><strong>44.51</strong> Where to find Sébastien online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/facebook/docusaurus">facebook/docusaurus on Github</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://docusaurus.io/">Docusaurus Official Website</a></li>
-  <li><i class="fab fa-discord"></i> <a href="https://discord.gg/docusaurus">Docusaurus Discord Server</a></li>
-  <li>Mentioned Features:
-    <ul>
-      <li><i class="fas fa-link"></i> <a href="https://docusaurus.io/docs/search">Integrated Search</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://docusaurus.io/docs/api/themes/configuration">Theming</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://docusaurus.io/docs/versioning">Versioning Docs</a></li>
-    </ul>
-  </li>
-  <li>Mentioned Projects:
-    <ul>
-      <li><i class="fas fa-link"></i> <a href="https://commonmark.org/">Commonmark</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://mdxjs.com/">MDX</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://remark.js.org/">Remark JS</a></li>
-    </ul>
-  </li>
-  <li><i class="fas fa-envelope-open-text"></i> <a href="https://thisweekinreact.com/">This week in React Newsletter</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://sebastienlorber.com/">Sébastien’s Website</a></li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/slorber">@slorber on GitHub</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/sebastienlorber">@sebastienlorber on Twitter</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Let's talk about Static Site Generator and Documentation with Sébastien Lorber and Docusaurus]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[A special episode to talk about the infrastructure behind thebakery.dev with Nicola Corti]]></summary></entry></feed>

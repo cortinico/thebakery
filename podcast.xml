@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Wed, 28 Dec 2022 16:03:59 +0000</lastBuildDate>
+<lastBuildDate>Mon, 02 Jan 2023 10:04:22 +0000</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,104 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Espanso with Federico Terzi</title>
+        <itunes:title>Espanso with Federico Terzi</itunes:title>
+        <link>https://thebakery.dev/49/</link>
+        <pubDate>Mon, 02 Jan 2023 00:00:00 +0000</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/49/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>49</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/49-thedevelopersbakery-espanso.m4a" length="17866336" type="audio/mpeg" />
+
+        <itunes:subtitle>Expanding our horizons in the text expander worlds, with Espanso and Federico Terzi</itunes:subtitle>
+        <itunes:summary>Expanding our horizons in the text expander worlds, with Espanso and Federico Terzi</itunes:summary>
+
+        
+        <description>
+            <![CDATA[It’s time to expand our horizons in the text expander realm with Espanso! Today we have Federico Terzi on stage to present his project, a cross-platform text expander entirely written in Rust 🦀. If you’re into automating every workflow, you probably know how crucial a text expander can be in...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>It’s time to expand our horizons in the <strong>text expander</strong> realm with <a href="https://github.com/espanso/espanso"><strong>Espanso</strong></a>! Today we have <a href="https://twitter.com/terzi_federico"><strong>Federico Terzi</strong></a> on stage to present his project, a cross-platform text expander entirely written in Rust 🦀.</p>
+
+<p>If you’re into automating every workflow, you probably know how crucial a text expander can be in helping you. Espanso is much more than a simple text expander, with support for complex patterns, forms, regexes and even a <a href="https://hub.espanso.org/">Hub</a> where you can share your patterns with others!</p>
+
+<p>I’m sure you’re going to love it!
+Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.07</strong> Intro</li>
+  <li><strong>00.53</strong> Episode Start</li>
+  <li><strong>01.30</strong> Federico’s Introduction</li>
+  <li><strong>02.21</strong> What is Espanso?</li>
+  <li><strong>03.30</strong> What does Espanso mean?</li>
+  <li><strong>03.58</strong> A bit of history</li>
+  <li><strong>06.39</strong> Espanso’s killer features</li>
+  <li><strong>09.15</strong> Federico’s daily routines</li>
+  <li><strong>10.32</strong> Canned responses</li>
+  <li><strong>11.29</strong> Espanso internals</li>
+  <li><strong>12.51</strong> How to replace the user’s input</li>
+  <li><strong>14.44</strong> Using Rust</li>
+  <li><strong>16.43</strong> Text expansion on Mobile</li>
+  <li><strong>19.21</strong> Elegant websites</li>
+  <li><strong>23.27</strong> The Espanso Hub</li>
+  <li><strong>25.23</strong> Hub’s hall of fame</li>
+  <li><strong>29.13</strong> The r/espanso Subreddit</li>
+  <li><strong>31.04</strong> Who is maintaining Espanso?</li>
+  <li><strong>35.03</strong> What’s next for Espanso?</li>
+  <li><strong>36.02</strong> Configuration: YAML vs UI</li>
+  <li><strong>38.04</strong> The current UI</li>
+  <li><strong>41.18</strong> Further reading</li>
+  <li><strong>43.08</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/espanso/espanso">espanso/espanso on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://espanso.org/">Espanso Official Website</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://hub.espanso.org/">The Espanso Hub</a></li>
+  <li>Mentioned packages:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://hub.espanso.org/translate-fr-en">Bidirectional French-English translation package</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://hub.espanso.org/typofixer-en">Typofixer-en package</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://hub.espanso.org/medical-docs">Medical Docs package</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/federico-terzi">@federico-terzi on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/terzi_federico">@terzi_federico on Twitter</a></li>
+  <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/c/FedericoTerzi">@FedericoTerzi on YouTube</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/49-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>45:19</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>MockK with Mattia Tommasone</title>

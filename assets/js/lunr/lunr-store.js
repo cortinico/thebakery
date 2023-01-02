@@ -292,4 +292,10 @@ var store = [{
         "tags": [],
         "url": "/48/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#49 - Espanso with Federico Terzi",
+        "excerpt":"It’s time to expand our horizons in the text expander realm with Espanso! Today we have Federico Terzi on stage to present his project, a cross-platform text expander entirely written in Rust 🦀. If you’re into automating every workflow, you probably know how crucial a text expander can be in...","categories": [],
+        "tags": [],
+        "url": "/49/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]
