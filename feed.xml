@@ -1,4 +1,77 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2023-01-02T10:04:22+00:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#49 - Espanso with Federico Terzi</title><link href="https://thebakery.dev/49/" rel="alternate" type="text/html" title="#49 - Espanso with Federico Terzi" /><published>2023-01-02T00:00:00+00:00</published><updated>2023-01-02T00:00:00+00:00</updated><id>https://thebakery.dev/049-espanso</id><content type="html" xml:base="https://thebakery.dev/49/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2023-01-17T13:06:51+00:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#50 - Open Source Day with Schrödinger Hat</title><link href="https://thebakery.dev/50/" rel="alternate" type="text/html" title="#50 - Open Source Day with Schrödinger Hat" /><published>2023-01-17T00:00:00+00:00</published><updated>2023-01-17T00:00:00+00:00</updated><id>https://thebakery.dev/050-open-source-day</id><content type="html" xml:base="https://thebakery.dev/50/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>We reached episode <strong>50</strong>! 🎂</p>
+
+<p>Time to celebrate with a <strong>special episode</strong>.</p>
+
+<p>Today we go from building Open Source Software to building <strong>Open Source Conferences</strong>!
+We have on stage <a href="https://twitter.com/DavideImola"><strong>Davide Imola</strong></a> and <a href="https://twitter.com/404answnotfound"><strong>Lorenzo Pieri</strong></a> directly from the <a href="https://www.schrodinger-hat.it/">Schrödinger Hat community</a>.</p>
+
+<p>They’re among the organizers of <a href="https://osday.dev/">Open Source Day</a> a Tech Conference about Open Source. The beauty of this conference is that everything is built in the open in <a href="https://github.com/Schrodinger-Hat/osday-2023/">their Github repo</a>. It’s amazing to see how the OSS philosophy can be used to develop events beyond just software.</p>
+
+<p>Join us in this episode as we walk through the challenges of organizing a tech conference in 2023.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.48</strong> Lorenzo’s Introduction</li>
+  <li><strong>02.37</strong> Davide’s Introduction</li>
+  <li><strong>03.19</strong> What is Schrödinger Hat?</li>
+  <li><strong>07.29</strong> What is Open Source Day?</li>
+  <li><strong>11.26</strong> What is making OS day unique?</li>
+  <li><strong>15.18</strong> Building conference as Open Source software</li>
+  <li><strong>17.58</strong> The Website</li>
+  <li><strong>23.50</strong> The Venue</li>
+  <li><strong>25.00</strong> The Call for Paper</li>
+  <li><strong>26.41</strong> The Sponsors</li>
+  <li><strong>31.47</strong> The Tickets</li>
+  <li><strong>36.31</strong> What’s your biggest fear when organizing a conference?</li>
+  <li><strong>41.30</strong> What have you learned for 2021 edition?</li>
+  <li><strong>48.32</strong> Are you inspired by any other conference?</li>
+  <li><strong>53.11</strong> How to contribute?</li>
+  <li><strong>55.09</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://osday.dev/">Open Source Day Website</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://www.eventbrite.it/e/open-source-day-2023-tickets-441134303577">Tickets for Open Source Day</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://sessionize.com/opensourceday23">CFP for Open Source Day</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/Schrodinger-Hat/osday-2023">Schrodinger-Hat/osday-2023 on Github</a></li>
+  <li>The Schrödinger Hat Community
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://www.schrodinger-hat.it/">Schrödinger Hat Official Website</a></li>
+      <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/schrodingerhat">@schrodingerhat on Twitter</a></li>
+      <li><i class="fab fa-facebook"></i> <a href="https://facebook.com/schrodingerhat">@schrodingerhat on Facebook</a></li>
+    </ul>
+  </li>
+  <li>Guest Contacts
+    <ul>
+      <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/404answnotfound">@404answnotfound on Twitter</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/404answernotfound">@404answernotfound on Github</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://404answernotfound.eu/">Lorenzo’s Website</a></li>
+      <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/DavideImola">@DavideImola on Twitter</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/davideimola">@davideimola on Github</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://www.davideimola.com/">Davide’s Website</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[From building Open Source Software to building Open Source Conferences with Schrödinger Hat]]></summary></entry><entry><title type="html">#49 - Espanso with Federico Terzi</title><link href="https://thebakery.dev/49/" rel="alternate" type="text/html" title="#49 - Espanso with Federico Terzi" /><published>2023-01-02T00:00:00+00:00</published><updated>2023-01-02T00:00:00+00:00</updated><id>https://thebakery.dev/049-espanso</id><content type="html" xml:base="https://thebakery.dev/49/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/5atkzI6OFZVArA2GmkmCXd?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <p>It’s time to expand our horizons in the <strong>text expander</strong> realm with <a href="https://github.com/espanso/espanso"><strong>Espanso</strong></a>! Today we have <a href="https://twitter.com/terzi_federico"><strong>Federico Terzi</strong></a> on stage to present his project, a cross-platform text expander entirely written in Rust 🦀.</p>
 
@@ -573,67 +646,4 @@ Enjoy the show 👨‍🍳</p>
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[MVI, State machines and DSLs with Gabriel, Hannes and FlowRedux]]></summary></entry><entry><title type="html">#40 - thebakery.dev with Nicola Corti</title><link href="https://thebakery.dev/40/" rel="alternate" type="text/html" title="#40 - thebakery.dev with Nicola Corti" /><published>2022-08-08T00:00:00+01:00</published><updated>2022-08-08T00:00:00+01:00</updated><id>https://thebakery.dev/040-thebakery.dev</id><content type="html" xml:base="https://thebakery.dev/40/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/5aFgYInCVBEoA3K1RsYbLF?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-
-<p>As with every 10 episodes, we’re back with a <strong>special episode</strong>! 🎁</p>
-
-<p>Today we’re talking about an open-source project which is a bit atypical: <a href="https://thebakery.dev"><strong>thebakery.dev</strong></a>. Exactly, we’re going to walk through the website and the infrastructure that is powering The Developers’ Bakery.</p>
-
-<p>Did you know that this podcast is fully open-source, self-hosted and running on GitHub pages?</p>
-
-<p>In this episode, I will walk you through all my <strong>secrets</strong> and <strong>automations</strong> that help me publish a podcast every other week!</p>
-
-<p>Do you have any feedback on the show so far? If so, drop me a message <a href="https://thebakery.dev/contact">either on the website</a> or <a href="https://twitter.com/thebakerydev">on Twitter</a>.</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.11</strong> Intro</li>
-  <li><strong>00.57</strong> Episode Start</li>
-  <li><strong>01.40</strong> thebakery.dev?</li>
-  <li><strong>03.38</strong> Jekyll</li>
-  <li><strong>04.13</strong> Github Pages</li>
-  <li><strong>04.59</strong> Minimal Mistakes</li>
-  <li><strong>07.35</strong> Formspree</li>
-  <li><strong>08.54</strong> Renovate</li>
-  <li><strong>11.10</strong> podcast.xml</li>
-  <li><strong>16.29</strong> The hosting</li>
-  <li><strong>23.53</strong> Podtrac</li>
-  <li><strong>28.44</strong> Automations</li>
-  <li><strong>31.54</strong> Ideas for the future</li>
-  <li><strong>36.12</strong> Looking for feedback :)</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/cortinico/thebakery">cortinico/thebakery on Github</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev/">thebakery.dev website (lol so recursive!)</a></li>
-  <li>Mentioned Resources:
-    <ul>
-      <li><i class="fas fa-link"></i> <a href="https://jekyllrb.com/">Jekyll - Static Website Generator</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://mmistakes.github.io/minimal-mistakes/">Minimal Mistakes Theme</a></li>
-      <li><i class="fab fa-github"></i> <a href="https://github.com/benbalter/jekyll-remote-theme">benbalter/jekyll-remote-theme on Github</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://formspree.io/">Formspree Contact Forms</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://renovatebot.com/">Renovate Bot</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://podcasters.apple.com/support/823-podcast-requirements">Apple - Podcast RSS feed requirements</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://podba.se/validate/">Podbase feed validator</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://www.castfeedvalidator.com/">Cast feed validator</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://firebase.google.com/docs/hosting/">Firebase Hosting Docs</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://analytics.podtrac.com/">Podtrac Analytics</a></li>
-    </ul>
-  </li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[A special episode to talk about the infrastructure behind thebakery.dev with Nicola Corti]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[MVI, State machines and DSLs with Gabriel, Hannes and FlowRedux]]></summary></entry></feed>

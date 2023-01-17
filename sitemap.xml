@@ -201,6 +201,10 @@
 <lastmod>2023-01-02T00:00:00+00:00</lastmod>
 </url>
 <url>
+<loc>https://thebakery.dev/50/</loc>
+<lastmod>2023-01-17T00:00:00+00:00</lastmod>
+</url>
+<url>
 <loc>https://thebakery.dev/about</loc>
 </url>
 <url>
@@ -244,5 +248,8 @@
 </url>
 <url>
 <loc>https://thebakery.dev/page10/</loc>
+</url>
+<url>
+<loc>https://thebakery.dev/page11/</loc>
 </url>
 </urlset>

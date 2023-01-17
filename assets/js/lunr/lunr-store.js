@@ -298,4 +298,10 @@ var store = [{
         "tags": [],
         "url": "/49/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#50 - Open Source Day with Schrödinger Hat",
+        "excerpt":"We reached episode 50! 🎂 Time to celebrate with a special episode. Today we go from building Open Source Software to building Open Source Conferences! We have on stage Davide Imola and Lorenzo Pieri directly from the Schrödinger Hat community. They’re among the organizers of Open Source Day a Tech...","categories": [],
+        "tags": [],
+        "url": "/50/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

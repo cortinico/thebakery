@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Mon, 02 Jan 2023 10:04:22 +0000</lastBuildDate>
+<lastBuildDate>Tue, 17 Jan 2023 13:06:51 +0000</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,113 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Open Source Day with Schrödinger Hat</title>
+        <itunes:title>Open Source Day with Schrödinger Hat</itunes:title>
+        <link>https://thebakery.dev/50/</link>
+        <pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/50/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>50</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/50-thedevelopersbakery-osday.m4a" length="22658477" type="audio/mpeg" />
+
+        <itunes:subtitle>From building Open Source Software to building Open Source Conferences with Schrödinger Hat</itunes:subtitle>
+        <itunes:summary>From building Open Source Software to building Open Source Conferences with Schrödinger Hat</itunes:summary>
+
+        
+        <description>
+            <![CDATA[We reached episode 50! 🎂 Time to celebrate with a special episode. Today we go from building Open Source Software to building Open Source Conferences! We have on stage Davide Imola and Lorenzo Pieri directly from the Schrödinger Hat community. They’re among the organizers of Open Source Day a Tech...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>We reached episode <strong>50</strong>! 🎂</p>
+
+<p>Time to celebrate with a <strong>special episode</strong>.</p>
+
+<p>Today we go from building Open Source Software to building <strong>Open Source Conferences</strong>!
+We have on stage <a href="https://twitter.com/DavideImola"><strong>Davide Imola</strong></a> and <a href="https://twitter.com/404answnotfound"><strong>Lorenzo Pieri</strong></a> directly from the <a href="https://www.schrodinger-hat.it/">Schrödinger Hat community</a>.</p>
+
+<p>They’re among the organizers of <a href="https://osday.dev/">Open Source Day</a> a Tech Conference about Open Source. The beauty of this conference is that everything is built in the open in <a href="https://github.com/Schrodinger-Hat/osday-2023/">their Github repo</a>. It’s amazing to see how the OSS philosophy can be used to develop events beyond just software.</p>
+
+<p>Join us in this episode as we walk through the challenges of organizing a tech conference in 2023.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.48</strong> Lorenzo’s Introduction</li>
+  <li><strong>02.37</strong> Davide’s Introduction</li>
+  <li><strong>03.19</strong> What is Schrödinger Hat?</li>
+  <li><strong>07.29</strong> What is Open Source Day?</li>
+  <li><strong>11.26</strong> What is making OS day unique?</li>
+  <li><strong>15.18</strong> Building conference as Open Source software</li>
+  <li><strong>17.58</strong> The Website</li>
+  <li><strong>23.50</strong> The Venue</li>
+  <li><strong>25.00</strong> The Call for Paper</li>
+  <li><strong>26.41</strong> The Sponsors</li>
+  <li><strong>31.47</strong> The Tickets</li>
+  <li><strong>36.31</strong> What’s your biggest fear when organizing a conference?</li>
+  <li><strong>41.30</strong> What have you learned for 2021 edition?</li>
+  <li><strong>48.32</strong> Are you inspired by any other conference?</li>
+  <li><strong>53.11</strong> How to contribute?</li>
+  <li><strong>55.09</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://osday.dev/">Open Source Day Website</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://www.eventbrite.it/e/open-source-day-2023-tickets-441134303577">Tickets for Open Source Day</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://sessionize.com/opensourceday23">CFP for Open Source Day</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/Schrodinger-Hat/osday-2023">Schrodinger-Hat/osday-2023 on Github</a></li>
+  <li>The Schrödinger Hat Community
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://www.schrodinger-hat.it/">Schrödinger Hat Official Website</a></li>
+      <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/schrodingerhat">@schrodingerhat on Twitter</a></li>
+      <li><i class="fab fa-facebook"></i> <a href="https://facebook.com/schrodingerhat">@schrodingerhat on Facebook</a></li>
+    </ul>
+  </li>
+  <li>Guest Contacts
+    <ul>
+      <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/404answnotfound">@404answnotfound on Twitter</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/404answernotfound">@404answernotfound on Github</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://404answernotfound.eu/">Lorenzo’s Website</a></li>
+      <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/DavideImola">@DavideImola on Twitter</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/davideimola">@davideimola on Github</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://www.davideimola.com/">Davide’s Website</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/50-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>58:22</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Espanso with Federico Terzi</title>
