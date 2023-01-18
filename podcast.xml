@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Tue, 17 Jan 2023 13:06:51 +0000</lastBuildDate>
+<lastBuildDate>Wed, 18 Jan 2023 18:27:32 +0000</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -111,7 +111,7 @@ We have on stage <a href="https://twitter.com/DavideImola"><strong>Davide Imola<
   <li>The Schrödinger Hat Community
     <ul>
       <li><i class="fas fa-link"></i> <a href="https://www.schrodinger-hat.it/">Schrödinger Hat Official Website</a></li>
-      <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/schrodingerhat">@schrodingerhat on Twitter</a></li>
+      <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/schrodinger_hat">@schrodinger_hat on Twitter</a></li>
       <li><i class="fab fa-facebook"></i> <a href="https://facebook.com/schrodingerhat">@schrodingerhat on Facebook</a></li>
     </ul>
   </li>
