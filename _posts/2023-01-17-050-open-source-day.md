@@ -69,7 +69,7 @@ Enjoy the show 👨‍🍳
 * <i class="fab fa-github"></i> [Schrodinger-Hat/osday-2023 on Github](https://github.com/Schrodinger-Hat/osday-2023)
 * The Schrödinger Hat Community
   * <i class="fas fa-link"></i> [Schrödinger Hat Official Website](https://www.schrodinger-hat.it/)
-  * <i class="fab fa-twitter"></i> [@schrodingerhat on Twitter](https://twitter.com/schrodingerhat)
+  * <i class="fab fa-twitter"></i> [@schrodinger_hat on Twitter](https://twitter.com/schrodinger_hat)
   * <i class="fab fa-facebook"></i> [@schrodingerhat on Facebook](https://facebook.com/schrodingerhat)
 * Guest Contacts
   * <i class="fab fa-twitter"></i> [@404answnotfound on Twitter](https://twitter.com/404answnotfound)
