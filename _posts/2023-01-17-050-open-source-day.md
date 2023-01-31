@@ -25,7 +25,7 @@ podcast_duration: "58:22"
 podcast_length: 22658477
 ---
 
-<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/0LyS73qvlvJLIZ9Nt2AI0K?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 We reached episode **50**! 🎂
 
