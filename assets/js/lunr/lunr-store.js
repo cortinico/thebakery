@@ -304,4 +304,10 @@ var store = [{
         "tags": [],
         "url": "/50/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#51 - MetalLB with Federico Paolinelli",
+        "excerpt":"Today we talk about cloud ☁️ as we have on stage Federico Paolinelli from Red Hat to talk us about MetalLB. MetalLB is a load balancer for Kubernetes instances deployed on bare metal. If you like me are curious to learn what this means, what is Kubernetes, why do you...","categories": [],
+        "tags": [],
+        "url": "/51/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]
