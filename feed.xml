@@ -1,4 +1,61 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2023-01-31T12:49:22+00:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#51 - MetalLB with Federico Paolinelli</title><link href="https://thebakery.dev/51/" rel="alternate" type="text/html" title="#51 - MetalLB with Federico Paolinelli" /><published>2023-01-31T00:00:00+00:00</published><updated>2023-01-31T00:00:00+00:00</updated><id>https://thebakery.dev/051-metallb</id><content type="html" xml:base="https://thebakery.dev/51/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2023-02-14T16:13:31+00:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#52 - RSS-Parser with Marco Gomiero</title><link href="https://thebakery.dev/52/" rel="alternate" type="text/html" title="#52 - RSS-Parser with Marco Gomiero" /><published>2023-02-14T00:00:00+00:00</published><updated>2023-02-14T00:00:00+00:00</updated><id>https://thebakery.dev/052-rss-parser</id><content type="html" xml:base="https://thebakery.dev/52/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>We’re back in the Kotlin world with <a href="https://twitter.com/marcoGomier"><strong>Marco Gomiero</strong></a> and his library <a href="https://github.com/prof18/RSS-Parser"><strong>RSS-Parser</strong></a> for, you guessed it, parsing RSS feeds.</p>
+
+<p>Marco will walk us through how this library helped him to get started in the OSS world and helped him land his first job!</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.26</strong> Marco’s Introduction</li>
+  <li><strong>03.18</strong> What is RSS-Parser?</li>
+  <li><strong>04.44</strong> How RSS-Parser is different from a XML parser?</li>
+  <li><strong>07.03</strong> Whick Kotlin features have you used?</li>
+  <li><strong>09.21</strong> Using coroutines from Java</li>
+  <li><strong>10.54</strong> JVM vs Android libraries</li>
+  <li><strong>12.20</strong> RSS-Parsing in the Multiplatform world</li>
+  <li><strong>14.05</strong> Any design decision you regret?</li>
+  <li><strong>17.22</strong> What’s the history of this library?</li>
+  <li><strong>23.05</strong> How Marco got started with OSS?</li>
+  <li><strong>24.39</strong> Publishing to Maven Central</li>
+  <li><strong>30.32</strong> Meaningful external contributions</li>
+  <li><strong>33.13</strong> Sponsorships</li>
+  <li><strong>33.53</strong> What’s next for this library?</li>
+  <li><strong>35.09</strong> Further reading</li>
+  <li><strong>36.36</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/prof18/RSS-Parser">prof18/RSS-Parser on Github</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://www.marcogomiero.com/posts/2019/asynctask-to-coroutines/">A journey from Async Task to Kotlin Coroutines</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://www.marcogomiero.com/posts/2018/bye-async-task/">RSS Parser 2.0: bye bye Async Task, welcome Coroutines</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/vanniktech/gradle-maven-publish-plugin">vanniktech/gradle-maven-publish-plugin on Github</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/marcoGomier">@marcoGomier on Twitter</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/prof18">@prof18 on Github</a></li>
+  <li><i class="fab fa-mastodon"></i> <a href="https://androiddev.social/@marcogom">@marcogom on Mastodon</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://www.marcogomiero.com">Marco’s Website</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[From Parsing RSS feeds to Kotlin Multiplatform with Marco Gomiero]]></summary></entry><entry><title type="html">#51 - MetalLB with Federico Paolinelli</title><link href="https://thebakery.dev/51/" rel="alternate" type="text/html" title="#51 - MetalLB with Federico Paolinelli" /><published>2023-01-31T00:00:00+00:00</published><updated>2023-01-31T00:00:00+00:00</updated><id>https://thebakery.dev/051-metallb</id><content type="html" xml:base="https://thebakery.dev/51/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/5UCf9uS0e9OnMCpZCObWkV?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <p>Today we talk about <strong>cloud</strong> ☁️ as we have on stage <a href="https://twitter.com/fedepaol"><strong>Federico Paolinelli</strong></a> from Red Hat to talk us about <a href="https://github.com/metallb/metallb"><strong>MetalLB</strong></a>.</p>
 
@@ -576,67 +633,4 @@ Enjoy the show 👨‍🍳</p>
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[A sneak peak to the Kotlin Multiplatform ecosystem with Kevin Galligan and KaMPKit]]></summary></entry><entry><title type="html">#42 - Kscript with Marcin Kuszczak</title><link href="https://thebakery.dev/42/" rel="alternate" type="text/html" title="#42 - Kscript with Marcin Kuszczak" /><published>2022-09-05T00:00:00+01:00</published><updated>2022-09-05T00:00:00+01:00</updated><id>https://thebakery.dev/042-kscript</id><content type="html" xml:base="https://thebakery.dev/42/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/6YfvvkuT93RxMSBbabrjxA?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<p>As teased in <a href="https://thebakery.dev/40/">episode 40</a>, today we’re going to have on stage <a href="https://github.com/kscripting/kscript"><strong>Kscript</strong></a> and <a href="https://github.com/aartiPl"><strong>Marcin Kuszczak</strong></a>!</p>
-
-<p>Kscript brings the power of Kotlin to the scripting world. It makes writing scripts a pleasure thanks to the elegant Kotlin APIs, and allows you to directly use tons of libraries and dependencies from the Maven ecosystem.</p>
-
-<p>Kscript recently moved under the <a href="https://github.com/kscripting">kscripting</a> organization and Marcin is here on stage to tell us about the future of this project.</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.00</strong> Intro</li>
-  <li><strong>00.45</strong> Episode Start</li>
-  <li><strong>01.01</strong> Marcin’s Introduction</li>
-  <li><strong>01.40</strong> What is Kscript?</li>
-  <li><strong>02.33</strong> Why using Kotlin for scripting?</li>
-  <li><strong>04.08</strong> Brief history of Kscript</li>
-  <li><strong>06.31</strong> Differences between Kscript and Kotlin Scripting</li>
-  <li><strong>08.19</strong> How portable is Kscript?</li>
-  <li><strong>11.08</strong> Compiled languages &amp; Caching</li>
-  <li><strong>13.51</strong> What happens when you invoke Kscript?</li>
-  <li><strong>15.48</strong> Why using Kscript?</li>
-  <li><strong>17.34</strong> @DependsOn external libraries</li>
-  <li><strong>19.56</strong> IDE Support</li>
-  <li><strong>22.26</strong> kscript –idea</li>
-  <li><strong>23.37</strong> Who’s maintaining Kscript today?</li>
-  <li><strong>25.17</strong> How you got involved in this project?</li>
-  <li><strong>28.45</strong> The kscripting org and new projects</li>
-  <li><strong>32.27</strong> Invoking external commands</li>
-  <li><strong>34.56</strong> What’s next in the future of Kscript?</li>
-  <li><strong>37.09</strong> Where to connect with other Kscript users?</li>
-  <li><strong>38.14</strong> What’s the best way to contribute to Kscript?</li>
-  <li><strong>40.36</strong> Further reading</li>
-  <li><strong>41.28</strong> Where people can find you online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/kscripting/kscript">kscripting/kscript on Github</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://github.com/kscripting/kscript/blob/master/docs/user_guide.md">Kscript User Guide</a></li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/orgs/kscripting/discussions">Kscripting Discussion Board</a></li>
-  <li><i class="fab fa-slack"></i> <a href="https://kotlinlang.slack.com/archives/C0BT46EL8">#scripting on Kotlinlang Slack</a> (get an <a href="https://surveys.jetbrains.com/s3/kotlin-slack-sign-up">invite here</a>).</li>
-  <li>Talk: Scripting Enhancements for Kotlin - KotlinConf 2017
-    <ul>
-      <li><i class="fab fa-slideshare"></i> <a href="https://holgerbrandl.github.io/kscript_kotlinconf_2017/kscript_kotlinconf.html">Slides</a></li>
-      <li><i class="fab fa-youtube"></i> <a href="https://youtu.be/cOJPKhlRa8c">Video</a></li>
-    </ul>
-  </li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/aartiPl">@aartiPl on Github</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Kotlin meets scripting with Kscript, on show in this episode together with Marcin Kuszczak]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[A sneak peak to the Kotlin Multiplatform ecosystem with Kevin Galligan and KaMPKit]]></summary></entry></feed>

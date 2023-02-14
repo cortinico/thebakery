@@ -310,4 +310,10 @@ var store = [{
         "tags": [],
         "url": "/51/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#52 - RSS-Parser with Marco Gomiero",
+        "excerpt":"We’re back in the Kotlin world with Marco Gomiero and his library RSS-Parser for, you guessed it, parsing RSS feeds. Marco will walk us through how this library helped him to get started in the OSS world and helped him land his first job! Enjoy the show 👨‍🍳 Show Notes...","categories": [],
+        "tags": [],
+        "url": "/52/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]
