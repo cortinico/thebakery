@@ -316,4 +316,10 @@ var store = [{
         "tags": [],
         "url": "/52/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#53 - thanks.dev with Armin Nehzat",
+        "excerpt":"Today we don’t talk about a specific Open Source project, but about a tool that can help us build a more sustainable ecosystem: thanks.dev. I have the pleasure to have on stage Armin Nehzat, Growth Officer of thanks.dev, a donation and sponsoring platform for open-source projects. The key feature of...","categories": [],
+        "tags": [],
+        "url": "/53/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

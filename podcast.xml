@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Tue, 14 Feb 2023 16:13:31 +0000</lastBuildDate>
+<lastBuildDate>Tue, 28 Feb 2023 11:09:27 +0000</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,104 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>thanks.dev with Armin Nehzat</title>
+        <itunes:title>thanks.dev with Armin Nehzat</itunes:title>
+        <link>https://thebakery.dev/53/</link>
+        <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/53/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>53</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/53-thedevelopersbakery-thanksdev.m4a" length="16167968" type="audio/mpeg" />
+
+        <itunes:subtitle>A more sustainable sponsoring model with thanks.dev and Armin Nehzat</itunes:subtitle>
+        <itunes:summary>A more sustainable sponsoring model with thanks.dev and Armin Nehzat</itunes:summary>
+
+        
+        <description>
+            <![CDATA[Today we don’t talk about a specific Open Source project, but about a tool that can help us build a more sustainable ecosystem: thanks.dev. I have the pleasure to have on stage Armin Nehzat, Growth Officer of thanks.dev, a donation and sponsoring platform for open-source projects. The key feature of...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>Today we don’t talk about a specific Open Source project, but about a tool that can help us build a more sustainable ecosystem: <a href="https://thanks.dev"><strong>thanks.dev</strong></a>.</p>
+
+<p>I have the pleasure to have on stage <a href="https://twitter.com/anehzat"><strong>Armin Nehzat</strong></a>, Growth Officer of thanks.dev, a donation and sponsoring platform for open-source projects.</p>
+
+<p>The key feature of thanks.dev is how it manages to scan your <strong>dependency tree</strong> and discovers all the projects you build on top, so you can split your donations to all of them. Similarly as a maintainer, you can get a fraction of a donation, even if you’re down in the dependency chain of someone else.</p>
+
+<p>Join us in this episode as Armin walk us through the challenges of connecting donors with maintainers in a sustainable way.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.27</strong> Armin’s Introduction</li>
+  <li><strong>02.43</strong> What is thanks.dev?</li>
+  <li><strong>03.46</strong> The model behind thanks.dev</li>
+  <li><strong>05.45</strong> Donating to transitive dependencies</li>
+  <li><strong>07.38</strong> Single donors vs companies</li>
+  <li><strong>09.51</strong> Microdonations</li>
+  <li><strong>11.02</strong> Why should a maintainer join thanks.dev</li>
+  <li><strong>12.50</strong> Transfering donations</li>
+  <li><strong>13.49</strong> Which languages you support?</li>
+  <li><strong>15.25</strong> Kotlin &amp; the dependency graph</li>
+  <li><strong>17.20</strong> Renovate bot</li>
+  <li><strong>18.13</strong> Is thanks.dev open source?</li>
+  <li><strong>19.07</strong> How many maintainers joined thanks.dev?</li>
+  <li><strong>20.00</strong> Finding maintainers</li>
+  <li><strong>21.41</strong> Maintainers and self promotion</li>
+  <li><strong>23.04</strong> Big players already on the platform</li>
+  <li><strong>24.10</strong> The story behind thanks.dev</li>
+  <li><strong>25.47</strong> The ‘Open Source Support’ fee</li>
+  <li><strong>26.54</strong> How is developing thanks.dev?</li>
+  <li><strong>27.59</strong> The future of thanks.dev</li>
+  <li><strong>30.50</strong> Premium features for supporters</li>
+  <li><strong>35.04</strong> Further reading</li>
+  <li><strong>36.36</strong> Burnout in the OSS community</li>
+  <li><strong>39.07</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thanks.dev/">Thanks.dev Official Website</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://thanks.dev/static/why">Why thanks.dev</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://thanks.dev/static/vision-mission">The thanks.dev Mission</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thanks_dev">@thanks_dev on Twitter</a></li>
+  <li><i class="fab fa-discord"></i> <a href="https://discord.com/invite/fQGqvQdWxq">Thanks.dev Discord server</a></li>
+  <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/arminnehzat">Armin Nehzat on LinkedIn</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/anehzat">@anehzat on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/53-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>40:42</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>RSS-Parser with Marco Gomiero</title>

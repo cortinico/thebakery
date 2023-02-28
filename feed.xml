@@ -1,4 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2023-02-14T16:13:31+00:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#52 - RSS-Parser with Marco Gomiero</title><link href="https://thebakery.dev/52/" rel="alternate" type="text/html" title="#52 - RSS-Parser with Marco Gomiero" /><published>2023-02-14T00:00:00+00:00</published><updated>2023-02-14T00:00:00+00:00</updated><id>https://thebakery.dev/052-rss-parser</id><content type="html" xml:base="https://thebakery.dev/52/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2023-02-28T11:09:27+00:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#53 - thanks.dev with Armin Nehzat</title><link href="https://thebakery.dev/53/" rel="alternate" type="text/html" title="#53 - thanks.dev with Armin Nehzat" /><published>2023-02-28T00:00:00+00:00</published><updated>2023-02-28T00:00:00+00:00</updated><id>https://thebakery.dev/053-thanks.dev</id><content type="html" xml:base="https://thebakery.dev/53/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>Today we don’t talk about a specific Open Source project, but about a tool that can help us build a more sustainable ecosystem: <a href="https://thanks.dev"><strong>thanks.dev</strong></a>.</p>
+
+<p>I have the pleasure to have on stage <a href="https://twitter.com/anehzat"><strong>Armin Nehzat</strong></a>, Growth Officer of thanks.dev, a donation and sponsoring platform for open-source projects.</p>
+
+<p>The key feature of thanks.dev is how it manages to scan your <strong>dependency tree</strong> and discovers all the projects you build on top, so you can split your donations to all of them. Similarly as a maintainer, you can get a fraction of a donation, even if you’re down in the dependency chain of someone else.</p>
+
+<p>Join us in this episode as Armin walk us through the challenges of connecting donors with maintainers in a sustainable way.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.27</strong> Armin’s Introduction</li>
+  <li><strong>02.43</strong> What is thanks.dev?</li>
+  <li><strong>03.46</strong> The model behind thanks.dev</li>
+  <li><strong>05.45</strong> Donating to transitive dependencies</li>
+  <li><strong>07.38</strong> Single donors vs companies</li>
+  <li><strong>09.51</strong> Microdonations</li>
+  <li><strong>11.02</strong> Why should a maintainer join thanks.dev</li>
+  <li><strong>12.50</strong> Transfering donations</li>
+  <li><strong>13.49</strong> Which languages you support?</li>
+  <li><strong>15.25</strong> Kotlin &amp; the dependency graph</li>
+  <li><strong>17.20</strong> Renovate bot</li>
+  <li><strong>18.13</strong> Is thanks.dev open source?</li>
+  <li><strong>19.07</strong> How many maintainers joined thanks.dev?</li>
+  <li><strong>20.00</strong> Finding maintainers</li>
+  <li><strong>21.41</strong> Maintainers and self promotion</li>
+  <li><strong>23.04</strong> Big players already on the platform</li>
+  <li><strong>24.10</strong> The story behind thanks.dev</li>
+  <li><strong>25.47</strong> The ‘Open Source Support’ fee</li>
+  <li><strong>26.54</strong> How is developing thanks.dev?</li>
+  <li><strong>27.59</strong> The future of thanks.dev</li>
+  <li><strong>30.50</strong> Premium features for supporters</li>
+  <li><strong>35.04</strong> Further reading</li>
+  <li><strong>36.36</strong> Burnout in the OSS community</li>
+  <li><strong>39.07</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thanks.dev/">Thanks.dev Official Website</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://thanks.dev/static/why">Why thanks.dev</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://thanks.dev/static/vision-mission">The thanks.dev Mission</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thanks_dev">@thanks_dev on Twitter</a></li>
+  <li><i class="fab fa-discord"></i> <a href="https://discord.com/invite/fQGqvQdWxq">Thanks.dev Discord server</a></li>
+  <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/arminnehzat">Armin Nehzat on LinkedIn</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/anehzat">@anehzat on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[A more sustainable sponsoring model with thanks.dev and Armin Nehzat]]></summary></entry><entry><title type="html">#52 - RSS-Parser with Marco Gomiero</title><link href="https://thebakery.dev/52/" rel="alternate" type="text/html" title="#52 - RSS-Parser with Marco Gomiero" /><published>2023-02-14T00:00:00+00:00</published><updated>2023-02-14T00:00:00+00:00</updated><id>https://thebakery.dev/052-rss-parser</id><content type="html" xml:base="https://thebakery.dev/52/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 <p>We’re back in the Kotlin world with <a href="https://twitter.com/marcoGomier"><strong>Marco Gomiero</strong></a> and his library <a href="https://github.com/prof18/RSS-Parser"><strong>RSS-Parser</strong></a> for, you guessed it, parsing RSS feeds.</p>
 
@@ -575,62 +639,4 @@ Enjoy the show 👨‍🍳</p>
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[From open source to open data, with OpenStreetMap and Said Turksever]]></summary></entry><entry><title type="html">#43 - KaMPKit with Kevin Galligan</title><link href="https://thebakery.dev/43/" rel="alternate" type="text/html" title="#43 - KaMPKit with Kevin Galligan" /><published>2022-09-26T00:00:00+01:00</published><updated>2022-09-26T00:00:00+01:00</updated><id>https://thebakery.dev/043-kampkit</id><content type="html" xml:base="https://thebakery.dev/43/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/5I1eCQpXAfaRxUKOCCzUxg?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<p>Today we venture in the mobile cross-platform world with <a href="https://twitter.com/kpgalligan"><strong>Kevin Galligan</strong></a> from TouchLab.</p>
-
-<p>Kevin has been using and advocating Kotlin Multiplatform since the early days! Together with TouchLab they’ve released tools and libraries that are crucial to the development of the Kotlin Multiplatform ecosystem.</p>
-
-<p>Today, Kevin in on-stage to talk to us about <a href="https://github.com/touchlab/KaMPKit"><strong>KaMPKit</strong></a>, a collection of samples and tools to get you started quickly with Kotlin Multiplatform.</p>
-
-<p>We’re going to touch on where Kotlin Multiplatform is placed today and how TouchLab released the Droidcon NYC app with 100% (for both Android &amp; iOS!).</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.27</strong> Intro</li>
-  <li><strong>01.13</strong> Episode Start</li>
-  <li><strong>01.40</strong> Kevin’s Introduction</li>
-  <li><strong>03.24</strong> What is KamMPKit?</li>
-  <li><strong>06.23</strong> What is Kotlin Multiplatform?</li>
-  <li><strong>09.11</strong> KMP vs KMM</li>
-  <li><strong>10.36</strong> How can KaMPKit help you?</li>
-  <li><strong>14.06</strong> The biggest friction with adopting KMP</li>
-  <li><strong>18.33</strong> The biggest selling point for KMP</li>
-  <li><strong>23.18</strong> Shared UI with Kotlin Multiplatform</li>
-  <li><strong>32.35</strong> KMP in production at TouchLab</li>
-  <li><strong>36.04</strong> Biggest players in the KMP space</li>
-  <li><strong>40.27</strong> Brownfield applications and KaMPKit</li>
-  <li><strong>45.59</strong> Which future for KaMPKit?</li>
-  <li><strong>48.54</strong> How can people contribute to KaMPKit?</li>
-  <li><strong>51.19</strong> Further reading</li>
-  <li><strong>54.44</strong> Where people can find you online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/touchlab/KaMPKit">touchlab/KaMPKit on Github</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://touchlab.co/">TouchLab Official Website</a></li>
-  <li>Mentioned Resources:
-    <ul>
-      <li><i class="fas fa-link"></i> <a href="https://touchlab.co/droidcon-nyc-ios-app-with-compose/">Blogpost - Droidcon NYC iOS app with Compose</a></li>
-      <li><i class="fab fa-github"></i> <a href="https://github.com/touchlab/DroidconKotlin">touchlab/DroidconKotlin on Github</a></li>
-    </ul>
-  </li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/kpgalligan">@kpgalligan on Github</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/kpgalligan">@kpgalligan on Twitter</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[A sneak peak to the Kotlin Multiplatform ecosystem with Kevin Galligan and KaMPKit]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[From open source to open data, with OpenStreetMap and Said Turksever]]></summary></entry></feed>
