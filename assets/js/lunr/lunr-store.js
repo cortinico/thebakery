@@ -322,4 +322,10 @@ var store = [{
         "tags": [],
         "url": "/53/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#54 - conc with Camden Cheek",
+        "excerpt":"Today we talk about Golang! On stage we have Camden Cheek, the creator of conc a library for structured concurrency in Go. Camden will walk us through what are the common pitfalls of Go’s concurrency model and how conc can help you to write better and safer goroutines. We will...","categories": [],
+        "tags": [],
+        "url": "/54/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

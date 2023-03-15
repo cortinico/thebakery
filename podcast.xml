@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Tue, 07 Mar 2023 01:06:27 +0000</lastBuildDate>
+<lastBuildDate>Wed, 15 Mar 2023 13:55:24 +0000</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,100 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>conc with Camden Cheek</title>
+        <itunes:title>conc with Camden Cheek</itunes:title>
+        <link>https://thebakery.dev/54/</link>
+        <pubDate>Mon, 13 Mar 2023 00:00:00 +0000</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/54/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>54</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/54-thedevelopersbakery-conc.m4a" length="15592622" type="audio/mpeg" />
+
+        <itunes:subtitle>Structured concurrency in Go with conc and Camden Cheek</itunes:subtitle>
+        <itunes:summary>Structured concurrency in Go with conc and Camden Cheek</itunes:summary>
+
+        
+        <description>
+            <![CDATA[Today we talk about Golang! On stage we have Camden Cheek, the creator of conc a library for structured concurrency in Go. Camden will walk us through what are the common pitfalls of Go’s concurrency model and how conc can help you to write better and safer goroutines. We will...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>Today we talk about Golang! On stage we have <a href="https://twitter.com/camden_cheek"><strong>Camden Cheek</strong></a>, the creator of <a href="https://github.com/sourcegraph/conc"><strong>conc</strong></a> a library for structured concurrency in Go.</p>
+
+<p>Camden will walk us through what are the common pitfalls of Go’s concurrency model and how conc can help you to write better and safer goroutines. We will touch on how this library started within Sourcegraph and how it gained so much popularity so quickly.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.15</strong> Camden’s Introduction</li>
+  <li><strong>01.50</strong> What is Conc?</li>
+  <li><strong>03.00</strong> The most common mistake for Go developers</li>
+  <li><strong>04.44</strong> Wrapping the go std</li>
+  <li><strong>07.32</strong> Camden’s favorite API</li>
+  <li><strong>09.19</strong> Why is this library not part of Go already?</li>
+  <li><strong>11.55</strong> How is golang evolving?</li>
+  <li><strong>12.58</strong> The golang team</li>
+  <li><strong>13.48</strong> What inspired conc?</li>
+  <li><strong>16.20</strong> Concurrency in other programming languages</li>
+  <li><strong>18.36</strong> Conc &amp; the fail fast philosophy</li>
+  <li><strong>24.15</strong> The history of Conc</li>
+  <li><strong>25.47</strong> Who’s using conc?</li>
+  <li><strong>26.47</strong> Who’s maintaining conc?</li>
+  <li><strong>27.45</strong> How Camden got started with OSS?</li>
+  <li><strong>30.32</strong> #1 suggestion for new contributors</li>
+  <li><strong>31.08</strong> What’s next for conc?</li>
+  <li><strong>32.39</strong> Having a public roadmap?</li>
+  <li><strong>34.53</strong> Onboarding extrenal maintainers</li>
+  <li><strong>36.37</strong> Further reading</li>
+  <li><strong>38.01</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/sourcegraph/conc">sourcegraph/conc on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://pkg.go.dev/github.com/sourcegraph/conc">conc on pkg.go.dev</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://about.sourcegraph.com/blog/building-conc-better-structured-concurrency-for-go">Building conc: Better structured concurrency for Go</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://vorpus.org/blog/notes-on-structured-concurrency-or-go-statement-considered-harmful/">Notes on structured concurrency, or: Go statement considered harmful</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/camden_cheek">@camden_cheek on Twitter</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/camdencheek">@camdencheek on Github</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/54-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>TODO</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>thanks.dev with Armin Nehzat</title>
