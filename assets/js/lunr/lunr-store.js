@@ -328,4 +328,10 @@ var store = [{
         "tags": [],
         "url": "/54/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#55 - Homebrew with Mike McQuaid",
+        "excerpt":"If you’re developing on macOS, then you probably know what we’re going to talk about: Homebrew 🍺 the most popular package manager for macOS. If you don’t know Homebrew, it’s a command-line tool that allows you to install software on your Mac. We could call it “the missing app store”...","categories": [],
+        "tags": [],
+        "url": "/55/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

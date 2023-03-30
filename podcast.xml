@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Wed, 15 Mar 2023 23:15:23 +0000</lastBuildDate>
+<lastBuildDate>Thu, 30 Mar 2023 13:13:56 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,116 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Homebrew with Mike McQuaid</title>
+        <itunes:title>Homebrew with Mike McQuaid</itunes:title>
+        <link>https://thebakery.dev/55/</link>
+        <pubDate>Tue, 28 Mar 2023 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/55/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>55</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/55-thedevelopersbakery-homebrew.m4a" length="23648987" type="audio/mpeg" />
+
+        <itunes:subtitle>Into the most popular package manager for MacOS with Homebrew and Mike McQuaid</itunes:subtitle>
+        <itunes:summary>Into the most popular package manager for MacOS with Homebrew and Mike McQuaid</itunes:summary>
+
+        
+        <description>
+            <![CDATA[If you’re developing on macOS, then you probably know what we’re going to talk about: Homebrew 🍺 the most popular package manager for macOS. If you don’t know Homebrew, it’s a command-line tool that allows you to install software on your Mac. We could call it “the missing app store”...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>If you’re developing on macOS, then you probably know what we’re going to talk about: <a href="https://github.com/Homebrew/brew"><strong>Homebrew</strong></a> 🍺 the most popular package manager for macOS.</p>
+
+<p>If you don’t know Homebrew, it’s a command-line tool that allows you to install software on your Mac. We could call it “the missing app store” for your console. But Homebrew is much more than that! There is an entire ecosystem of contributors that maintain formulas to make it easy to install software on your Mac.</p>
+
+<p>Today I have the honor to speak with <a href="https://twitter.com/MikeMcQuaid"><strong>Mike McQuaid</strong></a>, the Homebrew project leader. In this episode we’re going to talk about how Homebrew started, how it works internally, how it’s funded, and how you can contribute to it. I’m glad I also had the chance to touch on some more contentious topics like <strong>telemetry</strong> and <strong>handling burnout</strong> in the OSS space.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.11</strong> Intro</li>
+  <li><strong>00.57</strong> Episode Start</li>
+  <li><strong>01.32</strong> Mike’s Introduction</li>
+  <li><strong>02.31</strong> What is Homebrew?</li>
+  <li><strong>03.07</strong> The history of Homebrew</li>
+  <li><strong>06.56</strong> Have you ever felt you were done with Homebrew?</li>
+  <li><strong>10.58</strong> What happens when you brew install?</li>
+  <li><strong>12.45</strong> What is a formula?</li>
+  <li><strong>15.55</strong> Rolling release package manager</li>
+  <li><strong>17.04</strong> What is a cask?</li>
+  <li><strong>20.01</strong> Brew bundle</li>
+  <li><strong>21.34</strong> Where is so much software stored?</li>
+  <li><strong>23.32</strong> Homebrew trust model</li>
+  <li><strong>27.57</strong> What’s the most downloaded package?</li>
+  <li><strong>29.27</strong> Telemetry &amp; Open Source</li>
+  <li><strong>32.50</strong> Opt-in vs Opt-out telemetry</li>
+  <li><strong>40.33</strong> Entitelment in the OSS space &amp; handling burnouts</li>
+  <li><strong>43.20</strong> How is Homebrew funded?</li>
+  <li><strong>48.18</strong> Homebrew &amp; Legal entity</li>
+  <li><strong>50.28</strong> How to become a Homebrew maintainer?</li>
+  <li><strong>52.39</strong> Do-ocracy</li>
+  <li><strong>53.53</strong> Engaging with the Homebrew community</li>
+  <li><strong>54.49</strong> What’s next for Homebrew?</li>
+  <li><strong>57.17</strong> Further reading</li>
+  <li><strong>58.53</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/Homebrew/brew">Homebrew/brew on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://brew.sh/">Homebrew Official Website</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://mikemcquaid.com/open-source-maintainers-owe-you-nothing/">Open Source Maintainers Owe You Nothing - Mike McQuaid</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://mikemcquaid.com/replacing-boxen/">Replacing Boxen - Mike McQuaid</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://formulae.brew.sh/analytics/install/365d/">Howembrew Analytics Install</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/MikeMcQuaid/dotfiles/blob/master/Brewfile">Mike’s Brewfile on GitHub</a></li>
+    </ul>
+  </li>
+  <li>Related Projects:
+    <ul>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/Homebrew/homebrew-core">Homebrew/homebrew-core on GitHub</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/Homebrew/homebrew-cask">Homebrew/homebrew-cask on GitHub</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/Homebrew/homebrew-bundle">Homebrew/homebrew-bundle on GitHub</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/MikeMcQuaid/strap">MikeMcQuaid/strap on GitHub</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/MikeMcQuaid">@MikeMcQuaid on Twitter</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/MikeMcQuaid">@MikeMcQuaid on GitHub</a></li>
+  <li><i class="fab fa-mastodon"></i> <a href="https://mastodon.mikemcquaid.com/@mike">@mike on Mastodon</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://mikemcquaid.com/">Mike’s Website</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/55-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>1:00:13</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>conc with Camden Cheek</title>
