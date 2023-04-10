@@ -334,4 +334,10 @@ var store = [{
         "tags": [],
         "url": "/55/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#56 - GlotDict, Wordpress and Mozilla with Daniele Scasciafratte",
+        "excerpt":"Today I’m excited to have on stage Daniele Scasciafratte, the Open Source Multiversal Guy. Daniele is involved all over the places: he’s a WordPress core contributor, a Mozilla contributor, and the author of the book “Contribute to open source: the right way”. In this episode, we start from GlotDict, a...","categories": [],
+        "tags": [],
+        "url": "/56/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

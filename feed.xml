@@ -1,4 +1,58 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2023-04-07T11:16:56+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#55 - Homebrew with Mike McQuaid</title><link href="https://thebakery.dev/55/" rel="alternate" type="text/html" title="#55 - Homebrew with Mike McQuaid" /><published>2023-03-28T00:00:00+01:00</published><updated>2023-03-28T00:00:00+01:00</updated><id>https://thebakery.dev/055-homebrew</id><content type="html" xml:base="https://thebakery.dev/55/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2023-04-10T17:50:01+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#56 - GlotDict, Wordpress and Mozilla with Daniele Scasciafratte</title><link href="https://thebakery.dev/56/" rel="alternate" type="text/html" title="#56 - GlotDict, Wordpress and Mozilla with Daniele Scasciafratte" /><published>2023-04-10T00:00:00+01:00</published><updated>2023-04-10T00:00:00+01:00</updated><id>https://thebakery.dev/056-glotdict</id><content type="html" xml:base="https://thebakery.dev/56/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>Today I’m excited to have on stage <a href="https://twitter.com/mte90net"><strong>Daniele Scasciafratte</strong></a>, the <em>Open Source Multiversal Guy</em>. Daniele is involved all over the places: he’s a WordPress core contributor, a Mozilla contributor, and the author of the book “Contribute to open source: the right way”.</p>
+
+<p>In this episode, we start from <a href="https://github.com/Mte90/GlotDict"><strong>GlotDict</strong></a>, a browser extension Daniele wrote to support WordPress translators. But that’s just the starting point! We’ll touch on what is means to be a WordPress core contributor, how Mozilla is different from WordPress and the love/hate relationship we all have with PHP.</p>
+
+<p>Daniele also wrote an <strong>Open Source book</strong>: “Contribute to open source: the right way”. This book is like a survival guide for any Open Source newcomer. We’ll talk about how the book came to be and what are the main takeaways from it.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.08</strong> Intro</li>
+  <li><strong>00.54</strong> Episode Start</li>
+  <li><strong>02.36</strong> Daniele’s Introduction</li>
+  <li><strong>04.25</strong> What is Glotdict?</li>
+  <li><strong>08.48</strong> WordPress and the modern web</li>
+  <li><strong>15.07</strong> What does it mean to be a WordPress core contributor?</li>
+  <li><strong>21.46</strong> PHP</li>
+  <li><strong>26.12</strong> Daniele &amp; Mozilla</li>
+  <li><strong>32.28</strong> Writing an Open Source book</li>
+  <li><strong>41.56</strong> One takeaway from Daniele’s book</li>
+  <li><strong>47.38</strong> Further reading</li>
+  <li><strong>52.57</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/Mte90/GlotDict">Mte90/GlotDict on Github</a></li>
+  <li><i class="fas fa-book"></i> <a href="https://daniele.tech/2022/09/contribute-to-open-source-the-right-way-3rd-edition/">Daniele’s Book: Contribute to open source: the right way 3rd edition</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://daniele.tech/2018/03/2-years-of-glotdict/">2 years of GlotDict or Why I made my first browser extension for the WordPress community</a></li>
+  <li>Mentioned Books:
+    <ul>
+      <li><i class="fas fa-book"></i> <a href="https://www.goodreads.com/book/show/265454.The_Tao_of_Coaching">The tao of coaching</a></li>
+      <li><i class="fas fa-book"></i> <a href="https://www.goodreads.com/book/show/123911414-how-to-win-friends-and-influence-people">How to Win Friends and Influence People</a></li>
+    </ul>
+  </li>
+  <li><i class="fas fa-podcast"></i> <a href="https://daniele.tech/podcast/">Daniele’s Podcast - Opinioni in Open Source 🇮🇹</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/Mte90">@Mte90 on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/mte90net">@mte90net on Twitter</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://daniele.tech/eng">Daniele’s Website</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[WordPress Translations, Mozilla and Open Source Books with Daniele Scasciafratte]]></summary></entry><entry><title type="html">#55 - Homebrew with Mike McQuaid</title><link href="https://thebakery.dev/55/" rel="alternate" type="text/html" title="#55 - Homebrew with Mike McQuaid" /><published>2023-03-28T00:00:00+01:00</published><updated>2023-03-28T00:00:00+01:00</updated><id>https://thebakery.dev/055-homebrew</id><content type="html" xml:base="https://thebakery.dev/55/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/2z6OL9jLyFQh9juJHJ4DNa?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <p>If you’re developing on macOS, then you probably know what we’re going to talk about: <a href="https://github.com/Homebrew/brew"><strong>Homebrew</strong></a> 🍺 the most popular package manager for macOS.</p>
 
@@ -580,72 +634,4 @@ Enjoy the show 👨‍🍳</p>
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Beautiful Swift UI animations on iOS with MotionScape and Amos Gyamfi]]></summary></entry><entry><title type="html">#46 - Storybook with Norbert de Langen</title><link href="https://thebakery.dev/46/" rel="alternate" type="text/html" title="#46 - Storybook with Norbert de Langen" /><published>2022-11-07T00:00:00+00:00</published><updated>2022-11-07T00:00:00+00:00</updated><id>https://thebakery.dev/046-storybook</id><content type="html" xml:base="https://thebakery.dev/46/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/18Sau8YO5Y3tVyGx4XfwBh?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<p>Today we talk about tools to build beautiful Web UIs! 💫</p>
-
-<p>How often have you written custom components that are hard to test or visualize as they’re complex and have multiple states? Components such as graphs, lists, checkboxes, list items, can be really hard to develop in <strong>isolation</strong>.</p>
-
-<p>Here <a href="https://github.com/storybookjs/storybook"><strong>Storybook</strong></a> comes to the rescue! Storybook lets you test and develop your UI components through all it’s possible states. <a href="https://twitter.com/NorbertdeLangen"><strong>Norbert De Langen</strong></a> is on stage to tell us more about how he got involved in this project, and how to improve your development flow with it!</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.17</strong> Intro</li>
-  <li><strong>01.03</strong> Episode Start</li>
-  <li><strong>01.39</strong> Norbert’s Introduction</li>
-  <li><strong>02.51</strong> What is Storybook?</li>
-  <li><strong>05.29</strong> From top down to bottom up</li>
-  <li><strong>08.27</strong> Accidentally duplicating components</li>
-  <li><strong>10.25</strong> Who’s Storybook for?</li>
-  <li><strong>12.23</strong> Storybook for native platforms?</li>
-  <li><strong>14.34</strong> Storybook’s history</li>
-  <li><strong>18.25</strong> How Norbert became a maintainer of Storybook?</li>
-  <li><strong>20.49</strong> What is a Story?</li>
-  <li><strong>22.07</strong> The most requested feature</li>
-  <li><strong>24.11</strong> Can you use Storybook at runtime?</li>
-  <li><strong>25.57</strong> Building design systems with Storybook</li>
-  <li><strong>29.30</strong> UI Testing with Storybook</li>
-  <li><strong>32.31</strong> Connecting developers and designers</li>
-  <li><strong>33.22</strong> What is Chromatic?</li>
-  <li><strong>35.33</strong> The Play function</li>
-  <li><strong>36.46</strong> Who’s using Storybook?</li>
-  <li><strong>39.26</strong> Storybook supporters</li>
-  <li><strong>40.57</strong> Moving the ecosystem</li>
-  <li><strong>45.12</strong> Maintaining big projects</li>
-  <li><strong>50.16</strong> Elegant documentation</li>
-  <li><strong>52.34</strong> Further reading</li>
-  <li><strong>54.09</strong> Where people can find you online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/storybookjs/storybook">storybookjs/storybook on Github</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://storybook.js.org/">Storybook Official Website</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://www.chromatic.com/">Chromatic Official Website</a></li>
-  <li>Mentioned Resources:
-    <ul>
-      <li><i class="fas fa-link"></i> <a href="https://storybook.js.org/docs/react/why-storybook">Why Storybook</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://storybook.js.org/docs/react/get-started/whats-a-story">What’s a Story</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://opencollective.com/storybook">Storybook on OpenCollective</a></li>
-      <li><i class="fab fa-discord"></i> <a href="https://discord.com/invite/storybook">Storybook Discord server</a></li>
-      <li><i class="fab fa-youtube"></i> Developing, Documenting, and Testing your Vite app with Storybook - Ian VanSchooten - <a href="https://youtu.be/Znd11rVHQOE?t=10356">Video from ViteConf 2022</a></li>
-    </ul>
-  </li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/NorbertdeLangen">@NorbertdeLangen on Twitter</a></li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/ndelange">@ndelange on Github</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Build bulletproof web UI components faster with Storybook and Norbert de Langen]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Beautiful Swift UI animations on iOS with MotionScape and Amos Gyamfi]]></summary></entry></feed>
