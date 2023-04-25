@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Wed, 12 Apr 2023 07:48:03 +0100</lastBuildDate>
+<lastBuildDate>Tue, 25 Apr 2023 18:46:43 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,102 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Qwik UI with Giorgio Boa</title>
+        <itunes:title>Qwik UI with Giorgio Boa</itunes:title>
+        <link>https://thebakery.dev/57/</link>
+        <pubDate>Tue, 25 Apr 2023 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/57/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>57</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/57-thedevelopersbakery-qwik-ui.m4a" length="33981694" type="audio/mpeg" />
+
+        <itunes:subtitle>Super Fast Frontend Development with Qwik UI and Giorgio Boa</itunes:subtitle>
+        <itunes:summary>Super Fast Frontend Development with Qwik UI and Giorgio Boa</itunes:summary>
+
+        
+        <description>
+            <![CDATA[We’re back in the frontend space to talk about Qwik and Qwik UI, a web framework to build superfast web application. From their readme: Instant-loading web apps, without effort. Qwik UI is their UI library, which offers a variety of components that you can use to kickstart your application. Today...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>We’re back in the frontend space to talk about <strong>Qwik</strong> and <a href="https://github.com/qwikifiers/qwik-ui"><strong>Qwik UI</strong></a>, a web framework to build superfast web application. From their readme: <em>Instant-loading web apps, without effort</em>. Qwik UI is their UI library, which offers a variety of components that you can use to kickstart your application.</p>
+
+<p>Today we do have <a href="https://twitter.com/giorgio_boa"><strong>Giorgio Boa</strong></a> on stage, one of the maintainers of Qwik UI, to talk about the project, the motivation behind it, and how this project is evolving.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.08</strong> Intro</li>
+  <li><strong>00.54</strong> Episode Start</li>
+  <li><strong>01.28</strong> Giorgio’s Introduction</li>
+  <li><strong>02.31</strong> What is Qwik?</li>
+  <li><strong>08.55</strong> What is Qwik UI?</li>
+  <li><strong>11.49</strong> Getting started with Qwik</li>
+  <li><strong>13.38</strong> Single Page Application vs Server Side Rendering</li>
+  <li><strong>16.30</strong> SPA ans SEO</li>
+  <li><strong>17.45</strong> CSS and Customizations</li>
+  <li><strong>19.16</strong> How Giorgio got involved with Qwik UI?</li>
+  <li><strong>21.14</strong> Maintaining Qwik UI</li>
+  <li><strong>24.46</strong> Building connections through Open Source</li>
+  <li><strong>27.41</strong> Onboarding Juniors to Open Source</li>
+  <li><strong>29.09</strong> Giorgio’s Mentoring Campaing</li>
+  <li><strong>31.33</strong> Recurrent vs One-off mentoring</li>
+  <li><strong>33.16</strong> The future of Qwik UI</li>
+  <li><strong>35.29</strong> Further reading</li>
+  <li><strong>37.00</strong> What made you move to Qwik?</li>
+  <li><strong>38.53</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/qwikifiers/qwik-ui">qwikifiers/qwik-ui on Github</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/BuilderIO/qwik">BuilderIO/qwik on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://qwik.builder.io/">Qwik Official Website</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/vendure-ecommerce/storefront-qwik-starter">vendure-ecommerce/storefront-qwik-starter on Github</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://qwik-storefront.vendure.io/">Storefront Live Demo</a></li>
+      <li><i class="fab fa-discord"></i> <a href="https://discord.com/invite/eDrWHeqnnQ">Qwik Discord Server</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://qwik.builder.io/">Qwik Official Website</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/giorgio_boa">@giorgio_boa on Twitter</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/gioboa">@gioboa on Github</a></li>
+  <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/giorgio-boa/">Giorgio Boa on LinkedIn</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://mentorcruise.com/mentor/giorgioboa/">Giorgio’s profile on MentorCruise</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://dev.to/gioboa">Giorgio’s blog on dev.to</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/57-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>40:20</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>GlotDict, Wordpress and Mozilla with Daniele Scasciafratte</title>

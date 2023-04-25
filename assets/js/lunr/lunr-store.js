@@ -340,4 +340,10 @@ var store = [{
         "tags": [],
         "url": "/56/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#57 - Qwik UI with Giorgio Boa",
+        "excerpt":"We’re back in the frontend space to talk about Qwik and Qwik UI, a web framework to build superfast web application. From their readme: Instant-loading web apps, without effort. Qwik UI is their UI library, which offers a variety of components that you can use to kickstart your application. Today...","categories": [],
+        "tags": [],
+        "url": "/57/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

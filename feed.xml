@@ -1,4 +1,66 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2023-04-12T07:48:03+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#56 - GlotDict, Wordpress and Mozilla with Daniele Scasciafratte</title><link href="https://thebakery.dev/56/" rel="alternate" type="text/html" title="#56 - GlotDict, Wordpress and Mozilla with Daniele Scasciafratte" /><published>2023-04-10T00:00:00+01:00</published><updated>2023-04-10T00:00:00+01:00</updated><id>https://thebakery.dev/056-glotdict</id><content type="html" xml:base="https://thebakery.dev/56/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2023-04-25T18:46:43+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#57 - Qwik UI with Giorgio Boa</title><link href="https://thebakery.dev/57/" rel="alternate" type="text/html" title="#57 - Qwik UI with Giorgio Boa" /><published>2023-04-25T00:00:00+01:00</published><updated>2023-04-25T00:00:00+01:00</updated><id>https://thebakery.dev/057-qwik-ui</id><content type="html" xml:base="https://thebakery.dev/57/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>We’re back in the frontend space to talk about <strong>Qwik</strong> and <a href="https://github.com/qwikifiers/qwik-ui"><strong>Qwik UI</strong></a>, a web framework to build superfast web application. From their readme: <em>Instant-loading web apps, without effort</em>. Qwik UI is their UI library, which offers a variety of components that you can use to kickstart your application.</p>
+
+<p>Today we do have <a href="https://twitter.com/giorgio_boa"><strong>Giorgio Boa</strong></a> on stage, one of the maintainers of Qwik UI, to talk about the project, the motivation behind it, and how this project is evolving.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.08</strong> Intro</li>
+  <li><strong>00.54</strong> Episode Start</li>
+  <li><strong>01.28</strong> Giorgio’s Introduction</li>
+  <li><strong>02.31</strong> What is Qwik?</li>
+  <li><strong>08.55</strong> What is Qwik UI?</li>
+  <li><strong>11.49</strong> Getting started with Qwik</li>
+  <li><strong>13.38</strong> Single Page Application vs Server Side Rendering</li>
+  <li><strong>16.30</strong> SPA ans SEO</li>
+  <li><strong>17.45</strong> CSS and Customizations</li>
+  <li><strong>19.16</strong> How Giorgio got involved with Qwik UI?</li>
+  <li><strong>21.14</strong> Maintaining Qwik UI</li>
+  <li><strong>24.46</strong> Building connections through Open Source</li>
+  <li><strong>27.41</strong> Onboarding Juniors to Open Source</li>
+  <li><strong>29.09</strong> Giorgio’s Mentoring Campaing</li>
+  <li><strong>31.33</strong> Recurrent vs One-off mentoring</li>
+  <li><strong>33.16</strong> The future of Qwik UI</li>
+  <li><strong>35.29</strong> Further reading</li>
+  <li><strong>37.00</strong> What made you move to Qwik?</li>
+  <li><strong>38.53</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/qwikifiers/qwik-ui">qwikifiers/qwik-ui on Github</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/BuilderIO/qwik">BuilderIO/qwik on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://qwik.builder.io/">Qwik Official Website</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/vendure-ecommerce/storefront-qwik-starter">vendure-ecommerce/storefront-qwik-starter on Github</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://qwik-storefront.vendure.io/">Storefront Live Demo</a></li>
+      <li><i class="fab fa-discord"></i> <a href="https://discord.com/invite/eDrWHeqnnQ">Qwik Discord Server</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://qwik.builder.io/">Qwik Official Website</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/giorgio_boa">@giorgio_boa on Twitter</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/gioboa">@gioboa on Github</a></li>
+  <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/giorgio-boa/">Giorgio Boa on LinkedIn</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://mentorcruise.com/mentor/giorgioboa/">Giorgio’s profile on MentorCruise</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://dev.to/gioboa">Giorgio’s blog on dev.to</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Super Fast Frontend Development with Qwik UI and Giorgio Boa]]></summary></entry><entry><title type="html">#56 - GlotDict, Wordpress and Mozilla with Daniele Scasciafratte</title><link href="https://thebakery.dev/56/" rel="alternate" type="text/html" title="#56 - GlotDict, Wordpress and Mozilla with Daniele Scasciafratte" /><published>2023-04-10T00:00:00+01:00</published><updated>2023-04-10T00:00:00+01:00</updated><id>https://thebakery.dev/056-glotdict</id><content type="html" xml:base="https://thebakery.dev/56/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/7KyE9QnfVRAo4SlNr4KpKP?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <p>Today I’m excited to have on stage <a href="https://twitter.com/mte90net"><strong>Daniele Scasciafratte</strong></a>, the <em>Open Source Multiversal Guy</em>. Daniele is involved all over the places: he’s a WordPress core contributor, a Mozilla contributor, and the author of the book “Contribute to open source: the right way”.</p>
 
@@ -564,74 +626,4 @@ Enjoy the show 👨‍🍳</p>
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Elegant Mocking in Kotlin with MockK and Mattia Tommasone]]></summary></entry><entry><title type="html">#47 - MotionScape with Amos Gyamfi</title><link href="https://thebakery.dev/47/" rel="alternate" type="text/html" title="#47 - MotionScape with Amos Gyamfi" /><published>2022-11-21T00:00:00+00:00</published><updated>2022-11-21T00:00:00+00:00</updated><id>https://thebakery.dev/047-motionscape</id><content type="html" xml:base="https://thebakery.dev/47/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/1qym64Nq08XjqVDXcREYiG?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<p>It’s time to talk again about beautiful UI animations, but this time for <strong>iOS</strong> 🍎!</p>
-
-<p>It’s my pleasure to have <a href="https://twitter.com/amos_gyamfi"><strong>Amos Gyamfi</strong></a> on stage to talk about <a href="https://github.com/GetStream/motionscape-app"><strong>MotionScape</strong></a>.</p>
-
-<p>Amos has a long history of building animations for iOS, and today he’s with us to talk about the challenges of building animation. Thanks to MotionScape, you can easily preview and customize your animations on desktop and get the SwiftUI code to run it in your iOS app.</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.00</strong> Intro</li>
-  <li><strong>00.45</strong> Episode Start</li>
-  <li><strong>01.19</strong> Amos’s Introduction</li>
-  <li><strong>03.33</strong> What is Motionscape?</li>
-  <li><strong>07.09</strong> What is SwiftUI?</li>
-  <li><strong>08.49</strong> Animating in the iOS world</li>
-  <li><strong>11.56</strong> How Amos got involved with animations?</li>
-  <li><strong>15.21</strong> The challenges of writing animations</li>
-  <li><strong>18.17</strong> How is this project related to Stream?</li>
-  <li><strong>21.13</strong> Are you looking for contributors?</li>
-  <li><strong>21.48</strong> Desktop app in SwiftUI?</li>
-  <li><strong>23.36</strong> Cross-platform support</li>
-  <li><strong>25.12</strong> Do you have tests?</li>
-  <li><strong>27.44</strong> What future for MotionScape?</li>
-  <li><strong>29.36</strong> Animation Interchange Format</li>
-  <li><strong>33.01</strong> How Amos got involved with Open Source?</li>
-  <li><strong>34.52</strong> Documentation</li>
-  <li><strong>36.14</strong> Effects Library &amp; Spring Animation Parameter</li>
-  <li><strong>39.21</strong> Animation Island</li>
-  <li><strong>41.00</strong> Further reading</li>
-  <li><strong>43.30</strong> Where people can find you online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/GetStream/motionscape-app">GetStream/motionscape-app on Github</a></li>
-  <li><i class="fab fa-app-store"></i> <a href="https://apps.apple.com/us/app/motionscape-animation-studio/id1616840951">MotionScape on the AppStore</a></li>
-  <li>Related Projects:
-    <ul>
-      <li><i class="fab fa-github"></i> <a href="https://github.com/GetStream/effects-library">GetStream/effects-library on Github</a></li>
-      <li><i class="fab fa-github"></i> <a href="https://github.com/GetStream/swiftui-spring-animations">GetStream/swiftui-spring-animations on Github</a></li>
-      <li><i class="fab fa-github"></i> <a href="https://github.com/amosgyamfi/swiftui-animations-island">amosgyamfi/swiftui-animations-island on Github</a></li>
-    </ul>
-  </li>
-  <li>Mentioned Resources:
-    <ul>
-      <li><i class="fas fa-link"></i> <a href="/37">The Developers’ Bakery #37 - Lottie with Gabriel Peal</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://www.kiteapp.co/">Kite Compositor</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://www.hackingwithswift.com/100">100 Days of Swift</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://www.bigmountainstudio.com/animations-16">SwiftUI Animations Mastery - Big Mountain Studio</a></li>
-    </ul>
-  </li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/amos_gyamfi">@amos_gyamfi on Twitter</a></li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/amosgyamfi">@amosgyamfi on Github</a></li>
-  <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/amosgyamfi/">Amos Gyamfi on LinkedIn</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Beautiful Swift UI animations on iOS with MotionScape and Amos Gyamfi]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Elegant Mocking in Kotlin with MockK and Mattia Tommasone]]></summary></entry></feed>
