@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Tue, 25 Apr 2023 18:46:43 +0100</lastBuildDate>
+<lastBuildDate>Mon, 15 May 2023 09:52:37 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,107 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Confetti with John O'Reilly and Martin Bonnin</title>
+        <itunes:title>Confetti with John O'Reilly and Martin Bonnin</itunes:title>
+        <link>https://thebakery.dev/58/</link>
+        <pubDate>Mon, 15 May 2023 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/58/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>58</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/58-thedevelopersbakery-confetti.m4a" length="18711118" type="audio/mpeg" />
+
+        <itunes:subtitle>Bringing conference schedules to Android and iOS with John O'Reilly and Martin Bonnin</itunes:subtitle>
+        <itunes:summary>Bringing conference schedules to Android and iOS with John O'Reilly and Martin Bonnin</itunes:summary>
+
+        
+        <description>
+            <![CDATA[In today’s episode, join me with Martin Bonnin and John O’Reilly as we explore Confetti, a Kotlin Multiplatform Conference App. Tune in as Martin and John discuss the story behind Confetti, its architecture, and how they managed to hit both the Play Store and the App Store using Kotlin Multiplatform....]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>In today’s episode, join me with <a href="https://twitter.com/martinbonnin"><strong>Martin Bonnin</strong></a> and <a href="https://twitter.com/joreilly"><strong>John O’Reilly</strong></a> as we explore <a href="https://github.com/joreilly/Confetti"><strong>Confetti</strong></a>, a Kotlin Multiplatform Conference App.</p>
+
+<p>Tune in as Martin and John discuss the story behind Confetti, its architecture, and how they managed to hit both the Play Store and the App Store using Kotlin Multiplatform.</p>
+
+<p>Confetti was also presented recently at KotlinConf 2023. We’ll be talking about John’s and Martin’s experience at KotlinConf and their favorite session from this edition.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.08</strong> Intro</li>
+  <li><strong>00.54</strong> Episode Start</li>
+  <li><strong>01.30</strong> John’s Introduction</li>
+  <li><strong>02.04</strong> Martin’s Introduction</li>
+  <li><strong>03.08</strong> What is Confetti?</li>
+  <li><strong>04.24</strong> What’s the story behind Confetti?</li>
+  <li><strong>07.57</strong> Are conference apps the new TODO lists?</li>
+  <li><strong>09.47</strong> Confetti’s Architecture</li>
+  <li><strong>12.24</strong> Confetti’s UI Stack</li>
+  <li><strong>15.45</strong> How much code is shared between Android &amp; iOS?</li>
+  <li><strong>17.35</strong> SwiftUI vs Compose for iOS</li>
+  <li><strong>21.21</strong> Takeaways from KotlinConf</li>
+  <li><strong>24.35</strong> John’s favorite session</li>
+  <li><strong>28.15</strong> Confetti @ KotlinConf</li>
+  <li><strong>32.02</strong> Confetti vs KotlinConf App</li>
+  <li><strong>34.51</strong> Confetti on a watch</li>
+  <li><strong>38.47</strong> New features for Confetti</li>
+  <li><strong>40.30</strong> Whitelabelling</li>
+  <li><strong>42.48</strong> Further reading</li>
+  <li><strong>45.17</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/joreilly/Confetti">joreilly/Confetti on GitHub</a></li>
+  <li><i class="fab fa-app-store"></i> <a href="https://apps.apple.com/us/app/confetti/id1660211390">Confetti on the AppStore</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://play.google.com/store/apps/details?id=dev.johnoreilly.confetti">Confetti on the PlayStore</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/apollographql/apollo-android">apollographql/apollo-android on Github</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/ExpediaGroup/graphql-kotlin">ExpediaGroup/graphql-kotlin on Github</a></li>
+      <li><i class="fas fa-link"></i> <a href="/13">The Developers’ Bakery #13 - Apollo GraphQL with Martin Bonnin </a></li>
+      <li><i class="fab fa-youtube"></i> Confetti: building a Kotlin Multiplatform conference app in 40min - <a href="https://youtu.be/uATlWUBSx8Q">Video from KotlinConf</a></li>
+      <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/playlist?list=PLlFc5cFwUnmwcJ7ZXyMmS70A9QFyUu1HI">KotlinConf Video Playlist</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/joreilly">@joreilly on Twitter</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/joreilly">@joreilly on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://johnoreilly.dev/">John’s Blog</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/martinbonnin">@martinbonnin on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/martinbonnin">@martinbonnin on Twitter</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://mbonnin.net/">Martin’s Blog</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/58-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>46:58</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Qwik UI with Giorgio Boa</title>

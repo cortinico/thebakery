@@ -346,4 +346,10 @@ var store = [{
         "tags": [],
         "url": "/57/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#58 - Confetti with John O'Reilly and Martin Bonnin",
+        "excerpt":"In today’s episode, join me with Martin Bonnin and John O’Reilly as we explore Confetti, a Kotlin Multiplatform Conference App. Tune in as Martin and John discuss the story behind Confetti, its architecture, and how they managed to hit both the Play Store and the App Store using Kotlin Multiplatform....","categories": [],
+        "tags": [],
+        "url": "/58/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]
