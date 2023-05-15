@@ -67,7 +67,7 @@ class GenerateSnippets : Callable<Int> {
             podcast_length: TODO
             ---
 
-            <iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <!-- <iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> -->
                         
             Enjoy the show 👨‍🍳
             
@@ -77,10 +77,11 @@ class GenerateSnippets : Callable<Int> {
             
             # Resources
             
-            * <i class="fab fa-github"></i> [cortinico/thebakery on Github](https://github.com/cortinico/thebakery)
+            * <i class="fab fa-github"></i> [cortinico/thebakery on GitHub](https://github.com/cortinico/thebakery)
             * <i class="fas fa-link"></i> [TheBakery Official Website](https://thebakery.dev/)
             * Mentioned Resources:
                 * <i class="fas fa-link"></i> [A website](https://ncorti.com/)
+            * <i class="fab fa-github"></i> [@cortinico on GitHub](https://github.com/cortinico)
             * <i class="fab fa-twitter"></i> [@cortinico on Twitter](https://twitter.com/cortinico)
             
             # Show links
