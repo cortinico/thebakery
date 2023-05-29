@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Sat, 27 May 2023 16:29:07 +0100</lastBuildDate>
+<lastBuildDate>Mon, 29 May 2023 17:37:02 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,99 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Voyager with Adriel Café</title>
+        <itunes:title>Voyager with Adriel Café</itunes:title>
+        <link>https://thebakery.dev/59/</link>
+        <pubDate>Mon, 29 May 2023 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/59/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>59</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/59-thedevelopersbakery-voyager.m4a" length="15997729" type="audio/mpeg" />
+
+        <itunes:subtitle>Navigating between platforms with Voyager and Adriel Café</itunes:subtitle>
+        <itunes:summary>Navigating between platforms with Voyager and Adriel Café</itunes:summary>
+
+        
+        <description>
+            <![CDATA[Joining us today is Adriel Café, the creator and maintainer of Voyager. We’ll be delving into the depths of Navigation with Jetpack Compose, touching on topics such as tab navigation, nested navigation and deep-links. Also, Voyager let’s you build navigation experiences which are fully cross-platform thanks to its support for...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>Joining us today is <a href="https://twitter.com/adrielcafe"><strong>Adriel Café</strong></a>, the creator and maintainer of <a href="https://github.com/adrielcafe/voyager"><strong>Voyager</strong></a>. We’ll be delving into the depths of Navigation with Jetpack Compose, touching on topics such as tab navigation, nested navigation and deep-links. Also, Voyager let’s you build navigation experiences which are fully cross-platform thanks to its support for Android, iOS, Web and Desktop.</p>
+
+<p>Adriel is also a former Web engineers and is going to tell us what he loves and hates between the two worlds.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.13</strong> Intro</li>
+  <li><strong>00.59</strong> Episode Start</li>
+  <li><strong>01.32</strong> Adriel’s Introduction</li>
+  <li><strong>02.54</strong> What is Voyager?</li>
+  <li><strong>06.07</strong> What’s the story behind Voyager?</li>
+  <li><strong>12.22</strong> How hard is navigation across platforms?</li>
+  <li><strong>14.23</strong> Bottom bar, tabs and other navigation patterns</li>
+  <li><strong>16.38</strong> Deeplinks</li>
+  <li><strong>18.35</strong> Nested Navigation</li>
+  <li><strong>20.40</strong> Multi-module Navigation</li>
+  <li><strong>22.47</strong> 1.0.0 when?</li>
+  <li><strong>23.58</strong> The most requested feature</li>
+  <li><strong>25.04</strong> Who’s maintaining Voyager?</li>
+  <li><strong>27.50</strong> Which future for Voyager?</li>
+  <li><strong>29.34</strong> Android vs Web</li>
+  <li><strong>33.26</strong> Android engineers do it better</li>
+  <li><strong>34.47</strong> Web vs Mobile IDEs</li>
+  <li><strong>36.45</strong> Further reading</li>
+  <li><strong>38.40</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/adrielcafe/voyager">adrielcafe/voyager on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://voyager.adriel.cafe/">Voyager Official Website</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/adrielcafe/lyricist">adrielcafe/lyricist on GitHub</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/programadorthi/kotlin-routing">programadorthi/kotlin-routing on GitHub</a></li>
+      <li><i class="fas fa-book"></i> <a href="https://jorgecastillo.dev/book/">Jetpack Compose internals - by Jorge Castillo</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/adrielcafe">@adrielcafe on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/adrielcafe">@adrielcafe on Twitter</a></li>
+  <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/adrielcafe/">Adriel Café on LinkedIn</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://adriel.cafe/">Adriel’s Website</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/59-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>40:07</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Confetti with John O'Reilly and Martin Bonnin</title>

@@ -352,4 +352,10 @@ var store = [{
         "tags": [],
         "url": "/58/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#59 - Voyager with Adriel Café",
+        "excerpt":"Joining us today is Adriel Café, the creator and maintainer of Voyager. We’ll be delving into the depths of Navigation with Jetpack Compose, touching on topics such as tab navigation, nested navigation and deep-links. Also, Voyager let’s you build navigation experiences which are fully cross-platform thanks to its support for...","categories": [],
+        "tags": [],
+        "url": "/59/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

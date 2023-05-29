@@ -1,4 +1,63 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2023-05-27T16:29:07+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#58 - Confetti with John O’Reilly and Martin Bonnin</title><link href="https://thebakery.dev/58/" rel="alternate" type="text/html" title="#58 - Confetti with John O’Reilly and Martin Bonnin" /><published>2023-05-15T00:00:00+01:00</published><updated>2023-05-15T00:00:00+01:00</updated><id>https://thebakery.dev/058-confetti</id><content type="html" xml:base="https://thebakery.dev/58/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2023-05-29T17:37:02+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#59 - Voyager with Adriel Café</title><link href="https://thebakery.dev/59/" rel="alternate" type="text/html" title="#59 - Voyager with Adriel Café" /><published>2023-05-29T00:00:00+01:00</published><updated>2023-05-29T00:00:00+01:00</updated><id>https://thebakery.dev/059-voyager</id><content type="html" xml:base="https://thebakery.dev/59/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>Joining us today is <a href="https://twitter.com/adrielcafe"><strong>Adriel Café</strong></a>, the creator and maintainer of <a href="https://github.com/adrielcafe/voyager"><strong>Voyager</strong></a>. We’ll be delving into the depths of Navigation with Jetpack Compose, touching on topics such as tab navigation, nested navigation and deep-links. Also, Voyager let’s you build navigation experiences which are fully cross-platform thanks to its support for Android, iOS, Web and Desktop.</p>
+
+<p>Adriel is also a former Web engineers and is going to tell us what he loves and hates between the two worlds.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.13</strong> Intro</li>
+  <li><strong>00.59</strong> Episode Start</li>
+  <li><strong>01.32</strong> Adriel’s Introduction</li>
+  <li><strong>02.54</strong> What is Voyager?</li>
+  <li><strong>06.07</strong> What’s the story behind Voyager?</li>
+  <li><strong>12.22</strong> How hard is navigation across platforms?</li>
+  <li><strong>14.23</strong> Bottom bar, tabs and other navigation patterns</li>
+  <li><strong>16.38</strong> Deeplinks</li>
+  <li><strong>18.35</strong> Nested Navigation</li>
+  <li><strong>20.40</strong> Multi-module Navigation</li>
+  <li><strong>22.47</strong> 1.0.0 when?</li>
+  <li><strong>23.58</strong> The most requested feature</li>
+  <li><strong>25.04</strong> Who’s maintaining Voyager?</li>
+  <li><strong>27.50</strong> Which future for Voyager?</li>
+  <li><strong>29.34</strong> Android vs Web</li>
+  <li><strong>33.26</strong> Android engineers do it better</li>
+  <li><strong>34.47</strong> Web vs Mobile IDEs</li>
+  <li><strong>36.45</strong> Further reading</li>
+  <li><strong>38.40</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/adrielcafe/voyager">adrielcafe/voyager on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://voyager.adriel.cafe/">Voyager Official Website</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/adrielcafe/lyricist">adrielcafe/lyricist on GitHub</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/programadorthi/kotlin-routing">programadorthi/kotlin-routing on GitHub</a></li>
+      <li><i class="fas fa-book"></i> <a href="https://jorgecastillo.dev/book/">Jetpack Compose internals - by Jorge Castillo</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/adrielcafe">@adrielcafe on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/adrielcafe">@adrielcafe on Twitter</a></li>
+  <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/adrielcafe/">Adriel Café on LinkedIn</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://adriel.cafe/">Adriel’s Website</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Navigating between platforms with Voyager and Adriel Café]]></summary></entry><entry><title type="html">#58 - Confetti with John O’Reilly and Martin Bonnin</title><link href="https://thebakery.dev/58/" rel="alternate" type="text/html" title="#58 - Confetti with John O’Reilly and Martin Bonnin" /><published>2023-05-15T00:00:00+01:00</published><updated>2023-05-15T00:00:00+01:00</updated><id>https://thebakery.dev/058-confetti</id><content type="html" xml:base="https://thebakery.dev/58/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/5Y0cwrXFHzt2AwpfRQGA3t?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <p>In today’s episode, join me with <a href="https://twitter.com/martinbonnin"><strong>Martin Bonnin</strong></a> and <a href="https://twitter.com/joreilly"><strong>John O’Reilly</strong></a> as we explore <a href="https://github.com/joreilly/Confetti"><strong>Confetti</strong></a>, a Kotlin Multiplatform Conference App.</p>
 
@@ -565,68 +624,4 @@ We have on stage <a href="https://twitter.com/DavideImola"><strong>Davide Imola<
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[From building Open Source Software to building Open Source Conferences with Schrödinger Hat]]></summary></entry><entry><title type="html">#49 - Espanso with Federico Terzi</title><link href="https://thebakery.dev/49/" rel="alternate" type="text/html" title="#49 - Espanso with Federico Terzi" /><published>2023-01-02T00:00:00+00:00</published><updated>2023-01-02T00:00:00+00:00</updated><id>https://thebakery.dev/049-espanso</id><content type="html" xml:base="https://thebakery.dev/49/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/5atkzI6OFZVArA2GmkmCXd?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<p>It’s time to expand our horizons in the <strong>text expander</strong> realm with <a href="https://github.com/espanso/espanso"><strong>Espanso</strong></a>! Today we have <a href="https://twitter.com/terzi_federico"><strong>Federico Terzi</strong></a> on stage to present his project, a cross-platform text expander entirely written in Rust 🦀.</p>
-
-<p>If you’re into automating every workflow, you probably know how crucial a text expander can be in helping you. Espanso is much more than a simple text expander, with support for complex patterns, forms, regexes and even a <a href="https://hub.espanso.org/">Hub</a> where you can share your patterns with others!</p>
-
-<p>I’m sure you’re going to love it!
-Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.07</strong> Intro</li>
-  <li><strong>00.53</strong> Episode Start</li>
-  <li><strong>01.30</strong> Federico’s Introduction</li>
-  <li><strong>02.21</strong> What is Espanso?</li>
-  <li><strong>03.30</strong> What does Espanso mean?</li>
-  <li><strong>03.58</strong> A bit of history</li>
-  <li><strong>06.39</strong> Espanso’s killer features</li>
-  <li><strong>09.15</strong> Federico’s daily routines</li>
-  <li><strong>10.32</strong> Canned responses</li>
-  <li><strong>11.29</strong> Espanso internals</li>
-  <li><strong>12.51</strong> How to replace the user’s input</li>
-  <li><strong>14.44</strong> Using Rust</li>
-  <li><strong>16.43</strong> Text expansion on Mobile</li>
-  <li><strong>19.21</strong> Elegant websites</li>
-  <li><strong>23.27</strong> The Espanso Hub</li>
-  <li><strong>25.23</strong> Hub’s hall of fame</li>
-  <li><strong>29.13</strong> The r/espanso Subreddit</li>
-  <li><strong>31.04</strong> Who is maintaining Espanso?</li>
-  <li><strong>35.03</strong> What’s next for Espanso?</li>
-  <li><strong>36.02</strong> Configuration: YAML vs UI</li>
-  <li><strong>38.04</strong> The current UI</li>
-  <li><strong>41.18</strong> Further reading</li>
-  <li><strong>43.08</strong> Where people can find you online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/espanso/espanso">espanso/espanso on Github</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://espanso.org/">Espanso Official Website</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://hub.espanso.org/">The Espanso Hub</a></li>
-  <li>Mentioned packages:
-    <ul>
-      <li><i class="fas fa-link"></i> <a href="https://hub.espanso.org/translate-fr-en">Bidirectional French-English translation package</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://hub.espanso.org/typofixer-en">Typofixer-en package</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://hub.espanso.org/medical-docs">Medical Docs package</a></li>
-    </ul>
-  </li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/federico-terzi">@federico-terzi on Github</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/terzi_federico">@terzi_federico on Twitter</a></li>
-  <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/c/FedericoTerzi">@FedericoTerzi on YouTube</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Expanding our horizons in the text expander worlds, with Espanso and Federico Terzi]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[From building Open Source Software to building Open Source Conferences with Schrödinger Hat]]></summary></entry></feed>
