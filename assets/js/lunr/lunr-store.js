@@ -358,4 +358,10 @@ var store = [{
         "tags": [],
         "url": "/59/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#60 - Effective Android with Jorge Castillo",
+        "excerpt":"It’s time for another bonus episode of The Developers’ Bakery! This time, we dive into the world of content creation with Jorge Castillo. Jorge is the author of the blog &amp; newsletter Effective Android and the author of Jetpack Compose internals book. In this episode we’ll talk about his journey...","categories": [],
+        "tags": [],
+        "url": "/60/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

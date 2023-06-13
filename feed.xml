@@ -1,4 +1,65 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2023-05-29T17:37:02+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#59 - Voyager with Adriel Café</title><link href="https://thebakery.dev/59/" rel="alternate" type="text/html" title="#59 - Voyager with Adriel Café" /><published>2023-05-29T00:00:00+01:00</published><updated>2023-05-29T00:00:00+01:00</updated><id>https://thebakery.dev/059-voyager</id><content type="html" xml:base="https://thebakery.dev/59/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2023-06-13T15:19:09+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#60 - Effective Android with Jorge Castillo</title><link href="https://thebakery.dev/60/" rel="alternate" type="text/html" title="#60 - Effective Android with Jorge Castillo" /><published>2023-06-13T00:00:00+01:00</published><updated>2023-06-13T00:00:00+01:00</updated><id>https://thebakery.dev/060-effective-android</id><content type="html" xml:base="https://thebakery.dev/60/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>It’s time for another <strong>bonus episode</strong> of The Developers’ Bakery! This time, we dive into the world of content creation with <a href="https://twitter.com/JorgeCastilloPR"><strong>Jorge Castillo</strong></a>. Jorge is the author of the blog &amp; newsletter <a href="https://newsletter.jorgecastillo.dev/"><strong>Effective Android</strong></a> and the author of <a href="https://jorgecastillo.dev/book/"><strong>Jetpack Compose internals</strong></a> book.</p>
+
+<p>In this episode we’ll talk about his journey building a newsletter, writing blog posts, preparing courses, and writing books. Join us as we and discover the secrets behind his success.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.19</strong> Jorge’s Introduction</li>
+  <li><strong>03.13</strong> What is Effective Android?</li>
+  <li><strong>04.01</strong> Kicking off a newsletter</li>
+  <li><strong>05.19</strong> From RSS to your Inbox</li>
+  <li><strong>06.42</strong> How to monetize a newsletter?</li>
+  <li><strong>07.41</strong> Effective Interviews</li>
+  <li><strong>10.01</strong> How an interview is built</li>
+  <li><strong>12.01</strong> Podcast vs written interviews</li>
+  <li><strong>14.02</strong> Where do you find the time?</li>
+  <li><strong>16.36</strong> Jetpack Compose courses</li>
+  <li><strong>18.56</strong> Cohort based courses</li>
+  <li><strong>21.05</strong> Communities around courses</li>
+  <li><strong>23.00</strong> The business of online courses</li>
+  <li><strong>24.33</strong> The challenges of building a course</li>
+  <li><strong>26.51</strong> The book: Jetpack Compose Internals</li>
+  <li><strong>32.04</strong> The book: The Good Teammate</li>
+  <li><strong>32.54</strong> Leanpub</li>
+  <li><strong>34.58</strong> Maintaining Arrow</li>
+  <li><strong>41.05</strong> Further reading</li>
+  <li><strong>44.19</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fas fa-envelope"></i> <a href="https://newsletter.jorgecastillo.dev/">Effective Android on Substack</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://jorgecastillo.dev/">Jorge’s Blog</a></li>
+      <li><i class="fas fa-school"></i> <a href="https://jorgecastillo.dev/course/">Jetpack Compose and internals course</a></li>
+      <li><i class="fas fa-book"></i> <a href="https://jorgecastillo.dev/book/">Book: Jetpack Compose internals</a></li>
+      <li><i class="fas fa-book"></i> <a href="https://jorgecastillo.dev/thegoodteammate/">Book: The Good Teammate</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/JorgeCastilloPrz">@JorgeCastilloPrz on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/JorgeCastilloPR">@JorgeCastilloPR on Twitter</a></li>
+  <li><i class="fab fa-mastodon"></i> <a href="https://androiddev.social/@jorge">@jorge on Mastodon</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Books, Courses, and Newsletters with Effective Android by Jorge Castillo]]></summary></entry><entry><title type="html">#59 - Voyager with Adriel Café</title><link href="https://thebakery.dev/59/" rel="alternate" type="text/html" title="#59 - Voyager with Adriel Café" /><published>2023-05-29T00:00:00+01:00</published><updated>2023-05-29T00:00:00+01:00</updated><id>https://thebakery.dev/059-voyager</id><content type="html" xml:base="https://thebakery.dev/59/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/1IU23jgadd48XBkJRU0wXU?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <p>Joining us today is <a href="https://twitter.com/adrielcafe"><strong>Adriel Café</strong></a>, the creator and maintainer of <a href="https://github.com/adrielcafe/voyager"><strong>Voyager</strong></a>. We’ll be delving into the depths of Navigation with Jetpack Compose, touching on topics such as tab navigation, nested navigation and deep-links. Also, Voyager let’s you build navigation experiences which are fully cross-platform thanks to its support for Android, iOS, Web and Desktop.</p>
 
@@ -551,77 +612,4 @@
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Cloud, Kubernetes and load balancers with MetalLB and Federico Paolinelli]]></summary></entry><entry><title type="html">#50 - Open Source Day with Schrödinger Hat</title><link href="https://thebakery.dev/50/" rel="alternate" type="text/html" title="#50 - Open Source Day with Schrödinger Hat" /><published>2023-01-17T00:00:00+00:00</published><updated>2023-01-17T00:00:00+00:00</updated><id>https://thebakery.dev/050-open-source-day</id><content type="html" xml:base="https://thebakery.dev/50/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/0LyS73qvlvJLIZ9Nt2AI0K?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<p>We reached episode <strong>50</strong>! 🎂</p>
-
-<p>Time to celebrate with a <strong>special episode</strong>.</p>
-
-<p>Today we go from building Open Source Software to building <strong>Open Source Conferences</strong>!
-We have on stage <a href="https://twitter.com/DavideImola"><strong>Davide Imola</strong></a> and <a href="https://twitter.com/404answnotfound"><strong>Lorenzo Pieri</strong></a> directly from the <a href="https://www.schrodinger-hat.it/">Schrödinger Hat community</a>.</p>
-
-<p>They’re among the organizers of <a href="https://osday.dev/">Open Source Day</a> a Tech Conference about Open Source. The beauty of this conference is that everything is built in the open in <a href="https://github.com/Schrodinger-Hat/osday-2023/">their Github repo</a>. It’s amazing to see how the OSS philosophy can be used to develop events beyond just software.</p>
-
-<p>Join us in this episode as we walk through the challenges of organizing a tech conference in 2023.</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.00</strong> Intro</li>
-  <li><strong>00.45</strong> Episode Start</li>
-  <li><strong>01.48</strong> Lorenzo’s Introduction</li>
-  <li><strong>02.37</strong> Davide’s Introduction</li>
-  <li><strong>03.19</strong> What is Schrödinger Hat?</li>
-  <li><strong>07.29</strong> What is Open Source Day?</li>
-  <li><strong>11.26</strong> What is making OS day unique?</li>
-  <li><strong>15.18</strong> Building conference as Open Source software</li>
-  <li><strong>17.58</strong> The Website</li>
-  <li><strong>23.50</strong> The Venue</li>
-  <li><strong>25.00</strong> The Call for Paper</li>
-  <li><strong>26.41</strong> The Sponsors</li>
-  <li><strong>31.47</strong> The Tickets</li>
-  <li><strong>36.31</strong> What’s your biggest fear when organizing a conference?</li>
-  <li><strong>41.30</strong> What have you learned for 2021 edition?</li>
-  <li><strong>48.32</strong> Are you inspired by any other conference?</li>
-  <li><strong>53.11</strong> How to contribute?</li>
-  <li><strong>55.09</strong> Where people can find you online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://osday.dev/">Open Source Day Website</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://www.eventbrite.it/e/open-source-day-2023-tickets-441134303577">Tickets for Open Source Day</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://sessionize.com/opensourceday23">CFP for Open Source Day</a></li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/Schrodinger-Hat/osday-2023">Schrodinger-Hat/osday-2023 on Github</a></li>
-  <li>The Schrödinger Hat Community
-    <ul>
-      <li><i class="fas fa-link"></i> <a href="https://www.schrodinger-hat.it/">Schrödinger Hat Official Website</a></li>
-      <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/schrodinger_hat">@schrodinger_hat on Twitter</a></li>
-      <li><i class="fab fa-facebook"></i> <a href="https://facebook.com/schrodingerhat">@schrodingerhat on Facebook</a></li>
-    </ul>
-  </li>
-  <li>Guest Contacts
-    <ul>
-      <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/404answnotfound">@404answnotfound on Twitter</a></li>
-      <li><i class="fab fa-github"></i> <a href="https://github.com/404answernotfound">@404answernotfound on Github</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://404answernotfound.eu/">Lorenzo’s Website</a></li>
-      <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/DavideImola">@DavideImola on Twitter</a></li>
-      <li><i class="fab fa-github"></i> <a href="https://github.com/davideimola">@davideimola on Github</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://www.davideimola.com/">Davide’s Website</a></li>
-    </ul>
-  </li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[From building Open Source Software to building Open Source Conferences with Schrödinger Hat]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Cloud, Kubernetes and load balancers with MetalLB and Federico Paolinelli]]></summary></entry></feed>

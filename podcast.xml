@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Mon, 29 May 2023 17:37:02 +0100</lastBuildDate>
+<lastBuildDate>Tue, 13 Jun 2023 15:19:09 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,101 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Effective Android with Jorge Castillo</title>
+        <itunes:title>Effective Android with Jorge Castillo</itunes:title>
+        <link>https://thebakery.dev/60/</link>
+        <pubDate>Tue, 13 Jun 2023 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/60/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>60</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/60-thedevelopersbakery-effective-android.m4a" length="18270903" type="audio/mpeg" />
+
+        <itunes:subtitle>Books, Courses, and Newsletters with Effective Android by Jorge Castillo</itunes:subtitle>
+        <itunes:summary>Books, Courses, and Newsletters with Effective Android by Jorge Castillo</itunes:summary>
+
+        
+        <description>
+            <![CDATA[It’s time for another bonus episode of The Developers’ Bakery! This time, we dive into the world of content creation with Jorge Castillo. Jorge is the author of the blog &amp; newsletter Effective Android and the author of Jetpack Compose internals book. In this episode we’ll talk about his journey...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>It’s time for another <strong>bonus episode</strong> of The Developers’ Bakery! This time, we dive into the world of content creation with <a href="https://twitter.com/JorgeCastilloPR"><strong>Jorge Castillo</strong></a>. Jorge is the author of the blog &amp; newsletter <a href="https://newsletter.jorgecastillo.dev/"><strong>Effective Android</strong></a> and the author of <a href="https://jorgecastillo.dev/book/"><strong>Jetpack Compose internals</strong></a> book.</p>
+
+<p>In this episode we’ll talk about his journey building a newsletter, writing blog posts, preparing courses, and writing books. Join us as we and discover the secrets behind his success.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.19</strong> Jorge’s Introduction</li>
+  <li><strong>03.13</strong> What is Effective Android?</li>
+  <li><strong>04.01</strong> Kicking off a newsletter</li>
+  <li><strong>05.19</strong> From RSS to your Inbox</li>
+  <li><strong>06.42</strong> How to monetize a newsletter?</li>
+  <li><strong>07.41</strong> Effective Interviews</li>
+  <li><strong>10.01</strong> How an interview is built</li>
+  <li><strong>12.01</strong> Podcast vs written interviews</li>
+  <li><strong>14.02</strong> Where do you find the time?</li>
+  <li><strong>16.36</strong> Jetpack Compose courses</li>
+  <li><strong>18.56</strong> Cohort based courses</li>
+  <li><strong>21.05</strong> Communities around courses</li>
+  <li><strong>23.00</strong> The business of online courses</li>
+  <li><strong>24.33</strong> The challenges of building a course</li>
+  <li><strong>26.51</strong> The book: Jetpack Compose Internals</li>
+  <li><strong>32.04</strong> The book: The Good Teammate</li>
+  <li><strong>32.54</strong> Leanpub</li>
+  <li><strong>34.58</strong> Maintaining Arrow</li>
+  <li><strong>41.05</strong> Further reading</li>
+  <li><strong>44.19</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fas fa-envelope"></i> <a href="https://newsletter.jorgecastillo.dev/">Effective Android on Substack</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://jorgecastillo.dev/">Jorge’s Blog</a></li>
+      <li><i class="fas fa-school"></i> <a href="https://jorgecastillo.dev/course/">Jetpack Compose and internals course</a></li>
+      <li><i class="fas fa-book"></i> <a href="https://jorgecastillo.dev/book/">Book: Jetpack Compose internals</a></li>
+      <li><i class="fas fa-book"></i> <a href="https://jorgecastillo.dev/thegoodteammate/">Book: The Good Teammate</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/JorgeCastilloPrz">@JorgeCastilloPrz on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/JorgeCastilloPR">@JorgeCastilloPR on Twitter</a></li>
+  <li><i class="fab fa-mastodon"></i> <a href="https://androiddev.social/@jorge">@jorge on Mastodon</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/60-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>46:09</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Voyager with Adriel Café</title>
