@@ -364,4 +364,10 @@ var store = [{
         "tags": [],
         "url": "/60/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#61 - KDE with Niccolò Venerandi",
+        "excerpt":"I’m really excited for today’s episode as we’re going to talk about Linux Desktop Environments with Niccolò Venerandi, a KDE contributor. Niccolò has been contributing to KDE Plasma for multiple years. He’s going to tell us how the KDE project is working, how it’s funded and how it is possible...","categories": [],
+        "tags": [],
+        "url": "/61/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

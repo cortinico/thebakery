@@ -1,4 +1,80 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2023-06-13T15:19:09+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#60 - Effective Android with Jorge Castillo</title><link href="https://thebakery.dev/60/" rel="alternate" type="text/html" title="#60 - Effective Android with Jorge Castillo" /><published>2023-06-13T00:00:00+01:00</published><updated>2023-06-13T00:00:00+01:00</updated><id>https://thebakery.dev/060-effective-android</id><content type="html" xml:base="https://thebakery.dev/60/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2023-06-26T11:01:25+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#61 - KDE with Niccolò Venerandi</title><link href="https://thebakery.dev/61/" rel="alternate" type="text/html" title="#61 - KDE with Niccolò Venerandi" /><published>2023-06-26T00:00:00+01:00</published><updated>2023-06-26T00:00:00+01:00</updated><id>https://thebakery.dev/061-kde</id><content type="html" xml:base="https://thebakery.dev/61/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>I’m really excited for today’s episode as we’re going to talk about Linux Desktop Environments with <a href="https://twitter.com/veggero"><strong>Niccolò Venerandi</strong></a>, a KDE contributor.</p>
+
+<p>Niccolò has been contributing to KDE Plasma for multiple years. He’s going to tell us how the KDE project is working, how it’s funded and how it is possible to contribute to it.</p>
+
+<p>He also runs a popular YouTube channel about KDE &amp; Linux that he’s using to found his Open Source work!</p>
+
+<p>In this episode, we’re going to learn his secrets and how he’s planning to grow his engagement with KDE through this channel.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.10</strong> Intro</li>
+  <li><strong>00.56</strong> Episode Start</li>
+  <li><strong>01.12</strong> Niccolò’s Introduction</li>
+  <li><strong>02.31</strong> What is KDE?</li>
+  <li><strong>04.49</strong> What is your role within KDE?</li>
+  <li><strong>05.51</strong> KDE Plasma on a Steam Deck</li>
+  <li><strong>06.44</strong> Which Linux distro are you using?</li>
+  <li><strong>07.12</strong> Which Linux distro are you recommending?</li>
+  <li><strong>07.54</strong> How you got involved with KDE?</li>
+  <li><strong>10.37</strong> Where is KDE’s code?</li>
+  <li><strong>11.11</strong> Mentoring in the KDE community</li>
+  <li><strong>12.22</strong> Whick programming languages are used for KDE?</li>
+  <li><strong>14.21</strong> GNOME vs KDE</li>
+  <li><strong>16.55</strong> How is KDE funded?</li>
+  <li><strong>20.13</strong> How anarchy sometimes work</li>
+  <li><strong>22.34</strong> Meeting the KDE community</li>
+  <li><strong>24.10</strong> Different ways of doing Open Source</li>
+  <li><strong>29.10</strong> How to start contributing to KDE?</li>
+  <li><strong>31.22</strong> What KDE needs right now?</li>
+  <li><strong>32.06</strong> kNaming</li>
+  <li><strong>34.05</strong> Nicco Loves Linux</li>
+  <li><strong>36.47</strong> Sustaining Open Source via YouTube</li>
+  <li><strong>39.39</strong> Marketing is hard</li>
+  <li><strong>42.34</strong> Further reading</li>
+  <li><strong>44.35</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://invent.kde.org">KDE on GitLab</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://kde.org/">KDE official website</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://community.kde.org/Get_Involved">Get involved with KDE</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://pointieststick.com/">Nate Graham’s Blog</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://pointieststick.com/2020/08/04/the-structure-of-kde-or-how-anarchy-sometimes-works/">How anarchy sometimes work</a></li>
+    </ul>
+  </li>
+  <li>Mentioned Linux YouTubers:
+    <ul>
+      <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/@thelinuxexp">@thelinuxexp on YouTube</a></li>
+      <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/@TechHut">@TechHut on YouTube</a></li>
+      <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/@TheLinuxCast">@TheLinuxCast on YouTube</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/@niccoloveslinux">@niccoloveslinux on YouTube</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/veggero">@veggero on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/veggero">@veggero on Twitter</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://nicco.love/">Niccolò’s Blog</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Contributing to Linux on Desktop with KDE and Niccolò Venerandi]]></summary></entry><entry><title type="html">#60 - Effective Android with Jorge Castillo</title><link href="https://thebakery.dev/60/" rel="alternate" type="text/html" title="#60 - Effective Android with Jorge Castillo" /><published>2023-06-13T00:00:00+01:00</published><updated>2023-06-13T00:00:00+01:00</updated><id>https://thebakery.dev/060-effective-android</id><content type="html" xml:base="https://thebakery.dev/60/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/1f7fMiskEazapgVsYKmsY5?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <p>It’s time for another <strong>bonus episode</strong> of The Developers’ Bakery! This time, we dive into the world of content creation with <a href="https://twitter.com/JorgeCastilloPR"><strong>Jorge Castillo</strong></a>. Jorge is the author of the blog &amp; newsletter <a href="https://newsletter.jorgecastillo.dev/"><strong>Effective Android</strong></a> and the author of <a href="https://jorgecastillo.dev/book/"><strong>Jetpack Compose internals</strong></a> book.</p>
 
@@ -558,58 +634,4 @@
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[From Parsing RSS feeds to Kotlin Multiplatform with Marco Gomiero]]></summary></entry><entry><title type="html">#51 - MetalLB with Federico Paolinelli</title><link href="https://thebakery.dev/51/" rel="alternate" type="text/html" title="#51 - MetalLB with Federico Paolinelli" /><published>2023-01-31T00:00:00+00:00</published><updated>2023-01-31T00:00:00+00:00</updated><id>https://thebakery.dev/051-metallb</id><content type="html" xml:base="https://thebakery.dev/51/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/5UCf9uS0e9OnMCpZCObWkV?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<p>Today we talk about <strong>cloud</strong> ☁️ as we have on stage <a href="https://twitter.com/fedepaol"><strong>Federico Paolinelli</strong></a> from Red Hat to talk us about <a href="https://github.com/metallb/metallb"><strong>MetalLB</strong></a>.</p>
-
-<p>MetalLB is a load balancer for Kubernetes instances deployed on bare metal. If you like me are curious to learn what this means, what is Kubernetes, why do you need a load balancer and why would you deploy on bare metal… don’t miss this episode!</p>
-
-<p>Federico will walk us through this project, explaining how he became a maintainer of a Cloud Native Computing Foundation project, what are its use cases and its challenges.</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.00</strong> Intro</li>
-  <li><strong>00.45</strong> Episode Start</li>
-  <li><strong>01.19</strong> Federico’s Introduction</li>
-  <li><strong>07.30</strong> What is MetalLB?</li>
-  <li><strong>08.07</strong> What is Kubernetes?</li>
-  <li><strong>10.23</strong> What is a Load Balancer?</li>
-  <li><strong>12.16</strong> Running Kubernetes on bare metal</li>
-  <li><strong>15.16</strong> Load Balancing Internals</li>
-  <li><strong>20.07</strong> Unexpected use cases</li>
-  <li><strong>22.02</strong> What’s the history of MetalLB?</li>
-  <li><strong>24.23</strong> The RedHat model</li>
-  <li><strong>26.19</strong> CI and Testing</li>
-  <li><strong>28.45</strong> Go vs Rust?</li>
-  <li><strong>33.37</strong> What does it mean to join the CNCF?</li>
-  <li><strong>37.12</strong> How is this project funded?</li>
-  <li><strong>39.42</strong> The future of MetalLB</li>
-  <li><strong>40.55</strong> Further reading</li>
-  <li><strong>42.45</strong> Where people can find you online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/metallb/metallb">metallb/metallb on Github</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://metallb.universe.tf/">MetalLB Official Website</a></li>
-  <li><i class="fab fa-youtube"></i> <a href="https://fosdem.org/2023/schedule/event/network_metallb_and_frr/">MetalLB and FRR: a match made in heaven - FOSDEM 2023</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/fedepaol">@fedepaol on Twitter</a></li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/fedepaol">@fedepaol on Github</a></li>
-  <li><i class="fab fa-mastodon"></i> <a href="https://hachyderm.io/@fedepaol">@fedepaol on Mastodon</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://fedepaol.github.io/">Federicos’s Website</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Cloud, Kubernetes and load balancers with MetalLB and Federico Paolinelli]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[From Parsing RSS feeds to Kotlin Multiplatform with Marco Gomiero]]></summary></entry></feed>
