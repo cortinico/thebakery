@@ -25,7 +25,7 @@ podcast_duration: "46:09"
 podcast_length: 18270903
 ---
 
-<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/1f7fMiskEazapgVsYKmsY5?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
             
 It's time for another **bonus episode** of The Developers' Bakery! This time, we dive into the world of content creation with [**Jorge Castillo**](https://twitter.com/JorgeCastilloPR). Jorge is the author of the blog & newsletter [**Effective Android**](https://newsletter.jorgecastillo.dev/) and the author of [**Jetpack Compose internals**](https://jorgecastillo.dev/book/) book.
 
