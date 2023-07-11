@@ -26,8 +26,7 @@ jobs:
       run: |
         mkdir _site/
         mkdir -p vendor/bundle/
-        chmod -R 777 _site/
-        chmod -R 777 vendor/
+        chmod -R 777 .
         touch Gemfile.lock
         chmod a+w Gemfile.lock
 
