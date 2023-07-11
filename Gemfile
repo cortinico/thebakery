@@ -23,3 +23,4 @@ gem "jemoji"
 gem "kramdown-parser-gfm"
 gem "jekyll-redirect-from"
 gem "webrick", "~> 1.7"
+gem "jekyll-sass-converter", "~> 2.2", group: :jekyll_plugins
