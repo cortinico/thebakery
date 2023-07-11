@@ -14,7 +14,7 @@ source "https://rubygems.org"
 # To upgrade, run `bundle update`.
 
 
-gem "jekyll", "~> 3"
+gem "jekyll", "~> 4"
 # gem "github-pages","~> 202" , group: :jekyll_plugins
 gem "jekyll-remote-theme"
 gem "minimal-mistakes-jekyll"
@@ -23,3 +23,4 @@ gem "jemoji"
 gem "kramdown-parser-gfm"
 gem "jekyll-redirect-from"
 gem "webrick", "~> 1.7"
+gem "jekyll-sass-converter", "~> 2.2", group: :jekyll_plugins
