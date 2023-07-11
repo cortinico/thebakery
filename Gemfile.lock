@@ -40,6 +40,8 @@ GEM
     ffi (1.15.5)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
+    google-protobuf (3.23.4-arm64-darwin)
+    google-protobuf (3.23.4-x86_64-linux)
     html-pipeline (2.14.3)
       activesupport (>= 2)
       nokogiri (>= 1.4)
@@ -76,8 +78,8 @@ GEM
       jekyll (>= 3.5, < 5.0)
       jekyll-sass-converter (>= 1.0, <= 3.0.0, != 2.0.0)
       rubyzip (>= 1.3.0, < 3.0)
-    jekyll-sass-converter (2.2.0)
-      sassc (> 2.0.1, < 3.0)
+    jekyll-sass-converter (3.0.0)
+      sass-embedded (~> 1.54)
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
@@ -123,8 +125,10 @@ GEM
     ruby2_keywords (0.0.5)
     rubyzip (2.3.2)
     safe_yaml (1.0.5)
-    sassc (2.4.0)
-      ffi (~> 1.9)
+    sass-embedded (1.63.6-arm64-darwin)
+      google-protobuf (~> 3.23)
+    sass-embedded (1.63.6-x86_64-linux-gnu)
+      google-protobuf (~> 3.23)
     sawyer (0.8.2)
       addressable (>= 2.3.5)
       faraday (> 0.8, < 2.0)
@@ -143,7 +147,7 @@ DEPENDENCIES
   jekyll (~> 4)
   jekyll-redirect-from
   jekyll-remote-theme
-  jekyll-sass-converter (~> 2.2)
+  jekyll-sass-converter (~> 3.0)
   jemoji
   kramdown-parser-gfm
   minimal-mistakes-jekyll
