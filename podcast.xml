@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Wed, 12 Jul 2023 09:40:24 +0100</lastBuildDate>
+<lastBuildDate>Wed, 12 Jul 2023 09:40:30 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,114 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Marathon with Anton Malinskiy</title>
+        <itunes:title>Marathon with Anton Malinskiy</itunes:title>
+        <link>https://thebakery.dev/62/</link>
+        <pubDate>Mon, 10 Jul 2023 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/62/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>62</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/62-thedevelopersbakery-marathon.m4a" length="18650611" type="audio/mpeg" />
+
+        <itunes:subtitle>Time to forget about flaky UI test on Mobile with Marathon and Anton Malinskiy</itunes:subtitle>
+        <itunes:summary>Time to forget about flaky UI test on Mobile with Marathon and Anton Malinskiy</itunes:summary>
+
+        
+        <description>
+            <![CDATA[In today’s episode, we talk about a problem that most Mobile developers faced in their career flaky tests, and we do it with Anton Malinskiy, joining us to talk about Marathon, the Mobile UI Test runner. We all know that ensuring high quality and reliability of our mobile apps is...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>In today’s episode, we talk about a problem that most Mobile developers faced in their career <strong>flaky tests</strong>, and we do it with <a href="https://twitter.com/anton_malinskiy"><strong>Anton Malinskiy</strong></a>, joining us to talk about <a href="https://github.com/MarathonLabs/marathon"><strong>Marathon</strong></a>, the Mobile UI Test runner.</p>
+
+<p>We all know that ensuring high quality and reliability of our mobile apps is key to our success and to a 5-star rating. That’s why mobile testing is so important.  Marathon helps us in this endeavour, orchestrating our test execution in a smart way to parallelize our tests and reduce flakiness.</p>
+
+<p>Anton is going to guide us with us through Marathon’s capabilities, its unique features, and the challenges it solves in the realm of UI testing.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.02</strong> Anton’s Introduction</li>
+  <li><strong>02.48</strong> What is Marathon?</li>
+  <li><strong>06.15</strong> Why UI testing for mobile is hard?</li>
+  <li><strong>09.35</strong> What are the features of Marathon?</li>
+  <li><strong>12.39</strong> Handling flakyness</li>
+  <li><strong>15.51</strong> Learning from other test runs</li>
+  <li><strong>17.07</strong> Running adb commands during tests</li>
+  <li><strong>19.21</strong> Optimizing for parallelism</li>
+  <li><strong>23.08</strong> How does Marathon compares to similar tools?</li>
+  <li><strong>29.17</strong> Why GPL 2.0?</li>
+  <li><strong>31.53</strong> License switching</li>
+  <li><strong>33.45</strong> Marathon Cloud</li>
+  <li><strong>38.03</strong> Running tests under 15 minutes</li>
+  <li><strong>41.20</strong> Marathon Cloud for OSS</li>
+  <li><strong>42.08</strong> Further reading</li>
+  <li><strong>45.02</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/MarathonLabs/marathon">MarathonLabs/marathon on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://docs.marathonlabs.io/">Marathon Official Docs</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://medium.marathonlabs.io/">Marathon Official Blog</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://marathonlabs.io/">Marathon Cloud Website</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> Blogpost Series: I want to run any number of Android UI tests on each PR. <a href="https://proandroiddev.com/i-want-to-run-any-number-of-android-ui-tests-on-each-pr-your-actions-part-i-40d694c7d641">Part 1</a> <a href="https://proandroiddev.com/i-want-to-run-any-number-of-android-ui-tests-on-each-pr-cost-part-ii-76e83b393aa1">Part 2</a> <a href="https://medium.marathonlabs.io/i-want-to-run-any-number-of-android-ui-tests-on-each-pr-existing-solutions-part-iii-4f40b1c22b12">Part 3</a> <a href="https://medium.marathonlabs.io/i-want-to-run-any-number-of-android-ui-tests-on-each-pr-existing-solutions-part-iv-c6452210a895">Part 4</a></li>
+      <li><i class="fas fa-link"></i> Blogpost Series: Marathon Early Design. <a href="https://proandroiddev.com/marathon-chapter-1-97f295054cc4">Part 1</a> <a href="https://proandroiddev.com/marathon-chapter-2-1cde95cfdb87">Part 2</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/Malinskiy/heisenbug-2023-spring-marathon-samples/tree/master">Example of optimal setup of Marathon</a></li>
+    </ul>
+  </li>
+  <li>Inspirational Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://www.sqlite.org/testing.html">How SQLite Is Tested</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://www.infoq.com/presentations/Development-at-Google/">Development at the Speed and Scale of Google</a></li>
+      <li><i class="fab fa-youtube"></i> Testing @ Google - <a href="https://www.youtube.com/watch?v=b52aXZ2yi08">Video 1</a> <a href="https://www.youtube.com/watch?v=2qv3fcXW1mg">Video 2</a> <a href="https://www.youtube.com/watch?v=KH2_sB1A6lA">Video 3</a> <a href="https://www.youtube.com/watch?v=yx6ErjPYDeY&amp;t=1800s">Video 4</a></li>
+    </ul>
+  </li>
+  <li>Connect with Marathon:
+    <ul>
+      <li><i class="fab fa-slack"></i> <a href="https://bit.ly/2LLghaW">Marathon on Slack</a></li>
+      <li><i class="fas fa-paper-plane"></i> <a href="https://t.me/marathontestrunner">@marathontestrunner on Telegram</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/Malinskiy">@Malinskiy on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/anton_malinskiy">@anton_malinskiy on Twitter</a></li>
+  <li><i class="fas fa-paper-plane"></i> <a href="https://t.me/Malinskiy">@Malinskiy on Telegram</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/62-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>47:11</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>KDE with Niccolò Venerandi</title>

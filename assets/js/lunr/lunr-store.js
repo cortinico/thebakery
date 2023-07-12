@@ -370,4 +370,10 @@ var store = [{
         "tags": [],
         "url": "/61/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#62 - Marathon with Anton Malinskiy",
+        "excerpt":"In today’s episode, we talk about a problem that most Mobile developers faced in their career flaky tests, and we do it with Anton Malinskiy, joining us to talk about Marathon, the Mobile UI Test runner. We all know that ensuring high quality and reliability of our mobile apps is...","categories": [],
+        "tags": [],
+        "url": "/62/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

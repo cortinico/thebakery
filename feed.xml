@@ -1,4 +1,78 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2023-07-12T09:40:24+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#61 - KDE with Niccolò Venerandi</title><link href="https://thebakery.dev/61/" rel="alternate" type="text/html" title="#61 - KDE with Niccolò Venerandi" /><published>2023-06-26T00:00:00+01:00</published><updated>2023-06-26T00:00:00+01:00</updated><id>https://thebakery.dev/061-kde</id><content type="html" xml:base="https://thebakery.dev/61/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2023-07-12T09:40:30+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#62 - Marathon with Anton Malinskiy</title><link href="https://thebakery.dev/62/" rel="alternate" type="text/html" title="#62 - Marathon with Anton Malinskiy" /><published>2023-07-10T00:00:00+01:00</published><updated>2023-07-10T00:00:00+01:00</updated><id>https://thebakery.dev/062-marathon</id><content type="html" xml:base="https://thebakery.dev/62/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>In today’s episode, we talk about a problem that most Mobile developers faced in their career <strong>flaky tests</strong>, and we do it with <a href="https://twitter.com/anton_malinskiy"><strong>Anton Malinskiy</strong></a>, joining us to talk about <a href="https://github.com/MarathonLabs/marathon"><strong>Marathon</strong></a>, the Mobile UI Test runner.</p>
+
+<p>We all know that ensuring high quality and reliability of our mobile apps is key to our success and to a 5-star rating. That’s why mobile testing is so important.  Marathon helps us in this endeavour, orchestrating our test execution in a smart way to parallelize our tests and reduce flakiness.</p>
+
+<p>Anton is going to guide us with us through Marathon’s capabilities, its unique features, and the challenges it solves in the realm of UI testing.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.02</strong> Anton’s Introduction</li>
+  <li><strong>02.48</strong> What is Marathon?</li>
+  <li><strong>06.15</strong> Why UI testing for mobile is hard?</li>
+  <li><strong>09.35</strong> What are the features of Marathon?</li>
+  <li><strong>12.39</strong> Handling flakyness</li>
+  <li><strong>15.51</strong> Learning from other test runs</li>
+  <li><strong>17.07</strong> Running adb commands during tests</li>
+  <li><strong>19.21</strong> Optimizing for parallelism</li>
+  <li><strong>23.08</strong> How does Marathon compares to similar tools?</li>
+  <li><strong>29.17</strong> Why GPL 2.0?</li>
+  <li><strong>31.53</strong> License switching</li>
+  <li><strong>33.45</strong> Marathon Cloud</li>
+  <li><strong>38.03</strong> Running tests under 15 minutes</li>
+  <li><strong>41.20</strong> Marathon Cloud for OSS</li>
+  <li><strong>42.08</strong> Further reading</li>
+  <li><strong>45.02</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/MarathonLabs/marathon">MarathonLabs/marathon on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://docs.marathonlabs.io/">Marathon Official Docs</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://medium.marathonlabs.io/">Marathon Official Blog</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://marathonlabs.io/">Marathon Cloud Website</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> Blogpost Series: I want to run any number of Android UI tests on each PR. <a href="https://proandroiddev.com/i-want-to-run-any-number-of-android-ui-tests-on-each-pr-your-actions-part-i-40d694c7d641">Part 1</a> <a href="https://proandroiddev.com/i-want-to-run-any-number-of-android-ui-tests-on-each-pr-cost-part-ii-76e83b393aa1">Part 2</a> <a href="https://medium.marathonlabs.io/i-want-to-run-any-number-of-android-ui-tests-on-each-pr-existing-solutions-part-iii-4f40b1c22b12">Part 3</a> <a href="https://medium.marathonlabs.io/i-want-to-run-any-number-of-android-ui-tests-on-each-pr-existing-solutions-part-iv-c6452210a895">Part 4</a></li>
+      <li><i class="fas fa-link"></i> Blogpost Series: Marathon Early Design. <a href="https://proandroiddev.com/marathon-chapter-1-97f295054cc4">Part 1</a> <a href="https://proandroiddev.com/marathon-chapter-2-1cde95cfdb87">Part 2</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/Malinskiy/heisenbug-2023-spring-marathon-samples/tree/master">Example of optimal setup of Marathon</a></li>
+    </ul>
+  </li>
+  <li>Inspirational Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://www.sqlite.org/testing.html">How SQLite Is Tested</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://www.infoq.com/presentations/Development-at-Google/">Development at the Speed and Scale of Google</a></li>
+      <li><i class="fab fa-youtube"></i> Testing @ Google - <a href="https://www.youtube.com/watch?v=b52aXZ2yi08">Video 1</a> <a href="https://www.youtube.com/watch?v=2qv3fcXW1mg">Video 2</a> <a href="https://www.youtube.com/watch?v=KH2_sB1A6lA">Video 3</a> <a href="https://www.youtube.com/watch?v=yx6ErjPYDeY&amp;t=1800s">Video 4</a></li>
+    </ul>
+  </li>
+  <li>Connect with Marathon:
+    <ul>
+      <li><i class="fab fa-slack"></i> <a href="https://bit.ly/2LLghaW">Marathon on Slack</a></li>
+      <li><i class="fas fa-paper-plane"></i> <a href="https://t.me/marathontestrunner">@marathontestrunner on Telegram</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/Malinskiy">@Malinskiy on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/anton_malinskiy">@anton_malinskiy on Twitter</a></li>
+  <li><i class="fas fa-paper-plane"></i> <a href="https://t.me/Malinskiy">@Malinskiy on Telegram</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Time to forget about flaky UI test on Mobile with Marathon and Anton Malinskiy]]></summary></entry><entry><title type="html">#61 - KDE with Niccolò Venerandi</title><link href="https://thebakery.dev/61/" rel="alternate" type="text/html" title="#61 - KDE with Niccolò Venerandi" /><published>2023-06-26T00:00:00+01:00</published><updated>2023-06-26T00:00:00+01:00</updated><id>https://thebakery.dev/061-kde</id><content type="html" xml:base="https://thebakery.dev/61/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/047mkBU1dP1y6Am3kS6cEp?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <p>I’m really excited for today’s episode as we’re going to talk about Linux Desktop Environments with <a href="https://twitter.com/veggero"><strong>Niccolò Venerandi</strong></a>, a KDE contributor.</p>
 
@@ -577,61 +651,4 @@
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[A more sustainable sponsoring model with thanks.dev and Armin Nehzat]]></summary></entry><entry><title type="html">#52 - RSS-Parser with Marco Gomiero</title><link href="https://thebakery.dev/52/" rel="alternate" type="text/html" title="#52 - RSS-Parser with Marco Gomiero" /><published>2023-02-14T00:00:00+00:00</published><updated>2023-02-14T00:00:00+00:00</updated><id>https://thebakery.dev/052-rss-parser</id><content type="html" xml:base="https://thebakery.dev/52/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/3o5X3u9FK5rQOUbfByWIcW?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<p>We’re back in the Kotlin world with <a href="https://twitter.com/marcoGomier"><strong>Marco Gomiero</strong></a> and his library <a href="https://github.com/prof18/RSS-Parser"><strong>RSS-Parser</strong></a> for, you guessed it, parsing RSS feeds.</p>
-
-<p>Marco will walk us through how this library helped him to get started in the OSS world and helped him land his first job!</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.00</strong> Intro</li>
-  <li><strong>00.45</strong> Episode Start</li>
-  <li><strong>01.26</strong> Marco’s Introduction</li>
-  <li><strong>03.18</strong> What is RSS-Parser?</li>
-  <li><strong>04.44</strong> How RSS-Parser is different from a XML parser?</li>
-  <li><strong>07.03</strong> Whick Kotlin features have you used?</li>
-  <li><strong>09.21</strong> Using coroutines from Java</li>
-  <li><strong>10.54</strong> JVM vs Android libraries</li>
-  <li><strong>12.20</strong> RSS-Parsing in the Multiplatform world</li>
-  <li><strong>14.05</strong> Any design decision you regret?</li>
-  <li><strong>17.22</strong> What’s the history of this library?</li>
-  <li><strong>23.05</strong> How Marco got started with OSS?</li>
-  <li><strong>24.39</strong> Publishing to Maven Central</li>
-  <li><strong>30.32</strong> Meaningful external contributions</li>
-  <li><strong>33.13</strong> Sponsorships</li>
-  <li><strong>33.53</strong> What’s next for this library?</li>
-  <li><strong>35.09</strong> Further reading</li>
-  <li><strong>36.36</strong> Where people can find you online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/prof18/RSS-Parser">prof18/RSS-Parser on Github</a></li>
-  <li>Mentioned Resources:
-    <ul>
-      <li><i class="fas fa-link"></i> <a href="https://www.marcogomiero.com/posts/2019/asynctask-to-coroutines/">A journey from Async Task to Kotlin Coroutines</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://www.marcogomiero.com/posts/2018/bye-async-task/">RSS Parser 2.0: bye bye Async Task, welcome Coroutines</a></li>
-      <li><i class="fab fa-github"></i> <a href="https://github.com/vanniktech/gradle-maven-publish-plugin">vanniktech/gradle-maven-publish-plugin on Github</a></li>
-    </ul>
-  </li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/marcoGomier">@marcoGomier on Twitter</a></li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/prof18">@prof18 on Github</a></li>
-  <li><i class="fab fa-mastodon"></i> <a href="https://androiddev.social/@marcogom">@marcogom on Mastodon</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://www.marcogomiero.com">Marco’s Website</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[From Parsing RSS feeds to Kotlin Multiplatform with Marco Gomiero]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[A more sustainable sponsoring model with thanks.dev and Armin Nehzat]]></summary></entry></feed>
