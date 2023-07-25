@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Tue, 25 Jul 2023 10:48:37 +0100</lastBuildDate>
+<lastBuildDate>Tue, 25 Jul 2023 16:08:02 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -65,7 +65,9 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
             <![CDATA[Welcome to a special in-person episode of The Developers’ Bakery, recorded live in Amsterdam at Google IO Connect. There, I had the privilege of having on stage Boris Farber and Tomáš Mlynarič from Google and they will tell us What’s New in Android. As I’m a big fan of build...]]>
         </description>
         <content:encoded>
-            <![CDATA[<p>Welcome to a special <strong>in-person episode</strong> of The Developers’ Bakery, recorded live in <strong>Amsterdam</strong> at Google IO Connect.</p>
+            <![CDATA[<p><img src="/assets/images/posts/ioconnect.jpg" alt="io connect photo" /></p>
+
+<p>Welcome to a special <strong>in-person episode</strong> of The Developers’ Bakery, recorded live in <strong>Amsterdam</strong> at Google IO Connect.</p>
 
 <p>There, I had the privilege of having on stage <a href="https://twitter.com/borisfarber"><strong>Boris Farber</strong></a> and <a href="https://twitter.com/mlykotom"><strong>Tomáš Mlynarič</strong></a> from Google and they will tell us What’s New in Android. As I’m a big fan of build tool, in this episode we’re going to delve into some of the updates for popular <strong>devtools</strong> for Android: Android Studio, Android Gradle Plugin (AGP), Gradle KTS and much more.</p>
 
