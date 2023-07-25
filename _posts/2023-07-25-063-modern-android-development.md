@@ -27,6 +27,8 @@ podcast_length: 18025023
 
 <iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
+![io connect photo](/assets/images/posts/ioconnect.jpg)
+
 Welcome to a special **in-person episode** of The Developers' Bakery, recorded live in **Amsterdam** at Google IO Connect. 
 
 There, I had the privilege of having on stage [**Boris Farber**](https://twitter.com/borisfarber) and [**Tomáš Mlynarič**](https://twitter.com/mlykotom) from Google and they will tell us What's New in Android. As I'm a big fan of build tool, in this episode we're going to delve into some of the updates for popular **devtools** for Android: Android Studio, Android Gradle Plugin (AGP), Gradle KTS and much more.
