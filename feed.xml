@@ -1,4 +1,76 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2023-07-12T09:40:30+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#62 - Marathon with Anton Malinskiy</title><link href="https://thebakery.dev/62/" rel="alternate" type="text/html" title="#62 - Marathon with Anton Malinskiy" /><published>2023-07-10T00:00:00+01:00</published><updated>2023-07-10T00:00:00+01:00</updated><id>https://thebakery.dev/062-marathon</id><content type="html" xml:base="https://thebakery.dev/62/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2023-07-25T10:48:37+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#63 - Modern Android Development with Boris Farber and Tomáš Mlynarič</title><link href="https://thebakery.dev/63/" rel="alternate" type="text/html" title="#63 - Modern Android Development with Boris Farber and Tomáš Mlynarič" /><published>2023-07-25T00:00:00+01:00</published><updated>2023-07-25T00:00:00+01:00</updated><id>https://thebakery.dev/063-modern-android-development</id><content type="html" xml:base="https://thebakery.dev/63/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>Welcome to a special <strong>in-person episode</strong> of The Developers’ Bakery, recorded live in <strong>Amsterdam</strong> at Google IO Connect.</p>
+
+<p>There, I had the privilege of having on stage <a href="https://twitter.com/borisfarber"><strong>Boris Farber</strong></a> and <a href="https://twitter.com/mlykotom"><strong>Tomáš Mlynarič</strong></a> from Google and they will tell us What’s New in Android. As I’m a big fan of build tool, in this episode we’re going to delve into some of the updates for popular <strong>devtools</strong> for Android: Android Studio, Android Gradle Plugin (AGP), Gradle KTS and much more.</p>
+
+<p>We’ll have also the opportunity to discover <strong>Baseline Profiles</strong>, a new mechanism to boost the performance of your Android apps.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.39</strong> Tomáš’ Introduction</li>
+  <li><strong>02.22</strong> Boris’ Introduction</li>
+  <li><strong>02.47</strong> What’s New in Android?</li>
+  <li><strong>04.02</strong> Gradle KTS</li>
+  <li><strong>05.51</strong> Gradle Version Catalog</li>
+  <li><strong>08.06</strong> Android Gradle Plugin (AGP)</li>
+  <li><strong>10.02</strong> Java 17</li>
+  <li><strong>12.21</strong> Alpha, beta and stable releases</li>
+  <li><strong>15.18</strong> What are Baseline Profiles?</li>
+  <li><strong>19.08</strong> What does a Baseline Profile look like?</li>
+  <li><strong>20.29</strong> How to create a Baseline Profile?</li>
+  <li><strong>22.51</strong> Which flows to include in a Baseline Profile?</li>
+  <li><strong>25.28</strong> Baseline Profiles for Library Authors</li>
+  <li><strong>27.53</strong> Performance wins</li>
+  <li><strong>28.49</strong> Where is the Android code?</li>
+  <li><strong>30.47</strong> How to contribute to Android?</li>
+  <li><strong>33.33</strong> Reporting a bug for Android</li>
+  <li><strong>35.07</strong> Too many bug reports!</li>
+  <li><strong>37.03</strong> Effective triaging</li>
+  <li><strong>38.32</strong> Reproducers</li>
+  <li><strong>39.21</strong> Which future for Gradle on Android?</li>
+  <li><strong>40.53</strong> Further reading</li>
+  <li><strong>42.44</strong> Docs for KTS migration</li>
+  <li><strong>43.54</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-youtube"></i> Google IO - <a href="https://io.google/2023/program/035d04f9-bc75-479e-8865-493151c867c4/">What’s New in Android</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://developer.android.com/build">AGP Landing Page</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://developer.android.com/build/migrate-to-kotlin-dsl">Migrate your build file from Groovy to Kotlin</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://developer.android.com/build/migrate-to-catalogs">Migrate to version catalogs</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/android/nowinandroid">android/nowinandroid on GitHub</a></li>
+      <li><i class="fab fa-youtube"></i> Android Dev Summit - <a href="https://youtu.be/yJm5On5Gp4c">Making apps blazing fast with Baseline Profiles</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://medium.com/androiddevelopers/whats-new-in-android-performance-google-i-o-2023-edition-21a1832c9fa3">What’s new in Android Performance - IO 2023</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://cs.android.com/">Android Source Code</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/borisf">@borisf on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/borisfarber">@borisfarber on Twitter</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://farber.io/">Boris’ website</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/mlykotom">@mlykotom on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/mlykotom">@mlykotom on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[I met in person with Boris and Tomáš at IO Connect to talk about what's new in Android!]]></summary></entry><entry><title type="html">#62 - Marathon with Anton Malinskiy</title><link href="https://thebakery.dev/62/" rel="alternate" type="text/html" title="#62 - Marathon with Anton Malinskiy" /><published>2023-07-10T00:00:00+01:00</published><updated>2023-07-10T00:00:00+01:00</updated><id>https://thebakery.dev/062-marathon</id><content type="html" xml:base="https://thebakery.dev/62/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/7dhzeGKans9AlwvkOzEImP?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <p>In today’s episode, we talk about a problem that most Mobile developers faced in their career <strong>flaky tests</strong>, and we do it with <a href="https://twitter.com/anton_malinskiy"><strong>Anton Malinskiy</strong></a>, joining us to talk about <a href="https://github.com/MarathonLabs/marathon"><strong>Marathon</strong></a>, the Mobile UI Test runner.</p>
 
@@ -587,68 +659,4 @@
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Structured concurrency in Go with conc and Camden Cheek]]></summary></entry><entry><title type="html">#53 - thanks.dev with Armin Nehzat</title><link href="https://thebakery.dev/53/" rel="alternate" type="text/html" title="#53 - thanks.dev with Armin Nehzat" /><published>2023-02-28T00:00:00+00:00</published><updated>2023-02-28T00:00:00+00:00</updated><id>https://thebakery.dev/053-thanks.dev</id><content type="html" xml:base="https://thebakery.dev/53/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/5ohOr4fwXtDKA2ITk7cTvW?utm_source=generator&amp;theme=0" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<p>Today we don’t talk about a specific Open Source project, but about a tool that can help us build a more sustainable ecosystem: <a href="https://thanks.dev"><strong>thanks.dev</strong></a>.</p>
-
-<p>I have the pleasure to have on stage <a href="https://twitter.com/anehzat"><strong>Armin Nehzat</strong></a>, Growth Officer of thanks.dev, a donation and sponsoring platform for open-source projects.</p>
-
-<p>The key feature of thanks.dev is how it manages to scan your <strong>dependency tree</strong> and discovers all the projects you build on top, so you can split your donations to all of them. Similarly as a maintainer, you can get a fraction of a donation, even if you’re down in the dependency chain of someone else.</p>
-
-<p>Join us in this episode as Armin walk us through the challenges of connecting donors with maintainers in a sustainable way.</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.00</strong> Intro</li>
-  <li><strong>00.45</strong> Episode Start</li>
-  <li><strong>01.27</strong> Armin’s Introduction</li>
-  <li><strong>02.43</strong> What is thanks.dev?</li>
-  <li><strong>03.46</strong> The model behind thanks.dev</li>
-  <li><strong>05.45</strong> Donating to transitive dependencies</li>
-  <li><strong>07.38</strong> Single donors vs companies</li>
-  <li><strong>09.51</strong> Microdonations</li>
-  <li><strong>11.02</strong> Why should a maintainer join thanks.dev</li>
-  <li><strong>12.50</strong> Transfering donations</li>
-  <li><strong>13.49</strong> Which languages you support?</li>
-  <li><strong>15.25</strong> Kotlin &amp; the dependency graph</li>
-  <li><strong>17.20</strong> Renovate bot</li>
-  <li><strong>18.13</strong> Is thanks.dev open source?</li>
-  <li><strong>19.07</strong> How many maintainers joined thanks.dev?</li>
-  <li><strong>20.00</strong> Finding maintainers</li>
-  <li><strong>21.41</strong> Maintainers and self promotion</li>
-  <li><strong>23.04</strong> Big players already on the platform</li>
-  <li><strong>24.10</strong> The story behind thanks.dev</li>
-  <li><strong>25.47</strong> The ‘Open Source Support’ fee</li>
-  <li><strong>26.54</strong> How is developing thanks.dev?</li>
-  <li><strong>27.59</strong> The future of thanks.dev</li>
-  <li><strong>30.50</strong> Premium features for supporters</li>
-  <li><strong>35.04</strong> Further reading</li>
-  <li><strong>36.36</strong> Burnout in the OSS community</li>
-  <li><strong>39.07</strong> Where people can find you online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thanks.dev/">Thanks.dev Official Website</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://thanks.dev/static/why">Why thanks.dev</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://thanks.dev/static/vision-mission">The thanks.dev Mission</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thanks_dev">@thanks_dev on Twitter</a></li>
-  <li><i class="fab fa-discord"></i> <a href="https://discord.com/invite/fQGqvQdWxq">Thanks.dev Discord server</a></li>
-  <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/arminnehzat">Armin Nehzat on LinkedIn</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/anehzat">@anehzat on Twitter</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[A more sustainable sponsoring model with thanks.dev and Armin Nehzat]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Structured concurrency in Go with conc and Camden Cheek]]></summary></entry></feed>

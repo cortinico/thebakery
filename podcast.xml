@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Wed, 12 Jul 2023 09:40:30 +0100</lastBuildDate>
+<lastBuildDate>Tue, 25 Jul 2023 10:48:37 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,112 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Modern Android Development with Boris Farber and Tomáš Mlynarič</title>
+        <itunes:title>Modern Android Development with Boris Farber and Tomáš Mlynarič</itunes:title>
+        <link>https://thebakery.dev/63/</link>
+        <pubDate>Tue, 25 Jul 2023 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/63/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>63</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/63-thedevelopersbakery-mad.m4a" length="18025023" type="audio/mpeg" />
+
+        <itunes:subtitle>I met in person with Boris and Tomáš at IO Connect to talk about what's new in Android!</itunes:subtitle>
+        <itunes:summary>I met in person with Boris and Tomáš at IO Connect to talk about what's new in Android!</itunes:summary>
+
+        
+        <description>
+            <![CDATA[Welcome to a special in-person episode of The Developers’ Bakery, recorded live in Amsterdam at Google IO Connect. There, I had the privilege of having on stage Boris Farber and Tomáš Mlynarič from Google and they will tell us What’s New in Android. As I’m a big fan of build...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>Welcome to a special <strong>in-person episode</strong> of The Developers’ Bakery, recorded live in <strong>Amsterdam</strong> at Google IO Connect.</p>
+
+<p>There, I had the privilege of having on stage <a href="https://twitter.com/borisfarber"><strong>Boris Farber</strong></a> and <a href="https://twitter.com/mlykotom"><strong>Tomáš Mlynarič</strong></a> from Google and they will tell us What’s New in Android. As I’m a big fan of build tool, in this episode we’re going to delve into some of the updates for popular <strong>devtools</strong> for Android: Android Studio, Android Gradle Plugin (AGP), Gradle KTS and much more.</p>
+
+<p>We’ll have also the opportunity to discover <strong>Baseline Profiles</strong>, a new mechanism to boost the performance of your Android apps.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.39</strong> Tomáš’ Introduction</li>
+  <li><strong>02.22</strong> Boris’ Introduction</li>
+  <li><strong>02.47</strong> What’s New in Android?</li>
+  <li><strong>04.02</strong> Gradle KTS</li>
+  <li><strong>05.51</strong> Gradle Version Catalog</li>
+  <li><strong>08.06</strong> Android Gradle Plugin (AGP)</li>
+  <li><strong>10.02</strong> Java 17</li>
+  <li><strong>12.21</strong> Alpha, beta and stable releases</li>
+  <li><strong>15.18</strong> What are Baseline Profiles?</li>
+  <li><strong>19.08</strong> What does a Baseline Profile look like?</li>
+  <li><strong>20.29</strong> How to create a Baseline Profile?</li>
+  <li><strong>22.51</strong> Which flows to include in a Baseline Profile?</li>
+  <li><strong>25.28</strong> Baseline Profiles for Library Authors</li>
+  <li><strong>27.53</strong> Performance wins</li>
+  <li><strong>28.49</strong> Where is the Android code?</li>
+  <li><strong>30.47</strong> How to contribute to Android?</li>
+  <li><strong>33.33</strong> Reporting a bug for Android</li>
+  <li><strong>35.07</strong> Too many bug reports!</li>
+  <li><strong>37.03</strong> Effective triaging</li>
+  <li><strong>38.32</strong> Reproducers</li>
+  <li><strong>39.21</strong> Which future for Gradle on Android?</li>
+  <li><strong>40.53</strong> Further reading</li>
+  <li><strong>42.44</strong> Docs for KTS migration</li>
+  <li><strong>43.54</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-youtube"></i> Google IO - <a href="https://io.google/2023/program/035d04f9-bc75-479e-8865-493151c867c4/">What’s New in Android</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://developer.android.com/build">AGP Landing Page</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://developer.android.com/build/migrate-to-kotlin-dsl">Migrate your build file from Groovy to Kotlin</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://developer.android.com/build/migrate-to-catalogs">Migrate to version catalogs</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/android/nowinandroid">android/nowinandroid on GitHub</a></li>
+      <li><i class="fab fa-youtube"></i> Android Dev Summit - <a href="https://youtu.be/yJm5On5Gp4c">Making apps blazing fast with Baseline Profiles</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://medium.com/androiddevelopers/whats-new-in-android-performance-google-i-o-2023-edition-21a1832c9fa3">What’s new in Android Performance - IO 2023</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://cs.android.com/">Android Source Code</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/borisf">@borisf on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/borisfarber">@borisfarber on Twitter</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://farber.io/">Boris’ website</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/mlykotom">@mlykotom on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/mlykotom">@mlykotom on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/63-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>45:09</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Marathon with Anton Malinskiy</title>

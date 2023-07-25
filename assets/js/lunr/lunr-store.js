@@ -376,4 +376,10 @@ var store = [{
         "tags": [],
         "url": "/62/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#63 - Modern Android Development with Boris Farber and Tomáš Mlynarič",
+        "excerpt":"Welcome to a special in-person episode of The Developers’ Bakery, recorded live in Amsterdam at Google IO Connect. There, I had the privilege of having on stage Boris Farber and Tomáš Mlynarič from Google and they will tell us What’s New in Android. As I’m a big fan of build...","categories": [],
+        "tags": [],
+        "url": "/63/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]
