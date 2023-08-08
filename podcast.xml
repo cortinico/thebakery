@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Mon, 31 Jul 2023 10:35:12 +0100</lastBuildDate>
+<lastBuildDate>Tue, 08 Aug 2023 16:14:55 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,111 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>LivePlugin with Dmitry Kandalov</title>
+        <itunes:title>LivePlugin with Dmitry Kandalov</itunes:title>
+        <link>https://thebakery.dev/64/</link>
+        <pubDate>Tue, 08 Aug 2023 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/64/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>64</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/64-thedevelopersbakery-liveplugin.m4a" length="19686706" type="audio/mpeg" />
+
+        <itunes:subtitle>Boost your productivity with custom IDE Plugin and finest customization with LivePlugin and Dmitry Kandalov</itunes:subtitle>
+        <itunes:summary>Boost your productivity with custom IDE Plugin and finest customization with LivePlugin and Dmitry Kandalov</itunes:summary>
+
+        
+        <description>
+            <![CDATA[In this episode of The Developers’ Bakery, we have the pleasure of hosting Dmitry Kandalov, the author of LivePlugin. With LivePlugin you can easily create IDE Plugins for IntelliJ (and other JetBrains IDEs) in the blink of an eye, you won’t need to restart your IDE anymore! If you’re looking...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>In this episode of The Developers’ Bakery, we have the pleasure of hosting <a href="https://mastodon.social/@dkandalov"><strong>Dmitry Kandalov</strong></a>, the author of <a href="https://github.com/dkandalov/live-plugin"><strong>LivePlugin</strong></a>. With LivePlugin you can easily create IDE Plugins for IntelliJ (and other JetBrains IDEs) in the blink of an eye, you won’t need to restart your IDE anymore!</p>
+
+<p>If you’re looking to supercharge your productivity and make your IDE truly yours, this episode is a must-listen. Dmitry will inspire you with his passion for plugin development and reveal the secrets behind his IDE customizations.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.07</strong> Intro</li>
+  <li><strong>00.53</strong> Episode Start</li>
+  <li><strong>01.35</strong> Dmitry’s Introduction</li>
+  <li><strong>03.18</strong> What is LivePlugin?</li>
+  <li><strong>04.23</strong> How do you create an IntelliJ plugin?</li>
+  <li><strong>05.14</strong> No need to restart your IDE</li>
+  <li><strong>07.09</strong> Can I ship a LivePlugin to prodcution?</li>
+  <li><strong>09.25</strong> Plugins as a single Kotlin file</li>
+  <li><strong>10.48</strong> LivePlugin success stories</li>
+  <li><strong>13.22</strong> IDE Plugin vs CLI</li>
+  <li><strong>19.31</strong> Debugging a plugin</li>
+  <li><strong>22.03</strong> Dmitry’s favorite plugins</li>
+  <li><strong>23.53</strong> IDE Customization</li>
+  <li><strong>25.19</strong> Dark themes</li>
+  <li><strong>26.09</strong> IJKL</li>
+  <li><strong>27.38</strong> How you got into plugin development?</li>
+  <li><strong>31.56</strong> Have you tried writing plugins for other IDEs?</li>
+  <li><strong>33.21</strong> How to contribute to LivePlugin?</li>
+  <li><strong>36.24</strong> What’s next for LivePlugin?</li>
+  <li><strong>38.52</strong> Paid Plugins</li>
+  <li><strong>42.16</strong> Limited Work in Progress</li>
+  <li><strong>46.23</strong> Further reading</li>
+  <li><strong>47.56</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/dkandalov/live-plugin">dkandalov/live-plugin on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://dmitrykandalov.com/liveplugin">Sane Intellij Plugin Development With Live Plugin - Dmitry’s Blog</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/dkandalov/quick-fix">dkandalov/quick-fix on GitHub</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://plugins.jetbrains.com/plugin/16366-quick-fix">Quick Fix on Jetbrains Marketplace</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/dkandalov/ijkl-shortcuts-plugin">dkandalov/ijkl-shortcuts-plugin on GitHub</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://plugins.jetbrains.com/plugin/9852-ijkl-shortcuts">IJKL Shortcuts on Jetbrains Marketplace</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/dkandalov/limited-wip">dkandalov/limited-wip on GitHub</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://plugins.jetbrains.com/plugin/7655-limited-wip">Limited WIP on Jetbrains Marketplace</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://dmitrykandalov.com/intellij-settings">Dmitry’s IDE Settings</a></li>
+      <li><i class="fab fa-youtube"></i> Extending IntelliJ-based IDEs at runtime - <a href="https://www.youtube.com/watch?v=pgGg-IwUQYM">#4 from Busy Plugin Developers</a></li>
+      <li><i class="fab fa-youtube"></i> Live Coding Kotlin/Native Snake by Dmitry Kandalov - <a href="https://www.youtube.com/watch?v=U-gdJQeOVAk">Video from KotlinConf 2018</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://plugins.jetbrains.com/plugin/227-psiviewer">PSI Viewer on Jetbrains Marketplace</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-slack"></i> <a href="https://plugins.jetbrains.com/slack">Jetbrains Marketplace on Slack</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/dkandalov">@dkandalov on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/dmitrykandalov">@dmitrykandalov on Twitter</a></li>
+  <li><i class="fab fa-mastodon"></i> <a href="https://mastodon.social/@dkandalov">@dkandalov on Mastodon</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://dmitrykandalov.com/">Dmitry’s Website</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/64-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>49:40</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Modern Android Development with Boris Farber and Tomáš Mlynarič</title>

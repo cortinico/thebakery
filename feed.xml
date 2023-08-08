@@ -1,4 +1,75 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2023-07-31T10:35:12+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#63 - Modern Android Development with Boris Farber and Tomáš Mlynarič</title><link href="https://thebakery.dev/63/" rel="alternate" type="text/html" title="#63 - Modern Android Development with Boris Farber and Tomáš Mlynarič" /><published>2023-07-25T00:00:00+01:00</published><updated>2023-07-25T00:00:00+01:00</updated><id>https://thebakery.dev/063-modern-android-development</id><content type="html" xml:base="https://thebakery.dev/63/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2023-08-08T16:14:55+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#64 - LivePlugin with Dmitry Kandalov</title><link href="https://thebakery.dev/64/" rel="alternate" type="text/html" title="#64 - LivePlugin with Dmitry Kandalov" /><published>2023-08-08T00:00:00+01:00</published><updated>2023-08-08T00:00:00+01:00</updated><id>https://thebakery.dev/064-liveplugin</id><content type="html" xml:base="https://thebakery.dev/64/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>In this episode of The Developers’ Bakery, we have the pleasure of hosting <a href="https://mastodon.social/@dkandalov"><strong>Dmitry Kandalov</strong></a>, the author of <a href="https://github.com/dkandalov/live-plugin"><strong>LivePlugin</strong></a>. With LivePlugin you can easily create IDE Plugins for IntelliJ (and other JetBrains IDEs) in the blink of an eye, you won’t need to restart your IDE anymore!</p>
+
+<p>If you’re looking to supercharge your productivity and make your IDE truly yours, this episode is a must-listen. Dmitry will inspire you with his passion for plugin development and reveal the secrets behind his IDE customizations.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.07</strong> Intro</li>
+  <li><strong>00.53</strong> Episode Start</li>
+  <li><strong>01.35</strong> Dmitry’s Introduction</li>
+  <li><strong>03.18</strong> What is LivePlugin?</li>
+  <li><strong>04.23</strong> How do you create an IntelliJ plugin?</li>
+  <li><strong>05.14</strong> No need to restart your IDE</li>
+  <li><strong>07.09</strong> Can I ship a LivePlugin to prodcution?</li>
+  <li><strong>09.25</strong> Plugins as a single Kotlin file</li>
+  <li><strong>10.48</strong> LivePlugin success stories</li>
+  <li><strong>13.22</strong> IDE Plugin vs CLI</li>
+  <li><strong>19.31</strong> Debugging a plugin</li>
+  <li><strong>22.03</strong> Dmitry’s favorite plugins</li>
+  <li><strong>23.53</strong> IDE Customization</li>
+  <li><strong>25.19</strong> Dark themes</li>
+  <li><strong>26.09</strong> IJKL</li>
+  <li><strong>27.38</strong> How you got into plugin development?</li>
+  <li><strong>31.56</strong> Have you tried writing plugins for other IDEs?</li>
+  <li><strong>33.21</strong> How to contribute to LivePlugin?</li>
+  <li><strong>36.24</strong> What’s next for LivePlugin?</li>
+  <li><strong>38.52</strong> Paid Plugins</li>
+  <li><strong>42.16</strong> Limited Work in Progress</li>
+  <li><strong>46.23</strong> Further reading</li>
+  <li><strong>47.56</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/dkandalov/live-plugin">dkandalov/live-plugin on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://dmitrykandalov.com/liveplugin">Sane Intellij Plugin Development With Live Plugin - Dmitry’s Blog</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/dkandalov/quick-fix">dkandalov/quick-fix on GitHub</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://plugins.jetbrains.com/plugin/16366-quick-fix">Quick Fix on Jetbrains Marketplace</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/dkandalov/ijkl-shortcuts-plugin">dkandalov/ijkl-shortcuts-plugin on GitHub</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://plugins.jetbrains.com/plugin/9852-ijkl-shortcuts">IJKL Shortcuts on Jetbrains Marketplace</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/dkandalov/limited-wip">dkandalov/limited-wip on GitHub</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://plugins.jetbrains.com/plugin/7655-limited-wip">Limited WIP on Jetbrains Marketplace</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://dmitrykandalov.com/intellij-settings">Dmitry’s IDE Settings</a></li>
+      <li><i class="fab fa-youtube"></i> Extending IntelliJ-based IDEs at runtime - <a href="https://www.youtube.com/watch?v=pgGg-IwUQYM">#4 from Busy Plugin Developers</a></li>
+      <li><i class="fab fa-youtube"></i> Live Coding Kotlin/Native Snake by Dmitry Kandalov - <a href="https://www.youtube.com/watch?v=U-gdJQeOVAk">Video from KotlinConf 2018</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://plugins.jetbrains.com/plugin/227-psiviewer">PSI Viewer on Jetbrains Marketplace</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-slack"></i> <a href="https://plugins.jetbrains.com/slack">Jetbrains Marketplace on Slack</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/dkandalov">@dkandalov on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/dmitrykandalov">@dmitrykandalov on Twitter</a></li>
+  <li><i class="fab fa-mastodon"></i> <a href="https://mastodon.social/@dkandalov">@dkandalov on Mastodon</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://dmitrykandalov.com/">Dmitry’s Website</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Boost your productivity with custom IDE Plugin and finest customization with LivePlugin and Dmitry Kandalov]]></summary></entry><entry><title type="html">#63 - Modern Android Development with Boris Farber and Tomáš Mlynarič</title><link href="https://thebakery.dev/63/" rel="alternate" type="text/html" title="#63 - Modern Android Development with Boris Farber and Tomáš Mlynarič" /><published>2023-07-25T00:00:00+01:00</published><updated>2023-07-25T00:00:00+01:00</updated><id>https://thebakery.dev/063-modern-android-development</id><content type="html" xml:base="https://thebakery.dev/63/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/1MLP6khGsRtKzt1wjuHgTF?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <p><img src="/assets/images/posts/ioconnect.jpg" alt="io connect photo" /></p>
 
@@ -601,64 +672,4 @@
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Into the most popular package manager for MacOS with Homebrew and Mike McQuaid]]></summary></entry><entry><title type="html">#54 - conc with Camden Cheek</title><link href="https://thebakery.dev/54/" rel="alternate" type="text/html" title="#54 - conc with Camden Cheek" /><published>2023-03-13T00:00:00+00:00</published><updated>2023-03-13T00:00:00+00:00</updated><id>https://thebakery.dev/054-conc</id><content type="html" xml:base="https://thebakery.dev/54/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/5iO4xac3HtY49ZucuntA4e?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<p>Today we talk about Golang! On stage we have <a href="https://twitter.com/camden_cheek"><strong>Camden Cheek</strong></a>, the creator of <a href="https://github.com/sourcegraph/conc"><strong>conc</strong></a> a library for structured concurrency in Go.</p>
-
-<p>Camden will walk us through what are the common pitfalls of Go’s concurrency model and how conc can help you to write better and safer goroutines. We will touch on how this library started within Sourcegraph and how it gained so much popularity so quickly.</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.00</strong> Intro</li>
-  <li><strong>00.45</strong> Episode Start</li>
-  <li><strong>01.15</strong> Camden’s Introduction</li>
-  <li><strong>01.50</strong> What is Conc?</li>
-  <li><strong>03.00</strong> The most common mistake for Go developers</li>
-  <li><strong>04.44</strong> Wrapping the go std</li>
-  <li><strong>07.32</strong> Camden’s favorite API</li>
-  <li><strong>09.19</strong> Why is this library not part of Go already?</li>
-  <li><strong>11.55</strong> How is golang evolving?</li>
-  <li><strong>12.58</strong> The golang team</li>
-  <li><strong>13.48</strong> What inspired conc?</li>
-  <li><strong>16.20</strong> Concurrency in other programming languages</li>
-  <li><strong>18.36</strong> Conc &amp; the fail fast philosophy</li>
-  <li><strong>24.15</strong> The history of Conc</li>
-  <li><strong>25.47</strong> Who’s using conc?</li>
-  <li><strong>26.47</strong> Who’s maintaining conc?</li>
-  <li><strong>27.45</strong> How Camden got started with OSS?</li>
-  <li><strong>30.32</strong> #1 suggestion for new contributors</li>
-  <li><strong>31.08</strong> What’s next for conc?</li>
-  <li><strong>32.39</strong> Having a public roadmap?</li>
-  <li><strong>34.53</strong> Onboarding extrenal maintainers</li>
-  <li><strong>36.37</strong> Further reading</li>
-  <li><strong>38.01</strong> Where people can find you online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/sourcegraph/conc">sourcegraph/conc on Github</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://pkg.go.dev/github.com/sourcegraph/conc">conc on pkg.go.dev</a></li>
-  <li>Mentioned Resources:
-    <ul>
-      <li><i class="fas fa-link"></i> <a href="https://about.sourcegraph.com/blog/building-conc-better-structured-concurrency-for-go">Building conc: Better structured concurrency for Go</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://vorpus.org/blog/notes-on-structured-concurrency-or-go-statement-considered-harmful/">Notes on structured concurrency, or: Go statement considered harmful</a></li>
-    </ul>
-  </li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/camden_cheek">@camden_cheek on Twitter</a></li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/camdencheek">@camdencheek on Github</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Structured concurrency in Go with conc and Camden Cheek]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Into the most popular package manager for MacOS with Homebrew and Mike McQuaid]]></summary></entry></feed>

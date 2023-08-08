@@ -382,4 +382,10 @@ var store = [{
         "tags": [],
         "url": "/63/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#64 - LivePlugin with Dmitry Kandalov",
+        "excerpt":"In this episode of The Developers’ Bakery, we have the pleasure of hosting Dmitry Kandalov, the author of LivePlugin. With LivePlugin you can easily create IDE Plugins for IntelliJ (and other JetBrains IDEs) in the blink of an eye, you won’t need to restart your IDE anymore! If you’re looking...","categories": [],
+        "tags": [],
+        "url": "/64/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]
