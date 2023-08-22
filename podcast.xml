@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Tue, 08 Aug 2023 16:14:55 +0100</lastBuildDate>
+<lastBuildDate>Tue, 22 Aug 2023 15:59:08 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,102 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>WebdriverIO with Christian Bromann</title>
+        <itunes:title>WebdriverIO with Christian Bromann</itunes:title>
+        <link>https://thebakery.dev/65/</link>
+        <pubDate>Tue, 22 Aug 2023 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/65/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>65</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/65-thedevelopersbakery-webdriverio.m4a" length="17823229" type="audio/mpeg" />
+
+        <itunes:subtitle>Cross platform UI testing with WebdriverIO and Christian Bromann</itunes:subtitle>
+        <itunes:summary>Cross platform UI testing with WebdriverIO and Christian Bromann</itunes:summary>
+
+        
+        <description>
+            <![CDATA[It’s time to talk about testing again, but this time we’ll talk about cross-platform UI testing. I’m glad to have on stage Christian Bromann, the lead maintainer of WebdriverIO. With WebdriverIO, you can write UI tests for your web, mobile, desktop application and much more. WebdriverIO relies on the Webdriver...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>It’s time to talk about testing again, but this time we’ll talk about <strong>cross-platform UI testing</strong>. I’m glad to have on stage <a href="https://twitter.com/bromann"><strong>Christian Bromann</strong></a>, the lead maintainer of <a href="https://github.com/webdriverio/webdriverio"><strong>WebdriverIO</strong></a>.</p>
+
+<p>With WebdriverIO, you can write UI tests for your web, mobile, desktop application and much more. WebdriverIO relies on the Webdriver protocol, a Web standard to support test automation, so you can use the programming language you prefer to easily test your apps wherever you want.</p>
+
+<p>Moreover, WebdriverIO is a project hosted by the <strong>OpenJS</strong> foundation. Together with Christian we’ll touch on what it means being part of a foundation and what this meant for the success of this project.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.35</strong> Dmitry’s Introduction</li>
+  <li><strong>02.53</strong> What is WebdriverIO?</li>
+  <li><strong>04.53</strong> Testing Browser and Mobile applications</li>
+  <li><strong>06.16</strong> The Webdriver protocol</li>
+  <li><strong>08.58</strong> How to write tests with WebdriverIO?</li>
+  <li><strong>10.56</strong> WebdriverIO competitors and unique features</li>
+  <li><strong>13.15</strong> Handling flakiness</li>
+  <li><strong>16.46</strong> Running WebdriverIO in the cloud</li>
+  <li><strong>20.25</strong> Why should I use WebdriverIO vs my native testing framework?</li>
+  <li><strong>22.32</strong> How you got involved with WebdriverIO?</li>
+  <li><strong>25.50</strong> Who’s funding WebdriverIO?</li>
+  <li><strong>29.03</strong> Being part of the OpenJS foundation</li>
+  <li><strong>31.16</strong> Governance model</li>
+  <li><strong>37.31</strong> How to contribute to WebdriverIO?</li>
+  <li><strong>40.11</strong> What’s next for WebdriverIO?</li>
+  <li><strong>42.15</strong> Further reading</li>
+  <li><strong>43.58</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/webdriverio/webdriverio">webdriverio/webdriverio on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://webdriver.io/">WebdriverIO Official Website</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://w3c.github.io/webdriver/">Webdriver Standard</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://webdriver.io/docs/why-webdriverio">WebdriverIO - Getting Started</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://webdriver.io/docs/why-webdriverio">Why WebdriverIO?</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://github.com/webdriverio/webdriverio/blob/main/GOVERNANCE.md">WebdriverIO Governance Model</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://saucelabs.com/">SauceLabs Official Website</a></li>
+    </ul>
+  </li>
+  <li><i class="fas fa-link"></i> <a href="https://bromann.dev/">WebdriverIO Official Website</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/christian-bromann">@christian-bromann on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/bromann">@bromann on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/65-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>45:06</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>LivePlugin with Dmitry Kandalov</title>

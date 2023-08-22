@@ -388,4 +388,10 @@ var store = [{
         "tags": [],
         "url": "/64/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#65 - WebdriverIO with Christian Bromann",
+        "excerpt":"It’s time to talk about testing again, but this time we’ll talk about cross-platform UI testing. I’m glad to have on stage Christian Bromann, the lead maintainer of WebdriverIO. With WebdriverIO, you can write UI tests for your web, mobile, desktop application and much more. WebdriverIO relies on the Webdriver...","categories": [],
+        "tags": [],
+        "url": "/65/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

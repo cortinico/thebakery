@@ -1,4 +1,66 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2023-08-08T16:14:55+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#64 - LivePlugin with Dmitry Kandalov</title><link href="https://thebakery.dev/64/" rel="alternate" type="text/html" title="#64 - LivePlugin with Dmitry Kandalov" /><published>2023-08-08T00:00:00+01:00</published><updated>2023-08-08T00:00:00+01:00</updated><id>https://thebakery.dev/064-liveplugin</id><content type="html" xml:base="https://thebakery.dev/64/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2023-08-22T15:59:08+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#65 - WebdriverIO with Christian Bromann</title><link href="https://thebakery.dev/65/" rel="alternate" type="text/html" title="#65 - WebdriverIO with Christian Bromann" /><published>2023-08-22T00:00:00+01:00</published><updated>2023-08-22T00:00:00+01:00</updated><id>https://thebakery.dev/065-webdriverio</id><content type="html" xml:base="https://thebakery.dev/65/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>It’s time to talk about testing again, but this time we’ll talk about <strong>cross-platform UI testing</strong>. I’m glad to have on stage <a href="https://twitter.com/bromann"><strong>Christian Bromann</strong></a>, the lead maintainer of <a href="https://github.com/webdriverio/webdriverio"><strong>WebdriverIO</strong></a>.</p>
+
+<p>With WebdriverIO, you can write UI tests for your web, mobile, desktop application and much more. WebdriverIO relies on the Webdriver protocol, a Web standard to support test automation, so you can use the programming language you prefer to easily test your apps wherever you want.</p>
+
+<p>Moreover, WebdriverIO is a project hosted by the <strong>OpenJS</strong> foundation. Together with Christian we’ll touch on what it means being part of a foundation and what this meant for the success of this project.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.35</strong> Dmitry’s Introduction</li>
+  <li><strong>02.53</strong> What is WebdriverIO?</li>
+  <li><strong>04.53</strong> Testing Browser and Mobile applications</li>
+  <li><strong>06.16</strong> The Webdriver protocol</li>
+  <li><strong>08.58</strong> How to write tests with WebdriverIO?</li>
+  <li><strong>10.56</strong> WebdriverIO competitors and unique features</li>
+  <li><strong>13.15</strong> Handling flakiness</li>
+  <li><strong>16.46</strong> Running WebdriverIO in the cloud</li>
+  <li><strong>20.25</strong> Why should I use WebdriverIO vs my native testing framework?</li>
+  <li><strong>22.32</strong> How you got involved with WebdriverIO?</li>
+  <li><strong>25.50</strong> Who’s funding WebdriverIO?</li>
+  <li><strong>29.03</strong> Being part of the OpenJS foundation</li>
+  <li><strong>31.16</strong> Governance model</li>
+  <li><strong>37.31</strong> How to contribute to WebdriverIO?</li>
+  <li><strong>40.11</strong> What’s next for WebdriverIO?</li>
+  <li><strong>42.15</strong> Further reading</li>
+  <li><strong>43.58</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/webdriverio/webdriverio">webdriverio/webdriverio on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://webdriver.io/">WebdriverIO Official Website</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://w3c.github.io/webdriver/">Webdriver Standard</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://webdriver.io/docs/why-webdriverio">WebdriverIO - Getting Started</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://webdriver.io/docs/why-webdriverio">Why WebdriverIO?</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://github.com/webdriverio/webdriverio/blob/main/GOVERNANCE.md">WebdriverIO Governance Model</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://saucelabs.com/">SauceLabs Official Website</a></li>
+    </ul>
+  </li>
+  <li><i class="fas fa-link"></i> <a href="https://bromann.dev/">WebdriverIO Official Website</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/christian-bromann">@christian-bromann on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/bromann">@bromann on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Cross platform UI testing with WebdriverIO and Christian Bromann]]></summary></entry><entry><title type="html">#64 - LivePlugin with Dmitry Kandalov</title><link href="https://thebakery.dev/64/" rel="alternate" type="text/html" title="#64 - LivePlugin with Dmitry Kandalov" /><published>2023-08-08T00:00:00+01:00</published><updated>2023-08-08T00:00:00+01:00</updated><id>https://thebakery.dev/064-liveplugin</id><content type="html" xml:base="https://thebakery.dev/64/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/00805TFtpP58W4rcG5W7Jb?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <p>In this episode of The Developers’ Bakery, we have the pleasure of hosting <a href="https://mastodon.social/@dkandalov"><strong>Dmitry Kandalov</strong></a>, the author of <a href="https://github.com/dkandalov/live-plugin"><strong>LivePlugin</strong></a>. With LivePlugin you can easily create IDE Plugins for IntelliJ (and other JetBrains IDEs) in the blink of an eye, you won’t need to restart your IDE anymore!</p>
 
@@ -596,80 +658,4 @@
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[WordPress Translations, Mozilla and Open Source Books with Daniele Scasciafratte]]></summary></entry><entry><title type="html">#55 - Homebrew with Mike McQuaid</title><link href="https://thebakery.dev/55/" rel="alternate" type="text/html" title="#55 - Homebrew with Mike McQuaid" /><published>2023-03-28T00:00:00+01:00</published><updated>2023-03-28T00:00:00+01:00</updated><id>https://thebakery.dev/055-homebrew</id><content type="html" xml:base="https://thebakery.dev/55/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/2z6OL9jLyFQh9juJHJ4DNa?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<p>If you’re developing on macOS, then you probably know what we’re going to talk about: <a href="https://github.com/Homebrew/brew"><strong>Homebrew</strong></a> 🍺 the most popular package manager for macOS.</p>
-
-<p>If you don’t know Homebrew, it’s a command-line tool that allows you to install software on your Mac. We could call it “the missing app store” for your console. But Homebrew is much more than that! There is an entire ecosystem of contributors that maintain formulas to make it easy to install software on your Mac.</p>
-
-<p>Today I have the honor to speak with <a href="https://twitter.com/MikeMcQuaid"><strong>Mike McQuaid</strong></a>, the Homebrew project leader. In this episode we’re going to talk about how Homebrew started, how it works internally, how it’s funded, and how you can contribute to it. I’m glad I also had the chance to touch on some more contentious topics like <strong>telemetry</strong> and <strong>handling burnout</strong> in the OSS space.</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.11</strong> Intro</li>
-  <li><strong>00.57</strong> Episode Start</li>
-  <li><strong>01.32</strong> Mike’s Introduction</li>
-  <li><strong>02.31</strong> What is Homebrew?</li>
-  <li><strong>03.07</strong> The history of Homebrew</li>
-  <li><strong>06.56</strong> Have you ever felt you were done with Homebrew?</li>
-  <li><strong>10.58</strong> What happens when you brew install?</li>
-  <li><strong>12.45</strong> What is a formula?</li>
-  <li><strong>15.55</strong> Rolling release package manager</li>
-  <li><strong>17.04</strong> What is a cask?</li>
-  <li><strong>20.01</strong> Brew bundle</li>
-  <li><strong>21.34</strong> Where is so much software stored?</li>
-  <li><strong>23.32</strong> Homebrew trust model</li>
-  <li><strong>27.57</strong> What’s the most downloaded package?</li>
-  <li><strong>29.27</strong> Telemetry &amp; Open Source</li>
-  <li><strong>32.50</strong> Opt-in vs Opt-out telemetry</li>
-  <li><strong>40.33</strong> Entitelment in the OSS space &amp; handling burnouts</li>
-  <li><strong>43.20</strong> How is Homebrew funded?</li>
-  <li><strong>48.18</strong> Homebrew &amp; Legal entity</li>
-  <li><strong>50.28</strong> How to become a Homebrew maintainer?</li>
-  <li><strong>52.39</strong> Do-ocracy</li>
-  <li><strong>53.53</strong> Engaging with the Homebrew community</li>
-  <li><strong>54.49</strong> What’s next for Homebrew?</li>
-  <li><strong>57.17</strong> Further reading</li>
-  <li><strong>58.53</strong> Where people can find you online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/Homebrew/brew">Homebrew/brew on GitHub</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://brew.sh/">Homebrew Official Website</a></li>
-  <li>Mentioned Resources:
-    <ul>
-      <li><i class="fas fa-link"></i> <a href="https://mikemcquaid.com/open-source-maintainers-owe-you-nothing/">Open Source Maintainers Owe You Nothing - Mike McQuaid</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://mikemcquaid.com/replacing-boxen/">Replacing Boxen - Mike McQuaid</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://formulae.brew.sh/analytics/install/365d/">Howembrew Analytics Install</a></li>
-      <li><i class="fab fa-github"></i> <a href="https://github.com/MikeMcQuaid/dotfiles/blob/master/Brewfile">Mike’s Brewfile on GitHub</a></li>
-    </ul>
-  </li>
-  <li>Related Projects:
-    <ul>
-      <li><i class="fab fa-github"></i> <a href="https://github.com/Homebrew/homebrew-core">Homebrew/homebrew-core on GitHub</a></li>
-      <li><i class="fab fa-github"></i> <a href="https://github.com/Homebrew/homebrew-cask">Homebrew/homebrew-cask on GitHub</a></li>
-      <li><i class="fab fa-github"></i> <a href="https://github.com/Homebrew/homebrew-bundle">Homebrew/homebrew-bundle on GitHub</a></li>
-      <li><i class="fab fa-github"></i> <a href="https://github.com/MikeMcQuaid/strap">MikeMcQuaid/strap on GitHub</a></li>
-    </ul>
-  </li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/MikeMcQuaid">@MikeMcQuaid on Twitter</a></li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/MikeMcQuaid">@MikeMcQuaid on GitHub</a></li>
-  <li><i class="fab fa-mastodon"></i> <a href="https://mastodon.mikemcquaid.com/@mike">@mike on Mastodon</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://mikemcquaid.com/">Mike’s Website</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Into the most popular package manager for MacOS with Homebrew and Mike McQuaid]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[WordPress Translations, Mozilla and Open Source Books with Daniele Scasciafratte]]></summary></entry></feed>
