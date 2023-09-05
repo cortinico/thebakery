@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Tue, 05 Sep 2023 11:16:22 +0100</lastBuildDate>
+<lastBuildDate>Tue, 05 Sep 2023 22:17:12 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -112,8 +112,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
     </ul>
   </li>
   <li><i class="fab fa-github"></i> <a href="https://github.com/nicolo-ribaudo">@nicolo-ribaudo on GitHub</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://tech.lgbt/@nic">@nic on Mastodon</a></li>
-  <li><i class="fab fa-mastodon"></i> <a href="https://hachyderm.io/@fedepaol">@fedepaol on Mastodon</a></li>
+  <li><i class="fab fa-mastodon"></i> <a href="https://tech.lgbt/@nic">@nic on Mastodon</a></li>
 </ul>
 
 <h1 id="show-links">Show links</h1>
