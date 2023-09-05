@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Tue, 05 Sep 2023 08:51:35 +0100</lastBuildDate>
+<lastBuildDate>Tue, 05 Sep 2023 11:16:22 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -108,6 +108,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
     <ul>
       <li><i class="fab fa-youtube"></i> @babel/how-to - <a href="https://youtu.be/UeVq_U5obnE?si=Ox4kp44G4htjHf_6">Video from HolyJS 2019</a></li>
       <li><i class="fas fa-link"></i> <a href="https://babel.dev/videos/">Babel Videos Page</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://www.nan.fyi/tokenizer">nan.fyi - Rebuilding Babel: The Tokenizer</a></li>
     </ul>
   </li>
   <li><i class="fab fa-github"></i> <a href="https://github.com/nicolo-ribaudo">@nicolo-ribaudo on GitHub</a></li>
