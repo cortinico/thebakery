@@ -394,4 +394,10 @@ var store = [{
         "tags": [],
         "url": "/65/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#66 - Babel with Nicolò Ribaudo",
+        "excerpt":"Today we have the honor to spotlight a fundamental tool of the web ecosystem: Babel. If you don’t know Babel, it’s a JavaScript compiler that allows you to write next generation JavaScript and compile it to a version that is compatible with all the browsers. Nicolò Ribaudo, one of the...","categories": [],
+        "tags": [],
+        "url": "/66/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

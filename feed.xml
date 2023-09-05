@@ -1,4 +1,65 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2023-09-04T16:04:05+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#65 - WebdriverIO with Christian Bromann</title><link href="https://thebakery.dev/65/" rel="alternate" type="text/html" title="#65 - WebdriverIO with Christian Bromann" /><published>2023-08-22T00:00:00+01:00</published><updated>2023-08-22T00:00:00+01:00</updated><id>https://thebakery.dev/065-webdriverio</id><content type="html" xml:base="https://thebakery.dev/65/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2023-09-05T08:51:35+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#66 - Babel with Nicolò Ribaudo</title><link href="https://thebakery.dev/66/" rel="alternate" type="text/html" title="#66 - Babel with Nicolò Ribaudo" /><published>2023-09-05T00:00:00+01:00</published><updated>2023-09-05T00:00:00+01:00</updated><id>https://thebakery.dev/066-babel</id><content type="html" xml:base="https://thebakery.dev/66/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>Today we have the honor to spotlight a fundamental tool of the web ecosystem: <a href="https://github.com/babel/babel"><strong>Babel</strong></a>. If you don’t know Babel, it’s a JavaScript compiler that allows you to write next generation JavaScript and compile it to a version that is compatible with all the browsers.</p>
+
+<p><a href="https://tech.lgbt/@nic"><strong>Nicolò Ribaudo</strong></a>, one of the Babel maintainers, is on stage to tell us the story of this project, how it became so popular, and its role in the daily life of a web developer.</p>
+
+<p>We’ll touch also on the topic of funding and sponsoring, and learn how Babel managed to hire engineers with Open Source donations!</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.32</strong> Nicolò’s Introduction</li>
+  <li><strong>02.53</strong> What is Babel?</li>
+  <li><strong>06.15</strong> How Babel became so popular?</li>
+  <li><strong>10.28</strong> The web ecosystem speed</li>
+  <li><strong>13.56</strong> Browserlist</li>
+  <li><strong>16.49</strong> Babel &amp; Performances</li>
+  <li><strong>20.09</strong> Continous Benchmarking</li>
+  <li><strong>22.42</strong> Extending Babel</li>
+  <li><strong>27.20</strong> Build tools integrations</li>
+  <li><strong>30.07</strong> How Nicolò got involved with Babel?</li>
+  <li><strong>33.30</strong> Who’s maintaining Babel?</li>
+  <li><strong>35.33</strong> Who’s funding Babel?</li>
+  <li><strong>38.19</strong> Hiring engineers with donation</li>
+  <li><strong>40.39</strong> Call for donations</li>
+  <li><strong>42.29</strong> Babel will never be done</li>
+  <li><strong>44.35</strong> Babel 8</li>
+  <li><strong>47.11</strong> How to get involved?</li>
+  <li><strong>50.34</strong> Further reading</li>
+  <li><strong>53.23</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/babel/babel">babel/babel on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://babel.dev/">Babel Official Website</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fab fa-youtube"></i> @babel/how-to - <a href="https://youtu.be/UeVq_U5obnE?si=Ox4kp44G4htjHf_6">Video from HolyJS 2019</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://babel.dev/videos/">Babel Videos Page</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/nicolo-ribaudo">@nicolo-ribaudo on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://tech.lgbt/@nic">@nic on Mastodon</a></li>
+  <li><i class="fab fa-mastodon"></i> <a href="https://hachyderm.io/@fedepaol">@fedepaol on Mastodon</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Compiling next generation JavaScript for all the browsers, with Babel and Nicolò Ribaudo]]></summary></entry><entry><title type="html">#65 - WebdriverIO with Christian Bromann</title><link href="https://thebakery.dev/65/" rel="alternate" type="text/html" title="#65 - WebdriverIO with Christian Bromann" /><published>2023-08-22T00:00:00+01:00</published><updated>2023-08-22T00:00:00+01:00</updated><id>https://thebakery.dev/065-webdriverio</id><content type="html" xml:base="https://thebakery.dev/65/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/2dgQA1pscsv0YplvJF5AH7?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <p>It’s time to talk about testing again, but this time we’ll talk about <strong>cross-platform UI testing</strong>. I’m glad to have on stage <a href="https://twitter.com/bromann"><strong>Christian Bromann</strong></a>, the lead maintainer of <a href="https://github.com/webdriverio/webdriverio"><strong>WebdriverIO</strong></a>.</p>
 
@@ -604,58 +665,4 @@
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Super Fast Frontend Development with Qwik UI and Giorgio Boa]]></summary></entry><entry><title type="html">#56 - GlotDict, Wordpress and Mozilla with Daniele Scasciafratte</title><link href="https://thebakery.dev/56/" rel="alternate" type="text/html" title="#56 - GlotDict, Wordpress and Mozilla with Daniele Scasciafratte" /><published>2023-04-10T00:00:00+01:00</published><updated>2023-04-10T00:00:00+01:00</updated><id>https://thebakery.dev/056-glotdict</id><content type="html" xml:base="https://thebakery.dev/56/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/7KyE9QnfVRAo4SlNr4KpKP?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<p>Today I’m excited to have on stage <a href="https://twitter.com/mte90net"><strong>Daniele Scasciafratte</strong></a>, the <em>Open Source Multiversal Guy</em>. Daniele is involved all over the places: he’s a WordPress core contributor, a Mozilla contributor, and the author of the book “Contribute to open source: the right way”.</p>
-
-<p>In this episode, we start from <a href="https://github.com/Mte90/GlotDict"><strong>GlotDict</strong></a>, a browser extension Daniele wrote to support WordPress translators. But that’s just the starting point! We’ll touch on what is means to be a WordPress core contributor, how Mozilla is different from WordPress and the love/hate relationship we all have with PHP.</p>
-
-<p>Daniele also wrote an <strong>Open Source book</strong>: “Contribute to open source: the right way”. This book is like a survival guide for any Open Source newcomer. We’ll talk about how the book came to be and what are the main takeaways from it.</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.08</strong> Intro</li>
-  <li><strong>00.54</strong> Episode Start</li>
-  <li><strong>02.36</strong> Daniele’s Introduction</li>
-  <li><strong>04.25</strong> What is Glotdict?</li>
-  <li><strong>08.48</strong> WordPress and the modern web</li>
-  <li><strong>15.07</strong> What does it mean to be a WordPress core contributor?</li>
-  <li><strong>21.46</strong> PHP</li>
-  <li><strong>26.12</strong> Daniele &amp; Mozilla</li>
-  <li><strong>32.28</strong> Writing an Open Source book</li>
-  <li><strong>41.56</strong> One takeaway from Daniele’s book</li>
-  <li><strong>47.38</strong> Further reading</li>
-  <li><strong>52.57</strong> Where people can find you online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/Mte90/GlotDict">Mte90/GlotDict on Github</a></li>
-  <li><i class="fas fa-book"></i> <a href="https://daniele.tech/2022/09/contribute-to-open-source-the-right-way-3rd-edition/">Daniele’s Book: Contribute to open source: the right way 3rd edition</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://daniele.tech/2018/03/2-years-of-glotdict/">2 years of GlotDict or Why I made my first browser extension for the WordPress community</a></li>
-  <li>Mentioned Books:
-    <ul>
-      <li><i class="fas fa-book"></i> <a href="https://www.goodreads.com/book/show/265454.The_Tao_of_Coaching">The tao of coaching</a></li>
-      <li><i class="fas fa-book"></i> <a href="https://www.goodreads.com/book/show/123911414-how-to-win-friends-and-influence-people">How to Win Friends and Influence People</a></li>
-    </ul>
-  </li>
-  <li><i class="fas fa-podcast"></i> <a href="https://daniele.tech/podcast/">Daniele’s Podcast - Opinioni in Open Source 🇮🇹</a></li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/Mte90">@Mte90 on Github</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/mte90net">@mte90net on Twitter</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://daniele.tech/eng">Daniele’s Website</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[WordPress Translations, Mozilla and Open Source Books with Daniele Scasciafratte]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Super Fast Frontend Development with Qwik UI and Giorgio Boa]]></summary></entry></feed>
