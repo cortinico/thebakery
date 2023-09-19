@@ -400,4 +400,10 @@ var store = [{
         "tags": [],
         "url": "/66/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#67 - Effect with Michael Arnaldi",
+        "excerpt":"It’s time to talk again about Functional Programming (or maybe not?!) with today’s episode! I’m glad to have on stage Michael Arnaldi, author and maintainer of Effect. Effect is a Functional Programming library for TypeScript, that offers primitives to support error management, concurrency and much more. But Effect is also...","categories": [],
+        "tags": [],
+        "url": "/67/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

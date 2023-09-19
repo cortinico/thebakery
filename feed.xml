@@ -1,4 +1,58 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2023-09-05T22:17:12+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#66 - Babel with Nicolò Ribaudo</title><link href="https://thebakery.dev/66/" rel="alternate" type="text/html" title="#66 - Babel with Nicolò Ribaudo" /><published>2023-09-05T00:00:00+01:00</published><updated>2023-09-05T00:00:00+01:00</updated><id>https://thebakery.dev/066-babel</id><content type="html" xml:base="https://thebakery.dev/66/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2023-09-19T14:25:18+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#67 - Effect with Michael Arnaldi</title><link href="https://thebakery.dev/67/" rel="alternate" type="text/html" title="#67 - Effect with Michael Arnaldi" /><published>2023-09-19T00:00:00+01:00</published><updated>2023-09-19T00:00:00+01:00</updated><id>https://thebakery.dev/067-effect</id><content type="html" xml:base="https://thebakery.dev/67/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>It’s time to talk again about Functional Programming (or maybe not?!) with today’s episode! I’m glad to have on stage <a href="https://twitter.com/MichaelArnaldi"><strong>Michael Arnaldi</strong></a>, author and maintainer of <a href="https://github.com/Effect-TS/effect"><strong>Effect</strong></a>.</p>
+
+<p>Effect is a Functional Programming library for TypeScript, that offers primitives to support error management, concurrency and much more. But Effect is also an entire ecosystem of integrations with existing and frameworks and libraries, which makes adopting Effect so much easier.</p>
+
+<p>Join us in this episode as Michael walk us through on his take on Functional Programming and the story behind Effect.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.07</strong> Nicolò’s Introduction</li>
+  <li><strong>02.37</strong> What is Effect?</li>
+  <li><strong>04.39</strong> Is this a Functional Programming library?</li>
+  <li><strong>09.18</strong> <code class="language-plaintext highlighter-rouge">Effects&lt;Requirements, Errors, Value&gt;</code></li>
+  <li><strong>20.11</strong> Effect and Concurrency</li>
+  <li><strong>30.29</strong> The Effect ecosystem</li>
+  <li><strong>37.30</strong> The history of Effect</li>
+  <li><strong>42.30</strong> 1.0?</li>
+  <li><strong>45.45</strong> Further reading</li>
+  <li><strong>50.29</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/Effect-TS/effect">Effect-TS/effect on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://www.effect.website/">Effect Official Website</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/EffectTS_">@EffectTS_ on Twitter</a></li>
+  <li><i class="fab fa-discord"></i> <a href="https://discord.gg/effect-ts">Effect Discord Community</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fab fa-youtube"></i><a href="https://www.youtube.com/@ethanniser">Ethan Niser’s Youtube Channel</a></li>
+      <li><i class="fab fa-youtube"></i> Introduction to Effect - <a href="https://www.youtube.com/watch?v=zrNr3JVUc8I">Video from WorkerConf 2022</a></li>
+      <li><i class="fab fa-youtube"></i> Effect ful computations with Fibers - <a href="https://www.youtube.com/watch?v=uwALExyq4NY">Video from React Alicante</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/mikearnaldi">@mikearnaldi on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/MichaelArnaldi">@MichaelArnaldi on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Functional Programming in TypeScript with Effect and Michael Arnaldi]]></summary></entry><entry><title type="html">#66 - Babel with Nicolò Ribaudo</title><link href="https://thebakery.dev/66/" rel="alternate" type="text/html" title="#66 - Babel with Nicolò Ribaudo" /><published>2023-09-05T00:00:00+01:00</published><updated>2023-09-05T00:00:00+01:00</updated><id>https://thebakery.dev/066-babel</id><content type="html" xml:base="https://thebakery.dev/66/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/7II6kl5B1ajYTxONJgXv5t?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <p>Today we have the honor to spotlight a fundamental tool of the web ecosystem: <a href="https://github.com/babel/babel"><strong>Babel</strong></a>. If you don’t know Babel, it’s a JavaScript compiler that allows you to write next generation JavaScript and compile it to a version that is compatible with all the browsers.</p>
 
@@ -603,66 +657,4 @@
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Bringing conference schedules to Android and iOS with John O'Reilly and Martin Bonnin]]></summary></entry><entry><title type="html">#57 - Qwik UI with Giorgio Boa</title><link href="https://thebakery.dev/57/" rel="alternate" type="text/html" title="#57 - Qwik UI with Giorgio Boa" /><published>2023-04-25T00:00:00+01:00</published><updated>2023-04-25T00:00:00+01:00</updated><id>https://thebakery.dev/057-qwik-ui</id><content type="html" xml:base="https://thebakery.dev/57/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/0TQhDFaeW61B4y14kbVMR3?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<p>We’re back in the frontend space to talk about <strong>Qwik</strong> and <a href="https://github.com/qwikifiers/qwik-ui"><strong>Qwik UI</strong></a>, a web framework to build superfast web application. From their readme: <em>Instant-loading web apps, without effort</em>. Qwik UI is their UI library, which offers a variety of components that you can use to kickstart your application.</p>
-
-<p>Today we do have <a href="https://twitter.com/giorgio_boa"><strong>Giorgio Boa</strong></a> on stage, one of the maintainers of Qwik UI, to talk about the project, the motivation behind it, and how this project is evolving.</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.08</strong> Intro</li>
-  <li><strong>00.54</strong> Episode Start</li>
-  <li><strong>01.28</strong> Giorgio’s Introduction</li>
-  <li><strong>02.31</strong> What is Qwik?</li>
-  <li><strong>08.55</strong> What is Qwik UI?</li>
-  <li><strong>11.49</strong> Getting started with Qwik</li>
-  <li><strong>13.38</strong> Single Page Application vs Server Side Rendering</li>
-  <li><strong>16.30</strong> SPA ans SEO</li>
-  <li><strong>17.45</strong> CSS and Customizations</li>
-  <li><strong>19.16</strong> How Giorgio got involved with Qwik UI?</li>
-  <li><strong>21.14</strong> Maintaining Qwik UI</li>
-  <li><strong>24.46</strong> Building connections through Open Source</li>
-  <li><strong>27.41</strong> Onboarding Juniors to Open Source</li>
-  <li><strong>29.09</strong> Giorgio’s Mentoring Campaing</li>
-  <li><strong>31.33</strong> Recurrent vs One-off mentoring</li>
-  <li><strong>33.16</strong> The future of Qwik UI</li>
-  <li><strong>35.29</strong> Further reading</li>
-  <li><strong>37.00</strong> What made you move to Qwik?</li>
-  <li><strong>38.53</strong> Where people can find you online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/qwikifiers/qwik-ui">qwikifiers/qwik-ui on Github</a></li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/BuilderIO/qwik">BuilderIO/qwik on Github</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://qwik.builder.io/">Qwik Official Website</a></li>
-  <li>Mentioned Resources:
-    <ul>
-      <li><i class="fab fa-github"></i> <a href="https://github.com/vendure-ecommerce/storefront-qwik-starter">vendure-ecommerce/storefront-qwik-starter on Github</a></li>
-      <li><i class="fab fa-github"></i> <a href="https://qwik-storefront.vendure.io/">Storefront Live Demo</a></li>
-      <li><i class="fab fa-discord"></i> <a href="https://discord.com/invite/eDrWHeqnnQ">Qwik Discord Server</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://qwik.builder.io/">Qwik Official Website</a></li>
-    </ul>
-  </li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/giorgio_boa">@giorgio_boa on Twitter</a></li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/gioboa">@gioboa on Github</a></li>
-  <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/giorgio-boa/">Giorgio Boa on LinkedIn</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://mentorcruise.com/mentor/giorgioboa/">Giorgio’s profile on MentorCruise</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://dev.to/gioboa">Giorgio’s blog on dev.to</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Super Fast Frontend Development with Qwik UI and Giorgio Boa]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Bringing conference schedules to Android and iOS with John O'Reilly and Martin Bonnin]]></summary></entry></feed>

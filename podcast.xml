@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Tue, 05 Sep 2023 22:17:12 +0100</lastBuildDate>
+<lastBuildDate>Tue, 19 Sep 2023 14:25:18 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,94 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Effect with Michael Arnaldi</title>
+        <itunes:title>Effect with Michael Arnaldi</itunes:title>
+        <link>https://thebakery.dev/67/</link>
+        <pubDate>Tue, 19 Sep 2023 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/67/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>67</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/67-thedevelopersbakery-effect.m4a" length="21010321" type="audio/mpeg" />
+
+        <itunes:subtitle>Functional Programming in TypeScript with Effect and Michael Arnaldi</itunes:subtitle>
+        <itunes:summary>Functional Programming in TypeScript with Effect and Michael Arnaldi</itunes:summary>
+
+        
+        <description>
+            <![CDATA[It’s time to talk again about Functional Programming (or maybe not?!) with today’s episode! I’m glad to have on stage Michael Arnaldi, author and maintainer of Effect. Effect is a Functional Programming library for TypeScript, that offers primitives to support error management, concurrency and much more. But Effect is also...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>It’s time to talk again about Functional Programming (or maybe not?!) with today’s episode! I’m glad to have on stage <a href="https://twitter.com/MichaelArnaldi"><strong>Michael Arnaldi</strong></a>, author and maintainer of <a href="https://github.com/Effect-TS/effect"><strong>Effect</strong></a>.</p>
+
+<p>Effect is a Functional Programming library for TypeScript, that offers primitives to support error management, concurrency and much more. But Effect is also an entire ecosystem of integrations with existing and frameworks and libraries, which makes adopting Effect so much easier.</p>
+
+<p>Join us in this episode as Michael walk us through on his take on Functional Programming and the story behind Effect.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.07</strong> Nicolò’s Introduction</li>
+  <li><strong>02.37</strong> What is Effect?</li>
+  <li><strong>04.39</strong> Is this a Functional Programming library?</li>
+  <li><strong>09.18</strong> <code class="language-plaintext highlighter-rouge">Effects&lt;Requirements, Errors, Value&gt;</code></li>
+  <li><strong>20.11</strong> Effect and Concurrency</li>
+  <li><strong>30.29</strong> The Effect ecosystem</li>
+  <li><strong>37.30</strong> The history of Effect</li>
+  <li><strong>42.30</strong> 1.0?</li>
+  <li><strong>45.45</strong> Further reading</li>
+  <li><strong>50.29</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/Effect-TS/effect">Effect-TS/effect on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://www.effect.website/">Effect Official Website</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/EffectTS_">@EffectTS_ on Twitter</a></li>
+  <li><i class="fab fa-discord"></i> <a href="https://discord.gg/effect-ts">Effect Discord Community</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fab fa-youtube"></i><a href="https://www.youtube.com/@ethanniser">Ethan Niser’s Youtube Channel</a></li>
+      <li><i class="fab fa-youtube"></i> Introduction to Effect - <a href="https://www.youtube.com/watch?v=zrNr3JVUc8I">Video from WorkerConf 2022</a></li>
+      <li><i class="fab fa-youtube"></i> Effect ful computations with Fibers - <a href="https://www.youtube.com/watch?v=uwALExyq4NY">Video from React Alicante</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/mikearnaldi">@mikearnaldi on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/MichaelArnaldi">@MichaelArnaldi on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/67-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>53:05</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Babel with Nicolò Ribaudo</title>
