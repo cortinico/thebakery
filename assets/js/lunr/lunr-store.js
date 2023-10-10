@@ -406,4 +406,10 @@ var store = [{
         "tags": [],
         "url": "/67/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#68 - Pandas and Polars with Marco Gorelli",
+        "excerpt":"Time for a brand-new topic today here at The Developers’ Bakery: Data Science! We’re really excited to have on stage Marco Gorelli, core contributor of both pandas and polars, two of the most popular data science libraries in the Python ecosystem. In this episode, we’ll talk about how pandas became...","categories": [],
+        "tags": [],
+        "url": "/68/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

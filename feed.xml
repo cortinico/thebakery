@@ -1,4 +1,71 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2023-09-22T21:43:09+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#67 - Effect with Michael Arnaldi</title><link href="https://thebakery.dev/67/" rel="alternate" type="text/html" title="#67 - Effect with Michael Arnaldi" /><published>2023-09-19T00:00:00+01:00</published><updated>2023-09-19T00:00:00+01:00</updated><id>https://thebakery.dev/067-effect</id><content type="html" xml:base="https://thebakery.dev/67/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2023-10-10T17:38:56+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#68 - Pandas and Polars with Marco Gorelli</title><link href="https://thebakery.dev/68/" rel="alternate" type="text/html" title="#68 - Pandas and Polars with Marco Gorelli" /><published>2023-10-10T00:00:00+01:00</published><updated>2023-10-10T00:00:00+01:00</updated><id>https://thebakery.dev/068-pandas-and-polars</id><content type="html" xml:base="https://thebakery.dev/68/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>Time for a brand-new topic today here at The Developers’ Bakery: <strong>Data Science</strong>! We’re really excited to have on stage <a href="https://github.com/MarcoGorelli">Marco Gorelli</a>, core contributor of both <a href="https://pandas.pydata.org/">pandas</a> and <a href="https://pola.rs/">polars</a>, two of the most popular data science libraries in the Python ecosystem.</p>
+
+<p>In this episode, we’ll talk about how pandas became so popular in the data science space. Then we’ll move on to talk about polars, a new data science library written in Rust, and how its performances compare to pandas.</p>
+
+<p>Finally, we’ll have the opportunity to touch on a very interesting and unique topic: the <strong>Dataframe Consortium</strong>, a multi-company effort to standardize the data science API across the ecosystem.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.14</strong> Intro</li>
+  <li><strong>01.00</strong> Episode Start</li>
+  <li><strong>01.30</strong> Marco’s Introduction</li>
+  <li><strong>02.14</strong> What is pandas?</li>
+  <li><strong>03.27</strong> Why do I need pandas?</li>
+  <li><strong>05.19</strong> pandas’ competitors</li>
+  <li><strong>07.24</strong> pandas’ popularity</li>
+  <li><strong>10.12</strong> What’s your role with pandas?</li>
+  <li><strong>12.39</strong> How to become a pandas maintainer?</li>
+  <li><strong>13.50</strong> From data scientist to open source maintainer</li>
+  <li><strong>16.02</strong> What is polars?</li>
+  <li><strong>21.22</strong> Can pandas and polars co-exist?</li>
+  <li><strong>24.25</strong> Performance benchmarks</li>
+  <li><strong>26.21</strong> The learning curve</li>
+  <li><strong>29.11</strong> Naming anecdotes</li>
+  <li><strong>30.51</strong> The Dataframe Consortium?</li>
+  <li><strong>40.12</strong> Marco’s role in the consortium</li>
+  <li><strong>43.40</strong> What’s next for polars?</li>
+  <li><strong>46.50</strong> How to start contributing?</li>
+  <li><strong>50.56</strong> Further reading</li>
+  <li><strong>53.33</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/pandas-dev/pandas">pandas-dev/pandas on GitHub</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/pola-rs/polars">pola-rs/polars on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://pandas.pydata.org/">Pandas Official Website</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://pola.rs/">Polars Official Website</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://data-apis.org/">Dataframe API Consortium Official Website</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://pandas.pydata.org/docs/user_guide/index.html">Pandas User Guide</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://pola-rs.github.io/polars/user-guide/">Polars User Guide</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://data-apis.org/dataframe-api/draft/">Dataframe API Standard definition</a></li>
+      <li><i class="fab fa-youtube"></i> What polars does for you - <a href="https://youtu.be/UwRlFtSd_-8">Video from EuroPython</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://duckdblabs.github.io/db-benchmark/">H2O Benchmark</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://www.pola.rs/benchmarks.html">Polars - TPCH Benchmark</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/MarcoGorelli">@MarcoGorelli on GitHub</a></li>
+  <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/marcogorelli/">Marco Gorelli on LinkedIn</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Data science and dataframes with pandas, polars and Marco Gorelli]]></summary></entry><entry><title type="html">#67 - Effect with Michael Arnaldi</title><link href="https://thebakery.dev/67/" rel="alternate" type="text/html" title="#67 - Effect with Michael Arnaldi" /><published>2023-09-19T00:00:00+01:00</published><updated>2023-09-19T00:00:00+01:00</updated><id>https://thebakery.dev/067-effect</id><content type="html" xml:base="https://thebakery.dev/67/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/0z7foJZlCUwMJa9Tt7Qs9l?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <p>It’s time to talk again about Functional Programming (or maybe not?!) with today’s episode! I’m glad to have on stage <a href="https://twitter.com/MichaelArnaldi"><strong>Michael Arnaldi</strong></a>, author and maintainer of <a href="https://github.com/Effect-TS/effect"><strong>Effect</strong></a>.</p>
 
@@ -590,71 +657,4 @@
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Navigating between platforms with Voyager and Adriel Café]]></summary></entry><entry><title type="html">#58 - Confetti with John O’Reilly and Martin Bonnin</title><link href="https://thebakery.dev/58/" rel="alternate" type="text/html" title="#58 - Confetti with John O’Reilly and Martin Bonnin" /><published>2023-05-15T00:00:00+01:00</published><updated>2023-05-15T00:00:00+01:00</updated><id>https://thebakery.dev/058-confetti</id><content type="html" xml:base="https://thebakery.dev/58/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/5Y0cwrXFHzt2AwpfRQGA3t?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<p>In today’s episode, join me with <a href="https://twitter.com/martinbonnin"><strong>Martin Bonnin</strong></a> and <a href="https://twitter.com/joreilly"><strong>John O’Reilly</strong></a> as we explore <a href="https://github.com/joreilly/Confetti"><strong>Confetti</strong></a>, a Kotlin Multiplatform Conference App.</p>
-
-<p>Tune in as Martin and John discuss the story behind Confetti, its architecture, and how they managed to hit both the Play Store and the App Store using Kotlin Multiplatform.</p>
-
-<p>Confetti was also presented recently at KotlinConf 2023. We’ll be talking about John’s and Martin’s experience at KotlinConf and their favorite session from this edition.</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.08</strong> Intro</li>
-  <li><strong>00.54</strong> Episode Start</li>
-  <li><strong>01.30</strong> John’s Introduction</li>
-  <li><strong>02.04</strong> Martin’s Introduction</li>
-  <li><strong>03.08</strong> What is Confetti?</li>
-  <li><strong>04.24</strong> What’s the story behind Confetti?</li>
-  <li><strong>07.57</strong> Are conference apps the new TODO lists?</li>
-  <li><strong>09.47</strong> Confetti’s Architecture</li>
-  <li><strong>12.24</strong> Confetti’s UI Stack</li>
-  <li><strong>15.45</strong> How much code is shared between Android &amp; iOS?</li>
-  <li><strong>17.35</strong> SwiftUI vs Compose for iOS</li>
-  <li><strong>21.21</strong> Takeaways from KotlinConf</li>
-  <li><strong>24.35</strong> John’s favorite session</li>
-  <li><strong>28.15</strong> Confetti @ KotlinConf</li>
-  <li><strong>32.02</strong> Confetti vs KotlinConf App</li>
-  <li><strong>34.51</strong> Confetti on a watch</li>
-  <li><strong>38.47</strong> New features for Confetti</li>
-  <li><strong>40.30</strong> Whitelabelling</li>
-  <li><strong>42.48</strong> Further reading</li>
-  <li><strong>45.17</strong> Where people can find you online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/joreilly/Confetti">joreilly/Confetti on GitHub</a></li>
-  <li><i class="fab fa-app-store"></i> <a href="https://apps.apple.com/us/app/confetti/id1660211390">Confetti on the AppStore</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://play.google.com/store/apps/details?id=dev.johnoreilly.confetti">Confetti on the PlayStore</a></li>
-  <li>Mentioned Resources:
-    <ul>
-      <li><i class="fab fa-github"></i> <a href="https://github.com/apollographql/apollo-android">apollographql/apollo-android on Github</a></li>
-      <li><i class="fab fa-github"></i> <a href="https://github.com/ExpediaGroup/graphql-kotlin">ExpediaGroup/graphql-kotlin on Github</a></li>
-      <li><i class="fas fa-link"></i> <a href="/13">The Developers’ Bakery #13 - Apollo GraphQL with Martin Bonnin </a></li>
-      <li><i class="fab fa-youtube"></i> Confetti: building a Kotlin Multiplatform conference app in 40min - <a href="https://youtu.be/uATlWUBSx8Q">Video from KotlinConf</a></li>
-      <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/playlist?list=PLlFc5cFwUnmwcJ7ZXyMmS70A9QFyUu1HI">KotlinConf Video Playlist</a></li>
-    </ul>
-  </li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/joreilly">@joreilly on Twitter</a></li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/joreilly">@joreilly on GitHub</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://johnoreilly.dev/">John’s Blog</a></li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/martinbonnin">@martinbonnin on Github</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/martinbonnin">@martinbonnin on Twitter</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://mbonnin.net/">Martin’s Blog</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Bringing conference schedules to Android and iOS with John O'Reilly and Martin Bonnin]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Navigating between platforms with Voyager and Adriel Café]]></summary></entry></feed>
