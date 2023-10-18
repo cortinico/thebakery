@@ -25,7 +25,7 @@ podcast_duration: "54:40"
 podcast_length: 21633967
 ---
 
-<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/7KojxU3MUM7VZRhricZXaG?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 Time for a brand-new topic today here at The Developers' Bakery: **Data Science**! We're really excited to have on stage [Marco Gorelli](https://github.com/MarcoGorelli), core contributor of both [pandas](https://pandas.pydata.org/) and [polars](https://pola.rs/), two of the most popular data science libraries in the Python ecosystem.
 
