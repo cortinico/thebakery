@@ -412,4 +412,10 @@ var store = [{
         "tags": [],
         "url": "/68/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#69 - compose-rules with Nacho Lopez",
+        "excerpt":"We’re back talking about static analysis today here at The Developers’ Bakery! We’re really excited to have on stage Nacho Lopez to talk about Compose Rules. This project is a collection of linting and inspection rules for Jetpack Compose, which prevents you from making common mistakes and helps you write...","categories": [],
+        "tags": [],
+        "url": "/69/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

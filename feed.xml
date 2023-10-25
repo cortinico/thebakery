@@ -1,4 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2023-10-10T17:38:56+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#68 - Pandas and Polars with Marco Gorelli</title><link href="https://thebakery.dev/68/" rel="alternate" type="text/html" title="#68 - Pandas and Polars with Marco Gorelli" /><published>2023-10-10T00:00:00+01:00</published><updated>2023-10-10T00:00:00+01:00</updated><id>https://thebakery.dev/068-pandas-and-polars</id><content type="html" xml:base="https://thebakery.dev/68/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2023-10-25T09:52:00+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#69 - compose-rules with Nacho Lopez</title><link href="https://thebakery.dev/69/" rel="alternate" type="text/html" title="#69 - compose-rules with Nacho Lopez" /><published>2023-10-25T00:00:00+01:00</published><updated>2023-10-25T00:00:00+01:00</updated><id>https://thebakery.dev/069-compose-rules</id><content type="html" xml:base="https://thebakery.dev/69/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>We’re back talking about <strong>static analysis</strong> today here at The Developers’ Bakery! We’re really excited to have on stage <a href="https://twitter.com/mrmans0n"><strong>Nacho Lopez</strong></a> to talk about <a href="https://github.com/mrmans0n/compose-rules"><strong>Compose Rules</strong></a>.</p>
+
+<p>This project is a collection of linting and inspection rules for Jetpack Compose, which prevents you from making common mistakes and helps you write better and more performant UI code.
+You can use this rule with either KtLint or Detekt.</p>
+
+<p>In this episode, we’ll also touch on how this project started inside Twitter, and now ends up living into Nacho’s personal fork.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.03</strong> Nacho’s Introduction</li>
+  <li><strong>04.21</strong> What is compose-rules?</li>
+  <li><strong>08.39</strong> Compose Antipatterns</li>
+  <li><strong>13.47</strong> How to use compose-rules?</li>
+  <li><strong>15.28</strong> Writing custom rules</li>
+  <li><strong>19.56</strong> The Twitter drama</li>
+  <li><strong>29.23</strong> Living in a fork</li>
+  <li><strong>36.09</strong> What’s next for compose-rules?</li>
+  <li><strong>42.39</strong> Further reading</li>
+  <li><strong>44.41</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/mrmans0n/compose-rules">mrmans0n/compose-rules on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://mrmans0n.github.io/compose-rules/">Compose Rules Official Website</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://plugins.jetbrains.com/docs/intellij/psi.html">What is the PSI?</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://plugins.jetbrains.com/docs/intellij/psi-cookbook.html">PSI Cookbook</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/mrmans0n">@mrmans0n on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/mrmans0n">@mrmans0n on Twitter</a></li>
+  <li><i class="fab fa-mastodon"></i> <a href="https://androiddev.social/@nacho">@nacho on Mastodon</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Linting and Inspecting Jetpack Compose code with Compose Rules and Nacho Lopez]]></summary></entry><entry><title type="html">#68 - Pandas and Polars with Marco Gorelli</title><link href="https://thebakery.dev/68/" rel="alternate" type="text/html" title="#68 - Pandas and Polars with Marco Gorelli" /><published>2023-10-10T00:00:00+01:00</published><updated>2023-10-10T00:00:00+01:00</updated><id>https://thebakery.dev/068-pandas-and-polars</id><content type="html" xml:base="https://thebakery.dev/68/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/7KojxU3MUM7VZRhricZXaG?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <p>Time for a brand-new topic today here at The Developers’ Bakery: <strong>Data Science</strong>! We’re really excited to have on stage <a href="https://github.com/MarcoGorelli">Marco Gorelli</a>, core contributor of both <a href="https://pandas.pydata.org/">pandas</a> and <a href="https://pola.rs/">polars</a>, two of the most popular data science libraries in the Python ecosystem.</p>
 
@@ -598,63 +651,4 @@
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Books, Courses, and Newsletters with Effective Android by Jorge Castillo]]></summary></entry><entry><title type="html">#59 - Voyager with Adriel Café</title><link href="https://thebakery.dev/59/" rel="alternate" type="text/html" title="#59 - Voyager with Adriel Café" /><published>2023-05-29T00:00:00+01:00</published><updated>2023-05-29T00:00:00+01:00</updated><id>https://thebakery.dev/059-voyager</id><content type="html" xml:base="https://thebakery.dev/59/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/1IU23jgadd48XBkJRU0wXU?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<p>Joining us today is <a href="https://twitter.com/adrielcafe"><strong>Adriel Café</strong></a>, the creator and maintainer of <a href="https://github.com/adrielcafe/voyager"><strong>Voyager</strong></a>. We’ll be delving into the depths of Navigation with Jetpack Compose, touching on topics such as tab navigation, nested navigation and deep-links. Also, Voyager let’s you build navigation experiences which are fully cross-platform thanks to its support for Android, iOS, Web and Desktop.</p>
-
-<p>Adriel is also a former Web engineers and is going to tell us what he loves and hates between the two worlds.</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.13</strong> Intro</li>
-  <li><strong>00.59</strong> Episode Start</li>
-  <li><strong>01.32</strong> Adriel’s Introduction</li>
-  <li><strong>02.54</strong> What is Voyager?</li>
-  <li><strong>06.07</strong> What’s the story behind Voyager?</li>
-  <li><strong>12.22</strong> How hard is navigation across platforms?</li>
-  <li><strong>14.23</strong> Bottom bar, tabs and other navigation patterns</li>
-  <li><strong>16.38</strong> Deeplinks</li>
-  <li><strong>18.35</strong> Nested Navigation</li>
-  <li><strong>20.40</strong> Multi-module Navigation</li>
-  <li><strong>22.47</strong> 1.0.0 when?</li>
-  <li><strong>23.58</strong> The most requested feature</li>
-  <li><strong>25.04</strong> Who’s maintaining Voyager?</li>
-  <li><strong>27.50</strong> Which future for Voyager?</li>
-  <li><strong>29.34</strong> Android vs Web</li>
-  <li><strong>33.26</strong> Android engineers do it better</li>
-  <li><strong>34.47</strong> Web vs Mobile IDEs</li>
-  <li><strong>36.45</strong> Further reading</li>
-  <li><strong>38.40</strong> Where people can find you online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/adrielcafe/voyager">adrielcafe/voyager on GitHub</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://voyager.adriel.cafe/">Voyager Official Website</a></li>
-  <li>Mentioned Resources:
-    <ul>
-      <li><i class="fab fa-github"></i> <a href="https://github.com/adrielcafe/lyricist">adrielcafe/lyricist on GitHub</a></li>
-      <li><i class="fab fa-github"></i> <a href="https://github.com/programadorthi/kotlin-routing">programadorthi/kotlin-routing on GitHub</a></li>
-      <li><i class="fas fa-book"></i> <a href="https://jorgecastillo.dev/book/">Jetpack Compose internals - by Jorge Castillo</a></li>
-    </ul>
-  </li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/adrielcafe">@adrielcafe on GitHub</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/adrielcafe">@adrielcafe on Twitter</a></li>
-  <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/adrielcafe/">Adriel Café on LinkedIn</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://adriel.cafe/">Adriel’s Website</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Navigating between platforms with Voyager and Adriel Café]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Books, Courses, and Newsletters with Effective Android by Jorge Castillo]]></summary></entry></feed>

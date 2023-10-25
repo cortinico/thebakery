@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Tue, 10 Oct 2023 17:38:56 +0100</lastBuildDate>
+<lastBuildDate>Wed, 25 Oct 2023 09:52:00 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,93 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>compose-rules with Nacho Lopez</title>
+        <itunes:title>compose-rules with Nacho Lopez</itunes:title>
+        <link>https://thebakery.dev/69/</link>
+        <pubDate>Wed, 25 Oct 2023 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/69/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>69</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/69-thedevelopersbakery-compose-rules.m4a" length="18486613" type="audio/mpeg" />
+
+        <itunes:subtitle>Linting and Inspecting Jetpack Compose code with Compose Rules and Nacho Lopez</itunes:subtitle>
+        <itunes:summary>Linting and Inspecting Jetpack Compose code with Compose Rules and Nacho Lopez</itunes:summary>
+
+        
+        <description>
+            <![CDATA[We’re back talking about static analysis today here at The Developers’ Bakery! We’re really excited to have on stage Nacho Lopez to talk about Compose Rules. This project is a collection of linting and inspection rules for Jetpack Compose, which prevents you from making common mistakes and helps you write...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>We’re back talking about <strong>static analysis</strong> today here at The Developers’ Bakery! We’re really excited to have on stage <a href="https://twitter.com/mrmans0n"><strong>Nacho Lopez</strong></a> to talk about <a href="https://github.com/mrmans0n/compose-rules"><strong>Compose Rules</strong></a>.</p>
+
+<p>This project is a collection of linting and inspection rules for Jetpack Compose, which prevents you from making common mistakes and helps you write better and more performant UI code.
+You can use this rule with either KtLint or Detekt.</p>
+
+<p>In this episode, we’ll also touch on how this project started inside Twitter, and now ends up living into Nacho’s personal fork.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.03</strong> Nacho’s Introduction</li>
+  <li><strong>04.21</strong> What is compose-rules?</li>
+  <li><strong>08.39</strong> Compose Antipatterns</li>
+  <li><strong>13.47</strong> How to use compose-rules?</li>
+  <li><strong>15.28</strong> Writing custom rules</li>
+  <li><strong>19.56</strong> The Twitter drama</li>
+  <li><strong>29.23</strong> Living in a fork</li>
+  <li><strong>36.09</strong> What’s next for compose-rules?</li>
+  <li><strong>42.39</strong> Further reading</li>
+  <li><strong>44.41</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/mrmans0n/compose-rules">mrmans0n/compose-rules on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://mrmans0n.github.io/compose-rules/">Compose Rules Official Website</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://plugins.jetbrains.com/docs/intellij/psi.html">What is the PSI?</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://plugins.jetbrains.com/docs/intellij/psi-cookbook.html">PSI Cookbook</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/mrmans0n">@mrmans0n on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/mrmans0n">@mrmans0n on Twitter</a></li>
+  <li><i class="fab fa-mastodon"></i> <a href="https://androiddev.social/@nacho">@nacho on Mastodon</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/69-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>46:05</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Pandas and Polars with Marco Gorelli</title>
