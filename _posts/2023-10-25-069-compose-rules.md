@@ -27,12 +27,12 @@ podcast_length: 18486613
 
 <iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-We're back talking about **static analysys** today here at The Developers' Bakery! We're really excited to have on stage [**Nacho Lopez**](https://twitter.com/mrmans0n) to talk about [**Compose Rules**](https://github.com/mrmans0n/compose-rules). 
+We're back talking about **static analysis** today here at The Developers' Bakery! We're really excited to have on stage [**Nacho Lopez**](https://twitter.com/mrmans0n) to talk about [**Compose Rules**](https://github.com/mrmans0n/compose-rules). 
 
 This project is a collection of linting and inspection rules for Jetpack Compose, which prevents you from making common mistakes and helps you write better and more performant UI code.
 You can use this rule with either KtLint or Detekt.
 
-In this episode we'll also touch on how this project started inside Twitter, and now ends up living into Nacho's personal fork.
+In this episode, we'll also touch on how this project started inside Twitter, and now ends up living into Nacho's personal fork.
 
 Enjoy the show 👨‍🍳
 
