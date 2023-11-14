@@ -1,4 +1,52 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2023-10-25T14:29:38+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#69 - compose-rules with Nacho Lopez</title><link href="https://thebakery.dev/69/" rel="alternate" type="text/html" title="#69 - compose-rules with Nacho Lopez" /><published>2023-10-25T00:00:00+01:00</published><updated>2023-10-25T00:00:00+01:00</updated><id>https://thebakery.dev/069-compose-rules</id><content type="html" xml:base="https://thebakery.dev/69/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2023-11-14T13:54:21+00:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#70 - The educator’s path with Marcin Moskała</title><link href="https://thebakery.dev/70/" rel="alternate" type="text/html" title="#70 - The educator’s path with Marcin Moskała" /><published>2023-11-14T00:00:00+00:00</published><updated>2023-11-14T00:00:00+00:00</updated><id>https://thebakery.dev/070-the-educator&apos;s-path</id><content type="html" xml:base="https://thebakery.dev/70/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>We’re back with another <strong>bonus episode</strong> of The Developers’ Bakery! 
+Back in episode <a href="/60">60</a> we talked about content creation with Effective Android.</p>
+
+<p>Today, we double down on a similar topic as we do have <a href="https://leanpub.com/u/mmoskala"><strong>Marcin Moskała</strong></a> on stage! Marcin is the author of <strong>Effective Kotlin</strong>, a collection of Kotlin best practices, and <strong>Kotlin Coroutines</strong>, a book about Kotlin’s concurrency model.</p>
+
+<p>In this episode, Marcin will walk us through the path to <strong>becoming an educator</strong>, what are the skills required, and how to make it profitable. Marcin has plenty of experience in this space, both as a book author, a workshop organizer, and a conference speaker.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.23</strong> Marcin’s Introduction</li>
+  <li><strong>03.36</strong> The various paths in engineering</li>
+  <li><strong>06.16</strong> The educator’s path</li>
+  <li><strong>14.09</strong> The educator’s skillset</li>
+  <li><strong>19.43</strong> Making education profitable</li>
+  <li><strong>25.25</strong> Is it worth to write a book?</li>
+  <li><strong>27.08</strong> Marcin’s writing tips</li>
+  <li><strong>34.19</strong> Publishing a book</li>
+  <li><strong>38.06</strong> AI and education</li>
+  <li><strong>41.55</strong> Give it forward</li>
+  <li><strong>43.59</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fas fa-book"></i> <a href="https://leanpub.com/effectivekotlin">Effective Kotlin by Marcin Moskała on Leanpub</a></li>
+  <li><i class="fas fa-book"></i> <a href="https://leanpub.com/coroutines">Kotlin Coroutines by Marcin Moskała on Leanpub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://leanpub.com/u/mmoskala">Marcin Moskała on Leanpub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/marcinmoskala">@marcinmoskala on Twitter</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/MarcinMoskala">@MarcinMoskala on GitHub</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Becoming a successful educator in IT with Marcin Moskała]]></summary></entry><entry><title type="html">#69 - compose-rules with Nacho Lopez</title><link href="https://thebakery.dev/69/" rel="alternate" type="text/html" title="#69 - compose-rules with Nacho Lopez" /><published>2023-10-25T00:00:00+01:00</published><updated>2023-10-25T00:00:00+01:00</updated><id>https://thebakery.dev/069-compose-rules</id><content type="html" xml:base="https://thebakery.dev/69/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/2URBKbJ0dD58mCb8Cu6JPD?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <p>We’re back talking about <strong>static analysis</strong> today here at The Developers’ Bakery! We’re really excited to have on stage <a href="https://twitter.com/mrmans0n"><strong>Nacho Lopez</strong></a> to talk about <a href="https://github.com/mrmans0n/compose-rules"><strong>Compose Rules</strong></a>.</p>
 
@@ -590,65 +638,4 @@ You can use this rule with either KtLint or Detekt.</p>
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Contributing to Linux on Desktop with KDE and Niccolò Venerandi]]></summary></entry><entry><title type="html">#60 - Effective Android with Jorge Castillo</title><link href="https://thebakery.dev/60/" rel="alternate" type="text/html" title="#60 - Effective Android with Jorge Castillo" /><published>2023-06-13T00:00:00+01:00</published><updated>2023-06-13T00:00:00+01:00</updated><id>https://thebakery.dev/060-effective-android</id><content type="html" xml:base="https://thebakery.dev/60/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/1f7fMiskEazapgVsYKmsY5?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<p>It’s time for another <strong>bonus episode</strong> of The Developers’ Bakery! This time, we dive into the world of content creation with <a href="https://twitter.com/JorgeCastilloPR"><strong>Jorge Castillo</strong></a>. Jorge is the author of the blog &amp; newsletter <a href="https://newsletter.jorgecastillo.dev/"><strong>Effective Android</strong></a> and the author of <a href="https://jorgecastillo.dev/book/"><strong>Jetpack Compose internals</strong></a> book.</p>
-
-<p>In this episode we’ll talk about his journey building a newsletter, writing blog posts, preparing courses, and writing books. Join us as we and discover the secrets behind his success.</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.00</strong> Intro</li>
-  <li><strong>00.45</strong> Episode Start</li>
-  <li><strong>01.19</strong> Jorge’s Introduction</li>
-  <li><strong>03.13</strong> What is Effective Android?</li>
-  <li><strong>04.01</strong> Kicking off a newsletter</li>
-  <li><strong>05.19</strong> From RSS to your Inbox</li>
-  <li><strong>06.42</strong> How to monetize a newsletter?</li>
-  <li><strong>07.41</strong> Effective Interviews</li>
-  <li><strong>10.01</strong> How an interview is built</li>
-  <li><strong>12.01</strong> Podcast vs written interviews</li>
-  <li><strong>14.02</strong> Where do you find the time?</li>
-  <li><strong>16.36</strong> Jetpack Compose courses</li>
-  <li><strong>18.56</strong> Cohort based courses</li>
-  <li><strong>21.05</strong> Communities around courses</li>
-  <li><strong>23.00</strong> The business of online courses</li>
-  <li><strong>24.33</strong> The challenges of building a course</li>
-  <li><strong>26.51</strong> The book: Jetpack Compose Internals</li>
-  <li><strong>32.04</strong> The book: The Good Teammate</li>
-  <li><strong>32.54</strong> Leanpub</li>
-  <li><strong>34.58</strong> Maintaining Arrow</li>
-  <li><strong>41.05</strong> Further reading</li>
-  <li><strong>44.19</strong> Where people can find you online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fas fa-envelope"></i> <a href="https://newsletter.jorgecastillo.dev/">Effective Android on Substack</a></li>
-  <li>Mentioned Resources:
-    <ul>
-      <li><i class="fas fa-link"></i> <a href="https://jorgecastillo.dev/">Jorge’s Blog</a></li>
-      <li><i class="fas fa-school"></i> <a href="https://jorgecastillo.dev/course/">Jetpack Compose and internals course</a></li>
-      <li><i class="fas fa-book"></i> <a href="https://jorgecastillo.dev/book/">Book: Jetpack Compose internals</a></li>
-      <li><i class="fas fa-book"></i> <a href="https://jorgecastillo.dev/thegoodteammate/">Book: The Good Teammate</a></li>
-    </ul>
-  </li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/JorgeCastilloPrz">@JorgeCastilloPrz on GitHub</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/JorgeCastilloPR">@JorgeCastilloPR on Twitter</a></li>
-  <li><i class="fab fa-mastodon"></i> <a href="https://androiddev.social/@jorge">@jorge on Mastodon</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Books, Courses, and Newsletters with Effective Android by Jorge Castillo]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Contributing to Linux on Desktop with KDE and Niccolò Venerandi]]></summary></entry></feed>

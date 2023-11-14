@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Wed, 25 Oct 2023 14:29:38 +0100</lastBuildDate>
+<lastBuildDate>Tue, 14 Nov 2023 13:54:21 +0000</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,88 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>The educator's path with Marcin Moskała</title>
+        <itunes:title>The educator's path with Marcin Moskała</itunes:title>
+        <link>https://thebakery.dev/70/</link>
+        <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/70/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>70</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/70-thedevelopersbakery-the-educators-path.m4a" length="17871835" type="audio/mpeg" />
+
+        <itunes:subtitle>Becoming a successful educator in IT with Marcin Moskała</itunes:subtitle>
+        <itunes:summary>Becoming a successful educator in IT with Marcin Moskała</itunes:summary>
+
+        
+        <description>
+            <![CDATA[We’re back with another bonus episode of The Developers’ Bakery! Back in episode 60 we talked about content creation with Effective Android. Today, we double down on a similar topic as we do have Marcin Moskała on stage! Marcin is the author of Effective Kotlin, a collection of Kotlin best...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>We’re back with another <strong>bonus episode</strong> of The Developers’ Bakery! 
+Back in episode <a href="/60">60</a> we talked about content creation with Effective Android.</p>
+
+<p>Today, we double down on a similar topic as we do have <a href="https://leanpub.com/u/mmoskala"><strong>Marcin Moskała</strong></a> on stage! Marcin is the author of <strong>Effective Kotlin</strong>, a collection of Kotlin best practices, and <strong>Kotlin Coroutines</strong>, a book about Kotlin’s concurrency model.</p>
+
+<p>In this episode, Marcin will walk us through the path to <strong>becoming an educator</strong>, what are the skills required, and how to make it profitable. Marcin has plenty of experience in this space, both as a book author, a workshop organizer, and a conference speaker.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.23</strong> Marcin’s Introduction</li>
+  <li><strong>03.36</strong> The various paths in engineering</li>
+  <li><strong>06.16</strong> The educator’s path</li>
+  <li><strong>14.09</strong> The educator’s skillset</li>
+  <li><strong>19.43</strong> Making education profitable</li>
+  <li><strong>25.25</strong> Is it worth to write a book?</li>
+  <li><strong>27.08</strong> Marcin’s writing tips</li>
+  <li><strong>34.19</strong> Publishing a book</li>
+  <li><strong>38.06</strong> AI and education</li>
+  <li><strong>41.55</strong> Give it forward</li>
+  <li><strong>43.59</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fas fa-book"></i> <a href="https://leanpub.com/effectivekotlin">Effective Kotlin by Marcin Moskała on Leanpub</a></li>
+  <li><i class="fas fa-book"></i> <a href="https://leanpub.com/coroutines">Kotlin Coroutines by Marcin Moskała on Leanpub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://leanpub.com/u/mmoskala">Marcin Moskała on Leanpub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/marcinmoskala">@marcinmoskala on Twitter</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/MarcinMoskala">@MarcinMoskala on GitHub</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/70-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>45:22</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>compose-rules with Nacho Lopez</title>

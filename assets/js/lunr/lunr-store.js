@@ -418,4 +418,10 @@ var store = [{
         "tags": [],
         "url": "/69/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#70 - The educator's path with Marcin Moskała",
+        "excerpt":"We’re back with another bonus episode of The Developers’ Bakery! Back in episode 60 we talked about content creation with Effective Android. Today, we double down on a similar topic as we do have Marcin Moskała on stage! Marcin is the author of Effective Kotlin, a collection of Kotlin best...","categories": [],
+        "tags": [],
+        "url": "/70/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]
