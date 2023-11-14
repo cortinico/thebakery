@@ -25,7 +25,7 @@ podcast_duration: "46:05"
 podcast_length: 18486613
 ---
 
-<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/2URBKbJ0dD58mCb8Cu6JPD?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 We're back talking about **static analysis** today here at The Developers' Bakery! We're really excited to have on stage [**Nacho Lopez**](https://twitter.com/mrmans0n) to talk about [**Compose Rules**](https://github.com/mrmans0n/compose-rules). 
 
