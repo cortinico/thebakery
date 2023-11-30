@@ -424,4 +424,10 @@ var store = [{
         "tags": [],
         "url": "/70/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#71 - Godot with Emilio Coppola",
+        "excerpt":"Are you ready to level up your knowledge on game development? Today, we have Emilio Coppola, Executive Director of the Godot Foundation. He’s here to tell us about Godot, the open-source game engine that’s been making waves in the development world. Especially with the latest changes in the Unity pricing...","categories": [],
+        "tags": [],
+        "url": "/71/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

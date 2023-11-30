@@ -1,4 +1,63 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2023-11-28T10:15:15+00:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#70 - The educator’s path with Marcin Moskała</title><link href="https://thebakery.dev/70/" rel="alternate" type="text/html" title="#70 - The educator’s path with Marcin Moskała" /><published>2023-11-14T00:00:00+00:00</published><updated>2023-11-14T00:00:00+00:00</updated><id>https://thebakery.dev/070-the-educator&apos;s-path</id><content type="html" xml:base="https://thebakery.dev/70/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2023-11-30T10:07:20+00:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#71 - Godot with Emilio Coppola</title><link href="https://thebakery.dev/71/" rel="alternate" type="text/html" title="#71 - Godot with Emilio Coppola" /><published>2023-11-30T00:00:00+00:00</published><updated>2023-11-30T00:00:00+00:00</updated><id>https://thebakery.dev/071-godot</id><content type="html" xml:base="https://thebakery.dev/71/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>Are you ready to level up your knowledge on game development? Today, we have <a href="https://twitter.com/emi_cpl"><strong>Emilio Coppola</strong></a>, Executive Director of the Godot Foundation. He’s here to tell us about <a href="https://godotengine.org/"><strong>Godot</strong></a>, the open-source game engine that’s been making waves in the development world.</p>
+
+<p>Especially with the latest changes in the Unity pricing model, Godot is becoming a viable alternative for many developers. In this episode, Emilio will tell us about the history of Godot, how it compares to other engines, and how to get started with it.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.16</strong> Emilio’s Introduction</li>
+  <li><strong>02.38</strong> What is Godot?</li>
+  <li><strong>03.35</strong> How Godot started?</li>
+  <li><strong>05.03</strong> Popular games in Godot</li>
+  <li><strong>06.10</strong> Godot vs Unreal/Unity</li>
+  <li><strong>09.46</strong> Godot &amp; the Unity install fees</li>
+  <li><strong>17.16</strong> Who’s supporting Godot?</li>
+  <li><strong>22.10</strong> Hiring full time engineers</li>
+  <li><strong>23.59</strong> What does a Foundation Executive Director does?</li>
+  <li><strong>27.37</strong> Godot and Go?</li>
+  <li><strong>30.21</strong> Handling OSS traffic at Scale</li>
+  <li><strong>34.01</strong> How to contribute to Godot?</li>
+  <li><strong>36.57</strong> Getting into the core contributors team</li>
+  <li><strong>40.14</strong> What’s next for Godot?</li>
+  <li><strong>43.34</strong> Further reading</li>
+  <li><strong>46.16</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://godotengine.org/">Godot Official Website</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/godotengine/godot">godotengine/godot on GitHub</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://godotengine.org/blog/">Godot Engine Blog</a></li>
+      <li><i class="fab fa-youtube"></i> <a href="https://youtu.be/toE-YUqEdA8?si=owZ0aC_35-FOxszc">Porting your Unity knowledge to Godot Engine - Andy Touch</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://github.com/coppolaemilio/gamemaker-godot-dictionary">Gamemaker to Godot Dictionary</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://www.gdquest.com/learn-to-code-from-zero/">Learn to Code From Zero with GDScript · GDQuest</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/coppolaemilio">@coppolaemilio on GitHub</a></li>
+  <li><i class="fab fa-mastodon"></i> <a href="https://mastodon.gamedev.place/@Emi">@Emi on Mastodon</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/emi_cpl">@emi_cpl on Twitter</a></li>
+  <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/@emi_cpl">@emi_cpl on YouTube</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Open source game development with Godot and Emilio Coppola]]></summary></entry><entry><title type="html">#70 - The educator’s path with Marcin Moskała</title><link href="https://thebakery.dev/70/" rel="alternate" type="text/html" title="#70 - The educator’s path with Marcin Moskała" /><published>2023-11-14T00:00:00+00:00</published><updated>2023-11-14T00:00:00+00:00</updated><id>https://thebakery.dev/070-the-educator&apos;s-path</id><content type="html" xml:base="https://thebakery.dev/70/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/538EtMYcxQYU7mciUIzq8o?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <p>We’re back with another <strong>bonus episode</strong> of The Developers’ Bakery! 
 Back in episode <a href="/60">60</a> we talked about content creation with Effective Android.</p>
@@ -562,80 +621,4 @@ You can use this rule with either KtLint or Detekt.</p>
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Time to forget about flaky UI test on Mobile with Marathon and Anton Malinskiy]]></summary></entry><entry><title type="html">#61 - KDE with Niccolò Venerandi</title><link href="https://thebakery.dev/61/" rel="alternate" type="text/html" title="#61 - KDE with Niccolò Venerandi" /><published>2023-06-26T00:00:00+01:00</published><updated>2023-06-26T00:00:00+01:00</updated><id>https://thebakery.dev/061-kde</id><content type="html" xml:base="https://thebakery.dev/61/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/047mkBU1dP1y6Am3kS6cEp?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<p>I’m really excited for today’s episode as we’re going to talk about Linux Desktop Environments with <a href="https://twitter.com/veggero"><strong>Niccolò Venerandi</strong></a>, a KDE contributor.</p>
-
-<p>Niccolò has been contributing to KDE Plasma for multiple years. He’s going to tell us how the KDE project is working, how it’s funded and how it is possible to contribute to it.</p>
-
-<p>He also runs a popular YouTube channel about KDE &amp; Linux that he’s using to found his Open Source work!</p>
-
-<p>In this episode, we’re going to learn his secrets and how he’s planning to grow his engagement with KDE through this channel.</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.10</strong> Intro</li>
-  <li><strong>00.56</strong> Episode Start</li>
-  <li><strong>01.12</strong> Niccolò’s Introduction</li>
-  <li><strong>02.31</strong> What is KDE?</li>
-  <li><strong>04.49</strong> What is your role within KDE?</li>
-  <li><strong>05.51</strong> KDE Plasma on a Steam Deck</li>
-  <li><strong>06.44</strong> Which Linux distro are you using?</li>
-  <li><strong>07.12</strong> Which Linux distro are you recommending?</li>
-  <li><strong>07.54</strong> How you got involved with KDE?</li>
-  <li><strong>10.37</strong> Where is KDE’s code?</li>
-  <li><strong>11.11</strong> Mentoring in the KDE community</li>
-  <li><strong>12.22</strong> Whick programming languages are used for KDE?</li>
-  <li><strong>14.21</strong> GNOME vs KDE</li>
-  <li><strong>16.55</strong> How is KDE funded?</li>
-  <li><strong>20.13</strong> How anarchy sometimes work</li>
-  <li><strong>22.34</strong> Meeting the KDE community</li>
-  <li><strong>24.10</strong> Different ways of doing Open Source</li>
-  <li><strong>29.10</strong> How to start contributing to KDE?</li>
-  <li><strong>31.22</strong> What KDE needs right now?</li>
-  <li><strong>32.06</strong> kNaming</li>
-  <li><strong>34.05</strong> Nicco Loves Linux</li>
-  <li><strong>36.47</strong> Sustaining Open Source via YouTube</li>
-  <li><strong>39.39</strong> Marketing is hard</li>
-  <li><strong>42.34</strong> Further reading</li>
-  <li><strong>44.35</strong> Where people can find you online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://invent.kde.org">KDE on GitLab</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://kde.org/">KDE official website</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://community.kde.org/Get_Involved">Get involved with KDE</a></li>
-  <li>Mentioned Resources:
-    <ul>
-      <li><i class="fas fa-link"></i> <a href="https://pointieststick.com/">Nate Graham’s Blog</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://pointieststick.com/2020/08/04/the-structure-of-kde-or-how-anarchy-sometimes-works/">How anarchy sometimes work</a></li>
-    </ul>
-  </li>
-  <li>Mentioned Linux YouTubers:
-    <ul>
-      <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/@thelinuxexp">@thelinuxexp on YouTube</a></li>
-      <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/@TechHut">@TechHut on YouTube</a></li>
-      <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/@TheLinuxCast">@TheLinuxCast on YouTube</a></li>
-    </ul>
-  </li>
-  <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/@niccoloveslinux">@niccoloveslinux on YouTube</a></li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/veggero">@veggero on GitHub</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/veggero">@veggero on Twitter</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://nicco.love/">Niccolò’s Blog</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Contributing to Linux on Desktop with KDE and Niccolò Venerandi]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Time to forget about flaky UI test on Mobile with Marathon and Anton Malinskiy]]></summary></entry></feed>
