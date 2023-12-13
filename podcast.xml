@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Thu, 30 Nov 2023 10:07:20 +0000</lastBuildDate>
+<lastBuildDate>Wed, 13 Dec 2023 15:08:54 +0000</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,91 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>QuackAI with François-Guillaume Fernandez</title>
+        <itunes:title>QuackAI with François-Guillaume Fernandez</itunes:title>
+        <link>https://thebakery.dev/72/</link>
+        <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/72/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>72</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/72-thedevelopersbakery-quackai.m4a" length="18344652" type="audio/mpeg" />
+
+        <itunes:subtitle>Your AI Contributions Companion with FG Fernandez and QuackAI</itunes:subtitle>
+        <itunes:summary>Your AI Contributions Companion with FG Fernandez and QuackAI</itunes:summary>
+
+        
+        <description>
+            <![CDATA[Welcome back to another episode of The Developers’ Bakery. Today we have on stage FG Fernandez, the founder of QuackAI. QuackAI is a VS Code Extension that helps your contributiors when they’re typing to make sure their contributions won’t fail to comply with your project guidelines. Moreover, FG had the...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>Welcome back to another episode of The Developers’ Bakery. Today we have on stage <a href="https://twitter.com/FrG_FM"><strong>FG Fernandez</strong></a>, the founder of <a href="https://www.quackai.com/"><strong>QuackAI</strong></a>.</p>
+
+<p>QuackAI is a VS Code Extension that helps your contributiors when they’re typing to make sure their contributions won’t fail to comply with your project guidelines.</p>
+
+<p>Moreover, FG had the opportunity to join the YCombinator program with QuackAI as a sole contributor. Today he will tell us his story with this tool and what’s next for it!</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.17</strong> FG’s Introduction</li>
+  <li><strong>02.24</strong> What is QuackAI?</li>
+  <li><strong>03.13</strong> How can I use QuackAI?</li>
+  <li><strong>07.33</strong> Defining contribution rules</li>
+  <li><strong>10.07</strong> IDE Extension &amp; PR Automation</li>
+  <li><strong>15.07</strong> What happens when I type with QuackAI?</li>
+  <li><strong>18.44</strong> What is Open Source in QuackAI?</li>
+  <li><strong>20.56</strong> How do you do telemetry?</li>
+  <li><strong>26.40</strong> The story of QuackAI</li>
+  <li><strong>30.39</strong> Funding from YCombinator</li>
+  <li><strong>36.51</strong> Being a sole contributor at QuackAI</li>
+  <li><strong>39.00</strong> What’s next for QuackAI?</li>
+  <li><strong>43.27</strong> Further reading</li>
+  <li><strong>45.00</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/quack-ai/companion">quack-ai/companion on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://www.quackai.com/">QuackAI Official Website</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://marketplace.visualstudio.com/items?itemName=QuackAI.quack-companion">QuackAI VS Code Extension</a></li>
+  <li><i class="fab fa-discord"></i> <a href="https://discord.com/invite/E9rY3bVCWd">QuackAI Discord server</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/frgfm">@frgfm on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/FrG_FM">@FrG_FM on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/72-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>46:14</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Godot with Emilio Coppola</title>

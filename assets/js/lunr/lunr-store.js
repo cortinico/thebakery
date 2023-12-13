@@ -430,4 +430,10 @@ var store = [{
         "tags": [],
         "url": "/71/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#72 - QuackAI with François-Guillaume Fernandez",
+        "excerpt":"Welcome back to another episode of The Developers’ Bakery. Today we have on stage FG Fernandez, the founder of QuackAI. QuackAI is a VS Code Extension that helps your contributiors when they’re typing to make sure their contributions won’t fail to comply with your project guidelines. Moreover, FG had the...","categories": [],
+        "tags": [],
+        "url": "/72/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]
