@@ -1,4 +1,4 @@
-image: ruby:3.2
+image: ruby:3.3
 
 variables:
   JEKYLL_ENV: production
