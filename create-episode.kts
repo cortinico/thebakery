@@ -62,7 +62,7 @@ class GenerateSnippets : Callable<Int> {
             
             podcast_image: "/assets/images/episodes/$number-cover.png"
             podcast_episode_number: $number
-            podcast_link: https://dts.podtrac.com/redirect.m4a/f005.backblazeb2.com/file/thebakery-hosting/$number-thedevelopersbakery-$id.m4a
+            podcast_link: https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/$number-thedevelopersbakery-$id.m4a
             podcast_duration: "TODO"
             podcast_length: TODO
             ---
