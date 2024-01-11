@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Fri, 05 Jan 2024 10:26:03 +0000</lastBuildDate>
+<lastBuildDate>Thu, 11 Jan 2024 10:19:43 +0000</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,98 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Tea with Max Howell</title>
+        <itunes:title>Tea with Max Howell</itunes:title>
+        <link>https://thebakery.dev/73/</link>
+        <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/73/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>73</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/73-thedevelopersbakery-tea.m4a" length="21286300" type="audio/mpeg" />
+
+        <itunes:subtitle>A new protocol to sponsor Open Source with Tea and Max Howell</itunes:subtitle>
+        <itunes:summary>A new protocol to sponsor Open Source with Tea and Max Howell</itunes:summary>
+
+        
+        <description>
+            <![CDATA[It’s time to kickoff 2024 with an amazing new episode! Joining us is the mind behind Homebrew: Max Howell. We’re not here to talk about Homebrew today though (get back to Ep. 55 for that). Max is here to tell us about his latest project: Tea 🍵 Tea is a...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>It’s time to kickoff 2024 with an amazing new episode! Joining us is the mind behind Homebrew: <strong>Max Howell</strong>.</p>
+
+<p>We’re not here to talk about Homebrew today though (get back to <a href="/55">Ep. 55</a> for that). Max is here to tell us about his latest project: <strong>Tea</strong> 🍵</p>
+
+<p>Tea is a new protocol to <strong>sponsor open source</strong>. Tea works as a decentralized network that allows you to sponsor the projects on your dependency tree.</p>
+
+<p>Join us in this episode as we walk through the possibilites that Tea unlocks, and we won’t miss the chance to talk a bit about the story of Homebrew as well.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.11</strong> Max’s Introduction</li>
+  <li><strong>04.21</strong> What is Tea?</li>
+  <li><strong>10.12</strong> OSS Sponsorship is broken</li>
+  <li><strong>14.05</strong> How to join the Tea network?</li>
+  <li><strong>17.47</strong> How to donate on the Tea network?</li>
+  <li><strong>23.09</strong> Donating to the dependency tree</li>
+  <li><strong>24.31</strong> Tea test net</li>
+  <li><strong>25.59</strong> Tea vs Thanks.dev</li>
+  <li><strong>28.12</strong> Tea &amp; crypto bad press</li>
+  <li><strong>32.09</strong> What have you learned from building Homebrew?</li>
+  <li><strong>38.16</strong> From pkgx to tea</li>
+  <li><strong>41.46</strong> The story of homebrew</li>
+  <li><strong>50.42</strong> Further reading</li>
+  <li><strong>52.39</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://tea.xyz/">Tea Official Website</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/teaprotocol">@teaprotocol on Twitter</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/teaxyz/white-paper">The Tea WhitePaper</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/pkgxdev/pkgx">pkgxdev/pkgx on GitHub</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://mxcl.dev/">@mxcl on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/mxcl">@mxcl on Twitter</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://sebastienlorber.com/">Max’s Website</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/73-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>54:03</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>QuackAI with François-Guillaume Fernandez</title>

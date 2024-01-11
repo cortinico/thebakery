@@ -436,4 +436,10 @@ var store = [{
         "tags": [],
         "url": "/72/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#73 - Tea with Max Howell",
+        "excerpt":"It’s time to kickoff 2024 with an amazing new episode! Joining us is the mind behind Homebrew: Max Howell. We’re not here to talk about Homebrew today though (get back to Ep. 55 for that). Max is here to tell us about his latest project: Tea 🍵 Tea is a...","categories": [],
+        "tags": [],
+        "url": "/73/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]
