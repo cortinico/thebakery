@@ -16,7 +16,7 @@ jobs:
     - name: Install tar for caching
       run: apk update && apk add tar
 
-    - uses: actions/cache@v3
+    - uses: actions/cache@v4
       with:
         path: docs/vendor/bundle
         key: cache-gems-${{ hashFiles('**/Gemfile.lock') }}
