@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Wed, 17 Jan 2024 19:46:25 +0000</lastBuildDate>
+<lastBuildDate>Tue, 23 Jan 2024 13:31:45 +0000</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,99 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Pieces with Tsavo Knott</title>
+        <itunes:title>Pieces with Tsavo Knott</itunes:title>
+        <link>https://thebakery.dev/74/</link>
+        <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/74/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>74</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/74-thedevelopersbakery-pieces.m4a" length="17202537" type="audio/mpeg" />
+
+        <itunes:subtitle>Discovering your workflow AI co-pilot with Pieces and Tsavo Knott</itunes:subtitle>
+        <itunes:summary>Discovering your workflow AI co-pilot with Pieces and Tsavo Knott</itunes:summary>
+
+        
+        <description>
+            <![CDATA[Welcome back to another freshly baked episode, today we talk about the trending topic in the industry: AI. I’m excited to have on stage Tsavo Knott, CEO of Pieces. Pieces is your AI-enabled workflow copilot, and developers are going to love this tool! Tsavo will walk us through the features,...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>Welcome back to another freshly baked episode, today we talk about the trending topic in the industry: <strong>AI</strong>. I’m excited to have on stage <a href="https://twitter.com/KnottTsavo"><strong>Tsavo Knott</strong></a>, CEO of Pieces.</p>
+
+<p><a href="https://pieces.app/"><strong>Pieces</strong></a> is your AI-enabled workflow copilot, and developers are going to love this tool! Tsavo will walk us through the features, advantages, and the unique ecosystem that Pieces is building. With Pieces, you can search, share, and reuse your code snippets, through your favorite tools and IDEs.</p>
+
+<p>Tsavo is also going to share the challenges of building a company on <strong>developer tools</strong> and how to handle developers as customers, there is so much wisdom in this episode, I’m sure you will love it!</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.11</strong> Intro</li>
+  <li><strong>00.57</strong> Episode Start</li>
+  <li><strong>01.28</strong> Tasvo’s Introduction</li>
+  <li><strong>03.21</strong> What is Pieces?</li>
+  <li><strong>10.01</strong> Local vs Cloud</li>
+  <li><strong>12.39</strong> Pricing Model</li>
+  <li><strong>15.27</strong> Is Pieces just a smart clipboard?</li>
+  <li><strong>18.56</strong> Pieces ecosystem</li>
+  <li><strong>20.22</strong> Offline AI</li>
+  <li><strong>24.10</strong> What is Pieces OS Client?</li>
+  <li><strong>28.24</strong> Pieces Ecosystem</li>
+  <li><strong>30.35</strong> Customizing Pieces with own’s data</li>
+  <li><strong>32.59</strong> Developers as a a customer</li>
+  <li><strong>35.39</strong> Building OSS vs Building a Company</li>
+  <li><strong>37.59</strong> Developers’ high bar</li>
+  <li><strong>39.13</strong> The Pieces Community</li>
+  <li><strong>40.33</strong> Further reading</li>
+  <li><strong>41.37</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://pieces.app/">Pieces for Developers - Official Website</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/pieces-app/opensource">pieces-app/opensource on GitHub</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://docs.pieces.app/">Pieces for Developers - Official Documentation</a></li>
+      <li><i class="fab fa-discord"></i> <a href="https://discord.com/invite/getpieces">Pieces Discord server</a></li>
+      <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/gb/podcast/redefining-developer-workflow-with-pieces-apps-tsavo/id117488860?i=1000630357226">Podcast - Redefining Developer Workflow with Pieces.App’s Tsavo Knott</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://code.pieces.app/blog/build-your-own-copilot-in-less-than-10-minutes-with-pieces-os-client-13c91">Blogpost - Build Your Own Copilot in less than 10 minutes with Pieces OS Client</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/tsavo-at-pieces">@tsavo-at-pieces on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/KnottTsavo">@KnottTsavo on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/74-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>43:14</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Tea with Max Howell</title>

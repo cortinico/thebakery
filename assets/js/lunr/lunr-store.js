@@ -442,4 +442,10 @@ var store = [{
         "tags": [],
         "url": "/73/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#74 - Pieces with Tsavo Knott",
+        "excerpt":"Welcome back to another freshly baked episode, today we talk about the trending topic in the industry: AI. I’m excited to have on stage Tsavo Knott, CEO of Pieces. Pieces is your AI-enabled workflow copilot, and developers are going to love this tool! Tsavo will walk us through the features,...","categories": [],
+        "tags": [],
+        "url": "/74/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]
