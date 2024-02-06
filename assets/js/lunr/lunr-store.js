@@ -448,4 +448,10 @@ var store = [{
         "tags": [],
         "url": "/74/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#75 - Docuseal with Pete Matsyburka",
+        "excerpt":"Time for a fresh new episode! This time we’ll touch on a really different topic: Digital Signing. Joining us today is Pete Matsyburka, co-founder of Docuseal. Docuseal lets you sign documents online in a secure and easy way, similar to other popular alternative such as Docusign. The killer feature of...","categories": [],
+        "tags": [],
+        "url": "/75/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

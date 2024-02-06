@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Tue, 06 Feb 2024 11:30:14 +0000</lastBuildDate>
+<lastBuildDate>Tue, 06 Feb 2024 11:46:29 +0000</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,94 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Docuseal with Pete Matsyburka</title>
+        <itunes:title>Docuseal with Pete Matsyburka</itunes:title>
+        <link>https://thebakery.dev/75/</link>
+        <pubDate>Tue, 06 Feb 2024 00:00:00 +0000</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/75/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>75</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/75-thedevelopersbakery-docuseal.m4a" length="13918104" type="audio/mpeg" />
+
+        <itunes:subtitle>Digital Signing in OSS with Docuseal and Pete Matsyburka</itunes:subtitle>
+        <itunes:summary>Digital Signing in OSS with Docuseal and Pete Matsyburka</itunes:summary>
+
+        
+        <description>
+            <![CDATA[Time for a fresh new episode! This time we’ll touch on a really different topic: Digital Signing. Joining us today is Pete Matsyburka, co-founder of Docuseal. Docuseal lets you sign documents online in a secure and easy way, similar to other popular alternative such as Docusign. The killer feature of...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>Time for a fresh new episode! This time we’ll touch on a really different topic: <strong>Digital Signing</strong>. Joining us today is <strong>Pete Matsyburka</strong>, co-founder of  <a href="https://www.docuseal.co/"><strong>Docuseal</strong></a>.</p>
+
+<p>Docuseal lets you sign documents online in a secure and easy way, similar to other popular alternative such as Docusign. The killer feature of Docuseal is that it is <strong>open source</strong>, and you can either self-host it or use the hosted version.</p>
+
+<p>Join us in this episode where Pete will tell us about his journey, how they bootstrapped Docuseal, and the future of the project.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.11</strong> Intro</li>
+  <li><strong>00.57</strong> Episode Start</li>
+  <li><strong>01.15</strong> Pete’s Introduction</li>
+  <li><strong>01.50</strong> What is Docuseal?</li>
+  <li><strong>03.22</strong> Is Docuseal free?</li>
+  <li><strong>05.40</strong> How is Docuseal better than Docusign?</li>
+  <li><strong>08.16</strong> How does a e-signature works?</li>
+  <li><strong>11.50</strong> Stealing identity and e-signature</li>
+  <li><strong>13.05</strong> Self hosting and trust</li>
+  <li><strong>16.30</strong> Which programming language have you used?</li>
+  <li><strong>17.55</strong> Docuseal success stories</li>
+  <li><strong>19.07</strong> The story of Docuseal</li>
+  <li><strong>21.49</strong> Growing the company</li>
+  <li><strong>22.58</strong> The biggest challenge in building Docuseal</li>
+  <li><strong>25.19</strong> Docuseal &amp; OSS</li>
+  <li><strong>27.54</strong> Why Ruby on Rails?</li>
+  <li><strong>29.12</strong> Building Web Apps as fast as possible</li>
+  <li><strong>29.56</strong> What’s next for Docuseal?</li>
+  <li><strong>32.30</strong> Further reading</li>
+  <li><strong>33.29</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/docusealco/docuseal">docusealco/docuseal on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://www.docuseal.co/">Docuseal Official Website</a></li>
+  <li><i class="fab fa-discord"></i> <a href="https://discord.com/invite/qygYCDGck9">Docuseal Discord server</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/docusealco">@docusealco on Twitter</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/omohokcoj">@omohokcoj on GitHub</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/75-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>35:24</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Pieces with Tsavo Knott</title>

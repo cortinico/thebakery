@@ -1,4 +1,58 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2024-02-06T11:30:14+00:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#74 - Pieces with Tsavo Knott</title><link href="https://thebakery.dev/74/" rel="alternate" type="text/html" title="#74 - Pieces with Tsavo Knott" /><published>2024-01-23T00:00:00+00:00</published><updated>2024-01-23T00:00:00+00:00</updated><id>https://thebakery.dev/074-pieces</id><content type="html" xml:base="https://thebakery.dev/74/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2024-02-06T11:46:29+00:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#75 - Docuseal with Pete Matsyburka</title><link href="https://thebakery.dev/75/" rel="alternate" type="text/html" title="#75 - Docuseal with Pete Matsyburka" /><published>2024-02-06T00:00:00+00:00</published><updated>2024-02-06T00:00:00+00:00</updated><id>https://thebakery.dev/075-docuseal</id><content type="html" xml:base="https://thebakery.dev/75/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>Time for a fresh new episode! This time we’ll touch on a really different topic: <strong>Digital Signing</strong>. Joining us today is <strong>Pete Matsyburka</strong>, co-founder of  <a href="https://www.docuseal.co/"><strong>Docuseal</strong></a>.</p>
+
+<p>Docuseal lets you sign documents online in a secure and easy way, similar to other popular alternative such as Docusign. The killer feature of Docuseal is that it is <strong>open source</strong>, and you can either self-host it or use the hosted version.</p>
+
+<p>Join us in this episode where Pete will tell us about his journey, how they bootstrapped Docuseal, and the future of the project.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.11</strong> Intro</li>
+  <li><strong>00.57</strong> Episode Start</li>
+  <li><strong>01.15</strong> Pete’s Introduction</li>
+  <li><strong>01.50</strong> What is Docuseal?</li>
+  <li><strong>03.22</strong> Is Docuseal free?</li>
+  <li><strong>05.40</strong> How is Docuseal better than Docusign?</li>
+  <li><strong>08.16</strong> How does a e-signature works?</li>
+  <li><strong>11.50</strong> Stealing identity and e-signature</li>
+  <li><strong>13.05</strong> Self hosting and trust</li>
+  <li><strong>16.30</strong> Which programming language have you used?</li>
+  <li><strong>17.55</strong> Docuseal success stories</li>
+  <li><strong>19.07</strong> The story of Docuseal</li>
+  <li><strong>21.49</strong> Growing the company</li>
+  <li><strong>22.58</strong> The biggest challenge in building Docuseal</li>
+  <li><strong>25.19</strong> Docuseal &amp; OSS</li>
+  <li><strong>27.54</strong> Why Ruby on Rails?</li>
+  <li><strong>29.12</strong> Building Web Apps as fast as possible</li>
+  <li><strong>29.56</strong> What’s next for Docuseal?</li>
+  <li><strong>32.30</strong> Further reading</li>
+  <li><strong>33.29</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/docusealco/docuseal">docusealco/docuseal on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://www.docuseal.co/">Docuseal Official Website</a></li>
+  <li><i class="fab fa-discord"></i> <a href="https://discord.com/invite/qygYCDGck9">Docuseal Discord server</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/docusealco">@docusealco on Twitter</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/omohokcoj">@omohokcoj on GitHub</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Digital Signing in OSS with Docuseal and Pete Matsyburka]]></summary></entry><entry><title type="html">#74 - Pieces with Tsavo Knott</title><link href="https://thebakery.dev/74/" rel="alternate" type="text/html" title="#74 - Pieces with Tsavo Knott" /><published>2024-01-23T00:00:00+00:00</published><updated>2024-01-23T00:00:00+00:00</updated><id>https://thebakery.dev/074-pieces</id><content type="html" xml:base="https://thebakery.dev/74/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/5e1CABvPlOhJf9b7jY0thH?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <p>Welcome back to another freshly baked episode, today we talk about the trending topic in the industry: <strong>AI</strong>. I’m excited to have on stage <a href="https://twitter.com/KnottTsavo"><strong>Tsavo Knott</strong></a>, CEO of Pieces.</p>
 
@@ -508,66 +562,4 @@ You can use this rule with either KtLint or Detekt.</p>
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Compiling next generation JavaScript for all the browsers, with Babel and Nicolò Ribaudo]]></summary></entry><entry><title type="html">#65 - WebdriverIO with Christian Bromann</title><link href="https://thebakery.dev/65/" rel="alternate" type="text/html" title="#65 - WebdriverIO with Christian Bromann" /><published>2023-08-22T00:00:00+01:00</published><updated>2023-08-22T00:00:00+01:00</updated><id>https://thebakery.dev/065-webdriverio</id><content type="html" xml:base="https://thebakery.dev/65/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/2dgQA1pscsv0YplvJF5AH7?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<p>It’s time to talk about testing again, but this time we’ll talk about <strong>cross-platform UI testing</strong>. I’m glad to have on stage <a href="https://twitter.com/bromann"><strong>Christian Bromann</strong></a>, the lead maintainer of <a href="https://github.com/webdriverio/webdriverio"><strong>WebdriverIO</strong></a>.</p>
-
-<p>With WebdriverIO, you can write UI tests for your web, mobile, desktop application and much more. WebdriverIO relies on the Webdriver protocol, a Web standard to support test automation, so you can use the programming language you prefer to easily test your apps wherever you want.</p>
-
-<p>Moreover, WebdriverIO is a project hosted by the <strong>OpenJS</strong> foundation. Together with Christian we’ll touch on what it means being part of a foundation and what this meant for the success of this project.</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.00</strong> Intro</li>
-  <li><strong>00.45</strong> Episode Start</li>
-  <li><strong>01.35</strong> Dmitry’s Introduction</li>
-  <li><strong>02.53</strong> What is WebdriverIO?</li>
-  <li><strong>04.53</strong> Testing Browser and Mobile applications</li>
-  <li><strong>06.16</strong> The Webdriver protocol</li>
-  <li><strong>08.58</strong> How to write tests with WebdriverIO?</li>
-  <li><strong>10.56</strong> WebdriverIO competitors and unique features</li>
-  <li><strong>13.15</strong> Handling flakiness</li>
-  <li><strong>16.46</strong> Running WebdriverIO in the cloud</li>
-  <li><strong>20.25</strong> Why should I use WebdriverIO vs my native testing framework?</li>
-  <li><strong>22.32</strong> How you got involved with WebdriverIO?</li>
-  <li><strong>25.50</strong> Who’s funding WebdriverIO?</li>
-  <li><strong>29.03</strong> Being part of the OpenJS foundation</li>
-  <li><strong>31.16</strong> Governance model</li>
-  <li><strong>37.31</strong> How to contribute to WebdriverIO?</li>
-  <li><strong>40.11</strong> What’s next for WebdriverIO?</li>
-  <li><strong>42.15</strong> Further reading</li>
-  <li><strong>43.58</strong> Where people can find you online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/webdriverio/webdriverio">webdriverio/webdriverio on GitHub</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://webdriver.io/">WebdriverIO Official Website</a></li>
-  <li>Mentioned Resources:
-    <ul>
-      <li><i class="fas fa-link"></i> <a href="https://w3c.github.io/webdriver/">Webdriver Standard</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://webdriver.io/docs/why-webdriverio">WebdriverIO - Getting Started</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://webdriver.io/docs/why-webdriverio">Why WebdriverIO?</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://github.com/webdriverio/webdriverio/blob/main/GOVERNANCE.md">WebdriverIO Governance Model</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://saucelabs.com/">SauceLabs Official Website</a></li>
-    </ul>
-  </li>
-  <li><i class="fas fa-link"></i> <a href="https://bromann.dev/">WebdriverIO Official Website</a></li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/christian-bromann">@christian-bromann on GitHub</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/bromann">@bromann on Twitter</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Cross platform UI testing with WebdriverIO and Christian Bromann]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Compiling next generation JavaScript for all the browsers, with Babel and Nicolò Ribaudo]]></summary></entry></feed>
