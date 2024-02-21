@@ -454,4 +454,10 @@ var store = [{
         "tags": [],
         "url": "/75/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#76 - fast-check with Nicolas DUBIEN",
+        "excerpt":"Time for a new episode of The Developers’ Bakery! Today we’re back talking about testing, but we’ll have the opportunity to learn a new approach we haven’t talked about in this podcast yet: Property Based Testing. Joining us today is Nicolas DUBIEN, creator of fast-check, a library to write property-based...","categories": [],
+        "tags": [],
+        "url": "/76/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]
