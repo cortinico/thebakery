@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Wed, 21 Feb 2024 16:23:41 +0000</lastBuildDate>
+<lastBuildDate>Wed, 21 Feb 2024 16:25:13 +0000</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -55,7 +55,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
             <itunes:episode>76</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/76-thedevelopersbakery-fast-check.m4a" length="17001957" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/76-thedevelopersbakery-fastcheck.m4a" length="17001957" type="audio/mpeg" />
 
         <itunes:subtitle>Property based testing with fast-check and Nicolas DUBIEN</itunes:subtitle>
         <itunes:summary>Property based testing with fast-check and Nicolas DUBIEN</itunes:summary>
