@@ -460,4 +460,10 @@ var store = [{
         "tags": [],
         "url": "/76/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#77 - XWiki with Vincent Massol",
+        "excerpt":"Today we talk about wikis! And I’m excited to have on stage Vincent Massol, CTO of XWiki. XWiki is an open-source tool to create wikis for your team, your project, or your company. Think of it as a competitor for Confluence. The key feature of XWiki is its extensibility, thanks...","categories": [],
+        "tags": [],
+        "url": "/77/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

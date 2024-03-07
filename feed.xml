@@ -1,4 +1,66 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2024-02-22T11:53:42+00:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#76 - fast-check with Nicolas DUBIEN</title><link href="https://thebakery.dev/76/" rel="alternate" type="text/html" title="#76 - fast-check with Nicolas DUBIEN" /><published>2024-02-21T00:00:00+00:00</published><updated>2024-02-21T00:00:00+00:00</updated><id>https://thebakery.dev/076-fast-check</id><content type="html" xml:base="https://thebakery.dev/76/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2024-03-07T17:08:59+00:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#77 - XWiki with Vincent Massol</title><link href="https://thebakery.dev/77/" rel="alternate" type="text/html" title="#77 - XWiki with Vincent Massol" /><published>2024-03-07T00:00:00+00:00</published><updated>2024-03-07T00:00:00+00:00</updated><id>https://thebakery.dev/077-xwiki</id><content type="html" xml:base="https://thebakery.dev/77/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>Today we talk about wikis! And I’m excited to have on stage <a href="https://twitter.com/vmassol"><strong>Vincent Massol</strong></a>, CTO of XWiki.</p>
+
+<p><a href="https://xwiki.org/"><strong>XWiki</strong></a> is an open-source tool to create wikis for your team, your project, or your company. Think of it as a competitor for Confluence.
+The key feature of XWiki is its extensibility, thanks to its various number of plugins that allow you to cover a variety of use cases, from documentation to knowledge base.</p>
+
+<p>Join us in this episode where Vincent will tell us the story of XWiki and how it grew to be used by companies like Amazon &amp; Airbus among others. Oh, and did you know they commit directly to main? Let’s find out more about that!</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.11</strong> Intro</li>
+  <li><strong>00.57</strong> Episode Start</li>
+  <li><strong>01.16</strong> Vincent’s Introduction</li>
+  <li><strong>03.20</strong> A Confluence alternative</li>
+  <li><strong>07.12</strong> XWiki features</li>
+  <li><strong>10.49</strong> Cloud vs Self-hosting</li>
+  <li><strong>12.43</strong> XWiki Business Model</li>
+  <li><strong>15.02</strong> Who’s using XWiki</li>
+  <li><strong>17.02</strong> Extending XWiki</li>
+  <li><strong>21.03</strong> Plugins</li>
+  <li><strong>22.44</strong> The Stack &amp; Scripting Languages</li>
+  <li><strong>25.33</strong> Converting to Kotlin?</li>
+  <li><strong>27.31</strong> The Story of XWiki</li>
+  <li><strong>29.59</strong> How Vincent got involved in XWiki?</li>
+  <li><strong>34.27</strong> When a Jira competitor?</li>
+  <li><strong>35.11</strong> The XWiki Community</li>
+  <li><strong>38.43</strong> Committing directly to main</li>
+  <li><strong>42.36</strong> Project Crystal</li>
+  <li><strong>47.06</strong> Further reading</li>
+  <li><strong>49.00</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/xwiki/xwiki-platform">xwiki/xwiki-platform on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://xwiki.org/">XWiki Official Website</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://dev.xwiki.org/">XWiki Developer Reference</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fab fa-youtube"></i> <a href="https://fosdem.org/2024/schedule/event/fosdem-2024-1830-20-years-of-open-source-building-xwiki-and-cryptpad/">20 Years of Open Source building XWiki and CryptPad - FOSDEM 2024</a></li>
+      <li><i class="fab fa-youtube"></i> <a href="https://peertube.xwiki.com/">XWiki’s Peertube</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/vmassol">@vmassol on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/vmassol">@vmassol on Twitter</a></li>
+  <li><i class="fas fa-link"></i> <a href="http://massol.net">Vincent’s Personal Website</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Building wikis with XWiki and Vincent Massol]]></summary></entry><entry><title type="html">#76 - fast-check with Nicolas DUBIEN</title><link href="https://thebakery.dev/76/" rel="alternate" type="text/html" title="#76 - fast-check with Nicolas DUBIEN" /><published>2024-02-21T00:00:00+00:00</published><updated>2024-02-21T00:00:00+00:00</updated><id>https://thebakery.dev/076-fast-check</id><content type="html" xml:base="https://thebakery.dev/76/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/4FANwPXUfVdGUtSnKQx2yf?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <p>Time for a new episode of The Developers’ Bakery! Today we’re back talking about testing, but we’ll have the opportunity to learn a new approach we haven’t talked about in this podcast yet: <strong>Property Based Testing</strong>.</p>
 
@@ -500,58 +562,4 @@ You can use this rule with either KtLint or Detekt.</p>
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Data science and dataframes with pandas, polars and Marco Gorelli]]></summary></entry><entry><title type="html">#67 - Effect with Michael Arnaldi</title><link href="https://thebakery.dev/67/" rel="alternate" type="text/html" title="#67 - Effect with Michael Arnaldi" /><published>2023-09-19T00:00:00+01:00</published><updated>2023-09-19T00:00:00+01:00</updated><id>https://thebakery.dev/067-effect</id><content type="html" xml:base="https://thebakery.dev/67/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/0z7foJZlCUwMJa9Tt7Qs9l?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<p>It’s time to talk again about Functional Programming (or maybe not?!) with today’s episode! I’m glad to have on stage <a href="https://twitter.com/MichaelArnaldi"><strong>Michael Arnaldi</strong></a>, author and maintainer of <a href="https://github.com/Effect-TS/effect"><strong>Effect</strong></a>.</p>
-
-<p>Effect is a Functional Programming library for TypeScript, that offers primitives to support error management, concurrency and much more. But Effect is also an entire ecosystem of integrations with existing and frameworks and libraries, which makes adopting Effect so much easier.</p>
-
-<p>Join us in this episode as Michael walk us through on his take on Functional Programming and the story behind Effect.</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.00</strong> Intro</li>
-  <li><strong>00.45</strong> Episode Start</li>
-  <li><strong>01.07</strong> Nicolò’s Introduction</li>
-  <li><strong>02.37</strong> What is Effect?</li>
-  <li><strong>04.39</strong> Is this a Functional Programming library?</li>
-  <li><strong>09.18</strong> <code class="language-plaintext highlighter-rouge">Effects&lt;Requirements, Errors, Value&gt;</code></li>
-  <li><strong>20.11</strong> Effect and Concurrency</li>
-  <li><strong>30.29</strong> The Effect ecosystem</li>
-  <li><strong>37.30</strong> The history of Effect</li>
-  <li><strong>42.30</strong> 1.0?</li>
-  <li><strong>45.45</strong> Further reading</li>
-  <li><strong>50.29</strong> Where people can find you online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/Effect-TS/effect">Effect-TS/effect on GitHub</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://www.effect.website/">Effect Official Website</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/EffectTS_">@EffectTS_ on Twitter</a></li>
-  <li><i class="fab fa-discord"></i> <a href="https://discord.gg/effect-ts">Effect Discord Community</a></li>
-  <li>Mentioned Resources:
-    <ul>
-      <li><i class="fab fa-youtube"></i><a href="https://www.youtube.com/@ethanniser">Ethan Niser’s Youtube Channel</a></li>
-      <li><i class="fab fa-youtube"></i> Introduction to Effect - <a href="https://www.youtube.com/watch?v=zrNr3JVUc8I">Video from WorkerConf 2022</a></li>
-      <li><i class="fab fa-youtube"></i> Effect ful computations with Fibers - <a href="https://www.youtube.com/watch?v=uwALExyq4NY">Video from React Alicante</a></li>
-    </ul>
-  </li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/mikearnaldi">@mikearnaldi on GitHub</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/MichaelArnaldi">@MichaelArnaldi on Twitter</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Functional Programming in TypeScript with Effect and Michael Arnaldi]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Data science and dataframes with pandas, polars and Marco Gorelli]]></summary></entry></feed>

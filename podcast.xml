@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Thu, 22 Feb 2024 11:53:42 +0000</lastBuildDate>
+<lastBuildDate>Thu, 07 Mar 2024 17:08:59 +0000</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,102 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>XWiki with Vincent Massol</title>
+        <itunes:title>XWiki with Vincent Massol</itunes:title>
+        <link>https://thebakery.dev/77/</link>
+        <pubDate>Thu, 07 Mar 2024 00:00:00 +0000</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/77/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>77</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/77-thedevelopersbakery-xwiki.m4a" length="19880436" type="audio/mpeg" />
+
+        <itunes:subtitle>Building wikis with XWiki and Vincent Massol</itunes:subtitle>
+        <itunes:summary>Building wikis with XWiki and Vincent Massol</itunes:summary>
+
+        
+        <description>
+            <![CDATA[Today we talk about wikis! And I’m excited to have on stage Vincent Massol, CTO of XWiki. XWiki is an open-source tool to create wikis for your team, your project, or your company. Think of it as a competitor for Confluence. The key feature of XWiki is its extensibility, thanks...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>Today we talk about wikis! And I’m excited to have on stage <a href="https://twitter.com/vmassol"><strong>Vincent Massol</strong></a>, CTO of XWiki.</p>
+
+<p><a href="https://xwiki.org/"><strong>XWiki</strong></a> is an open-source tool to create wikis for your team, your project, or your company. Think of it as a competitor for Confluence.
+The key feature of XWiki is its extensibility, thanks to its various number of plugins that allow you to cover a variety of use cases, from documentation to knowledge base.</p>
+
+<p>Join us in this episode where Vincent will tell us the story of XWiki and how it grew to be used by companies like Amazon &amp; Airbus among others. Oh, and did you know they commit directly to main? Let’s find out more about that!</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.11</strong> Intro</li>
+  <li><strong>00.57</strong> Episode Start</li>
+  <li><strong>01.16</strong> Vincent’s Introduction</li>
+  <li><strong>03.20</strong> A Confluence alternative</li>
+  <li><strong>07.12</strong> XWiki features</li>
+  <li><strong>10.49</strong> Cloud vs Self-hosting</li>
+  <li><strong>12.43</strong> XWiki Business Model</li>
+  <li><strong>15.02</strong> Who’s using XWiki</li>
+  <li><strong>17.02</strong> Extending XWiki</li>
+  <li><strong>21.03</strong> Plugins</li>
+  <li><strong>22.44</strong> The Stack &amp; Scripting Languages</li>
+  <li><strong>25.33</strong> Converting to Kotlin?</li>
+  <li><strong>27.31</strong> The Story of XWiki</li>
+  <li><strong>29.59</strong> How Vincent got involved in XWiki?</li>
+  <li><strong>34.27</strong> When a Jira competitor?</li>
+  <li><strong>35.11</strong> The XWiki Community</li>
+  <li><strong>38.43</strong> Committing directly to main</li>
+  <li><strong>42.36</strong> Project Crystal</li>
+  <li><strong>47.06</strong> Further reading</li>
+  <li><strong>49.00</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/xwiki/xwiki-platform">xwiki/xwiki-platform on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://xwiki.org/">XWiki Official Website</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://dev.xwiki.org/">XWiki Developer Reference</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fab fa-youtube"></i> <a href="https://fosdem.org/2024/schedule/event/fosdem-2024-1830-20-years-of-open-source-building-xwiki-and-cryptpad/">20 Years of Open Source building XWiki and CryptPad - FOSDEM 2024</a></li>
+      <li><i class="fab fa-youtube"></i> <a href="https://peertube.xwiki.com/">XWiki’s Peertube</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/vmassol">@vmassol on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/vmassol">@vmassol on Twitter</a></li>
+  <li><i class="fas fa-link"></i> <a href="http://massol.net">Vincent’s Personal Website</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/77-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>50:32</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>fast-check with Nicolas DUBIEN</title>
