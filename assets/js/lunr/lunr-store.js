@@ -466,4 +466,10 @@ var store = [{
         "tags": [],
         "url": "/77/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#78 - Roborazzi with Takahiro Menju",
+        "excerpt":"We’re back in the Android development space with an episode about screenshot testing. I’m excited to have on stage Takahiro Menju, Android GDE and author of Roborazzi. With Roborazzi, you can easily run screenshot tests for your Android app, without having to run a device at all. That’s possible because...","categories": [],
+        "tags": [],
+        "url": "/78/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Mon, 18 Mar 2024 16:55:30 +0000</lastBuildDate>
+<lastBuildDate>Thu, 21 Mar 2024 16:00:24 +0000</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,103 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Roborazzi with Takahiro Menju</title>
+        <itunes:title>Roborazzi with Takahiro Menju</itunes:title>
+        <link>https://thebakery.dev/78/</link>
+        <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/78/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>78</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/78-thedevelopersbakery-roborazzi.m4a" length="12290913" type="audio/mpeg" />
+
+        <itunes:subtitle>Screenshot Testing on Android without a device? Discover how with Roborazzi and Takahiro Menju</itunes:subtitle>
+        <itunes:summary>Screenshot Testing on Android without a device? Discover how with Roborazzi and Takahiro Menju</itunes:summary>
+
+        
+        <description>
+            <![CDATA[We’re back in the Android development space with an episode about screenshot testing. I’m excited to have on stage Takahiro Menju, Android GDE and author of Roborazzi. With Roborazzi, you can easily run screenshot tests for your Android app, without having to run a device at all. That’s possible because...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>We’re back in the Android development space with an episode about <strong>screenshot testing</strong>. I’m excited to have on stage <a href="https://twitter.com/_takahirom_"><strong>Takahiro Menju</strong></a>, Android GDE and author of <a href="https://github.com/takahirom/roborazzi"><strong>Roborazzi</strong></a>.</p>
+
+<p>With Roborazzi, you can easily run screenshot tests for your Android app, <strong>without</strong> having to run a device at all. That’s possible because Roborazzi relies on Robolectric, which allows you to run Android tests directly on the JVM.</p>
+
+<p>Join us in this episode as Takahiro walk us through the story of this library and how it can incredibly simplify screenshot testing for our Android apps.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.09</strong> Takahiro’s Introduction</li>
+  <li><strong>01.58</strong> What is Roborazzi?</li>
+  <li><strong>03.55</strong> Roborazzi’s features</li>
+  <li><strong>04.51</strong> What Robolectric brings?</li>
+  <li><strong>05.25</strong> Running on the JVM vs Emulator</li>
+  <li><strong>06.37</strong> Saving CI and developers time</li>
+  <li><strong>07.54</strong> Who’s using Roborazzi?</li>
+  <li><strong>09.09</strong> DroidKaigi Conference App</li>
+  <li><strong>10.23</strong> Comparing screenshots with Robolectric</li>
+  <li><strong>11.02</strong> Challenges in building Roborazzi</li>
+  <li><strong>13.43</strong> Who’s maintaining Roborazzi?</li>
+  <li><strong>14.29</strong> The Android testing strategy</li>
+  <li><strong>17.25</strong> What’s broken in Android testing?</li>
+  <li><strong>20.23</strong> Screenshot Testing in other ecosystems</li>
+  <li><strong>21.58</strong> The story of Roborazzi</li>
+  <li><strong>23.31</strong> How to contribute to Roborazzi?</li>
+  <li><strong>25.04</strong> What’s next for Roborazzi?</li>
+  <li><strong>26.40</strong> Further reading</li>
+  <li><strong>28.22</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/takahirom/roborazzi">takahirom/roborazzi on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://takahirom.github.io/roborazzi/">Roborazzi Official Website</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://takahirom.github.io/roborazzi/how-to-use.html">How to use Roborazzi</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://takahirom.github.io/roborazzi/faq.html">Roborazzi FAQ</a></li>
+      <li><i class="fab fa-medium"></i> <a href="https://medium.com/@takahirom/roborazzi-elevating-android-visual-testing-to-the-next-level-46ec56b24055">Roborazzi: Elevating Android Visual Testing to the Next Level</a></li>
+      <li><i class="fab fa-speaker-deck"></i> <a href="https://speakerdeck.com/takahirom/robolectric-native-graphics-and-roborazzi">Robolectric Native Graphics and Roborazzi</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/DroidKaigi/conference-app-2023">DroidKaigi/conference-app-2023 on GitHub</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/takahirom">@takahirom on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/_takahirom_">@_takahirom_ on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/78-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>30:26</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>XWiki with Vincent Massol</title>
