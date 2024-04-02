@@ -472,4 +472,10 @@ var store = [{
         "tags": [],
         "url": "/78/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#79 - Aptabase with Guilherme Oenning",
+        "excerpt":"I’m excited to welcome on stage our next guest Guilherme Oenning, creator of Aptabase! Aptabase is an open-source tool to collect and analyze analytics from your users. The key feature is that it’s designed with privacy in mind, as all the events are stored anonymously. It’s fully GDPR-compliant and it’s...","categories": [],
+        "tags": [],
+        "url": "/79/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

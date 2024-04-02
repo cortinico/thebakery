@@ -1,4 +1,59 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2024-03-22T15:08:17+00:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#78 - Roborazzi with Takahiro Menju</title><link href="https://thebakery.dev/78/" rel="alternate" type="text/html" title="#78 - Roborazzi with Takahiro Menju" /><published>2024-03-19T00:00:00+00:00</published><updated>2024-03-19T00:00:00+00:00</updated><id>https://thebakery.dev/078-roborazzi</id><content type="html" xml:base="https://thebakery.dev/78/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2024-04-02T07:49:15+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#79 - Aptabase with Guilherme Oenning</title><link href="https://thebakery.dev/79/" rel="alternate" type="text/html" title="#79 - Aptabase with Guilherme Oenning" /><published>2024-04-02T00:00:00+01:00</published><updated>2024-04-02T00:00:00+01:00</updated><id>https://thebakery.dev/079-aptabase</id><content type="html" xml:base="https://thebakery.dev/79/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>I’m excited to welcome on stage our next guest <a href="https://twitter.com/goenning"><strong>Guilherme Oenning</strong></a>, creator of <a href="https://aptabase.com/"><strong>Aptabase</strong></a>!</p>
+
+<p><a href="https://aptabase.com/"><strong>Aptabase</strong></a> is an open-source tool to collect and analyze analytics from your users. The key feature is that it’s designed with privacy in mind, as all the events are stored anonymously. It’s fully GDPR-compliant and it’s available either as a cloud service or as a self-hosted solution.</p>
+
+<p>Join us in this episode, where Guilherme will tell us the story of how Aptabase grew from a side project to successful product!</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.09</strong> Guilherme’s Introduction</li>
+  <li><strong>02.23</strong> What is Aptabase?</li>
+  <li><strong>06.55</strong> Aptabase main fatures</li>
+  <li><strong>09.50</strong> Where Aptabase works?</li>
+  <li><strong>11.40</strong> Users opting out of analytics</li>
+  <li><strong>13.38</strong> Anonymous vs pseudo-anonymous</li>
+  <li><strong>18.29</strong> Educating users on anonymous data</li>
+  <li><strong>21.10</strong> Cloud vs Self-hosting</li>
+  <li><strong>23.43</strong> Where are the analytics stored?</li>
+  <li><strong>25.34</strong> Aptabase free tier</li>
+  <li><strong>27.57</strong> How many users are on Aptabase?</li>
+  <li><strong>29.47</strong> Aptabase success stories</li>
+  <li><strong>31.22</strong> Promoting a side project</li>
+  <li><strong>33.49</strong> Aptabase biggest challenge</li>
+  <li><strong>36.02</strong> The tech stack</li>
+  <li><strong>38.08</strong> Who’s maintaining Aptabase?</li>
+  <li><strong>41.17</strong> What’s next for Aptabase?</li>
+  <li><strong>43.56</strong> Further reading</li>
+  <li><strong>45.17</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/aptabase/aptabase">aptabase/aptabase on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://aptabase.com/">Aptabase Official Website</a></li>
+  <li><i class="fab fa-discord"></i> <a href="https://discord.gg/d9d97unCUk">Aptabase Discord server</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/goenning">@goenning on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/goenning">@goenning on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Anonymous analytics with Aptabase and Guilherme Oenning]]></summary></entry><entry><title type="html">#78 - Roborazzi with Takahiro Menju</title><link href="https://thebakery.dev/78/" rel="alternate" type="text/html" title="#78 - Roborazzi with Takahiro Menju" /><published>2024-03-19T00:00:00+00:00</published><updated>2024-03-19T00:00:00+00:00</updated><id>https://thebakery.dev/078-roborazzi</id><content type="html" xml:base="https://thebakery.dev/78/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/1tApJ7aTZic3JVmL9xIReL?utm_source=generator&amp;t=0" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <p>We’re back in the Android development space with an episode about <strong>screenshot testing</strong>. I’m excited to have on stage <a href="https://twitter.com/_takahirom_"><strong>Takahiro Menju</strong></a>, Android GDE and author of <a href="https://github.com/takahirom/roborazzi"><strong>Roborazzi</strong></a>.</p>
 
@@ -505,57 +560,4 @@ Back in episode <a href="/60">60</a> we talked about content creation with Effec
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Becoming a successful educator in IT with Marcin Moskała]]></summary></entry><entry><title type="html">#69 - compose-rules with Nacho Lopez</title><link href="https://thebakery.dev/69/" rel="alternate" type="text/html" title="#69 - compose-rules with Nacho Lopez" /><published>2023-10-25T00:00:00+01:00</published><updated>2023-10-25T00:00:00+01:00</updated><id>https://thebakery.dev/069-compose-rules</id><content type="html" xml:base="https://thebakery.dev/69/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/2URBKbJ0dD58mCb8Cu6JPD?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<p>We’re back talking about <strong>static analysis</strong> today here at The Developers’ Bakery! We’re really excited to have on stage <a href="https://twitter.com/mrmans0n"><strong>Nacho Lopez</strong></a> to talk about <a href="https://github.com/mrmans0n/compose-rules"><strong>Compose Rules</strong></a>.</p>
-
-<p>This project is a collection of linting and inspection rules for Jetpack Compose, which prevents you from making common mistakes and helps you write better and more performant UI code.
-You can use this rule with either KtLint or Detekt.</p>
-
-<p>In this episode, we’ll also touch on how this project started inside Twitter, and now ends up living into Nacho’s personal fork.</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.00</strong> Intro</li>
-  <li><strong>00.45</strong> Episode Start</li>
-  <li><strong>01.03</strong> Nacho’s Introduction</li>
-  <li><strong>04.21</strong> What is compose-rules?</li>
-  <li><strong>08.39</strong> Compose Antipatterns</li>
-  <li><strong>13.47</strong> How to use compose-rules?</li>
-  <li><strong>15.28</strong> Writing custom rules</li>
-  <li><strong>19.56</strong> The Twitter drama</li>
-  <li><strong>29.23</strong> Living in a fork</li>
-  <li><strong>36.09</strong> What’s next for compose-rules?</li>
-  <li><strong>42.39</strong> Further reading</li>
-  <li><strong>44.41</strong> Where people can find you online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/mrmans0n/compose-rules">mrmans0n/compose-rules on GitHub</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://mrmans0n.github.io/compose-rules/">Compose Rules Official Website</a></li>
-  <li>Mentioned Resources:
-    <ul>
-      <li><i class="fas fa-link"></i> <a href="https://plugins.jetbrains.com/docs/intellij/psi.html">What is the PSI?</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://plugins.jetbrains.com/docs/intellij/psi-cookbook.html">PSI Cookbook</a></li>
-    </ul>
-  </li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/mrmans0n">@mrmans0n on GitHub</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/mrmans0n">@mrmans0n on Twitter</a></li>
-  <li><i class="fab fa-mastodon"></i> <a href="https://androiddev.social/@nacho">@nacho on Mastodon</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Linting and Inspecting Jetpack Compose code with Compose Rules and Nacho Lopez]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Becoming a successful educator in IT with Marcin Moskała]]></summary></entry></feed>

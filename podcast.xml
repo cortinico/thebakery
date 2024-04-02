@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Fri, 22 Mar 2024 15:08:17 +0000</lastBuildDate>
+<lastBuildDate>Tue, 02 Apr 2024 07:49:15 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,95 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Aptabase with Guilherme Oenning</title>
+        <itunes:title>Aptabase with Guilherme Oenning</itunes:title>
+        <link>https://thebakery.dev/79/</link>
+        <pubDate>Tue, 02 Apr 2024 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/79/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>79</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/79-thedevelopersbakery-aptabase.m4a" length="18586059" type="audio/mpeg" />
+
+        <itunes:subtitle>Anonymous analytics with Aptabase and Guilherme Oenning</itunes:subtitle>
+        <itunes:summary>Anonymous analytics with Aptabase and Guilherme Oenning</itunes:summary>
+
+        
+        <description>
+            <![CDATA[I’m excited to welcome on stage our next guest Guilherme Oenning, creator of Aptabase! Aptabase is an open-source tool to collect and analyze analytics from your users. The key feature is that it’s designed with privacy in mind, as all the events are stored anonymously. It’s fully GDPR-compliant and it’s...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>I’m excited to welcome on stage our next guest <a href="https://twitter.com/goenning"><strong>Guilherme Oenning</strong></a>, creator of <a href="https://aptabase.com/"><strong>Aptabase</strong></a>!</p>
+
+<p><a href="https://aptabase.com/"><strong>Aptabase</strong></a> is an open-source tool to collect and analyze analytics from your users. The key feature is that it’s designed with privacy in mind, as all the events are stored anonymously. It’s fully GDPR-compliant and it’s available either as a cloud service or as a self-hosted solution.</p>
+
+<p>Join us in this episode, where Guilherme will tell us the story of how Aptabase grew from a side project to successful product!</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.09</strong> Guilherme’s Introduction</li>
+  <li><strong>02.23</strong> What is Aptabase?</li>
+  <li><strong>06.55</strong> Aptabase main fatures</li>
+  <li><strong>09.50</strong> Where Aptabase works?</li>
+  <li><strong>11.40</strong> Users opting out of analytics</li>
+  <li><strong>13.38</strong> Anonymous vs pseudo-anonymous</li>
+  <li><strong>18.29</strong> Educating users on anonymous data</li>
+  <li><strong>21.10</strong> Cloud vs Self-hosting</li>
+  <li><strong>23.43</strong> Where are the analytics stored?</li>
+  <li><strong>25.34</strong> Aptabase free tier</li>
+  <li><strong>27.57</strong> How many users are on Aptabase?</li>
+  <li><strong>29.47</strong> Aptabase success stories</li>
+  <li><strong>31.22</strong> Promoting a side project</li>
+  <li><strong>33.49</strong> Aptabase biggest challenge</li>
+  <li><strong>36.02</strong> The tech stack</li>
+  <li><strong>38.08</strong> Who’s maintaining Aptabase?</li>
+  <li><strong>41.17</strong> What’s next for Aptabase?</li>
+  <li><strong>43.56</strong> Further reading</li>
+  <li><strong>45.17</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/aptabase/aptabase">aptabase/aptabase on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://aptabase.com/">Aptabase Official Website</a></li>
+  <li><i class="fab fa-discord"></i> <a href="https://discord.gg/d9d97unCUk">Aptabase Discord server</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/goenning">@goenning on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/goenning">@goenning on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/79-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>46:37</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Roborazzi with Takahiro Menju</title>
