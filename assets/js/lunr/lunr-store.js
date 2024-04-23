@@ -478,4 +478,10 @@ var store = [{
         "tags": [],
         "url": "/79/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#80 - OpenCollective with Xavier Damman",
+        "excerpt":"It’s time for another bonus episode of The Developers’ Bakery! 🎉 Today, I’m extremely excited to have on stage Xavier Damman, co-founder of OpenCollective! If you’ve been doing open source for a while, you’ve probably heard about OpenCollective. It’s a platform that helps open-source projects and communities to raise funds...","categories": [],
+        "tags": [],
+        "url": "/80/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

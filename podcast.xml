@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Mon, 22 Apr 2024 21:02:06 +0100</lastBuildDate>
+<lastBuildDate>Tue, 23 Apr 2024 12:26:35 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,99 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>OpenCollective with Xavier Damman</title>
+        <itunes:title>OpenCollective with Xavier Damman</itunes:title>
+        <link>https://thebakery.dev/80/</link>
+        <pubDate>Tue, 16 Apr 2024 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/80/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>80</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/80-thedevelopersbakery-opencollective.m4a" length="18179250" type="audio/mpeg" />
+
+        <itunes:subtitle>The story of how donations started flowing through OpenCollective, with Xavier Damman.</itunes:subtitle>
+        <itunes:summary>The story of how donations started flowing through OpenCollective, with Xavier Damman.</itunes:summary>
+
+        
+        <description>
+            <![CDATA[It’s time for another bonus episode of The Developers’ Bakery! 🎉 Today, I’m extremely excited to have on stage Xavier Damman, co-founder of OpenCollective! If you’ve been doing open source for a while, you’ve probably heard about OpenCollective. It’s a platform that helps open-source projects and communities to raise funds...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>It’s time for another bonus episode of The Developers’ Bakery! 🎉</p>
+
+<p>Today, I’m extremely excited to have on stage <a href="https://twitter.com/xdamman"><strong>Xavier Damman</strong></a>, co-founder of <a href="https://opencollective.com/"><strong>OpenCollective</strong></a>!</p>
+
+<p>If you’ve been doing open source for a while, you’ve probably heard about OpenCollective. It’s a platform that helps open-source projects and communities to raise funds and manage their finances transparently. But OpenCollective is much more than just a way to support open-source projects, as you can support and fund all sorts of community initiatives.</p>
+
+<p>In this episode we’ll talk about the story of OpenCollective, how it all started, and how it grew to become the platform we all know today. We’ll also discuss the challenges of running a platform like OpenCollective, the future of open-source funding, and much more!</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.34</strong> Xavier’s Introduction</li>
+  <li><strong>05.08</strong> What is a Open Collective?</li>
+  <li><strong>09.41</strong> Xav’s role in OpenCollective today</li>
+  <li><strong>11.49</strong> What is a Fiscal Host?</li>
+  <li><strong>15.44</strong> It’s all about transparency</li>
+  <li><strong>18.15</strong> The challenges of kicking off OpenCollective</li>
+  <li><strong>22.12</strong> Fees and running the platform</li>
+  <li><strong>23.46</strong> How many donations has OpenCollective processed?</li>
+  <li><strong>26.02</strong> GitHub Sponsors vs OpenCollective</li>
+  <li><strong>27.35</strong> Is OSS sponsorship broken?</li>
+  <li><strong>35.33</strong> DAOs</li>
+  <li><strong>37.58</strong> The new economic model</li>
+  <li><strong>42.07</strong> Further reading</li>
+  <li><strong>45.18</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/opencollective/opencollective">opencollective/opencollective on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://opencollective.com">OpenCollective Official Website</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://discover.opencollective.com">discover.opencollective.com</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://www.regensunite.earth/">Regens Unite</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://citizenspring.earth/">Citizen Spring</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/xdamman">@xdamman on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/xdamman">@xdamman on Twitter</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://xavier.brussels/">Xavier’s Website</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/80-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>46:29</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Aptabase with Guilherme Oenning</title>

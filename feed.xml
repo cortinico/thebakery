@@ -1,4 +1,63 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2024-04-22T21:02:06+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#79 - Aptabase with Guilherme Oenning</title><link href="https://thebakery.dev/79/" rel="alternate" type="text/html" title="#79 - Aptabase with Guilherme Oenning" /><published>2024-04-02T00:00:00+01:00</published><updated>2024-04-02T00:00:00+01:00</updated><id>https://thebakery.dev/079-aptabase</id><content type="html" xml:base="https://thebakery.dev/79/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2024-04-23T12:26:35+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#80 - OpenCollective with Xavier Damman</title><link href="https://thebakery.dev/80/" rel="alternate" type="text/html" title="#80 - OpenCollective with Xavier Damman" /><published>2024-04-16T00:00:00+01:00</published><updated>2024-04-16T00:00:00+01:00</updated><id>https://thebakery.dev/080-opencollective</id><content type="html" xml:base="https://thebakery.dev/80/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>It’s time for another bonus episode of The Developers’ Bakery! 🎉</p>
+
+<p>Today, I’m extremely excited to have on stage <a href="https://twitter.com/xdamman"><strong>Xavier Damman</strong></a>, co-founder of <a href="https://opencollective.com/"><strong>OpenCollective</strong></a>!</p>
+
+<p>If you’ve been doing open source for a while, you’ve probably heard about OpenCollective. It’s a platform that helps open-source projects and communities to raise funds and manage their finances transparently. But OpenCollective is much more than just a way to support open-source projects, as you can support and fund all sorts of community initiatives.</p>
+
+<p>In this episode we’ll talk about the story of OpenCollective, how it all started, and how it grew to become the platform we all know today. We’ll also discuss the challenges of running a platform like OpenCollective, the future of open-source funding, and much more!</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.34</strong> Xavier’s Introduction</li>
+  <li><strong>05.08</strong> What is a Open Collective?</li>
+  <li><strong>09.41</strong> Xav’s role in OpenCollective today</li>
+  <li><strong>11.49</strong> What is a Fiscal Host?</li>
+  <li><strong>15.44</strong> It’s all about transparency</li>
+  <li><strong>18.15</strong> The challenges of kicking off OpenCollective</li>
+  <li><strong>22.12</strong> Fees and running the platform</li>
+  <li><strong>23.46</strong> How many donations has OpenCollective processed?</li>
+  <li><strong>26.02</strong> GitHub Sponsors vs OpenCollective</li>
+  <li><strong>27.35</strong> Is OSS sponsorship broken?</li>
+  <li><strong>35.33</strong> DAOs</li>
+  <li><strong>37.58</strong> The new economic model</li>
+  <li><strong>42.07</strong> Further reading</li>
+  <li><strong>45.18</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/opencollective/opencollective">opencollective/opencollective on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://opencollective.com">OpenCollective Official Website</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://discover.opencollective.com">discover.opencollective.com</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://www.regensunite.earth/">Regens Unite</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://citizenspring.earth/">Citizen Spring</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/xdamman">@xdamman on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/xdamman">@xdamman on Twitter</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://xavier.brussels/">Xavier’s Website</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[The story of how donations started flowing through OpenCollective, with Xavier Damman.]]></summary></entry><entry><title type="html">#79 - Aptabase with Guilherme Oenning</title><link href="https://thebakery.dev/79/" rel="alternate" type="text/html" title="#79 - Aptabase with Guilherme Oenning" /><published>2024-04-02T00:00:00+01:00</published><updated>2024-04-02T00:00:00+01:00</updated><id>https://thebakery.dev/079-aptabase</id><content type="html" xml:base="https://thebakery.dev/79/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/5esjFlNpbx2gDK8y8o4D17?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <p>I’m excited to welcome on stage our next guest <a href="https://twitter.com/goenning"><strong>Guilherme Oenning</strong></a>, creator of <a href="https://aptabase.com/"><strong>Aptabase</strong></a>!</p>
 
@@ -512,52 +571,4 @@ The key feature of XWiki is its extensibility, thanks to its various number of p
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Open source game development with Godot and Emilio Coppola]]></summary></entry><entry><title type="html">#70 - The educator’s path with Marcin Moskała</title><link href="https://thebakery.dev/70/" rel="alternate" type="text/html" title="#70 - The educator’s path with Marcin Moskała" /><published>2023-11-14T00:00:00+00:00</published><updated>2023-11-14T00:00:00+00:00</updated><id>https://thebakery.dev/070-the-educator&apos;s-path</id><content type="html" xml:base="https://thebakery.dev/70/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/538EtMYcxQYU7mciUIzq8o?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<p>We’re back with another <strong>bonus episode</strong> of The Developers’ Bakery! 
-Back in episode <a href="/60">60</a> we talked about content creation with Effective Android.</p>
-
-<p>Today, we double down on a similar topic as we do have <a href="https://leanpub.com/u/mmoskala"><strong>Marcin Moskała</strong></a> on stage! Marcin is the author of <strong>Effective Kotlin</strong>, a collection of Kotlin best practices, and <strong>Kotlin Coroutines</strong>, a book about Kotlin’s concurrency model.</p>
-
-<p>In this episode, Marcin will walk us through the path to <strong>becoming an educator</strong>, what are the skills required, and how to make it profitable. Marcin has plenty of experience in this space, both as a book author, a workshop organizer, and a conference speaker.</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.00</strong> Intro</li>
-  <li><strong>00.45</strong> Episode Start</li>
-  <li><strong>01.23</strong> Marcin’s Introduction</li>
-  <li><strong>03.36</strong> The various paths in engineering</li>
-  <li><strong>06.16</strong> The educator’s path</li>
-  <li><strong>14.09</strong> The educator’s skillset</li>
-  <li><strong>19.43</strong> Making education profitable</li>
-  <li><strong>25.25</strong> Is it worth to write a book?</li>
-  <li><strong>27.08</strong> Marcin’s writing tips</li>
-  <li><strong>34.19</strong> Publishing a book</li>
-  <li><strong>38.06</strong> AI and education</li>
-  <li><strong>41.55</strong> Give it forward</li>
-  <li><strong>43.59</strong> Where people can find you online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fas fa-book"></i> <a href="https://leanpub.com/effectivekotlin">Effective Kotlin by Marcin Moskała on Leanpub</a></li>
-  <li><i class="fas fa-book"></i> <a href="https://leanpub.com/coroutines">Kotlin Coroutines by Marcin Moskała on Leanpub</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://leanpub.com/u/mmoskala">Marcin Moskała on Leanpub</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/marcinmoskala">@marcinmoskala on Twitter</a></li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/MarcinMoskala">@MarcinMoskala on GitHub</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Becoming a successful educator in IT with Marcin Moskała]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Open source game development with Godot and Emilio Coppola]]></summary></entry></feed>
