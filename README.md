@@ -4,6 +4,8 @@
 
 🌐 [thebakery.dev](https://thebakery.dev)
 
+Do you want to support this podcast? ☕ [buymeacoffee.com/cortinico](https://buymeacoffee.com/cortinico)
+
 <p align="center">
     <img src="https://i.imgur.com/k7HDp50.png">
 </p>

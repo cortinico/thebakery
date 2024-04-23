@@ -11,7 +11,7 @@ jobs:
     container: jekyll/builder
     steps:
     - name: Checkout Repo
-      uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
+      uses: actions/checkout@1d96c772d19495a3b5c517cd2bc0cb401ea0529f # v4
 
     - name: Install tar for caching
       run: apk update && apk add tar
@@ -39,7 +39,7 @@ jobs:
       run: bundle exec jekyll build
 
     - name: Deploy Github Pages
-      uses: JamesIves/github-pages-deploy-action@v4.5.0
+      uses: JamesIves/github-pages-deploy-action@v4.6.0
       with:
         branch: gh-pages
         folder: _site/
