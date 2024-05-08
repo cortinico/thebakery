@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Tue, 23 Apr 2024 12:26:35 +0100</lastBuildDate>
+<lastBuildDate>Wed, 08 May 2024 16:45:27 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,99 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Fleet with Zach Wasserman</title>
+        <itunes:title>Fleet with Zach Wasserman</itunes:title>
+        <link>https://thebakery.dev/81/</link>
+        <pubDate>Wed, 08 May 2024 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/81/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>81</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/81-thedevelopersbakery-fleet.m4a" length="17483583" type="audio/mpeg" />
+
+        <itunes:subtitle>Discovering the world of device management, with Fleet and Zach Wasserman.</itunes:subtitle>
+        <itunes:summary>Discovering the world of device management, with Fleet and Zach Wasserman.</itunes:summary>
+
+        
+        <description>
+            <![CDATA[Today we touch on a brand-new topic: device management! I’m excited to have on stage Zach Wasserman, co-founder and CTO at Fleet. Fleet is a Mobile device management (MDM) software, that helps you manage your device fleet. It’s fully open-source and works either as self-hosted or as a cloud solution....]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>Today we touch on a brand-new topic: device management! I’m excited to have on stage <a href="https://twitter.com/thezachw"><strong>Zach Wasserman</strong></a>, co-founder and CTO at <a href="https://github.com/fleetdm/fleet"><strong>Fleet</strong></a>.</p>
+
+<p>Fleet is a Mobile device management (MDM) software, that helps you manage your device fleet. It’s fully open-source and works either as self-hosted or as a cloud solution. Zach is going to guide us through the world of fleet management, talking about challenges such as managing vulnerabilities and updating devices.</p>
+
+<p>If you ever worked with a managed device, you’ll be amazed to learn some of the secrets from the device management world!</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.14</strong> Zac’s Introduction</li>
+  <li><strong>02.04</strong> What is a Fleet?</li>
+  <li><strong>05.57</strong> Fleet vs other MDM tools</li>
+  <li><strong>08.08</strong> Fleet vs chef</li>
+  <li><strong>10.40</strong> Challenges in building MDM software</li>
+  <li><strong>12.21</strong> The journey of a new device</li>
+  <li><strong>15.53</strong> Updating OS version</li>
+  <li><strong>17.50</strong> Integrating with user’s calendar</li>
+  <li><strong>18.55</strong> Incident Stories</li>
+  <li><strong>21.17</strong> Who’s using Fleet?</li>
+  <li><strong>23.15</strong> Self-hosting vs cloud</li>
+  <li><strong>24.14</strong> Handling malwares</li>
+  <li><strong>26.25</strong> The history of Fleet</li>
+  <li><strong>30.12</strong> Introducing osquery</li>
+  <li><strong>31.48</strong> Being part of the Linux Foundation</li>
+  <li><strong>34.56</strong> Being part of a steering commitee of a an OSS project</li>
+  <li><strong>37.04</strong> What’s next for Fleet?</li>
+  <li><strong>39.17</strong> Provisioning Vision Pros</li>
+  <li><strong>40.03</strong> Integrating AI?</li>
+  <li><strong>41.12</strong> Further reading</li>
+  <li><strong>42.46</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/fleetdm/fleet">fleetdm/fleet on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://fleetdm.com/">Fleet Official Website</a></li>
+  <li><i class="fab fa-youtube"></i> Open Source GitOps for Detection Engineering - <a href="https://youtu.be/TH8PxsNzuJw">Video from BSides Las Vegas 2023</a></li>
+  <li><i class="fab fa-youtube"></i> Collect First, Ask Questions Later - <a href="https://youtu.be/srprZ2NgRgk">Video from GopherCon 2022</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/zwass">@zwass on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thezachw">@thezachw on Twitter</a></li>
+  <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/zacharywasserman/">Zach Wasserman on LinkedIn</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/81-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>43:56</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>OpenCollective with Xavier Damman</title>

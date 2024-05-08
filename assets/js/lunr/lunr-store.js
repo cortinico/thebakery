@@ -484,4 +484,10 @@ var store = [{
         "tags": [],
         "url": "/80/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#81 - Fleet with Zach Wasserman",
+        "excerpt":"Today we touch on a brand-new topic: device management! I’m excited to have on stage Zach Wasserman, co-founder and CTO at Fleet. Fleet is a Mobile device management (MDM) software, that helps you manage your device fleet. It’s fully open-source and works either as self-hosted or as a cloud solution....","categories": [],
+        "tags": [],
+        "url": "/81/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]
