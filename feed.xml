@@ -1,4 +1,69 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2024-05-21T10:50:47+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#81 - Fleet with Zach Wasserman</title><link href="https://thebakery.dev/81/" rel="alternate" type="text/html" title="#81 - Fleet with Zach Wasserman" /><published>2024-05-08T00:00:00+01:00</published><updated>2024-05-08T00:00:00+01:00</updated><id>https://thebakery.dev/081-fleet</id><content type="html" xml:base="https://thebakery.dev/81/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2024-05-29T18:47:42+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#82 - Mautic with Ruth Cheesley</title><link href="https://thebakery.dev/82/" rel="alternate" type="text/html" title="#82 - Mautic with Ruth Cheesley" /><published>2024-05-29T00:00:00+01:00</published><updated>2024-05-29T00:00:00+01:00</updated><id>https://thebakery.dev/082-mautic</id><content type="html" xml:base="https://thebakery.dev/82/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>Time for a brand-new topic today, as we’re going to talk about <strong>Marketing Automation</strong>.</p>
+
+<p>I’m excited to have on stage <a href="https://twitter.com/RCheesley"><strong>Ruth Cheesley</strong></a>, who’s going to tell us all about <a href="https://www.mautic.org/"><strong>Mautic</strong></a>. Mautic is a marketing automation software, that helps you manage your email campaigns, track your user engagement, and much more. It’s fully open-source (written in PHP 🐘) and works either as self-hosted or as a cloud solution.</p>
+
+<p>But we’re also going to talk about another crucial topic in open-source: <strong>governance models</strong>. Ruth has been supporting the Mautic community for years, and helped them navigate through a governance model change. She’s going to share what worked and what not for Mautic and give us some tips on how to manage a community project.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.46</strong> Episode Start</li>
+  <li><strong>01.14</strong> Ruth’s Introduction</li>
+  <li><strong>03.08</strong> What is a Mautic?</li>
+  <li><strong>04.27</strong> Mautic competitors</li>
+  <li><strong>05.29</strong> Self-hosting Mautic</li>
+  <li><strong>07.22</strong> The open-source and business model</li>
+  <li><strong>10.02</strong> Who’s working full-time for Mautic?</li>
+  <li><strong>11.35</strong> The history of Mautic</li>
+  <li><strong>14.01</strong> Tech Stack</li>
+  <li><strong>15.23</strong> How Ruth got involved in this project?</li>
+  <li><strong>19.09</strong> Collecting metrics about Mautic</li>
+  <li><strong>21.29</strong> Mautic on mobile</li>
+  <li><strong>22.13</strong> Growing a community</li>
+  <li><strong>25.58</strong> Testing at Mautic</li>
+  <li><strong>28.00</strong> Using Gitpod to help contributions</li>
+  <li><strong>29.22</strong> Governance models</li>
+  <li><strong>39.20</strong> Voting in the open</li>
+  <li><strong>43.56</strong> Who can vote?</li>
+  <li><strong>45.08</strong> Ruth’s suggestions on doing governance</li>
+  <li><strong>48.36</strong> Code of conducts</li>
+  <li><strong>49.47</strong> Woman in Open Source</li>
+  <li><strong>52.04</strong> Further reading</li>
+  <li><strong>54.30</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/mautic/mautic">mautic/mautic on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://www.mautic.org/">Mautic Official Website</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/watch?v=lgaqS0pmUzk">Mautic on YouTube</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://kb.mautic.org/article/lead-scoring-best-practices-with-mautic.html">Lead Scoring Best Practices with Mautic</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/RCheesley">@RCheesley on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/RCheesley">@RCheesley on Twitter</a></li>
+  <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/ruthcheesley/">Ruth Cheesley on LinkedIn</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://www.ruthcheesley.co.uk/">Ruth’s Website</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Marketing Automation with Mautic and Ruth Cheesley]]></summary></entry><entry><title type="html">#81 - Fleet with Zach Wasserman</title><link href="https://thebakery.dev/81/" rel="alternate" type="text/html" title="#81 - Fleet with Zach Wasserman" /><published>2024-05-08T00:00:00+01:00</published><updated>2024-05-08T00:00:00+01:00</updated><id>https://thebakery.dev/081-fleet</id><content type="html" xml:base="https://thebakery.dev/81/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/3zBGfPXMHSF6DzrTfN47rM?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <p>Today we touch on a brand-new topic: device management! I’m excited to have on stage <a href="https://twitter.com/thezachw"><strong>Zach Wasserman</strong></a>, co-founder and CTO at <a href="https://github.com/fleetdm/fleet"><strong>Fleet</strong></a>.</p>
 
@@ -520,55 +585,4 @@ The key feature of XWiki is its extensibility, thanks to its various number of p
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[A new protocol to sponsor Open Source with Tea and Max Howell]]></summary></entry><entry><title type="html">#72 - QuackAI with François-Guillaume Fernandez</title><link href="https://thebakery.dev/72/" rel="alternate" type="text/html" title="#72 - QuackAI with François-Guillaume Fernandez" /><published>2023-12-12T00:00:00+00:00</published><updated>2023-12-12T00:00:00+00:00</updated><id>https://thebakery.dev/072-quackai</id><content type="html" xml:base="https://thebakery.dev/72/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/1mIOkPAdCQNBOZDzoeM4Tg?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<p>Welcome back to another episode of The Developers’ Bakery. Today we have on stage <a href="https://twitter.com/FrG_FM"><strong>FG Fernandez</strong></a>, the founder of <a href="https://www.quackai.com/"><strong>QuackAI</strong></a>.</p>
-
-<p>QuackAI is a VS Code Extension that helps your contributiors when they’re typing to make sure their contributions won’t fail to comply with your project guidelines.</p>
-
-<p>Moreover, FG had the opportunity to join the YCombinator program with QuackAI as a sole contributor. Today he will tell us his story with this tool and what’s next for it!</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.00</strong> Intro</li>
-  <li><strong>00.45</strong> Episode Start</li>
-  <li><strong>01.17</strong> FG’s Introduction</li>
-  <li><strong>02.24</strong> What is QuackAI?</li>
-  <li><strong>03.13</strong> How can I use QuackAI?</li>
-  <li><strong>07.33</strong> Defining contribution rules</li>
-  <li><strong>10.07</strong> IDE Extension &amp; PR Automation</li>
-  <li><strong>15.07</strong> What happens when I type with QuackAI?</li>
-  <li><strong>18.44</strong> What is Open Source in QuackAI?</li>
-  <li><strong>20.56</strong> How do you do telemetry?</li>
-  <li><strong>26.40</strong> The story of QuackAI</li>
-  <li><strong>30.39</strong> Funding from YCombinator</li>
-  <li><strong>36.51</strong> Being a sole contributor at QuackAI</li>
-  <li><strong>39.00</strong> What’s next for QuackAI?</li>
-  <li><strong>43.27</strong> Further reading</li>
-  <li><strong>45.00</strong> Where people can find you online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/quack-ai/companion">quack-ai/companion on GitHub</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://www.quackai.com/">QuackAI Official Website</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://marketplace.visualstudio.com/items?itemName=QuackAI.quack-companion">QuackAI VS Code Extension</a></li>
-  <li><i class="fab fa-discord"></i> <a href="https://discord.com/invite/E9rY3bVCWd">QuackAI Discord server</a></li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/frgfm">@frgfm on GitHub</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/FrG_FM">@FrG_FM on Twitter</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Your AI Contributions Companion with FG Fernandez and QuackAI]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[A new protocol to sponsor Open Source with Tea and Max Howell]]></summary></entry></feed>

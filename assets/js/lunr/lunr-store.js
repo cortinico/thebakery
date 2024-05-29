@@ -490,4 +490,10 @@ var store = [{
         "tags": [],
         "url": "/81/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#82 - Mautic with Ruth Cheesley",
+        "excerpt":"Time for a brand-new topic today, as we’re going to talk about Marketing Automation. I’m excited to have on stage Ruth Cheesley, who’s going to tell us all about Mautic. Mautic is a marketing automation software, that helps you manage your email campaigns, track your user engagement, and much more....","categories": [],
+        "tags": [],
+        "url": "/82/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Tue, 21 May 2024 10:50:47 +0100</lastBuildDate>
+<lastBuildDate>Wed, 29 May 2024 18:47:42 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,105 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Mautic with Ruth Cheesley</title>
+        <itunes:title>Mautic with Ruth Cheesley</itunes:title>
+        <link>https://thebakery.dev/82/</link>
+        <pubDate>Wed, 29 May 2024 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/82/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>82</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/82-thedevelopersbakery-mautic.m4a" length="21852328" type="audio/mpeg" />
+
+        <itunes:subtitle>Marketing Automation with Mautic and Ruth Cheesley</itunes:subtitle>
+        <itunes:summary>Marketing Automation with Mautic and Ruth Cheesley</itunes:summary>
+
+        
+        <description>
+            <![CDATA[Time for a brand-new topic today, as we’re going to talk about Marketing Automation. I’m excited to have on stage Ruth Cheesley, who’s going to tell us all about Mautic. Mautic is a marketing automation software, that helps you manage your email campaigns, track your user engagement, and much more....]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>Time for a brand-new topic today, as we’re going to talk about <strong>Marketing Automation</strong>.</p>
+
+<p>I’m excited to have on stage <a href="https://twitter.com/RCheesley"><strong>Ruth Cheesley</strong></a>, who’s going to tell us all about <a href="https://www.mautic.org/"><strong>Mautic</strong></a>. Mautic is a marketing automation software, that helps you manage your email campaigns, track your user engagement, and much more. It’s fully open-source (written in PHP 🐘) and works either as self-hosted or as a cloud solution.</p>
+
+<p>But we’re also going to talk about another crucial topic in open-source: <strong>governance models</strong>. Ruth has been supporting the Mautic community for years, and helped them navigate through a governance model change. She’s going to share what worked and what not for Mautic and give us some tips on how to manage a community project.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.46</strong> Episode Start</li>
+  <li><strong>01.14</strong> Ruth’s Introduction</li>
+  <li><strong>03.08</strong> What is a Mautic?</li>
+  <li><strong>04.27</strong> Mautic competitors</li>
+  <li><strong>05.29</strong> Self-hosting Mautic</li>
+  <li><strong>07.22</strong> The open-source and business model</li>
+  <li><strong>10.02</strong> Who’s working full-time for Mautic?</li>
+  <li><strong>11.35</strong> The history of Mautic</li>
+  <li><strong>14.01</strong> Tech Stack</li>
+  <li><strong>15.23</strong> How Ruth got involved in this project?</li>
+  <li><strong>19.09</strong> Collecting metrics about Mautic</li>
+  <li><strong>21.29</strong> Mautic on mobile</li>
+  <li><strong>22.13</strong> Growing a community</li>
+  <li><strong>25.58</strong> Testing at Mautic</li>
+  <li><strong>28.00</strong> Using Gitpod to help contributions</li>
+  <li><strong>29.22</strong> Governance models</li>
+  <li><strong>39.20</strong> Voting in the open</li>
+  <li><strong>43.56</strong> Who can vote?</li>
+  <li><strong>45.08</strong> Ruth’s suggestions on doing governance</li>
+  <li><strong>48.36</strong> Code of conducts</li>
+  <li><strong>49.47</strong> Woman in Open Source</li>
+  <li><strong>52.04</strong> Further reading</li>
+  <li><strong>54.30</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/mautic/mautic">mautic/mautic on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://www.mautic.org/">Mautic Official Website</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/watch?v=lgaqS0pmUzk">Mautic on YouTube</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://kb.mautic.org/article/lead-scoring-best-practices-with-mautic.html">Lead Scoring Best Practices with Mautic</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/RCheesley">@RCheesley on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/RCheesley">@RCheesley on Twitter</a></li>
+  <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/ruthcheesley/">Ruth Cheesley on LinkedIn</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://www.ruthcheesley.co.uk/">Ruth’s Website</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/82-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>55:41</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Fleet with Zach Wasserman</title>
