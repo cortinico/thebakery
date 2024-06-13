@@ -496,4 +496,10 @@ var store = [{
         "tags": [],
         "url": "/82/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#83 - Hasura with Tanmai Gopal",
+        "excerpt":"Hi everyone, today is time to talk about GraphQL! We have on stage Tanmai Gopal, CEO and co-founder of Hasura. Hasura is an open-source GraphQL engine that helps you build and scale your GraphQL APIs, basically ‘without’ limits! We’ll talk about the history of Hasura, how it works, and what’s...","categories": [],
+        "tags": [],
+        "url": "/83/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

@@ -1,4 +1,58 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2024-05-29T18:47:42+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#82 - Mautic with Ruth Cheesley</title><link href="https://thebakery.dev/82/" rel="alternate" type="text/html" title="#82 - Mautic with Ruth Cheesley" /><published>2024-05-29T00:00:00+01:00</published><updated>2024-05-29T00:00:00+01:00</updated><id>https://thebakery.dev/082-mautic</id><content type="html" xml:base="https://thebakery.dev/82/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2024-06-13T14:00:08+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#83 - Hasura with Tanmai Gopal</title><link href="https://thebakery.dev/83/" rel="alternate" type="text/html" title="#83 - Hasura with Tanmai Gopal" /><published>2024-06-11T00:00:00+01:00</published><updated>2024-06-11T00:00:00+01:00</updated><id>https://thebakery.dev/083-hasura</id><content type="html" xml:base="https://thebakery.dev/83/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>Hi everyone, today is time to talk about <strong>GraphQL</strong>! We have on stage <a href="https://twitter.com/tanmaigo"><strong>Tanmai Gopal</strong></a>, CEO and co-founder of <a href="https://hasura.io/"><strong>Hasura</strong></a>.</p>
+
+<p>Hasura is an open-source GraphQL engine that helps you build and scale your GraphQL APIs, basically ‘without’ limits! We’ll talk about the history of Hasura, how it works, and what’s next for this project. Join us in this episode as Tanmai will tell us his story founding Hasura and how they’re building a vibrant ecosystem around this project.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.46</strong> Episode Start</li>
+  <li><strong>01.09</strong> Tanmai’s Introduction</li>
+  <li><strong>02.04</strong> What is a Hasura?</li>
+  <li><strong>04.12</strong> Exposing DBs via GraphQL</li>
+  <li><strong>07.41</strong> Self-hosting Hasura</li>
+  <li><strong>13.00</strong> Subscriptions in Hasura</li>
+  <li><strong>16.07</strong> Hasura Supergraph</li>
+  <li><strong>21.15</strong> Single Point of Failure</li>
+  <li><strong>23.51</strong> The history of Hasura</li>
+  <li><strong>33.12</strong> Founding Hasura</li>
+  <li><strong>35.22</strong> Haskell in the backend</li>
+  <li><strong>40.12</strong> Doing Open Source at Hasura</li>
+  <li><strong>43.50</strong> What’s next for Hasura?</li>
+  <li><strong>50.27</strong> Further reading</li>
+  <li><strong>52.47</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/hasura/graphql-engine">hasura/graphql-engine on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://hasura.io/">Hasura Official Website</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://hasura.io/docs/latest/getting-started/overview/">Getting Started with Hasura</a></li>
+      <li><i class="fab fa-discord"></i> <a href="https://discord.com/invite/hasura">Hasura Discord server</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/coco98">@coco98 on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/tanmaigo">@tanmaigo on Twitter</a></li>
+  <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/tanmaig/">Tanmai Gopal on Linkedin</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Build and scale your GraphQL APIs with Hasura and Tanmai Gopal]]></summary></entry><entry><title type="html">#82 - Mautic with Ruth Cheesley</title><link href="https://thebakery.dev/82/" rel="alternate" type="text/html" title="#82 - Mautic with Ruth Cheesley" /><published>2024-05-29T00:00:00+01:00</published><updated>2024-05-29T00:00:00+01:00</updated><id>https://thebakery.dev/082-mautic</id><content type="html" xml:base="https://thebakery.dev/82/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/0mXPW9UMPEv5ZCnzD0faF3?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <p>Time for a brand-new topic today, as we’re going to talk about <strong>Marketing Automation</strong>.</p>
 
@@ -527,62 +581,4 @@ The key feature of XWiki is its extensibility, thanks to its various number of p
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Discovering your workflow AI co-pilot with Pieces and Tsavo Knott]]></summary></entry><entry><title type="html">#73 - Tea with Max Howell</title><link href="https://thebakery.dev/73/" rel="alternate" type="text/html" title="#73 - Tea with Max Howell" /><published>2024-01-11T00:00:00+00:00</published><updated>2024-01-11T00:00:00+00:00</updated><id>https://thebakery.dev/073-tea</id><content type="html" xml:base="https://thebakery.dev/73/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/1bkesLhd1VFQkeb4oBXf4W?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<p>It’s time to kickoff 2024 with an amazing new episode! Joining us is the mind behind Homebrew: <strong>Max Howell</strong>.</p>
-
-<p>We’re not here to talk about Homebrew today though (get back to <a href="/55">Ep. 55</a> for that). Max is here to tell us about his latest project: <strong>Tea</strong> 🍵</p>
-
-<p>Tea is a new protocol to <strong>sponsor open source</strong>. Tea works as a decentralized network that allows you to sponsor the projects on your dependency tree.</p>
-
-<p>Join us in this episode as we walk through the possibilites that Tea unlocks, and we won’t miss the chance to talk a bit about the story of Homebrew as well.</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.00</strong> Intro</li>
-  <li><strong>00.45</strong> Episode Start</li>
-  <li><strong>01.11</strong> Max’s Introduction</li>
-  <li><strong>04.21</strong> What is Tea?</li>
-  <li><strong>10.12</strong> OSS Sponsorship is broken</li>
-  <li><strong>14.05</strong> How to join the Tea network?</li>
-  <li><strong>17.47</strong> How to donate on the Tea network?</li>
-  <li><strong>23.09</strong> Donating to the dependency tree</li>
-  <li><strong>24.31</strong> Tea test net</li>
-  <li><strong>25.59</strong> Tea vs Thanks.dev</li>
-  <li><strong>28.12</strong> Tea &amp; crypto bad press</li>
-  <li><strong>32.09</strong> What have you learned from building Homebrew?</li>
-  <li><strong>38.16</strong> From pkgx to tea</li>
-  <li><strong>41.46</strong> The story of homebrew</li>
-  <li><strong>50.42</strong> Further reading</li>
-  <li><strong>52.39</strong> Where people can find you online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://tea.xyz/">Tea Official Website</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/teaprotocol">@teaprotocol on Twitter</a></li>
-  <li>Mentioned Resources:
-    <ul>
-      <li><i class="fab fa-github"></i> <a href="https://github.com/teaxyz/white-paper">The Tea WhitePaper</a></li>
-      <li><i class="fab fa-github"></i> <a href="https://github.com/pkgxdev/pkgx">pkgxdev/pkgx on GitHub</a></li>
-    </ul>
-  </li>
-  <li><i class="fab fa-github"></i> <a href="https://mxcl.dev/">@mxcl on GitHub</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/mxcl">@mxcl on Twitter</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://sebastienlorber.com/">Max’s Website</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[A new protocol to sponsor Open Source with Tea and Max Howell]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Discovering your workflow AI co-pilot with Pieces and Tsavo Knott]]></summary></entry></feed>

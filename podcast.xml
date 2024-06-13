@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Wed, 29 May 2024 18:47:42 +0100</lastBuildDate>
+<lastBuildDate>Thu, 13 Jun 2024 14:00:08 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,94 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Hasura with Tanmai Gopal</title>
+        <itunes:title>Hasura with Tanmai Gopal</itunes:title>
+        <link>https://thebakery.dev/83/</link>
+        <pubDate>Tue, 11 Jun 2024 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/83/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>83</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/83-thedevelopersbakery-hasura.m4a" length="21071231" type="audio/mpeg" />
+
+        <itunes:subtitle>Build and scale your GraphQL APIs with Hasura and Tanmai Gopal</itunes:subtitle>
+        <itunes:summary>Build and scale your GraphQL APIs with Hasura and Tanmai Gopal</itunes:summary>
+
+        
+        <description>
+            <![CDATA[Hi everyone, today is time to talk about GraphQL! We have on stage Tanmai Gopal, CEO and co-founder of Hasura. Hasura is an open-source GraphQL engine that helps you build and scale your GraphQL APIs, basically ‘without’ limits! We’ll talk about the history of Hasura, how it works, and what’s...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>Hi everyone, today is time to talk about <strong>GraphQL</strong>! We have on stage <a href="https://twitter.com/tanmaigo"><strong>Tanmai Gopal</strong></a>, CEO and co-founder of <a href="https://hasura.io/"><strong>Hasura</strong></a>.</p>
+
+<p>Hasura is an open-source GraphQL engine that helps you build and scale your GraphQL APIs, basically ‘without’ limits! We’ll talk about the history of Hasura, how it works, and what’s next for this project. Join us in this episode as Tanmai will tell us his story founding Hasura and how they’re building a vibrant ecosystem around this project.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.46</strong> Episode Start</li>
+  <li><strong>01.09</strong> Tanmai’s Introduction</li>
+  <li><strong>02.04</strong> What is a Hasura?</li>
+  <li><strong>04.12</strong> Exposing DBs via GraphQL</li>
+  <li><strong>07.41</strong> Self-hosting Hasura</li>
+  <li><strong>13.00</strong> Subscriptions in Hasura</li>
+  <li><strong>16.07</strong> Hasura Supergraph</li>
+  <li><strong>21.15</strong> Single Point of Failure</li>
+  <li><strong>23.51</strong> The history of Hasura</li>
+  <li><strong>33.12</strong> Founding Hasura</li>
+  <li><strong>35.22</strong> Haskell in the backend</li>
+  <li><strong>40.12</strong> Doing Open Source at Hasura</li>
+  <li><strong>43.50</strong> What’s next for Hasura?</li>
+  <li><strong>50.27</strong> Further reading</li>
+  <li><strong>52.47</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/hasura/graphql-engine">hasura/graphql-engine on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://hasura.io/">Hasura Official Website</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://hasura.io/docs/latest/getting-started/overview/">Getting Started with Hasura</a></li>
+      <li><i class="fab fa-discord"></i> <a href="https://discord.com/invite/hasura">Hasura Discord server</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/coco98">@coco98 on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/tanmaigo">@tanmaigo on Twitter</a></li>
+  <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/tanmaig/">Tanmai Gopal on Linkedin</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/83-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>54:25</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Mautic with Ruth Cheesley</title>
