@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Fri, 14 Jun 2024 11:04:46 +0100</lastBuildDate>
+<lastBuildDate>Wed, 26 Jun 2024 13:05:15 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,94 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>System Initiative with Adam Jacob</title>
+        <itunes:title>System Initiative with Adam Jacob</itunes:title>
+        <link>https://thebakery.dev/84/</link>
+        <pubDate>Wed, 26 Jun 2024 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/84/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>84</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/84-thedevelopersbakery-systeminit.m4a" length="18914142" type="audio/mpeg" />
+
+        <itunes:subtitle>Next-gen DevOps with Adam Jacob and System Initiative</itunes:subtitle>
+        <itunes:summary>Next-gen DevOps with Adam Jacob and System Initiative</itunes:summary>
+
+        
+        <description>
+            <![CDATA[Today we talk about a completely new topic: DevOps and System configuration. I’m really excited to have on stage Adam Jacob, CEO and Co-founder of System Initiative. Adam is challenging the status quo of DevOps tools with a completely new approach to system configuration. While System initiative looks like a...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>Today we talk about a completely new topic: DevOps and System configuration. I’m really excited to have on stage <a href="https://twitter.com/adamhjk"><strong>Adam Jacob</strong></a>, CEO and Co-founder of <a href="https://www.systeminit.com/"><strong>System Initiative</strong></a>.</p>
+
+<p>Adam is challenging the status quo of DevOps tools with a completely <strong>new approach</strong> to system configuration. While System initiative looks like a no-code tool at first, it comes with all the power of TypeScript to let you build and manage your infrastructure in a completely new way.</p>
+
+<p>We will talk about the history of System Initiative, the challenges of building a new tool in a crowded space, and the future of DevOps.</p>
+
+<p>Adam is also the co-founder of <a href="https://github.com/chef/chef">Chef</a>, a really popular configuration management tool, and he will share with us some of the lessons learned from that previous experience.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.46</strong> Episode Start</li>
+  <li><strong>01.03</strong> Adam’s Introduction</li>
+  <li><strong>03.19</strong> What is a System Initiative?</li>
+  <li><strong>07.54</strong> What are the System Initiative feature?</li>
+  <li><strong>11.16</strong> Is this a drag-n-drop tool to create AWS infras?</li>
+  <li><strong>14.37</strong> No-code tools &amp; quality of their output</li>
+  <li><strong>20.12</strong> Frontend engineers doing DevOps?</li>
+  <li><strong>23.06</strong> How is System Initiative doing Open Source?</li>
+  <li><strong>25.18</strong> The history of System Initiative</li>
+  <li><strong>34.10</strong> From demo to production</li>
+  <li><strong>36.13</strong> AI &amp; DevOps</li>
+  <li><strong>39.18</strong> What you learned from building Chef?</li>
+  <li><strong>43.51</strong> Further reading</li>
+  <li><strong>45.06</strong> Where people can find you online?</li>
+  <li><strong>46.07</strong> Sysadmin in disguise</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/systeminit/si">systeminit/si on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://www.systeminit.com/">System Initiative Official Website</a></li>
+  <li><i class="fab fa-discord"></i> <a href="https://discord.gg/system-init">System Initiative Discord server</a></li>
+  <li><i class="fab fa-youtube"></i> Talk at Config Mgmt Camp 2023 - <a href="https://youtu.be/a2RoLFzrFG0">What if Infrastructure as Code never existed</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/adamhjk">@adamhjk on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/adamhjk">@adamhjk on Twitter</a></li>
+  <li><i class="fab fa-mastodon"></i> <a href="https://hachyderm.io/@adamhjk">@adamhjk on Mastodon</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/84-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>47:55</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Hasura with Tanmai Gopal</title>

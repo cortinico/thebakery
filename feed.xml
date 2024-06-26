@@ -1,4 +1,58 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2024-06-14T11:04:46+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#83 - Hasura with Tanmai Gopal</title><link href="https://thebakery.dev/83/" rel="alternate" type="text/html" title="#83 - Hasura with Tanmai Gopal" /><published>2024-06-11T00:00:00+01:00</published><updated>2024-06-11T00:00:00+01:00</updated><id>https://thebakery.dev/083-hasura</id><content type="html" xml:base="https://thebakery.dev/83/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2024-06-26T13:05:15+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#84 - System Initiative with Adam Jacob</title><link href="https://thebakery.dev/84/" rel="alternate" type="text/html" title="#84 - System Initiative with Adam Jacob" /><published>2024-06-26T00:00:00+01:00</published><updated>2024-06-26T00:00:00+01:00</updated><id>https://thebakery.dev/084-system-initiative</id><content type="html" xml:base="https://thebakery.dev/84/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>Today we talk about a completely new topic: DevOps and System configuration. I’m really excited to have on stage <a href="https://twitter.com/adamhjk"><strong>Adam Jacob</strong></a>, CEO and Co-founder of <a href="https://www.systeminit.com/"><strong>System Initiative</strong></a>.</p>
+
+<p>Adam is challenging the status quo of DevOps tools with a completely <strong>new approach</strong> to system configuration. While System initiative looks like a no-code tool at first, it comes with all the power of TypeScript to let you build and manage your infrastructure in a completely new way.</p>
+
+<p>We will talk about the history of System Initiative, the challenges of building a new tool in a crowded space, and the future of DevOps.</p>
+
+<p>Adam is also the co-founder of <a href="https://github.com/chef/chef">Chef</a>, a really popular configuration management tool, and he will share with us some of the lessons learned from that previous experience.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.46</strong> Episode Start</li>
+  <li><strong>01.03</strong> Adam’s Introduction</li>
+  <li><strong>03.19</strong> What is a System Initiative?</li>
+  <li><strong>07.54</strong> What are the System Initiative feature?</li>
+  <li><strong>11.16</strong> Is this a drag-n-drop tool to create AWS infras?</li>
+  <li><strong>14.37</strong> No-code tools &amp; quality of their output</li>
+  <li><strong>20.12</strong> Frontend engineers doing DevOps?</li>
+  <li><strong>23.06</strong> How is System Initiative doing Open Source?</li>
+  <li><strong>25.18</strong> The history of System Initiative</li>
+  <li><strong>34.10</strong> From demo to production</li>
+  <li><strong>36.13</strong> AI &amp; DevOps</li>
+  <li><strong>39.18</strong> What you learned from building Chef?</li>
+  <li><strong>43.51</strong> Further reading</li>
+  <li><strong>45.06</strong> Where people can find you online?</li>
+  <li><strong>46.07</strong> Sysadmin in disguise</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/systeminit/si">systeminit/si on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://www.systeminit.com/">System Initiative Official Website</a></li>
+  <li><i class="fab fa-discord"></i> <a href="https://discord.gg/system-init">System Initiative Discord server</a></li>
+  <li><i class="fab fa-youtube"></i> Talk at Config Mgmt Camp 2023 - <a href="https://youtu.be/a2RoLFzrFG0">What if Infrastructure as Code never existed</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/adamhjk">@adamhjk on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/adamhjk">@adamhjk on Twitter</a></li>
+  <li><i class="fab fa-mastodon"></i> <a href="https://hachyderm.io/@adamhjk">@adamhjk on Mastodon</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Next-gen DevOps with Adam Jacob and System Initiative]]></summary></entry><entry><title type="html">#83 - Hasura with Tanmai Gopal</title><link href="https://thebakery.dev/83/" rel="alternate" type="text/html" title="#83 - Hasura with Tanmai Gopal" /><published>2024-06-11T00:00:00+01:00</published><updated>2024-06-11T00:00:00+01:00</updated><id>https://thebakery.dev/083-hasura</id><content type="html" xml:base="https://thebakery.dev/83/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/4LrLCO4TvJdPTadtsjiWSY?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <p>Hi everyone, today is time to talk about <strong>GraphQL</strong>! We have on stage <a href="https://twitter.com/tanmaigo"><strong>Tanmai Gopal</strong></a>, CEO and co-founder of <a href="https://hasura.io/"><strong>Hasura</strong></a>.</p>
 
@@ -522,63 +576,4 @@ The key feature of XWiki is its extensibility, thanks to its various number of p
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Digital Signing in OSS with Docuseal and Pete Matsyburka]]></summary></entry><entry><title type="html">#74 - Pieces with Tsavo Knott</title><link href="https://thebakery.dev/74/" rel="alternate" type="text/html" title="#74 - Pieces with Tsavo Knott" /><published>2024-01-23T00:00:00+00:00</published><updated>2024-01-23T00:00:00+00:00</updated><id>https://thebakery.dev/074-pieces</id><content type="html" xml:base="https://thebakery.dev/74/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/5e1CABvPlOhJf9b7jY0thH?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<p>Welcome back to another freshly baked episode, today we talk about the trending topic in the industry: <strong>AI</strong>. I’m excited to have on stage <a href="https://twitter.com/KnottTsavo"><strong>Tsavo Knott</strong></a>, CEO of Pieces.</p>
-
-<p><a href="https://pieces.app/"><strong>Pieces</strong></a> is your AI-enabled workflow copilot, and developers are going to love this tool! Tsavo will walk us through the features, advantages, and the unique ecosystem that Pieces is building. With Pieces, you can search, share, and reuse your code snippets, through your favorite tools and IDEs.</p>
-
-<p>Tsavo is also going to share the challenges of building a company on <strong>developer tools</strong> and how to handle developers as customers, there is so much wisdom in this episode, I’m sure you will love it!</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.11</strong> Intro</li>
-  <li><strong>00.57</strong> Episode Start</li>
-  <li><strong>01.28</strong> Tasvo’s Introduction</li>
-  <li><strong>03.21</strong> What is Pieces?</li>
-  <li><strong>10.01</strong> Local vs Cloud</li>
-  <li><strong>12.39</strong> Pricing Model</li>
-  <li><strong>15.27</strong> Is Pieces just a smart clipboard?</li>
-  <li><strong>18.56</strong> Pieces ecosystem</li>
-  <li><strong>20.22</strong> Offline AI</li>
-  <li><strong>24.10</strong> What is Pieces OS Client?</li>
-  <li><strong>28.24</strong> Pieces Ecosystem</li>
-  <li><strong>30.35</strong> Customizing Pieces with own’s data</li>
-  <li><strong>32.59</strong> Developers as a a customer</li>
-  <li><strong>35.39</strong> Building OSS vs Building a Company</li>
-  <li><strong>37.59</strong> Developers’ high bar</li>
-  <li><strong>39.13</strong> The Pieces Community</li>
-  <li><strong>40.33</strong> Further reading</li>
-  <li><strong>41.37</strong> Where people can find you online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://pieces.app/">Pieces for Developers - Official Website</a></li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/pieces-app/opensource">pieces-app/opensource on GitHub</a></li>
-  <li>Mentioned Resources:
-    <ul>
-      <li><i class="fas fa-link"></i> <a href="https://docs.pieces.app/">Pieces for Developers - Official Documentation</a></li>
-      <li><i class="fab fa-discord"></i> <a href="https://discord.com/invite/getpieces">Pieces Discord server</a></li>
-      <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/gb/podcast/redefining-developer-workflow-with-pieces-apps-tsavo/id117488860?i=1000630357226">Podcast - Redefining Developer Workflow with Pieces.App’s Tsavo Knott</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://code.pieces.app/blog/build-your-own-copilot-in-less-than-10-minutes-with-pieces-os-client-13c91">Blogpost - Build Your Own Copilot in less than 10 minutes with Pieces OS Client</a></li>
-    </ul>
-  </li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/tsavo-at-pieces">@tsavo-at-pieces on GitHub</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/KnottTsavo">@KnottTsavo on Twitter</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Discovering your workflow AI co-pilot with Pieces and Tsavo Knott]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Digital Signing in OSS with Docuseal and Pete Matsyburka]]></summary></entry></feed>

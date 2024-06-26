@@ -502,4 +502,10 @@ var store = [{
         "tags": [],
         "url": "/83/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#84 - System Initiative with Adam Jacob",
+        "excerpt":"Today we talk about a completely new topic: DevOps and System configuration. I’m really excited to have on stage Adam Jacob, CEO and Co-founder of System Initiative. Adam is challenging the status quo of DevOps tools with a completely new approach to system configuration. While System initiative looks like a...","categories": [],
+        "tags": [],
+        "url": "/84/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]
