@@ -25,7 +25,7 @@ podcast_duration: "47:55"
 podcast_length: 18914142
 ---
 
-<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/1cudmXVt5yXItF1YNbG2zQ?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 Today we talk about a completely new topic: DevOps and System configuration. I'm really excited to have on stage [**Adam Jacob**](https://twitter.com/adamhjk), CEO and Co-founder of [**System Initiative**](https://www.systeminit.com/).
 
