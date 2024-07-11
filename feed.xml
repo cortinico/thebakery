@@ -1,4 +1,69 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2024-07-08T10:27:19+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#84 - System Initiative with Adam Jacob</title><link href="https://thebakery.dev/84/" rel="alternate" type="text/html" title="#84 - System Initiative with Adam Jacob" /><published>2024-06-26T00:00:00+01:00</published><updated>2024-06-26T00:00:00+01:00</updated><id>https://thebakery.dev/084-system-initiative</id><content type="html" xml:base="https://thebakery.dev/84/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2024-07-11T16:28:31+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#85 - Kotlin Multiplatform at Google I/O with Marcello Galhardo</title><link href="https://thebakery.dev/85/" rel="alternate" type="text/html" title="#85 - Kotlin Multiplatform at Google I/O with Marcello Galhardo" /><published>2024-07-10T00:00:00+01:00</published><updated>2024-07-10T00:00:00+01:00</updated><id>https://thebakery.dev/085-kotlin-multiplatform-at-google-io</id><content type="html" xml:base="https://thebakery.dev/85/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p><img src="/assets/images/posts/ioconnect24.jpg" alt="io connect photo" /></p>
+
+<p>Welcome to a special <strong>in-person episode</strong> of The Developers’ Bakery, recorded live in <strong>Berlin</strong> at Google I/O Connect 2024!</p>
+
+<p>There, I had the privilege of having on stage <a href="https://twitter.com/marcellogalhard"><strong>Marcello Galhardo</strong></a>, Software Engineer at Google. Marcello is working in the AndroidX team responsible for adding Kotlin Multiplatform support for several popular AndroidX libraries.</p>
+
+<p>If you’re an Android Developer, you probably used one of those libraries in your projects, such as Lifecycle or Room. Marcello is going to walk us through the latest announcements about Kotlin Multiplatform at Google I/O, and how they’re going to impact the way we build Android apps.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.50</strong> Episode Start</li>
+  <li><strong>01.37</strong> Marcelo’s Introduction</li>
+  <li><strong>02.18</strong> What is Kotlin Multiplatform?</li>
+  <li><strong>03.11</strong> KMP @ Google IO</li>
+  <li><strong>04.00</strong> KMP announcement excitement</li>
+  <li><strong>05.32</strong> Convince us to use KMP for a new app</li>
+  <li><strong>07.20</strong> KMP support in AndroidX libraries</li>
+  <li><strong>08.29</strong> Migrating from Android to KMP</li>
+  <li><strong>09.02</strong> Which library has you contributed to?</li>
+  <li><strong>09.27</strong> Which library was the hardest to KMP migrate?</li>
+  <li><strong>10.28</strong> How many developers are involved in KMP compatibility?</li>
+  <li><strong>11.28</strong> alpha and versioning for AndroidX libraries</li>
+  <li><strong>12.57</strong> Where is the AndroidX source code?</li>
+  <li><strong>13.42</strong> KMP compatible vs KMP supported</li>
+  <li><strong>15.19</strong> Google’s stance on cross-platform</li>
+  <li><strong>16.59</strong> How is Google is using KMP?</li>
+  <li><strong>17.53</strong> Marcello’s journey</li>
+  <li><strong>18.19</strong> Foldable devices and large screens</li>
+  <li><strong>20.17</strong> Which IDE to use for KMP?</li>
+  <li><strong>22.25</strong> AI and KMP</li>
+  <li><strong>25.49</strong> Further reading</li>
+  <li><strong>26.42</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://developer.android.com/kotlin/multiplatform">Kotlin Multiplafrom Mobile Overview</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://android-developers.googleblog.com/2024/05/android-support-for-kotlin-multiplatform-to-share-business-logic-across-mobile-web-server-desktop.html">Android Support for KMP Announcement</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://developers.googleblog.com/en/making-development-across-platforms-easier-for-developers/">Making development across platforms easier for developers</a></li>
+      <li><i class="fab fa-youtube"></i> Kotlin Multiplatform in Google Workspace by Jason Parachoniak - <a href="https://kotlinconf.com/talks/581520/">Video from KotlinConf</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/marcellogalhardo">@marcellogalhardo on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/marcellogalhard">@marcellogalhard on Twitter</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://marcellogalhardo.dev/">Marcello’s Website</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Amazing announcements about Kotlin Multiplatform at Google I/O 2024]]></summary></entry><entry><title type="html">#84 - System Initiative with Adam Jacob</title><link href="https://thebakery.dev/84/" rel="alternate" type="text/html" title="#84 - System Initiative with Adam Jacob" /><published>2024-06-26T00:00:00+01:00</published><updated>2024-06-26T00:00:00+01:00</updated><id>https://thebakery.dev/084-system-initiative</id><content type="html" xml:base="https://thebakery.dev/84/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/1cudmXVt5yXItF1YNbG2zQ?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <p>Today we talk about a completely new topic: DevOps and System configuration. I’m really excited to have on stage <a href="https://twitter.com/adamhjk"><strong>Adam Jacob</strong></a>, CEO and Co-founder of <a href="https://www.systeminit.com/"><strong>System Initiative</strong></a>.</p>
 
@@ -522,58 +587,4 @@ The key feature of XWiki is its extensibility, thanks to its various number of p
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Property based testing with fast-check and Nicolas DUBIEN]]></summary></entry><entry><title type="html">#75 - Docuseal with Pete Matsyburka</title><link href="https://thebakery.dev/75/" rel="alternate" type="text/html" title="#75 - Docuseal with Pete Matsyburka" /><published>2024-02-06T00:00:00+00:00</published><updated>2024-02-06T00:00:00+00:00</updated><id>https://thebakery.dev/075-docuseal</id><content type="html" xml:base="https://thebakery.dev/75/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/0NzmK2w4Gk7ZyP9pF4dEJV?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<p>Time for a fresh new episode! This time we’ll touch on a really different topic: <strong>Digital Signing</strong>. Joining us today is <strong>Pete Matsyburka</strong>, co-founder of  <a href="https://www.docuseal.co/"><strong>Docuseal</strong></a>.</p>
-
-<p>Docuseal lets you sign documents online in a secure and easy way, similar to other popular alternative such as Docusign. The killer feature of Docuseal is that it is <strong>open source</strong>, and you can either self-host it or use the hosted version.</p>
-
-<p>Join us in this episode where Pete will tell us about his journey, how they bootstrapped Docuseal, and the future of the project.</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.11</strong> Intro</li>
-  <li><strong>00.57</strong> Episode Start</li>
-  <li><strong>01.15</strong> Pete’s Introduction</li>
-  <li><strong>01.50</strong> What is Docuseal?</li>
-  <li><strong>03.22</strong> Is Docuseal free?</li>
-  <li><strong>05.40</strong> How is Docuseal better than Docusign?</li>
-  <li><strong>08.16</strong> How does a e-signature works?</li>
-  <li><strong>11.50</strong> Stealing identity and e-signature</li>
-  <li><strong>13.05</strong> Self hosting and trust</li>
-  <li><strong>16.30</strong> Which programming language have you used?</li>
-  <li><strong>17.55</strong> Docuseal success stories</li>
-  <li><strong>19.07</strong> The story of Docuseal</li>
-  <li><strong>21.49</strong> Growing the company</li>
-  <li><strong>22.58</strong> The biggest challenge in building Docuseal</li>
-  <li><strong>25.19</strong> Docuseal &amp; OSS</li>
-  <li><strong>27.54</strong> Why Ruby on Rails?</li>
-  <li><strong>29.12</strong> Building Web Apps as fast as possible</li>
-  <li><strong>29.56</strong> What’s next for Docuseal?</li>
-  <li><strong>32.30</strong> Further reading</li>
-  <li><strong>33.29</strong> Where people can find you online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/docusealco/docuseal">docusealco/docuseal on GitHub</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://www.docuseal.co/">Docuseal Official Website</a></li>
-  <li><i class="fab fa-discord"></i> <a href="https://discord.com/invite/qygYCDGck9">Docuseal Discord server</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/docusealco">@docusealco on Twitter</a></li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/omohokcoj">@omohokcoj on GitHub</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Digital Signing in OSS with Docuseal and Pete Matsyburka]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Property based testing with fast-check and Nicolas DUBIEN]]></summary></entry></feed>

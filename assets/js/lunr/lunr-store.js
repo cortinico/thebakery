@@ -508,4 +508,10 @@ var store = [{
         "tags": [],
         "url": "/84/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#85 - Kotlin Multiplatform at Google I/O with Marcello Galhardo",
+        "excerpt":"Welcome to a special in-person episode of The Developers’ Bakery, recorded live in Berlin at Google I/O Connect 2024! There, I had the privilege of having on stage Marcello Galhardo, Software Engineer at Google. Marcello is working in the AndroidX team responsible for adding Kotlin Multiplatform support for several popular...","categories": [],
+        "tags": [],
+        "url": "/85/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

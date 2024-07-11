@@ -1,0 +1,669 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.26.2 by Michael Rose
+  Copyright 2013-2024 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>#85 - Kotlin Multiplatform at Google I/O with Marcello Galhardo - The Developers’ Bakery</title>
+<meta name="description" content="Amazing announcements about Kotlin Multiplatform at Google I/O 2024">
+
+
+  <meta name="author" content="The Developers' Bakery">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en">
+<meta property="og:site_name" content="The Developers' Bakery">
+<meta property="og:title" content="#85 - Kotlin Multiplatform at Google I/O with Marcello Galhardo">
+<meta property="og:url" content="https://thebakery.dev/85/">
+
+
+  <meta property="og:description" content="Amazing announcements about Kotlin Multiplatform at Google I/O 2024">
+
+
+
+  <meta property="og:image" content="https://thebakery.dev/assets/images/episodes/85-cover.png">
+
+
+
+  <meta name="twitter:site" content="@thebakerydev">
+  <meta name="twitter:title" content="#85 - Kotlin Multiplatform at Google I/O with Marcello Galhardo">
+  <meta name="twitter:description" content="Amazing announcements about Kotlin Multiplatform at Google I/O 2024">
+  <meta name="twitter:url" content="https://thebakery.dev/85/">
+
+  
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://thebakery.dev/assets/images/episodes/85-cover.png">
+  
+
+  
+    <meta name="twitter:creator" content="@thebakerydev">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="The Developers' Bakery">
+  
+
+  
+    <meta name="twitter:label2" content="Published in">
+    <meta name="twitter:data2" content="">
+  
+
+
+
+  <meta property="article:published_time" content="2024-07-10T00:00:00+01:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://thebakery.dev/85/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Nicola Corti",
+      "url": "https://thebakery.dev",
+      "sameAs": ["https://twitter.com/thebakerydev","https://twitter.com/cortinico"]
+    }
+  </script>
+
+
+
+
+
+
+
+
+<link href="/podcast.xml" type="application/rss+xml" rel="alternate" title="The Developers' Bakery Podcast Feed">
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="The Developers' Bakery Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script type="text/javascript">
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+  </head>
+
+  <body class="layout--single" dir="ltr">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          The Developers' Bakery
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/episodes"
+                
+                
+              >Episodes</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/about"
+                
+                
+              >About</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/contact"
+                
+                
+              >Contact</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=" background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/images/header-single-episode.png');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          #85 - Kotlin Multiplatform at Google I/O with Marcello Galhardo
+
+        
+      </h1>
+      
+      
+
+
+      
+    </div>
+  
+  
+</div>
+
+
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="https://thebakery.dev/">
+        <img src="/assets/images/avatar.png" alt="The Developers' Bakery" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="https://thebakery.dev/" itemprop="url">The Developers' Bakery</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>A Podcast about Developer tools and libraries</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">London, UK</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-spotify" aria-hidden="true"></i><span class="label">Spotify</span></a></li>
+          
+        
+          
+            <li><a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fas fa-fw fa-podcast" aria-hidden="true"></i><span class="label">Apple Podcasts</span></a></li>
+          
+        
+          
+            <li><a href="https://pca.st/vq8ml6pl" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fas fa-fw fa-microphone-alt" aria-hidden="true"></i><span class="label">Pocket Casts</span></a></li>
+          
+        
+          
+            <li><a href="https://buymeacoffee.com/cortinico" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fas fa-fw fa-mug-hot" aria-hidden="true"></i><span class="label">Buy me a Coffee</span></a></li>
+          
+        
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:info@thebakery.dev" rel="me" class="u-email">
+            <meta itemprop="email" content="info@thebakery.dev" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+        <li>
+          <a href="https://twitter.com/thebakerydev" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+            <i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="#85 - Kotlin Multiplatform at Google I/O with Marcello Galhardo">
+    <meta itemprop="description" content="Amazing announcements about Kotlin Multiplatform at Google I/O 2024">
+    <meta itemprop="datePublished" content="2024-07-10T00:00:00+01:00">
+    
+
+    <div class="page__inner-wrap">
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p><img src="/assets/images/posts/ioconnect24.jpg" alt="io connect photo" /></p>
+
+<p>Welcome to a special <strong>in-person episode</strong> of The Developers’ Bakery, recorded live in <strong>Berlin</strong> at Google I/O Connect 2024!</p>
+
+<p>There, I had the privilege of having on stage <a href="https://twitter.com/marcellogalhard"><strong>Marcello Galhardo</strong></a>, Software Engineer at Google. Marcello is working in the AndroidX team responsible for adding Kotlin Multiplatform support for several popular AndroidX libraries.</p>
+
+<p>If you’re an Android Developer, you probably used one of those libraries in your projects, such as Lifecycle or Room. Marcello is going to walk us through the latest announcements about Kotlin Multiplatform at Google I/O, and how they’re going to impact the way we build Android apps.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.50</strong> Episode Start</li>
+  <li><strong>01.37</strong> Marcelo’s Introduction</li>
+  <li><strong>02.18</strong> What is Kotlin Multiplatform?</li>
+  <li><strong>03.11</strong> KMP @ Google IO</li>
+  <li><strong>04.00</strong> KMP announcement excitement</li>
+  <li><strong>05.32</strong> Convince us to use KMP for a new app</li>
+  <li><strong>07.20</strong> KMP support in AndroidX libraries</li>
+  <li><strong>08.29</strong> Migrating from Android to KMP</li>
+  <li><strong>09.02</strong> Which library has you contributed to?</li>
+  <li><strong>09.27</strong> Which library was the hardest to KMP migrate?</li>
+  <li><strong>10.28</strong> How many developers are involved in KMP compatibility?</li>
+  <li><strong>11.28</strong> alpha and versioning for AndroidX libraries</li>
+  <li><strong>12.57</strong> Where is the AndroidX source code?</li>
+  <li><strong>13.42</strong> KMP compatible vs KMP supported</li>
+  <li><strong>15.19</strong> Google’s stance on cross-platform</li>
+  <li><strong>16.59</strong> How is Google is using KMP?</li>
+  <li><strong>17.53</strong> Marcello’s journey</li>
+  <li><strong>18.19</strong> Foldable devices and large screens</li>
+  <li><strong>20.17</strong> Which IDE to use for KMP?</li>
+  <li><strong>22.25</strong> AI and KMP</li>
+  <li><strong>25.49</strong> Further reading</li>
+  <li><strong>26.42</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://developer.android.com/kotlin/multiplatform">Kotlin Multiplafrom Mobile Overview</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://android-developers.googleblog.com/2024/05/android-support-for-kotlin-multiplatform-to-share-business-logic-across-mobile-web-server-desktop.html">Android Support for KMP Announcement</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://developers.googleblog.com/en/making-development-across-platforms-easier-for-developers/">Making development across platforms easier for developers</a></li>
+      <li><i class="fab fa-youtube"></i> Kotlin Multiplatform in Google Workspace by Jason Parachoniak - <a href="https://kotlinconf.com/talks/581520/">Video from KotlinConf</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/marcellogalhardo">@marcellogalhardo on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/marcellogalhard">@marcellogalhard on Twitter</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://marcellogalhardo.dev/">Marcello’s Website</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Posted:</strong> <time class="dt-published" datetime="2024-07-10T00:00:00+01:00">July 10, 2024</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?via=thebakerydev&text=%2385+-+Kotlin+Multiplatform+at+Google+I%2FO+with+Marcello+Galhardo%20https%3A%2F%2Fthebakery.dev%2F85%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fthebakery.dev%2F85%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://thebakery.dev/85/" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/84/" class="pagination--pager" title="#84 - System Initiative with Adam Jacob
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+      <div class="page__comments">
+  
+  
+</div>
+
+    
+  </article>
+
+  
+  
+    
+<div class="page__related">
+  
+  <h2 class="page__related-title">You may also enjoy</h2>
+  <div class="grid__wrapper">
+    
+      
+      
+
+
+
+<div class="grid__item" style="position: relative">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    <div style="position:relative;">
+      
+        <div class="archive__item-teaser" style="background-image: url(https://thebakery.dev/assets/images/header-single-episode.png)"></div>
+      
+      <div class="archive__item_titlecontainer">
+        <h2 class="archive__item-title" itemprop="headline">
+            <a href="https://thebakery.dev/84/" rel="permalink">#84 - System Initiative with Adam Jacob
+</a>
+        </h2>
+        <h3 class="archive__date">26 Jun 2024</h3>
+      </div>
+    </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">Next-gen DevOps with Adam Jacob and System Initiative
+</p>
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item" style="position: relative">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    <div style="position:relative;">
+      
+        <div class="archive__item-teaser" style="background-image: url(https://thebakery.dev/assets/images/header-single-episode.png)"></div>
+      
+      <div class="archive__item_titlecontainer">
+        <h2 class="archive__item-title" itemprop="headline">
+            <a href="https://thebakery.dev/83/" rel="permalink">#83 - Hasura with Tanmai Gopal
+</a>
+        </h2>
+        <h3 class="archive__date">11 Jun 2024</h3>
+      </div>
+    </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">Build and scale your GraphQL APIs with Hasura and Tanmai Gopal
+</p>
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item" style="position: relative">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    <div style="position:relative;">
+      
+        <div class="archive__item-teaser" style="background-image: url(https://thebakery.dev/assets/images/header-single-episode.png)"></div>
+      
+      <div class="archive__item_titlecontainer">
+        <h2 class="archive__item-title" itemprop="headline">
+            <a href="https://thebakery.dev/82/" rel="permalink">#82 - Mautic with Ruth Cheesley
+</a>
+        </h2>
+        <h3 class="archive__date">29 May 2024</h3>
+      </div>
+    </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">Marketing Automation with Mautic and Ruth Cheesley
+</p>
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item" style="position: relative">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    <div style="position:relative;">
+      
+        <div class="archive__item-teaser" style="background-image: url(https://thebakery.dev/assets/images/header-single-episode.png)"></div>
+      
+      <div class="archive__item_titlecontainer">
+        <h2 class="archive__item-title" itemprop="headline">
+            <a href="https://thebakery.dev/81/" rel="permalink">#81 - Fleet with Zach Wasserman
+</a>
+        </h2>
+        <h3 class="archive__date">08 May 2024</h3>
+      </div>
+    </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">Discovering the world of device management, with Fleet and Zach Wasserman.
+</p>
+  </article>
+</div>
+
+    
+  </div>
+</div>
+
+  
+  
+</div>
+
+      
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2024 <a href="https://thebakery.dev">The Developers' Bakery</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+  <script>
+  window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+  ga('create','UA-71657172-3','auto');
+  ga('set', 'anonymizeIp', false);
+  ga('send','pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

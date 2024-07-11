@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Mon, 08 Jul 2024 10:27:19 +0100</lastBuildDate>
+<lastBuildDate>Thu, 11 Jul 2024 16:28:31 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,105 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Kotlin Multiplatform at Google I/O with Marcello Galhardo</title>
+        <itunes:title>Kotlin Multiplatform at Google I/O with Marcello Galhardo</itunes:title>
+        <link>https://thebakery.dev/85/</link>
+        <pubDate>Wed, 10 Jul 2024 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/85/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>85</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/85-thedevelopersbakery-kmp.m4a" length="11341007" type="audio/mpeg" />
+
+        <itunes:subtitle>Amazing announcements about Kotlin Multiplatform at Google I/O 2024</itunes:subtitle>
+        <itunes:summary>Amazing announcements about Kotlin Multiplatform at Google I/O 2024</itunes:summary>
+
+        
+        <description>
+            <![CDATA[Welcome to a special in-person episode of The Developers’ Bakery, recorded live in Berlin at Google I/O Connect 2024! There, I had the privilege of having on stage Marcello Galhardo, Software Engineer at Google. Marcello is working in the AndroidX team responsible for adding Kotlin Multiplatform support for several popular...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p><img src="/assets/images/posts/ioconnect24.jpg" alt="io connect photo" /></p>
+
+<p>Welcome to a special <strong>in-person episode</strong> of The Developers’ Bakery, recorded live in <strong>Berlin</strong> at Google I/O Connect 2024!</p>
+
+<p>There, I had the privilege of having on stage <a href="https://twitter.com/marcellogalhard"><strong>Marcello Galhardo</strong></a>, Software Engineer at Google. Marcello is working in the AndroidX team responsible for adding Kotlin Multiplatform support for several popular AndroidX libraries.</p>
+
+<p>If you’re an Android Developer, you probably used one of those libraries in your projects, such as Lifecycle or Room. Marcello is going to walk us through the latest announcements about Kotlin Multiplatform at Google I/O, and how they’re going to impact the way we build Android apps.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.50</strong> Episode Start</li>
+  <li><strong>01.37</strong> Marcelo’s Introduction</li>
+  <li><strong>02.18</strong> What is Kotlin Multiplatform?</li>
+  <li><strong>03.11</strong> KMP @ Google IO</li>
+  <li><strong>04.00</strong> KMP announcement excitement</li>
+  <li><strong>05.32</strong> Convince us to use KMP for a new app</li>
+  <li><strong>07.20</strong> KMP support in AndroidX libraries</li>
+  <li><strong>08.29</strong> Migrating from Android to KMP</li>
+  <li><strong>09.02</strong> Which library has you contributed to?</li>
+  <li><strong>09.27</strong> Which library was the hardest to KMP migrate?</li>
+  <li><strong>10.28</strong> How many developers are involved in KMP compatibility?</li>
+  <li><strong>11.28</strong> alpha and versioning for AndroidX libraries</li>
+  <li><strong>12.57</strong> Where is the AndroidX source code?</li>
+  <li><strong>13.42</strong> KMP compatible vs KMP supported</li>
+  <li><strong>15.19</strong> Google’s stance on cross-platform</li>
+  <li><strong>16.59</strong> How is Google is using KMP?</li>
+  <li><strong>17.53</strong> Marcello’s journey</li>
+  <li><strong>18.19</strong> Foldable devices and large screens</li>
+  <li><strong>20.17</strong> Which IDE to use for KMP?</li>
+  <li><strong>22.25</strong> AI and KMP</li>
+  <li><strong>25.49</strong> Further reading</li>
+  <li><strong>26.42</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://developer.android.com/kotlin/multiplatform">Kotlin Multiplafrom Mobile Overview</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://android-developers.googleblog.com/2024/05/android-support-for-kotlin-multiplatform-to-share-business-logic-across-mobile-web-server-desktop.html">Android Support for KMP Announcement</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://developers.googleblog.com/en/making-development-across-platforms-easier-for-developers/">Making development across platforms easier for developers</a></li>
+      <li><i class="fab fa-youtube"></i> Kotlin Multiplatform in Google Workspace by Jason Parachoniak - <a href="https://kotlinconf.com/talks/581520/">Video from KotlinConf</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/marcellogalhardo">@marcellogalhardo on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/marcellogalhard">@marcellogalhard on Twitter</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://marcellogalhardo.dev/">Marcello’s Website</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/85-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>27:54</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>System Initiative with Adam Jacob</title>
