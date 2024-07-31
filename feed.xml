@@ -1,4 +1,60 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2024-07-11T16:28:31+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#85 - Kotlin Multiplatform at Google I/O with Marcello Galhardo</title><link href="https://thebakery.dev/85/" rel="alternate" type="text/html" title="#85 - Kotlin Multiplatform at Google I/O with Marcello Galhardo" /><published>2024-07-10T00:00:00+01:00</published><updated>2024-07-10T00:00:00+01:00</updated><id>https://thebakery.dev/085-kotlin-multiplatform-at-google-io</id><content type="html" xml:base="https://thebakery.dev/85/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2024-07-31T14:00:08+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#86 - Dagster with Sandy Ryza</title><link href="https://thebakery.dev/86/" rel="alternate" type="text/html" title="#86 - Dagster with Sandy Ryza" /><published>2024-07-31T00:00:00+01:00</published><updated>2024-07-31T00:00:00+01:00</updated><id>https://thebakery.dev/086-dagster</id><content type="html" xml:base="https://thebakery.dev/86/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>Today is time to talk about Data Pipelines and Data Engineering. I’m really excited to have on stage <a href="https://twitter.com/sryza"><strong>Sandy Ryza</strong></a>, Lead Engineer of <a href="https://dagster.io/"><strong>Dagster</strong></a>.</p>
+
+<p>If you’re a software engineer and you’re afraid of dealing with <em>data pipelines</em>, fear no more! Sandy is on a mission to make data pipelines easier to handle for software engineers. Join us in this episode to learn more about Dagster, and how it can make it easier for you to build and manage your data assets.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.46</strong> Episode Start</li>
+  <li><strong>01.09</strong> Sandy’s Introduction</li>
+  <li><strong>02.29</strong> What is Dagster?</li>
+  <li><strong>05.14</strong> How is Dagster affecting software engineers?</li>
+  <li><strong>06.13</strong> Data engineering as software engineering</li>
+  <li><strong>11.34</strong> Cloud vs Self-hosted</li>
+  <li><strong>13.42</strong> Dagster Plus vs Dagster Plus Pro</li>
+  <li><strong>14.41</strong> The history of Dagster</li>
+  <li><strong>19.43</strong> Who’s maintaining Dagster?</li>
+  <li><strong>20.59</strong> Contributing to Apache Spark</li>
+  <li><strong>24.42</strong> Being an Open Source Data Scientist</li>
+  <li><strong>29.18</strong> Speaking a different language than SWE</li>
+  <li><strong>31.44</strong> Moving from SWE to Data Scientist</li>
+  <li><strong>34.38</strong> Approaching the Data Scientist world</li>
+  <li><strong>35.59</strong> What’s next for Dagster</li>
+  <li><strong>37.53</strong> Further reading</li>
+  <li><strong>39.46</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/dagster-io/dagster">dagster-io/dagster on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://dagster.io/">Dagster Official Website</a></li>
+  <li>Mentioned Resources
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://dagster.io/">Getting Started with Dagster</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://courses.dagster.io/">Dagster University</a></li>
+      <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/channel/UCfLnv9X8jyHTe6gJ4hVBo9Q/videos">Dagster on YouTube</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/sryza">@sryza on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/s_ryz">@s_ryz on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[We venture in the world of Data Pipelines with Dagster and Sandy Ryza]]></summary></entry><entry><title type="html">#85 - Kotlin Multiplatform at Google I/O with Marcello Galhardo</title><link href="https://thebakery.dev/85/" rel="alternate" type="text/html" title="#85 - Kotlin Multiplatform at Google I/O with Marcello Galhardo" /><published>2024-07-10T00:00:00+01:00</published><updated>2024-07-10T00:00:00+01:00</updated><id>https://thebakery.dev/085-kotlin-multiplatform-at-google-io</id><content type="html" xml:base="https://thebakery.dev/85/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/6QqTqenPEp3EwwFQ8fCCFu?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <p><img src="/assets/images/posts/ioconnect24.jpg" alt="io connect photo" /></p>
 
@@ -534,57 +590,4 @@ The key feature of XWiki is its extensibility, thanks to its various number of p
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Building wikis with XWiki and Vincent Massol]]></summary></entry><entry><title type="html">#76 - fast-check with Nicolas DUBIEN</title><link href="https://thebakery.dev/76/" rel="alternate" type="text/html" title="#76 - fast-check with Nicolas DUBIEN" /><published>2024-02-21T00:00:00+00:00</published><updated>2024-02-21T00:00:00+00:00</updated><id>https://thebakery.dev/076-fast-check</id><content type="html" xml:base="https://thebakery.dev/76/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/4FANwPXUfVdGUtSnKQx2yf?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<p>Time for a new episode of The Developers’ Bakery! Today we’re back talking about testing, but we’ll have the opportunity to learn a new approach we haven’t talked about in this podcast yet: <strong>Property Based Testing</strong>.</p>
-
-<p>Joining us today is <a href="https://twitter.com/ndubien"><strong>Nicolas DUBIEN</strong></a>, creator of <a href="https://fast-check.dev/"><strong>fast-check</strong></a>, a library to write property-based tests for TypeScript and JavaScript.</p>
-
-<p>Nicolas will guide us through the world of property-based testing, explaining how fast-check can help us to write tests that are offering better coverage of our code.</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.00</strong> Intro</li>
-  <li><strong>00.45</strong> Episode Start</li>
-  <li><strong>01.09</strong> Nicolas’ Introduction</li>
-  <li><strong>02.17</strong> What is fast-check?</li>
-  <li><strong>03.41</strong> Property based testing</li>
-  <li><strong>05.36</strong> Generating inputs</li>
-  <li><strong>08.57</strong> Who can use fast-check?</li>
-  <li><strong>11.11</strong> Real world usages</li>
-  <li><strong>14.22</strong> fast-check to test fast-check</li>
-  <li><strong>18.25</strong> Readability of tests</li>
-  <li><strong>20.43</strong> Onboarding on property-based testing</li>
-  <li><strong>22.57</strong> The fast-check ecosystem</li>
-  <li><strong>25.51</strong> The history of fast-check</li>
-  <li><strong>29.58</strong> Who’s maintaining fast-check?</li>
-  <li><strong>32.12</strong> Growing fast-check</li>
-  <li><strong>33.01</strong> Good first issues</li>
-  <li><strong>35.18</strong> What’s next for fast-check?</li>
-  <li><strong>39.50</strong> Further reading</li>
-  <li><strong>41.38</strong> Where people can find you online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/dubzzz/fast-check">dubzzz/fast-check on GitHub</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://fast-check.dev/">fast-check Official Website</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://fast-check.dev/blog/">fast-check Blog</a></li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/dubzzz">@dubzzz on GitHub</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/ndubien">@ndubien on Twitter</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Property based testing with fast-check and Nicolas DUBIEN]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Building wikis with XWiki and Vincent Massol]]></summary></entry></feed>

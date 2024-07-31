@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Thu, 11 Jul 2024 16:28:31 +0100</lastBuildDate>
+<lastBuildDate>Wed, 31 Jul 2024 14:00:08 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,96 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Dagster with Sandy Ryza</title>
+        <itunes:title>Dagster with Sandy Ryza</itunes:title>
+        <link>https://thebakery.dev/86/</link>
+        <pubDate>Wed, 31 Jul 2024 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/86/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>86</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/86-thedevelopersbakery-dagster.m4a" length="16174062" type="audio/mpeg" />
+
+        <itunes:subtitle>We venture in the world of Data Pipelines with Dagster and Sandy Ryza</itunes:subtitle>
+        <itunes:summary>We venture in the world of Data Pipelines with Dagster and Sandy Ryza</itunes:summary>
+
+        
+        <description>
+            <![CDATA[Today is time to talk about Data Pipelines and Data Engineering. I’m really excited to have on stage Sandy Ryza, Lead Engineer of Dagster. If you’re a software engineer and you’re afraid of dealing with data pipelines, fear no more! Sandy is on a mission to make data pipelines easier...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>Today is time to talk about Data Pipelines and Data Engineering. I’m really excited to have on stage <a href="https://twitter.com/sryza"><strong>Sandy Ryza</strong></a>, Lead Engineer of <a href="https://dagster.io/"><strong>Dagster</strong></a>.</p>
+
+<p>If you’re a software engineer and you’re afraid of dealing with <em>data pipelines</em>, fear no more! Sandy is on a mission to make data pipelines easier to handle for software engineers. Join us in this episode to learn more about Dagster, and how it can make it easier for you to build and manage your data assets.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.46</strong> Episode Start</li>
+  <li><strong>01.09</strong> Sandy’s Introduction</li>
+  <li><strong>02.29</strong> What is Dagster?</li>
+  <li><strong>05.14</strong> How is Dagster affecting software engineers?</li>
+  <li><strong>06.13</strong> Data engineering as software engineering</li>
+  <li><strong>11.34</strong> Cloud vs Self-hosted</li>
+  <li><strong>13.42</strong> Dagster Plus vs Dagster Plus Pro</li>
+  <li><strong>14.41</strong> The history of Dagster</li>
+  <li><strong>19.43</strong> Who’s maintaining Dagster?</li>
+  <li><strong>20.59</strong> Contributing to Apache Spark</li>
+  <li><strong>24.42</strong> Being an Open Source Data Scientist</li>
+  <li><strong>29.18</strong> Speaking a different language than SWE</li>
+  <li><strong>31.44</strong> Moving from SWE to Data Scientist</li>
+  <li><strong>34.38</strong> Approaching the Data Scientist world</li>
+  <li><strong>35.59</strong> What’s next for Dagster</li>
+  <li><strong>37.53</strong> Further reading</li>
+  <li><strong>39.46</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/dagster-io/dagster">dagster-io/dagster on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://dagster.io/">Dagster Official Website</a></li>
+  <li>Mentioned Resources
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://dagster.io/">Getting Started with Dagster</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://courses.dagster.io/">Dagster University</a></li>
+      <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/channel/UCfLnv9X8jyHTe6gJ4hVBo9Q/videos">Dagster on YouTube</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/sryza">@sryza on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/s_ryz">@s_ryz on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/86-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>40:39</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Kotlin Multiplatform at Google I/O with Marcello Galhardo</title>

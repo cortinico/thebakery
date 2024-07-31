@@ -514,4 +514,10 @@ var store = [{
         "tags": [],
         "url": "/85/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#86 - Dagster with Sandy Ryza",
+        "excerpt":"Today is time to talk about Data Pipelines and Data Engineering. I’m really excited to have on stage Sandy Ryza, Lead Engineer of Dagster. If you’re a software engineer and you’re afraid of dealing with data pipelines, fear no more! Sandy is on a mission to make data pipelines easier...","categories": [],
+        "tags": [],
+        "url": "/86/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]
