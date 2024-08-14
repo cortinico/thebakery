@@ -1,4 +1,65 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2024-07-31T14:00:08+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#86 - Dagster with Sandy Ryza</title><link href="https://thebakery.dev/86/" rel="alternate" type="text/html" title="#86 - Dagster with Sandy Ryza" /><published>2024-07-31T00:00:00+01:00</published><updated>2024-07-31T00:00:00+01:00</updated><id>https://thebakery.dev/086-dagster</id><content type="html" xml:base="https://thebakery.dev/86/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2024-08-14T15:42:03+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#87 - Redpanda with Christina Lin</title><link href="https://thebakery.dev/87/" rel="alternate" type="text/html" title="#87 - Redpanda with Christina Lin" /><published>2024-08-14T00:00:00+01:00</published><updated>2024-08-14T00:00:00+01:00</updated><id>https://thebakery.dev/087-redpanda</id><content type="html" xml:base="https://thebakery.dev/87/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>We keep on exploring the world of data with another amazing guest: <a href="https://twitter.com/Christina_wm"><strong>Christina Lin</strong></a>, Developer Advocate at <a href="https://www.redpanda.com/"><strong>RedPanda</strong></a>.</p>
+
+<p>RedPanda is a data streaming platform, entirely built with C++ that aims to be faster and more efficient than Kafka. In this episode, Christina tells us all about RedPanda, its features, and how it’s different from other streaming platforms.</p>
+
+<p>Christina also shares her journey into Developer Advocacy, and share some of her tips to create engaging content for developers.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.46</strong> Episode Start</li>
+  <li><strong>01.10</strong> Christina’s Introduction</li>
+  <li><strong>02.01</strong> What is RedPanda?</li>
+  <li><strong>03.04</strong> RedPanda in action</li>
+  <li><strong>05.46</strong> RedPanda features</li>
+  <li><strong>09.53</strong> Picking C++</li>
+  <li><strong>13.41</strong> Attracting C++ contributors</li>
+  <li><strong>15.20</strong> How faster is RedPanda?</li>
+  <li><strong>17.10</strong> Self-hosting vs Cloud</li>
+  <li><strong>20.11</strong> Single binary architecutre</li>
+  <li><strong>22.29</strong> The history of RedPanda</li>
+  <li><strong>24.59</strong> Who’s maintaining RedPanda?</li>
+  <li><strong>26.35</strong> How Christina got involved in RedPanda</li>
+  <li><strong>28.29</strong> Being a DevRel</li>
+  <li><strong>31.18</strong> The best way to reach developers</li>
+  <li><strong>33.39</strong> The art of drawings</li>
+  <li><strong>35.42</strong> DevRel success metrics</li>
+  <li><strong>37.38</strong> From SWE to DevRel</li>
+  <li><strong>39.21</strong> Further reading</li>
+  <li><strong>40.42</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/redpanda-data/redpanda">redpanda-data/redpanda on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://www.redpanda.com/">Redpanda Official Website</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/c/RedpandaData">Redpanda Youtube Channel</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://university.redpanda.com">Redpanda University</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/weimeilin79">@weimeilin79 on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/Christina_wm">@Christina_wm on Twitter</a></li>
+  <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/weimeilin/">Christina Lin on Linkedin</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Super fast data streaming platform with Christina Lin, Developer Advocate at Redpanda]]></summary></entry><entry><title type="html">#86 - Dagster with Sandy Ryza</title><link href="https://thebakery.dev/86/" rel="alternate" type="text/html" title="#86 - Dagster with Sandy Ryza" /><published>2024-07-31T00:00:00+01:00</published><updated>2024-07-31T00:00:00+01:00</updated><id>https://thebakery.dev/086-dagster</id><content type="html" xml:base="https://thebakery.dev/86/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/1eMwYnEyg6KzVnhynRDdsf?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <p>Today is time to talk about Data Pipelines and Data Engineering. I’m really excited to have on stage <a href="https://twitter.com/sryza"><strong>Sandy Ryza</strong></a>, Lead Engineer of <a href="https://dagster.io/"><strong>Dagster</strong></a>.</p>
 
@@ -528,66 +589,4 @@
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Screenshot Testing on Android without a device? Discover how with Roborazzi and Takahiro Menju]]></summary></entry><entry><title type="html">#77 - XWiki with Vincent Massol</title><link href="https://thebakery.dev/77/" rel="alternate" type="text/html" title="#77 - XWiki with Vincent Massol" /><published>2024-03-07T00:00:00+00:00</published><updated>2024-03-07T00:00:00+00:00</updated><id>https://thebakery.dev/077-xwiki</id><content type="html" xml:base="https://thebakery.dev/77/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/3uCxQR8u9FXCNHVveHp1ys?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<p>Today we talk about wikis! And I’m excited to have on stage <a href="https://twitter.com/vmassol"><strong>Vincent Massol</strong></a>, CTO of XWiki.</p>
-
-<p><a href="https://xwiki.org/"><strong>XWiki</strong></a> is an open-source tool to create wikis for your team, your project, or your company. Think of it as a competitor for Confluence.
-The key feature of XWiki is its extensibility, thanks to its various number of plugins that allow you to cover a variety of use cases, from documentation to knowledge base.</p>
-
-<p>Join us in this episode where Vincent will tell us the story of XWiki and how it grew to be used by companies like Amazon &amp; Airbus among others. Oh, and did you know they commit directly to main? Let’s find out more about that!</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.11</strong> Intro</li>
-  <li><strong>00.57</strong> Episode Start</li>
-  <li><strong>01.16</strong> Vincent’s Introduction</li>
-  <li><strong>03.20</strong> A Confluence alternative</li>
-  <li><strong>07.12</strong> XWiki features</li>
-  <li><strong>10.49</strong> Cloud vs Self-hosting</li>
-  <li><strong>12.43</strong> XWiki Business Model</li>
-  <li><strong>15.02</strong> Who’s using XWiki</li>
-  <li><strong>17.02</strong> Extending XWiki</li>
-  <li><strong>21.03</strong> Plugins</li>
-  <li><strong>22.44</strong> The Stack &amp; Scripting Languages</li>
-  <li><strong>25.33</strong> Converting to Kotlin?</li>
-  <li><strong>27.31</strong> The Story of XWiki</li>
-  <li><strong>29.59</strong> How Vincent got involved in XWiki?</li>
-  <li><strong>34.27</strong> When a Jira competitor?</li>
-  <li><strong>35.11</strong> The XWiki Community</li>
-  <li><strong>38.43</strong> Committing directly to main</li>
-  <li><strong>42.36</strong> Project Cristal</li>
-  <li><strong>47.06</strong> Further reading</li>
-  <li><strong>49.00</strong> Where people can find you online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/xwiki/xwiki-platform">xwiki/xwiki-platform on GitHub</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://xwiki.org/">XWiki Official Website</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://dev.xwiki.org/">XWiki Developer Reference</a></li>
-  <li>Mentioned Resources:
-    <ul>
-      <li><i class="fab fa-youtube"></i> <a href="https://fosdem.org/2024/schedule/event/fosdem-2024-1830-20-years-of-open-source-building-xwiki-and-cryptpad/">20 Years of Open Source building XWiki and CryptPad - FOSDEM 2024</a></li>
-      <li><i class="fab fa-youtube"></i> <a href="https://peertube.xwiki.com/">XWiki’s Peertube</a></li>
-    </ul>
-  </li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/vmassol">@vmassol on GitHub</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/vmassol">@vmassol on Twitter</a></li>
-  <li><i class="fas fa-link"></i> <a href="http://massol.net">Vincent’s Personal Website</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Building wikis with XWiki and Vincent Massol]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Screenshot Testing on Android without a device? Discover how with Roborazzi and Takahiro Menju]]></summary></entry></feed>

@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Wed, 31 Jul 2024 14:00:08 +0100</lastBuildDate>
+<lastBuildDate>Wed, 14 Aug 2024 15:42:03 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,101 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Redpanda with Christina Lin</title>
+        <itunes:title>Redpanda with Christina Lin</itunes:title>
+        <link>https://thebakery.dev/87/</link>
+        <pubDate>Wed, 14 Aug 2024 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/87/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>87</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/87-thedevelopersbakery-redpanda.m4a" length="16732267" type="audio/mpeg" />
+
+        <itunes:subtitle>Super fast data streaming platform with Christina Lin, Developer Advocate at Redpanda</itunes:subtitle>
+        <itunes:summary>Super fast data streaming platform with Christina Lin, Developer Advocate at Redpanda</itunes:summary>
+
+        
+        <description>
+            <![CDATA[We keep on exploring the world of data with another amazing guest: Christina Lin, Developer Advocate at RedPanda. RedPanda is a data streaming platform, entirely built with C++ that aims to be faster and more efficient than Kafka. In this episode, Christina tells us all about RedPanda, its features, and...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>We keep on exploring the world of data with another amazing guest: <a href="https://twitter.com/Christina_wm"><strong>Christina Lin</strong></a>, Developer Advocate at <a href="https://www.redpanda.com/"><strong>RedPanda</strong></a>.</p>
+
+<p>RedPanda is a data streaming platform, entirely built with C++ that aims to be faster and more efficient than Kafka. In this episode, Christina tells us all about RedPanda, its features, and how it’s different from other streaming platforms.</p>
+
+<p>Christina also shares her journey into Developer Advocacy, and share some of her tips to create engaging content for developers.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.46</strong> Episode Start</li>
+  <li><strong>01.10</strong> Christina’s Introduction</li>
+  <li><strong>02.01</strong> What is RedPanda?</li>
+  <li><strong>03.04</strong> RedPanda in action</li>
+  <li><strong>05.46</strong> RedPanda features</li>
+  <li><strong>09.53</strong> Picking C++</li>
+  <li><strong>13.41</strong> Attracting C++ contributors</li>
+  <li><strong>15.20</strong> How faster is RedPanda?</li>
+  <li><strong>17.10</strong> Self-hosting vs Cloud</li>
+  <li><strong>20.11</strong> Single binary architecutre</li>
+  <li><strong>22.29</strong> The history of RedPanda</li>
+  <li><strong>24.59</strong> Who’s maintaining RedPanda?</li>
+  <li><strong>26.35</strong> How Christina got involved in RedPanda</li>
+  <li><strong>28.29</strong> Being a DevRel</li>
+  <li><strong>31.18</strong> The best way to reach developers</li>
+  <li><strong>33.39</strong> The art of drawings</li>
+  <li><strong>35.42</strong> DevRel success metrics</li>
+  <li><strong>37.38</strong> From SWE to DevRel</li>
+  <li><strong>39.21</strong> Further reading</li>
+  <li><strong>40.42</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/redpanda-data/redpanda">redpanda-data/redpanda on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://www.redpanda.com/">Redpanda Official Website</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/c/RedpandaData">Redpanda Youtube Channel</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://university.redpanda.com">Redpanda University</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/weimeilin79">@weimeilin79 on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/Christina_wm">@Christina_wm on Twitter</a></li>
+  <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/weimeilin/">Christina Lin on Linkedin</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/87-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>42:07</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Dagster with Sandy Ryza</title>

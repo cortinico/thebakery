@@ -520,4 +520,10 @@ var store = [{
         "tags": [],
         "url": "/86/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#87 - Redpanda with Christina Lin",
+        "excerpt":"We keep on exploring the world of data with another amazing guest: Christina Lin, Developer Advocate at RedPanda. RedPanda is a data streaming platform, entirely built with C++ that aims to be faster and more efficient than Kafka. In this episode, Christina tells us all about RedPanda, its features, and...","categories": [],
+        "tags": [],
+        "url": "/87/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]
