@@ -526,4 +526,10 @@ var store = [{
         "tags": [],
         "url": "/87/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#88 - Charty with Himanshu Singh",
+        "excerpt":"It’s time to spotlight another amazing Android library in this episode of The Developers’ Bakery! Today, I’m joined by Himanshu Singh, author and maintainer of Charty. Charty is a chart library entirely written for Jetpack Compose. In this episode, Himanshu will walk us through the complexities of building custom UI...","categories": [],
+        "tags": [],
+        "url": "/88/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

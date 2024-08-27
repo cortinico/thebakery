@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Wed, 14 Aug 2024 15:42:03 +0100</lastBuildDate>
+<lastBuildDate>Tue, 27 Aug 2024 15:36:45 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,90 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Charty with Himanshu Singh</title>
+        <itunes:title>Charty with Himanshu Singh</itunes:title>
+        <link>https://thebakery.dev/88/</link>
+        <pubDate>Tue, 27 Aug 2024 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/88/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>88</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/88-thedevelopersbakery-charty.m4a" length="14158630" type="audio/mpeg" />
+
+        <itunes:subtitle>Charts for Jetpack Compose with Charty and Himanshu Singh</itunes:subtitle>
+        <itunes:summary>Charts for Jetpack Compose with Charty and Himanshu Singh</itunes:summary>
+
+        
+        <description>
+            <![CDATA[It’s time to spotlight another amazing Android library in this episode of The Developers’ Bakery! Today, I’m joined by Himanshu Singh, author and maintainer of Charty. Charty is a chart library entirely written for Jetpack Compose. In this episode, Himanshu will walk us through the complexities of building custom UI...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>It’s time to spotlight another amazing Android library in this episode of The Developers’ Bakery! Today, I’m joined by <a href="https://twitter.com/hi_man_shoe"><strong>Himanshu Singh</strong></a>, author and maintainer of <a href="https://github.com/hi-manshu/Charty"><strong>Charty</strong></a>.</p>
+
+<p>Charty is a chart library entirely written for Jetpack Compose. In this episode, Himanshu will walk us through the complexities of building custom UI libraries and his passion for open-source.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.46</strong> Episode Start</li>
+  <li><strong>01.19</strong> Himanshu’s Introduction</li>
+  <li><strong>02.19</strong> What is Charty?</li>
+  <li><strong>03.43</strong> What is Jetpack Compose</li>
+  <li><strong>05.43</strong> The story of Charty</li>
+  <li><strong>08.54</strong> MPAndroidChart vs Charty</li>
+  <li><strong>10.27</strong> Writing libraries for Compose</li>
+  <li><strong>12.28</strong> The challenges of building a chart library</li>
+  <li><strong>14.53</strong> Learning to say no</li>
+  <li><strong>17.34</strong> The most requested feature</li>
+  <li><strong>18.48</strong> Making Charty multiplatform</li>
+  <li><strong>19.53</strong> Charty 2.0.0?</li>
+  <li><strong>22.21</strong> How to contribute to Charty?</li>
+  <li><strong>26.22</strong> How open-source accelerated your career</li>
+  <li><strong>29.59</strong> Which other libraries are you maintaining?</li>
+  <li><strong>31.46</strong> Further reading</li>
+  <li><strong>33.12</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/hi-manshu/Charty">hi-manshu/Charty on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://hi-manshu.github.io/Charty/index.html">Charty Documentation</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/hi-manshu/Kalendar">hi-manshu/Kalendar on GitHub</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/hi-manshu">@hi-manshu on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/hi_man_shoe">@hi_man_shoe on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/88-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>34:48</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Redpanda with Christina Lin</title>

@@ -1,4 +1,54 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2024-08-14T15:42:03+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#87 - Redpanda with Christina Lin</title><link href="https://thebakery.dev/87/" rel="alternate" type="text/html" title="#87 - Redpanda with Christina Lin" /><published>2024-08-14T00:00:00+01:00</published><updated>2024-08-14T00:00:00+01:00</updated><id>https://thebakery.dev/087-redpanda</id><content type="html" xml:base="https://thebakery.dev/87/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2024-08-27T15:36:45+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#88 - Charty with Himanshu Singh</title><link href="https://thebakery.dev/88/" rel="alternate" type="text/html" title="#88 - Charty with Himanshu Singh" /><published>2024-08-27T00:00:00+01:00</published><updated>2024-08-27T00:00:00+01:00</updated><id>https://thebakery.dev/088-charty</id><content type="html" xml:base="https://thebakery.dev/88/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>It’s time to spotlight another amazing Android library in this episode of The Developers’ Bakery! Today, I’m joined by <a href="https://twitter.com/hi_man_shoe"><strong>Himanshu Singh</strong></a>, author and maintainer of <a href="https://github.com/hi-manshu/Charty"><strong>Charty</strong></a>.</p>
+
+<p>Charty is a chart library entirely written for Jetpack Compose. In this episode, Himanshu will walk us through the complexities of building custom UI libraries and his passion for open-source.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.46</strong> Episode Start</li>
+  <li><strong>01.19</strong> Himanshu’s Introduction</li>
+  <li><strong>02.19</strong> What is Charty?</li>
+  <li><strong>03.43</strong> What is Jetpack Compose</li>
+  <li><strong>05.43</strong> The story of Charty</li>
+  <li><strong>08.54</strong> MPAndroidChart vs Charty</li>
+  <li><strong>10.27</strong> Writing libraries for Compose</li>
+  <li><strong>12.28</strong> The challenges of building a chart library</li>
+  <li><strong>14.53</strong> Learning to say no</li>
+  <li><strong>17.34</strong> The most requested feature</li>
+  <li><strong>18.48</strong> Making Charty multiplatform</li>
+  <li><strong>19.53</strong> Charty 2.0.0?</li>
+  <li><strong>22.21</strong> How to contribute to Charty?</li>
+  <li><strong>26.22</strong> How open-source accelerated your career</li>
+  <li><strong>29.59</strong> Which other libraries are you maintaining?</li>
+  <li><strong>31.46</strong> Further reading</li>
+  <li><strong>33.12</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/hi-manshu/Charty">hi-manshu/Charty on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://hi-manshu.github.io/Charty/index.html">Charty Documentation</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/hi-manshu/Kalendar">hi-manshu/Kalendar on GitHub</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/hi-manshu">@hi-manshu on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/hi_man_shoe">@hi_man_shoe on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Charts for Jetpack Compose with Charty and Himanshu Singh]]></summary></entry><entry><title type="html">#87 - Redpanda with Christina Lin</title><link href="https://thebakery.dev/87/" rel="alternate" type="text/html" title="#87 - Redpanda with Christina Lin" /><published>2024-08-14T00:00:00+01:00</published><updated>2024-08-14T00:00:00+01:00</updated><id>https://thebakery.dev/087-redpanda</id><content type="html" xml:base="https://thebakery.dev/87/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/0poGMPuSGCWZPffMsac3kZ?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <p>We keep on exploring the world of data with another amazing guest: <a href="https://twitter.com/Christina_wm"><strong>Christina Lin</strong></a>, Developer Advocate at <a href="https://www.redpanda.com/"><strong>RedPanda</strong></a>.</p>
 
@@ -526,67 +576,4 @@
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Anonymous analytics with Aptabase and Guilherme Oenning]]></summary></entry><entry><title type="html">#78 - Roborazzi with Takahiro Menju</title><link href="https://thebakery.dev/78/" rel="alternate" type="text/html" title="#78 - Roborazzi with Takahiro Menju" /><published>2024-03-19T00:00:00+00:00</published><updated>2024-03-19T00:00:00+00:00</updated><id>https://thebakery.dev/078-roborazzi</id><content type="html" xml:base="https://thebakery.dev/78/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/1tApJ7aTZic3JVmL9xIReL?utm_source=generator&amp;t=0" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<p>We’re back in the Android development space with an episode about <strong>screenshot testing</strong>. I’m excited to have on stage <a href="https://twitter.com/_takahirom_"><strong>Takahiro Menju</strong></a>, Android GDE and author of <a href="https://github.com/takahirom/roborazzi"><strong>Roborazzi</strong></a>.</p>
-
-<p>With Roborazzi, you can easily run screenshot tests for your Android app, <strong>without</strong> having to run a device at all. That’s possible because Roborazzi relies on Robolectric, which allows you to run Android tests directly on the JVM.</p>
-
-<p>Join us in this episode as Takahiro walk us through the story of this library and how it can incredibly simplify screenshot testing for our Android apps.</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.00</strong> Intro</li>
-  <li><strong>00.45</strong> Episode Start</li>
-  <li><strong>01.09</strong> Takahiro’s Introduction</li>
-  <li><strong>01.58</strong> What is Roborazzi?</li>
-  <li><strong>03.55</strong> Roborazzi’s features</li>
-  <li><strong>04.51</strong> What Robolectric brings?</li>
-  <li><strong>05.25</strong> Running on the JVM vs Emulator</li>
-  <li><strong>06.37</strong> Saving CI and developers time</li>
-  <li><strong>07.54</strong> Who’s using Roborazzi?</li>
-  <li><strong>09.09</strong> DroidKaigi Conference App</li>
-  <li><strong>10.23</strong> Comparing screenshots with Robolectric</li>
-  <li><strong>11.02</strong> Challenges in building Roborazzi</li>
-  <li><strong>13.43</strong> Who’s maintaining Roborazzi?</li>
-  <li><strong>14.29</strong> The Android testing strategy</li>
-  <li><strong>17.25</strong> What’s broken in Android testing?</li>
-  <li><strong>20.23</strong> Screenshot Testing in other ecosystems</li>
-  <li><strong>21.58</strong> The story of Roborazzi</li>
-  <li><strong>23.31</strong> How to contribute to Roborazzi?</li>
-  <li><strong>25.04</strong> What’s next for Roborazzi?</li>
-  <li><strong>26.40</strong> Further reading</li>
-  <li><strong>28.22</strong> Where people can find you online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/takahirom/roborazzi">takahirom/roborazzi on GitHub</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://takahirom.github.io/roborazzi/">Roborazzi Official Website</a></li>
-  <li>Mentioned Resources:
-    <ul>
-      <li><i class="fas fa-link"></i> <a href="https://takahirom.github.io/roborazzi/how-to-use.html">How to use Roborazzi</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://takahirom.github.io/roborazzi/faq.html">Roborazzi FAQ</a></li>
-      <li><i class="fab fa-medium"></i> <a href="https://medium.com/@takahirom/roborazzi-elevating-android-visual-testing-to-the-next-level-46ec56b24055">Roborazzi: Elevating Android Visual Testing to the Next Level</a></li>
-      <li><i class="fab fa-speaker-deck"></i> <a href="https://speakerdeck.com/takahirom/robolectric-native-graphics-and-roborazzi">Robolectric Native Graphics and Roborazzi</a></li>
-      <li><i class="fab fa-github"></i> <a href="https://github.com/DroidKaigi/conference-app-2023">DroidKaigi/conference-app-2023 on GitHub</a></li>
-    </ul>
-  </li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/takahirom">@takahirom on GitHub</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/_takahirom_">@_takahirom_ on Twitter</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Screenshot Testing on Android without a device? Discover how with Roborazzi and Takahiro Menju]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Anonymous analytics with Aptabase and Guilherme Oenning]]></summary></entry></feed>
