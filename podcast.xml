@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Tue, 27 Aug 2024 15:36:45 +0100</lastBuildDate>
+<lastBuildDate>Wed, 18 Sep 2024 16:51:15 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,98 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Language Servers with Gorkem Ercan</title>
+        <itunes:title>Language Servers with Gorkem Ercan</itunes:title>
+        <link>https://thebakery.dev/89/</link>
+        <pubDate>Wed, 18 Sep 2024 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/89/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>89</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/89-thedevelopersbakery-languageservers.m4a" length="20180351" type="audio/mpeg" />
+
+        <itunes:subtitle>Discover the world of Language Servers with Gorkem Ercan</itunes:subtitle>
+        <itunes:summary>Discover the world of Language Servers with Gorkem Ercan</itunes:summary>
+
+        
+        <description>
+            <![CDATA[We’re back with another episode about developer tooling and this time we’re diving into the world of Language Servers! We have the pleasure to have on stage Gorkem Ercan, the CTO of Jozu and member of the Eclipse Foundation Board. Gorkem will walk us through his journey in the world...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>We’re back with another episode about developer tooling and this time we’re diving into the world of <strong>Language Servers</strong>!</p>
+
+<p>We have the pleasure to have on stage <a href="https://twitter.com/GorkemErcan"><strong>Gorkem Ercan</strong></a>, the CTO of Jozu and member of the Eclipse Foundation Board. Gorkem will walk us through his journey in the world of Language Servers, from writing Visual Studio Code plugins to building both the Java and the YAML Language Server.</p>
+
+<p>We’ll also talk a lot about Eclipse IDE, the Eclipse Foundation, and we’ll touch also on his new project: <a href="https://kitops.ml/">Kitops</a>.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.55</strong> Episode Start</li>
+  <li><strong>01.19</strong> Gorkem’s Introduction</li>
+  <li><strong>02.55</strong> What are Language Servers?</li>
+  <li><strong>05.05</strong> Gorkem’s language servers journey</li>
+  <li><strong>10.50</strong> Writing Visual Studio Code plugins</li>
+  <li><strong>12.42</strong> Syntax Highlightning vs Language Servers</li>
+  <li><strong>14.33</strong> Challenges of writing a Language Server</li>
+  <li><strong>17.47</strong> The YAML Language Server</li>
+  <li><strong>20.16</strong> YAML vs Java</li>
+  <li><strong>23.22</strong> Moving to the Eclipse Foundation</li>
+  <li><strong>25.02</strong> Life in the Eclipse Foundation</li>
+  <li><strong>28.50</strong> Being a member of the board</li>
+  <li><strong>30.17</strong> Eclipse IDE today</li>
+  <li><strong>33.46</strong> What is Jozu?</li>
+  <li><strong>38.21</strong> From Language Servers to ML models handoff?</li>
+  <li><strong>42.14</strong> Takeaways from writing Language Servers</li>
+  <li><strong>44.13</strong> OSS in Startups vs Foundations</li>
+  <li><strong>47.54</strong> Further reading</li>
+  <li><strong>50.21</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/eclipse-jdtls/eclipse.jdt.ls">eclipse-jdtls/eclipse.jdt.ls on GitHub</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/redhat-developer/yaml-language-server">redhat-developer/yaml-language-server on GitHub</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/redhat-developer/vscode-java">redhat-developer/vscode-java on GitHub</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/redhat-developer/vscode-yaml">redhat-developer/vscode-yaml on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://microsoft.github.io/language-server-protocol/">Language Server Protocol Reference</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://kitops.ml/">Kitops Official Website</a></li>
+  <li><i class="fab fa-discord"></i> <a href="https://discord.gg/Tapeh8agYy">Kitops Discord server</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/gorkem">@gorkem on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/GorkemErcan">@GorkemErcan on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/89-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>51:35</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Charty with Himanshu Singh</title>

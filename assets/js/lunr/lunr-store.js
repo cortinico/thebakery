@@ -532,4 +532,10 @@ var store = [{
         "tags": [],
         "url": "/88/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#89 - Language Servers with Gorkem Ercan",
+        "excerpt":"We’re back with another episode about developer tooling and this time we’re diving into the world of Language Servers! We have the pleasure to have on stage Gorkem Ercan, the CTO of Jozu and member of the Eclipse Foundation Board. Gorkem will walk us through his journey in the world...","categories": [],
+        "tags": [],
+        "url": "/89/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]
