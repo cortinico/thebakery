@@ -25,7 +25,7 @@ podcast_duration: "51:35"
 podcast_length: 20180351
 ---
 
-<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/3RbMf9kp6rPl1N5oP8sni6?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 We're back with another episode about developer tooling and this time we're diving into the world of **Language Servers**!
 
