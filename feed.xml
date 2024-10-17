@@ -1,4 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2024-09-30T09:42:59+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#89 - Language Servers with Gorkem Ercan</title><link href="https://thebakery.dev/89/" rel="alternate" type="text/html" title="#89 - Language Servers with Gorkem Ercan" /><published>2024-09-18T00:00:00+01:00</published><updated>2024-09-18T00:00:00+01:00</updated><id>https://thebakery.dev/089-language-servers</id><content type="html" xml:base="https://thebakery.dev/89/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2024-10-17T17:10:24+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#90 - Chucker with Nicola Corti</title><link href="https://thebakery.dev/90/" rel="alternate" type="text/html" title="#90 - Chucker with Nicola Corti" /><published>2024-10-17T00:00:00+01:00</published><updated>2024-10-17T00:00:00+01:00</updated><id>https://thebakery.dev/090-chucker</id><content type="html" xml:base="https://thebakery.dev/90/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>It’s time for another special episode, 90!</p>
+
+<p>Together with our own Nicola, we’re diving into the world of <a href="https://github.com/ChuckerTeam/chucker"><strong>Chucker</strong></a>, an open-source library that helps you debug network requests in Android.</p>
+
+<p>With Chucker you can simply inspect the HTTP and GraphQL requests and responses, visualize the body such as JSON or images, and even export them to share with your team.</p>
+
+<p>Nicola will tell us the story of how this library was born, how it evolved over time, and how you can use it in your projects.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.46</strong> Episode Start</li>
+  <li><strong>01.38</strong> What is Chucker?</li>
+  <li><strong>04.13</strong> Installing Chucker</li>
+  <li><strong>06.51</strong> Chucker features</li>
+  <li><strong>13.44</strong> v4</li>
+  <li><strong>17.03</strong> Crash reporting?</li>
+  <li><strong>19.51</strong> Configuring Chucker</li>
+  <li><strong>22.34</strong> From Chuck to Chucker</li>
+  <li><strong>33.04</strong> Use Chucker to catch-em-all!</li>
+  <li><strong>34.14</strong> Supporting Chucker</li>
+  <li><strong>37.22</strong> Further reading</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/ChuckerTeam/chucker">ChuckerTeam/chucker on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev/">TheBakery Official Website</a></li>
+  <li>Mentioned Resources
+    <ul>
+      <li><i class="fab fa-youtube"></i> Use Chucker to Catch ‘Em All - <a href="https://www.droidcon.com/2023/08/01/use-chucker-to-catch-em-all/">Video from Droidcon Berlin</a></li>
+      <li><i class="fab fa-medium"></i> <a href="https://engineering.teknasyon.com/debugging-network-requests-in-android-with-chucker-a-comprehensive-guide-9a1251c54e9e">Debugging Network Requests in Android with Chucker: A Comprehensive Guide</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/cortinico">@cortinico on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Inspecting network requests in Android with Chucker and Nicola Corti]]></summary></entry><entry><title type="html">#89 - Language Servers with Gorkem Ercan</title><link href="https://thebakery.dev/89/" rel="alternate" type="text/html" title="#89 - Language Servers with Gorkem Ercan" /><published>2024-09-18T00:00:00+01:00</published><updated>2024-09-18T00:00:00+01:00</updated><id>https://thebakery.dev/089-language-servers</id><content type="html" xml:base="https://thebakery.dev/89/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/3RbMf9kp6rPl1N5oP8sni6?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <p>We’re back with another episode about developer tooling and this time we’re diving into the world of <strong>Language Servers</strong>!</p>
 
@@ -520,63 +573,4 @@
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Discovering the world of device management, with Fleet and Zach Wasserman.]]></summary></entry><entry><title type="html">#80 - OpenCollective with Xavier Damman</title><link href="https://thebakery.dev/80/" rel="alternate" type="text/html" title="#80 - OpenCollective with Xavier Damman" /><published>2024-04-16T00:00:00+01:00</published><updated>2024-04-16T00:00:00+01:00</updated><id>https://thebakery.dev/080-opencollective</id><content type="html" xml:base="https://thebakery.dev/80/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/3C1FtQVZQoqc4qB6kW9JtM?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<p>It’s time for another bonus episode of The Developers’ Bakery! 🎉</p>
-
-<p>Today, I’m extremely excited to have on stage <a href="https://twitter.com/xdamman"><strong>Xavier Damman</strong></a>, co-founder of <a href="https://opencollective.com/"><strong>OpenCollective</strong></a>!</p>
-
-<p>If you’ve been doing open source for a while, you’ve probably heard about OpenCollective. It’s a platform that helps open-source projects and communities to raise funds and manage their finances transparently. But OpenCollective is much more than just a way to support open-source projects, as you can support and fund all sorts of community initiatives.</p>
-
-<p>In this episode we’ll talk about the story of OpenCollective, how it all started, and how it grew to become the platform we all know today. We’ll also discuss the challenges of running a platform like OpenCollective, the future of open-source funding, and much more!</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.00</strong> Intro</li>
-  <li><strong>00.45</strong> Episode Start</li>
-  <li><strong>01.34</strong> Xavier’s Introduction</li>
-  <li><strong>05.08</strong> What is a Open Collective?</li>
-  <li><strong>09.41</strong> Xav’s role in OpenCollective today</li>
-  <li><strong>11.49</strong> What is a Fiscal Host?</li>
-  <li><strong>15.44</strong> It’s all about transparency</li>
-  <li><strong>18.15</strong> The challenges of kicking off OpenCollective</li>
-  <li><strong>22.12</strong> Fees and running the platform</li>
-  <li><strong>23.46</strong> How many donations has OpenCollective processed?</li>
-  <li><strong>26.02</strong> GitHub Sponsors vs OpenCollective</li>
-  <li><strong>27.35</strong> Is OSS sponsorship broken?</li>
-  <li><strong>35.33</strong> DAOs</li>
-  <li><strong>37.58</strong> The new economic model</li>
-  <li><strong>42.07</strong> Further reading</li>
-  <li><strong>45.18</strong> Where people can find you online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/opencollective/opencollective">opencollective/opencollective on GitHub</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://opencollective.com">OpenCollective Official Website</a></li>
-  <li>Mentioned Resources:
-    <ul>
-      <li><i class="fas fa-link"></i> <a href="https://discover.opencollective.com">discover.opencollective.com</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://www.regensunite.earth/">Regens Unite</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://citizenspring.earth/">Citizen Spring</a></li>
-    </ul>
-  </li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/xdamman">@xdamman on GitHub</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/xdamman">@xdamman on Twitter</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://xavier.brussels/">Xavier’s Website</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[The story of how donations started flowing through OpenCollective, with Xavier Damman.]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Discovering the world of device management, with Fleet and Zach Wasserman.]]></summary></entry></feed>

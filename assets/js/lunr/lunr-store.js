@@ -538,4 +538,10 @@ var store = [{
         "tags": [],
         "url": "/89/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#90 - Chucker with Nicola Corti",
+        "excerpt":"It’s time for another special episode, 90! Together with our own Nicola, we’re diving into the world of Chucker, an open-source library that helps you debug network requests in Android. With Chucker you can simply inspect the HTTP and GraphQL requests and responses, visualize the body such as JSON or...","categories": [],
+        "tags": [],
+        "url": "/90/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Mon, 30 Sep 2024 09:42:59 +0100</lastBuildDate>
+<lastBuildDate>Thu, 17 Oct 2024 17:10:24 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,93 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Chucker with Nicola Corti</title>
+        <itunes:title>Chucker with Nicola Corti</itunes:title>
+        <link>https://thebakery.dev/90/</link>
+        <pubDate>Thu, 17 Oct 2024 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/90/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>90</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/90-thedevelopersbakery-chucker.m4a" length="15654057" type="audio/mpeg" />
+
+        <itunes:subtitle>Inspecting network requests in Android with Chucker and Nicola Corti</itunes:subtitle>
+        <itunes:summary>Inspecting network requests in Android with Chucker and Nicola Corti</itunes:summary>
+
+        
+        <description>
+            <![CDATA[It’s time for another special episode, 90! Together with our own Nicola, we’re diving into the world of Chucker, an open-source library that helps you debug network requests in Android. With Chucker you can simply inspect the HTTP and GraphQL requests and responses, visualize the body such as JSON or...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>It’s time for another special episode, 90!</p>
+
+<p>Together with our own Nicola, we’re diving into the world of <a href="https://github.com/ChuckerTeam/chucker"><strong>Chucker</strong></a>, an open-source library that helps you debug network requests in Android.</p>
+
+<p>With Chucker you can simply inspect the HTTP and GraphQL requests and responses, visualize the body such as JSON or images, and even export them to share with your team.</p>
+
+<p>Nicola will tell us the story of how this library was born, how it evolved over time, and how you can use it in your projects.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.46</strong> Episode Start</li>
+  <li><strong>01.38</strong> What is Chucker?</li>
+  <li><strong>04.13</strong> Installing Chucker</li>
+  <li><strong>06.51</strong> Chucker features</li>
+  <li><strong>13.44</strong> v4</li>
+  <li><strong>17.03</strong> Crash reporting?</li>
+  <li><strong>19.51</strong> Configuring Chucker</li>
+  <li><strong>22.34</strong> From Chuck to Chucker</li>
+  <li><strong>33.04</strong> Use Chucker to catch-em-all!</li>
+  <li><strong>34.14</strong> Supporting Chucker</li>
+  <li><strong>37.22</strong> Further reading</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/ChuckerTeam/chucker">ChuckerTeam/chucker on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev/">TheBakery Official Website</a></li>
+  <li>Mentioned Resources
+    <ul>
+      <li><i class="fab fa-youtube"></i> Use Chucker to Catch ‘Em All - <a href="https://www.droidcon.com/2023/08/01/use-chucker-to-catch-em-all/">Video from Droidcon Berlin</a></li>
+      <li><i class="fab fa-medium"></i> <a href="https://engineering.teknasyon.com/debugging-network-requests-in-android-with-chucker-a-comprehensive-guide-9a1251c54e9e">Debugging Network Requests in Android with Chucker: A Comprehensive Guide</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/cortinico">@cortinico on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/90-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>40:04</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Language Servers with Gorkem Ercan</title>
