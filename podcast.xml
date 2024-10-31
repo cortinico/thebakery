@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Wed, 23 Oct 2024 19:16:44 +0100</lastBuildDate>
+<lastBuildDate>Thu, 31 Oct 2024 23:38:47 +0000</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,103 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Excalidraw with Aakansha Doshi</title>
+        <itunes:title>Excalidraw with Aakansha Doshi</itunes:title>
+        <link>https://thebakery.dev/91/</link>
+        <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/91/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>91</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/91-thedevelopersbakery-excalidraw.m4a" length="16607447" type="audio/mpeg" />
+
+        <itunes:subtitle>Canvas drawing with Excalidraw and Aakansha Doshi</itunes:subtitle>
+        <itunes:summary>Canvas drawing with Excalidraw and Aakansha Doshi</itunes:summary>
+
+        
+        <description>
+            <![CDATA[Today we’re going to talk about Excalidraw 🎨, a web tool to sketch diagrams with a hand-drawn style. I’m glad to have on stage Aakansha Doshi, one of the maintainer of Excalidraw, to tell us more about this project. Aakansha will tell us the story of Excalidraw, how it evolved...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>Today we’re going to talk about <a href="https://excalidraw.com/"><strong>Excalidraw</strong></a> 🎨, a web tool to sketch diagrams with a hand-drawn style.</p>
+
+<p>I’m glad to have on stage <a href="https://twitter.com/aakansha1216"><strong>Aakansha Doshi</strong></a>, one of the maintainer of Excalidraw, to tell us more about this project.
+Aakansha will tell us the story of Excalidraw, how it evolved over time, and its secret to achieve the distinctive hand-drawn style.</p>
+
+<p>We’ll also talk about the community around Excalidraw, and Aakansha will share some tips on how to start contributing to your first open-source project.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.46</strong> Episode Start</li>
+  <li><strong>01.13</strong> Akansha’s Introduction</li>
+  <li><strong>02.21</strong> What is Excalidraw?</li>
+  <li><strong>03.51</strong> Excalidraw’s hand-written style</li>
+  <li><strong>06.32</strong> Storing and sharing diagrams</li>
+  <li><strong>09.16</strong> excalidraw.com vs OSS</li>
+  <li><strong>10.10</strong> The Excalidraw tech stack</li>
+  <li><strong>11.12</strong> Your story with Excalidraw</li>
+  <li><strong>14.42</strong> Who’s maintaining Excalidraw?</li>
+  <li><strong>16.22</strong> Suggestions for getting started with open source</li>
+  <li><strong>19.04</strong> How to contribute to Excalidraw?</li>
+  <li><strong>21.33</strong> Isn’t Excalidraw feature complete?</li>
+  <li><strong>25.20</strong> How do you test Excalidraw?</li>
+  <li><strong>26.27</strong> Biggest challenge in maintaining Excalidraw</li>
+  <li><strong>30.32</strong> Refactoring Excalidraw</li>
+  <li><strong>32.11</strong> What’s next for Excalidraw?</li>
+  <li><strong>35.33</strong> AI &amp; Excalidraw</li>
+  <li><strong>37.08</strong> Further reading</li>
+  <li><strong>39.17</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/excalidraw/excalidraw">excalidraw/excalidraw on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://excalidraw.com/">Excalidraw Official Website</a></li>
+  <li><i class="fab fa-discord"></i> <a href="https://discord.gg/UexuTaE">Excalidraw Discord server</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://docs.excalidraw.com/">Excalidraw Documentation</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/excalidraw/mermaid-to-excalidraw">excalidraw/mermaid-to-excalidraw on GitHub</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/react-tags/react-tags">react-tags/react-tags on GitHub</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/ad1992">@ad1992 on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/aakansha1216">@aakansha1216 on Twitter</a></li>
+  <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/aa1992/">Aakansha Doshi on LinkedIn</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/91-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>40:59</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Chucker with Nicola Corti</title>

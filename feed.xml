@@ -1,4 +1,67 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2024-10-23T19:16:44+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#90 - Chucker with Nicola Corti</title><link href="https://thebakery.dev/90/" rel="alternate" type="text/html" title="#90 - Chucker with Nicola Corti" /><published>2024-10-17T00:00:00+01:00</published><updated>2024-10-17T00:00:00+01:00</updated><id>https://thebakery.dev/090-chucker</id><content type="html" xml:base="https://thebakery.dev/90/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2024-10-31T23:38:47+00:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#91 - Excalidraw with Aakansha Doshi</title><link href="https://thebakery.dev/91/" rel="alternate" type="text/html" title="#91 - Excalidraw with Aakansha Doshi" /><published>2024-10-31T00:00:00+00:00</published><updated>2024-10-31T00:00:00+00:00</updated><id>https://thebakery.dev/091-excalidraw</id><content type="html" xml:base="https://thebakery.dev/91/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>Today we’re going to talk about <a href="https://excalidraw.com/"><strong>Excalidraw</strong></a> 🎨, a web tool to sketch diagrams with a hand-drawn style.</p>
+
+<p>I’m glad to have on stage <a href="https://twitter.com/aakansha1216"><strong>Aakansha Doshi</strong></a>, one of the maintainer of Excalidraw, to tell us more about this project.
+Aakansha will tell us the story of Excalidraw, how it evolved over time, and its secret to achieve the distinctive hand-drawn style.</p>
+
+<p>We’ll also talk about the community around Excalidraw, and Aakansha will share some tips on how to start contributing to your first open-source project.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.46</strong> Episode Start</li>
+  <li><strong>01.13</strong> Akansha’s Introduction</li>
+  <li><strong>02.21</strong> What is Excalidraw?</li>
+  <li><strong>03.51</strong> Excalidraw’s hand-written style</li>
+  <li><strong>06.32</strong> Storing and sharing diagrams</li>
+  <li><strong>09.16</strong> excalidraw.com vs OSS</li>
+  <li><strong>10.10</strong> The Excalidraw tech stack</li>
+  <li><strong>11.12</strong> Your story with Excalidraw</li>
+  <li><strong>14.42</strong> Who’s maintaining Excalidraw?</li>
+  <li><strong>16.22</strong> Suggestions for getting started with open source</li>
+  <li><strong>19.04</strong> How to contribute to Excalidraw?</li>
+  <li><strong>21.33</strong> Isn’t Excalidraw feature complete?</li>
+  <li><strong>25.20</strong> How do you test Excalidraw?</li>
+  <li><strong>26.27</strong> Biggest challenge in maintaining Excalidraw</li>
+  <li><strong>30.32</strong> Refactoring Excalidraw</li>
+  <li><strong>32.11</strong> What’s next for Excalidraw?</li>
+  <li><strong>35.33</strong> AI &amp; Excalidraw</li>
+  <li><strong>37.08</strong> Further reading</li>
+  <li><strong>39.17</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/excalidraw/excalidraw">excalidraw/excalidraw on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://excalidraw.com/">Excalidraw Official Website</a></li>
+  <li><i class="fab fa-discord"></i> <a href="https://discord.gg/UexuTaE">Excalidraw Discord server</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://docs.excalidraw.com/">Excalidraw Documentation</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/excalidraw/mermaid-to-excalidraw">excalidraw/mermaid-to-excalidraw on GitHub</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/react-tags/react-tags">react-tags/react-tags on GitHub</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/ad1992">@ad1992 on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/aakansha1216">@aakansha1216 on Twitter</a></li>
+  <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/aa1992/">Aakansha Doshi on LinkedIn</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Canvas drawing with Excalidraw and Aakansha Doshi]]></summary></entry><entry><title type="html">#90 - Chucker with Nicola Corti</title><link href="https://thebakery.dev/90/" rel="alternate" type="text/html" title="#90 - Chucker with Nicola Corti" /><published>2024-10-17T00:00:00+01:00</published><updated>2024-10-17T00:00:00+01:00</updated><id>https://thebakery.dev/090-chucker</id><content type="html" xml:base="https://thebakery.dev/90/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/4gRy43v9Ob98dnZUjkuT9u?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <p>It’s time for another special episode, 90!</p>
 
@@ -514,63 +577,4 @@
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Marketing Automation with Mautic and Ruth Cheesley]]></summary></entry><entry><title type="html">#81 - Fleet with Zach Wasserman</title><link href="https://thebakery.dev/81/" rel="alternate" type="text/html" title="#81 - Fleet with Zach Wasserman" /><published>2024-05-08T00:00:00+01:00</published><updated>2024-05-08T00:00:00+01:00</updated><id>https://thebakery.dev/081-fleet</id><content type="html" xml:base="https://thebakery.dev/81/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/3zBGfPXMHSF6DzrTfN47rM?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<p>Today we touch on a brand-new topic: device management! I’m excited to have on stage <a href="https://twitter.com/thezachw"><strong>Zach Wasserman</strong></a>, co-founder and CTO at <a href="https://github.com/fleetdm/fleet"><strong>Fleet</strong></a>.</p>
-
-<p>Fleet is a Mobile device management (MDM) software, that helps you manage your device fleet. It’s fully open-source and works either as self-hosted or as a cloud solution. Zach is going to guide us through the world of fleet management, talking about challenges such as managing vulnerabilities and updating devices.</p>
-
-<p>If you ever worked with a managed device, you’ll be amazed to learn some of the secrets from the device management world!</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.00</strong> Intro</li>
-  <li><strong>00.45</strong> Episode Start</li>
-  <li><strong>01.14</strong> Zac’s Introduction</li>
-  <li><strong>02.04</strong> What is a Fleet?</li>
-  <li><strong>05.57</strong> Fleet vs other MDM tools</li>
-  <li><strong>08.08</strong> Fleet vs chef</li>
-  <li><strong>10.40</strong> Challenges in building MDM software</li>
-  <li><strong>12.21</strong> The journey of a new device</li>
-  <li><strong>15.53</strong> Updating OS version</li>
-  <li><strong>17.50</strong> Integrating with user’s calendar</li>
-  <li><strong>18.55</strong> Incident Stories</li>
-  <li><strong>21.17</strong> Who’s using Fleet?</li>
-  <li><strong>23.15</strong> Self-hosting vs cloud</li>
-  <li><strong>24.14</strong> Handling malwares</li>
-  <li><strong>26.25</strong> The history of Fleet</li>
-  <li><strong>30.12</strong> Introducing osquery</li>
-  <li><strong>31.48</strong> Being part of the Linux Foundation</li>
-  <li><strong>34.56</strong> Being part of a steering commitee of a an OSS project</li>
-  <li><strong>37.04</strong> What’s next for Fleet?</li>
-  <li><strong>39.17</strong> Provisioning Vision Pros</li>
-  <li><strong>40.03</strong> Integrating AI?</li>
-  <li><strong>41.12</strong> Further reading</li>
-  <li><strong>42.46</strong> Where people can find you online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/fleetdm/fleet">fleetdm/fleet on GitHub</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://fleetdm.com/">Fleet Official Website</a></li>
-  <li><i class="fab fa-youtube"></i> Open Source GitOps for Detection Engineering - <a href="https://youtu.be/TH8PxsNzuJw">Video from BSides Las Vegas 2023</a></li>
-  <li><i class="fab fa-youtube"></i> Collect First, Ask Questions Later - <a href="https://youtu.be/srprZ2NgRgk">Video from GopherCon 2022</a></li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/zwass">@zwass on GitHub</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thezachw">@thezachw on Twitter</a></li>
-  <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/zacharywasserman/">Zach Wasserman on LinkedIn</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Discovering the world of device management, with Fleet and Zach Wasserman.]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Marketing Automation with Mautic and Ruth Cheesley]]></summary></entry></feed>

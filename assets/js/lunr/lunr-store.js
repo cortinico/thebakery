@@ -544,4 +544,10 @@ var store = [{
         "tags": [],
         "url": "/90/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#91 - Excalidraw with Aakansha Doshi",
+        "excerpt":"Today we’re going to talk about Excalidraw 🎨, a web tool to sketch diagrams with a hand-drawn style. I’m glad to have on stage Aakansha Doshi, one of the maintainer of Excalidraw, to tell us more about this project. Aakansha will tell us the story of Excalidraw, how it evolved...","categories": [],
+        "tags": [],
+        "url": "/91/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]
