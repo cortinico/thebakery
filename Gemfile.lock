@@ -120,7 +120,7 @@ GEM
       ffi (~> 1.0)
     rexml (3.2.9)
       strscan
-    rouge (4.3.0)
+    rouge (4.5.1)
     ruby2_keywords (0.0.5)
     rubyzip (2.3.2)
     safe_yaml (1.0.5)
