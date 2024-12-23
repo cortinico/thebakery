@@ -1,4 +1,60 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2024-12-03T20:08:56+00:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#91 - Excalidraw with Aakansha Doshi</title><link href="https://thebakery.dev/91/" rel="alternate" type="text/html" title="#91 - Excalidraw with Aakansha Doshi" /><published>2024-10-31T00:00:00+00:00</published><updated>2024-10-31T00:00:00+00:00</updated><id>https://thebakery.dev/091-excalidraw</id><content type="html" xml:base="https://thebakery.dev/91/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2024-12-23T14:43:57+00:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#92 - Daytona with Ivan Burazin</title><link href="https://thebakery.dev/92/" rel="alternate" type="text/html" title="#92 - Daytona with Ivan Burazin" /><published>2024-12-23T00:00:00+00:00</published><updated>2024-12-23T00:00:00+00:00</updated><id>https://thebakery.dev/092-daytona</id><content type="html" xml:base="https://thebakery.dev/92/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>We’re back with another episode about developer tools! Today, we’re diving into <a href="https://www.daytona.io/"><strong>Daytona</strong></a> 🚀, a self-hosted and secure open source <strong>development environment manager</strong>.</p>
+
+<p>I’m thrilled to have on stage <a href="https://x.com/ivanburazin"><strong>Ivan Burazin</strong></a>, CEO and co-founder of Daytona, to tell us more about this project.</p>
+
+<p>Do you recall how much time it takes you to have your development environment ready? Think about how many hours you spend setting up your machine, installing dependencies, and configuring your IDE. Daytona aims to solve exactly this problem by providing a development environment that can get you up to speed in seconds!</p>
+
+<p>In addition, Ivan will walk us through the story of Daytona: how it started and what’s next for this tool.</p>
+
+<p>Ivan also has a lot of experience in conference organization. In this episode, we’ll touch on what he learned from creating tech conferences and how that skills helped him build Daytona today.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.46</strong> Episode Start</li>
+  <li><strong>01.22</strong> Ivan’s Introduction</li>
+  <li><strong>02.43</strong> What is Daytona?</li>
+  <li><strong>04.20</strong> How developers would use Daytona?</li>
+  <li><strong>06.46</strong> Running Daytona</li>
+  <li><strong>10.55</strong> Browser based IDEs vs Daytona</li>
+  <li><strong>12.03</strong> Accessing shared environments</li>
+  <li><strong>14.27</strong> Using Daytona with Open Source projects</li>
+  <li><strong>17.53</strong> Pricing</li>
+  <li><strong>21.02</strong> Who’s funding Daytona?</li>
+  <li><strong>24.04</strong> The story of Daytona</li>
+  <li><strong>29.51</strong> From organizing conferences to building tools</li>
+  <li><strong>33.57</strong> The hardest part of organizing a conference</li>
+  <li><strong>39.51</strong> What’s next for Daytona?</li>
+  <li><strong>45.31</strong> Further reading</li>
+  <li><strong>46.48</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/daytonaio/daytona">daytonaio/daytona on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://daytona.io">Daytona Official Website</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://www.daytona.io/dotfiles/">Daytona Dotfiles Insiders</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/ivanburazin">@ivanburazin on Twitter</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/ivan-burazin">@ivan-burazin on GitHub</a></li>
+  <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/ivanburazin/">Ivan Burazin on LinkedIn</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Managing and sharing your development environment with Daytona and Ivan Burazin]]></summary></entry><entry><title type="html">#91 - Excalidraw with Aakansha Doshi</title><link href="https://thebakery.dev/91/" rel="alternate" type="text/html" title="#91 - Excalidraw with Aakansha Doshi" /><published>2024-10-31T00:00:00+00:00</published><updated>2024-10-31T00:00:00+00:00</updated><id>https://thebakery.dev/091-excalidraw</id><content type="html" xml:base="https://thebakery.dev/91/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/0iORsUEJsfryuw2Qf00pP7?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <p>Today we’re going to talk about <a href="https://excalidraw.com/"><strong>Excalidraw</strong></a> 🎨, a web tool to sketch diagrams with a hand-drawn style.</p>
 
@@ -512,69 +568,4 @@ Aakansha will tell us the story of Excalidraw, how it evolved over time, and its
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Build and scale your GraphQL APIs with Hasura and Tanmai Gopal]]></summary></entry><entry><title type="html">#82 - Mautic with Ruth Cheesley</title><link href="https://thebakery.dev/82/" rel="alternate" type="text/html" title="#82 - Mautic with Ruth Cheesley" /><published>2024-05-29T00:00:00+01:00</published><updated>2024-05-29T00:00:00+01:00</updated><id>https://thebakery.dev/082-mautic</id><content type="html" xml:base="https://thebakery.dev/82/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/0mXPW9UMPEv5ZCnzD0faF3?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<p>Time for a brand-new topic today, as we’re going to talk about <strong>Marketing Automation</strong>.</p>
-
-<p>I’m excited to have on stage <a href="https://twitter.com/RCheesley"><strong>Ruth Cheesley</strong></a>, who’s going to tell us all about <a href="https://www.mautic.org/"><strong>Mautic</strong></a>. Mautic is a marketing automation software, that helps you manage your email campaigns, track your user engagement, and much more. It’s fully open-source (written in PHP 🐘) and works either as self-hosted or as a cloud solution.</p>
-
-<p>But we’re also going to talk about another crucial topic in open-source: <strong>governance models</strong>. Ruth has been supporting the Mautic community for years, and helped them navigate through a governance model change. She’s going to share what worked and what not for Mautic and give us some tips on how to manage a community project.</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.00</strong> Intro</li>
-  <li><strong>00.46</strong> Episode Start</li>
-  <li><strong>01.14</strong> Ruth’s Introduction</li>
-  <li><strong>03.08</strong> What is a Mautic?</li>
-  <li><strong>04.27</strong> Mautic competitors</li>
-  <li><strong>05.29</strong> Self-hosting Mautic</li>
-  <li><strong>07.22</strong> The open-source and business model</li>
-  <li><strong>10.02</strong> Who’s working full-time for Mautic?</li>
-  <li><strong>11.35</strong> The history of Mautic</li>
-  <li><strong>14.01</strong> Tech Stack</li>
-  <li><strong>15.23</strong> How Ruth got involved in this project?</li>
-  <li><strong>19.09</strong> Collecting metrics about Mautic</li>
-  <li><strong>21.29</strong> Mautic on mobile</li>
-  <li><strong>22.13</strong> Growing a community</li>
-  <li><strong>25.58</strong> Testing at Mautic</li>
-  <li><strong>28.00</strong> Using Gitpod to help contributions</li>
-  <li><strong>29.22</strong> Governance models</li>
-  <li><strong>39.20</strong> Voting in the open</li>
-  <li><strong>43.56</strong> Who can vote?</li>
-  <li><strong>45.08</strong> Ruth’s suggestions on doing governance</li>
-  <li><strong>48.36</strong> Code of conducts</li>
-  <li><strong>49.47</strong> Woman in Open Source</li>
-  <li><strong>52.04</strong> Further reading</li>
-  <li><strong>54.30</strong> Where people can find you online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/mautic/mautic">mautic/mautic on GitHub</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://www.mautic.org/">Mautic Official Website</a></li>
-  <li>Mentioned Resources:
-    <ul>
-      <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/watch?v=lgaqS0pmUzk">Mautic on YouTube</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://kb.mautic.org/article/lead-scoring-best-practices-with-mautic.html">Lead Scoring Best Practices with Mautic</a></li>
-    </ul>
-  </li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/RCheesley">@RCheesley on GitHub</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/RCheesley">@RCheesley on Twitter</a></li>
-  <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/ruthcheesley/">Ruth Cheesley on LinkedIn</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://www.ruthcheesley.co.uk/">Ruth’s Website</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Marketing Automation with Mautic and Ruth Cheesley]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Build and scale your GraphQL APIs with Hasura and Tanmai Gopal]]></summary></entry></feed>

@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Tue, 03 Dec 2024 20:08:56 +0000</lastBuildDate>
+<lastBuildDate>Mon, 23 Dec 2024 14:43:57 +0000</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,96 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Daytona with Ivan Burazin</title>
+        <itunes:title>Daytona with Ivan Burazin</itunes:title>
+        <link>https://thebakery.dev/92/</link>
+        <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/92/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>92</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/92-thedevelopersbakery-daytona.m4a" length="18956930" type="audio/mpeg" />
+
+        <itunes:subtitle>Managing and sharing your development environment with Daytona and Ivan Burazin</itunes:subtitle>
+        <itunes:summary>Managing and sharing your development environment with Daytona and Ivan Burazin</itunes:summary>
+
+        
+        <description>
+            <![CDATA[We’re back with another episode about developer tools! Today, we’re diving into Daytona 🚀, a self-hosted and secure open source development environment manager. I’m thrilled to have on stage Ivan Burazin, CEO and co-founder of Daytona, to tell us more about this project. Do you recall how much time it...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>We’re back with another episode about developer tools! Today, we’re diving into <a href="https://www.daytona.io/"><strong>Daytona</strong></a> 🚀, a self-hosted and secure open source <strong>development environment manager</strong>.</p>
+
+<p>I’m thrilled to have on stage <a href="https://x.com/ivanburazin"><strong>Ivan Burazin</strong></a>, CEO and co-founder of Daytona, to tell us more about this project.</p>
+
+<p>Do you recall how much time it takes you to have your development environment ready? Think about how many hours you spend setting up your machine, installing dependencies, and configuring your IDE. Daytona aims to solve exactly this problem by providing a development environment that can get you up to speed in seconds!</p>
+
+<p>In addition, Ivan will walk us through the story of Daytona: how it started and what’s next for this tool.</p>
+
+<p>Ivan also has a lot of experience in conference organization. In this episode, we’ll touch on what he learned from creating tech conferences and how that skills helped him build Daytona today.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.46</strong> Episode Start</li>
+  <li><strong>01.22</strong> Ivan’s Introduction</li>
+  <li><strong>02.43</strong> What is Daytona?</li>
+  <li><strong>04.20</strong> How developers would use Daytona?</li>
+  <li><strong>06.46</strong> Running Daytona</li>
+  <li><strong>10.55</strong> Browser based IDEs vs Daytona</li>
+  <li><strong>12.03</strong> Accessing shared environments</li>
+  <li><strong>14.27</strong> Using Daytona with Open Source projects</li>
+  <li><strong>17.53</strong> Pricing</li>
+  <li><strong>21.02</strong> Who’s funding Daytona?</li>
+  <li><strong>24.04</strong> The story of Daytona</li>
+  <li><strong>29.51</strong> From organizing conferences to building tools</li>
+  <li><strong>33.57</strong> The hardest part of organizing a conference</li>
+  <li><strong>39.51</strong> What’s next for Daytona?</li>
+  <li><strong>45.31</strong> Further reading</li>
+  <li><strong>46.48</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/daytonaio/daytona">daytonaio/daytona on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://daytona.io">Daytona Official Website</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://www.daytona.io/dotfiles/">Daytona Dotfiles Insiders</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/ivanburazin">@ivanburazin on Twitter</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/ivan-burazin">@ivan-burazin on GitHub</a></li>
+  <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/ivanburazin/">Ivan Burazin on LinkedIn</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/92-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>48:00</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Excalidraw with Aakansha Doshi</title>

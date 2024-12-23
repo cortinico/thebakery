@@ -550,4 +550,10 @@ var store = [{
         "tags": [],
         "url": "/91/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#92 - Daytona with Ivan Burazin",
+        "excerpt":"We’re back with another episode about developer tools! Today, we’re diving into Daytona 🚀, a self-hosted and secure open source development environment manager. I’m thrilled to have on stage Ivan Burazin, CEO and co-founder of Daytona, to tell us more about this project. Do you recall how much time it...","categories": [],
+        "tags": [],
+        "url": "/92/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]
