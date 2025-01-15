@@ -1,4 +1,59 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2024-12-27T13:09:50+00:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#92 - Daytona with Ivan Burazin</title><link href="https://thebakery.dev/92/" rel="alternate" type="text/html" title="#92 - Daytona with Ivan Burazin" /><published>2024-12-23T00:00:00+00:00</published><updated>2024-12-23T00:00:00+00:00</updated><id>https://thebakery.dev/092-daytona</id><content type="html" xml:base="https://thebakery.dev/92/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2025-01-15T11:54:56+00:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#93 - KotlinPoet with Egor Andreevich</title><link href="https://thebakery.dev/93/" rel="alternate" type="text/html" title="#93 - KotlinPoet with Egor Andreevich" /><published>2025-01-15T00:00:00+00:00</published><updated>2025-01-15T00:00:00+00:00</updated><id>https://thebakery.dev/093-kotlinpoet</id><content type="html" xml:base="https://thebakery.dev/93/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>Let’s kickoff 2025 with a fresh new episode of The Developers’ Bakery! 🎉</p>
+
+<p>Today, we talk about <a href="https://github.com/square/kotlinpoet">KotlinPoet</a> with <a href="https://github.com/Egorand">Egor Andreevich</a>.
+KotlinPoet is a library from Square used to <strong>generate</strong> Kotlin code. It’s a great tool to generate code at compile time, and it’s used
+by many libraries and frameworks for Android and not only.</p>
+
+<p>Egor has been involved with KotlinPoet for multiple years and today will share with us how KotlinPoet works,
+when to use it, and how to contribute to the project.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.46</strong> Episode Start</li>
+  <li><strong>01.07</strong> Egor’s Introduction</li>
+  <li><strong>02.07</strong> What is Kotlinpoet?</li>
+  <li><strong>06.34</strong> KotlinPoet use case</li>
+  <li><strong>08.43</strong> When to use code generation?</li>
+  <li><strong>13.58</strong> Templates vs KotlinPoet</li>
+  <li><strong>17.32</strong> Generating code that definitely compiles</li>
+  <li><strong>19.46</strong> Kotlin Poet 2.0</li>
+  <li><strong>24.13</strong> The challenges of KotlinPoet</li>
+  <li><strong>27.44</strong> Doing OSS at Square</li>
+  <li><strong>32.55</strong> Who’s maintaining KotlinPoet?</li>
+  <li><strong>34.01</strong> How to contribute to KotlinPoet?</li>
+  <li><strong>36.53</strong> How Egor got involved with KotlinPoet?</li>
+  <li><strong>38.48</strong> What’s next for KotlinPoet?</li>
+  <li><strong>42.05</strong> Further reading</li>
+  <li><strong>43.38</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/square/kotlinpoet">square/kotlinpoet on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://square.github.io/kotlinpoet/">KotlinPoet Official Website</a></li>
+  <li><i class="fab fa-youtube"></i> Exploring Kotlin Symbol Processing: A Practical Guide - <a href="https://www.droidcon.com/2024/11/22/exploring-kotlin-symbol-processing-a-practical-guide-2/">Video From Droidcon London</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/Egorand">@Egorand on GitHub</a></li>
+  <li><i class="fab fa-bluesky"></i> <a href="https://bsky.app/profile/egorand.dev">@egorand.dev on Bluesky</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://www.egorand.dev/">Egor’s Blog</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Generating Kotlin code like an pro with with KotlinPoet and Egor Andreevich]]></summary></entry><entry><title type="html">#92 - Daytona with Ivan Burazin</title><link href="https://thebakery.dev/92/" rel="alternate" type="text/html" title="#92 - Daytona with Ivan Burazin" /><published>2024-12-23T00:00:00+00:00</published><updated>2024-12-23T00:00:00+00:00</updated><id>https://thebakery.dev/092-daytona</id><content type="html" xml:base="https://thebakery.dev/92/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 <p>We’re back with another episode about developer tools! Today, we’re diving into <a href="https://www.daytona.io/"><strong>Daytona</strong></a> 🚀, a self-hosted and secure open source <strong>development environment manager</strong>.</p>
 
@@ -514,58 +569,4 @@ Aakansha will tell us the story of Excalidraw, how it evolved over time, and its
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Next-gen DevOps with Adam Jacob and System Initiative]]></summary></entry><entry><title type="html">#83 - Hasura with Tanmai Gopal</title><link href="https://thebakery.dev/83/" rel="alternate" type="text/html" title="#83 - Hasura with Tanmai Gopal" /><published>2024-06-11T00:00:00+01:00</published><updated>2024-06-11T00:00:00+01:00</updated><id>https://thebakery.dev/083-hasura</id><content type="html" xml:base="https://thebakery.dev/83/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/4LrLCO4TvJdPTadtsjiWSY?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<p>Hi everyone, today is time to talk about <strong>GraphQL</strong>! We have on stage <a href="https://twitter.com/tanmaigo"><strong>Tanmai Gopal</strong></a>, CEO and co-founder of <a href="https://hasura.io/"><strong>Hasura</strong></a>.</p>
-
-<p>Hasura is an open-source GraphQL engine that helps you build and scale your GraphQL APIs, basically ‘without’ limits! We’ll talk about the history of Hasura, how it works, and what’s next for this project. Join us in this episode as Tanmai will tell us his story founding Hasura and how they’re building a vibrant ecosystem around this project.</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.00</strong> Intro</li>
-  <li><strong>00.46</strong> Episode Start</li>
-  <li><strong>01.09</strong> Tanmai’s Introduction</li>
-  <li><strong>02.04</strong> What is a Hasura?</li>
-  <li><strong>04.12</strong> Exposing DBs via GraphQL</li>
-  <li><strong>07.41</strong> Self-hosting Hasura</li>
-  <li><strong>13.00</strong> Subscriptions in Hasura</li>
-  <li><strong>16.07</strong> Hasura Supergraph</li>
-  <li><strong>21.15</strong> Single Point of Failure</li>
-  <li><strong>23.51</strong> The history of Hasura</li>
-  <li><strong>33.12</strong> Founding Hasura</li>
-  <li><strong>35.22</strong> Haskell in the backend</li>
-  <li><strong>40.12</strong> Doing Open Source at Hasura</li>
-  <li><strong>43.50</strong> What’s next for Hasura?</li>
-  <li><strong>50.27</strong> Further reading</li>
-  <li><strong>52.47</strong> Where people can find you online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/hasura/graphql-engine">hasura/graphql-engine on GitHub</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://hasura.io/">Hasura Official Website</a></li>
-  <li>Mentioned Resources:
-    <ul>
-      <li><i class="fas fa-link"></i> <a href="https://hasura.io/docs/latest/getting-started/overview/">Getting Started with Hasura</a></li>
-      <li><i class="fab fa-discord"></i> <a href="https://discord.com/invite/hasura">Hasura Discord server</a></li>
-    </ul>
-  </li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/coco98">@coco98 on GitHub</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/tanmaigo">@tanmaigo on Twitter</a></li>
-  <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/tanmaig/">Tanmai Gopal on Linkedin</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Build and scale your GraphQL APIs with Hasura and Tanmai Gopal]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Next-gen DevOps with Adam Jacob and System Initiative]]></summary></entry></feed>

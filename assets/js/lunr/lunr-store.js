@@ -556,4 +556,10 @@ var store = [{
         "tags": [],
         "url": "/92/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#93 - KotlinPoet with Egor Andreevich",
+        "excerpt":"Let’s kickoff 2025 with a fresh new episode of The Developers’ Bakery! 🎉 Today, we talk about KotlinPoet with Egor Andreevich. KotlinPoet is a library from Square used to generate Kotlin code. It’s a great tool to generate code at compile time, and it’s used by many libraries and frameworks...","categories": [],
+        "tags": [],
+        "url": "/93/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]
