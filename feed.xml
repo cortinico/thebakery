@@ -1,4 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2025-01-15T11:54:56+00:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#93 - KotlinPoet with Egor Andreevich</title><link href="https://thebakery.dev/93/" rel="alternate" type="text/html" title="#93 - KotlinPoet with Egor Andreevich" /><published>2025-01-15T00:00:00+00:00</published><updated>2025-01-15T00:00:00+00:00</updated><id>https://thebakery.dev/093-kotlinpoet</id><content type="html" xml:base="https://thebakery.dev/93/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2025-02-12T11:51:32+00:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#94 - Astro with Elian Van Cutsem</title><link href="https://thebakery.dev/94/" rel="alternate" type="text/html" title="#94 - Astro with Elian Van Cutsem" /><published>2025-02-12T00:00:00+00:00</published><updated>2025-02-12T00:00:00+00:00</updated><id>https://thebakery.dev/094-astro</id><content type="html" xml:base="https://thebakery.dev/94/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>In this episode of The Developers’ Bakery, we explore <a href="https://astro.build/"><strong>Astro</strong></a>, the modern web framework, with <a href="https://twitter.com/ElianCodes">Elian Van Cutsem</a>, one of its maintainers. Elian will walk us through Astro’s content-first approach, how it compares to other web frameworks, and its support for server-side/hybrid rendering.</p>
+
+<p>We also dive into Astro’s governance model and the challenges of maintaining an open-source project at this scale. Elian will also share his insights on the latest Astro 5 release and what’s next for the project.</p>
+
+<p>Finally, we chat about FOSDEM! We’ll share some of our personal anecdotes from the conference which just happened in Brussels, so you don’t want to miss this episode!</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.46</strong> Episode Start</li>
+  <li><strong>01.07</strong> Elian’s Introduction</li>
+  <li><strong>01.58</strong> What is Astro?</li>
+  <li><strong>03.16</strong> What does it mean to be content-first?</li>
+  <li><strong>05.41</strong> Astro’s main use case</li>
+  <li><strong>06.28</strong> Astro vs other static-site-generator</li>
+  <li><strong>07.37</strong> Server side rendering with Astro</li>
+  <li><strong>10.15</strong> Hybrid Rendering</li>
+  <li><strong>11.01</strong> The Island architecture</li>
+  <li><strong>12.57</strong> Astro’s performances</li>
+  <li><strong>14.45</strong> Where do you deploy your applications?</li>
+  <li><strong>16.00</strong> Astro success stories</li>
+  <li><strong>19.41</strong> Astro’s governance model</li>
+  <li><strong>23.03</strong> How did you feel when you became a maintainer?</li>
+  <li><strong>24.08</strong> Maintainers vs Core team member</li>
+  <li><strong>25.40</strong> The biggest challenge of maintaining Astro</li>
+  <li><strong>29.09</strong> Getting funding</li>
+  <li><strong>31.17</strong> What’s new in Astro 5?</li>
+  <li><strong>33.35</strong> What’s next for Astro?</li>
+  <li><strong>35.26</strong> What brings you to FOSDEM?</li>
+  <li><strong>36.48</strong> FOSDEM vibe and anecdotes</li>
+  <li><strong>40.54</strong> Further reading</li>
+  <li><strong>43.41</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/withastro/astro">withastro/astro on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://astro.build/">Astro Official Website</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://docs.astro.build/en/getting-started/">Getting Started with Astro</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://astro.build/themes/">Astro Themes Gallery</a></li>
+      <li><i class="fab fa-youtube"></i> Astro Studio - All Secrets Reveiled - <a href="https://www.youtube.com/watch?v=TsA6xankPHU">Video from React Alicante</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/ElianCodes">@ElianCodes on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/ElianCodes">@ElianCodes on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Content-first Web Development with Astro and Elian Van Cutsem]]></summary></entry><entry><title type="html">#93 - KotlinPoet with Egor Andreevich</title><link href="https://thebakery.dev/93/" rel="alternate" type="text/html" title="#93 - KotlinPoet with Egor Andreevich" /><published>2025-01-15T00:00:00+00:00</published><updated>2025-01-15T00:00:00+00:00</updated><id>https://thebakery.dev/093-kotlinpoet</id><content type="html" xml:base="https://thebakery.dev/93/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/45efMX4rHbrVpbk4XhhH2L?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <p>Let’s kickoff 2025 with a fresh new episode of The Developers’ Bakery! 🎉</p>
 
@@ -515,58 +579,4 @@ Aakansha will tell us the story of Excalidraw, how it evolved over time, and its
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Amazing announcements about Kotlin Multiplatform at Google I/O 2024]]></summary></entry><entry><title type="html">#84 - System Initiative with Adam Jacob</title><link href="https://thebakery.dev/84/" rel="alternate" type="text/html" title="#84 - System Initiative with Adam Jacob" /><published>2024-06-26T00:00:00+01:00</published><updated>2024-06-26T00:00:00+01:00</updated><id>https://thebakery.dev/084-system-initiative</id><content type="html" xml:base="https://thebakery.dev/84/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/1cudmXVt5yXItF1YNbG2zQ?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<p>Today we talk about a completely new topic: DevOps and System configuration. I’m really excited to have on stage <a href="https://twitter.com/adamhjk"><strong>Adam Jacob</strong></a>, CEO and Co-founder of <a href="https://www.systeminit.com/"><strong>System Initiative</strong></a>.</p>
-
-<p>Adam is challenging the status quo of DevOps tools with a completely <strong>new approach</strong> to system configuration. While System initiative looks like a no-code tool at first, it comes with all the power of TypeScript to let you build and manage your infrastructure in a completely new way.</p>
-
-<p>We will talk about the history of System Initiative, the challenges of building a new tool in a crowded space, and the future of DevOps.</p>
-
-<p>Adam is also the co-founder of <a href="https://github.com/chef/chef">Chef</a>, a really popular configuration management tool, and he will share with us some of the lessons learned from that previous experience.</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.00</strong> Intro</li>
-  <li><strong>00.46</strong> Episode Start</li>
-  <li><strong>01.03</strong> Adam’s Introduction</li>
-  <li><strong>03.19</strong> What is a System Initiative?</li>
-  <li><strong>07.54</strong> What are the System Initiative feature?</li>
-  <li><strong>11.16</strong> Is this a drag-n-drop tool to create AWS infras?</li>
-  <li><strong>14.37</strong> No-code tools &amp; quality of their output</li>
-  <li><strong>20.12</strong> Frontend engineers doing DevOps?</li>
-  <li><strong>23.06</strong> How is System Initiative doing Open Source?</li>
-  <li><strong>25.18</strong> The history of System Initiative</li>
-  <li><strong>34.10</strong> From demo to production</li>
-  <li><strong>36.13</strong> AI &amp; DevOps</li>
-  <li><strong>39.18</strong> What you learned from building Chef?</li>
-  <li><strong>43.51</strong> Further reading</li>
-  <li><strong>45.06</strong> Where people can find you online?</li>
-  <li><strong>46.07</strong> Sysadmin in disguise</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/systeminit/si">systeminit/si on GitHub</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://www.systeminit.com/">System Initiative Official Website</a></li>
-  <li><i class="fab fa-discord"></i> <a href="https://discord.gg/system-init">System Initiative Discord server</a></li>
-  <li><i class="fab fa-youtube"></i> Talk at Config Mgmt Camp 2023 - <a href="https://youtu.be/a2RoLFzrFG0">What if Infrastructure as Code never existed</a></li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/adamhjk">@adamhjk on GitHub</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/adamhjk">@adamhjk on Twitter</a></li>
-  <li><i class="fab fa-mastodon"></i> <a href="https://hachyderm.io/@adamhjk">@adamhjk on Mastodon</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Next-gen DevOps with Adam Jacob and System Initiative]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Amazing announcements about Kotlin Multiplatform at Google I/O 2024]]></summary></entry></feed>

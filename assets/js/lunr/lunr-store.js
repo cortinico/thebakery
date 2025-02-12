@@ -562,4 +562,10 @@ var store = [{
         "tags": [],
         "url": "/93/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#94 - Astro with Elian Van Cutsem",
+        "excerpt":"In this episode of The Developers’ Bakery, we explore Astro, the modern web framework, with Elian Van Cutsem, one of its maintainers. Elian will walk us through Astro’s content-first approach, how it compares to other web frameworks, and its support for server-side/hybrid rendering. We also dive into Astro’s governance model...","categories": [],
+        "tags": [],
+        "url": "/94/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]
