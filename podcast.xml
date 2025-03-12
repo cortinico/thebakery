@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Wed, 12 Feb 2025 11:51:32 +0000</lastBuildDate>
+<lastBuildDate>Wed, 12 Mar 2025 14:51:23 +0000</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,108 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>http4k with David Denton</title>
+        <itunes:title>http4k with David Denton</itunes:title>
+        <link>https://thebakery.dev/95/</link>
+        <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/95/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>95</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/95-thedevelopersbakery-http4k.m4a" length="16986940" type="audio/mpeg" />
+
+        <itunes:subtitle>Your server as a function with http4k and David Denton</itunes:subtitle>
+        <itunes:summary>Your server as a function with http4k and David Denton</itunes:summary>
+
+        
+        <description>
+            <![CDATA[Time for a new episode of The Developers’ Bakery! 🎉 In this episode, we dive into the world of http4k with David Denton, exploring how you can treat your server as a function! Thanks to Kotlin expressivity, http4k allows you to develop server applications that are easy to test and...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>Time for a new episode of The Developers’ Bakery! 🎉</p>
+
+<p>In this episode, we dive into the world of <a href="https://www.http4k.org/">http4k</a> with <a href="https://github.com/daviddenton">David Denton</a>, exploring how you can treat your server as a function! Thanks to Kotlin expressivity, http4k allows you to develop server applications that are easy to test and maintain.</p>
+
+<p>David created and maintains the http4k together with Ivan Sanchez, and will share his story in creating this framework, which they claim it stands out as the <em>most testable</em> web toolkit. We will also discuss their journey from an open-source project to becoming a full-fledged company.</p>
+
+<p>Tune in to learn everything http4k!</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.16</strong> David’s Introduction</li>
+  <li><strong>03.01</strong> What is http4k?</li>
+  <li><strong>04.37</strong> Your server as a function</li>
+  <li><strong>06.38</strong> The http4k ecosystem</li>
+  <li><strong>08.20</strong> The most testable web toolkit</li>
+  <li><strong>10.39</strong> Kotlin-specific features in http4k</li>
+  <li><strong>12.14</strong> http4k vs ktor</li>
+  <li><strong>14.16</strong> http4k’s performances</li>
+  <li><strong>15.53</strong> Success stories</li>
+  <li><strong>19.35</strong> Running http4k on Android</li>
+  <li><strong>20.37</strong> Plugins and integrations</li>
+  <li><strong>22.22</strong> The story of http4k</li>
+  <li><strong>26.46</strong> From an OSS project to a company</li>
+  <li><strong>29.03</strong> Who’s maintaining http4k?</li>
+  <li><strong>30.40</strong> Best way to contribute</li>
+  <li><strong>32.49</strong> http4k v6</li>
+  <li><strong>35.55</strong> Coroutines support</li>
+  <li><strong>37.51</strong> http4k and AI</li>
+  <li><strong>39.55</strong> Further reading</li>
+  <li><strong>41.47</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/http4k/http4k">http4k/http4k on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://www.http4k.org/">http4k Official Website</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/http4k">@http4k on Twitter</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/http4k/http4k-android-examples">http4k/http4k-android-examples on GitHub</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fab fa-youtube"></i> Server as a Function in Kotlin - <a href="https://youtu.be/vdxBNh1qx1Q?si=uNXPU4Y7LbidozGZ">Video from KotlinConf 2018</a></li>
+      <li><i class="fab fa-youtube"></i> Exploring the Testing Hyperpyramid with Kotlin and http4k - <a href="https://youtu.be/CrslqbMbaD8?si=ukRoir_az9MZEX9J">Video from KotlinConf 2023</a></li>
+      <li><i class="fab fa-youtube"></i> Introduction to http4k - <a href="https://www.youtube.com/watch?v=FVvn-aFO--Q">Video by Dmitry Kandalov</a></li>
+      <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/playlist?list=PL1ssMPpyqocg5TKqmiGWlvi3O5L8XPe8Q">Pairing with Duncan McGregor playlist</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/daviddenton">@daviddenton on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://clockwork.ing/directory/david-denton/">David on Clockwork</a></li>
+  <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/denton-david/">David Denton on LinkedIn</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/95-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>43:00</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Astro with Elian Van Cutsem</title>

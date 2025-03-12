@@ -568,4 +568,10 @@ var store = [{
         "tags": [],
         "url": "/94/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#95 - http4k with David Denton",
+        "excerpt":"Time for a new episode of The Developers’ Bakery! 🎉 In this episode, we dive into the world of http4k with David Denton, exploring how you can treat your server as a function! Thanks to Kotlin expressivity, http4k allows you to develop server applications that are easy to test and...","categories": [],
+        "tags": [],
+        "url": "/95/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]
