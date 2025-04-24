@@ -574,4 +574,10 @@ var store = [{
         "tags": [],
         "url": "/95/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#96 - Aurora Store with Aayush Gupta",
+        "excerpt":"We’re back with a fresh new episode at The Developer’s Bakery! 🎉 In this episode, we chat with Aayush Gupta, the maintainer of Aurora Store, a popular alternative to the Google Play Store. Aayush will share what makes Aurora Store unique, including its features, security measures, and how it compares...","categories": [],
+        "tags": [],
+        "url": "/96/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

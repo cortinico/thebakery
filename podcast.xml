@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Thu, 17 Apr 2025 17:36:08 +0100</lastBuildDate>
+<lastBuildDate>Thu, 24 Apr 2025 14:56:19 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,103 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Aurora Store with Aayush Gupta</title>
+        <itunes:title>Aurora Store with Aayush Gupta</itunes:title>
+        <link>https://thebakery.dev/96/</link>
+        <pubDate>Thu, 24 Apr 2025 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/96/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>96</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/96-thedevelopersbakery-aurorastore.m4a" length="17482491" type="audio/mpeg" />
+
+        <itunes:subtitle>Maintaining and Open Source Alternative store with Aayush Gupta and Aurora Store</itunes:subtitle>
+        <itunes:summary>Maintaining and Open Source Alternative store with Aayush Gupta and Aurora Store</itunes:summary>
+
+        
+        <description>
+            <![CDATA[We’re back with a fresh new episode at The Developer’s Bakery! 🎉 In this episode, we chat with Aayush Gupta, the maintainer of Aurora Store, a popular alternative to the Google Play Store. Aayush will share what makes Aurora Store unique, including its features, security measures, and how it compares...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>We’re back with a fresh new episode at The Developer’s Bakery! 🎉</p>
+
+<p>In this episode, we chat with <a href="https://mastodon.social/@theimpulson"><strong>Aayush Gupta</strong></a>, the maintainer of <a href="https://gitlab.com/AuroraOSS/AuroraStore"><strong>Aurora Store</strong></a>, a popular alternative to the Google Play Store.</p>
+
+<p>Aayush will share what makes Aurora Store unique, including its features, security measures, and how it compares to other similar stores like FDroid.</p>
+
+<p>We’ll deep dive into some of the technical aspects of Aurora Store, discussing topics such as anonymous login, malware protection, and much more.</p>
+
+<p>As a bonus, Aayush is also a moderator at XDA Developers, one of the biggest Android community out there, and will share his journey getting into it.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.51</strong> Episode Start</li>
+  <li><strong>01.13</strong> Aayush’s Introduction</li>
+  <li><strong>02.26</strong> Aayush’s story</li>
+  <li><strong>03.45</strong> What is Aurora Store?</li>
+  <li><strong>05.12</strong> Aurora Store vs FDroid</li>
+  <li><strong>06.10</strong> Aurora Store features</li>
+  <li><strong>08.48</strong> Trusting Aurora Store</li>
+  <li><strong>10.58</strong> Anonymous login</li>
+  <li><strong>13.30</strong> Protecting against malwares</li>
+  <li><strong>14.48</strong> Where to download Aurora Store?</li>
+  <li><strong>16.11</strong> GitLab vs GitHub</li>
+  <li><strong>17.21</strong> Discoverability on GitLab</li>
+  <li><strong>18.51</strong> The history of this project</li>
+  <li><strong>24.42</strong> Who’s maintaining Aurora Store now?</li>
+  <li><strong>25.59</strong> Material Design 3</li>
+  <li><strong>27.07</strong> Managing Translations</li>
+  <li><strong>29.01</strong> Contributing Translations</li>
+  <li><strong>30.26</strong> How to best contribute to Aurora Store?</li>
+  <li><strong>33.47</strong> The Aurora Store Community</li>
+  <li><strong>34.48</strong> Telegram Support Group</li>
+  <li><strong>35.39</strong> What’s next for Aurora Store?</li>
+  <li><strong>37.24</strong> Further reading</li>
+  <li><strong>38.41</strong> Being an XDA Moderator</li>
+  <li><strong>42.44</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-gitlab"></i> <a href="https://gitlab.com/AuroraOSS/AuroraStore">AuroraOSS/AuroraStore on GitLab</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://auroraoss.gitbook.io/wiki">AuroraOSS Wiki</a></li>
+  <li><i class="fab fa-gitlab"></i> <a href="https://gitlab.com/theimpulson">@theimpulson on GitLab</a></li>
+  <li><i class="fab fa-mastodon"></i> <a href="https://mastodon.social/@theimpulson">@theimpulson on Mastodon</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://aayush.io/">Aayush’s website</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/96-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>44:08</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>http4k with David Denton</title>
