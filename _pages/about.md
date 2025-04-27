@@ -26,7 +26,7 @@ Join Nicola through this journey among open source and beyond.
     <img style="max-width:40%;object-fit:cover;border-radius:50%;" src="/assets/images/nicola-corti.jpg">
 </p>
 
-Nicola Corti is a Kotlin GDE, and a passionate open source developer. He's currently working as Android Infrastructure Engineer in the React Native team, based in London, UK.
+Nicola Corti is a Android GDE, and a passionate open source developer. He's currently working as Android Infrastructure Engineer in the React Native team, based in London, UK.
 
 He spoke at numerous conferences internationally about Mobile development, and he is passionate for anything community related. He founded and managed developers community across Europe (GDG Pisa, KUG Hamburg, GDG Stockholm Android)
 
