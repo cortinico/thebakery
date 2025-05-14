@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Sun, 27 Apr 2025 13:18:06 +0100</lastBuildDate>
+<lastBuildDate>Wed, 14 May 2025 23:45:59 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,102 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Bit with Gilad Shoham</title>
+        <itunes:title>Bit with Gilad Shoham</itunes:title>
+        <link>https://thebakery.dev/97/</link>
+        <pubDate>Wed, 14 May 2025 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/97/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>97</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/97-thedevelopersbakery-bit.m4a" length="24588536" type="audio/mpeg" />
+
+        <itunes:subtitle>Composable Architecture to scale your development workflow with Gilhad Shoham and bit.dev</itunes:subtitle>
+        <itunes:summary>Composable Architecture to scale your development workflow with Gilhad Shoham and bit.dev</itunes:summary>
+
+        
+        <description>
+            <![CDATA[We’re back with a fresh new episode! 🍞🎉 Today, we sit down with Gilad Shoham, Head of Engineering at Bit.dev In this episode, Gilad will walk us through the fundamentals of Bit, how it enables composable architectures, and how development teams are using it as part of their workflow. We...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>We’re back with a fresh new episode! 🍞🎉</p>
+
+<p>Today, we sit down with <a href="https://twitter.com/ShohamGilad"><strong>Gilad Shoham</strong></a>, Head of Engineering at <a href="https://bit.dev"><strong>Bit.dev</strong></a></p>
+
+<p>In this episode, Gilad will walk us through the fundamentals of Bit, how it enables <strong>composable architectures</strong>, and how development teams are using it as part of their workflow. We will touch on common challanges that developers are facing nowadays such as scaling teams, enabling them to be independent and move fast, while keeping the integration of the entire platform seamless.</p>
+
+<p>We will also touch on the future of <strong>AI-assisted development</strong> and how Bit.dev fits in this bigger picture.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.51</strong> Episode Start</li>
+  <li><strong>01.15</strong> Gilad’s Introduction</li>
+  <li><strong>02.41</strong> What is Bit?</li>
+  <li><strong>04.01</strong> Composable Architecture</li>
+  <li><strong>08.04</strong> Bit &amp; Harmony</li>
+  <li><strong>13.21</strong> Popular use cases for Bit</li>
+  <li><strong>20.44</strong> Sharing UI components</li>
+  <li><strong>22.35</strong> Dependency hell</li>
+  <li><strong>28.20</strong> Extending Bit beyond JavaScript</li>
+  <li><strong>30.28</strong> What is open source of bit.dev?</li>
+  <li><strong>33.52</strong> Who’s using bit.dev?</li>
+  <li><strong>35.13</strong> How bit.dev started?</li>
+  <li><strong>37.31</strong> Bit.dev &amp; AI</li>
+  <li><strong>47.44</strong> Holistic AI</li>
+  <li><strong>55.14</strong> What AI of the future might look like</li>
+  <li><strong>58.19</strong> Futher reading</li>
+  <li><strong>61.15</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/teambit/bit">teambit/bit on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://bit.dev/">Bit.dev Official Website</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://bit.cloud/">Bit.cloud Official Website</a></li>
+  <li>Mentioned Resources
+    <ul>
+      <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/watch?v=lgaqS0pmUzk">@Bitdev Youtube Channel</a></li>
+      <li><i class="fab fa-slack"></i> <a href="https://slack.bit.cloud/">Bit Slack Workspace</a></li>
+    </ul>
+  </li>
+  <li><i class="fas fa-link"></i> <a href="https://gilad.dev/">Gilad Personal Website</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/GiladShoham">@GiladShoham on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/ShohamGilad">@ShohamGilad on Twitter</a></li>
+  <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/shohamgilad/">Gilad Shoham on LinkedIn</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/97-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>1:02:53</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Aurora Store with Aayush Gupta</title>

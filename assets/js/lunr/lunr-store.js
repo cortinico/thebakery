@@ -580,4 +580,10 @@ var store = [{
         "tags": [],
         "url": "/96/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#97 - Bit with Gilad Shoham",
+        "excerpt":"We’re back with a fresh new episode! 🍞🎉 Today, we sit down with Gilad Shoham, Head of Engineering at Bit.dev In this episode, Gilad will walk us through the fundamentals of Bit, how it enables composable architectures, and how development teams are using it as part of their workflow. We...","categories": [],
+        "tags": [],
+        "url": "/97/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

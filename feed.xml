@@ -1,4 +1,66 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2025-04-27T13:18:06+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#96 - Aurora Store with Aayush Gupta</title><link href="https://thebakery.dev/96/" rel="alternate" type="text/html" title="#96 - Aurora Store with Aayush Gupta" /><published>2025-04-24T00:00:00+01:00</published><updated>2025-04-24T00:00:00+01:00</updated><id>https://thebakery.dev/096-aurora-store</id><content type="html" xml:base="https://thebakery.dev/96/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2025-05-14T23:45:59+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#97 - Bit with Gilad Shoham</title><link href="https://thebakery.dev/97/" rel="alternate" type="text/html" title="#97 - Bit with Gilad Shoham" /><published>2025-05-14T00:00:00+01:00</published><updated>2025-05-14T00:00:00+01:00</updated><id>https://thebakery.dev/097-bit</id><content type="html" xml:base="https://thebakery.dev/97/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>We’re back with a fresh new episode! 🍞🎉</p>
+
+<p>Today, we sit down with <a href="https://twitter.com/ShohamGilad"><strong>Gilad Shoham</strong></a>, Head of Engineering at <a href="https://bit.dev"><strong>Bit.dev</strong></a></p>
+
+<p>In this episode, Gilad will walk us through the fundamentals of Bit, how it enables <strong>composable architectures</strong>, and how development teams are using it as part of their workflow. We will touch on common challanges that developers are facing nowadays such as scaling teams, enabling them to be independent and move fast, while keeping the integration of the entire platform seamless.</p>
+
+<p>We will also touch on the future of <strong>AI-assisted development</strong> and how Bit.dev fits in this bigger picture.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.51</strong> Episode Start</li>
+  <li><strong>01.15</strong> Gilad’s Introduction</li>
+  <li><strong>02.41</strong> What is Bit?</li>
+  <li><strong>04.01</strong> Composable Architecture</li>
+  <li><strong>08.04</strong> Bit &amp; Harmony</li>
+  <li><strong>13.21</strong> Popular use cases for Bit</li>
+  <li><strong>20.44</strong> Sharing UI components</li>
+  <li><strong>22.35</strong> Dependency hell</li>
+  <li><strong>28.20</strong> Extending Bit beyond JavaScript</li>
+  <li><strong>30.28</strong> What is open source of bit.dev?</li>
+  <li><strong>33.52</strong> Who’s using bit.dev?</li>
+  <li><strong>35.13</strong> How bit.dev started?</li>
+  <li><strong>37.31</strong> Bit.dev &amp; AI</li>
+  <li><strong>47.44</strong> Holistic AI</li>
+  <li><strong>55.14</strong> What AI of the future might look like</li>
+  <li><strong>58.19</strong> Futher reading</li>
+  <li><strong>61.15</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/teambit/bit">teambit/bit on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://bit.dev/">Bit.dev Official Website</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://bit.cloud/">Bit.cloud Official Website</a></li>
+  <li>Mentioned Resources
+    <ul>
+      <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/watch?v=lgaqS0pmUzk">@Bitdev Youtube Channel</a></li>
+      <li><i class="fab fa-slack"></i> <a href="https://slack.bit.cloud/">Bit Slack Workspace</a></li>
+    </ul>
+  </li>
+  <li><i class="fas fa-link"></i> <a href="https://gilad.dev/">Gilad Personal Website</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/GiladShoham">@GiladShoham on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/ShohamGilad">@ShohamGilad on Twitter</a></li>
+  <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/shohamgilad/">Gilad Shoham on LinkedIn</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Composable Architecture to scale your development workflow with Gilhad Shoham and bit.dev]]></summary></entry><entry><title type="html">#96 - Aurora Store with Aayush Gupta</title><link href="https://thebakery.dev/96/" rel="alternate" type="text/html" title="#96 - Aurora Store with Aayush Gupta" /><published>2025-04-24T00:00:00+01:00</published><updated>2025-04-24T00:00:00+01:00</updated><id>https://thebakery.dev/096-aurora-store</id><content type="html" xml:base="https://thebakery.dev/96/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/222gXpJC1NOkr0UBcvIg81?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <p>We’re back with a fresh new episode at The Developer’s Bakery! 🎉</p>
 
@@ -528,65 +590,4 @@ Aakansha will tell us the story of Excalidraw, how it evolved over time, and its
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Charts for Jetpack Compose with Charty and Himanshu Singh]]></summary></entry><entry><title type="html">#87 - Redpanda with Christina Lin</title><link href="https://thebakery.dev/87/" rel="alternate" type="text/html" title="#87 - Redpanda with Christina Lin" /><published>2024-08-14T00:00:00+01:00</published><updated>2024-08-14T00:00:00+01:00</updated><id>https://thebakery.dev/087-redpanda</id><content type="html" xml:base="https://thebakery.dev/87/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/0poGMPuSGCWZPffMsac3kZ?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<p>We keep on exploring the world of data with another amazing guest: <a href="https://twitter.com/Christina_wm"><strong>Christina Lin</strong></a>, Developer Advocate at <a href="https://www.redpanda.com/"><strong>RedPanda</strong></a>.</p>
-
-<p>RedPanda is a data streaming platform, entirely built with C++ that aims to be faster and more efficient than Kafka. In this episode, Christina tells us all about RedPanda, its features, and how it’s different from other streaming platforms.</p>
-
-<p>Christina also shares her journey into Developer Advocacy, and share some of her tips to create engaging content for developers.</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.00</strong> Intro</li>
-  <li><strong>00.46</strong> Episode Start</li>
-  <li><strong>01.10</strong> Christina’s Introduction</li>
-  <li><strong>02.01</strong> What is RedPanda?</li>
-  <li><strong>03.04</strong> RedPanda in action</li>
-  <li><strong>05.46</strong> RedPanda features</li>
-  <li><strong>09.53</strong> Picking C++</li>
-  <li><strong>13.41</strong> Attracting C++ contributors</li>
-  <li><strong>15.20</strong> How faster is RedPanda?</li>
-  <li><strong>17.10</strong> Self-hosting vs Cloud</li>
-  <li><strong>20.11</strong> Single binary architecutre</li>
-  <li><strong>22.29</strong> The history of RedPanda</li>
-  <li><strong>24.59</strong> Who’s maintaining RedPanda?</li>
-  <li><strong>26.35</strong> How Christina got involved in RedPanda</li>
-  <li><strong>28.29</strong> Being a DevRel</li>
-  <li><strong>31.18</strong> The best way to reach developers</li>
-  <li><strong>33.39</strong> The art of drawings</li>
-  <li><strong>35.42</strong> DevRel success metrics</li>
-  <li><strong>37.38</strong> From SWE to DevRel</li>
-  <li><strong>39.21</strong> Further reading</li>
-  <li><strong>40.42</strong> Where people can find you online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/redpanda-data/redpanda">redpanda-data/redpanda on GitHub</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://www.redpanda.com/">Redpanda Official Website</a></li>
-  <li>Mentioned Resources:
-    <ul>
-      <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/c/RedpandaData">Redpanda Youtube Channel</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://university.redpanda.com">Redpanda University</a></li>
-    </ul>
-  </li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/weimeilin79">@weimeilin79 on GitHub</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/Christina_wm">@Christina_wm on Twitter</a></li>
-  <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/weimeilin/">Christina Lin on Linkedin</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Super fast data streaming platform with Christina Lin, Developer Advocate at Redpanda]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Charts for Jetpack Compose with Charty and Himanshu Singh]]></summary></entry></feed>
