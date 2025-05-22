@@ -39,7 +39,7 @@ jobs:
       run: bundle exec jekyll build
 
     - name: Deploy Github Pages
-      uses: JamesIves/github-pages-deploy-action@v4.7.2
+      uses: JamesIves/github-pages-deploy-action@v4.7.3
       with:
         branch: gh-pages
         folder: _site/
