@@ -586,4 +586,10 @@ var store = [{
         "tags": [],
         "url": "/97/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#98 - Compose Hot Reload with Sebastian Sellmair",
+        "excerpt":"Since it’s KotlinConf week we do have a special new episode for you folks! 🎁 Today we have on stage Sebastian Sellmair, software engineer at JetBrains, and he’s here to talk about Compose Hot Reload. With Compose Hot Reload, you can make changes to your Jetpack Compose code and see...","categories": [],
+        "tags": [],
+        "url": "/98/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

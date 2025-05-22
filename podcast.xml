@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Thu, 22 May 2025 00:42:40 +0100</lastBuildDate>
+<lastBuildDate>Thu, 22 May 2025 08:29:34 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,89 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Compose Hot Reload with Sebastian Sellmair</title>
+        <itunes:title>Compose Hot Reload with Sebastian Sellmair</itunes:title>
+        <link>https://thebakery.dev/98/</link>
+        <pubDate>Thu, 22 May 2025 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/98/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>98</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/98-thedevelopersbakery-composehotreload.m4a" length="22284106" type="audio/mpeg" />
+
+        <itunes:subtitle>Hot Reloading your composable functions with Sebastian Sellmair</itunes:subtitle>
+        <itunes:summary>Hot Reloading your composable functions with Sebastian Sellmair</itunes:summary>
+
+        
+        <description>
+            <![CDATA[Since it’s KotlinConf week we do have a special new episode for you folks! 🎁 Today we have on stage Sebastian Sellmair, software engineer at JetBrains, and he’s here to talk about Compose Hot Reload. With Compose Hot Reload, you can make changes to your Jetpack Compose code and see...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>Since it’s KotlinConf week we do have a special new episode for you folks! 🎁</p>
+
+<p>Today we have on stage <a href="https://twitter.com/sellmair"><strong>Sebastian Sellmair</strong></a>, software engineer at JetBrains, and he’s here to talk about <strong>Compose Hot Reload</strong>.</p>
+
+<p>With Compose Hot Reload, you can make changes to your Jetpack Compose code and see the results instantly in your app without having to restart it! This means you can iterate faster and get immediate feedback on your changes, which is arguably a huge game-changer!</p>
+
+<p>In this episode, Sebastian will walk us through the story of this project, how it works internally, and why you need a custom JVM to make it work. He’ll also share some insights on how to test Hot Reload and what the future holds for this project.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.46</strong> Episode Start</li>
+  <li><strong>01.13</strong> Sebastian’s Introduction</li>
+  <li><strong>01.58</strong> In case you missed it: what is Jetpack Compose?</li>
+  <li><strong>03.39</strong> What is Compose Hot Reload?</li>
+  <li><strong>10.06</strong> How Hot Reload works?</li>
+  <li><strong>19.05</strong> Watching for file changes</li>
+  <li><strong>25.57</strong> The story of Hot Reload</li>
+  <li><strong>32.56</strong> A custom JVM</li>
+  <li><strong>38.07</strong> Testing Hot Reload</li>
+  <li><strong>43.09</strong> Who will maintain Compose Hot Reload?</li>
+  <li><strong>46.05</strong> Hot Reload inside Android Studio</li>
+  <li><strong>51.29</strong> What’s next for Compose Hot Reload?</li>
+  <li><strong>53.54</strong> Futher reading</li>
+  <li><strong>55.22</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/JetBrains/compose-hot-reload">JetBrains/compose-hot-reload on GitHub</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/sellmair">@sellmair on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/sellmair">@sellmair on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/98-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>56:22</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Bit with Gilad Shoham</title>
