@@ -25,7 +25,7 @@ podcast_duration: "56:22"
 podcast_length: 22284106
 ---
 
-<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/0O8CNrM5AflL9bsjsElhPE?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 Since it's KotlinConf week we do have a special new episode for you folks! 🎁
 
