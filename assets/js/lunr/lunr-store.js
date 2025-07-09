@@ -592,4 +592,10 @@ var store = [{
         "tags": [],
         "url": "/98/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#99 - Android MCP SDK with Jason Pearson",
+        "excerpt":"Today we venture in the world of AI with Jason Pearson and the Android MCP (Model Context Protocol) SDK, a new library that allows Android developers to build apps that can communicate with AI models more effectively. While this library is still in its early days, this solution has a...","categories": [],
+        "tags": [],
+        "url": "/99/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

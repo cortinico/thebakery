@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Thu, 22 May 2025 14:58:02 +0100</lastBuildDate>
+<lastBuildDate>Thu, 10 Jul 2025 00:26:12 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,95 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Android MCP SDK with Jason Pearson</title>
+        <itunes:title>Android MCP SDK with Jason Pearson</itunes:title>
+        <link>https://thebakery.dev/99/</link>
+        <pubDate>Thu, 10 Jul 2025 00:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/99/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>99</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/99-thedevelopersbakery-android-mcp-sdk.m4a" length="18376566" type="audio/mpeg" />
+
+        <itunes:subtitle>Exploring the Model Context Protocol with Jason Pearson</itunes:subtitle>
+        <itunes:summary>Exploring the Model Context Protocol with Jason Pearson</itunes:summary>
+
+        
+        <description>
+            <![CDATA[Today we venture in the world of AI with Jason Pearson and the Android MCP (Model Context Protocol) SDK, a new library that allows Android developers to build apps that can communicate with AI models more effectively. While this library is still in its early days, this solution has a...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>Today we venture in the world of AI with <a href="https://twitter.com/kaeawc"><strong>Jason Pearson</strong></a> and the <a href="https://github.com/kaeawc/android-mcp-sdk"><strong>Android MCP</strong> (Model Context Protocol) <strong>SDK</strong></a>, a new library that allows Android developers to build apps that can communicate with AI models more effectively.</p>
+
+<p>While this library is still in its early days, this solution has a lot of potential to revolutionize how we interact and debug our Android apps. Jason is going to share insights from his with MCP and what it enables for Android developers: from layout inspections, to network debugging and potentially automating and simplifying UI testing for mobile apps!</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.46</strong> Episode Start</li>
+  <li><strong>01.16</strong> Jason’s Introduction</li>
+  <li><strong>02.02</strong> What is the Android MCP SDK?</li>
+  <li><strong>04.36</strong> MCP Use cases</li>
+  <li><strong>08.19</strong> Shipping MCPs in production apps</li>
+  <li><strong>12.32</strong> Installing the MCP SDK</li>
+  <li><strong>14.36</strong> Project Maturity</li>
+  <li><strong>16.21</strong> Building a new mental model</li>
+  <li><strong>22.45</strong> What got into building an MCP server?</li>
+  <li><strong>25.24</strong> How does the MCP protocol look like?</li>
+  <li><strong>29.36</strong> Which APIs from the MCP spec have you implemented?</li>
+  <li><strong>31.18</strong> What’s next for the Android MCP SDK?</li>
+  <li><strong>34.49</strong> The future of AI</li>
+  <li><strong>40.42</strong> Futher reading</li>
+  <li><strong>43.55</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/kaeawc/android-mcp-sdk">kaeawc/android-mcp-sdk on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://kaeawc.github.io/android-mcp-sdk/">Official Project Documentation</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fab fa-youtube"></i> Why MCP really is a big deal - <a href="https://www.youtube.com/watch?v=FLpS7OfD5-s">Model Context Protocol with Tim Berglund</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://www.jasonpearson.dev/ai-code-assistants-for-android-engineers/">AI Code Assistants for Android Engineers</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/kaeawc">@kaeawc on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/kaeawc">@kaeawc on Twitter</a></li>
+  <li><i class="fab fa-bluesky"></i> <a href="https://bsky.app/profile/kaeawc.bsky.social">@kaeawc.bsky.social on Bluesky</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://www.jasonpearson.dev/">Jason’s Personal Website</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/99-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>46:15</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Compose Hot Reload with Sebastian Sellmair</title>
