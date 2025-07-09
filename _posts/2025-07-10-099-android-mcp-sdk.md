@@ -27,7 +27,7 @@ podcast_length: 18376566
 
 <iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-Today we venture in the world of AI with [**Jason Pearson**](https://twitter.com/kaeawc) and the [**Android MCP** (Model Context Protocol) **SDK**](https://github.com/kaeawc/android-mcp-sdk), a new library that allows Android developers to build apps that can communicate with AI models more effictively.
+Today we venture in the world of AI with [**Jason Pearson**](https://twitter.com/kaeawc) and the [**Android MCP** (Model Context Protocol) **SDK**](https://github.com/kaeawc/android-mcp-sdk), a new library that allows Android developers to build apps that can communicate with AI models more effectively.
 
 While this library is still in its early days, this solution has a lot of potential to revolutionize how we interact and debug our Android apps. Jason is going to share insights from his with MCP and what it enables for Android developers: from layout inspections, to network debugging and potentially automating and simplifying UI testing for mobile apps!
 
