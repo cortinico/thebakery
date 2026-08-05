@@ -1,0 +1,75 @@
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
+## What this is
+
+The website + RSS feed for **The Developers' Bakery** podcast (https://thebakery.dev), a Jekyll 4 site using
+[minimal-mistakes](https://github.com/mmistakes/minimal-mistakes) as a `remote_theme`. Every podcast episode is a
+Markdown post in `_posts/`; the same front matter powers both the HTML page and the iTunes/RSS feed.
+
+## Commands
+
+```bash
+bundle install
+bundle exec jekyll serve            # local dev — serves on http://127.0.0.1:4001 (port/host set in _config.yml)
+bundle exec jekyll build            # production build into _site/
+bundle exec jekyll build --drafts --unpublished --future   # what CI runs on PRs; use this to preview future-dated episodes
+```
+
+Episode tooling lives in `scripts/` (Node + TypeScript, run with `ts-node`). **These must be run from `scripts/`** —
+`create-episode` writes to the relative path `../_posts/`:
+
+```bash
+cd scripts && yarn install
+yarn create-episode -p "Project Name" -g "Guest Name" -d 2025-07-10 -n 100
+yarn convert-labels -i labels.txt   # Audacity label export (tab-separated) -> "- **MM.SS** Title" show-notes lines
+```
+
+Note: there are no tests and no linter. CI (`.github/workflows/`) only checks that Jekyll builds.
+
+Local caveat: system Ruby here is 2.6 and the `bundler` version pinned in `Gemfile.lock` (2.6.8) is not installed, so
+`bundle` fails out of the box. Install a modern Ruby (CI uses `ruby:3.4` / the `jekyll/builder` container) or
+`gem install bundler:2.6.8` before building.
+
+## Deployment
+
+Push to `main` → `deploy-website.yaml` builds and pushes `_site/` to the `gh-pages` branch (GitHub Pages, custom
+domain from `CNAME`). `.gitlab-ci.yml` is a legacy mirror of the same build and is not the active pipeline.
+
+## Episode architecture
+
+An episode is `_posts/YYYY-MM-DD-NNN-project-slug.md` (NNN zero-padded to 3 digits). The front matter fields that
+matter beyond normal Jekyll:
+
+- `title` — **must** be `"#N - Project with Guest"`. The RSS template splits the title on `" - "` and publishes only
+  the second half as the feed's `<title>`/`<itunes:title>`. Break the separator and every feed title breaks.
+- `permalink: /N/` — the *unpadded* number is the canonical URL. `redirect_from` keeps older slug URLs alive
+  (needs `jekyll-redirect-from`).
+- `podcast_link` — the audio enclosure; a Podtrac redirect wrapping `hosting.thebakery.dev/N-thedevelopersbakery-<slug>.m4a`.
+  Audio files are hosted externally, not in this repo.
+- `podcast_duration` (`"MM:SS"`) and `podcast_length` (file size in **bytes**) — both feed enclosure metadata.
+  `create-episode` scaffolds them as literal `TODO`; they must be filled in before publishing.
+- `podcast_image` / `header.og_image` — `assets/images/episodes/NN-cover.png`, added per episode.
+- `excerpt` and `description` become `<itunes:subtitle>` and `<itunes:summary>`.
+
+**The post body must open with the Spotify `<iframe>`.** `_pages/podcast.xml` builds `<description>` and
+`<content:encoded>` from `content | split: "</iframe>"` and takes index `[1]`, so a post without that iframe ships an
+empty feed description. `create-episode` emits the iframe commented out — uncomment it when publishing.
+
+The feed itself is `_pages/podcast.xml` (`permalink: /podcast`), driven entirely by `site.posts` plus the
+`podcast_*` show-level settings at the bottom of `_config.yml`.
+
+## Theme customization
+
+The theme is remote, so there is no vendored `_layouts`/`_sass` — customization is only these override points:
+
+- `assets/css/main.scss` — the whole site's styling: palette (dark + orange) and font variables declared *before*
+  `@import "minimal-mistakes"`, then custom rules after it.
+- `_includes/archive-single.html`, `_includes/seo.html` — override the theme partials of the same name.
+- `_includes/head/custom.html` — extra `<head>` content (Google Fonts).
+- `_data/navigation.yml` (nav bar), `_data/ui-text.yml` (theme strings).
+- `index.html` is a `splash` layout whose feature rows are defined in its own front matter; it paginates recent
+  episodes via `jekyll-paginate` (5 per page).
+
+Standalone pages live in `_pages/` and each declares its own `permalink`.
