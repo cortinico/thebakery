@@ -8,15 +8,16 @@ program
   .name('create-episode')
   .description('Generate a podcast episode markdown file')
   .version('1.0')
-  .requiredOption('-p, --project <string>', 'Name of the project to spotlight')
-  .requiredOption('-g, --guest <string>', 'Name of the guest')
+  .option('-p, --project <string>', 'Name of the project to spotlight (requires --guest)')
+  .option('-g, --guest <string>', 'Name of the guest (requires --project)')
+  .option('-t, --title <string>', 'Title of the episode, as an alternative to --project and --guest')
   .requiredOption('-d, --date <string>', 'Release date of the episode')
   .requiredOption('-n, --number <number>', 'Number of the episode', parseInt);
 
 program.parse(process.argv);
 
 const options = program.opts();
-const { project, guest, date, number } = options;
+const { project, guest, title, date, number } = options;
 
 function toId(str: string): string {
   return str.toLowerCase().replace(/\s+/g, '-');
@@ -40,13 +41,39 @@ function error(msg: string, err?: Error, code = 1): never {
   process.exit(code);
 }
 
-function generateMarkdown(): string {
-  const id = toId(project);
-  const guestId = toId(guest);
-  const threeDigitNumber = number.toString().padStart(3, '0');
+interface Episode {
+  displayTitle: string;
+  slug: string;
+  redirects: string[];
+}
+
+// An episode is described either by a project and its guest, or by a plain title.
+function resolveEpisode(): Episode {
+  if (title) {
+    if (project || guest) {
+      error('Pass either --title or both --project and --guest, not both.');
+    }
+    const slug = toId(title);
+    return { displayTitle: title, slug, redirects: [`/${number}/${slug}/`] };
+  }
+
+  if (!project || !guest) {
+    error('Pass either --title or both --project and --guest.');
+  }
+
+  const slug = toId(project);
+  return {
+    displayTitle: `${project} with ${guest}`,
+    slug,
+    redirects: [`/${number}/${slug}/`, `/${number}/${slug}-with-${toId(guest)}/`],
+  };
+}
+
+function generateMarkdown(episode: Episode): string {
+  const { displayTitle, slug, redirects } = episode;
 
   return `---
-title: "#${number} - ${project} with ${guest}"
+title: "#${number} - ${displayTitle}"
 excerpt: "TODO"
 author_profile: true
 
@@ -62,12 +89,11 @@ header:
 date: ${date}
 permalink: /${number}/
 redirect_from:
-- /${number}/${id}/
-- /${number}/${id}-with-${guestId}/
+${redirects.map((redirect) => `- ${redirect}`).join('\n')}
 
 podcast_image: "/assets/images/episodes/${number}-cover.png"
 podcast_episode_number: ${number}
-podcast_link: https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/${number}-thedevelopersbakery-${id}.m4a
+podcast_link: https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/${number}-thedevelopersbakery-${slug}.m4a
 podcast_duration: "TODO"
 podcast_length: TODO
 ---
@@ -105,14 +131,13 @@ try {
   info("Welcome to create-episode", "👋");
   info("Creating your episode...");
 
-  const id = toId(project);
+  const episode = resolveEpisode();
   const threeDigitNumber = number.toString().padStart(3, '0');
-  const filename = `../_posts/${date}-${threeDigitNumber}-${id}.md`;
+  const filename = `../_posts/${date}-${threeDigitNumber}-${episode.slug}.md`;
 
-  fs.writeFileSync(filename, generateMarkdown());
-  
-  info(`Podcast project title: ${project}`);
-  info(`Podcast guest: ${guest}`);
+  fs.writeFileSync(filename, generateMarkdown(episode));
+
+  info(`Podcast title: ${episode.displayTitle}`);
   info(`Podcast date: ${date}`);
   info(`Podcast number: ${number}`);
 

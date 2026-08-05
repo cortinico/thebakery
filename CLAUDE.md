@@ -23,6 +23,7 @@ Episode tooling lives in `scripts/` (Node + TypeScript, run with `ts-node`). **T
 ```bash
 cd scripts && yarn install
 yarn create-episode -p "Project Name" -g "Guest Name" -d 2025-07-10 -n 100
+yarn create-episode -t "Show Trailer" -d 2025-07-10 -n 100   # title-only episodes (no project/guest)
 yarn convert-labels -i labels.txt   # Audacity label export (tab-separated) -> "- **MM.SS** Title" show-notes lines
 ```
 
@@ -42,8 +43,9 @@ domain from `CNAME`). `.gitlab-ci.yml` is a legacy mirror of the same build and 
 An episode is `_posts/YYYY-MM-DD-NNN-project-slug.md` (NNN zero-padded to 3 digits). The front matter fields that
 matter beyond normal Jekyll:
 
-- `title` — **must** be `"#N - Project with Guest"`. The RSS template splits the title on `" - "` and publishes only
-  the second half as the feed's `<title>`/`<itunes:title>`. Break the separator and every feed title breaks.
+- `title` — **must** be `"#N - <something>"`, normally `"#N - Project with Guest"` (`"#00 - Show Trailer"` for
+  episodes without a guest). The RSS template splits the title on `" - "` and publishes only the second half as the
+  feed's `<title>`/`<itunes:title>`. Break the separator and every feed title breaks.
 - `permalink: /N/` — the *unpadded* number is the canonical URL. `redirect_from` keeps older slug URLs alive
   (needs `jekyll-redirect-from`).
 - `podcast_link` — the audio enclosure; a Podtrac redirect wrapping `hosting.thebakery.dev/N-thedevelopersbakery-<slug>.m4a`.
