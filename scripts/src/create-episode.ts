@@ -11,13 +11,14 @@ program
   .option('-p, --project <string>', 'Name of the project to spotlight (requires --guest)')
   .option('-g, --guest <string>', 'Name of the guest (requires --project)')
   .option('-t, --title <string>', 'Title of the episode, as an alternative to --project and --guest')
+  .option('-s, --slug <string>', 'Slug of the episode, defaults to the project name or to the title')
   .requiredOption('-d, --date <string>', 'Release date of the episode')
   .requiredOption('-n, --number <number>', 'Number of the episode', parseInt);
 
 program.parse(process.argv);
 
 const options = program.opts();
-const { project, guest, title, date, number } = options;
+const { project, guest, title, slug: customSlug, date, number } = options;
 
 function toId(str: string): string {
   return str.toLowerCase().replace(/\s+/g, '-');
@@ -53,7 +54,7 @@ function resolveEpisode(): Episode {
     if (project || guest) {
       error('Pass either --title or both --project and --guest, not both.');
     }
-    const slug = toId(title);
+    const slug = toId(customSlug ?? title);
     return { displayTitle: title, slug, redirects: [`/${number}/${slug}/`] };
   }
 
@@ -61,7 +62,7 @@ function resolveEpisode(): Episode {
     error('Pass either --title or both --project and --guest.');
   }
 
-  const slug = toId(project);
+  const slug = toId(customSlug ?? project);
   return {
     displayTitle: `${project} with ${guest}`,
     slug,
