@@ -1,18 +1,20 @@
 {
-    "name": "@thebakerydev/scripts",
-    "version": "1.0.0",
-    "private": true,
-    "type": "module",
-    "scripts": {
-      "create-episode": "ts-node src/create-episode.ts",
-      "convert-labels": "ts-node src/convert-labels.ts"
-    },
-    "dependencies": {
-      "commander": "^14.0.0"
-    },
-    "devDependencies": {
-      "@types/node": "^22.0.0",
-      "ts-node": "^10.9.1",
-      "typescript": "^5.0.0"
-    }
+  "name": "@thebakerydev/scripts",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "create-episode": "ts-node src/create-episode.ts",
+    "create-artwork": "ts-node src/create-artwork.ts",
+    "convert-labels": "ts-node src/convert-labels.ts"
+  },
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "commander": "^14.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0"
   }
+}
