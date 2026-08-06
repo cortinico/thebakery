@@ -12,7 +12,7 @@ header:
   overlay_filter: "0.6"
   og_image: "/assets/images/episodes/13-cover.png"
 
-date: 2021-06-14
+date: 2021-06-14 12:00:00 +0000
 permalink: /13/
 redirect_from:
 - /13/apollo-graphql/

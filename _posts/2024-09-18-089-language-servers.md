@@ -12,7 +12,7 @@ header:
   overlay_filter: "0.6"
   og_image: "/assets/images/episodes/89-cover.png"
 
-date: 2024-09-18
+date: 2024-09-18 12:00:00 +0000
 permalink: /89/
 redirect_from:
   - /89/language-servers/

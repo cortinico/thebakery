@@ -12,7 +12,7 @@ header:
   overlay_filter: "0.6"
   og_image: "/assets/images/episodes/84-cover.png"
 
-date: 2024-06-26
+date: 2024-06-26 12:00:00 +0000
 permalink: /84/
 redirect_from:
   - /84/system-initiative/

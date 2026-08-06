@@ -12,7 +12,7 @@ header:
   overlay_filter: "0.6"
   og_image: "/assets/images/episodes/35-cover.png"
 
-date: 2022-05-30
+date: 2022-05-30 12:00:00 +0000
 permalink: /35/
 redirect_from:
 - /35/ktlint-gradle/

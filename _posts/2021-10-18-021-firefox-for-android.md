@@ -12,7 +12,7 @@ header:
   overlay_filter: "0.6"
   og_image: "/assets/images/episodes/21-cover.png"
 
-date: 2021-10-18
+date: 2021-10-18 12:00:00 +0000
 permalink: /21/
 redirect_from:
 - /21/firefox-for-android/

@@ -12,7 +12,7 @@ header:
   overlay_filter: "0.6"
   og_image: "/assets/images/episodes/26-cover.png"
 
-date: 2022-01-24
+date: 2022-01-24 12:00:00 +0000
 permalink: /26/
 redirect_from:
 - /26/material-ui-swing/

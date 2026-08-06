@@ -12,7 +12,7 @@ header:
   overlay_filter: "0.6"
   og_image: "/assets/images/episodes/01-cover.png"
 
-date: 2020-12-07
+date: 2020-12-07 12:00:00 +0000
 permalink: /01/
 podcast_image: "/assets/images/episodes/01-cover.png"
 podcast_episode_number: 1

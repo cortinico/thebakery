@@ -12,7 +12,7 @@ header:
   overlay_filter: "0.6"
   og_image: "/assets/images/episodes/11-cover.png"
 
-date: 2021-04-27
+date: 2021-04-27 12:00:00 +0000
 permalink: /11/
 redirect_from:
 - /11/moshix-and-ksp/

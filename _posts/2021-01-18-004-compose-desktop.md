@@ -12,7 +12,7 @@ header:
   overlay_filter: "0.6"
   og_image: "/assets/images/episodes/04-cover.png"
 
-date: 2021-01-18
+date: 2021-01-18 12:00:00 +0000
 permalink: /04/
 redirect_from:
 - /04/compose-desktop/

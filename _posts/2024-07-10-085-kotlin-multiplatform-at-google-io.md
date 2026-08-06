@@ -12,7 +12,7 @@ header:
   overlay_filter: "0.6"
   og_image: "/assets/images/episodes/85-cover.png"
 
-date: 2024-07-10
+date: 2024-07-10 12:00:00 +0000
 permalink: /85/
 redirect_from:
   - /85/kotlin-multiplatform/

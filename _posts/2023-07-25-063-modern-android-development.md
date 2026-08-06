@@ -12,7 +12,7 @@ header:
   overlay_filter: "0.6"
   og_image: "/assets/images/episodes/63-cover.png"
 
-date: 2023-07-25
+date: 2023-07-25 12:00:00 +0000
 permalink: /63/
 redirect_from:
 - /63/modern-android-development/

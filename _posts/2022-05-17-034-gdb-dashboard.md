@@ -12,7 +12,7 @@ header:
   overlay_filter: "0.6"
   og_image: "/assets/images/episodes/34-cover.png"
 
-date: 2022-05-17
+date: 2022-05-17 12:00:00 +0000
 permalink: /34/
 redirect_from:
 - /34/gdb-dashboard/

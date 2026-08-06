@@ -12,7 +12,7 @@ header:
   overlay_filter: "0.6"
   og_image: "/assets/images/episodes/31-cover.png"
 
-date: 2022-04-05
+date: 2022-04-05 12:00:00 +0000
 permalink: /31/
 redirect_from:
 - /31/dependency-analysis-android-gradle-plugin/

@@ -12,7 +12,7 @@ header:
   overlay_filter: "0.6"
   og_image: "/assets/images/episodes/12-cover.png"
 
-date: 2021-05-31
+date: 2021-05-31 12:00:00 +0000
 permalink: /12/
 redirect_from:
 - /12/refreshversions/

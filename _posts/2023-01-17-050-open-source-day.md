@@ -12,7 +12,7 @@ header:
   overlay_filter: "0.6"
   og_image: "/assets/images/episodes/50-cover.png"
 
-date: 2023-01-17
+date: 2023-01-17 12:00:00 +0000
 permalink: /50/
 redirect_from:
 - /50/open-source-day/

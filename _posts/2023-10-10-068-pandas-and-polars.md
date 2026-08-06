@@ -12,7 +12,7 @@ header:
   overlay_filter: "0.6"
   og_image: "/assets/images/episodes/68-cover.png"
 
-date: 2023-10-10
+date: 2023-10-10 12:00:00 +0000
 permalink: /68/
 redirect_from:
 - /68/pandas-and-polars/

@@ -12,7 +12,7 @@ header:
   overlay_filter: "0.6"
   og_image: "/assets/images/episodes/70-cover.png"
 
-date: 2023-11-14
+date: 2023-11-14 12:00:00 +0000
 permalink: /70/
 redirect_from:
 - /70/the-educators-path/

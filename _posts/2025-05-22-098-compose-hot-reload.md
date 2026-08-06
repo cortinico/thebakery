@@ -12,7 +12,7 @@ header:
   overlay_filter: "0.6"
   og_image: "/assets/images/episodes/98-cover.png"
 
-date: 2025-05-22
+date: 2025-05-22 12:00:00 +0000
 permalink: /98/
 redirect_from:
 - /98/compose-hot-reload/

@@ -12,7 +12,7 @@ header:
   overlay_filter: "0.6"
   og_image: "/assets/images/episodes/69-cover.png"
 
-date: 2023-10-25
+date: 2023-10-25 12:00:00 +0000
 permalink: /69/
 redirect_from:
 - /69/compose-rules/

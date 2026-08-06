@@ -12,7 +12,7 @@ header:
   overlay_filter: "0.6"
   og_image: "/assets/images/episodes/80-cover.png"
 
-date: 2024-04-16
+date: 2024-04-16 12:00:00 +0000
 permalink: /80/
 redirect_from:
   - /80/opencollective/

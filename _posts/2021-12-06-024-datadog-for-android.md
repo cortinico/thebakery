@@ -12,7 +12,7 @@ header:
   overlay_filter: "0.6"
   og_image: "/assets/images/episodes/24-cover.png"
 
-date: 2021-12-06
+date: 2021-12-06 12:00:00 +0000
 permalink: /24/
 redirect_from:
 - /24/datadog-for-android/
