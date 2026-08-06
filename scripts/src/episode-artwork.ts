@@ -307,23 +307,22 @@ function round(value: number): number {
 export interface OgArtwork {
   title: FittedText;
   guest?: FittedText;
+  // False when even the smallest size overflows the band, which no published
+  // episode does, but which is worth surfacing rather than drawing over the logo.
+  fits: boolean;
 }
 
-export function renderOg(template: string, number: number, episode: EpisodeTitle, cover?: CoverImage): { png: Buffer; layout: OgArtwork } {
-  let svg = fs.readFileSync(template, 'utf8');
+interface Block extends OgArtwork {
+  titleCap: number;
+  titleLeading: number;
+  titleHeight: number;
+  gap: number;
+  guestCap: number;
+  guestLeading: number;
+  height: number;
+}
 
-  const title = fitText(episode.title, OG_TEXT_WIDTH, OG_TITLE_LINES.length, OG_TITLE_MAX_SIZE, OG_TITLE_MIN_SIZE);
-
-  const guest = episode.guest
-    ? fitText(
-        `with ${episode.guest}`,
-        OG_TEXT_WIDTH,
-        OG_GUEST_LINES.length,
-        Math.min(OG_GUEST_MAX_SIZE, title.size * GUEST_TO_TITLE_RATIO),
-        OG_GUEST_MIN_SIZE,
-      )
-    : undefined;
-
+function measure(title: FittedText, guest: FittedText | undefined, fits: boolean): Block {
   const titleCap = title.size * CAP_HEIGHT;
   const titleLeading = title.size * TITLE_LEADING;
   const titleHeight = titleCap + (title.lines.length - 1) * titleLeading;
@@ -333,10 +332,69 @@ export function renderOg(template: string, number: number, episode: EpisodeTitle
   const guestLeading = guest ? guest.size * GUEST_LEADING : 0;
   const guestHeight = guest ? guestCap + (guest.lines.length - 1) * guestLeading : 0;
 
+  return {
+    title,
+    guest,
+    fits,
+    titleCap,
+    titleLeading,
+    titleHeight,
+    gap,
+    guestCap,
+    guestLeading,
+    height: titleHeight + gap + guestHeight,
+  };
+}
+
+// Fits the title and the guest line together, against the height of the band
+// rather than the width of a line. Width alone is not the binding constraint: a
+// title of short words ("Compose Hot Reload") satisfies it at the largest size
+// and simply takes a third line, which is how a block twice the height of the
+// band ends up centred over the logo and the episode number.
+function fitBlock(episode: EpisodeTitle, width: number, height: number): Block {
+  const STEP = 0.25;
+  const steps = Math.round((OG_TITLE_MAX_SIZE - OG_TITLE_MIN_SIZE) / STEP);
+  let smallest: Block | undefined;
+
+  for (let index = 0; index <= steps; index++) {
+    const size = round(OG_TITLE_MAX_SIZE - index * STEP);
+    const lines = wrap(episode.title, width, size);
+    if (!lines || lines.length > OG_TITLE_LINES.length) {
+      continue;
+    }
+
+    const guest = episode.guest
+      ? fitText(
+          `with ${episode.guest}`,
+          width,
+          OG_GUEST_LINES.length,
+          Math.min(OG_GUEST_MAX_SIZE, round(size * GUEST_TO_TITLE_RATIO)),
+          OG_GUEST_MIN_SIZE,
+        )
+      : undefined;
+
+    const block = measure({ size, lines }, guest, true);
+    if (block.height <= height) {
+      return block;
+    }
+    smallest = block;
+  }
+
+  // Nothing fit. Draw the smallest attempt and let the caller say so.
+  const fallback = smallest ?? measure(fitText(episode.title, width, OG_TITLE_LINES.length, OG_TITLE_MAX_SIZE, OG_TITLE_MIN_SIZE), undefined, false);
+  return { ...fallback, fits: false };
+}
+
+export function renderOg(template: string, number: number, episode: EpisodeTitle, cover?: CoverImage): { png: Buffer; layout: OgArtwork } {
+  let svg = fs.readFileSync(template, 'utf8');
+
+  const bandHeight = OG_BAND_BOTTOM - OG_BAND_TOP;
+  const block = fitBlock(episode, OG_TEXT_WIDTH, bandHeight);
+  const { title, guest, titleCap, titleLeading, titleHeight, gap, guestCap, guestLeading } = block;
+
   // Centre the whole block in the band, so a one line title does not leave the
   // canvas looking bottom heavy and a three line one does not crowd the number.
-  const blockHeight = titleHeight + gap + guestHeight;
-  const top = OG_BAND_TOP + (OG_BAND_BOTTOM - OG_BAND_TOP - blockHeight) / 2;
+  const top = OG_BAND_TOP + (bandHeight - block.height) / 2;
 
   OG_TITLE_LINES.forEach((id, index) => {
     const content = title.lines[index] ?? '';
@@ -353,7 +411,7 @@ export function renderOg(template: string, number: number, episode: EpisodeTitle
   svg = setText(svg, OG_NUMBER, template, `#${episodeId(number)}`);
   svg = setPhoto(svg, OG_PHOTO, template, cover);
 
-  return { png: renderPng(svg, OG_WIDTH, template), layout: { title, guest } };
+  return { png: renderPng(svg, OG_WIDTH, template), layout: { title, guest, fits: block.fits } };
 }
 
 // Where the artwork lives, relative to the scripts folder, and how the posts

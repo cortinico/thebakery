@@ -115,6 +115,9 @@ async function main() {
       fs.writeFileSync(target, png);
 
       info(`Open graph: ${target} (1200x630)`);
+      if (!layout.fits) {
+        warn('The title does not fit the artwork even at the smallest size, it will overlap the rest.');
+      }
       info(`Title: ${episode.title} (${layout.title.size}px over ${layout.title.lines.length} line(s))`);
       if (episode.guest) {
         info(`Guest: ${episode.guest} (${layout.guest?.size}px over ${layout.guest?.lines.length} line(s))`);
