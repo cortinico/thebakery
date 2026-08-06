@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Tue, 09 Dec 2025 21:53:23 +0000</lastBuildDate>
+<lastBuildDate>Fri, 07 Aug 2026 00:48:14 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -45,7 +45,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
         <title>Android MCP SDK with Jason Pearson</title>
         <itunes:title>Android MCP SDK with Jason Pearson</itunes:title>
         <link>https://thebakery.dev/99/</link>
-        <pubDate>Thu, 10 Jul 2025 00:00:00 +0100</pubDate>
+        <pubDate>Thu, 10 Jul 2025 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/99/</guid>
         
@@ -55,7 +55,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
             <itunes:episode>99</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/99-thedevelopersbakery-android-mcp-sdk.m4a" length="18376566" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/99-thedevelopersbakery-android-mcp-sdk.m4a" length="18376566" type="audio/x-m4a" />
 
         <itunes:subtitle>Exploring the Model Context Protocol with Jason Pearson</itunes:subtitle>
         <itunes:summary>Exploring the Model Context Protocol with Jason Pearson</itunes:summary>
@@ -134,7 +134,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
         <title>Compose Hot Reload with Sebastian Sellmair</title>
         <itunes:title>Compose Hot Reload with Sebastian Sellmair</itunes:title>
         <link>https://thebakery.dev/98/</link>
-        <pubDate>Thu, 22 May 2025 00:00:00 +0100</pubDate>
+        <pubDate>Thu, 22 May 2025 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/98/</guid>
         
@@ -144,7 +144,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
             <itunes:episode>98</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/98-thedevelopersbakery-composehotreload.m4a" length="22284106" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/98-thedevelopersbakery-composehotreload.m4a" length="22284106" type="audio/x-m4a" />
 
         <itunes:subtitle>Hot Reloading your composable functions with Sebastian Sellmair</itunes:subtitle>
         <itunes:summary>Hot Reloading your composable functions with Sebastian Sellmair</itunes:summary>
@@ -217,7 +217,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
         <title>Bit with Gilad Shoham</title>
         <itunes:title>Bit with Gilad Shoham</itunes:title>
         <link>https://thebakery.dev/97/</link>
-        <pubDate>Wed, 14 May 2025 00:00:00 +0100</pubDate>
+        <pubDate>Wed, 14 May 2025 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/97/</guid>
         
@@ -227,7 +227,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
             <itunes:episode>97</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/97-thedevelopersbakery-bit.m4a" length="24588536" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/97-thedevelopersbakery-bit.m4a" length="24588536" type="audio/x-m4a" />
 
         <itunes:subtitle>Composable Architecture to scale your development workflow with Gilhad Shoham and bit.dev</itunes:subtitle>
         <itunes:summary>Composable Architecture to scale your development workflow with Gilhad Shoham and bit.dev</itunes:summary>
@@ -313,7 +313,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
         <title>Aurora Store with Aayush Gupta</title>
         <itunes:title>Aurora Store with Aayush Gupta</itunes:title>
         <link>https://thebakery.dev/96/</link>
-        <pubDate>Thu, 24 Apr 2025 00:00:00 +0100</pubDate>
+        <pubDate>Thu, 24 Apr 2025 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/96/</guid>
         
@@ -323,7 +323,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
             <itunes:episode>96</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/96-thedevelopersbakery-aurorastore.m4a" length="17482491" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/96-thedevelopersbakery-aurorastore.m4a" length="17482491" type="audio/x-m4a" />
 
         <itunes:subtitle>Maintaining and Open Source Alternative store with Aayush Gupta and Aurora Store</itunes:subtitle>
         <itunes:summary>Maintaining and Open Source Alternative store with Aayush Gupta and Aurora Store</itunes:summary>
@@ -410,7 +410,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
         <title>http4k with David Denton</title>
         <itunes:title>http4k with David Denton</itunes:title>
         <link>https://thebakery.dev/95/</link>
-        <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 12 Mar 2025 12:00:00 +0000</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/95/</guid>
         
@@ -420,7 +420,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
             <itunes:episode>95</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/95-thedevelopersbakery-http4k.m4a" length="16986940" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/95-thedevelopersbakery-http4k.m4a" length="16986940" type="audio/x-m4a" />
 
         <itunes:subtitle>Your server as a function with http4k and David Denton</itunes:subtitle>
         <itunes:summary>Your server as a function with http4k and David Denton</itunes:summary>
@@ -512,7 +512,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
         <title>Astro with Elian Van Cutsem</title>
         <itunes:title>Astro with Elian Van Cutsem</itunes:title>
         <link>https://thebakery.dev/94/</link>
-        <pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 12 Feb 2025 12:00:00 +0000</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/94/</guid>
         
@@ -522,7 +522,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
             <itunes:episode>94</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/94-thedevelopersbakery-astro.m4a" length="17298098" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/94-thedevelopersbakery-astro.m4a" length="17298098" type="audio/x-m4a" />
 
         <itunes:subtitle>Content-first Web Development with Astro and Elian Van Cutsem</itunes:subtitle>
         <itunes:summary>Content-first Web Development with Astro and Elian Van Cutsem</itunes:summary>
@@ -610,7 +610,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
         <title>KotlinPoet with Egor Andreevich</title>
         <itunes:title>KotlinPoet with Egor Andreevich</itunes:title>
         <link>https://thebakery.dev/93/</link>
-        <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 15 Jan 2025 12:00:00 +0000</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/93/</guid>
         
@@ -620,7 +620,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
             <itunes:episode>93</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/93-thedevelopersbakery-kotlinpoet.m4a" length="17923631" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/93-thedevelopersbakery-kotlinpoet.m4a" length="17923631" type="audio/x-m4a" />
 
         <itunes:subtitle>Generating Kotlin code like an pro with with KotlinPoet and Egor Andreevich</itunes:subtitle>
         <itunes:summary>Generating Kotlin code like an pro with with KotlinPoet and Egor Andreevich</itunes:summary>
@@ -699,7 +699,7 @@ when to use it, and how to contribute to the project.</p>
         <title>Daytona with Ivan Burazin</title>
         <itunes:title>Daytona with Ivan Burazin</itunes:title>
         <link>https://thebakery.dev/92/</link>
-        <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 23 Dec 2024 12:00:00 +0000</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/92/</guid>
         
@@ -709,7 +709,7 @@ when to use it, and how to contribute to the project.</p>
             <itunes:episode>92</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/92-thedevelopersbakery-daytona.m4a" length="18956930" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/92-thedevelopersbakery-daytona.m4a" length="18956930" type="audio/x-m4a" />
 
         <itunes:subtitle>Managing and sharing your development environment with Daytona and Ivan Burazin</itunes:subtitle>
         <itunes:summary>Managing and sharing your development environment with Daytona and Ivan Burazin</itunes:summary>
@@ -789,7 +789,7 @@ when to use it, and how to contribute to the project.</p>
         <title>Excalidraw with Aakansha Doshi</title>
         <itunes:title>Excalidraw with Aakansha Doshi</itunes:title>
         <link>https://thebakery.dev/91/</link>
-        <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 31 Oct 2024 12:00:00 +0000</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/91/</guid>
         
@@ -799,7 +799,7 @@ when to use it, and how to contribute to the project.</p>
             <itunes:episode>91</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/91-thedevelopersbakery-excalidraw.m4a" length="16607447" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/91-thedevelopersbakery-excalidraw.m4a" length="16607447" type="audio/x-m4a" />
 
         <itunes:subtitle>Canvas drawing with Excalidraw and Aakansha Doshi</itunes:subtitle>
         <itunes:summary>Canvas drawing with Excalidraw and Aakansha Doshi</itunes:summary>
@@ -886,7 +886,7 @@ Aakansha will tell us the story of Excalidraw, how it evolved over time, and its
         <title>Chucker with Nicola Corti</title>
         <itunes:title>Chucker with Nicola Corti</itunes:title>
         <link>https://thebakery.dev/90/</link>
-        <pubDate>Thu, 17 Oct 2024 00:00:00 +0100</pubDate>
+        <pubDate>Thu, 17 Oct 2024 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/90/</guid>
         
@@ -896,7 +896,7 @@ Aakansha will tell us the story of Excalidraw, how it evolved over time, and its
             <itunes:episode>90</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/90-thedevelopersbakery-chucker.m4a" length="15654057" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/90-thedevelopersbakery-chucker.m4a" length="15654057" type="audio/x-m4a" />
 
         <itunes:subtitle>Inspecting network requests in Android with Chucker and Nicola Corti</itunes:subtitle>
         <itunes:summary>Inspecting network requests in Android with Chucker and Nicola Corti</itunes:summary>
@@ -973,7 +973,7 @@ Aakansha will tell us the story of Excalidraw, how it evolved over time, and its
         <title>Language Servers with Gorkem Ercan</title>
         <itunes:title>Language Servers with Gorkem Ercan</itunes:title>
         <link>https://thebakery.dev/89/</link>
-        <pubDate>Wed, 18 Sep 2024 00:00:00 +0100</pubDate>
+        <pubDate>Wed, 18 Sep 2024 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/89/</guid>
         
@@ -983,7 +983,7 @@ Aakansha will tell us the story of Excalidraw, how it evolved over time, and its
             <itunes:episode>89</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/89-thedevelopersbakery-languageservers.m4a" length="20180351" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/89-thedevelopersbakery-languageservers.m4a" length="20180351" type="audio/x-m4a" />
 
         <itunes:subtitle>Discover the world of Language Servers with Gorkem Ercan</itunes:subtitle>
         <itunes:summary>Discover the world of Language Servers with Gorkem Ercan</itunes:summary>
@@ -1065,7 +1065,7 @@ Aakansha will tell us the story of Excalidraw, how it evolved over time, and its
         <title>Charty with Himanshu Singh</title>
         <itunes:title>Charty with Himanshu Singh</itunes:title>
         <link>https://thebakery.dev/88/</link>
-        <pubDate>Tue, 27 Aug 2024 00:00:00 +0100</pubDate>
+        <pubDate>Tue, 27 Aug 2024 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/88/</guid>
         
@@ -1075,7 +1075,7 @@ Aakansha will tell us the story of Excalidraw, how it evolved over time, and its
             <itunes:episode>88</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/88-thedevelopersbakery-charty.m4a" length="14158630" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/88-thedevelopersbakery-charty.m4a" length="14158630" type="audio/x-m4a" />
 
         <itunes:subtitle>Charts for Jetpack Compose with Charty and Himanshu Singh</itunes:subtitle>
         <itunes:summary>Charts for Jetpack Compose with Charty and Himanshu Singh</itunes:summary>
@@ -1149,7 +1149,7 @@ Aakansha will tell us the story of Excalidraw, how it evolved over time, and its
         <title>Redpanda with Christina Lin</title>
         <itunes:title>Redpanda with Christina Lin</itunes:title>
         <link>https://thebakery.dev/87/</link>
-        <pubDate>Wed, 14 Aug 2024 00:00:00 +0100</pubDate>
+        <pubDate>Wed, 14 Aug 2024 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/87/</guid>
         
@@ -1159,7 +1159,7 @@ Aakansha will tell us the story of Excalidraw, how it evolved over time, and its
             <itunes:episode>87</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/87-thedevelopersbakery-redpanda.m4a" length="16732267" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/87-thedevelopersbakery-redpanda.m4a" length="16732267" type="audio/x-m4a" />
 
         <itunes:subtitle>Super fast data streaming platform with Christina Lin, Developer Advocate at Redpanda</itunes:subtitle>
         <itunes:summary>Super fast data streaming platform with Christina Lin, Developer Advocate at Redpanda</itunes:summary>
@@ -1244,7 +1244,7 @@ Aakansha will tell us the story of Excalidraw, how it evolved over time, and its
         <title>Dagster with Sandy Ryza</title>
         <itunes:title>Dagster with Sandy Ryza</itunes:title>
         <link>https://thebakery.dev/86/</link>
-        <pubDate>Wed, 31 Jul 2024 00:00:00 +0100</pubDate>
+        <pubDate>Wed, 31 Jul 2024 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/86/</guid>
         
@@ -1254,7 +1254,7 @@ Aakansha will tell us the story of Excalidraw, how it evolved over time, and its
             <itunes:episode>86</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/86-thedevelopersbakery-dagster.m4a" length="16174062" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/86-thedevelopersbakery-dagster.m4a" length="16174062" type="audio/x-m4a" />
 
         <itunes:subtitle>We venture in the world of Data Pipelines with Dagster and Sandy Ryza</itunes:subtitle>
         <itunes:summary>We venture in the world of Data Pipelines with Dagster and Sandy Ryza</itunes:summary>
@@ -1334,7 +1334,7 @@ Aakansha will tell us the story of Excalidraw, how it evolved over time, and its
         <title>Kotlin Multiplatform at Google I/O with Marcello Galhardo</title>
         <itunes:title>Kotlin Multiplatform at Google I/O with Marcello Galhardo</itunes:title>
         <link>https://thebakery.dev/85/</link>
-        <pubDate>Wed, 10 Jul 2024 00:00:00 +0100</pubDate>
+        <pubDate>Wed, 10 Jul 2024 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/85/</guid>
         
@@ -1344,7 +1344,7 @@ Aakansha will tell us the story of Excalidraw, how it evolved over time, and its
             <itunes:episode>85</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/85-thedevelopersbakery-kmp.m4a" length="11341007" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/85-thedevelopersbakery-kmp.m4a" length="11341007" type="audio/x-m4a" />
 
         <itunes:subtitle>Amazing announcements about Kotlin Multiplatform at Google I/O 2024</itunes:subtitle>
         <itunes:summary>Amazing announcements about Kotlin Multiplatform at Google I/O 2024</itunes:summary>
@@ -1354,7 +1354,7 @@ Aakansha will tell us the story of Excalidraw, how it evolved over time, and its
             <![CDATA[Welcome to a special in-person episode of The Developers’ Bakery, recorded live in Berlin at Google I/O Connect 2024! There, I had the privilege of having on stage Marcello Galhardo, Software Engineer at Google. Marcello is working in the AndroidX team responsible for adding Kotlin Multiplatform support for several popular...]]>
         </description>
         <content:encoded>
-            <![CDATA[<p><img src="/assets/images/posts/ioconnect24.jpg" alt="io connect photo" /></p>
+            <![CDATA[<p><img src="https://thebakery.dev/assets/images/posts/ioconnect24.jpg" alt="io connect photo" /></p>
 
 <p>Welcome to a special <strong>in-person episode</strong> of The Developers’ Bakery, recorded live in <strong>Berlin</strong> at Google I/O Connect 2024!</p>
 
@@ -1433,7 +1433,7 @@ Aakansha will tell us the story of Excalidraw, how it evolved over time, and its
         <title>System Initiative with Adam Jacob</title>
         <itunes:title>System Initiative with Adam Jacob</itunes:title>
         <link>https://thebakery.dev/84/</link>
-        <pubDate>Wed, 26 Jun 2024 00:00:00 +0100</pubDate>
+        <pubDate>Wed, 26 Jun 2024 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/84/</guid>
         
@@ -1443,7 +1443,7 @@ Aakansha will tell us the story of Excalidraw, how it evolved over time, and its
             <itunes:episode>84</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/84-thedevelopersbakery-systeminit.m4a" length="18914142" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/84-thedevelopersbakery-systeminit.m4a" length="18914142" type="audio/x-m4a" />
 
         <itunes:subtitle>Next-gen DevOps with Adam Jacob and System Initiative</itunes:subtitle>
         <itunes:summary>Next-gen DevOps with Adam Jacob and System Initiative</itunes:summary>
@@ -1521,7 +1521,7 @@ Aakansha will tell us the story of Excalidraw, how it evolved over time, and its
         <title>Hasura with Tanmai Gopal</title>
         <itunes:title>Hasura with Tanmai Gopal</itunes:title>
         <link>https://thebakery.dev/83/</link>
-        <pubDate>Tue, 11 Jun 2024 00:00:00 +0100</pubDate>
+        <pubDate>Tue, 11 Jun 2024 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/83/</guid>
         
@@ -1531,7 +1531,7 @@ Aakansha will tell us the story of Excalidraw, how it evolved over time, and its
             <itunes:episode>83</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/83-thedevelopersbakery-hasura.m4a" length="21071231" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/83-thedevelopersbakery-hasura.m4a" length="21071231" type="audio/x-m4a" />
 
         <itunes:subtitle>Build and scale your GraphQL APIs with Hasura and Tanmai Gopal</itunes:subtitle>
         <itunes:summary>Build and scale your GraphQL APIs with Hasura and Tanmai Gopal</itunes:summary>
@@ -1609,7 +1609,7 @@ Aakansha will tell us the story of Excalidraw, how it evolved over time, and its
         <title>Mautic with Ruth Cheesley</title>
         <itunes:title>Mautic with Ruth Cheesley</itunes:title>
         <link>https://thebakery.dev/82/</link>
-        <pubDate>Wed, 29 May 2024 00:00:00 +0100</pubDate>
+        <pubDate>Wed, 29 May 2024 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/82/</guid>
         
@@ -1619,7 +1619,7 @@ Aakansha will tell us the story of Excalidraw, how it evolved over time, and its
             <itunes:episode>82</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/82-thedevelopersbakery-mautic.m4a" length="21852328" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/82-thedevelopersbakery-mautic.m4a" length="21852328" type="audio/x-m4a" />
 
         <itunes:subtitle>Marketing Automation with Mautic and Ruth Cheesley</itunes:subtitle>
         <itunes:summary>Marketing Automation with Mautic and Ruth Cheesley</itunes:summary>
@@ -1708,7 +1708,7 @@ Aakansha will tell us the story of Excalidraw, how it evolved over time, and its
         <title>Fleet with Zach Wasserman</title>
         <itunes:title>Fleet with Zach Wasserman</itunes:title>
         <link>https://thebakery.dev/81/</link>
-        <pubDate>Wed, 08 May 2024 00:00:00 +0100</pubDate>
+        <pubDate>Wed, 08 May 2024 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/81/</guid>
         
@@ -1718,7 +1718,7 @@ Aakansha will tell us the story of Excalidraw, how it evolved over time, and its
             <itunes:episode>81</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/81-thedevelopersbakery-fleet.m4a" length="17483583" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/81-thedevelopersbakery-fleet.m4a" length="17483583" type="audio/x-m4a" />
 
         <itunes:subtitle>Discovering the world of device management, with Fleet and Zach Wasserman.</itunes:subtitle>
         <itunes:summary>Discovering the world of device management, with Fleet and Zach Wasserman.</itunes:summary>
@@ -1801,7 +1801,7 @@ Aakansha will tell us the story of Excalidraw, how it evolved over time, and its
         <title>OpenCollective with Xavier Damman</title>
         <itunes:title>OpenCollective with Xavier Damman</itunes:title>
         <link>https://thebakery.dev/80/</link>
-        <pubDate>Tue, 16 Apr 2024 00:00:00 +0100</pubDate>
+        <pubDate>Tue, 16 Apr 2024 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/80/</guid>
         
@@ -1811,7 +1811,7 @@ Aakansha will tell us the story of Excalidraw, how it evolved over time, and its
             <itunes:episode>80</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/80-thedevelopersbakery-opencollective.m4a" length="18179250" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/80-thedevelopersbakery-opencollective.m4a" length="18179250" type="audio/x-m4a" />
 
         <itunes:subtitle>The story of how donations started flowing through OpenCollective, with Xavier Damman.</itunes:subtitle>
         <itunes:summary>The story of how donations started flowing through OpenCollective, with Xavier Damman.</itunes:summary>
@@ -1894,7 +1894,7 @@ Aakansha will tell us the story of Excalidraw, how it evolved over time, and its
         <title>Aptabase with Guilherme Oenning</title>
         <itunes:title>Aptabase with Guilherme Oenning</itunes:title>
         <link>https://thebakery.dev/79/</link>
-        <pubDate>Tue, 02 Apr 2024 00:00:00 +0100</pubDate>
+        <pubDate>Tue, 02 Apr 2024 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/79/</guid>
         
@@ -1904,7 +1904,7 @@ Aakansha will tell us the story of Excalidraw, how it evolved over time, and its
             <itunes:episode>79</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/79-thedevelopersbakery-aptabase.m4a" length="18586059" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/79-thedevelopersbakery-aptabase.m4a" length="18586059" type="audio/x-m4a" />
 
         <itunes:subtitle>Anonymous analytics with Aptabase and Guilherme Oenning</itunes:subtitle>
         <itunes:summary>Anonymous analytics with Aptabase and Guilherme Oenning</itunes:summary>
@@ -1983,7 +1983,7 @@ Aakansha will tell us the story of Excalidraw, how it evolved over time, and its
         <title>Roborazzi with Takahiro Menju</title>
         <itunes:title>Roborazzi with Takahiro Menju</itunes:title>
         <link>https://thebakery.dev/78/</link>
-        <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 19 Mar 2024 12:00:00 +0000</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/78/</guid>
         
@@ -1993,7 +1993,7 @@ Aakansha will tell us the story of Excalidraw, how it evolved over time, and its
             <itunes:episode>78</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/78-thedevelopersbakery-roborazzi.m4a" length="12290913" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/78-thedevelopersbakery-roborazzi.m4a" length="12290913" type="audio/x-m4a" />
 
         <itunes:subtitle>Screenshot Testing on Android without a device? Discover how with Roborazzi and Takahiro Menju</itunes:subtitle>
         <itunes:summary>Screenshot Testing on Android without a device? Discover how with Roborazzi and Takahiro Menju</itunes:summary>
@@ -2080,7 +2080,7 @@ Aakansha will tell us the story of Excalidraw, how it evolved over time, and its
         <title>XWiki with Vincent Massol</title>
         <itunes:title>XWiki with Vincent Massol</itunes:title>
         <link>https://thebakery.dev/77/</link>
-        <pubDate>Thu, 07 Mar 2024 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 07 Mar 2024 12:00:00 +0000</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/77/</guid>
         
@@ -2090,7 +2090,7 @@ Aakansha will tell us the story of Excalidraw, how it evolved over time, and its
             <itunes:episode>77</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/77-thedevelopersbakery-xwiki.m4a" length="19880436" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/77-thedevelopersbakery-xwiki.m4a" length="19880436" type="audio/x-m4a" />
 
         <itunes:subtitle>Building wikis with XWiki and Vincent Massol</itunes:subtitle>
         <itunes:summary>Building wikis with XWiki and Vincent Massol</itunes:summary>
@@ -2176,7 +2176,7 @@ The key feature of XWiki is its extensibility, thanks to its various number of p
         <title>fast-check with Nicolas DUBIEN</title>
         <itunes:title>fast-check with Nicolas DUBIEN</itunes:title>
         <link>https://thebakery.dev/76/</link>
-        <pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 21 Feb 2024 12:00:00 +0000</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/76/</guid>
         
@@ -2186,7 +2186,7 @@ The key feature of XWiki is its extensibility, thanks to its various number of p
             <itunes:episode>76</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/76-thedevelopersbakery-fastcheck.m4a" length="17001957" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/76-thedevelopersbakery-fastcheck.m4a" length="17001957" type="audio/x-m4a" />
 
         <itunes:subtitle>Property based testing with fast-check and Nicolas DUBIEN</itunes:subtitle>
         <itunes:summary>Property based testing with fast-check and Nicolas DUBIEN</itunes:summary>
@@ -2263,7 +2263,7 @@ The key feature of XWiki is its extensibility, thanks to its various number of p
         <title>Docuseal with Pete Matsyburka</title>
         <itunes:title>Docuseal with Pete Matsyburka</itunes:title>
         <link>https://thebakery.dev/75/</link>
-        <pubDate>Tue, 06 Feb 2024 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 06 Feb 2024 12:00:00 +0000</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/75/</guid>
         
@@ -2273,7 +2273,7 @@ The key feature of XWiki is its extensibility, thanks to its various number of p
             <itunes:episode>75</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/75-thedevelopersbakery-docuseal.m4a" length="13918104" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/75-thedevelopersbakery-docuseal.m4a" length="13918104" type="audio/x-m4a" />
 
         <itunes:subtitle>Digital Signing in OSS with Docuseal and Pete Matsyburka</itunes:subtitle>
         <itunes:summary>Digital Signing in OSS with Docuseal and Pete Matsyburka</itunes:summary>
@@ -2351,7 +2351,7 @@ The key feature of XWiki is its extensibility, thanks to its various number of p
         <title>Pieces with Tsavo Knott</title>
         <itunes:title>Pieces with Tsavo Knott</itunes:title>
         <link>https://thebakery.dev/74/</link>
-        <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 23 Jan 2024 12:00:00 +0000</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/74/</guid>
         
@@ -2361,7 +2361,7 @@ The key feature of XWiki is its extensibility, thanks to its various number of p
             <itunes:episode>74</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/74-thedevelopersbakery-pieces.m4a" length="17202537" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/74-thedevelopersbakery-pieces.m4a" length="17202537" type="audio/x-m4a" />
 
         <itunes:subtitle>Discovering your workflow AI co-pilot with Pieces and Tsavo Knott</itunes:subtitle>
         <itunes:summary>Discovering your workflow AI co-pilot with Pieces and Tsavo Knott</itunes:summary>
@@ -2444,7 +2444,7 @@ The key feature of XWiki is its extensibility, thanks to its various number of p
         <title>Tea with Max Howell</title>
         <itunes:title>Tea with Max Howell</itunes:title>
         <link>https://thebakery.dev/73/</link>
-        <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 11 Jan 2024 12:00:00 +0000</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/73/</guid>
         
@@ -2454,7 +2454,7 @@ The key feature of XWiki is its extensibility, thanks to its various number of p
             <itunes:episode>73</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/73-thedevelopersbakery-tea.m4a" length="21286300" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/73-thedevelopersbakery-tea.m4a" length="21286300" type="audio/x-m4a" />
 
         <itunes:subtitle>A new protocol to sponsor Open Source with Tea and Max Howell</itunes:subtitle>
         <itunes:summary>A new protocol to sponsor Open Source with Tea and Max Howell</itunes:summary>
@@ -2466,7 +2466,7 @@ The key feature of XWiki is its extensibility, thanks to its various number of p
         <content:encoded>
             <![CDATA[<p>It’s time to kickoff 2024 with an amazing new episode! Joining us is the mind behind Homebrew: <strong>Max Howell</strong>.</p>
 
-<p>We’re not here to talk about Homebrew today though (get back to <a href="/55">Ep. 55</a> for that). Max is here to tell us about his latest project: <strong>Tea</strong> 🍵</p>
+<p>We’re not here to talk about Homebrew today though (get back to <a href="https://thebakery.dev/55">Ep. 55</a> for that). Max is here to tell us about his latest project: <strong>Tea</strong> 🍵</p>
 
 <p>Tea is a new protocol to <strong>sponsor open source</strong>. Tea works as a decentralized network that allows you to sponsor the projects on your dependency tree.</p>
 
@@ -2536,7 +2536,7 @@ The key feature of XWiki is its extensibility, thanks to its various number of p
         <title>QuackAI with François-Guillaume Fernandez</title>
         <itunes:title>QuackAI with François-Guillaume Fernandez</itunes:title>
         <link>https://thebakery.dev/72/</link>
-        <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 12 Dec 2023 12:00:00 +0000</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/72/</guid>
         
@@ -2546,7 +2546,7 @@ The key feature of XWiki is its extensibility, thanks to its various number of p
             <itunes:episode>72</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/72-thedevelopersbakery-quackai.m4a" length="18344652" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/72-thedevelopersbakery-quackai.m4a" length="18344652" type="audio/x-m4a" />
 
         <itunes:subtitle>Your AI Contributions Companion with FG Fernandez and QuackAI</itunes:subtitle>
         <itunes:summary>Your AI Contributions Companion with FG Fernandez and QuackAI</itunes:summary>
@@ -2621,7 +2621,7 @@ The key feature of XWiki is its extensibility, thanks to its various number of p
         <title>Godot with Emilio Coppola</title>
         <itunes:title>Godot with Emilio Coppola</itunes:title>
         <link>https://thebakery.dev/71/</link>
-        <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 30 Nov 2023 12:00:00 +0000</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/71/</guid>
         
@@ -2631,7 +2631,7 @@ The key feature of XWiki is its extensibility, thanks to its various number of p
             <itunes:episode>71</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/71-thedevelopersbakery-godot.m4a" length="18904476" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/71-thedevelopersbakery-godot.m4a" length="18904476" type="audio/x-m4a" />
 
         <itunes:subtitle>Open source game development with Godot and Emilio Coppola</itunes:subtitle>
         <itunes:summary>Open source game development with Godot and Emilio Coppola</itunes:summary>
@@ -2714,7 +2714,7 @@ The key feature of XWiki is its extensibility, thanks to its various number of p
         <title>The educator's path with Marcin Moskała</title>
         <itunes:title>The educator's path with Marcin Moskała</itunes:title>
         <link>https://thebakery.dev/70/</link>
-        <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 14 Nov 2023 12:00:00 +0000</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/70/</guid>
         
@@ -2724,7 +2724,7 @@ The key feature of XWiki is its extensibility, thanks to its various number of p
             <itunes:episode>70</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/70-thedevelopersbakery-the-educators-path.m4a" length="17871835" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/70-thedevelopersbakery-the-educators-path.m4a" length="17871835" type="audio/x-m4a" />
 
         <itunes:subtitle>Becoming a successful educator in IT with Marcin Moskała</itunes:subtitle>
         <itunes:summary>Becoming a successful educator in IT with Marcin Moskała</itunes:summary>
@@ -2735,7 +2735,7 @@ The key feature of XWiki is its extensibility, thanks to its various number of p
         </description>
         <content:encoded>
             <![CDATA[<p>We’re back with another <strong>bonus episode</strong> of The Developers’ Bakery! 
-Back in episode <a href="/60">60</a> we talked about content creation with Effective Android.</p>
+Back in episode <a href="https://thebakery.dev/60">60</a> we talked about content creation with Effective Android.</p>
 
 <p>Today, we double down on a similar topic as we do have <a href="https://leanpub.com/u/mmoskala"><strong>Marcin Moskała</strong></a> on stage! Marcin is the author of <strong>Effective Kotlin</strong>, a collection of Kotlin best practices, and <strong>Kotlin Coroutines</strong>, a book about Kotlin’s concurrency model.</p>
 
@@ -2796,7 +2796,7 @@ Back in episode <a href="/60">60</a> we talked about content creation with Effec
         <title>compose-rules with Nacho Lopez</title>
         <itunes:title>compose-rules with Nacho Lopez</itunes:title>
         <link>https://thebakery.dev/69/</link>
-        <pubDate>Wed, 25 Oct 2023 00:00:00 +0100</pubDate>
+        <pubDate>Wed, 25 Oct 2023 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/69/</guid>
         
@@ -2806,7 +2806,7 @@ Back in episode <a href="/60">60</a> we talked about content creation with Effec
             <itunes:episode>69</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/69-thedevelopersbakery-compose-rules.m4a" length="18486613" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/69-thedevelopersbakery-compose-rules.m4a" length="18486613" type="audio/x-m4a" />
 
         <itunes:subtitle>Linting and Inspecting Jetpack Compose code with Compose Rules and Nacho Lopez</itunes:subtitle>
         <itunes:summary>Linting and Inspecting Jetpack Compose code with Compose Rules and Nacho Lopez</itunes:summary>
@@ -2883,7 +2883,7 @@ You can use this rule with either KtLint or Detekt.</p>
         <title>Pandas and Polars with Marco Gorelli</title>
         <itunes:title>Pandas and Polars with Marco Gorelli</itunes:title>
         <link>https://thebakery.dev/68/</link>
-        <pubDate>Tue, 10 Oct 2023 00:00:00 +0100</pubDate>
+        <pubDate>Tue, 10 Oct 2023 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/68/</guid>
         
@@ -2893,7 +2893,7 @@ You can use this rule with either KtLint or Detekt.</p>
             <itunes:episode>68</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/68-thedevelopersbakery-pandas-and-polars.m4a" length="21633967" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/68-thedevelopersbakery-pandas-and-polars.m4a" length="21633967" type="audio/x-m4a" />
 
         <itunes:subtitle>Data science and dataframes with pandas, polars and Marco Gorelli</itunes:subtitle>
         <itunes:summary>Data science and dataframes with pandas, polars and Marco Gorelli</itunes:summary>
@@ -2984,7 +2984,7 @@ You can use this rule with either KtLint or Detekt.</p>
         <title>Effect with Michael Arnaldi</title>
         <itunes:title>Effect with Michael Arnaldi</itunes:title>
         <link>https://thebakery.dev/67/</link>
-        <pubDate>Tue, 19 Sep 2023 00:00:00 +0100</pubDate>
+        <pubDate>Tue, 19 Sep 2023 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/67/</guid>
         
@@ -2994,7 +2994,7 @@ You can use this rule with either KtLint or Detekt.</p>
             <itunes:episode>67</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/67-thedevelopersbakery-effect.m4a" length="21010321" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/67-thedevelopersbakery-effect.m4a" length="21010321" type="audio/x-m4a" />
 
         <itunes:subtitle>Functional Programming in TypeScript with Effect and Michael Arnaldi</itunes:subtitle>
         <itunes:summary>Functional Programming in TypeScript with Effect and Michael Arnaldi</itunes:summary>
@@ -3072,7 +3072,7 @@ You can use this rule with either KtLint or Detekt.</p>
         <title>Babel with Nicolò Ribaudo</title>
         <itunes:title>Babel with Nicolò Ribaudo</itunes:title>
         <link>https://thebakery.dev/66/</link>
-        <pubDate>Tue, 05 Sep 2023 00:00:00 +0100</pubDate>
+        <pubDate>Tue, 05 Sep 2023 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/66/</guid>
         
@@ -3082,7 +3082,7 @@ You can use this rule with either KtLint or Detekt.</p>
             <itunes:episode>66</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/66-thedevelopersbakery-babel.m4a" length="21366702" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/66-thedevelopersbakery-babel.m4a" length="21366702" type="audio/x-m4a" />
 
         <itunes:subtitle>Compiling next generation JavaScript for all the browsers, with Babel and Nicolò Ribaudo</itunes:subtitle>
         <itunes:summary>Compiling next generation JavaScript for all the browsers, with Babel and Nicolò Ribaudo</itunes:summary>
@@ -3167,7 +3167,7 @@ You can use this rule with either KtLint or Detekt.</p>
         <title>WebdriverIO with Christian Bromann</title>
         <itunes:title>WebdriverIO with Christian Bromann</itunes:title>
         <link>https://thebakery.dev/65/</link>
-        <pubDate>Tue, 22 Aug 2023 00:00:00 +0100</pubDate>
+        <pubDate>Tue, 22 Aug 2023 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/65/</guid>
         
@@ -3177,7 +3177,7 @@ You can use this rule with either KtLint or Detekt.</p>
             <itunes:episode>65</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/65-thedevelopersbakery-webdriverio.m4a" length="17823229" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/65-thedevelopersbakery-webdriverio.m4a" length="17823229" type="audio/x-m4a" />
 
         <itunes:subtitle>Cross platform UI testing with WebdriverIO and Christian Bromann</itunes:subtitle>
         <itunes:summary>Cross platform UI testing with WebdriverIO and Christian Bromann</itunes:summary>
@@ -3263,7 +3263,7 @@ You can use this rule with either KtLint or Detekt.</p>
         <title>LivePlugin with Dmitry Kandalov</title>
         <itunes:title>LivePlugin with Dmitry Kandalov</itunes:title>
         <link>https://thebakery.dev/64/</link>
-        <pubDate>Tue, 08 Aug 2023 00:00:00 +0100</pubDate>
+        <pubDate>Tue, 08 Aug 2023 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/64/</guid>
         
@@ -3273,7 +3273,7 @@ You can use this rule with either KtLint or Detekt.</p>
             <itunes:episode>64</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/64-thedevelopersbakery-liveplugin.m4a" length="19686706" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/64-thedevelopersbakery-liveplugin.m4a" length="19686706" type="audio/x-m4a" />
 
         <itunes:subtitle>Boost your productivity with custom IDE Plugin and finest customization with LivePlugin and Dmitry Kandalov</itunes:subtitle>
         <itunes:summary>Boost your productivity with custom IDE Plugin and finest customization with LivePlugin and Dmitry Kandalov</itunes:summary>
@@ -3368,7 +3368,7 @@ You can use this rule with either KtLint or Detekt.</p>
         <title>Modern Android Development with Boris Farber and Tomáš Mlynarič</title>
         <itunes:title>Modern Android Development with Boris Farber and Tomáš Mlynarič</itunes:title>
         <link>https://thebakery.dev/63/</link>
-        <pubDate>Tue, 25 Jul 2023 00:00:00 +0100</pubDate>
+        <pubDate>Tue, 25 Jul 2023 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/63/</guid>
         
@@ -3378,7 +3378,7 @@ You can use this rule with either KtLint or Detekt.</p>
             <itunes:episode>63</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/63-thedevelopersbakery-mad.m4a" length="18025023" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/63-thedevelopersbakery-mad.m4a" length="18025023" type="audio/x-m4a" />
 
         <itunes:subtitle>I met in person with Boris and Tomáš at IO Connect to talk about what's new in Android!</itunes:subtitle>
         <itunes:summary>I met in person with Boris and Tomáš at IO Connect to talk about what's new in Android!</itunes:summary>
@@ -3388,7 +3388,7 @@ You can use this rule with either KtLint or Detekt.</p>
             <![CDATA[Welcome to a special in-person episode of The Developers’ Bakery, recorded live in Amsterdam at Google IO Connect. There, I had the privilege of having on stage Boris Farber and Tomáš Mlynarič from Google and they will tell us What’s New in Android. As I’m a big fan of build...]]>
         </description>
         <content:encoded>
-            <![CDATA[<p><img src="/assets/images/posts/ioconnect.jpg" alt="io connect photo" /></p>
+            <![CDATA[<p><img src="https://thebakery.dev/assets/images/posts/ioconnect.jpg" alt="io connect photo" /></p>
 
 <p>Welcome to a special <strong>in-person episode</strong> of The Developers’ Bakery, recorded live in <strong>Amsterdam</strong> at Google IO Connect.</p>
 
@@ -3476,7 +3476,7 @@ You can use this rule with either KtLint or Detekt.</p>
         <title>Marathon with Anton Malinskiy</title>
         <itunes:title>Marathon with Anton Malinskiy</itunes:title>
         <link>https://thebakery.dev/62/</link>
-        <pubDate>Mon, 10 Jul 2023 00:00:00 +0100</pubDate>
+        <pubDate>Mon, 10 Jul 2023 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/62/</guid>
         
@@ -3486,7 +3486,7 @@ You can use this rule with either KtLint or Detekt.</p>
             <itunes:episode>62</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/62-thedevelopersbakery-marathon.m4a" length="18650611" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/62-thedevelopersbakery-marathon.m4a" length="18650611" type="audio/x-m4a" />
 
         <itunes:subtitle>Time to forget about flaky UI test on Mobile with Marathon and Anton Malinskiy</itunes:subtitle>
         <itunes:summary>Time to forget about flaky UI test on Mobile with Marathon and Anton Malinskiy</itunes:summary>
@@ -3584,7 +3584,7 @@ You can use this rule with either KtLint or Detekt.</p>
         <title>KDE with Niccolò Venerandi</title>
         <itunes:title>KDE with Niccolò Venerandi</itunes:title>
         <link>https://thebakery.dev/61/</link>
-        <pubDate>Mon, 26 Jun 2023 00:00:00 +0100</pubDate>
+        <pubDate>Mon, 26 Jun 2023 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/61/</guid>
         
@@ -3594,7 +3594,7 @@ You can use this rule with either KtLint or Detekt.</p>
             <itunes:episode>61</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/61-thedevelopersbakery-kde.m4a" length="18369254" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/61-thedevelopersbakery-kde.m4a" length="18369254" type="audio/x-m4a" />
 
         <itunes:subtitle>Contributing to Linux on Desktop with KDE and Niccolò Venerandi</itunes:subtitle>
         <itunes:summary>Contributing to Linux on Desktop with KDE and Niccolò Venerandi</itunes:summary>
@@ -3694,7 +3694,7 @@ You can use this rule with either KtLint or Detekt.</p>
         <title>Effective Android with Jorge Castillo</title>
         <itunes:title>Effective Android with Jorge Castillo</itunes:title>
         <link>https://thebakery.dev/60/</link>
-        <pubDate>Tue, 13 Jun 2023 00:00:00 +0100</pubDate>
+        <pubDate>Tue, 13 Jun 2023 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/60/</guid>
         
@@ -3704,7 +3704,7 @@ You can use this rule with either KtLint or Detekt.</p>
             <itunes:episode>60</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/60-thedevelopersbakery-effective-android.m4a" length="18270903" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/60-thedevelopersbakery-effective-android.m4a" length="18270903" type="audio/x-m4a" />
 
         <itunes:subtitle>Books, Courses, and Newsletters with Effective Android by Jorge Castillo</itunes:subtitle>
         <itunes:summary>Books, Courses, and Newsletters with Effective Android by Jorge Castillo</itunes:summary>
@@ -3789,7 +3789,7 @@ You can use this rule with either KtLint or Detekt.</p>
         <title>Voyager with Adriel Café</title>
         <itunes:title>Voyager with Adriel Café</itunes:title>
         <link>https://thebakery.dev/59/</link>
-        <pubDate>Mon, 29 May 2023 00:00:00 +0100</pubDate>
+        <pubDate>Mon, 29 May 2023 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/59/</guid>
         
@@ -3799,7 +3799,7 @@ You can use this rule with either KtLint or Detekt.</p>
             <itunes:episode>59</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/59-thedevelopersbakery-voyager.m4a" length="15997729" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/59-thedevelopersbakery-voyager.m4a" length="15997729" type="audio/x-m4a" />
 
         <itunes:subtitle>Navigating between platforms with Voyager and Adriel Café</itunes:subtitle>
         <itunes:summary>Navigating between platforms with Voyager and Adriel Café</itunes:summary>
@@ -3882,7 +3882,7 @@ You can use this rule with either KtLint or Detekt.</p>
         <title>Confetti with John O'Reilly and Martin Bonnin</title>
         <itunes:title>Confetti with John O'Reilly and Martin Bonnin</itunes:title>
         <link>https://thebakery.dev/58/</link>
-        <pubDate>Mon, 15 May 2023 00:00:00 +0100</pubDate>
+        <pubDate>Mon, 15 May 2023 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/58/</guid>
         
@@ -3892,7 +3892,7 @@ You can use this rule with either KtLint or Detekt.</p>
             <itunes:episode>58</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/58-thedevelopersbakery-confetti.m4a" length="18711118" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/58-thedevelopersbakery-confetti.m4a" length="18711118" type="audio/x-m4a" />
 
         <itunes:subtitle>Bringing conference schedules to Android and iOS with John O'Reilly and Martin Bonnin</itunes:subtitle>
         <itunes:summary>Bringing conference schedules to Android and iOS with John O'Reilly and Martin Bonnin</itunes:summary>
@@ -3945,7 +3945,7 @@ You can use this rule with either KtLint or Detekt.</p>
     <ul>
       <li><i class="fab fa-github"></i> <a href="https://github.com/apollographql/apollo-android">apollographql/apollo-android on Github</a></li>
       <li><i class="fab fa-github"></i> <a href="https://github.com/ExpediaGroup/graphql-kotlin">ExpediaGroup/graphql-kotlin on Github</a></li>
-      <li><i class="fas fa-link"></i> <a href="/13">The Developers’ Bakery #13 - Apollo GraphQL with Martin Bonnin </a></li>
+      <li><i class="fas fa-link"></i> <a href="https://thebakery.dev/13">The Developers’ Bakery #13 - Apollo GraphQL with Martin Bonnin </a></li>
       <li><i class="fab fa-youtube"></i> Confetti: building a Kotlin Multiplatform conference app in 40min - <a href="https://youtu.be/uATlWUBSx8Q">Video from KotlinConf</a></li>
       <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/playlist?list=PLlFc5cFwUnmwcJ7ZXyMmS70A9QFyUu1HI">KotlinConf Video Playlist</a></li>
     </ul>
@@ -3983,7 +3983,7 @@ You can use this rule with either KtLint or Detekt.</p>
         <title>Qwik UI with Giorgio Boa</title>
         <itunes:title>Qwik UI with Giorgio Boa</itunes:title>
         <link>https://thebakery.dev/57/</link>
-        <pubDate>Tue, 25 Apr 2023 00:00:00 +0100</pubDate>
+        <pubDate>Tue, 25 Apr 2023 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/57/</guid>
         
@@ -3993,7 +3993,7 @@ You can use this rule with either KtLint or Detekt.</p>
             <itunes:episode>57</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/57-thedevelopersbakery-qwik-ui.m4a" length="33981694" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/57-thedevelopersbakery-qwik-ui.m4a" length="33981694" type="audio/x-m4a" />
 
         <itunes:subtitle>Super Fast Frontend Development with Qwik UI and Giorgio Boa</itunes:subtitle>
         <itunes:summary>Super Fast Frontend Development with Qwik UI and Giorgio Boa</itunes:summary>
@@ -4079,7 +4079,7 @@ You can use this rule with either KtLint or Detekt.</p>
         <title>GlotDict, Wordpress and Mozilla with Daniele Scasciafratte</title>
         <itunes:title>GlotDict, Wordpress and Mozilla with Daniele Scasciafratte</itunes:title>
         <link>https://thebakery.dev/56/</link>
-        <pubDate>Mon, 10 Apr 2023 00:00:00 +0100</pubDate>
+        <pubDate>Mon, 10 Apr 2023 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/56/</guid>
         
@@ -4089,7 +4089,7 @@ You can use this rule with either KtLint or Detekt.</p>
             <itunes:episode>56</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/56-thedevelopersbakery-glotdict.m4a" length="21559114" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/56-thedevelopersbakery-glotdict.m4a" length="21559114" type="audio/x-m4a" />
 
         <itunes:subtitle>WordPress Translations, Mozilla and Open Source Books with Daniele Scasciafratte</itunes:subtitle>
         <itunes:summary>WordPress Translations, Mozilla and Open Source Books with Daniele Scasciafratte</itunes:summary>
@@ -4167,7 +4167,7 @@ You can use this rule with either KtLint or Detekt.</p>
         <title>Homebrew with Mike McQuaid</title>
         <itunes:title>Homebrew with Mike McQuaid</itunes:title>
         <link>https://thebakery.dev/55/</link>
-        <pubDate>Tue, 28 Mar 2023 00:00:00 +0100</pubDate>
+        <pubDate>Tue, 28 Mar 2023 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/55/</guid>
         
@@ -4177,7 +4177,7 @@ You can use this rule with either KtLint or Detekt.</p>
             <itunes:episode>55</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/55-thedevelopersbakery-homebrew.m4a" length="23648987" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/55-thedevelopersbakery-homebrew.m4a" length="23648987" type="audio/x-m4a" />
 
         <itunes:subtitle>Into the most popular package manager for MacOS with Homebrew and Mike McQuaid</itunes:subtitle>
         <itunes:summary>Into the most popular package manager for MacOS with Homebrew and Mike McQuaid</itunes:summary>
@@ -4277,7 +4277,7 @@ You can use this rule with either KtLint or Detekt.</p>
         <title>conc with Camden Cheek</title>
         <itunes:title>conc with Camden Cheek</itunes:title>
         <link>https://thebakery.dev/54/</link>
-        <pubDate>Mon, 13 Mar 2023 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 13 Mar 2023 12:00:00 +0000</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/54/</guid>
         
@@ -4287,7 +4287,7 @@ You can use this rule with either KtLint or Detekt.</p>
             <itunes:episode>54</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/54-thedevelopersbakery-conc.m4a" length="15592622" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/54-thedevelopersbakery-conc.m4a" length="15592622" type="audio/x-m4a" />
 
         <itunes:subtitle>Structured concurrency in Go with conc and Camden Cheek</itunes:subtitle>
         <itunes:summary>Structured concurrency in Go with conc and Camden Cheek</itunes:summary>
@@ -4371,7 +4371,7 @@ You can use this rule with either KtLint or Detekt.</p>
         <title>thanks.dev with Armin Nehzat</title>
         <itunes:title>thanks.dev with Armin Nehzat</itunes:title>
         <link>https://thebakery.dev/53/</link>
-        <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 28 Feb 2023 12:00:00 +0000</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/53/</guid>
         
@@ -4381,7 +4381,7 @@ You can use this rule with either KtLint or Detekt.</p>
             <itunes:episode>53</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/53-thedevelopersbakery-thanksdev.m4a" length="16167968" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/53-thedevelopersbakery-thanksdev.m4a" length="16167968" type="audio/x-m4a" />
 
         <itunes:subtitle>A more sustainable sponsoring model with thanks.dev and Armin Nehzat</itunes:subtitle>
         <itunes:summary>A more sustainable sponsoring model with thanks.dev and Armin Nehzat</itunes:summary>
@@ -4469,7 +4469,7 @@ You can use this rule with either KtLint or Detekt.</p>
         <title>RSS-Parser with Marco Gomiero</title>
         <itunes:title>RSS-Parser with Marco Gomiero</itunes:title>
         <link>https://thebakery.dev/52/</link>
-        <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 14 Feb 2023 12:00:00 +0000</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/52/</guid>
         
@@ -4479,7 +4479,7 @@ You can use this rule with either KtLint or Detekt.</p>
             <itunes:episode>52</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/52-thedevelopersbakery-rss-parser.m4a" length="15470161" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/52-thedevelopersbakery-rss-parser.m4a" length="15470161" type="audio/x-m4a" />
 
         <itunes:subtitle>From Parsing RSS feeds to Kotlin Multiplatform with Marco Gomiero</itunes:subtitle>
         <itunes:summary>From Parsing RSS feeds to Kotlin Multiplatform with Marco Gomiero</itunes:summary>
@@ -4560,7 +4560,7 @@ You can use this rule with either KtLint or Detekt.</p>
         <title>MetalLB with Federico Paolinelli</title>
         <itunes:title>MetalLB with Federico Paolinelli</itunes:title>
         <link>https://thebakery.dev/51/</link>
-        <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 31 Jan 2023 12:00:00 +0000</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/51/</guid>
         
@@ -4570,7 +4570,7 @@ You can use this rule with either KtLint or Detekt.</p>
             <itunes:episode>51</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/51-thedevelopersbakery-metallb.m4a" length="16973319" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/51-thedevelopersbakery-metallb.m4a" length="16973319" type="audio/x-m4a" />
 
         <itunes:subtitle>Cloud, Kubernetes and load balancers with MetalLB and Federico Paolinelli</itunes:subtitle>
         <itunes:summary>Cloud, Kubernetes and load balancers with MetalLB and Federico Paolinelli</itunes:summary>
@@ -4648,7 +4648,7 @@ You can use this rule with either KtLint or Detekt.</p>
         <title>Open Source Day with Schrödinger Hat</title>
         <itunes:title>Open Source Day with Schrödinger Hat</itunes:title>
         <link>https://thebakery.dev/50/</link>
-        <pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 17 Jan 2023 12:00:00 +0000</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/50/</guid>
         
@@ -4658,7 +4658,7 @@ You can use this rule with either KtLint or Detekt.</p>
             <itunes:episode>50</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/50-thedevelopersbakery-osday.m4a" length="22658477" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/50-thedevelopersbakery-osday.m4a" length="22658477" type="audio/x-m4a" />
 
         <itunes:subtitle>From building Open Source Software to building Open Source Conferences with Schrödinger Hat</itunes:subtitle>
         <itunes:summary>From building Open Source Software to building Open Source Conferences with Schrödinger Hat</itunes:summary>
@@ -4755,7 +4755,7 @@ We have on stage <a href="https://twitter.com/DavideImola"><strong>Davide Imola<
         <title>Espanso with Federico Terzi</title>
         <itunes:title>Espanso with Federico Terzi</itunes:title>
         <link>https://thebakery.dev/49/</link>
-        <pubDate>Mon, 02 Jan 2023 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 02 Jan 2023 12:00:00 +0000</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/49/</guid>
         
@@ -4765,7 +4765,7 @@ We have on stage <a href="https://twitter.com/DavideImola"><strong>Davide Imola<
             <itunes:episode>49</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/49-thedevelopersbakery-espanso.m4a" length="17866336" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/49-thedevelopersbakery-espanso.m4a" length="17866336" type="audio/x-m4a" />
 
         <itunes:subtitle>Expanding our horizons in the text expander worlds, with Espanso and Federico Terzi</itunes:subtitle>
         <itunes:summary>Expanding our horizons in the text expander worlds, with Espanso and Federico Terzi</itunes:summary>
@@ -4853,7 +4853,7 @@ Enjoy the show 👨‍🍳</p>
         <title>MockK with Mattia Tommasone</title>
         <itunes:title>MockK with Mattia Tommasone</itunes:title>
         <link>https://thebakery.dev/48/</link>
-        <pubDate>Wed, 14 Dec 2022 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 14 Dec 2022 12:00:00 +0000</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/48/</guid>
         
@@ -4863,7 +4863,7 @@ Enjoy the show 👨‍🍳</p>
             <itunes:episode>48</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/48-thedevelopersbakery-mockk.m4a" length="18590890" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/48-thedevelopersbakery-mockk.m4a" length="18590890" type="audio/x-m4a" />
 
         <itunes:subtitle>Elegant Mocking in Kotlin with MockK and Mattia Tommasone</itunes:subtitle>
         <itunes:summary>Elegant Mocking in Kotlin with MockK and Mattia Tommasone</itunes:summary>
@@ -4951,7 +4951,7 @@ Enjoy the show 👨‍🍳</p>
         <title>MotionScape with Amos Gyamfi</title>
         <itunes:title>MotionScape with Amos Gyamfi</itunes:title>
         <link>https://thebakery.dev/47/</link>
-        <pubDate>Mon, 21 Nov 2022 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 21 Nov 2022 12:00:00 +0000</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/47/</guid>
         
@@ -4961,7 +4961,7 @@ Enjoy the show 👨‍🍳</p>
             <itunes:episode>47</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/47-thedevelopersbakery-motionscape.m4a" length="17633656" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/47-thedevelopersbakery-motionscape.m4a" length="17633656" type="audio/x-m4a" />
 
         <itunes:subtitle>Beautiful Swift UI animations on iOS with MotionScape and Amos Gyamfi</itunes:subtitle>
         <itunes:summary>Beautiful Swift UI animations on iOS with MotionScape and Amos Gyamfi</itunes:summary>
@@ -5019,7 +5019,7 @@ Enjoy the show 👨‍🍳</p>
   </li>
   <li>Mentioned Resources:
     <ul>
-      <li><i class="fas fa-link"></i> <a href="/37">The Developers’ Bakery #37 - Lottie with Gabriel Peal</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://thebakery.dev/37">The Developers’ Bakery #37 - Lottie with Gabriel Peal</a></li>
       <li><i class="fas fa-link"></i> <a href="https://www.kiteapp.co/">Kite Compositor</a></li>
       <li><i class="fas fa-link"></i> <a href="https://www.hackingwithswift.com/100">100 Days of Swift</a></li>
       <li><i class="fas fa-link"></i> <a href="https://www.bigmountainstudio.com/animations-16">SwiftUI Animations Mastery - Big Mountain Studio</a></li>
@@ -5055,7 +5055,7 @@ Enjoy the show 👨‍🍳</p>
         <title>Storybook with Norbert de Langen</title>
         <itunes:title>Storybook with Norbert de Langen</itunes:title>
         <link>https://thebakery.dev/46/</link>
-        <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 07 Nov 2022 12:00:00 +0000</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/46/</guid>
         
@@ -5065,7 +5065,7 @@ Enjoy the show 👨‍🍳</p>
             <itunes:episode>46</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/46-thedevelopersbakery-storybook.m4a" length="21324334" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/46-thedevelopersbakery-storybook.m4a" length="21324334" type="audio/x-m4a" />
 
         <itunes:subtitle>Build bulletproof web UI components faster with Storybook and Norbert de Langen</itunes:subtitle>
         <itunes:summary>Build bulletproof web UI components faster with Storybook and Norbert de Langen</itunes:summary>
@@ -5157,7 +5157,7 @@ Enjoy the show 👨‍🍳</p>
         <title>Balloon with Jaewoong Eum</title>
         <itunes:title>Balloon with Jaewoong Eum</itunes:title>
         <link>https://thebakery.dev/45/</link>
-        <pubDate>Tue, 25 Oct 2022 00:00:00 +0100</pubDate>
+        <pubDate>Tue, 25 Oct 2022 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/45/</guid>
         
@@ -5167,7 +5167,7 @@ Enjoy the show 👨‍🍳</p>
             <itunes:episode>45</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/45-thedevelopersbakery-balloon.m4a" length="13537935" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/45-thedevelopersbakery-balloon.m4a" length="13537935" type="audio/x-m4a" />
 
         <itunes:subtitle>Elegant Android UI libraries and much more with Jaewoong Eum</itunes:subtitle>
         <itunes:summary>Elegant Android UI libraries and much more with Jaewoong Eum</itunes:summary>
@@ -5250,7 +5250,7 @@ Enjoy the show 👨‍🍳</p>
         <title>OpenStreetMap with Said Turksever</title>
         <itunes:title>OpenStreetMap with Said Turksever</itunes:title>
         <link>https://thebakery.dev/44/</link>
-        <pubDate>Tue, 11 Oct 2022 00:00:00 +0100</pubDate>
+        <pubDate>Tue, 11 Oct 2022 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/44/</guid>
         
@@ -5260,7 +5260,7 @@ Enjoy the show 👨‍🍳</p>
             <itunes:episode>44</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/44-thedevelopersbakery-openstreetmap.m4a" length="20034490" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/44-thedevelopersbakery-openstreetmap.m4a" length="20034490" type="audio/x-m4a" />
 
         <itunes:subtitle>From open source to open data, with OpenStreetMap and Said Turksever</itunes:subtitle>
         <itunes:summary>From open source to open data, with OpenStreetMap and Said Turksever</itunes:summary>
@@ -5352,7 +5352,7 @@ Enjoy the show 👨‍🍳</p>
         <title>KaMPKit with Kevin Galligan</title>
         <itunes:title>KaMPKit with Kevin Galligan</itunes:title>
         <link>https://thebakery.dev/43/</link>
-        <pubDate>Mon, 26 Sep 2022 00:00:00 +0100</pubDate>
+        <pubDate>Mon, 26 Sep 2022 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/43/</guid>
         
@@ -5362,7 +5362,7 @@ Enjoy the show 👨‍🍳</p>
             <itunes:episode>43</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/43-thedevelopersbakery-kampkit.m4a" length="22352779" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/43-thedevelopersbakery-kampkit.m4a" length="22352779" type="audio/x-m4a" />
 
         <itunes:subtitle>A sneak peak to the Kotlin Multiplatform ecosystem with Kevin Galligan and KaMPKit</itunes:subtitle>
         <itunes:summary>A sneak peak to the Kotlin Multiplatform ecosystem with Kevin Galligan and KaMPKit</itunes:summary>
@@ -5444,7 +5444,7 @@ Enjoy the show 👨‍🍳</p>
         <title>Kscript with Marcin Kuszczak</title>
         <itunes:title>Kscript with Marcin Kuszczak</itunes:title>
         <link>https://thebakery.dev/42/</link>
-        <pubDate>Mon, 05 Sep 2022 00:00:00 +0100</pubDate>
+        <pubDate>Mon, 05 Sep 2022 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/42/</guid>
         
@@ -5454,7 +5454,7 @@ Enjoy the show 👨‍🍳</p>
             <itunes:episode>42</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/42-thedevelopersbakery-kscript.m4a" length="17105361" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/42-thedevelopersbakery-kscript.m4a" length="17105361" type="audio/x-m4a" />
 
         <itunes:subtitle>Kotlin meets scripting with Kscript, on show in this episode together with Marcin Kuszczak</itunes:subtitle>
         <itunes:summary>Kotlin meets scripting with Kscript, on show in this episode together with Marcin Kuszczak</itunes:summary>
@@ -5541,7 +5541,7 @@ Enjoy the show 👨‍🍳</p>
         <title>FlowRedux with Gabriel Ittner and Hannes Dorfmann</title>
         <itunes:title>FlowRedux with Gabriel Ittner and Hannes Dorfmann</itunes:title>
         <link>https://thebakery.dev/41/</link>
-        <pubDate>Tue, 23 Aug 2022 00:00:00 +0100</pubDate>
+        <pubDate>Tue, 23 Aug 2022 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/41/</guid>
         
@@ -5551,7 +5551,7 @@ Enjoy the show 👨‍🍳</p>
             <itunes:episode>41</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/41-thedevelopersbakery-flowredux.m4a" length="15860095" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/41-thedevelopersbakery-flowredux.m4a" length="15860095" type="audio/x-m4a" />
 
         <itunes:subtitle>MVI, State machines and DSLs with Gabriel, Hannes and FlowRedux</itunes:subtitle>
         <itunes:summary>MVI, State machines and DSLs with Gabriel, Hannes and FlowRedux</itunes:summary>
@@ -5636,7 +5636,7 @@ Enjoy the show 👨‍🍳</p>
         <title>thebakery.dev with Nicola Corti</title>
         <itunes:title>thebakery.dev with Nicola Corti</itunes:title>
         <link>https://thebakery.dev/40/</link>
-        <pubDate>Mon, 08 Aug 2022 00:00:00 +0100</pubDate>
+        <pubDate>Mon, 08 Aug 2022 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/40/</guid>
         
@@ -5646,7 +5646,7 @@ Enjoy the show 👨‍🍳</p>
             <itunes:episode>40</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/40-thedevelopersbakery-thebakerydev.m4a" length="16216285" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/40-thedevelopersbakery-thebakerydev.m4a" length="16216285" type="audio/x-m4a" />
 
         <itunes:subtitle>A special episode to talk about the infrastructure behind thebakery.dev with Nicola Corti</itunes:subtitle>
         <itunes:summary>A special episode to talk about the infrastructure behind thebakery.dev with Nicola Corti</itunes:summary>
@@ -5733,7 +5733,7 @@ Enjoy the show 👨‍🍳</p>
         <title>Docusaurus with Sébastien Lorber</title>
         <itunes:title>Docusaurus with Sébastien Lorber</itunes:title>
         <link>https://thebakery.dev/39/</link>
-        <pubDate>Wed, 27 Jul 2022 00:00:00 +0100</pubDate>
+        <pubDate>Wed, 27 Jul 2022 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/39/</guid>
         
@@ -5743,7 +5743,7 @@ Enjoy the show 👨‍🍳</p>
             <itunes:episode>39</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/39-thedevelopersbakery-docusaurus.m4a" length="18073784" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/39-thedevelopersbakery-docusaurus.m4a" length="18073784" type="audio/x-m4a" />
 
         <itunes:subtitle>Let's talk about Static Site Generator and Documentation with Sébastien Lorber and Docusaurus</itunes:subtitle>
         <itunes:summary>Let's talk about Static Site Generator and Documentation with Sébastien Lorber and Docusaurus</itunes:summary>
@@ -5837,7 +5837,7 @@ Enjoy the show 👨‍🍳</p>
         <title>ProGuard with James Hamilton</title>
         <itunes:title>ProGuard with James Hamilton</itunes:title>
         <link>https://thebakery.dev/38/</link>
-        <pubDate>Mon, 11 Jul 2022 00:00:00 +0100</pubDate>
+        <pubDate>Mon, 11 Jul 2022 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/38/</guid>
         
@@ -5847,7 +5847,7 @@ Enjoy the show 👨‍🍳</p>
             <itunes:episode>38</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/38-thedevelopersbakery-proguard.m4a" length="17875763" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/38-thedevelopersbakery-proguard.m4a" length="17875763" type="audio/x-m4a" />
 
         <itunes:subtitle>Obfuscation, Code-shrinking and optimizations with Proguard and James Hamilton</itunes:subtitle>
         <itunes:summary>Obfuscation, Code-shrinking and optimizations with Proguard and James Hamilton</itunes:summary>
@@ -5952,7 +5952,7 @@ Enjoy the show 👨‍🍳</p>
         <title>Lottie with Gabriel Peal</title>
         <itunes:title>Lottie with Gabriel Peal</itunes:title>
         <link>https://thebakery.dev/37/</link>
-        <pubDate>Wed, 29 Jun 2022 00:00:00 +0100</pubDate>
+        <pubDate>Wed, 29 Jun 2022 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/37/</guid>
         
@@ -5962,7 +5962,7 @@ Enjoy the show 👨‍🍳</p>
             <itunes:episode>37</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/37-thedevelopersbakery-lottie.m4a" length="18012415" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/37-thedevelopersbakery-lottie.m4a" length="18012415" type="audio/x-m4a" />
 
         <itunes:subtitle>Who doesn't like animations? Let's discover how you can run smooth animations everywhere with Lottie and Gabriel Peal</itunes:subtitle>
         <itunes:summary>Who doesn't like animations? Let's discover how you can run smooth animations everywhere with Lottie and Gabriel Peal</itunes:summary>
@@ -6053,7 +6053,7 @@ Enjoy the show 👨‍🍳</p>
         <title>Duck Duck Go with Marcos Holgado</title>
         <itunes:title>Duck Duck Go with Marcos Holgado</itunes:title>
         <link>https://thebakery.dev/36/</link>
-        <pubDate>Mon, 13 Jun 2022 00:00:00 +0100</pubDate>
+        <pubDate>Mon, 13 Jun 2022 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/36/</guid>
         
@@ -6063,7 +6063,7 @@ Enjoy the show 👨‍🍳</p>
             <itunes:episode>36</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/36-thedevelopersbakery-duckduckgo.m4a" length="18354297" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/36-thedevelopersbakery-duckduckgo.m4a" length="18354297" type="audio/x-m4a" />
 
         <itunes:subtitle>Today we have Marcos Holgado on stage to tell us about Duck Duck Go, the search engine and their Privacy Browser for Android.</itunes:subtitle>
         <itunes:summary>Today we have Marcos Holgado on stage to tell us about Duck Duck Go, the search engine and their Privacy Browser for Android.</itunes:summary>
@@ -6148,7 +6148,7 @@ In this episode, Marcos will walk us through some of the challenges they’re fa
         <title>ktlint-gradle with Jonathan Leitschuh and Yahor Berdnikau</title>
         <itunes:title>ktlint-gradle with Jonathan Leitschuh and Yahor Berdnikau</itunes:title>
         <link>https://thebakery.dev/35/</link>
-        <pubDate>Mon, 30 May 2022 00:00:00 +0100</pubDate>
+        <pubDate>Mon, 30 May 2022 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/35/</guid>
         
@@ -6158,7 +6158,7 @@ In this episode, Marcos will walk us through some of the challenges they’re fa
             <itunes:episode>35</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/35-thedevelopersbakery-ktlint-gradle.m4a" length="19659131" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/35-thedevelopersbakery-ktlint-gradle.m4a" length="19659131" type="audio/x-m4a" />
 
         <itunes:subtitle>Linters, Formatters and Sustainability with Yahor and Jonathan from ktlint-gradle</itunes:subtitle>
         <itunes:summary>Linters, Formatters and Sustainability with Yahor and Jonathan from ktlint-gradle</itunes:summary>
@@ -6245,7 +6245,7 @@ In this episode, Marcos will walk us through some of the challenges they’re fa
         <title>gdb-dashboard with Andrea Cardaci</title>
         <itunes:title>gdb-dashboard with Andrea Cardaci</itunes:title>
         <link>https://thebakery.dev/34/</link>
-        <pubDate>Tue, 17 May 2022 00:00:00 +0100</pubDate>
+        <pubDate>Tue, 17 May 2022 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/34/</guid>
         
@@ -6255,7 +6255,7 @@ In this episode, Marcos will walk us through some of the challenges they’re fa
             <itunes:episode>34</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/34-thedevelopersbakery-gdb-dashboard.m4a" length="20721722" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/34-thedevelopersbakery-gdb-dashboard.m4a" length="20721722" type="audio/x-m4a" />
 
         <itunes:subtitle>Debugging, Terminals and Security with gdb-dashboard and Andrea Cardaci</itunes:subtitle>
         <itunes:summary>Debugging, Terminals and Security with gdb-dashboard and Andrea Cardaci</itunes:summary>
@@ -6330,7 +6330,7 @@ That’s why <a href="https://github.com/cyrus-and"><strong>Andrea Cardaci</stro
         <title>Sentry SDK with Manoel Aranda Neto and Roman Zavarnitsyn</title>
         <itunes:title>Sentry SDK with Manoel Aranda Neto and Roman Zavarnitsyn</itunes:title>
         <link>https://thebakery.dev/33/</link>
-        <pubDate>Mon, 02 May 2022 00:00:00 +0100</pubDate>
+        <pubDate>Mon, 02 May 2022 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/33/</guid>
         
@@ -6340,7 +6340,7 @@ That’s why <a href="https://github.com/cyrus-and"><strong>Andrea Cardaci</stro
             <itunes:episode>33</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/33-thedevelopersbakery-sentry-sdk.m4a" length="16321717" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/33-thedevelopersbakery-sentry-sdk.m4a" length="16321717" type="audio/x-m4a" />
 
         <itunes:subtitle>Let's discover how you can auto-instrument your apps with the Sentry SDK, Roman Zavarnitsyn and Manoel Aranda Neto</itunes:subtitle>
         <itunes:summary>Let's discover how you can auto-instrument your apps with the Sentry SDK, Roman Zavarnitsyn and Manoel Aranda Neto</itunes:summary>
@@ -6435,7 +6435,7 @@ That’s why <a href="https://github.com/cyrus-and"><strong>Andrea Cardaci</stro
         <title>Testcontainers with Sergei Egorov</title>
         <itunes:title>Testcontainers with Sergei Egorov</itunes:title>
         <link>https://thebakery.dev/32/</link>
-        <pubDate>Mon, 18 Apr 2022 00:00:00 +0100</pubDate>
+        <pubDate>Mon, 18 Apr 2022 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/32/</guid>
         
@@ -6445,7 +6445,7 @@ That’s why <a href="https://github.com/cyrus-and"><strong>Andrea Cardaci</stro
             <itunes:episode>32</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/32-thedevelopersbakery-testcontainers.m4a" length="22541938" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/32-thedevelopersbakery-testcontainers.m4a" length="22541938" type="audio/x-m4a" />
 
         <itunes:subtitle>Learn how to power up your tests with Docker, Testcontainers and Sergei Egorov</itunes:subtitle>
         <itunes:summary>Learn how to power up your tests with Docker, Testcontainers and Sergei Egorov</itunes:summary>
@@ -6528,7 +6528,7 @@ That’s why <a href="https://github.com/cyrus-and"><strong>Andrea Cardaci</stro
         <title>Dependency Analysis Android Gradle Plugin with Tony Robalik</title>
         <itunes:title>Dependency Analysis Android Gradle Plugin with Tony Robalik</itunes:title>
         <link>https://thebakery.dev/31/</link>
-        <pubDate>Tue, 05 Apr 2022 00:00:00 +0100</pubDate>
+        <pubDate>Tue, 05 Apr 2022 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/31/</guid>
         
@@ -6538,7 +6538,7 @@ That’s why <a href="https://github.com/cyrus-and"><strong>Andrea Cardaci</stro
             <itunes:episode>31</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/31-thedevelopersbakery-daagp.m4a" length="19398076" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/31-thedevelopersbakery-daagp.m4a" length="19398076" type="audio/x-m4a" />
 
         <itunes:subtitle>Gradle, Graphs and Urban Planning with Tony Robalik</itunes:subtitle>
         <itunes:summary>Gradle, Graphs and Urban Planning with Tony Robalik</itunes:summary>
@@ -6626,7 +6626,7 @@ That’s why <a href="https://github.com/cyrus-and"><strong>Andrea Cardaci</stro
         <title>Detekt with The Detekt Maintainers</title>
         <itunes:title>Detekt with The Detekt Maintainers</itunes:title>
         <link>https://thebakery.dev/30/</link>
-        <pubDate>Mon, 21 Mar 2022 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 21 Mar 2022 12:00:00 +0000</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/30/</guid>
         
@@ -6636,7 +6636,7 @@ That’s why <a href="https://github.com/cyrus-and"><strong>Andrea Cardaci</stro
             <itunes:episode>30</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/30-thedevelopersbakery-detekt.m4a" length="29705034" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/30-thedevelopersbakery-detekt.m4a" length="29705034" type="audio/x-m4a" />
 
         <itunes:subtitle>We're celebrating #30 with a special episode with the maintainers of Detekt, the Kotlin static analyizer</itunes:subtitle>
         <itunes:summary>We're celebrating #30 with a special episode with the maintainers of Detekt, the Kotlin static analyizer</itunes:summary>
@@ -6745,7 +6745,7 @@ That’s why <a href="https://github.com/cyrus-and"><strong>Andrea Cardaci</stro
         <title>Kodein with Salomon Brys</title>
         <itunes:title>Kodein with Salomon Brys</itunes:title>
         <link>https://thebakery.dev/29/</link>
-        <pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 07 Mar 2022 12:00:00 +0000</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/29/</guid>
         
@@ -6755,7 +6755,7 @@ That’s why <a href="https://github.com/cyrus-and"><strong>Andrea Cardaci</stro
             <itunes:episode>29</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/29-thedevelopersbakery-kodein.m4a" length="18691066" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/29-thedevelopersbakery-kodein.m4a" length="18691066" type="audio/x-m4a" />
 
         <itunes:subtitle>It's time to spotlight another Dependency Injection framework for Kotlin: please welcome Salomon with Kodein</itunes:subtitle>
         <itunes:summary>It's time to spotlight another Dependency Injection framework for Kotlin: please welcome Salomon with Kodein</itunes:summary>
@@ -6851,7 +6851,7 @@ In this episode, Salomon is going to tell us how Kodein was born and how the who
         <title>Stream SDK with Filip Babić</title>
         <itunes:title>Stream SDK with Filip Babić</itunes:title>
         <link>https://thebakery.dev/28/</link>
-        <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 21 Feb 2022 12:00:00 +0000</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/28/</guid>
         
@@ -6861,7 +6861,7 @@ In this episode, Salomon is going to tell us how Kodein was born and how the who
             <itunes:episode>28</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/28-thedevelopersbakery-stream-sdk.m4a" length="20947096" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/28-thedevelopersbakery-stream-sdk.m4a" length="20947096" type="audio/x-m4a" />
 
         <itunes:subtitle>Filip is on stage to walk us through the Stream, a Chat SDK to help you power your mobile apps.</itunes:subtitle>
         <itunes:summary>Filip is on stage to walk us through the Stream, a Chat SDK to help you power your mobile apps.</itunes:summary>
@@ -6946,7 +6946,7 @@ In this episode, Salomon is going to tell us how Kodein was born and how the who
         <title>Krabs with Michele Riva</title>
         <itunes:title>Krabs with Michele Riva</itunes:title>
         <link>https://thebakery.dev/27/</link>
-        <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 07 Feb 2022 12:00:00 +0000</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/27/</guid>
         
@@ -6956,7 +6956,7 @@ In this episode, Salomon is going to tell us how Kodein was born and how the who
             <itunes:episode>27</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/27-thedevelopersbakery-krabs.m4a" length="16618125" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/27-thedevelopersbakery-krabs.m4a" length="16618125" type="audio/x-m4a" />
 
         <itunes:subtitle>In this episode we will talk about Next.js and multi-tenancy with Krabs by Michele Riva</itunes:subtitle>
         <itunes:summary>In this episode we will talk about Next.js and multi-tenancy with Krabs by Michele Riva</itunes:summary>
@@ -7039,7 +7039,7 @@ about his experience writing a book and some of his lessons learned.</p>
         <title>Material UI Swing with Vincenzo Palazzo</title>
         <itunes:title>Material UI Swing with Vincenzo Palazzo</itunes:title>
         <link>https://thebakery.dev/26/</link>
-        <pubDate>Mon, 24 Jan 2022 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 24 Jan 2022 12:00:00 +0000</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/26/</guid>
         
@@ -7049,7 +7049,7 @@ about his experience writing a book and some of his lessons learned.</p>
             <itunes:episode>26</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/26-thedevelopersbakery-material-ui-swing.m4a" length="19352230" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/26-thedevelopersbakery-material-ui-swing.m4a" length="19352230" type="audio/x-m4a" />
 
         <itunes:subtitle>This time, we fly up to Mars with Vincenzo and Material UI Swing</itunes:subtitle>
         <itunes:summary>This time, we fly up to Mars with Vincenzo and Material UI Swing</itunes:summary>
@@ -7122,7 +7122,7 @@ Material UI Swing is currently used on <a href="https://jmars.mars.asu.edu/"><st
         <title>Realm with Christian Melchior</title>
         <itunes:title>Realm with Christian Melchior</itunes:title>
         <link>https://thebakery.dev/25/</link>
-        <pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 10 Jan 2022 12:00:00 +0000</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/25/</guid>
         
@@ -7132,7 +7132,7 @@ Material UI Swing is currently used on <a href="https://jmars.mars.asu.edu/"><st
             <itunes:episode>25</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/25-thedevelopersbakery-realm.m4a" length="16758210" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/25-thedevelopersbakery-realm.m4a" length="16758210" type="audio/x-m4a" />
 
         <itunes:subtitle>Today, we venture through the realm of mobile databases with Christian Melchior from MongoDB Realm</itunes:subtitle>
         <itunes:summary>Today, we venture through the realm of mobile databases with Christian Melchior from MongoDB Realm</itunes:summary>
@@ -7233,7 +7233,7 @@ Material UI Swing is currently used on <a href="https://jmars.mars.asu.edu/"><st
         <title>Datadog for Android with Xavier F. Gouchet</title>
         <itunes:title>Datadog for Android with Xavier F. Gouchet</itunes:title>
         <link>https://thebakery.dev/24/</link>
-        <pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 06 Dec 2021 12:00:00 +0000</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/24/</guid>
         
@@ -7243,7 +7243,7 @@ Material UI Swing is currently used on <a href="https://jmars.mars.asu.edu/"><st
             <itunes:episode>24</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/24-thedevelopersbakery-datadog-for-android.m4a" length="16838179" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/24-thedevelopersbakery-datadog-for-android.m4a" length="16838179" type="audio/x-m4a" />
 
         <itunes:subtitle>Time to talk about mobile app monitoring with Xavier Gouchet and Datadog SDK</itunes:subtitle>
         <itunes:summary>Time to talk about mobile app monitoring with Xavier Gouchet and Datadog SDK</itunes:summary>
@@ -7326,7 +7326,7 @@ such as Timber, Glide, Jetpack Compose or the Android NDK.</p>
         <title>PlusPlugins with Miguel Beltran</title>
         <itunes:title>PlusPlugins with Miguel Beltran</itunes:title>
         <link>https://thebakery.dev/23/</link>
-        <pubDate>Mon, 15 Nov 2021 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 15 Nov 2021 12:00:00 +0000</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/23/</guid>
         
@@ -7336,7 +7336,7 @@ such as Timber, Glide, Jetpack Compose or the Android NDK.</p>
             <itunes:episode>23</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/23-thedevelopersbakery-plusplugins.m4a" length="15874024" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/23-thedevelopersbakery-plusplugins.m4a" length="15874024" type="audio/x-m4a" />
 
         <itunes:subtitle>Back on Flutter with Miguel Beltran talking about one of the most important library: Plus Plugins</itunes:subtitle>
         <itunes:summary>Back on Flutter with Miguel Beltran talking about one of the most important library: Plus Plugins</itunes:summary>
@@ -7346,7 +7346,7 @@ such as Timber, Glide, Jetpack Compose or the Android NDK.</p>
             <![CDATA[It’s been since episode #07 that we haven’t talked about Flutter 💙, so today we have Miguel Beltran on stage to talk about one of the most important library for it: Plus Plugins. Miguel is one of the maintainer of this popular collection of plugins. Plus plugins offer multiplatform capability...]]>
         </description>
         <content:encoded>
-            <![CDATA[<p>It’s been since <a href="/07">episode #07</a> that we haven’t talked about Flutter 💙, so today we have <a href="https://twitter.com/MiBLT"><strong>Miguel Beltran</strong></a> on stage to talk about one of the most important library for it: <a href="https://github.com/fluttercommunity/plus_plugins"><strong>Plus Plugins</strong></a>.</p>
+            <![CDATA[<p>It’s been since <a href="https://thebakery.dev/07">episode #07</a> that we haven’t talked about Flutter 💙, so today we have <a href="https://twitter.com/MiBLT"><strong>Miguel Beltran</strong></a> on stage to talk about one of the most important library for it: <a href="https://github.com/fluttercommunity/plus_plugins"><strong>Plus Plugins</strong></a>.</p>
 
 <p>Miguel is one of the maintainer of this popular <strong>collection of plugins</strong>. Plus plugins offer multiplatform capability to access informations 
 such as <strong>battery</strong>, <strong>connectivity</strong>, <strong>sensors</strong> and more across a variety of platforms: Android, iOS, Web, MacOS, Windows &amp; Linux!</p>
@@ -7417,7 +7417,7 @@ how people can <strong>contribute</strong> to such a critical piece of the Flutt
         <title>Gitpod with Geoffrey Huntley</title>
         <itunes:title>Gitpod with Geoffrey Huntley</itunes:title>
         <link>https://thebakery.dev/22/</link>
-        <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 02 Nov 2021 12:00:00 +0000</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/22/</guid>
         
@@ -7427,7 +7427,7 @@ how people can <strong>contribute</strong> to such a critical piece of the Flutt
             <itunes:episode>22</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/22-thedevelopersbakery-gitpod.m4a" length="17626761" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/22-thedevelopersbakery-gitpod.m4a" length="17626761" type="audio/x-m4a" />
 
         <itunes:subtitle>We're back on Cloud IDEs with Geoffrey Huntley talking about Gitpod and his vanlife!</itunes:subtitle>
         <itunes:summary>We're back on Cloud IDEs with Geoffrey Huntley talking about Gitpod and his vanlife!</itunes:summary>
@@ -7522,7 +7522,7 @@ how people can <strong>contribute</strong> to such a critical piece of the Flutt
         <title>Firefox for Android with Sebastian Kaspari</title>
         <itunes:title>Firefox for Android with Sebastian Kaspari</itunes:title>
         <link>https://thebakery.dev/21/</link>
-        <pubDate>Mon, 18 Oct 2021 00:00:00 +0100</pubDate>
+        <pubDate>Mon, 18 Oct 2021 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/21/</guid>
         
@@ -7532,7 +7532,7 @@ how people can <strong>contribute</strong> to such a critical piece of the Flutt
             <itunes:episode>21</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/21-thedevelopersbakery-firefox.m4a" length="19860125" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/21-thedevelopersbakery-firefox.m4a" length="19860125" type="audio/x-m4a" />
 
         <itunes:subtitle>What it takes to build a browser? Today we have Sebastian Kaspari on stage to tell us about it with Firefox for Android</itunes:subtitle>
         <itunes:summary>What it takes to build a browser? Today we have Sebastian Kaspari on stage to tell us about it with Firefox for Android</itunes:summary>
@@ -7619,7 +7619,7 @@ how people can <strong>contribute</strong> to such a critical piece of the Flutt
         <title>Running with Enrique López-Mañas</title>
         <itunes:title>Running with Enrique López-Mañas</itunes:title>
         <link>https://thebakery.dev/20/</link>
-        <pubDate>Sat, 02 Oct 2021 00:00:00 +0100</pubDate>
+        <pubDate>Sat, 02 Oct 2021 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/20/</guid>
         
@@ -7629,7 +7629,7 @@ how people can <strong>contribute</strong> to such a critical piece of the Flutt
             <itunes:episode>20</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/20-thedevelopersbakery-running.m4a" length="23811565" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/20-thedevelopersbakery-running.m4a" length="23811565" type="audio/x-m4a" />
 
         <itunes:subtitle>In this special episode we ask Enrique to tell us his personal experiences with Running</itunes:subtitle>
         <itunes:summary>In this special episode we ask Enrique to tell us his personal experiences with Running</itunes:summary>
@@ -7706,7 +7706,7 @@ The tool we’re going to talk about today is not a Github library, but a sport 
         <title>Arrow with Simon Vergauwen</title>
         <itunes:title>Arrow with Simon Vergauwen</itunes:title>
         <link>https://thebakery.dev/19/</link>
-        <pubDate>Mon, 20 Sep 2021 00:00:00 +0100</pubDate>
+        <pubDate>Mon, 20 Sep 2021 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/19/</guid>
         
@@ -7716,7 +7716,7 @@ The tool we’re going to talk about today is not a Github library, but a sport 
             <itunes:episode>19</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/19-thedevelopersbakery-arrow.m4a" length="16981603" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/19-thedevelopersbakery-arrow.m4a" length="16981603" type="audio/x-m4a" />
 
         <itunes:subtitle>Today we venture into the realm of Functional Programming with Arrow and Simon Vergauwen</itunes:subtitle>
         <itunes:summary>Today we venture into the realm of Functional Programming with Arrow and Simon Vergauwen</itunes:summary>
@@ -7813,7 +7813,7 @@ The tool we’re going to talk about today is not a Github library, but a sport 
         <title>code-server with Joe Previte</title>
         <itunes:title>code-server with Joe Previte</itunes:title>
         <link>https://thebakery.dev/18/</link>
-        <pubDate>Mon, 30 Aug 2021 00:00:00 +0100</pubDate>
+        <pubDate>Mon, 30 Aug 2021 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/18/</guid>
         
@@ -7823,7 +7823,7 @@ The tool we’re going to talk about today is not a Github library, but a sport 
             <itunes:episode>18</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/18-thedevelopersbakery-code-server.m4a" length="22194025" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/18-thedevelopersbakery-code-server.m4a" length="22194025" type="audio/x-m4a" />
 
         <itunes:subtitle>It's time to relocate your IDE to the cloud with code-server and Joe Previte!</itunes:subtitle>
         <itunes:summary>It's time to relocate your IDE to the cloud with code-server and Joe Previte!</itunes:summary>
@@ -7839,7 +7839,7 @@ The tool we’re going to talk about today is not a Github library, but a sport 
 
 <p>Today he will tell us about his journey with cloud IDEs, through shiny features and the current limitations. We even get to run VS Code on <strong>his mobile phone</strong> 😬!</p>
 
-<p><img src="/assets/images/posts/codeserver-on-mobile.jpg" alt="codeserver-on-mobile" /></p>
+<p><img src="https://thebakery.dev/assets/images/posts/codeserver-on-mobile.jpg" alt="codeserver-on-mobile" /></p>
 
 <p>If you want to get a glimpse of how the IDE experience <em>might</em> look like in some years, make sure to don’t miss this episode!</p>
 
@@ -7929,7 +7929,7 @@ The tool we’re going to talk about today is not a Github library, but a sport 
         <title>Strawberry with Patrick Arminio</title>
         <itunes:title>Strawberry with Patrick Arminio</itunes:title>
         <link>https://thebakery.dev/17/</link>
-        <pubDate>Mon, 16 Aug 2021 00:00:00 +0100</pubDate>
+        <pubDate>Mon, 16 Aug 2021 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/17/</guid>
         
@@ -7939,7 +7939,7 @@ The tool we’re going to talk about today is not a Github library, but a sport 
             <itunes:episode>17</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/17-thedevelopersbakery-strawberry.m4a" length="16450549" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/17-thedevelopersbakery-strawberry.m4a" length="16450549" type="audio/x-m4a" />
 
         <itunes:subtitle>We talk about Python, GraphQL and Community on this episode about Strawberry with Patrick Arminio</itunes:subtitle>
         <itunes:summary>We talk about Python, GraphQL and Community on this episode about Strawberry with Patrick Arminio</itunes:summary>
@@ -8033,7 +8033,7 @@ In this episode he will walk us through the story of this project, and some of t
         <title>FastHub with Kosh Sergani</title>
         <itunes:title>FastHub with Kosh Sergani</itunes:title>
         <link>https://thebakery.dev/16/</link>
-        <pubDate>Mon, 26 Jul 2021 00:00:00 +0100</pubDate>
+        <pubDate>Mon, 26 Jul 2021 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/16/</guid>
         
@@ -8043,7 +8043,7 @@ In this episode he will walk us through the story of this project, and some of t
             <itunes:episode>16</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/16-thedevelopersbakery-fasthub.m4a" length="16450921" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/16-thedevelopersbakery-fasthub.m4a" length="16450921" type="audio/x-m4a" />
 
         <itunes:subtitle>An open-source app to browse open-source code? That's FastHub, one of the best Android app for Github. Kosh it's on stage to tell us the story behind it.</itunes:subtitle>
         <itunes:summary>An open-source app to browse open-source code? That's FastHub, one of the best Android app for Github. Kosh it's on stage to tell us the story behind it.</itunes:summary>
@@ -8056,7 +8056,7 @@ In this episode he will walk us through the story of this project, and some of t
             <![CDATA[<p>Today I have the honor to host on-stage <a href="https://twitter.com/im_kosh"><strong>Kosh Sergani</strong></a>, author and maintainer of <a href="https://github.com/k0shk0sh/FastHub"><strong>FastHub</strong></a>.</p>
 
 <p align="center">
- <img src="/assets/images/posts/fasthub-logo.png" />
+ <img src="https://thebakery.dev/assets/images/posts/fasthub-logo.png" />
 </p>
 
 <p>If you don’t know FastHub yet, it’s one of the most popular Github client for Android. It’s obviously <strong>fully open-sourced</strong> and Kosh has been developing it from day 1. Today he’s sharing with us the story of this project, how it started and how it evolved.</p>
@@ -8137,7 +8137,7 @@ In this episode he will walk us through the story of this project, and some of t
         <title>Deep-clean with Sebastiano Poggi</title>
         <itunes:title>Deep-clean with Sebastiano Poggi</itunes:title>
         <link>https://thebakery.dev/15/</link>
-        <pubDate>Mon, 12 Jul 2021 00:00:00 +0100</pubDate>
+        <pubDate>Mon, 12 Jul 2021 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/15/</guid>
         
@@ -8147,7 +8147,7 @@ In this episode he will walk us through the story of this project, and some of t
             <itunes:episode>15</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/15-thedevelopersbakery-deep-clean.m4a" length="18058877" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/15-thedevelopersbakery-deep-clean.m4a" length="18058877" type="audio/x-m4a" />
 
         <itunes:subtitle>deep-clean is what happens when someone gets really frustrated. Sebastiano is on stage to talk us about it.</itunes:subtitle>
         <itunes:summary>deep-clean is what happens when someone gets really frustrated. Sebastiano is on stage to talk us about it.</itunes:summary>
@@ -8241,7 +8241,7 @@ deep-clean will take care of cleaning up your build caches. If you’re really s
         <title>Anvil with Ralf Wondratschek</title>
         <itunes:title>Anvil with Ralf Wondratschek</itunes:title>
         <link>https://thebakery.dev/14/</link>
-        <pubDate>Mon, 28 Jun 2021 00:00:00 +0100</pubDate>
+        <pubDate>Mon, 28 Jun 2021 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/14/</guid>
         
@@ -8251,7 +8251,7 @@ deep-clean will take care of cleaning up your build caches. If you’re really s
             <itunes:episode>14</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/14-thedevelopersbakery-anvil.m4a" length="19617785" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/14-thedevelopersbakery-anvil.m4a" length="19617785" type="audio/x-m4a" />
 
         <itunes:subtitle>Forging a faster and easier dependency injection with Anvil!</itunes:subtitle>
         <itunes:summary>Forging a faster and easier dependency injection with Anvil!</itunes:summary>
@@ -8343,7 +8343,7 @@ deep-clean will take care of cleaning up your build caches. If you’re really s
         <title>Apollo GraphQL with Martin Bonnin</title>
         <itunes:title>Apollo GraphQL with Martin Bonnin</itunes:title>
         <link>https://thebakery.dev/13/</link>
-        <pubDate>Mon, 14 Jun 2021 00:00:00 +0100</pubDate>
+        <pubDate>Mon, 14 Jun 2021 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/13/</guid>
         
@@ -8353,7 +8353,7 @@ deep-clean will take care of cleaning up your build caches. If you’re really s
             <itunes:episode>13</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/13-thedevelopersbakery-apollo-graphql.m4a" length="17275215" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/13-thedevelopersbakery-apollo-graphql.m4a" length="17275215" type="audio/x-m4a" />
 
         <itunes:subtitle>Martin is on stage to tell us about GraphQL and Apollo Android, the most popular GraphQL client for Android</itunes:subtitle>
         <itunes:summary>Martin is on stage to tell us about GraphQL and Apollo Android, the most popular GraphQL client for Android</itunes:summary>
@@ -8450,7 +8450,7 @@ deep-clean will take care of cleaning up your build caches. If you’re really s
         <title>refreshVersions with Louis CAD</title>
         <itunes:title>refreshVersions with Louis CAD</itunes:title>
         <link>https://thebakery.dev/12/</link>
-        <pubDate>Mon, 31 May 2021 00:00:00 +0100</pubDate>
+        <pubDate>Mon, 31 May 2021 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/12/</guid>
         
@@ -8460,7 +8460,7 @@ deep-clean will take care of cleaning up your build caches. If you’re really s
             <itunes:episode>12</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/12-thedevelopersbakery-refreshversions.m4a" length="18035580" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/12-thedevelopersbakery-refreshversions.m4a" length="18035580" type="audio/x-m4a" />
 
         <itunes:subtitle>In this episode we will talk about dependency hell and how to escape it, with Louis CAD and the refershVersions project!</itunes:subtitle>
         <itunes:summary>In this episode we will talk about dependency hell and how to escape it, with Louis CAD and the refershVersions project!</itunes:summary>
@@ -8474,7 +8474,7 @@ deep-clean will take care of cleaning up your build caches. If you’re really s
 
 <p>The killer feature of refreshVersions is the possibility to see all the available versions <strong>as comments</strong> in your versions file. They’re just a ⇧ + <code class="language-plaintext highlighter-rouge">down</code> keystroke away to update:</p>
 
-<p><img src="/assets/images/posts/refreshVersions-demo.png" alt="Updating a dependency version with refreshVersions" /></p>
+<p><img src="https://thebakery.dev/assets/images/posts/refreshVersions-demo.png" alt="Updating a dependency version with refreshVersions" /></p>
 
 <p>Louis will also tell us his personal experience with <strong>pair programming</strong> in the open-source ecosystem. If you’re looking for a peer to get into open-source, make sure you send Louis a message!</p>
 
@@ -8558,7 +8558,7 @@ deep-clean will take care of cleaning up your build caches. If you’re really s
         <title>MoshiX and KSP with Zac Sweers</title>
         <itunes:title>MoshiX and KSP with Zac Sweers</itunes:title>
         <link>https://thebakery.dev/11/</link>
-        <pubDate>Tue, 27 Apr 2021 00:00:00 +0100</pubDate>
+        <pubDate>Tue, 27 Apr 2021 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/11/</guid>
         
@@ -8568,7 +8568,7 @@ deep-clean will take care of cleaning up your build caches. If you’re really s
             <itunes:episode>11</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/11-thedevelopersbakery-moshix-and-ksp.m4a" length="24302815" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/11-thedevelopersbakery-moshix-and-ksp.m4a" length="24302815" type="audio/x-m4a" />
 
         <itunes:subtitle>Today we deep dive into metaprogramming, code generation and compiler plugins with Zac Sweers, talking about his experience with MoshiX and KSP</itunes:subtitle>
         <itunes:summary>Today we deep dive into metaprogramming, code generation and compiler plugins with Zac Sweers, talking about his experience with MoshiX and KSP</itunes:summary>
@@ -8652,7 +8652,7 @@ deep-clean will take care of cleaning up your build caches. If you’re really s
         <title>Press with Saket Narayan</title>
         <itunes:title>Press with Saket Narayan</itunes:title>
         <link>https://thebakery.dev/10/</link>
-        <pubDate>Mon, 12 Apr 2021 00:00:00 +0100</pubDate>
+        <pubDate>Mon, 12 Apr 2021 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/10/</guid>
         
@@ -8662,7 +8662,7 @@ deep-clean will take care of cleaning up your build caches. If you’re really s
             <itunes:episode>10</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/10-thedevelopersbakery-press.m4a" length="12983967" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/10-thedevelopersbakery-press.m4a" length="12983967" type="audio/x-m4a" />
 
         <itunes:subtitle>It's time to discover a beautiful Kotlin Multiplatform mobile app: Press with Saket Narayan</itunes:subtitle>
         <itunes:summary>It's time to discover a beautiful Kotlin Multiplatform mobile app: Press with Saket Narayan</itunes:summary>
@@ -8748,7 +8748,7 @@ deep-clean will take care of cleaning up your build caches. If you’re really s
         <title>JaCoCo with Evgeny Mandrikov</title>
         <itunes:title>JaCoCo with Evgeny Mandrikov</itunes:title>
         <link>https://thebakery.dev/09/</link>
-        <pubDate>Mon, 29 Mar 2021 00:00:00 +0100</pubDate>
+        <pubDate>Mon, 29 Mar 2021 13:00:00 +0100</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/09/</guid>
         
@@ -8758,7 +8758,7 @@ deep-clean will take care of cleaning up your build caches. If you’re really s
             <itunes:episode>9</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/09-thedevelopersbakery-jacoco.m4a" length="20784933" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/09-thedevelopersbakery-jacoco.m4a" length="20784933" type="audio/x-m4a" />
 
         <itunes:subtitle>Are you ready to uncover all the secrets of code coverage? Don't miss this episode where Evgeny Mandrikov will tell us the story behind JaCoCo!</itunes:subtitle>
         <itunes:summary>Are you ready to uncover all the secrets of code coverage? Don't miss this episode where Evgeny Mandrikov will tell us the story behind JaCoCo!</itunes:summary>
@@ -8847,7 +8847,7 @@ deep-clean will take care of cleaning up your build caches. If you’re really s
         <title>Tuist with Pedro Piñera Buendía</title>
         <itunes:title>Tuist with Pedro Piñera Buendía</itunes:title>
         <link>https://thebakery.dev/08/</link>
-        <pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 15 Mar 2021 12:00:00 +0000</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/08/</guid>
         
@@ -8857,7 +8857,7 @@ deep-clean will take care of cleaning up your build caches. If you’re really s
             <itunes:episode>8</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/08-thedevelopersbakery-tuist.m4a" length="18048271" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/08-thedevelopersbakery-tuist.m4a" length="18048271" type="audio/x-m4a" />
 
         <itunes:subtitle>Today we have Pedro on stage to tell us how to build iOS projects with Tuist!</itunes:subtitle>
         <itunes:summary>Today we have Pedro on stage to tell us how to build iOS projects with Tuist!</itunes:summary>
@@ -8950,7 +8950,7 @@ deep-clean will take care of cleaning up your build caches. If you’re really s
         <title>VelocityX and Flutter with Pawan Kumar</title>
         <itunes:title>VelocityX and Flutter with Pawan Kumar</itunes:title>
         <link>https://thebakery.dev/07/</link>
-        <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 01 Mar 2021 12:00:00 +0000</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/07/</guid>
         
@@ -8960,7 +8960,7 @@ deep-clean will take care of cleaning up your build caches. If you’re really s
             <itunes:episode>7</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/07-thedevelopersbakery-velocityx.m4a" length="17164848" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/07-thedevelopersbakery-velocityx.m4a" length="17164848" type="audio/x-m4a" />
 
         <itunes:subtitle>It's time to talk about Flutter and Cross-platform development with Pawan Kumar and his framework VelocityX.</itunes:subtitle>
         <itunes:summary>It's time to talk about Flutter and Cross-platform development with Pawan Kumar and his framework VelocityX.</itunes:summary>
@@ -9053,7 +9053,7 @@ deep-clean will take care of cleaning up your build caches. If you’re really s
         <title>Koin with Arnaud Giuliani</title>
         <itunes:title>Koin with Arnaud Giuliani</itunes:title>
         <link>https://thebakery.dev/06/</link>
-        <pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 15 Feb 2021 12:00:00 +0000</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/06/</guid>
         
@@ -9063,7 +9063,7 @@ deep-clean will take care of cleaning up your build caches. If you’re really s
             <itunes:episode>6</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/06-thedevelopersbakery-koin.m4a" length="20309780" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/06-thedevelopersbakery-koin.m4a" length="20309780" type="audio/x-m4a" />
 
         <itunes:subtitle>Are you up for some Dependency Injection? Because today we have Arnaud Giuliani on stage, to talk about Koin, a DI framework for Kotlin, Android and more!</itunes:subtitle>
         <itunes:summary>Are you up for some Dependency Injection? Because today we have Arnaud Giuliani on stage, to talk about Koin, a DI framework for Kotlin, Android and more!</itunes:summary>
@@ -9144,7 +9144,7 @@ deep-clean will take care of cleaning up your build caches. If you’re really s
         <title>Starship with Matan Kushner</title>
         <itunes:title>Starship with Matan Kushner</itunes:title>
         <link>https://thebakery.dev/05/</link>
-        <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 01 Feb 2021 12:00:00 +0000</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/05/</guid>
         
@@ -9154,7 +9154,7 @@ deep-clean will take care of cleaning up your build caches. If you’re really s
             <itunes:episode>5</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/05-thedevelopersbakery-starship.m4a" length="15703101" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/05-thedevelopersbakery-starship.m4a" length="15703101" type="audio/x-m4a" />
 
         <itunes:subtitle>Today we talk about Starship, the minimal, blazing-fast and infinitely customizable prompt shell with its author Matan Kushner</itunes:subtitle>
         <itunes:summary>Today we talk about Starship, the minimal, blazing-fast and infinitely customizable prompt shell with its author Matan Kushner</itunes:summary>
@@ -9170,7 +9170,7 @@ deep-clean will take care of cleaning up your build caches. If you’re really s
 
 <p>Still confused? A picture is worth a thousand words:</p>
 
-<p><img src="/assets/images/posts/starship-demo.gif" alt="starship-demo" /></p>
+<p><img src="https://thebakery.dev/assets/images/posts/starship-demo.gif" alt="starship-demo" /></p>
 
 <p><small><em>Starship in action, from <a href="https://starship.rs">starship.rs</a></em></small></p>
 
@@ -9248,7 +9248,7 @@ deep-clean will take care of cleaning up your build caches. If you’re really s
         <title>Jetpack Compose Desktop with Sebastian Aigner</title>
         <itunes:title>Jetpack Compose Desktop with Sebastian Aigner</itunes:title>
         <link>https://thebakery.dev/04/</link>
-        <pubDate>Mon, 18 Jan 2021 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 18 Jan 2021 12:00:00 +0000</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/04/</guid>
         
@@ -9258,7 +9258,7 @@ deep-clean will take care of cleaning up your build caches. If you’re really s
             <itunes:episode>4</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/04-thedevelopersbakery-compose-desktop.m4a" length="15258234" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/04-thedevelopersbakery-compose-desktop.m4a" length="15258234" type="audio/x-m4a" />
 
         <itunes:subtitle>Directly from JetBrains, we have Sebastian Aigner on stage to talk about Jetpack Compose Desktop, the new desktop UI declarative framework from JB.</itunes:subtitle>
         <itunes:summary>Directly from JetBrains, we have Sebastian Aigner on stage to talk about Jetpack Compose Desktop, the new desktop UI declarative framework from JB.</itunes:summary>
@@ -9354,7 +9354,7 @@ deep-clean will take care of cleaning up your build caches. If you’re really s
         <title>Danger with Franco Meloni</title>
         <itunes:title>Danger with Franco Meloni</itunes:title>
         <link>https://thebakery.dev/03/</link>
-        <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 04 Jan 2021 12:00:00 +0000</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/03/</guid>
         
@@ -9364,7 +9364,7 @@ deep-clean will take care of cleaning up your build caches. If you’re really s
             <itunes:episode>3</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/03-thedevelopersbakery-danger.m4a" length="16694377" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/03-thedevelopersbakery-danger.m4a" length="16694377" type="audio/x-m4a" />
 
         <itunes:subtitle>Time to kick-off 2021 with an amazing tool to automatize your pull-requests: Danger, and Franco Meloni is on stage to present it!</itunes:subtitle>
         <itunes:summary>Time to kick-off 2021 with an amazing tool to automatize your pull-requests: Danger, and Franco Meloni is on stage to present it!</itunes:summary>
@@ -9441,7 +9441,7 @@ deep-clean will take care of cleaning up your build caches. If you’re really s
         <title>Coil with Colin White</title>
         <itunes:title>Coil with Colin White</itunes:title>
         <link>https://thebakery.dev/02/</link>
-        <pubDate>Mon, 21 Dec 2020 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 21 Dec 2020 12:00:00 +0000</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/02/</guid>
         
@@ -9451,7 +9451,7 @@ deep-clean will take care of cleaning up your build caches. If you’re really s
             <itunes:episode>2</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/02-thedevelopersbakery-coil.m4a" length="14750196" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/02-thedevelopersbakery-coil.m4a" length="14750196" type="audio/x-m4a" />
 
         <itunes:subtitle>Colin is here to introduce Coil, Coroutine Image Loader. A library to reshape image loading on Android</itunes:subtitle>
         <itunes:summary>Colin is here to introduce Coil, Coroutine Image Loader. A library to reshape image loading on Android</itunes:summary>
@@ -9523,7 +9523,7 @@ deep-clean will take care of cleaning up your build caches. If you’re really s
         <title>Gradle Doctor with Nelson Osacky</title>
         <itunes:title>Gradle Doctor with Nelson Osacky</itunes:title>
         <link>https://thebakery.dev/01/</link>
-        <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 07 Dec 2020 12:00:00 +0000</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/01/</guid>
         
@@ -9533,7 +9533,7 @@ deep-clean will take care of cleaning up your build caches. If you’re really s
             <itunes:episode>1</itunes:episode>
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/01-thedevelopersbakery-gradle-doctor.m4a" length="16595189" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/01-thedevelopersbakery-gradle-doctor.m4a" length="16595189" type="audio/x-m4a" />
 
         <itunes:subtitle>Nelson presents gradle-doctor, a tool to get prescriptions for your inefficient Gradle build</itunes:subtitle>
         <itunes:summary>Nelson presents gradle-doctor, a tool to get prescriptions for your inefficient Gradle build</itunes:summary>
@@ -9599,7 +9599,7 @@ deep-clean will take care of cleaning up your build caches. If you’re really s
         <title>Show Trailer</title>
         <itunes:title>Show Trailer</itunes:title>
         <link>https://thebakery.dev/00/</link>
-        <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 01 Dec 2020 12:00:00 +0000</pubDate>
         <dc:creator>Nicola Corti</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/00/</guid>
         
@@ -9607,7 +9607,7 @@ deep-clean will take care of cleaning up your build caches. If you’re really s
         
         
 
-        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/00-thedevelopersbakery-trailer.m4a" length="1991629" type="audio/mpeg" />
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/00-thedevelopersbakery-trailer.m4a" length="1991629" type="audio/x-m4a" />
 
         <itunes:subtitle>Welcome to The Developers's Bakery</itunes:subtitle>
         <itunes:summary>Hi everyone and welcome to the Developers' Bakery. A podcast about open-source projects, tools and libraries for software developers.</itunes:summary>
