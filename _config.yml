@@ -14,7 +14,7 @@ remote_theme: "mmistakes/minimal-mistakes"
 # minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale: "en"
+locale: "en-GB"
 title: "The Developers' Bakery"
 title_separator: "-"
 name: "Nicola Corti"
@@ -22,7 +22,7 @@ description: "A podcast about Developer Tools and productivity, freshly baked to
 url: "https://thebakery.dev"
 # baseurl                  : "/"
 repository: "cortinico/thebakery"
-teaser: "assets/images/og_default_header.jpg"
+teaser: "/assets/images/og-default-header.jpg"
 # breadcrumbs            : false # true, false (default)
 words_per_minute: 220
 comments:
