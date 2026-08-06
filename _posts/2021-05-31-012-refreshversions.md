@@ -31,7 +31,7 @@ Have you ever ventured inside the **dependency hell** 😈? [Louis CAD](https://
 
 The killer feature of refreshVersions is the possibility to see all the available versions **as comments** in your versions file. They're just a ⇧ + `down` keystroke away to update:
 
-![Updating a dependency version with refreshVersions](/assets/images/posts/refreshVersions-demo.png)
+![Updating a dependency version with refreshVersions](https://thebakery.dev/assets/images/posts/refreshVersions-demo.png)
 
 Louis will also tell us his personal experience with **pair programming** in the open-source ecosystem. If you're looking for a peer to get into open-source, make sure you send Louis a message! 
 

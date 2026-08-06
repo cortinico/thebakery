@@ -27,7 +27,7 @@ podcast_length: 11341007
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/6QqTqenPEp3EwwFQ8fCCFu?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-![io connect photo](/assets/images/posts/ioconnect24.jpg)
+![io connect photo](https://thebakery.dev/assets/images/posts/ioconnect24.jpg)
 
 Welcome to a special **in-person episode** of The Developers' Bakery, recorded live in **Berlin** at Google I/O Connect 2024!
 

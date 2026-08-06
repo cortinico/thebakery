@@ -28,7 +28,7 @@ podcast_length: 17871835
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/538EtMYcxQYU7mciUIzq8o?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 We're back with another **bonus episode** of The Developers' Bakery! 
-Back in episode [60](/60) we talked about content creation with Effective Android.
+Back in episode [60](https://thebakery.dev/60) we talked about content creation with Effective Android.
 
 Today, we double down on a similar topic as we do have [**Marcin Moskała**](https://leanpub.com/u/mmoskala) on stage! Marcin is the author of **Effective Kotlin**, a collection of Kotlin best practices, and **Kotlin Coroutines**, a book about Kotlin's concurrency model.
 
