@@ -2,6 +2,11 @@ import { Command } from 'commander';
 import * as fs from 'fs';
 import * as path from 'path';
 
+// Episodes are published at noon UTC. A date without a time becomes midnight in
+// the timezone of the site, which reads as the day before for every listener
+// west of London: noon is the hour that shows the same date almost everywhere.
+const PUBLISH_TIME = '12:00:00 +0000';
+
 const program = new Command();
 
 program
@@ -87,7 +92,7 @@ header:
   overlay_filter: "0.6"
   og_image: "/assets/images/episodes/${number}-cover.png"
 
-date: ${date}
+date: ${date} ${PUBLISH_TIME}
 permalink: /${number}/
 redirect_from:
 ${redirects.map((redirect) => `- ${redirect}`).join('\n')}
