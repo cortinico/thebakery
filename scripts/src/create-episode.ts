@@ -1,6 +1,7 @@
 import { Command } from 'commander';
 import * as fs from 'fs';
 import * as path from 'path';
+import { attachAudio } from './episode-audio';
 
 // Episodes are published at noon UTC. A date without a time becomes midnight in
 // the timezone of the site, which reads as the day before for every listener
@@ -17,13 +18,14 @@ program
   .option('-g, --guest <string>', 'Name of the guest (requires --project)')
   .option('-t, --title <string>', 'Title of the episode, as an alternative to --project and --guest')
   .option('-s, --slug <string>', 'Slug of the episode, defaults to the project name or to the title')
+  .option('-a, --audio <string>', 'Path to the audio file, to fill in the duration and the length right away')
   .requiredOption('-d, --date <string>', 'Release date of the episode')
   .requiredOption('-n, --number <number>', 'Number of the episode', parseInt);
 
 program.parse(process.argv);
 
 const options = program.opts();
-const { project, guest, title, slug: customSlug, date, number } = options;
+const { project, guest, title, slug: customSlug, audio, date, number } = options;
 
 function toId(str: string): string {
   return str.toLowerCase().replace(/\s+/g, '-');
@@ -146,6 +148,15 @@ try {
   info(`Podcast title: ${episode.displayTitle}`);
   info(`Podcast date: ${date}`);
   info(`Podcast number: ${number}`);
+
+  if (audio) {
+    const update = attachAudio(filename, audio);
+    if (update.previousUrl) {
+      warn(`The audio file is named ${path.basename(audio)}, so the URL now points at it.`);
+    }
+    info(`Podcast duration: ${update.duration}`);
+    info(`Podcast length: ${update.length} bytes`);
+  }
 
   succ(`Episode created successfully: ${filename}`);
 } catch (err) {

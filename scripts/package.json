@@ -2,10 +2,10 @@
   "name": "@thebakerydev/scripts",
   "version": "1.0.0",
   "private": true,
-  "type": "module",
   "scripts": {
     "create-episode": "ts-node src/create-episode.ts",
     "create-artwork": "ts-node src/create-artwork.ts",
+    "attach-audio": "ts-node src/attach-audio.ts",
     "convert-labels": "ts-node src/convert-labels.ts"
   },
   "dependencies": {
