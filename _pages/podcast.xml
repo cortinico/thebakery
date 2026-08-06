@@ -61,7 +61,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
             <itunes:episode>{{ ep.podcast_episode_number }}</itunes:episode>
         {% endif %}
 
-        <enclosure url="{{ ep.podcast_link }}" length="{{ ep.podcast_length }}" type="audio/mpeg" />
+        <enclosure url="{{ ep.podcast_link }}" length="{{ ep.podcast_length }}" type="audio/x-m4a" />
 
         <itunes:subtitle>{{ ep.excerpt }}</itunes:subtitle>
         <itunes:summary>{{ ep.description }}</itunes:summary>
