@@ -10,7 +10,7 @@ header:
   overlay_image: "/assets/images/header-single-episode.png"
   show_overlay_excerpt: false
   overlay_filter: "0.6"
-  og_image: "/assets/images/episodes/13-cover.png"
+  og_image: "/assets/images/episodes/13-og.png"
 
 date: 2021-06-14 12:00:00 +0000
 permalink: /13/

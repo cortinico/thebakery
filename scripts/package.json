@@ -5,6 +5,7 @@
   "scripts": {
     "create-episode": "ts-node src/create-episode.ts",
     "create-artwork": "ts-node src/create-artwork.ts",
+    "backfill-artwork": "ts-node src/backfill-artwork.ts",
     "attach-audio": "ts-node src/attach-audio.ts",
     "convert-labels": "ts-node src/convert-labels.ts"
   },

@@ -31,6 +31,8 @@ yarn create-artwork -n 100 -i https://host/photo.jpg    # -i also takes an http(
 yarn create-artwork -n 100                              # no -i: guest slot left empty
 yarn create-artwork -n 100 --no-og                      # just the square cover
 yarn create-artwork -n 100 --og-only --no-link          # just the wide one, without touching the post
+yarn backfill-artwork --dry-run     # report the GitHub account each episode resolves to, write nothing
+yarn backfill-artwork               # re-render every episode's og artwork from https://github.com/<user>.png
 yarn convert-labels -i labels.txt   # Audacity label export (tab-separated) -> "- **MM.SS** Title" show-notes lines
 ```
 
@@ -79,6 +81,14 @@ matter beyond normal Jekyll:
   fits — measuring Rubik Mono One's advance from the font rather than assuming a ratio — into at most 3 title lines
   and 2 guest lines, then centres the block. After writing the PNG it points the post's `header.og_image` at it;
   `--no-link` skips that.
+
+  `backfill-artwork` re-renders the wide artwork for every episode at once, taking the guest photo from
+  `https://github.com/<user>.png`. It digs the account out of the show notes above the `# Show links` heading (that
+  heading down is boilerplate on every episode), preferring `[@user on GitHub](…)`, then a bare profile URL, then a
+  repository owner — and warns on each fallback, on multi-guest episodes where it had to pick one, and on episodes
+  with no account at all. Episodes the notes get wrong are pinned by hand in its `OVERRIDES` map, which takes any
+  URL or local path; add to it rather than editing the show notes to suit the script. It never touches the square
+  covers, because those hold the real headshots and a GitHub avatar is not always the same photo.
 - `excerpt` and `description` become `<itunes:subtitle>` and `<itunes:summary>`.
 
 **The post body must open with the Spotify `<iframe>`.** `_pages/podcast.xml` builds `<description>` and
