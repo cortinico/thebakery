@@ -79,6 +79,9 @@ function resolveEpisode(): Episode {
 
 function generateMarkdown(episode: Episode): string {
   const { displayTitle, slug, redirects } = episode;
+  // The artwork is named with a two digit number, the way create-artwork writes
+  // it: episode 5 is 05-cover.png, not 5-cover.png.
+  const artworkId = number.toString().padStart(2, '0');
 
   return `---
 title: "#${number} - ${displayTitle}"
@@ -92,14 +95,14 @@ header:
   overlay_image: "/assets/images/header-single-episode.png"
   show_overlay_excerpt: false
   overlay_filter: "0.6"
-  og_image: "/assets/images/episodes/${number}-cover.png"
+  og_image: "/assets/images/episodes/${artworkId}-og.png"
 
 date: ${date} ${PUBLISH_TIME}
 permalink: /${number}/
 redirect_from:
 ${redirects.map((redirect) => `- ${redirect}`).join('\n')}
 
-podcast_image: "/assets/images/episodes/${number}-cover.png"
+podcast_image: "/assets/images/episodes/${artworkId}-cover.png"
 podcast_episode_number: ${number}
 podcast_link: https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/${number}-thedevelopersbakery-${slug}.m4a
 podcast_duration: "TODO"
