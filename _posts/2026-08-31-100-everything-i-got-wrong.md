@@ -12,7 +12,7 @@ header:
   overlay_filter: "0.6"
   og_image: "/assets/images/episodes/100-og.png"
 
-date: 2026-08-31 12:00:00 +0000
+date: 2026-08-27 12:00:00 +0000
 permalink: /100/
 redirect_from:
 - /100/everything-i-got-wrong/
