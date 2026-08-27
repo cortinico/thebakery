@@ -25,7 +25,7 @@ podcast_duration: "46:15"
 podcast_length: 18376566
 ---
 
-<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/106DgwxFnz6AZ74HrDaUjE?utm_source=generator&si=f06c2ec9594c41c2" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 Today we venture in the world of AI with [**Jason Pearson**](https://twitter.com/kaeawc) and the [**Android MCP** (Model Context Protocol) **SDK**](https://github.com/kaeawc/android-mcp-sdk), a new library that allows Android developers to build apps that can communicate with AI models more effectively.
 
