@@ -598,4 +598,10 @@ var store = [{
         "tags": [],
         "url": "/99/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#100 - 99 episodes, and everything I got wrong",
+        "excerpt":"One hundred episodes. 🎉 When this podcast started back in 2020, as one of those pandemic side projects, I would have never thought we would reach this milestone. Yet here we are, five years later. To celebrate, we’re turning the format upside down: today I’m the one under the spotlight,...","categories": [],
+        "tags": [],
+        "url": "/100/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

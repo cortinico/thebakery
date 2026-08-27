@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Thu, 27 Aug 2026 12:54:44 +0100</lastBuildDate>
+<lastBuildDate>Thu, 27 Aug 2026 13:45:31 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,123 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>99 episodes, and everything I got wrong</title>
+        <itunes:title>99 episodes, and everything I got wrong</itunes:title>
+        <link>https://thebakery.dev/100/</link>
+        <pubDate>Thu, 27 Aug 2026 13:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/100/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>100</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/100-thedevelopersbakery-everything-i-got-wrong.m4a" length="18914034" type="audio/x-m4a" />
+
+        <itunes:subtitle>100 episodes later: how the bakery started, what I got wrong, and what's baking next</itunes:subtitle>
+        <itunes:summary>Celebrating 100 episodes of The Developers' Bakery: the story behind the show, the mistakes I made along the way, and a brand new format with two new co-hosts.</itunes:summary>
+
+        
+        <description>
+            <![CDATA[One hundred episodes. 🎉 When this podcast started back in 2020, as one of those pandemic side projects, I would have never thought we would reach this milestone. Yet here we are, five years later. To celebrate, we’re turning the format upside down: today I’m the one under the spotlight,...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p><strong>One hundred episodes.</strong> 🎉</p>
+
+<p>When this podcast started back in 2020, as one of those pandemic side projects, I would have never thought we would reach this milestone. Yet here we are, five years later.</p>
+
+<p>To celebrate, we’re turning the format upside down: today I’m the one under the spotlight, and I’m not alone in the bakery. <a href="https://www.marcogomiero.com"><strong>Marco Gomiero</strong></a>, who you might remember from <a href="https://thebakery.dev/52/">episode #52</a>, and <a href="https://rotolo.dev"><strong>Paolo Rotolo</strong></a> are on stage with me, recorded in person here in Berlin, and they get to ask the questions for once.</p>
+
+<p>We talk about how this show came to be, the six months I spent building the infrastructure before recording a single word, why the “one open source project per episode” rule slowly turned into a cage, the episodes I regret, what it’s like to travel the world with a microphone that looks like a bomb on an X-ray, and why I came very close to stopping at 99.</p>
+
+<p>And then we look ahead. From today Marco and Paolo are officially <strong>co-hosts</strong> of this show, and the bakery gets two kinds of episodes: <strong>Deep Dives</strong> with a guest, and <strong>Fresh from the Oven</strong>, where the three of us pick a topic and dig into it. We’re also opening a new segment, the <strong>Recipe of the Week</strong>, where each of us shares a small tool or trick we picked up recently.</p>
+
+<p>Thank you to everyone who listened, shared, and came on stage over these 100 episodes. Here’s to the next batch 🍞</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="chapters">Chapters</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.58</strong> Episode Start</li>
+  <li><strong>03.13</strong> Nico is under the spotlight!</li>
+  <li><strong>05.33</strong> The origin of the bakery</li>
+  <li><strong>08.02</strong> Going too niche?</li>
+  <li><strong>11.57</strong> Evolving this podcast</li>
+  <li><strong>13.09</strong> Regrets and mistakes</li>
+  <li><strong>16.09</strong> Travelling with a microphone</li>
+  <li><strong>19.47</strong> Finding guests</li>
+  <li><strong>21.26</strong> Tales from OSS maintainers</li>
+  <li><strong>26.38</strong> What all OSS maintainers have in common?</li>
+  <li><strong>30.49</strong> AI &amp; Open Source</li>
+  <li><strong>36.55</strong> New co-hosts and new formats!</li>
+  <li><strong>40.26</strong> Recipe of the week</li>
+  <li><strong>45.28</strong> Where people can find us?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li>Recipe of the week:
+    <ul>
+      <li>Nicola: <i class="fas fa-link"></i> <a href="https://vowen.ai/">Vowen</a>, a free and fully local alternative to <a href="https://wisprflow.ai/">Wispr Flow</a></li>
+      <li>Marco: <i class="fas fa-link"></i> <a href="https://www.marcogomiero.com/posts/2026/code-review-agents-update/">Code review comments are the rules you forgot to write down</a>, a loop to keep <code class="language-plaintext highlighter-rouge">AGENTS.md</code> up to date from past PR review comments</li>
+      <li>Paolo: <i class="fas fa-link"></i> <a href="https://developer.android.com/tools/agents/android-cli">Android CLI</a>, an alternative to token-hungry MCP servers</li>
+    </ul>
+  </li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/prof18/RSS-Parser">prof18/RSS-Parser on GitHub</a> - 10 years old this June!</li>
+      <li><i class="fas fa-link"></i> <a href="https://www.feedflow.dev/">FeedFlow</a> - Marco’s multiplatform RSS reader</li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/AppIntro/AppIntro">AppIntro/AppIntro on GitHub</a></li>
+      <li><i class="fas fa-microphone-alt"></i> <a href="https://thebakery.dev/52/">#52 - RSS-Parser with Marco Gomiero</a></li>
+    </ul>
+  </li>
+</ul>
+
+<p>Marco:</p>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/prof18">@prof18 on GitHub</a></li>
+  <li><i class="fab fa-x-twitter"></i> <a href="https://x.com/marcoGomier">@marcoGomier on x</a></li>
+  <li><i class="fab fa-mastodon"></i> <a href="https://androiddev.social/@marcogom">@marcogom on Mastodon</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://www.marcogomiero.com">Marco’s Website</a></li>
+</ul>
+
+<p>Paolo:</p>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/paolorotolo">@paolorotolo on GitHub</a></li>
+  <li><i class="fab fa-bluesky"></i> <a href="https://bsky.app/profile/paolo.rotolo.dev">@paolo.rotolo.dev on Bluesky</a></li>
+  <li><i class="fab fa-mastodon"></i> <a href="https://androiddev.social/@paolorotolo">@paolorotolo on Mastodon</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://rotolo.dev">Paolo’s Website</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-x-twitter"></i> <a href="https://x.com/thebakerydev">@thebakerydev on x</a></li>
+  <li><i class="fab fa-x-twitter"></i> <a href="https://x.com/cortinico">@cortinico on x</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/100-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>47:12</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Android MCP SDK with Jason Pearson</title>

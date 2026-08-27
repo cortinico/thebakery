@@ -1,4 +1,87 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2026-08-27T12:54:44+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#99 - Android MCP SDK with Jason Pearson</title><link href="https://thebakery.dev/99/" rel="alternate" type="text/html" title="#99 - Android MCP SDK with Jason Pearson" /><published>2025-07-10T13:00:00+01:00</published><updated>2025-07-10T13:00:00+01:00</updated><id>https://thebakery.dev/099-android-mcp-sdk</id><content type="html" xml:base="https://thebakery.dev/99/"><![CDATA[<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/106DgwxFnz6AZ74HrDaUjE?utm_source=generator&amp;si=f06c2ec9594c41c2" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2026-08-27T13:45:31+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#100 - 99 episodes, and everything I got wrong</title><link href="https://thebakery.dev/100/" rel="alternate" type="text/html" title="#100 - 99 episodes, and everything I got wrong" /><published>2026-08-27T13:00:00+01:00</published><updated>2026-08-27T13:00:00+01:00</updated><id>https://thebakery.dev/100-everything-i-got-wrong</id><content type="html" xml:base="https://thebakery.dev/100/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p><strong>One hundred episodes.</strong> 🎉</p>
+
+<p>When this podcast started back in 2020, as one of those pandemic side projects, I would have never thought we would reach this milestone. Yet here we are, five years later.</p>
+
+<p>To celebrate, we’re turning the format upside down: today I’m the one under the spotlight, and I’m not alone in the bakery. <a href="https://www.marcogomiero.com"><strong>Marco Gomiero</strong></a>, who you might remember from <a href="https://thebakery.dev/52/">episode #52</a>, and <a href="https://rotolo.dev"><strong>Paolo Rotolo</strong></a> are on stage with me, recorded in person here in Berlin, and they get to ask the questions for once.</p>
+
+<p>We talk about how this show came to be, the six months I spent building the infrastructure before recording a single word, why the “one open source project per episode” rule slowly turned into a cage, the episodes I regret, what it’s like to travel the world with a microphone that looks like a bomb on an X-ray, and why I came very close to stopping at 99.</p>
+
+<p>And then we look ahead. From today Marco and Paolo are officially <strong>co-hosts</strong> of this show, and the bakery gets two kinds of episodes: <strong>Deep Dives</strong> with a guest, and <strong>Fresh from the Oven</strong>, where the three of us pick a topic and dig into it. We’re also opening a new segment, the <strong>Recipe of the Week</strong>, where each of us shares a small tool or trick we picked up recently.</p>
+
+<p>Thank you to everyone who listened, shared, and came on stage over these 100 episodes. Here’s to the next batch 🍞</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="chapters">Chapters</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.58</strong> Episode Start</li>
+  <li><strong>03.13</strong> Nico is under the spotlight!</li>
+  <li><strong>05.33</strong> The origin of the bakery</li>
+  <li><strong>08.02</strong> Going too niche?</li>
+  <li><strong>11.57</strong> Evolving this podcast</li>
+  <li><strong>13.09</strong> Regrets and mistakes</li>
+  <li><strong>16.09</strong> Travelling with a microphone</li>
+  <li><strong>19.47</strong> Finding guests</li>
+  <li><strong>21.26</strong> Tales from OSS maintainers</li>
+  <li><strong>26.38</strong> What all OSS maintainers have in common?</li>
+  <li><strong>30.49</strong> AI &amp; Open Source</li>
+  <li><strong>36.55</strong> New co-hosts and new formats!</li>
+  <li><strong>40.26</strong> Recipe of the week</li>
+  <li><strong>45.28</strong> Where people can find us?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li>Recipe of the week:
+    <ul>
+      <li>Nicola: <i class="fas fa-link"></i> <a href="https://vowen.ai/">Vowen</a>, a free and fully local alternative to <a href="https://wisprflow.ai/">Wispr Flow</a></li>
+      <li>Marco: <i class="fas fa-link"></i> <a href="https://www.marcogomiero.com/posts/2026/code-review-agents-update/">Code review comments are the rules you forgot to write down</a>, a loop to keep <code class="language-plaintext highlighter-rouge">AGENTS.md</code> up to date from past PR review comments</li>
+      <li>Paolo: <i class="fas fa-link"></i> <a href="https://developer.android.com/tools/agents/android-cli">Android CLI</a>, an alternative to token-hungry MCP servers</li>
+    </ul>
+  </li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/prof18/RSS-Parser">prof18/RSS-Parser on GitHub</a> - 10 years old this June!</li>
+      <li><i class="fas fa-link"></i> <a href="https://www.feedflow.dev/">FeedFlow</a> - Marco’s multiplatform RSS reader</li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/AppIntro/AppIntro">AppIntro/AppIntro on GitHub</a></li>
+      <li><i class="fas fa-microphone-alt"></i> <a href="https://thebakery.dev/52/">#52 - RSS-Parser with Marco Gomiero</a></li>
+    </ul>
+  </li>
+</ul>
+
+<p>Marco:</p>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/prof18">@prof18 on GitHub</a></li>
+  <li><i class="fab fa-x-twitter"></i> <a href="https://x.com/marcoGomier">@marcoGomier on x</a></li>
+  <li><i class="fab fa-mastodon"></i> <a href="https://androiddev.social/@marcogom">@marcogom on Mastodon</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://www.marcogomiero.com">Marco’s Website</a></li>
+</ul>
+
+<p>Paolo:</p>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/paolorotolo">@paolorotolo on GitHub</a></li>
+  <li><i class="fab fa-bluesky"></i> <a href="https://bsky.app/profile/paolo.rotolo.dev">@paolo.rotolo.dev on Bluesky</a></li>
+  <li><i class="fab fa-mastodon"></i> <a href="https://androiddev.social/@paolorotolo">@paolorotolo on Mastodon</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://rotolo.dev">Paolo’s Website</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-x-twitter"></i> <a href="https://x.com/thebakerydev">@thebakerydev on x</a></li>
+  <li><i class="fab fa-x-twitter"></i> <a href="https://x.com/cortinico">@cortinico on x</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Celebrating 100 episodes of The Developers' Bakery: the story behind the show, the mistakes I made along the way, and a brand new format with two new co-hosts.]]></summary></entry><entry><title type="html">#99 - Android MCP SDK with Jason Pearson</title><link href="https://thebakery.dev/99/" rel="alternate" type="text/html" title="#99 - Android MCP SDK with Jason Pearson" /><published>2025-07-10T13:00:00+01:00</published><updated>2025-07-10T13:00:00+01:00</updated><id>https://thebakery.dev/099-android-mcp-sdk</id><content type="html" xml:base="https://thebakery.dev/99/"><![CDATA[<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/106DgwxFnz6AZ74HrDaUjE?utm_source=generator&amp;si=f06c2ec9594c41c2" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <p>Today we venture in the world of AI with <a href="https://twitter.com/kaeawc"><strong>Jason Pearson</strong></a> and the <a href="https://github.com/kaeawc/android-mcp-sdk"><strong>Android MCP</strong> (Model Context Protocol) <strong>SDK</strong></a>, a new library that allows Android developers to build apps that can communicate with AI models more effectively.</p>
 
@@ -533,57 +616,4 @@ Aakansha will tell us the story of Excalidraw, how it evolved over time, and its
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Canvas drawing with Excalidraw and Aakansha Doshi]]></summary></entry><entry><title type="html">#90 - Chucker with Nicola Corti</title><link href="https://thebakery.dev/90/" rel="alternate" type="text/html" title="#90 - Chucker with Nicola Corti" /><published>2024-10-17T13:00:00+01:00</published><updated>2024-10-17T13:00:00+01:00</updated><id>https://thebakery.dev/090-chucker</id><content type="html" xml:base="https://thebakery.dev/90/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/4gRy43v9Ob98dnZUjkuT9u?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<p>It’s time for another special episode, 90!</p>
-
-<p>Together with our own Nicola, we’re diving into the world of <a href="https://github.com/ChuckerTeam/chucker"><strong>Chucker</strong></a>, an open-source library that helps you debug network requests in Android.</p>
-
-<p>With Chucker you can simply inspect the HTTP and GraphQL requests and responses, visualize the body such as JSON or images, and even export them to share with your team.</p>
-
-<p>Nicola will tell us the story of how this library was born, how it evolved over time, and how you can use it in your projects.</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.00</strong> Intro</li>
-  <li><strong>00.46</strong> Episode Start</li>
-  <li><strong>01.38</strong> What is Chucker?</li>
-  <li><strong>04.13</strong> Installing Chucker</li>
-  <li><strong>06.51</strong> Chucker features</li>
-  <li><strong>13.44</strong> v4</li>
-  <li><strong>17.03</strong> Crash reporting?</li>
-  <li><strong>19.51</strong> Configuring Chucker</li>
-  <li><strong>22.34</strong> From Chuck to Chucker</li>
-  <li><strong>33.04</strong> Use Chucker to catch-em-all!</li>
-  <li><strong>34.14</strong> Supporting Chucker</li>
-  <li><strong>37.22</strong> Further reading</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/ChuckerTeam/chucker">ChuckerTeam/chucker on GitHub</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev/">TheBakery Official Website</a></li>
-  <li>Mentioned Resources
-    <ul>
-      <li><i class="fab fa-youtube"></i> Use Chucker to Catch ‘Em All - <a href="https://www.droidcon.com/2023/08/01/use-chucker-to-catch-em-all/">Video from Droidcon Berlin</a></li>
-      <li><i class="fab fa-medium"></i> <a href="https://engineering.teknasyon.com/debugging-network-requests-in-android-with-chucker-a-comprehensive-guide-9a1251c54e9e">Debugging Network Requests in Android with Chucker: A Comprehensive Guide</a></li>
-    </ul>
-  </li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/cortinico">@cortinico on GitHub</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Inspecting network requests in Android with Chucker and Nicola Corti]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Canvas drawing with Excalidraw and Aakansha Doshi]]></summary></entry></feed>
