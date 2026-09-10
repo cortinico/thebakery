@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Thu, 27 Aug 2026 13:45:31 +0100</lastBuildDate>
+<lastBuildDate>Thu, 10 Sep 2026 18:39:31 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,88 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Making coding agents your own with Iury Souza</title>
+        <itunes:title>Making coding agents your own with Iury Souza</itunes:title>
+        <link>https://thebakery.dev/101/</link>
+        <pubDate>Thu, 10 Sep 2026 13:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/101/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>101</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/101-thedevelopersbakery-making-coding-agents-your-own.m4a" length="9242383" type="audio/x-m4a" />
+
+        <itunes:subtitle>Custom harnesses, local models, and better ways to collaborate with coding agents</itunes:subtitle>
+        <itunes:summary>Iury Souza shares how he customizes coding agents with OpenCode and Pi, keeps his setup portable, experiments with local models, and uses visual feedback to stay in the loop.</itunes:summary>
+
+        
+        <description>
+            <![CDATA[How much of your coding agent can you make your own? Today we’re recording in person during the GDE Summit, with Iury Souza, a mobile developer and platform engineer who loves tinkering with his dev tools. Iury takes us through his agentic development setup with OpenCode and Pi, from choosing...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>How much of your coding agent can you make your own? Today we’re recording <strong>in person</strong> during the GDE Summit, with <a href="https://iurysouza.dev/"><strong>Iury Souza</strong></a>, a mobile developer and platform engineer who loves tinkering with his dev tools.</p>
+
+<p>Iury takes us through his agentic development setup with <a href="https://opencode.ai/"><strong>OpenCode</strong></a> and <a href="https://pi.dev/"><strong>Pi</strong></a>, from choosing models for planning and implementation to teaching an agent to build its own extensions. We explore what a harness actually does, how skills and <code class="language-plaintext highlighter-rouge">AGENTS.md</code> shape the context a model sees, and why sharing your perfect setup can be just as tricky as sharing your dotfiles.</p>
+
+<p>We also talk about the future of terminal interfaces, the reality of running local models on a laptop, and how to keep up when agents produce more work than you can comfortably review. Iury shares his experiments with annotated plans and his open-source <a href="https://github.com/iurysza/visual-artifact-renderer">Visual Artifact Renderer</a>, which turns agent output into visual explanations, code reviews, and dashboards.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.46</strong> Episode Start</li>
+  <li><strong>01.09</strong> Yuri’s Introduction</li>
+  <li><strong>02.00</strong> What is your AI stack?</li>
+  <li><strong>04.05</strong> Building your own harness</li>
+  <li><strong>05.57</strong> The first thing you change in your harness</li>
+  <li><strong>07.45</strong> Sharing your harness customization</li>
+  <li><strong>10.29</strong> Using Graphical IDEs with AI?</li>
+  <li><strong>12.32</strong> Local models</li>
+  <li><strong>15.46</strong> What’s next for agentic development?</li>
+  <li><strong>19.00</strong> Yuri’s favorite creators</li>
+  <li><strong>20.25</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://opencode.ai/">OpenCode</a> - Iury’s main coding harness</li>
+  <li><i class="fas fa-link"></i> <a href="https://pi.dev/">Pi</a> - the extensible coding agent behind his experiments</li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/iurysza/visual-artifact-renderer">Visual Artifact Renderer on GitHub</a> - Iury’s tool for visual explanations, reviews, and dashboards</li>
+  <li><i class="fas fa-link"></i> <a href="https://iurysouza.dev/my-agentic-coding-workflow-26q1/">My 26-Q1 Agentic Coding Workflow</a> - more background on Iury’s setup</li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/iurysza">@iurysza on GitHub</a></li>
+  <li><i class="fab fa-x-twitter"></i> <a href="https://x.com/iurysza">@iurysza on x</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://iurysouza.dev/">Iury’s Website</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/101-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>21:29</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>99 episodes, and everything I got wrong</title>

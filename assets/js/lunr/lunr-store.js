@@ -604,4 +604,10 @@ var store = [{
         "tags": [],
         "url": "/100/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#101 - Making coding agents your own with Iury Souza",
+        "excerpt":"How much of your coding agent can you make your own? Today we’re recording in person during the GDE Summit, with Iury Souza, a mobile developer and platform engineer who loves tinkering with his dev tools. Iury takes us through his agentic development setup with OpenCode and Pi, from choosing...","categories": [],
+        "tags": [],
+        "url": "/101/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]
