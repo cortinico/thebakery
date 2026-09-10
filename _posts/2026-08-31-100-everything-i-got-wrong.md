@@ -24,7 +24,7 @@ podcast_duration: "47:12"
 podcast_length: 18914034
 ---
 
-<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/6FtrpXW7hGozmRllt8Ylbf?utm_source=generator&si=dab5ef83eb604714" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 **One hundred episodes.** 🎉
 
