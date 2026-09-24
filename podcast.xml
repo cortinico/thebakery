@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Mon, 21 Sep 2026 14:45:59 +0100</lastBuildDate>
+<lastBuildDate>Thu, 24 Sep 2026 11:50:24 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,123 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Difftray and the agentic code review loop</title>
+        <itunes:title>Difftray and the agentic code review loop</itunes:title>
+        <link>https://thebakery.dev/102/</link>
+        <pubDate>Tue, 22 Sep 2026 13:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/102/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>102</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/102-thedevelopersbakery-difftray.m4a" length="20012902" type="audio/x-m4a" />
+
+        <itunes:subtitle>Review agent-written code, tracks changes across iterations, and keeps his development workflow moving from anywhere with DiffTray</itunes:subtitle>
+        <itunes:summary>Marco Gomiero takes us through his agentic development setup and Difftray, the local-first review app he built to track changing diffs, send feedback to coding agents, and review code remotely.</itunes:summary>
+
+        
+        <description>
+            <![CDATA[When coding agents can produce changes faster than you can inspect them, what does a useful code review look like? In this Fresh from the Oven episode, Marco walks us through his agentic development setup. He explains how he reviews plans and architecture before implementation, how he uses fresh contexts...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>When coding agents can produce changes faster than you can inspect them, what does a useful code review look like?</p>
+
+<p>In this <em>Fresh from the Oven</em> episode, <a href="https://www.marcogomiero.com"><strong>Marco</strong></a> walks us through his agentic development setup. He explains how he reviews plans and architecture before implementation, how he uses fresh contexts and different models to review generated code, and why the signals he looks for are changing as code becomes a commodity.</p>
+
+<p>The core of the conversation is <a href="https://difftray.app/"><strong>Difftray</strong></a>, Marco’s local-first review desk for Git changes. Marco built it after repeatedly losing track of files that an agent had changed after his first pass.</p>
+
+<p>Difftray remembers which files were reviewed, flags them when their diffs drift, and turns inline review comments into a prompt that can be sent back to the agent.</p>
+
+<p>We also explore Marco’s remote workflow: HTML plans in Obsidian, Codex and Claude Code running on his Mac Studio, Difftray Companion on his phone, Tailscale for private remote access, and plenty of Git worktrees for parallel agents.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.59</strong> Episode Start</li>
+  <li><strong>01.43</strong> Do we still review agent-written code?</li>
+  <li><strong>06.01</strong> From prompt to code review</li>
+  <li><strong>09.08</strong> Marco’s models and coding agents</li>
+  <li><strong>11.27</strong> Planning with agents</li>
+  <li><strong>15.36</strong> Why Marco built Difftray</li>
+  <li><strong>20.04</strong> Turning review comments into prompts</li>
+  <li><strong>24.42</strong> Reviewing code from a phone</li>
+  <li><strong>28.36</strong> Marco’s remote agentic setup</li>
+  <li><strong>32.03</strong> Parallel agents and Git worktrees</li>
+  <li><strong>34.41</strong> Bringing agent reviews into Difftray</li>
+  <li><strong>36.43</strong> Do developers still need an IDE?</li>
+  <li><strong>42.06</strong> FOSDEM 2027</li>
+  <li><strong>44.26</strong> Recipe of the Week</li>
+  <li><strong>48.44</strong> Closing</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://difftray.app/">Difftray</a> - Marco’s local-first review desk for Git changes</li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/prof18/difftray">Difftray on GitHub</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/prof18/html-shelf">HTML Shelf on GitHub</a> - Marco’s Obsidian plugin for browsing HTML plans on desktop and mobile</li>
+  <li><i class="fas fa-link"></i> <a href="https://obsidian.md/">Obsidian</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://tailscale.com/">Tailscale</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://opencode.ai/">OpenCode</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://fosdem.org/2027/">FOSDEM 2027</a></li>
+  <li>Recipe of the Week:
+    <ul>
+      <li>Marco: <i class="fab fa-github"></i> <a href="https://github.com/tt-a1i/archify">Archify</a></li>
+      <li>Nicola: <i class="fas fa-link"></i> <a href="https://zencastr.com/home">Zencastr</a></li>
+      <li>Paolo: <i class="fas fa-link"></i> <a href="https://docs.github.com/en/pull-requests/how-tos/stacked-pull-requests">GitHub stacked pull requests</a></li>
+    </ul>
+  </li>
+</ul>
+
+<p>Marco:</p>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/prof18">@prof18 on GitHub</a></li>
+  <li><i class="fab fa-x-twitter"></i> <a href="https://x.com/marcoGomier">@marcoGomier on X</a></li>
+</ul>
+
+<p>Paolo:</p>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/paolorotolo">@paolorotolo on GitHub</a></li>
+  <li><i class="fab fa-x-twitter"></i> <a href="https://x.com/paolorotolo">@paolorotolo on X</a></li>
+</ul>
+
+<p>Nicola:</p>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/cortinico">@cortinico on GitHub</a></li>
+  <li><i class="fab fa-x-twitter"></i> <a href="https://x.com/cortinico">@cortinico on X</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-x-twitter"></i> <a href="https://x.com/thebakerydev">@thebakerydev on X</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/102-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>49:29</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Making coding agents your own with Iury Souza</title>

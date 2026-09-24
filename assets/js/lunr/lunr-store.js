@@ -610,4 +610,10 @@ var store = [{
         "tags": [],
         "url": "/101/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#102 - Difftray and the agentic code review loop",
+        "excerpt":"When coding agents can produce changes faster than you can inspect them, what does a useful code review look like? In this Fresh from the Oven episode, Marco walks us through his agentic development setup. He explains how he reviews plans and architecture before implementation, how he uses fresh contexts...","categories": [],
+        "tags": [],
+        "url": "/102/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

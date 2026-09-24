@@ -1,4 +1,87 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2026-09-21T14:45:59+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#101 - Making coding agents your own with Iury Souza</title><link href="https://thebakery.dev/101/" rel="alternate" type="text/html" title="#101 - Making coding agents your own with Iury Souza" /><published>2026-09-10T13:00:00+01:00</published><updated>2026-09-10T13:00:00+01:00</updated><id>https://thebakery.dev/101-making-coding-agents-your-own</id><content type="html" xml:base="https://thebakery.dev/101/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2026-09-24T11:50:24+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#102 - Difftray and the agentic code review loop</title><link href="https://thebakery.dev/102/" rel="alternate" type="text/html" title="#102 - Difftray and the agentic code review loop" /><published>2026-09-22T13:00:00+01:00</published><updated>2026-09-22T13:00:00+01:00</updated><id>https://thebakery.dev/102-reviewing-agent-written-code-with-difftray</id><content type="html" xml:base="https://thebakery.dev/102/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>When coding agents can produce changes faster than you can inspect them, what does a useful code review look like?</p>
+
+<p>In this <em>Fresh from the Oven</em> episode, <a href="https://www.marcogomiero.com"><strong>Marco</strong></a> walks us through his agentic development setup. He explains how he reviews plans and architecture before implementation, how he uses fresh contexts and different models to review generated code, and why the signals he looks for are changing as code becomes a commodity.</p>
+
+<p>The core of the conversation is <a href="https://difftray.app/"><strong>Difftray</strong></a>, Marco’s local-first review desk for Git changes. Marco built it after repeatedly losing track of files that an agent had changed after his first pass.</p>
+
+<p>Difftray remembers which files were reviewed, flags them when their diffs drift, and turns inline review comments into a prompt that can be sent back to the agent.</p>
+
+<p>We also explore Marco’s remote workflow: HTML plans in Obsidian, Codex and Claude Code running on his Mac Studio, Difftray Companion on his phone, Tailscale for private remote access, and plenty of Git worktrees for parallel agents.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.59</strong> Episode Start</li>
+  <li><strong>01.43</strong> Do we still review agent-written code?</li>
+  <li><strong>06.01</strong> From prompt to code review</li>
+  <li><strong>09.08</strong> Marco’s models and coding agents</li>
+  <li><strong>11.27</strong> Planning with agents</li>
+  <li><strong>15.36</strong> Why Marco built Difftray</li>
+  <li><strong>20.04</strong> Turning review comments into prompts</li>
+  <li><strong>24.42</strong> Reviewing code from a phone</li>
+  <li><strong>28.36</strong> Marco’s remote agentic setup</li>
+  <li><strong>32.03</strong> Parallel agents and Git worktrees</li>
+  <li><strong>34.41</strong> Bringing agent reviews into Difftray</li>
+  <li><strong>36.43</strong> Do developers still need an IDE?</li>
+  <li><strong>42.06</strong> FOSDEM 2027</li>
+  <li><strong>44.26</strong> Recipe of the Week</li>
+  <li><strong>48.44</strong> Closing</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://difftray.app/">Difftray</a> - Marco’s local-first review desk for Git changes</li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/prof18/difftray">Difftray on GitHub</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/prof18/html-shelf">HTML Shelf on GitHub</a> - Marco’s Obsidian plugin for browsing HTML plans on desktop and mobile</li>
+  <li><i class="fas fa-link"></i> <a href="https://obsidian.md/">Obsidian</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://tailscale.com/">Tailscale</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://opencode.ai/">OpenCode</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://fosdem.org/2027/">FOSDEM 2027</a></li>
+  <li>Recipe of the Week:
+    <ul>
+      <li>Marco: <i class="fab fa-github"></i> <a href="https://github.com/tt-a1i/archify">Archify</a></li>
+      <li>Nicola: <i class="fas fa-link"></i> <a href="https://zencastr.com/home">Zencastr</a></li>
+      <li>Paolo: <i class="fas fa-link"></i> <a href="https://docs.github.com/en/pull-requests/how-tos/stacked-pull-requests">GitHub stacked pull requests</a></li>
+    </ul>
+  </li>
+</ul>
+
+<p>Marco:</p>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/prof18">@prof18 on GitHub</a></li>
+  <li><i class="fab fa-x-twitter"></i> <a href="https://x.com/marcoGomier">@marcoGomier on X</a></li>
+</ul>
+
+<p>Paolo:</p>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/paolorotolo">@paolorotolo on GitHub</a></li>
+  <li><i class="fab fa-x-twitter"></i> <a href="https://x.com/paolorotolo">@paolorotolo on X</a></li>
+</ul>
+
+<p>Nicola:</p>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/cortinico">@cortinico on GitHub</a></li>
+  <li><i class="fab fa-x-twitter"></i> <a href="https://x.com/cortinico">@cortinico on X</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-x-twitter"></i> <a href="https://x.com/thebakerydev">@thebakerydev on X</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Marco Gomiero takes us through his agentic development setup and Difftray, the local-first review app he built to track changing diffs, send feedback to coding agents, and review code remotely.]]></summary></entry><entry><title type="html">#101 - Making coding agents your own with Iury Souza</title><link href="https://thebakery.dev/101/" rel="alternate" type="text/html" title="#101 - Making coding agents your own with Iury Souza" /><published>2026-09-10T13:00:00+01:00</published><updated>2026-09-10T13:00:00+01:00</updated><id>https://thebakery.dev/101-making-coding-agents-your-own</id><content type="html" xml:base="https://thebakery.dev/101/"><![CDATA[<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/6Aoe3umg8hLuP02bsqNdIV?utm_source=generator&amp;si=bf35f011e6cb4a87" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <p>How much of your coding agent can you make your own? Today we’re recording <strong>in person</strong> during the GDE Summit, with <a href="https://iurysouza.dev/"><strong>Iury Souza</strong></a>, a mobile developer and platform engineer who loves tinkering with his dev tools.</p>
 
@@ -545,60 +628,4 @@ when to use it, and how to contribute to the project.</p>
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Generating Kotlin code like an pro with with KotlinPoet and Egor Andreevich]]></summary></entry><entry><title type="html">#92 - Daytona with Ivan Burazin</title><link href="https://thebakery.dev/92/" rel="alternate" type="text/html" title="#92 - Daytona with Ivan Burazin" /><published>2024-12-23T12:00:00+00:00</published><updated>2024-12-23T12:00:00+00:00</updated><id>https://thebakery.dev/092-daytona</id><content type="html" xml:base="https://thebakery.dev/92/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-
-<p>We’re back with another episode about developer tools! Today, we’re diving into <a href="https://www.daytona.io/"><strong>Daytona</strong></a> 🚀, a self-hosted and secure open source <strong>development environment manager</strong>.</p>
-
-<p>I’m thrilled to have on stage <a href="https://x.com/ivanburazin"><strong>Ivan Burazin</strong></a>, CEO and co-founder of Daytona, to tell us more about this project.</p>
-
-<p>Do you recall how much time it takes you to have your development environment ready? Think about how many hours you spend setting up your machine, installing dependencies, and configuring your IDE. Daytona aims to solve exactly this problem by providing a development environment that can get you up to speed in seconds!</p>
-
-<p>In addition, Ivan will walk us through the story of Daytona: how it started and what’s next for this tool.</p>
-
-<p>Ivan also has a lot of experience in conference organization. In this episode, we’ll touch on what he learned from creating tech conferences and how that skills helped him build Daytona today.</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.00</strong> Intro</li>
-  <li><strong>00.46</strong> Episode Start</li>
-  <li><strong>01.22</strong> Ivan’s Introduction</li>
-  <li><strong>02.43</strong> What is Daytona?</li>
-  <li><strong>04.20</strong> How developers would use Daytona?</li>
-  <li><strong>06.46</strong> Running Daytona</li>
-  <li><strong>10.55</strong> Browser based IDEs vs Daytona</li>
-  <li><strong>12.03</strong> Accessing shared environments</li>
-  <li><strong>14.27</strong> Using Daytona with Open Source projects</li>
-  <li><strong>17.53</strong> Pricing</li>
-  <li><strong>21.02</strong> Who’s funding Daytona?</li>
-  <li><strong>24.04</strong> The story of Daytona</li>
-  <li><strong>29.51</strong> From organizing conferences to building tools</li>
-  <li><strong>33.57</strong> The hardest part of organizing a conference</li>
-  <li><strong>39.51</strong> What’s next for Daytona?</li>
-  <li><strong>45.31</strong> Further reading</li>
-  <li><strong>46.48</strong> Where people can find you online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/daytonaio/daytona">daytonaio/daytona on GitHub</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://daytona.io">Daytona Official Website</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://www.daytona.io/dotfiles/">Daytona Dotfiles Insiders</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/ivanburazin">@ivanburazin on Twitter</a></li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/ivan-burazin">@ivan-burazin on GitHub</a></li>
-  <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/ivanburazin/">Ivan Burazin on LinkedIn</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Managing and sharing your development environment with Daytona and Ivan Burazin]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Generating Kotlin code like an pro with with KotlinPoet and Egor Andreevich]]></summary></entry></feed>
