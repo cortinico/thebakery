@@ -29,6 +29,7 @@ yarn attach-audio -n 100 -a ep100.m4a                   # fills podcast_length/d
 yarn create-artwork -n 100 -i guest-photo.jpg           # -> ../assets/images/episodes/100-{cover,og}.png
 yarn create-artwork -n 100 -i https://host/photo.jpg    # -i also takes an http(s) URL
 yarn create-artwork -n 100                              # no -i: guest slot left empty
+yarn create-artwork -n 102 --host-episode               # Nicola, Marco and Paolo host stack
 yarn create-artwork -n 100 --no-og                      # just the square cover
 yarn create-artwork -n 100 --og-only --no-link          # just the wide one, without touching the post
 yarn backfill-artwork --dry-run     # report the GitHub account each episode resolves to, write nothing

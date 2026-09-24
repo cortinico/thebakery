@@ -25,7 +25,7 @@ podcast_duration: "21:29"
 podcast_length: 9242383
 ---
 
-<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/6Aoe3umg8hLuP02bsqNdIV?utm_source=generator&si=bf35f011e6cb4a87" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 How much of your coding agent can you make your own? Today we're recording **in person** during the GDE Summit, with [**Iury Souza**](https://iurysouza.dev/), a mobile developer and platform engineer who loves tinkering with his dev tools.
 

@@ -67,6 +67,13 @@ export interface CoverImage {
   encoded: string;
 }
 
+export interface PositionedHeadshot {
+  image: CoverImage;
+  x: number;
+  y: number;
+  radius: number;
+}
+
 export interface EpisodeTitle {
   title: string;
   guest?: string;
@@ -268,6 +275,34 @@ function setPhoto(svg: string, id: string, template: string, cover?: CoverImage)
   );
 }
 
+function addHeadshots(svg: string, headshots: PositionedHeadshot[]): string {
+  if (!headshots.length) {
+    return svg;
+  }
+
+  // The first host is the lead host. Draw the array back-to-front so the first
+  // portrait sits above the others where the circular frames overlap.
+  const stack = headshots
+    .map((headshot, index) => ({ ...headshot, index }))
+    .reverse()
+    .map(({ image, x, y, radius, index }) => {
+      const clipId = `headshot-${index}`;
+      const size = radius * 2;
+      return `<g>` +
+        `<defs><clipPath id="${clipId}" clipPathUnits="userSpaceOnUse">` +
+        `<circle cx="${x}" cy="${y}" r="${radius}"/></clipPath></defs>` +
+        `<image x="${x - radius}" y="${y - radius}" width="${size}" height="${size}" ` +
+        `xlink:href="data:${image.mimeType};base64,${image.encoded}" ` +
+        `preserveAspectRatio="xMidYMid slice" clip-path="url(#${clipId})"/>` +
+        `<circle cx="${x}" cy="${y}" r="${radius}" fill="none" stroke="#fed46d" stroke-width="2.2"/>` +
+        `<circle cx="${x}" cy="${y}" r="${radius + 1.1}" fill="none" stroke="#45413c" stroke-width="0.7"/>` +
+        `</g>`;
+    })
+    .join('');
+
+  return svg.replace('</svg>', `${stack}</svg>`);
+}
+
 function setText(svg: string, id: string, template: string, content: string): string {
   const tspan = new RegExp(`(<tspan[^>]*id="${id}"[^>]*>)[^<]*(</tspan>)`);
   if (!tspan.test(svg)) {
@@ -385,7 +420,7 @@ function fitBlock(episode: EpisodeTitle, width: number, height: number): Block {
   return { ...fallback, fits: false };
 }
 
-export function renderOg(template: string, number: number, episode: EpisodeTitle, cover?: CoverImage): { png: Buffer; layout: OgArtwork } {
+export function renderOg(template: string, number: number, episode: EpisodeTitle, cover?: CoverImage, hosts: CoverImage[] = []): { png: Buffer; layout: OgArtwork } {
   let svg = fs.readFileSync(template, 'utf8');
 
   const bandHeight = OG_BAND_BOTTOM - OG_BAND_TOP;
@@ -410,6 +445,14 @@ export function renderOg(template: string, number: number, episode: EpisodeTitle
 
   svg = setText(svg, OG_NUMBER, template, `#${episodeId(number)}`);
   svg = setPhoto(svg, OG_PHOTO, template, cover);
+  svg = addHeadshots(svg, hosts.map((image, index) => ({
+    image,
+    x: 116.5,
+    // A compact vertical friend stack with equal outer padding. Adjacent
+    // portraits overlap by 3.5 units, while the lead host remains on top.
+    y: 19.25 + index * 17.5,
+    radius: 10.5,
+  })));
 
   return { png: renderPng(svg, OG_WIDTH, template), layout: { title, guest, fits: block.fits } };
 }
@@ -446,9 +489,16 @@ export function linkOgImage(number: number): { episodePath: string; changed: boo
   return { episodePath, changed: true };
 }
 
-export function renderCover(template: string, number: number, cover?: CoverImage): Buffer {
+export function renderCover(template: string, number: number, cover?: CoverImage, hosts: CoverImage[] = []): Buffer {
   let svg = fs.readFileSync(template, 'utf8');
   svg = setText(svg, COVER_NUMBER, template, `#${episodeId(number)}`);
   svg = setPhoto(svg, COVER_PHOTO, template, cover);
+  svg = addHeadshots(svg, hosts.map((image, index) => ({
+    image,
+    x: 91 + index * 14,
+    // The outer frame ends on the episode-number baseline at y=133.137.
+    y: 122.237,
+    radius: 9.8,
+  })));
   return renderPng(svg, COVER_WIDTH, template);
 }
