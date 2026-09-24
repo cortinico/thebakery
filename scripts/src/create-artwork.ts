@@ -26,6 +26,7 @@ program
   .option('-p, --project <string>', 'Project of the episode, defaults to the title of the episode post')
   .option('-g, --guest <string>', 'Guest of the episode, defaults to the title of the episode post')
   .option('-t, --title <string>', 'Title of the episode, as an alternative to --project and --guest')
+  .option('--host-episode', 'Use the three-host episode artwork layout')
   .option('--no-og', 'Only render the square cover')
   .option('--og-only', 'Only render the open graph artwork')
   .option('--no-link', 'Do not point the episode post at the open graph artwork')
@@ -34,7 +35,13 @@ program
 program.parse(process.argv);
 
 const options = program.opts();
-const { number, image, project, guest, title, og, ogOnly, link, output } = options;
+const { number, image, project, guest, title, hostEpisode, og, ogOnly, link, output } = options;
+
+const FRESH_FROM_OVEN_HOSTS = [
+  { name: 'Nicola', source: 'https://github.com/cortinico.png?size=512' },
+  { name: 'Marco', source: 'https://github.com/prof18.png?size=512' },
+  { name: 'Paolo', source: 'https://github.com/paolorotolo.png?size=512' },
+];
 
 function info(msg: string, emoji = 'ℹ️') {
   console.log(`${emoji}\t${msg}`);
@@ -84,6 +91,9 @@ async function main() {
     if (ogOnly && !og) {
       error('Pass either --og-only or --no-og, not both.');
     }
+    if (hostEpisode && image) {
+      error('Pass either --host-episode or --image, not both.');
+    }
 
     const wantsCover = !ogOnly;
     const wantsOg = og;
@@ -98,19 +108,25 @@ async function main() {
       info(`Loading ${image}...`, '🌍');
     }
     const cover: CoverImage | undefined = image ? await loadImage(image) : undefined;
-    if (!cover) {
+    const hosts = hostEpisode
+      ? await Promise.all(FRESH_FROM_OVEN_HOSTS.map(async ({ name, source }) => {
+          info(`Loading ${name}'s GitHub avatar...`, '🌍');
+          return loadImage(source);
+        }))
+      : [];
+    if (!cover && !hosts.length) {
       warn('No image provided, the guest slot will be left empty.');
     }
 
     if (wantsCover) {
       const target = output ?? artworkPath(number, 'cover');
-      fs.writeFileSync(target, renderCover(COVER_TEMPLATE, number, cover));
+      fs.writeFileSync(target, renderCover(COVER_TEMPLATE, number, cover, hosts));
       info(`Cover: ${target} (1200x1200)`);
     }
 
     if (wantsOg) {
       const episode = resolveTitle();
-      const { png, layout } = renderOg(OG_TEMPLATE, number, episode, cover);
+      const { png, layout } = renderOg(OG_TEMPLATE, number, episode, cover, hosts);
       const target = artworkPath(number, 'og');
       fs.writeFileSync(target, png);
 
@@ -132,7 +148,7 @@ async function main() {
     }
 
     info(`Episode number: #${episodeId(number)}`);
-    info(`Cover image: ${image ?? 'none'}`);
+    info(`Cover image: ${hostEpisode ? 'episode hosts' : image ?? 'none'}`);
 
     succ(`Artwork created successfully for episode #${episodeId(number)}`);
   } catch (err) {
