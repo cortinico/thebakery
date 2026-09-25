@@ -12,7 +12,7 @@ header:
   overlay_filter: "0.6"
   og_image: "/assets/images/episodes/102-og.png"
 
-date: 2026-09-22 12:00:00 +0000
+date: 2026-09-24 12:00:00 +0000
 permalink: /102/
 redirect_from:
 - /102/reviewing-agent-written-code-with-difftray/
