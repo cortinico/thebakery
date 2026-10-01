@@ -616,4 +616,10 @@ var store = [{
         "tags": [],
         "url": "/102/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#103 - Building developer conferences with Greg Fawson",
+        "excerpt":"What does it take to build a developer conference that still feels like it belongs to its community? Today we record in person in Berlin, with Greg Fawson, CEO of droidcon Global. Greg is going to share what happens behind the scenes of bit tech conferences: how droidcon grew from...","categories": [],
+        "tags": [],
+        "url": "/103/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Fri, 25 Sep 2026 23:14:49 +0100</lastBuildDate>
+<lastBuildDate>Thu, 01 Oct 2026 13:49:16 +0100</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,100 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Building developer conferences with Greg Fawson</title>
+        <itunes:title>Building developer conferences with Greg Fawson</itunes:title>
+        <link>https://thebakery.dev/103/</link>
+        <pubDate>Thu, 01 Oct 2026 13:00:00 +0100</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/103/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>103</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/103-thedevelopersbakery-building-developer-conferences.m4a" length="21779278" type="audio/x-m4a" />
+
+        <itunes:subtitle>The community, logistics, mistakes, and changing economics behind developer conferences</itunes:subtitle>
+        <itunes:summary>droidcon Global CEO Greg Fawson shares how developer conferences are built, how their communities changed after COVID, what AI means for talks and ticket sales, and how next.app DevCon is bringing the mobile ecosystems together.</itunes:summary>
+
+        
+        <description>
+            <![CDATA[What does it take to build a developer conference that still feels like it belongs to its community? Today we record in person in Berlin, with Greg Fawson, CEO of droidcon Global. Greg is going to share what happens behind the scenes of bit tech conferences: how droidcon grew from...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>What does it take to build a developer conference that still feels like it belongs to its community?</p>
+
+<p>Today we record in person in Berlin, with <a href="https://www.linkedin.com/in/gregfawson"><strong>Greg Fawson</strong></a>, CEO of <a href="https://www.droidcon.com/"><strong>droidcon Global</strong></a>. Greg is going to share what happens behind the scenes of bit tech conferences: how droidcon grew from a 200-person gathering in 2009 into a global conference series, and why balancing attendees, speakers, sponsors, venues, and logistics is a constant juggling act.</p>
+
+<p>We revisit the post-COVID decline of local meetups, a New York venue whose jet-fuel-powered air conditioning turned into a <em>wind tunnel</em> 🍃, and the ways Android’s evolution changed conference agendas. Greg also describes how AI is affecting talk submissions, session selection, company travel budgets, and the value of meeting other developers in person.</p>
+
+<p>Finally, we look ahead to <a href="https://www.nextappcon.com/"><strong>next.app DevCon</strong></a>, which brings Android, Flutter, iOS, React Native, mobile security, XR, mobile games, and agentic coding together while preserving dedicated spaces for each community.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>01.09</strong> Episode Start</li>
+  <li><strong>01.38</strong> The hardest part of building a developer conference</li>
+  <li><strong>04.59</strong> How droidcon started</li>
+  <li><strong>08.58</strong> droidcon today</li>
+  <li><strong>12.02</strong> COVID’s impact on developer communities</li>
+  <li><strong>15.07</strong> Conference mistakes and the New York wind tunnel</li>
+  <li><strong>21.52</strong> How droidcon and Android changed</li>
+  <li><strong>25.46</strong> How AI is changing conference talks</li>
+  <li><strong>28.22</strong> Reviewing AI-generated talk submissions</li>
+  <li><strong>31.58</strong> AI, ticket sales, and the value of meeting in person</li>
+  <li><strong>38.38</strong> Building next.app DevCon</li>
+  <li><strong>44.15</strong> Cross-pollination across mobile communities</li>
+  <li><strong>50.05</strong> Advice for new conference organizers</li>
+  <li><strong>52.16</strong> Where to find Greg online</li>
+  <li><strong>53.06</strong> Closing</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://www.droidcon.com/">droidcon Global</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://www.nextappcon.com/">next.app DevCon</a></li>
+  <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/gregfawson">Greg Fawson on LinkedIn</a></li>
+</ul>
+
+<p>Hosts:</p>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/cortinico">@cortinico on GitHub</a></li>
+  <li><i class="fab fa-x-twitter"></i> <a href="https://x.com/cortinico">@cortinico on X</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/prof18">@prof18 on GitHub</a></li>
+  <li><i class="fab fa-x-twitter"></i> <a href="https://x.com/marcoGomier">@marcoGomier on X</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/paolorotolo">@paolorotolo on GitHub</a></li>
+  <li><i class="fab fa-x-twitter"></i> <a href="https://x.com/paolorotolo">@paolorotolo on X</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-x-twitter"></i> <a href="https://x.com/thebakerydev">@thebakerydev on X</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/103-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>53:38</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Difftray and the agentic code review loop</title>

@@ -1,4 +1,64 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2026-09-25T23:14:49+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#102 - Difftray and the agentic code review loop</title><link href="https://thebakery.dev/102/" rel="alternate" type="text/html" title="#102 - Difftray and the agentic code review loop" /><published>2026-09-24T13:00:00+01:00</published><updated>2026-09-24T13:00:00+01:00</updated><id>https://thebakery.dev/102-reviewing-agent-written-code-with-difftray</id><content type="html" xml:base="https://thebakery.dev/102/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2026-10-01T13:49:16+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#103 - Building developer conferences with Greg Fawson</title><link href="https://thebakery.dev/103/" rel="alternate" type="text/html" title="#103 - Building developer conferences with Greg Fawson" /><published>2026-10-01T13:00:00+01:00</published><updated>2026-10-01T13:00:00+01:00</updated><id>https://thebakery.dev/103-building-developer-conferences</id><content type="html" xml:base="https://thebakery.dev/103/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>What does it take to build a developer conference that still feels like it belongs to its community?</p>
+
+<p>Today we record in person in Berlin, with <a href="https://www.linkedin.com/in/gregfawson"><strong>Greg Fawson</strong></a>, CEO of <a href="https://www.droidcon.com/"><strong>droidcon Global</strong></a>. Greg is going to share what happens behind the scenes of bit tech conferences: how droidcon grew from a 200-person gathering in 2009 into a global conference series, and why balancing attendees, speakers, sponsors, venues, and logistics is a constant juggling act.</p>
+
+<p>We revisit the post-COVID decline of local meetups, a New York venue whose jet-fuel-powered air conditioning turned into a <em>wind tunnel</em> 🍃, and the ways Android’s evolution changed conference agendas. Greg also describes how AI is affecting talk submissions, session selection, company travel budgets, and the value of meeting other developers in person.</p>
+
+<p>Finally, we look ahead to <a href="https://www.nextappcon.com/"><strong>next.app DevCon</strong></a>, which brings Android, Flutter, iOS, React Native, mobile security, XR, mobile games, and agentic coding together while preserving dedicated spaces for each community.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>01.09</strong> Episode Start</li>
+  <li><strong>01.38</strong> The hardest part of building a developer conference</li>
+  <li><strong>04.59</strong> How droidcon started</li>
+  <li><strong>08.58</strong> droidcon today</li>
+  <li><strong>12.02</strong> COVID’s impact on developer communities</li>
+  <li><strong>15.07</strong> Conference mistakes and the New York wind tunnel</li>
+  <li><strong>21.52</strong> How droidcon and Android changed</li>
+  <li><strong>25.46</strong> How AI is changing conference talks</li>
+  <li><strong>28.22</strong> Reviewing AI-generated talk submissions</li>
+  <li><strong>31.58</strong> AI, ticket sales, and the value of meeting in person</li>
+  <li><strong>38.38</strong> Building next.app DevCon</li>
+  <li><strong>44.15</strong> Cross-pollination across mobile communities</li>
+  <li><strong>50.05</strong> Advice for new conference organizers</li>
+  <li><strong>52.16</strong> Where to find Greg online</li>
+  <li><strong>53.06</strong> Closing</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://www.droidcon.com/">droidcon Global</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://www.nextappcon.com/">next.app DevCon</a></li>
+  <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/gregfawson">Greg Fawson on LinkedIn</a></li>
+</ul>
+
+<p>Hosts:</p>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/cortinico">@cortinico on GitHub</a></li>
+  <li><i class="fab fa-x-twitter"></i> <a href="https://x.com/cortinico">@cortinico on X</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/prof18">@prof18 on GitHub</a></li>
+  <li><i class="fab fa-x-twitter"></i> <a href="https://x.com/marcoGomier">@marcoGomier on X</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/paolorotolo">@paolorotolo on GitHub</a></li>
+  <li><i class="fab fa-x-twitter"></i> <a href="https://x.com/paolorotolo">@paolorotolo on X</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-x-twitter"></i> <a href="https://x.com/thebakerydev">@thebakerydev on X</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[droidcon Global CEO Greg Fawson shares how developer conferences are built, how their communities changed after COVID, what AI means for talks and ticket sales, and how next.app DevCon is bringing the mobile ecosystems together.]]></summary></entry><entry><title type="html">#102 - Difftray and the agentic code review loop</title><link href="https://thebakery.dev/102/" rel="alternate" type="text/html" title="#102 - Difftray and the agentic code review loop" /><published>2026-09-24T13:00:00+01:00</published><updated>2026-09-24T13:00:00+01:00</updated><id>https://thebakery.dev/102-reviewing-agent-written-code-with-difftray</id><content type="html" xml:base="https://thebakery.dev/102/"><![CDATA[<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/56GOHIPNcXg6RlyGApPEsd?utm_source=generator&amp;si=555c1736b0d846f9" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <p>When coding agents can produce changes faster than you can inspect them, what does a useful code review look like?</p>
 
@@ -573,59 +633,4 @@
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Content-first Web Development with Astro and Elian Van Cutsem]]></summary></entry><entry><title type="html">#93 - KotlinPoet with Egor Andreevich</title><link href="https://thebakery.dev/93/" rel="alternate" type="text/html" title="#93 - KotlinPoet with Egor Andreevich" /><published>2025-01-15T12:00:00+00:00</published><updated>2025-01-15T12:00:00+00:00</updated><id>https://thebakery.dev/093-kotlinpoet</id><content type="html" xml:base="https://thebakery.dev/93/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/45efMX4rHbrVpbk4XhhH2L?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<p>Let’s kickoff 2025 with a fresh new episode of The Developers’ Bakery! 🎉</p>
-
-<p>Today, we talk about <a href="https://github.com/square/kotlinpoet">KotlinPoet</a> with <a href="https://github.com/Egorand">Egor Andreevich</a>.
-KotlinPoet is a library from Square used to <strong>generate</strong> Kotlin code. It’s a great tool to generate code at compile time, and it’s used
-by many libraries and frameworks for Android and not only.</p>
-
-<p>Egor has been involved with KotlinPoet for multiple years and today will share with us how KotlinPoet works,
-when to use it, and how to contribute to the project.</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.00</strong> Intro</li>
-  <li><strong>00.46</strong> Episode Start</li>
-  <li><strong>01.07</strong> Egor’s Introduction</li>
-  <li><strong>02.07</strong> What is Kotlinpoet?</li>
-  <li><strong>06.34</strong> KotlinPoet use case</li>
-  <li><strong>08.43</strong> When to use code generation?</li>
-  <li><strong>13.58</strong> Templates vs KotlinPoet</li>
-  <li><strong>17.32</strong> Generating code that definitely compiles</li>
-  <li><strong>19.46</strong> Kotlin Poet 2.0</li>
-  <li><strong>24.13</strong> The challenges of KotlinPoet</li>
-  <li><strong>27.44</strong> Doing OSS at Square</li>
-  <li><strong>32.55</strong> Who’s maintaining KotlinPoet?</li>
-  <li><strong>34.01</strong> How to contribute to KotlinPoet?</li>
-  <li><strong>36.53</strong> How Egor got involved with KotlinPoet?</li>
-  <li><strong>38.48</strong> What’s next for KotlinPoet?</li>
-  <li><strong>42.05</strong> Further reading</li>
-  <li><strong>43.38</strong> Where people can find you online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/square/kotlinpoet">square/kotlinpoet on GitHub</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://square.github.io/kotlinpoet/">KotlinPoet Official Website</a></li>
-  <li><i class="fab fa-youtube"></i> Exploring Kotlin Symbol Processing: A Practical Guide - <a href="https://www.droidcon.com/2024/11/22/exploring-kotlin-symbol-processing-a-practical-guide-2/">Video From Droidcon London</a></li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/Egorand">@Egorand on GitHub</a></li>
-  <li><i class="fab fa-bluesky"></i> <a href="https://bsky.app/profile/egorand.dev">@egorand.dev on Bluesky</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://www.egorand.dev/">Egor’s Blog</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Generating Kotlin code like an pro with with KotlinPoet and Egor Andreevich]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Content-first Web Development with Astro and Elian Van Cutsem]]></summary></entry></feed>
