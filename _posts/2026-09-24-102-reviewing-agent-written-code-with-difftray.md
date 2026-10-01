@@ -24,7 +24,7 @@ podcast_duration: "49:29"
 podcast_length: 20012902
 ---
 
-<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/56GOHIPNcXg6RlyGApPEsd?utm_source=generator&si=555c1736b0d846f9" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 When coding agents can produce changes faster than you can inspect them, what does a useful code review look like?
 
