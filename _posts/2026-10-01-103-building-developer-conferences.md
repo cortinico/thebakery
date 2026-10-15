@@ -24,7 +24,7 @@ podcast_duration: "53:38"
 podcast_length: 21779278
 ---
 
-<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/0tSDgY9lZy7qUI3OCZA1tl?utm_source=generator&si=700052fcb8254ba2" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 What does it take to build a developer conference that still feels like it belongs to its community?
 
