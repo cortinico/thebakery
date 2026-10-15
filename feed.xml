@@ -1,4 +1,70 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2026-10-15T11:04:00+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#103 - Building developer conferences with Greg Fawson</title><link href="https://thebakery.dev/103/" rel="alternate" type="text/html" title="#103 - Building developer conferences with Greg Fawson" /><published>2026-10-01T13:00:00+01:00</published><updated>2026-10-01T13:00:00+01:00</updated><id>https://thebakery.dev/103-building-developer-conferences</id><content type="html" xml:base="https://thebakery.dev/103/"><![CDATA[<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/0tSDgY9lZy7qUI3OCZA1tl?utm_source=generator&amp;si=700052fcb8254ba2" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2026-10-15T14:52:00+01:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#104 - Android developer verification and the future of sideloading</title><link href="https://thebakery.dev/104/" rel="alternate" type="text/html" title="#104 - Android developer verification and the future of sideloading" /><published>2026-10-15T13:00:00+01:00</published><updated>2026-10-15T13:00:00+01:00</updated><id>https://thebakery.dev/104-android-developer-verification</id><content type="html" xml:base="https://thebakery.dev/104/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>Android is introducing <a href="https://developer.android.com/developer-verification">developer verification</a> for apps installed on certified devices, including apps distributed outside Google Play. What does that mean for sideloading, open source projects, and the way Android developers share their work?</p>
+
+<p>In this <em>Fresh from the Oven</em> episode, <a href="https://github.com/cortinico">Nicola</a>, <a href="https://github.com/prof18">Marco</a>, and <a href="https://github.com/paolorotolo">Paolo</a> discuss the ADV rollout and its goals of making it harder to forge malicious apps. They walk through app registration, identity checks, and the advanced flow users can enable to install unverified apps after a (sadly long) 24-hour wait.</p>
+
+<p>Join us in this episode, as we talk through Play Console stories, account suspensions, the 20-developers requirements, and what it means for Android’s reputation as an open platform.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.33</strong> Episode Start</li>
+  <li><strong>01.44</strong> What is Android developer verification?</li>
+  <li><strong>03.43</strong> Identity checks and sharing a home address</li>
+  <li><strong>04.36</strong> Where and when enforcement starts</li>
+  <li><strong>05.39</strong> How app and developer verification works</li>
+  <li><strong>06.15</strong> Google’s safety goals and impersonation scams</li>
+  <li><strong>07.38</strong> Sideloading, ADB, and the advanced flow</li>
+  <li><strong>08.38</strong> The 24-hour wait and open source apps</li>
+  <li><strong>10.03</strong> Android’s promise of an open platform</li>
+  <li><strong>12.12</strong> The Keep Android Open campaign</li>
+  <li><strong>13.04</strong> Account suspensions and developer identity</li>
+  <li><strong>16.04</strong> Play Console warnings and automation</li>
+  <li><strong>23.13</strong> Limited distribution for students and hobbyists</li>
+  <li><strong>26.10</strong> Closed testing and the 20 testers requirement</li>
+  <li><strong>27.35</strong> AI makes building apps faster; distribution remains hard</li>
+  <li><strong>30.00</strong> Indie apps and the value of open distribution</li>
+  <li><strong>34.52</strong> Finding testers for closed testing</li>
+  <li><strong>36.36</strong> Internal apps and enterprise distribution</li>
+  <li><strong>41.24</strong> What happens next?</li>
+  <li><strong>42.05</strong> Closing</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://developer.android.com/developer-verification">Android developer verification</a>.</li>
+  <li><i class="fas fa-link"></i> <a href="https://android-developers.googleblog.com/2026/06/android-developer-verification.html">Building a safer Android ecosystem together</a> - rollout regions, participating stores, and the advanced sideloading flow</li>
+  <li><i class="fas fa-link"></i> <a href="https://developer.android.com/developer-verification/guides/limited-distribution">Register for limited distribution</a> - Share apps with up to 20 authorized devices</li>
+  <li><i class="fas fa-link"></i> <a href="https://developer.android.com/developer-verification/guides/faq">Android developer verification FAQ</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://developer.android.com/developer-verification/guides/developer-console-api">Register package names with the Android Developer Console API</a> - API for registering app package names</li>
+  <li><i class="fas fa-link"></i> <a href="https://keepandroidopen.org/">Keep Android Open</a> - Community campaign and open letter about the policy</li>
+</ul>
+
+<p>Hosts:</p>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/cortinico">@cortinico on GitHub</a></li>
+  <li><i class="fab fa-x-twitter"></i> <a href="https://x.com/cortinico">@cortinico on X</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/prof18">@prof18 on GitHub</a></li>
+  <li><i class="fab fa-x-twitter"></i> <a href="https://x.com/marcoGomier">@marcoGomier on X</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/paolorotolo">@paolorotolo on GitHub</a></li>
+  <li><i class="fab fa-x-twitter"></i> <a href="https://x.com/paolorotolo">@paolorotolo on X</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-x-twitter"></i> <a href="https://x.com/thebakerydev">@thebakerydev on X</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Nicola, Marco, and Paolo discuss Android developer verification: Google's rollout, the advanced sideloading flow, limited distribution, and the trade-offs for open source developers, hobbyists, and enterprises.]]></summary></entry><entry><title type="html">#103 - Building developer conferences with Greg Fawson</title><link href="https://thebakery.dev/103/" rel="alternate" type="text/html" title="#103 - Building developer conferences with Greg Fawson" /><published>2026-10-01T13:00:00+01:00</published><updated>2026-10-01T13:00:00+01:00</updated><id>https://thebakery.dev/103-building-developer-conferences</id><content type="html" xml:base="https://thebakery.dev/103/"><![CDATA[<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/0tSDgY9lZy7qUI3OCZA1tl?utm_source=generator&amp;si=700052fcb8254ba2" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <p>What does it take to build a developer conference that still feels like it belongs to its community?</p>
 
@@ -569,68 +635,4 @@
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Your server as a function with http4k and David Denton]]></summary></entry><entry><title type="html">#94 - Astro with Elian Van Cutsem</title><link href="https://thebakery.dev/94/" rel="alternate" type="text/html" title="#94 - Astro with Elian Van Cutsem" /><published>2025-02-12T12:00:00+00:00</published><updated>2025-02-12T12:00:00+00:00</updated><id>https://thebakery.dev/094-astro</id><content type="html" xml:base="https://thebakery.dev/94/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/1KcGObn8FoP10qaCIQb5Rr?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<p>In this episode of The Developers’ Bakery, we explore <a href="https://astro.build/"><strong>Astro</strong></a>, the modern web framework, with <a href="https://twitter.com/ElianCodes">Elian Van Cutsem</a>, one of its maintainers. Elian will walk us through Astro’s content-first approach, how it compares to other web frameworks, and its support for server-side/hybrid rendering.</p>
-
-<p>We also dive into Astro’s governance model and the challenges of maintaining an open-source project at this scale. Elian will also share his insights on the latest Astro 5 release and what’s next for the project.</p>
-
-<p>Finally, we chat about FOSDEM! We’ll share some of our personal anecdotes from the conference which just happened in Brussels, so you don’t want to miss this episode!</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.00</strong> Intro</li>
-  <li><strong>00.46</strong> Episode Start</li>
-  <li><strong>01.07</strong> Elian’s Introduction</li>
-  <li><strong>01.58</strong> What is Astro?</li>
-  <li><strong>03.16</strong> What does it mean to be content-first?</li>
-  <li><strong>05.41</strong> Astro’s main use case</li>
-  <li><strong>06.28</strong> Astro vs other static-site-generator</li>
-  <li><strong>07.37</strong> Server side rendering with Astro</li>
-  <li><strong>10.15</strong> Hybrid Rendering</li>
-  <li><strong>11.01</strong> The Island architecture</li>
-  <li><strong>12.57</strong> Astro’s performances</li>
-  <li><strong>14.45</strong> Where do you deploy your applications?</li>
-  <li><strong>16.00</strong> Astro success stories</li>
-  <li><strong>19.41</strong> Astro’s governance model</li>
-  <li><strong>23.03</strong> How did you feel when you became a maintainer?</li>
-  <li><strong>24.08</strong> Maintainers vs Core team member</li>
-  <li><strong>25.40</strong> The biggest challenge of maintaining Astro</li>
-  <li><strong>29.09</strong> Getting funding</li>
-  <li><strong>31.17</strong> What’s new in Astro 5?</li>
-  <li><strong>33.35</strong> What’s next for Astro?</li>
-  <li><strong>35.26</strong> What brings you to FOSDEM?</li>
-  <li><strong>36.48</strong> FOSDEM vibe and anecdotes</li>
-  <li><strong>40.54</strong> Further reading</li>
-  <li><strong>43.41</strong> Where people can find you online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/withastro/astro">withastro/astro on GitHub</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://astro.build/">Astro Official Website</a></li>
-  <li>Mentioned Resources:
-    <ul>
-      <li><i class="fas fa-link"></i> <a href="https://docs.astro.build/en/getting-started/">Getting Started with Astro</a></li>
-      <li><i class="fas fa-link"></i> <a href="https://astro.build/themes/">Astro Themes Gallery</a></li>
-      <li><i class="fab fa-youtube"></i> Astro Studio - All Secrets Reveiled - <a href="https://www.youtube.com/watch?v=TsA6xankPHU">Video from React Alicante</a></li>
-    </ul>
-  </li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/ElianCodes">@ElianCodes on GitHub</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/ElianCodes">@ElianCodes on Twitter</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Content-first Web Development with Astro and Elian Van Cutsem]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Your server as a function with http4k and David Denton]]></summary></entry></feed>

@@ -622,4 +622,10 @@ var store = [{
         "tags": [],
         "url": "/103/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#104 - Android developer verification and the future of sideloading",
+        "excerpt":"Android is introducing developer verification for apps installed on certified devices, including apps distributed outside Google Play. What does that mean for sideloading, open source projects, and the way Android developers share their work? In this Fresh from the Oven episode, Nicola, Marco, and Paolo discuss the ADV rollout and...","categories": [],
+        "tags": [],
+        "url": "/104/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]
