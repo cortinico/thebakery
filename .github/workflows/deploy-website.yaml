@@ -4,6 +4,10 @@ on:
   push:
     branches:
       - main
+  schedule:
+    # Jekyll excludes future-dated posts, so rebuild regularly to publish them
+    # once their scheduled date has arrived, even without a new commit.
+    - cron: '0 * * * *'
 
 jobs:
   jekyll:
