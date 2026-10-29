@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Thu, 29 Oct 2026 09:20:44 +0000</lastBuildDate>
+<lastBuildDate>Thu, 29 Oct 2026 14:43:48 +0000</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,108 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Building with AI and curiosity with Ivan Morgillo</title>
+        <itunes:title>Building with AI and curiosity with Ivan Morgillo</itunes:title>
+        <link>https://thebakery.dev/105/</link>
+        <pubDate>Thu, 29 Oct 2026 12:00:00 +0000</pubDate>
+        <dc:creator>Nicola Corti</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/105/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>105</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/105-thedevelopersbakery-building-with-ai-and-curiosity.m4a" length="22497288" type="audio/x-m4a" />
+
+        <itunes:subtitle>How AI agents help Ivan automate everyday work, ship apps, and tinker with hardware</itunes:subtitle>
+        <itunes:summary>Ivan Morgillo shares how he uses AI agents as an assistant, coordinates coding workflows across models, closes the feedback loop with hardware, and turns everyday problems into products.</itunes:summary>
+
+        
+        <description>
+            <![CDATA[What changes when AI can take care of the tedious parts of building software, and help you try ideas that once felt out of reach? Today we’re joined by Ivan Morgillo, an Android engineer, indie developer, and longtime tinkerer. Ivan explains why he treats AI as an assistant for the...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>What changes when AI can take care of the tedious parts of building software, and help you try ideas that once felt out of reach?</p>
+
+<p>Today we’re joined by <a href="https://ivanmorgillo.com/"><strong>Ivan Morgillo</strong></a>, an Android engineer, indie developer, and longtime tinkerer. Ivan explains why he treats AI as an assistant for the annoying work, from wiring up <a href="https://www.home-assistant.io/">Home Assistant</a> to managing a fleet of coding sessions from his phone.</p>
+
+<p>We get into his agent workflow: using Claude Code as an entry point, asking several models to review plans and code, and building <a href="https://github.com/hamen/ship-feature"><strong>ship-feature</strong></a> to coordinate the process. Ivan also describes how he added persistent memory with <a href="https://github.com/MemPalace/mempalace"><strong>MemPalace</strong></a>, originally to keep a long-running Dungeons &amp; Dragons campaign going across conversations.</p>
+
+<p>The conversation ranges from jailbreaking a Kindle and using a webcam as a feedback loop, to custom hardware controls, fixing memory leaks in the Elgato Stream Deck app, and asking AI to “clean” a Chromecast. We finish with indie app ideas, the story behind Ivan’s <a href="https://nowastefood.app/">Smart Pantry</a> app, and his advice to live an interesting life so you encounter interesting problems to solve.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.33</strong> Episode Start</li>
+  <li><strong>01.26</strong> Meet Ivan Morgillo</li>
+  <li><strong>04.31</strong> His AI assistant handles the annoying stuff</li>
+  <li><strong>08.00</strong> Coding from anywhere with an always-on agent setup</li>
+  <li><strong>11.21</strong> How Ivan gets AI to plan, build, and review</li>
+  <li><strong>15.27</strong> Giving AI a memory for a D&amp;D campaign</li>
+  <li><strong>21.19</strong> How AI helped jailbreak an old Kindle</li>
+  <li><strong>27.05</strong> Hardware hacking is back (thanks to AI)</li>
+  <li><strong>38.50</strong> Four models review every code change</li>
+  <li><strong>43.46</strong> What becomes possible when code gets cheap?</li>
+  <li><strong>49.13</strong> A pantry problem turns into a profitable app</li>
+  <li><strong>52.17</strong> The best ideas start with an interesting life</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://ivanmorgillo.com/">Ivan Morgillo’s website</a> - projects, writing, and links</li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/hamen">@hamen on GitHub</a></li>
+  <li><i class="fab fa-x-twitter"></i> <a href="https://x.com/hamen">@hamen on X</a></li>
+  <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/ivanmorgillo/">Ivan Morgillo on LinkedIn</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/hamen/ship-feature">ship-feature</a> - Ivan’s open-source workflow for planning, implementation, and agent reviews</li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/MemPalace/mempalace">MemPalace</a> - local-first persistent memory for AI agents</li>
+  <li><i class="fas fa-link"></i> <a href="https://www.home-assistant.io/">Home Assistant</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://kindlegratis.fun/">Kindle Gratis</a> - find free Kindle books</li>
+  <li><i class="fas fa-link"></i> <a href="https://nowastefood.app/">Smart Pantry</a> - Ivan’s food and expiry-date tracking app</li>
+  <li><i class="fas fa-link"></i> <a href="https://codewiththeitalians.it/">Code with the Italians</a> - Ivan’s podcast with Sebastiano</li>
+  <li><i class="fas fa-link"></i> <a href="https://makebook.io/">MAKE by Pieter Levels</a> - the book about building startups that Ivan mentions</li>
+</ul>
+
+<p>Marco:</p>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/prof18">@prof18 on GitHub</a></li>
+  <li><i class="fab fa-x-twitter"></i> <a href="https://x.com/marcoGomier">@marcoGomier on X</a></li>
+</ul>
+
+<p>Nicola:</p>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/cortinico">@cortinico on GitHub</a></li>
+  <li><i class="fab fa-x-twitter"></i> <a href="https://x.com/cortinico">@cortinico on X</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-x-twitter"></i> <a href="https://x.com/thebakerydev">@thebakerydev on X</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/105-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>55:44</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Android developer verification and the future of sideloading</title>

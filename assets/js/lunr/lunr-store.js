@@ -628,4 +628,10 @@ var store = [{
         "tags": [],
         "url": "/104/",
         "teaser": "/assets/images/header-single-episode.png"
+      },{
+        "title": "#105 - Building with AI and curiosity with Ivan Morgillo",
+        "excerpt":"What changes when AI can take care of the tedious parts of building software, and help you try ideas that once felt out of reach? Today we’re joined by Ivan Morgillo, an Android engineer, indie developer, and longtime tinkerer. Ivan explains why he treats AI as an assistant for the...","categories": [],
+        "tags": [],
+        "url": "/105/",
+        "teaser": "/assets/images/header-single-episode.png"
       }]

@@ -1,4 +1,72 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2026-10-29T09:20:44+00:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#104 - Android developer verification and the future of sideloading</title><link href="https://thebakery.dev/104/" rel="alternate" type="text/html" title="#104 - Android developer verification and the future of sideloading" /><published>2026-10-15T13:00:00+01:00</published><updated>2026-10-15T13:00:00+01:00</updated><id>https://thebakery.dev/104-android-developer-verification</id><content type="html" xml:base="https://thebakery.dev/104/"><![CDATA[<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/6rx9Rz3uvPLzR0PQm13waO?utm_source=generator&amp;si=fee832fcce6344dc" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2026-10-29T14:43:48+00:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#105 - Building with AI and curiosity with Ivan Morgillo</title><link href="https://thebakery.dev/105/" rel="alternate" type="text/html" title="#105 - Building with AI and curiosity with Ivan Morgillo" /><published>2026-10-29T12:00:00+00:00</published><updated>2026-10-29T12:00:00+00:00</updated><id>https://thebakery.dev/105-building-with-ai-and-curiosity</id><content type="html" xml:base="https://thebakery.dev/105/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>What changes when AI can take care of the tedious parts of building software, and help you try ideas that once felt out of reach?</p>
+
+<p>Today we’re joined by <a href="https://ivanmorgillo.com/"><strong>Ivan Morgillo</strong></a>, an Android engineer, indie developer, and longtime tinkerer. Ivan explains why he treats AI as an assistant for the annoying work, from wiring up <a href="https://www.home-assistant.io/">Home Assistant</a> to managing a fleet of coding sessions from his phone.</p>
+
+<p>We get into his agent workflow: using Claude Code as an entry point, asking several models to review plans and code, and building <a href="https://github.com/hamen/ship-feature"><strong>ship-feature</strong></a> to coordinate the process. Ivan also describes how he added persistent memory with <a href="https://github.com/MemPalace/mempalace"><strong>MemPalace</strong></a>, originally to keep a long-running Dungeons &amp; Dragons campaign going across conversations.</p>
+
+<p>The conversation ranges from jailbreaking a Kindle and using a webcam as a feedback loop, to custom hardware controls, fixing memory leaks in the Elgato Stream Deck app, and asking AI to “clean” a Chromecast. We finish with indie app ideas, the story behind Ivan’s <a href="https://nowastefood.app/">Smart Pantry</a> app, and his advice to live an interesting life so you encounter interesting problems to solve.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.33</strong> Episode Start</li>
+  <li><strong>01.26</strong> Meet Ivan Morgillo</li>
+  <li><strong>04.31</strong> His AI assistant handles the annoying stuff</li>
+  <li><strong>08.00</strong> Coding from anywhere with an always-on agent setup</li>
+  <li><strong>11.21</strong> How Ivan gets AI to plan, build, and review</li>
+  <li><strong>15.27</strong> Giving AI a memory for a D&amp;D campaign</li>
+  <li><strong>21.19</strong> How AI helped jailbreak an old Kindle</li>
+  <li><strong>27.05</strong> Hardware hacking is back (thanks to AI)</li>
+  <li><strong>38.50</strong> Four models review every code change</li>
+  <li><strong>43.46</strong> What becomes possible when code gets cheap?</li>
+  <li><strong>49.13</strong> A pantry problem turns into a profitable app</li>
+  <li><strong>52.17</strong> The best ideas start with an interesting life</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://ivanmorgillo.com/">Ivan Morgillo’s website</a> - projects, writing, and links</li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/hamen">@hamen on GitHub</a></li>
+  <li><i class="fab fa-x-twitter"></i> <a href="https://x.com/hamen">@hamen on X</a></li>
+  <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/ivanmorgillo/">Ivan Morgillo on LinkedIn</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/hamen/ship-feature">ship-feature</a> - Ivan’s open-source workflow for planning, implementation, and agent reviews</li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/MemPalace/mempalace">MemPalace</a> - local-first persistent memory for AI agents</li>
+  <li><i class="fas fa-link"></i> <a href="https://www.home-assistant.io/">Home Assistant</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://kindlegratis.fun/">Kindle Gratis</a> - find free Kindle books</li>
+  <li><i class="fas fa-link"></i> <a href="https://nowastefood.app/">Smart Pantry</a> - Ivan’s food and expiry-date tracking app</li>
+  <li><i class="fas fa-link"></i> <a href="https://codewiththeitalians.it/">Code with the Italians</a> - Ivan’s podcast with Sebastiano</li>
+  <li><i class="fas fa-link"></i> <a href="https://makebook.io/">MAKE by Pieter Levels</a> - the book about building startups that Ivan mentions</li>
+</ul>
+
+<p>Marco:</p>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/prof18">@prof18 on GitHub</a></li>
+  <li><i class="fab fa-x-twitter"></i> <a href="https://x.com/marcoGomier">@marcoGomier on X</a></li>
+</ul>
+
+<p>Nicola:</p>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/cortinico">@cortinico on GitHub</a></li>
+  <li><i class="fab fa-x-twitter"></i> <a href="https://x.com/cortinico">@cortinico on X</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-x-twitter"></i> <a href="https://x.com/thebakerydev">@thebakerydev on X</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Ivan Morgillo shares how he uses AI agents as an assistant, coordinates coding workflows across models, closes the feedback loop with hardware, and turns everyday problems into products.]]></summary></entry><entry><title type="html">#104 - Android developer verification and the future of sideloading</title><link href="https://thebakery.dev/104/" rel="alternate" type="text/html" title="#104 - Android developer verification and the future of sideloading" /><published>2026-10-15T13:00:00+01:00</published><updated>2026-10-15T13:00:00+01:00</updated><id>https://thebakery.dev/104-android-developer-verification</id><content type="html" xml:base="https://thebakery.dev/104/"><![CDATA[<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/6rx9Rz3uvPLzR0PQm13waO?utm_source=generator&amp;si=fee832fcce6344dc" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <p>Android is introducing <a href="https://developer.android.com/developer-verification">developer verification</a> for apps installed on certified devices, including apps distributed outside Google Play. What does that mean for sideloading, open source projects, and the way Android developers share their work?</p>
 
@@ -567,72 +635,4 @@
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Maintaining and Open Source Alternative store with Aayush Gupta and Aurora Store]]></summary></entry><entry><title type="html">#95 - http4k with David Denton</title><link href="https://thebakery.dev/95/" rel="alternate" type="text/html" title="#95 - http4k with David Denton" /><published>2025-03-12T12:00:00+00:00</published><updated>2025-03-12T12:00:00+00:00</updated><id>https://thebakery.dev/095-http4k</id><content type="html" xml:base="https://thebakery.dev/95/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/1LSeBcmKPHEd0es5P6SPVe?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<p>Time for a new episode of The Developers’ Bakery! 🎉</p>
-
-<p>In this episode, we dive into the world of <a href="https://www.http4k.org/">http4k</a> with <a href="https://github.com/daviddenton">David Denton</a>, exploring how you can treat your server as a function! Thanks to Kotlin expressivity, http4k allows you to develop server applications that are easy to test and maintain.</p>
-
-<p>David created and maintains the http4k together with Ivan Sanchez, and will share his story in creating this framework, which they claim it stands out as the <em>most testable</em> web toolkit. We will also discuss their journey from an open-source project to becoming a full-fledged company.</p>
-
-<p>Tune in to learn everything http4k!</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.00</strong> Intro</li>
-  <li><strong>00.45</strong> Episode Start</li>
-  <li><strong>01.16</strong> David’s Introduction</li>
-  <li><strong>03.01</strong> What is http4k?</li>
-  <li><strong>04.37</strong> Your server as a function</li>
-  <li><strong>06.38</strong> The http4k ecosystem</li>
-  <li><strong>08.20</strong> The most testable web toolkit</li>
-  <li><strong>10.39</strong> Kotlin-specific features in http4k</li>
-  <li><strong>12.14</strong> http4k vs ktor</li>
-  <li><strong>14.16</strong> http4k’s performances</li>
-  <li><strong>15.53</strong> Success stories</li>
-  <li><strong>19.35</strong> Running http4k on Android</li>
-  <li><strong>20.37</strong> Plugins and integrations</li>
-  <li><strong>22.22</strong> The story of http4k</li>
-  <li><strong>26.46</strong> From an OSS project to a company</li>
-  <li><strong>29.03</strong> Who’s maintaining http4k?</li>
-  <li><strong>30.40</strong> Best way to contribute</li>
-  <li><strong>32.49</strong> http4k v6</li>
-  <li><strong>35.55</strong> Coroutines support</li>
-  <li><strong>37.51</strong> http4k and AI</li>
-  <li><strong>39.55</strong> Further reading</li>
-  <li><strong>41.47</strong> Where people can find you online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/http4k/http4k">http4k/http4k on GitHub</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://www.http4k.org/">http4k Official Website</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/http4k">@http4k on Twitter</a></li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/http4k/http4k-android-examples">http4k/http4k-android-examples on GitHub</a></li>
-  <li>Mentioned Resources:
-    <ul>
-      <li><i class="fab fa-youtube"></i> Server as a Function in Kotlin - <a href="https://youtu.be/vdxBNh1qx1Q?si=uNXPU4Y7LbidozGZ">Video from KotlinConf 2018</a></li>
-      <li><i class="fab fa-youtube"></i> Exploring the Testing Hyperpyramid with Kotlin and http4k - <a href="https://youtu.be/CrslqbMbaD8?si=ukRoir_az9MZEX9J">Video from KotlinConf 2023</a></li>
-      <li><i class="fab fa-youtube"></i> Introduction to http4k - <a href="https://www.youtube.com/watch?v=FVvn-aFO--Q">Video by Dmitry Kandalov</a></li>
-      <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/playlist?list=PL1ssMPpyqocg5TKqmiGWlvi3O5L8XPe8Q">Pairing with Duncan McGregor playlist</a></li>
-    </ul>
-  </li>
-  <li><i class="fab fa-github"></i> <a href="https://github.com/daviddenton">@daviddenton on GitHub</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://clockwork.ing/directory/david-denton/">David on Clockwork</a></li>
-  <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/denton-david/">David Denton on LinkedIn</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Your server as a function with http4k and David Denton]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Maintaining and Open Source Alternative store with Aayush Gupta and Aurora Store]]></summary></entry></feed>
