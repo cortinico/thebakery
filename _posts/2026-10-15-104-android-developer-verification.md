@@ -24,7 +24,7 @@ podcast_duration: "43:08"
 podcast_length: 17520974
 ---
 
-<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/6rx9Rz3uvPLzR0PQm13waO?utm_source=generator&si=fee832fcce6344dc" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 Android is introducing [developer verification](https://developer.android.com/developer-verification) for apps installed on certified devices, including apps distributed outside Google Play. What does that mean for sideloading, open source projects, and the way Android developers share their work?
 
