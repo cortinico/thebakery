@@ -1,0 +1,312 @@
+# Season 1 guests (#0-#99) for the episode tickets, keyed by episode number.
+# Generated once from `yarn backfill-artwork --dry-run` (GitHub accounts in the show notes).
+# Season 2 episodes carry a `guests:` list in their own front matter instead.
+"0":
+  - name: "Nicola Corti"
+    github: cortinico
+"1":
+  - name: "Nelson Osacky"
+    github: runningcode
+"2":
+  - name: "Colin White"
+    github: colinrtwhite
+"3":
+  - name: "Franco Meloni"
+    github: f-meloni
+"4":
+  - name: "Sebastian Aigner"
+    github: SebastianAigner
+"5":
+  - name: "Matan Kushner"
+    github: matchai
+"6":
+  - name: "Arnaud Giuliani"
+    github: arnaudgiuliani
+"7":
+  - name: "Pawan Kumar"
+    github: iampawan
+"8":
+  - name: "Pedro Piñera Buendía"
+    github: pepicrft
+"9":
+  - name: "Evgeny Mandrikov"
+    github: Godin
+"10":
+  - name: "Saket Narayan"
+    github: saket
+"11":
+  - name: "Zac Sweers"
+    github: ZacSweers
+"12":
+  - name: "Louis CAD"
+    github: LouisCAD
+"13":
+  - name: "Martin Bonnin"
+    github: martinbonnin
+    github: martinbonnin
+"14":
+  - name: "Ralf Wondratschek"
+    github: vRallev
+"15":
+  - name: "Sebastiano Poggi"
+    github: rock3r
+"16":
+  - name: "Kosh Sergani"
+    github: k0shk0sh
+"17":
+  - name: "Patrick Arminio"
+    github: patrick91
+"18":
+  - name: "Joe Previte"
+    github: jsjoeio
+"19":
+  - name: "Simon Vergauwen"
+    github: nomisRev
+"20":
+  - name: "Enrique López-Mañas"
+    github: kikoso
+"21":
+  - name: "Sebastian Kaspari"
+    github: pocmo
+"22":
+  - name: "Geoffrey Huntley"
+    github: ghuntley
+"23":
+  - name: "Miguel Beltran"
+    github: miquelbeltran
+"24":
+  - name: "Xavier F. Gouchet"
+    github: xgouchet
+"25":
+  - name: "Christian Melchior"
+    github: cmelchior
+"26":
+  - name: "Vincenzo Palazzo"
+    github: vincenzopalazzo
+"27":
+  - name: "Michele Riva"
+    github: micheleriva
+"28":
+  - name: "Filip Babić"
+    github: filbabic
+"29":
+  - name: "Salomon Brys"
+    github: SalomonBrys
+"30":
+  - name: "The Detekt Maintainers"
+    github: detekt
+"31":
+  - name: "Tony Robalik"
+    github: autonomousapps
+"32":
+  - name: "Sergei Egorov"
+    github: bsideup
+"33":
+  - name: "Manoel Aranda Neto"
+    github: marandaneto
+  - name: "Roman Zavarnitsyn"
+    github: romtsn
+"34":
+  - name: "Andrea Cardaci"
+    github: cyrus-and
+"35":
+  - name: "Jonathan Leitschuh"
+    github: JLLeitschuh
+  - name: "Yahor Berdnikau"
+    github: Tapchicoma
+"36":
+  - name: "Marcos Holgado"
+    github: marcosholgado
+"37":
+  - name: "Gabriel Peal"
+    github: gpeal
+"38":
+  - name: "James Hamilton"
+    github: mrjameshamilton
+"39":
+  - name: "Sébastien Lorber"
+    github: slorber
+"40":
+  - name: "Nicola Corti"
+    github: cortinico
+"41":
+  - name: "Gabriel Ittner"
+    github: gabrielittner
+  - name: "Hannes Dorfmann"
+    github: sockeqwe
+"42":
+  - name: "Marcin Kuszczak"
+    github: aartiPl
+"43":
+  - name: "Kevin Galligan"
+    github: kpgalligan
+"44":
+  - name: "Said Turksever"
+    github: openstreetmap
+"45":
+  - name: "Jaewoong Eum"
+    github: skydoves
+"46":
+  - name: "Norbert de Langen"
+    github: ndelange
+"47":
+  - name: "Amos Gyamfi"
+    github: amosgyamfi
+"48":
+  - name: "Mattia Tommasone"
+    github: Raibaz
+"49":
+  - name: "Federico Terzi"
+    github: federico-terzi
+"50":
+  - name: "Schrödinger Hat"
+    github: 404answernotfound
+"51":
+  - name: "Federico Paolinelli"
+    github: fedepaol
+"52":
+  - name: "Marco Gomiero"
+    github: prof18
+"53":
+  - name: "Armin Nehzat"
+"54":
+  - name: "Camden Cheek"
+    github: camdencheek
+"55":
+  - name: "Mike McQuaid"
+    github: MikeMcQuaid
+"56":
+  - name: "Daniele Scasciafratte"
+    github: Mte90
+"57":
+  - name: "Giorgio Boa"
+    github: gioboa
+"58":
+  - name: "John O'Reilly"
+    github: joreilly
+  - name: "Martin Bonnin"
+    github: martinbonnin
+"59":
+  - name: "Adriel Café"
+    github: adrielcafe
+"60":
+  - name: "Jorge Castillo"
+    github: JorgeCastilloPrz
+"61":
+  - name: "Niccolò Venerandi"
+    github: veggero
+"62":
+  - name: "Anton Malinskiy"
+    github: Malinskiy
+"63":
+  - name: "Boris Farber"
+    github: borisf
+  - name: "Tomáš Mlynarič"
+    github: mlykotom
+"64":
+  - name: "Dmitry Kandalov"
+    github: dkandalov
+"65":
+  - name: "Christian Bromann"
+    github: christian-bromann
+"66":
+  - name: "Nicolò Ribaudo"
+    github: nicolo-ribaudo
+"67":
+  - name: "Michael Arnaldi"
+    github: mikearnaldi
+"68":
+  - name: "Marco Gorelli"
+    github: MarcoGorelli
+"69":
+  - name: "Nacho Lopez"
+    github: mrmans0n
+"70":
+  - name: "Marcin Moskała"
+    github: MarcinMoskala
+"71":
+  - name: "Emilio Coppola"
+    github: coppolaemilio
+"72":
+  - name: "François-Guillaume Fernandez"
+    github: frgfm
+"73":
+  - name: "Max Howell"
+    github: mxcl
+"74":
+  - name: "Tsavo Knott"
+    github: tsavo-at-pieces
+"75":
+  - name: "Pete Matsyburka"
+    github: omohokcoj
+"76":
+  - name: "Nicolas DUBIEN"
+    github: dubzzz
+"77":
+  - name: "Vincent Massol"
+    github: vmassol
+"78":
+  - name: "Takahiro Menju"
+    github: takahirom
+"79":
+  - name: "Guilherme Oenning"
+    github: goenning
+"80":
+  - name: "Xavier Damman"
+    github: xdamman
+"81":
+  - name: "Zach Wasserman"
+    github: zwass
+"82":
+  - name: "Ruth Cheesley"
+    github: RCheesley
+"83":
+  - name: "Tanmai Gopal"
+    github: coco98
+"84":
+  - name: "Adam Jacob"
+    github: adamhjk
+"85":
+  - name: "Marcello Galhardo"
+    github: marcellogalhardo
+"86":
+  - name: "Sandy Ryza"
+    github: sryza
+"87":
+  - name: "Christina Lin"
+    github: weimeilin79
+"88":
+  - name: "Himanshu Singh"
+    github: hi-manshu
+"89":
+  - name: "Gorkem Ercan"
+    github: gorkem
+"90":
+  - name: "Nicola Corti"
+    github: cortinico
+"91":
+  - name: "Aakansha Doshi"
+    github: ad1992
+"92":
+  - name: "Ivan Burazin"
+    github: ivan-burazin
+"93":
+  - name: "Egor Andreevich"
+    github: Egorand
+"94":
+  - name: "Elian Van Cutsem"
+    github: ElianCodes
+"95":
+  - name: "David Denton"
+    github: daviddenton
+"96":
+  - name: "Aayush Gupta"
+"97":
+  - name: "Gilad Shoham"
+    github: GiladShoham
+"98":
+  - name: "Sebastian Sellmair"
+    github: sellmair
+"99":
+  - name: "Jason Pearson"
+    github: kaeawc

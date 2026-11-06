@@ -1,8 +1,13 @@
-# main links
+# Main navigation (header). `match` marks the item as current when the page URL starts with it.
 main:
   - title: "Episodes"
     url: /episodes
+    match: /episodes
+  - title: "Formats"
+    url: /#formats
   - title: "About"
     url: /about
-  - title: "Contact"
-    url: /contact
+    match: /about
+  - title: "Be a guest"
+    url: /guest
+    match: /guest

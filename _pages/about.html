@@ -1,0 +1,53 @@
+---
+title: "About"
+layout: default
+body_class: about
+permalink: /about
+sitemap: true
+excerpt: "The Developers' Bakery is a podcast about developer tooling and the people who build and use it, hosted by Nicola Corti, Marco Gomiero and Paolo Rotolo."
+header:
+  og_image: "/assets/images/og-default-header.jpg"
+---
+<section class="wrap intro">
+  <div>
+    <p class="mono">About</p>
+    <h1>Welcome to the bakery</h1>
+    <p class="lede"><strong>The Developers' Bakery is a podcast about developer tooling and the people who build and use it.</strong> Every episode asks the same question in a different way.</p>
+  </div>
+  <p class="q">What are developers using to bake today's software, and what did they learn along the way?<small>The question behind every episode</small></p>
+</section>
+
+<section class="paper story" aria-labelledby="story-title">
+  <div class="wrap">
+    <p class="mono eyebrow-label">How we got here</p>
+    <h2 class="title" id="story-title">Five years, two seasons</h2>
+    <div class="timeline">
+      <article><p class="when">2020</p><h3>A pandemic side project</h3><p>Nicola starts the show to hear the stories behind the tools developers rely on every day.</p></article>
+      <article><p class="when">#1–#99</p><h3>99 open source stories</h3><p>One project per episode, from tiny libraries built by one person to tools used by millions. All still in the <a href="{{ '/episodes' | relative_url }}">archive</a>.</p></article>
+      <article><p class="when">#100 →</p><h3>Three hosts, looser rules</h3><p>Marco and Paolo join. A guest no longer needs to maintain a project: we want the setup, the tool built out of frustration, the conference that almost didn't happen.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="wrap formats" aria-labelledby="formats-title">
+  <p class="mono eyebrow-label">Two kinds of bread</p>
+  <h2 class="title" id="formats-title">The formats</h2>
+  <div class="two">
+    <div class="card"><span class="stamp stamp--dive">Deep Dive</span><h3>A guest, a story</h3><p>Conversations with someone building or using developer tools, built around one story.</p></div>
+    <div class="card" style="background:var(--flour)"><span class="stamp stamp--oven">Fresh from the Oven</span><h3>The three of us</h3><p>Just the hosts, on a topic we can't stop talking about: news, setups, hot takes, conference recaps.</p></div>
+    <div class="card extra"><h3>Recipe of the Week</h3><p>Many episodes end with each of us sharing one small tool or trick. Episodes are recorded remotely and, whenever we can, in person at conferences and meetups.</p></div>
+  </div>
+</section>
+
+<section class="wrap hosts" id="hosts" aria-labelledby="hosts-title">
+  <p class="mono eyebrow-label">The bakers</p>
+  <h2 class="title" id="hosts-title" style="margin-bottom:28px">Your hosts</h2>
+  {%- for h in site.data.hosts %}
+  <article class="host"><img src="{{ h.photo | relative_url }}" alt="{{ h.name }}" width="128" height="128" loading="lazy"><div>
+    <h3>{{ h.name }}</h3><p class="role mono">{{ h.role }}</p>
+    <p>{{ h.bio }}</p>
+    <p class="links"><a href="https://github.com/{{ h.id }}">GitHub</a><a href="https://x.com/{{ h.x }}">X</a><a href="{{ h.website }}">{{ h.website_label }}</a></p></div></article>
+  {%- endfor %}
+</section>
+
+{% include guest-band.html %}

@@ -1,0 +1,131 @@
+---
+layout: default
+body_class: episode
+---
+{%- include episode-vars.html ep=page -%}
+{%- comment -%}
+  The post body opens with the Spotify <iframe> (the feed relies on that too). Split it off so the player
+  gets its own section, then split the notes before "# Resources" so the Recipe of the Week cards sit between
+  chapters and resources, and drop the "# Show links" boilerplate (the sidebar and footer carry those links).
+{%- endcomment -%}
+{%- assign _halves = content | split: '</iframe>' -%}
+{%- comment -%} create-episode scaffolds the iframe commented out: no player until it's uncommented. {%- endcomment -%}
+{%- if _halves.size > 1 and _halves[0] contains '<!--' -%}{%- assign _halves = '' | split: ',' -%}{%- endif -%}
+{%- if _halves.size > 1 -%}
+  {%- assign player = _halves[0] | append: '</iframe>' -%}
+  {%- assign notes = content | remove_first: player -%}
+{%- else -%}
+  {%- assign player = '' -%}
+  {%- assign notes = content -%}
+{%- endif -%}
+{%- assign notes = notes | split: '<h1 id="show-links">' | first -%}
+{%- assign _res = notes | split: '<h1 id="resources">' -%}
+{%- assign notes_main = _res[0] -%}
+{%- if _res.size > 1 -%}{%- assign notes_resources = notes | remove_first: notes_main -%}{%- else -%}{%- assign notes_resources = '' -%}{%- endif -%}
+{%- assign short_url = site.url | remove: 'https://' | remove: 'http://' | append: '/' | append: ev_num -%}
+{%- assign full_url = page.url | absolute_url -%}
+
+<section class="wrap ep-head">
+  <div>
+    <p class="crumb mono"><a href="{{ '/episodes' | relative_url }}">Episodes</a> / #{{ ev_num }}</p>
+    <div class="numrow"><span class="n">#{{ ev_num }}</span><span class="stamp stamp--{{ ev_stamp_class }}">{{ ev_stamp }}</span></div>
+    <h1>{{ ev_title }}</h1>
+    {%- if page.excerpt %}
+    <p class="excerpt">{{ page.excerpt | strip_html }}</p>
+    {%- endif %}
+    <div class="meta">
+      {% include people.html %}
+      <span class="mono">{% if ev_who != '' %}{{ ev_who | remove_first: 'with ' }} · {% endif %}{{ page.date | date: '%-d %b %Y' }}{% if page.podcast_duration %} · {{ page.podcast_duration }}{% endif %}</span>
+    </div>
+  </div>
+  {%- if page.podcast_image %}
+  <img class="art" src="{{ page.podcast_image | relative_url }}" alt="Episode {{ ev_num }} artwork" width="340" height="340">
+  {%- endif %}
+</section>
+
+<section class="wrap player" id="player">
+  {%- if player != '' %}
+  <div class="embed" data-player>{{ player }}</div>
+  {%- endif %}
+  <div class="also"><span class="mono" style="opacity:.7">{% if player != '' %}Also on{% else %}Listen on{% endif %}</span>
+    <a class="btn btn--ghost btn--sm" href="{{ site.links.spotify }}">Spotify</a>
+    <a class="btn btn--ghost btn--sm" href="{{ site.links.apple }}">Apple Podcasts</a>
+    <a class="btn btn--ghost btn--sm" href="{{ site.links.pocketcasts }}">Pocket Casts</a>
+    <a class="btn btn--ghost btn--sm" href="{{ site.links.rss | relative_url }}">RSS</a>
+  </div>
+</section>
+
+<section class="paper notes">
+  <div class="wrap">
+    <article class="prose" data-notes>
+      {{ notes_main }}
+
+      {%- if page.recipes %}
+      <h2 id="recipe-of-the-week">Recipe of the Week</h2>
+      <div class="recipe-cards">
+        {%- for r in page.recipes %}
+        {%- assign host = site.data.hosts | where: 'id', r.host | first %}
+        <div class="card recipe">
+          <div class="who">{% if host %}<img src="{{ host.photo | relative_url }}" alt="" width="26" height="26">{% endif %}<span class="mono">{{ host.short | default: r.host }}</span></div>
+          <h3>{% if r.url %}<a href="{{ r.url }}">{{ r.name }}</a>{% else %}{{ r.name }}{% endif %}</h3>
+          <p>{{ r.what }}</p>
+        </div>
+        {%- endfor %}
+      </div>
+      {%- endif %}
+
+      {{ notes_resources }}
+    </article>
+
+    <aside class="side">
+      <div class="card card--butter mic">
+        <span class="mono">On the mic</span>
+        {%- assign guest_ids = '' %}
+        {%- if ev_guests and ev_hosts == false and ev_num > 0 %}
+        {%- for g in ev_guests %}
+        {%- assign guest_ids = guest_ids | append: ',' | append: g.github %}
+        <div class="row">{% include avatar.html person=g %}<div><b>{{ g.name }}</b><small>{% if g.github %}<a href="https://github.com/{{ g.github }}">@{{ g.github }}</a> · {% endif %}Guest</small></div></div>
+        {%- endfor %}
+        {%- endif %}
+        {%- for h in site.data.hosts %}
+        {%- if ev_format == 'season-1' and forloop.first == false %}{% continue %}{% endif %}
+        {%- assign _probe = ',' | append: h.id %}
+        {%- if guest_ids contains _probe %}{% continue %}{% endif %}
+        <div class="row"><img src="{{ h.photo | relative_url }}" alt="" width="44" height="44" loading="lazy"><div><b>{{ h.name }}</b><small><a href="https://github.com/{{ h.id }}">@{{ h.id }}</a> · Host</small></div></div>
+        {%- endfor %}
+      </div>
+      <div class="card share">
+        <span class="mono">Share this episode</span>
+        <b>{{ short_url }}</b>
+        <button type="button" data-copy="{{ full_url }}">Copy link</button> ·
+        <a href="https://x.com/intent/post?url={{ full_url | url_encode }}&amp;text={{ ev_title | url_encode }}">X</a> ·
+        <a href="https://bsky.app/intent/compose?text={{ ev_title | append: ' ' | append: full_url | url_encode }}">Bluesky</a> ·
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ full_url | url_encode }}">LinkedIn</a>
+      </div>
+      <div class="card card--ink">
+        <b>Got a story worth baking?</b>
+        <a href="{{ '/guest' | relative_url }}">We're looking for Deep Dive guests. Pitch an episode →</a>
+      </div>
+    </aside>
+  </div>
+</section>
+
+{%- if page.previous or page.next %}
+<section class="rack more" aria-labelledby="more-title">
+  <div class="wrap">
+    <div class="section-head">
+      <div><p class="mono eyebrow-label">Previous &amp; next</p><h2 class="title" id="more-title">More from the oven</h2></div>
+      <a class="btn btn--butter" href="{{ '/episodes' | relative_url }}">All episodes</a>
+    </div>
+    <div class="bar" aria-hidden="true"></div>
+    <ol class="tickets tickets--wrap">
+      {%- if page.previous %}{% include ticket.html ep=page.previous i=0 %}{% endif %}
+      {%- if page.next %}{% include ticket.html ep=page.next i=1 %}{% endif %}
+    </ol>
+    <div class="nextprev mono">
+      {%- if page.previous %}{% include episode-vars.html ep=page.previous %}<a href="{{ page.previous.url | relative_url }}">← Previous: #{{ ev_num }}</a>{% else %}<span></span>{% endif %}
+      {%- if page.next %}{% include episode-vars.html ep=page.next %}<a href="{{ page.next.url | relative_url }}">Next: #{{ ev_num }} →</a>{% endif %}
+    </div>
+  </div>
+</section>
+{%- endif %}

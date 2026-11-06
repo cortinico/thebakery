@@ -5,6 +5,12 @@ author_profile: true
 
 description: "Iury Souza shares how he customizes coding agents with OpenCode and Pi, keeps his setup portable, experiments with local models, and uses visual feedback to stay in the loop."
 
+format: deep-dive
+guests:
+  - name: "Iury Souza"
+    github: iurysza
+    photo: "/assets/images/guests/101.jpg"
+
 header:
   teaser: "/assets/images/header-single-episode.png"
   overlay_image: "/assets/images/header-single-episode.png"

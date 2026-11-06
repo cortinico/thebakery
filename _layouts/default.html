@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="{{ site.locale | slice: 0, 2 | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% include seo.html %}
+  <link rel="alternate" type="application/rss+xml" title="{{ site.podcast_title }} (podcast feed)" href="{{ site.links.rss | absolute_url }}">
+  {% feed_meta %}
+  <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ '/assets/images/avatar.png' | relative_url }}">
+  <meta name="theme-color" content="#FED46D">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  {%- if page.layout == 'episode' %}
+  <!-- Icons used inside older show notes (fa-github, fa-link, ...) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+  {%- endif %}
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body class="page-{{ page.body_class | default: layout.body_class | default: 'plain' }}">
+<a class="skip" href="#main">Skip to content</a>
+<header class="wrap nav">
+  <a class="brand" href="{{ '/' | relative_url }}" aria-label="The Developers' Bakery, home">
+    {% include logo.svg %}
+    <span>The Developers'<br>Bakery</span>
+  </a>
+  <nav aria-label="Main"><ul>
+    {%- for item in site.data.navigation.main %}
+    <li><a href="{{ item.url | relative_url }}"{% if item.match and page.url contains item.match %} aria-current="page"{% elsif item.match == '/episodes' and page.layout == 'episode' %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
+    {%- endfor %}
+  </ul></nav>
+  <a class="btn" href="{% if page.layout == 'episode' %}#player{% else %}{{ '/#listen' | relative_url }}{% endif %}">Listen</a>
+</header>
+
+<main id="main">
+{{ content }}
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <span>© {{ site.time | date: '%Y' }} The Developers' Bakery</span>
+    <nav aria-label="Footer">
+      <a href="{{ site.links.x }}">@thebakerydev</a>
+      <a href="mailto:{{ site.links.email }}">{{ site.links.email }}</a>
+      <a href="{{ site.links.rss | relative_url }}">RSS feed</a>
+      <a href="{{ site.links.coffee }}">Buy us a coffee</a>
+    </nav>
+  </div>
+</footer>
+<script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{%- comment -%} The "Got a story worth baking?" band. include.long adds the first sentence of the pitch. {%- endcomment -%}
+{%- assign _count = 0 -%}
+{%- for p in site.posts -%}{%- assign _n = p.title | split: ' - ' | first | remove: '#' | plus: 0 -%}{%- if _n > 0 -%}{%- assign _count = _count | plus: 1 -%}{%- endif -%}{%- endfor -%}
+<section class="guest" id="guest" aria-labelledby="guest-title">
+  <div class="wrap">
+    <div class="inner">
+      <div>
+        <h2 id="guest-title">Got a story worth baking?</h2>
+        <p>{% if include.long %}Built a tool, changed how your team ships, or learned something the hard way? {% endif %}We're looking for Deep Dive guests. You don't need to maintain an open source project.</p>
+      </div>
+      <a class="btn btn--butter" href="{{ '/guest' | relative_url }}">Pitch an episode</a>
+    </div>
+    <div class="archive-note">
+      <span><b>{{ _count }}</b>episodes and counting, all still on the shelf</span>
+      <span><b>2020</b>baking since</span>
+    </div>
+  </div>
+</section>

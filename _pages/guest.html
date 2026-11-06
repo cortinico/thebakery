@@ -1,0 +1,65 @@
+---
+title: "Be a guest"
+layout: default
+body_class: guest
+permalink: /guest
+sitemap: true
+excerpt: "We're always looking for Deep Dive guests. You don't need to maintain an open source project."
+header:
+  og_image: "/assets/images/og-default-header.jpg"
+redirect_from:
+  - /contact
+  - /contact/
+---
+<section class="wrap top">
+  <div>
+    <p class="mono">Be a guest</p>
+    <h1>Come on the show</h1>
+    <p class="lede">We're always looking for Deep Dive guests. You don't need to maintain an open source project. You're a good fit if you:</p>
+    <ul class="fit">
+      <li>built a developer tool, big or small, open source or not</li>
+      <li>changed how your team builds, tests, reviews or ships</li>
+      <li>have a setup other developers would want to steal</li>
+      <li>organise something for developers: a conference, a community, a meetup</li>
+    </ul>
+    <p class="aside-note">Just want to say hi or suggest a topic for Fresh from the Oven? Same form, or write to <a href="mailto:{{ site.links.email }}">{{ site.links.email }}</a>.</p>
+  </div>
+
+  <form class="form" action="{{ site.links.formspree }}" method="POST" accept-charset="utf-8">
+    <h2>Pitch an episode</h2>
+    <p>Send us two or three lines about the story you'd tell and a link to your work. We read everything and reply to everyone.</p>
+    <div class="field"><label for="n">Your name</label><input id="n" name="name" autocomplete="name" required></div>
+    <div class="field"><label for="e">Email</label><input id="e" name="_replyto" type="email" autocomplete="email" required></div>
+    <fieldset class="field"><legend>What is it?</legend>
+      <div class="kind">
+        <label><input type="radio" name="kind" value="guest" checked> I'd like to be a guest</label>
+        <label><input type="radio" name="kind" value="topic"> Topic for Fresh from the Oven</label>
+        <label><input type="radio" name="kind" value="hi"> Just saying hi</label>
+      </div>
+    </fieldset>
+    <div class="field"><label for="m">The story</label><textarea id="m" name="message" placeholder="I built a tool that… / We changed how our team…" required></textarea></div>
+    <div class="field"><label for="l">Link to your work (optional)</label><input id="l" name="link" placeholder="github.com/you, a blog post, a talk"></div>
+    <button class="btn" type="submit">Send pitch</button>
+  </form>
+</section>
+
+<section class="rack past" aria-labelledby="past-title">
+  <div class="wrap">
+    <div class="section-head"><div><p class="mono eyebrow-label">Recent Deep Dives</p><h2 class="title" id="past-title">Guests who came by</h2></div><a class="btn btn--butter" href="{{ '/episodes' | relative_url }}">All episodes</a></div>
+    <div class="bar" aria-hidden="true"></div>
+    <ol class="tickets tickets--wrap">
+      {%- assign shown = 0 %}
+      {%- for post in site.posts %}
+        {%- if shown < 3 %}
+          {%- if post.format == 'deep-dive' or post.format == nil %}
+            {%- assign _n = post.title | split: ' - ' | first | remove: '#' | plus: 0 %}
+            {%- if _n > 0 %}
+      {% include ticket.html ep=post i=shown %}
+              {%- assign shown = shown | plus: 1 %}
+            {%- endif %}
+          {%- endif %}
+        {%- endif %}
+      {%- endfor %}
+    </ol>
+  </div>
+</section>

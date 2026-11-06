@@ -1,0 +1,102 @@
+---
+title: "Episodes"
+layout: default
+body_class: episodes
+permalink: /episodes
+sitemap: true
+excerpt: "Every episode of The Developers' Bakery: Deep Dives, Fresh from the Oven, specials and the Season 1 archive."
+header:
+  og_image: "/assets/images/og-default-header.jpg"
+# The old homepage was paginated five episodes at a time; keep those URLs landing somewhere useful.
+redirect_from:
+  - /categories/
+  - /tags/
+  - /page2/
+  - /page3/
+  - /page4/
+  - /page5/
+  - /page6/
+  - /page7/
+  - /page8/
+  - /page9/
+  - /page10/
+  - /page11/
+  - /page12/
+  - /page13/
+  - /page14/
+  - /page15/
+  - /page16/
+  - /page17/
+  - /page18/
+  - /page19/
+  - /page20/
+  - /page21/
+  - /page22/
+  - /page23/
+  - /page24/
+# Season 1 rows shown before "Show all" (when no filter or search is active).
+s1_preview: 12
+---
+{%- assign c_all = 0 -%}{%- assign c_dive = 0 -%}{%- assign c_oven = 0 -%}{%- assign c_special = 0 -%}{%- assign c_s1 = 0 -%}
+{%- for p in site.posts -%}
+  {%- assign c_all = c_all | plus: 1 -%}
+  {%- case p.format -%}
+    {%- when 'deep-dive' -%}{%- assign c_dive = c_dive | plus: 1 -%}
+    {%- when 'fresh-from-the-oven' -%}{%- assign c_oven = c_oven | plus: 1 -%}
+    {%- when 'special' -%}{%- assign c_special = c_special | plus: 1 -%}
+    {%- else -%}{%- assign c_s1 = c_s1 | plus: 1 -%}
+  {%- endcase -%}
+{%- endfor -%}
+{%- assign first_year = site.posts.last.date | date: '%Y' -%}
+<section class="wrap head">
+  <p class="mono">{{ c_all | minus: 1 }} episodes + a trailer · baking since {{ first_year }}</p>
+  <h1>All episodes</h1>
+  <div class="filters" role="group" aria-label="Filter episodes" data-filters>
+    <button class="chip" type="button" data-f="all" aria-pressed="true">All<span>{{ c_all }}</span></button>
+    <button class="chip" type="button" data-f="deep-dive" aria-pressed="false">Deep Dive<span>{{ c_dive }}</span></button>
+    <button class="chip" type="button" data-f="fresh-from-the-oven" aria-pressed="false">Fresh from the Oven<span>{{ c_oven }}</span></button>
+    <button class="chip" type="button" data-f="special" aria-pressed="false">Specials<span>{{ c_special }}</span></button>
+    <button class="chip" type="button" data-f="season-1" aria-pressed="false">Season 1<span>{{ c_s1 }}</span></button>
+    <label class="search"><span aria-hidden="true">⌕</span><span class="visually-hidden">Search episodes</span><input id="q" type="search" placeholder="Search guests, tools, topics…" autocomplete="off"></label>
+  </div>
+</section>
+
+<section class="rack s2" id="s2" aria-labelledby="s2-title">
+  <div class="wrap">
+    <div class="section-head"><div><p class="mono eyebrow-label">Season 2 · #100 →</p><h2 class="title" id="s2-title">Tools and the people behind them</h2></div></div>
+    <div class="bar" aria-hidden="true"></div>
+    <ol class="tickets tickets--wrap" id="tickets">
+      {%- assign i = 0 %}
+      {%- for post in site.posts %}
+        {%- if post.format %}
+      {% include ticket.html ep=post i=i %}
+          {%- assign i = i | plus: 1 %}
+        {%- endif %}
+      {%- endfor %}
+    </ol>
+    <p class="empty mono" id="s2-empty" style="color:var(--butter)" hidden>No Season 2 episodes match.</p>
+  </div>
+</section>
+
+<section class="wrap s1" id="s1" aria-labelledby="s1-title" data-preview="{{ page.s1_preview }}">
+  <p class="mono">Season 1 · #0 – #99 · 2020–2025</p>
+  <h2 class="title" id="s1-title">One open source project per episode</h2>
+  <div id="list">
+    {%- assign year = '' %}
+    {%- for post in site.posts %}
+      {%- unless post.format %}
+        {%- include episode-vars.html ep=post %}
+        {%- assign y = post.date | date: '%Y' %}
+        {%- if y != year %}
+          {%- unless year == '' %}</ul></div>{% endunless %}
+    <div class="year-group"><p class="year">{{ y }}</p><ul class="list">
+          {%- assign year = y %}
+        {%- endif %}
+      <li data-format="season-1" data-search="{{ ev_num }} {{ ev_title | downcase | escape }} {{ post.excerpt | strip_html | downcase | escape }}"><span class="n">#{{ ev_num }}</span><a href="{{ post.url | relative_url }}">{{ ev_short }}</a><span class="g">{{ ev_who }}</span><span class="d">{{ post.podcast_duration }}</span><span class="t">{{ post.date | date: '%-d %b %Y' }}</span></li>
+      {%- endunless %}
+    {%- endfor %}
+    {%- unless year == '' %}</ul></div>{% endunless %}
+  </div>
+  <p class="empty mono" id="s1-empty" hidden>No Season 1 episodes match.</p>
+  <button class="btn btn--ghost more-btn" type="button" id="more">Show all {{ c_s1 }} Season 1 episodes</button>
+</section>

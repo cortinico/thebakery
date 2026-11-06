@@ -5,6 +5,25 @@ author_profile: true
 
 description: "Celebrating 100 episodes of The Developers' Bakery: the story behind the show, the mistakes I made along the way, and a brand new format with two new co-hosts."
 
+format: special
+byline: "Nicola in the guest chair"
+guests:
+  - name: "Nicola Corti"
+    github: cortinico
+recipes:
+  - host: cortinico
+    name: "Vowen"
+    url: "https://vowen.ai/"
+    what: "Free, fully local dictation for prompts, emails and chats."
+  - host: prof18
+    name: "Let old PR comments update your AGENTS.md"
+    url: "https://www.marcogomiero.com/posts/2026/code-review-agents-update/"
+    what: "Ask your agent which review comments the instructions should have prevented."
+  - host: paolorotolo
+    name: "Android CLI"
+    url: "https://developer.android.com/tools/agents/android-cli"
+    what: "An alternative to token-hungry MCP servers."
+
 header:
   teaser: "/assets/images/header-single-episode.png"
   overlay_image: "/assets/images/header-single-episode.png"

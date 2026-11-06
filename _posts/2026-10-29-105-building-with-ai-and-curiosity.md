@@ -5,6 +5,12 @@ author_profile: true
 
 description: "Ivan Morgillo shares how he uses AI agents as an assistant, coordinates coding workflows across models, closes the feedback loop with hardware, and turns everyday problems into products."
 
+format: deep-dive
+guests:
+  - name: "Ivan Morgillo"
+    github: hamen
+    photo: "/assets/images/guests/105.jpg"
+
 header:
   teaser: "/assets/images/header-single-episode.png"
   overlay_image: "/assets/images/header-single-episode.png"

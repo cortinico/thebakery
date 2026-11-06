@@ -5,6 +5,8 @@ author_profile: true
 
 description: "Nicola, Marco, and Paolo discuss Android developer verification: Google's rollout, the advanced sideloading flow, limited distribution, and the trade-offs for open source developers, hobbyists, and enterprises."
 
+format: fresh-from-the-oven
+
 header:
   teaser: "/assets/images/header-single-episode.png"
   overlay_image: "/assets/images/header-single-episode.png"
