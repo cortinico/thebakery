@@ -52,6 +52,11 @@ Ruby 4 may rewrite `Gemfile.lock` (extra platforms, a newer minitest); don't com
 Push to `main` → `deploy-website.yaml` builds and pushes `_site/` to the `gh-pages` branch (GitHub Pages, custom
 domain from `CNAME`). `.gitlab-ci.yml` is a legacy mirror of the same build and is not the active pipeline.
 
+Every pull request from a branch of this repo gets a preview: `preview-website.yaml` builds it with
+`--baseurl /pr-preview/pr-N` into `gh-pages` under `pr-preview/pr-N/` (https://thebakery.dev/pr-preview/pr-N/), comments
+the link on the PR, and removes it when the PR closes. The main deploy keeps that folder (`clean-exclude`). Preview
+pages carry `noindex`. Links in templates must go through `relative_url`/`absolute_url` or they break in previews.
+
 ## Publishing a new episode
 
 1. `yarn create-episode …` (see Commands): Deep Dive with `-p`/`-g`/`--github`, Fresh from the Oven with `-t`, a

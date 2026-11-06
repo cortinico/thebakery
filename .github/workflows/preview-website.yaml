@@ -1,0 +1,46 @@
+name: Preview Website
+
+# Builds every pull request into gh-pages under pr-preview/pr-N/ (served at
+# https://thebakery.dev/pr-preview/pr-N/) and comments the link on the PR.
+# The preview is removed when the PR is closed. Pull requests from forks get no
+# preview: their token cannot push to gh-pages.
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize, closed]
+
+concurrency:
+  group: preview-${{ github.event.number }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  preview:
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    env:
+      JEKYLL_ENV: production
+    steps:
+    - name: Checkout Repo
+      uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
+
+    - name: Install Ruby Dependencies
+      if: github.event.action != 'closed'
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.4'
+        bundler-cache: true
+
+    - name: Build the Jekyll Website
+      if: github.event.action != 'closed'
+      run: bundle exec jekyll build --drafts --unpublished --future --baseurl "/pr-preview/pr-${{ github.event.number }}"
+
+    - name: Deploy the preview
+      uses: rossjrw/pr-preview-action@v1
+      with:
+        source-dir: _site/
+        preview-branch: gh-pages
+        umbrella-dir: pr-preview

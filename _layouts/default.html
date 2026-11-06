@@ -3,6 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- if site.baseurl contains 'pr-preview' %}
+  <meta name="robots" content="noindex">
+  {%- endif %}
   {% include seo.html %}
   <link rel="alternate" type="application/rss+xml" title="{{ site.podcast_title }} (podcast feed)" href="{{ site.links.rss | absolute_url }}">
   {% feed_meta %}
