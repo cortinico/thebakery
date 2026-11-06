@@ -502,3 +502,44 @@ export function renderCover(template: string, number: number, cover?: CoverImage
   })));
   return renderPng(svg, COVER_WIDTH, template);
 }
+
+// ---------- Guest photo for the website ----------
+// The site shows a small round face of the guest on the episode tickets and the "On the mic" card. It is the
+// same image as the cover's guest slot, cropped to a square the same way (centred, filling the frame).
+export const GUEST_PHOTO_SIZE = 160;
+
+export function guestPhotoPath(number: number): string {
+  return `../assets/images/guests/${episodeId(number)}.png`;
+}
+
+export function guestPhotoUrl(number: number): string {
+  return `/assets/images/guests/${episodeId(number)}.png`;
+}
+
+export function renderGuestPhoto(image: CoverImage, size = GUEST_PHOTO_SIZE): Buffer {
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">`
+    + `<image x="0" y="0" width="${size}" height="${size}" preserveAspectRatio="xMidYMid slice" xlink:href="data:${image.mimeType};base64,${image.encoded}"/></svg>`;
+  return new Resvg(svg, { fitTo: { mode: 'width', value: size } }).render().asPng();
+}
+
+// Sets `photo:` on the first entry of the post's `guests:` list (create-episode scaffolds that entry).
+// Returns false when the post has no guests list, so the caller can say so instead of guessing where it goes.
+export function linkGuestPhoto(number: number): { episodePath: string; linked: boolean } {
+  const episodePath = findEpisodeFile(number);
+  const episode = fs.readFileSync(episodePath, 'utf8');
+  const url = guestPhotoUrl(number);
+
+  const firstGuest = /^guests:\n( *)- name: .*\n((?:\1  \w+: .*\n)*)/m;
+  const match = episode.match(firstGuest);
+  if (!match) {
+    return { episodePath, linked: false };
+  }
+
+  const [block, indent, fields] = match;
+  const photoLine = `${indent}  photo: "${url}"\n`;
+  const newFields = /^ *photo: .*$/m.test(fields)
+    ? fields.replace(/^ *photo: .*\n/m, photoLine)
+    : fields + photoLine;
+  fs.writeFileSync(episodePath, episode.replace(block, block.slice(0, block.length - fields.length) + newFields));
+  return { episodePath, linked: true };
+}

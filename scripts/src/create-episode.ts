@@ -7,6 +7,8 @@ import { attachAudio } from './episode-audio';
 // the timezone of the site, which reads as the day before for every listener
 // west of London: noon is the hour that shows the same date almost everywhere.
 const PUBLISH_TIME = '12:00:00 +0000';
+// Season 2 formats; they drive the stamp on the site and the archive filters. Season 1 posts have none.
+const FORMATS = ['deep-dive', 'fresh-from-the-oven', 'special'];
 
 const program = new Command();
 
@@ -19,13 +21,19 @@ program
   .option('-t, --title <string>', 'Title of the episode, as an alternative to --project and --guest')
   .option('-s, --slug <string>', 'Slug of the episode, defaults to the project name or to the title')
   .option('-a, --audio <string>', 'Path to the audio file, to fill in the duration and the length right away')
+  .option(
+    '-f, --format <string>',
+    `Episode format: ${FORMATS.join(', ')}. Defaults to deep-dive with --guest, fresh-from-the-oven otherwise`,
+  )
+  .option('--github <string>', "The guest's GitHub handle, for their photo on the episode tickets")
   .requiredOption('-d, --date <string>', 'Release date of the episode')
   .requiredOption('-n, --number <number>', 'Number of the episode', parseInt);
 
 program.parse(process.argv);
 
 const options = program.opts();
-const { project, guest, title, slug: customSlug, audio, date, number } = options;
+const { project, guest, title, slug: customSlug, audio, date, number, github } = options;
+const format: string = options.format ?? (guest ? 'deep-dive' : 'fresh-from-the-oven');
 
 function toId(str: string): string {
   return str.toLowerCase().replace(/\s+/g, '-');
@@ -57,6 +65,12 @@ interface Episode {
 
 // An episode is described either by a project and its guest, or by a plain title.
 function resolveEpisode(): Episode {
+  if (!FORMATS.includes(format)) {
+    error(`Unknown --format "${format}". Use one of: ${FORMATS.join(', ')}.`);
+  }
+  if (github && !guest) {
+    error('--github is the guest\'s handle, so it needs --guest too.');
+  }
   if (title) {
     if (project || guest) {
       error('Pass either --title or both --project and --guest, not both.');
@@ -77,6 +91,12 @@ function resolveEpisode(): Episode {
   };
 }
 
+// The `guests:` list the site reads for the faces on tickets and the "On the mic" card.
+function guestsBlock(): string {
+  if (!guest) return '';
+  return `guests:\n  - name: "${guest}"\n    github: ${github ?? 'TODO'}\n`;
+}
+
 function generateMarkdown(episode: Episode): string {
   const { displayTitle, slug, redirects } = episode;
   // The artwork is named with a two digit number, the way create-artwork writes
@@ -86,15 +106,17 @@ function generateMarkdown(episode: Episode): string {
   return `---
 title: "#${number} - ${displayTitle}"
 excerpt: "TODO"
-author_profile: true
-
 description: "TODO"
 
+format: ${format}
+${guestsBlock()}# Recipe of the Week picks, shown as cards on the episode page and on the homepage. host is a GitHub handle from _data/hosts.yml.
+# recipes:
+#   - host: cortinico
+#     name: "TODO"
+#     url: "https://TODO"
+#     what: "One line on what it does."
+
 header:
-  teaser: "/assets/images/header-single-episode.png"
-  overlay_image: "/assets/images/header-single-episode.png"
-  show_overlay_excerpt: false
-  overlay_filter: "0.6"
   og_image: "/assets/images/episodes/${artworkId}-og.png"
 
 date: ${date} ${PUBLISH_TIME}
@@ -113,27 +135,28 @@ podcast_length: TODO
 
 Enjoy the show 👨‍🍳
 
-# Show Notes
+# Chapters
 
 - **00.00** Intro
 
 # Resources
 
-* <i class="fab fa-github"></i> [cortinico/thebakery on GitHub](https://github.com/cortinico/thebakery)
-* <i class="fas fa-link"></i> [TheBakery Official Website](https://thebakery.dev/)
 * Mentioned Resources:
     * <i class="fas fa-link"></i> [A website](https://ncorti.com/)
-* <i class="fab fa-github"></i> [@cortinico on GitHub](https://github.com/cortinico)
-* <i class="fab fa-twitter"></i> [@cortinico on Twitter](https://twitter.com/cortinico)
+
+# Hosts
+
+* Nicola: <i class="fab fa-github"></i> [@cortinico on GitHub](https://github.com/cortinico) · <i class="fab fa-x-twitter"></i> [@cortinico on X](https://x.com/cortinico)
+* Marco: <i class="fab fa-github"></i> [@prof18 on GitHub](https://github.com/prof18) · <i class="fab fa-x-twitter"></i> [@marcoGomier on X](https://x.com/marcoGomier)
+* Paolo: <i class="fab fa-github"></i> [@paolorotolo on GitHub](https://github.com/paolorotolo) · <i class="fab fa-x-twitter"></i> [@paolorotolo on X](https://x.com/paolorotolo)
 
 # Show links
 
 * <i class="fas fa-link"></i> [Podcast Website](https://thebakery.dev)
-* <i class="fab fa-spotify"></i> [The Developers' Bakery on Spotify](https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug)
+* <i class="fab fa-spotify"></i> [The Developers' Bakery on Spotify](https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k)
 * <i class="fas fa-podcast"></i> [The Developers' Bakery on Apple Podcasts](https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034)
-* <i class="fab fa-google-play"></i> [The Developers' Bakery on Google Podcasts](https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s)
-* <i class="fab fa-twitter"></i> [@thebakerydev on Twitter](https://twitter.com/thebakerydev)
-* <i class="fab fa-twitter"></i> [@cortinico on Twitter](https://twitter.com/cortinico)
+* <i class="fab fa-x-twitter"></i> [@thebakerydev on X](https://x.com/thebakerydev)
+* Want to be a guest? [thebakery.dev/guest](https://thebakery.dev/guest)
 `;
 }
 

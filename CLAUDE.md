@@ -4,8 +4,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-The website + RSS feed for **The Developers' Bakery** podcast (https://thebakery.dev), a Jekyll 4 site using
-[minimal-mistakes](https://github.com/mmistakes/minimal-mistakes) as a `remote_theme`. Every podcast episode is a
+The website + RSS feed for **The Developers' Bakery** podcast (https://thebakery.dev), a Jekyll 4 site with its own
+layouts (no theme; see "Layouts and styling" below). Every podcast episode is a
 Markdown post in `_posts/`; the same front matter powers both the HTML page and the iTunes/RSS feed.
 
 ## Commands
@@ -22,16 +22,19 @@ they read and write paths relative to it (`../_posts/`, `assets/`):
 
 ```bash
 cd scripts && yarn install
-yarn create-episode -p "Project Name" -g "Guest Name" -d 2025-07-10 -n 100
-yarn create-episode -t "Show Trailer" -d 2025-07-10 -n 100   # title-only episodes (no project/guest)
-yarn create-episode -t "Show Trailer" -d 2025-07-10 -n 100 -a ep100.m4a   # -a also fills in the audio details
+yarn create-episode -p "Story Name" -g "Guest Name" --github guesthandle -d 2026-11-20 -n 106   # Deep Dive (format: deep-dive)
+yarn create-episode -t "Topic" -d 2026-11-20 -n 106                     # Fresh from the Oven (no guest)
+yarn create-episode -t "Topic" -f special -d 2026-11-20 -n 106          # -f deep-dive | fresh-from-the-oven | special
+yarn create-episode -t "Topic" -d 2026-11-20 -n 106 -a ep106.m4a        # -a also fills in the audio details
 yarn attach-audio -n 100 -a ep100.m4a                   # fills podcast_length/duration on an existing episode
 yarn create-artwork -n 100 -i guest-photo.jpg           # -> ../assets/images/episodes/100-{cover,og}.png
+                                                        #    + ../assets/images/guests/100.png, linked as guests[0].photo
 yarn create-artwork -n 100 -i https://host/photo.jpg    # -i also takes an http(s) URL
 yarn create-artwork -n 100                              # no -i: guest slot left empty
 yarn create-artwork -n 102 --host-episode               # Nicola, Marco and Paolo host stack
 yarn create-artwork -n 100 --no-og                      # just the square cover
 yarn create-artwork -n 100 --og-only --no-link          # just the wide one, without touching the post
+yarn create-artwork -n 100 -i photo.jpg --no-guest-photo   # skip the website guest photo
 yarn backfill-artwork --dry-run     # report the GitHub account each episode resolves to, write nothing
 yarn backfill-artwork               # re-render every episode's og artwork from https://github.com/<user>.png
 yarn convert-labels -i labels.txt   # Audacity label export (tab-separated) -> "- **MM.SS** Title" show-notes lines
@@ -40,13 +43,30 @@ yarn convert-labels -i labels.txt   # Audacity label export (tab-separated) -> "
 Note: there are no tests and no linter. CI (`.github/workflows/`) only checks that Jekyll builds.
 
 Local caveat: system Ruby here is 2.6 and the `bundler` version pinned in `Gemfile.lock` (2.6.8) is not installed, so
-`bundle` fails out of the box. Install a modern Ruby (CI uses `ruby:3.4` / the `jekyll/builder` container) or
-`gem install bundler:2.6.8` before building.
+`bundle` fails out of the box. Use a modern Ruby (CI uses 3.4; Homebrew's Ruby 4.0 at `/opt/homebrew/bin/ruby` also
+works) and `gem install --user-install bundler:2.6.8`, then run `bundle _2.6.8_ install` / `bundle _2.6.8_ exec ...`.
+Ruby 4 may rewrite `Gemfile.lock` (extra platforms, a newer minitest); don't commit those incidental changes.
 
 ## Deployment
 
 Push to `main` → `deploy-website.yaml` builds and pushes `_site/` to the `gh-pages` branch (GitHub Pages, custom
 domain from `CNAME`). `.gitlab-ci.yml` is a legacy mirror of the same build and is not the active pipeline.
+
+## Publishing a new episode
+
+1. `yarn create-episode …` (see Commands): Deep Dive with `-p`/`-g`/`--github`, Fresh from the Oven with `-t`, a
+   special with `-t … -f special`. Name the story in the title, not just the tool: `#106 - <story> with <Guest>`.
+2. `yarn create-artwork -n N -i <guest photo>` for a Deep Dive, or `yarn create-artwork -n N --host-episode` for Fresh
+   from the Oven. With `-i` it also writes the guest's round photo for the website and links it in the post.
+3. `yarn attach-audio -n N -a <file>.m4a` (unless `create-episode -a` already did it), and upload the audio to
+   `hosting.thebakery.dev` under the name `podcast_link` points at.
+4. Fill in the post: `excerpt`, `description`, the show notes and chapters (`yarn convert-labels` turns an Audacity
+   label export into the chapter lines), Resources. If there's a Recipe of the Week, uncomment `recipes:` and list the
+   picks (keep them in the show notes too: the feed only carries the body).
+5. Once Spotify has the episode, replace the commented show iframe at the top of the body with the episode's own
+   embed and **uncomment it**: the feed description and the episode page's player both depend on it.
+6. `bundle exec jekyll serve --future` and check `/`, `/N/` and `/episodes`; CI builds with
+   `--drafts --unpublished --future`. Future-dated posts go live on their date (the deploy runs hourly).
 
 ## Episode architecture
 
@@ -92,6 +112,26 @@ matter beyond normal Jekyll:
   covers, because those hold the real headshots and a GitHub avatar is not always the same photo.
 - `excerpt` and `description` become `<itunes:subtitle>` and `<itunes:summary>`.
 
+Season 2 fields, read only by the website (never by the feed):
+
+- `format` — `deep-dive`, `fresh-from-the-oven` or `special`. Drives the stamp on tickets and episode pages and the
+  filters on `/episodes`. Episodes **without** `format` are Season 1 (#0–#99); don't add it to them.
+- `guests` — optional list of `{name, github, photo}`. The faces on the tickets and the "On the mic" card come from
+  `photo` (local path or URL), else `https://github.com/<github>.png`, else the guest's initials. A `github` that matches
+  a host in `_data/hosts.yml` uses the host's local photo. `create-artwork -i` writes
+  `assets/images/guests/NN.png` (160px, the cover's guest image cropped the same way) and links it; #101, #103 and #105
+  use hand-made face crops of their covers (`NNN.jpg`). Replace either when a better photo turns up. Fresh from the Oven episodes always show the three hosts.
+  Season 1 guests live in `_data/season1_guests.yml` instead (keyed by episode number, generated once from
+  `yarn backfill-artwork --dry-run`); edit that file to fix a Season 1 face.
+- `byline` — optional override for the line under the title on tickets (default: "with <guests>", or
+  "Nicola, Marco & Paolo" for Fresh from the Oven), e.g. `"Nicola in the guest chair"`.
+- `recipes` — optional Recipe of the Week picks `{host, name, url, what}` (`host` is a GitHub id from
+  `_data/hosts.yml`). Rendered as cards on the episode page and as the latest picks on the homepage. Keep the picks in
+  the show notes too: the feed only carries the body.
+
+`create-episode` scaffolds `format` (`-f`, defaults to `deep-dive` with `-g`, else `fresh-from-the-oven`), the
+`guests` entry (`--github` for the handle) and a commented `recipes` example.
+
 **The post body must open with the Spotify `<iframe>`.** `_pages/podcast.xml` builds `<description>` and
 `<content:encoded>` from `content | split: "</iframe>"` and takes index `[1]`, so a post without that iframe ships an
 empty feed description. `create-episode` emits the iframe commented out — uncomment it when publishing.
@@ -99,16 +139,32 @@ empty feed description. `create-episode` emits the iframe commented out — unco
 The feed itself is `_pages/podcast.xml` (`permalink: /podcast`), driven entirely by `site.posts` plus the
 `podcast_*` show-level settings at the bottom of `_config.yml`.
 
-## Theme customization
+## Layouts and styling
 
-The theme is remote, so there is no vendored `_layouts`/`_sass` — customization is only these override points:
+There is no theme: everything that renders the site is in this repo.
 
-- `assets/css/main.scss` — the whole site's styling: palette (dark + orange) and font variables declared *before*
-  `@import "minimal-mistakes"`, then custom rules after it.
-- `_includes/archive-single.html`, `_includes/seo.html` — override the theme partials of the same name.
-- `_includes/head/custom.html` — extra `<head>` content (Google Fonts).
-- `_data/navigation.yml` (nav bar), `_data/ui-text.yml` (theme strings).
-- `index.html` is a `splash` layout whose feature rows are defined in its own front matter; it paginates recent
-  episodes via `jekyll-paginate` (5 per page).
+- `_layouts/default.html` — `<head>` (`_includes/seo.html` for meta/og/twitter tags, Google Fonts, `{% feed_meta %}`),
+  the nav (from `_data/navigation.yml`), footer and `assets/js/site.js`. The `<body>` gets `page-<body_class>`, which
+  page-specific CSS is scoped by. Font Awesome is loaded on episode pages only, for the icons inside old show notes.
+- `_layouts/home.html` (used by `index.html`), `_layouts/episode.html` (every post, via `defaults` in `_config.yml`),
+  `_layouts/page.html` (plain Markdown pages like the 404). `/episodes`, `/about` and `/guest` are HTML pages in
+  `_pages/` on top of `default`.
+- `_layouts/episode.html` splits the post body: everything up to the first `</iframe>` becomes the player section, the
+  rest the show notes. It drops the `# Show links` section (boilerplate) and inserts the `recipes` cards before
+  `# Resources`. A "Chapters"/"Show Notes" list of `**MM.SS** Title` items becomes clickable chapters that seek the
+  Spotify player (Spotify iFrame API) when the embed is an episode embed.
+- Includes: `episode-vars.html` (derives number, format, stamp, short title, guests and byline from a post — use it
+  rather than re-parsing titles), `ticket.html`, `people.html`, `avatar.html`, `guest-band.html` (the "N episodes and
+  counting" number is computed from `site.posts`), `logo.svg`, `seo.html`.
+- `_data/hosts.yml` — the three hosts (bios, photos in `assets/images/hosts/`, links).
+- `assets/css/main.scss` — the one stylesheet. Tokens and shared components (nav, buttons, stamps, avatars, the cooling
+  rack and tickets) at the top, then one block per page. Palette: butter `#FED46D`, ink `#45423D`, dough `#F0D6AB`,
+  flour `#FFF9EC`, crust `#B8561E` (stamps/accents only), rack `#2F2D2A`, steel `#8F8A80`, Season 1 `#8A7A5C`. Fonts:
+  Rubik Mono One (display), Rubik (body), JetBrains Mono (utility). It is compiled by libsass, which evaluates `min()`
+  and `max()` itself: wrap CSS ones as `#{'min(...)'}`.
+- `assets/js/site.js` — rack arrows and drag, archive filters and search (`?f=` / `?q=` in the URL), chapters,
+  copy-link. The site works without it.
 
-Standalone pages live in `_pages/` and each declares its own `permalink`.
+Plugins (all must be in the `Gemfile`, since CI runs `bundle exec jekyll build`): `jekyll-redirect-from` (old slugs,
+`/contact` → `/guest`, the old `/pageN/`, `/tags/` and `/categories/` URLs → `/episodes`), `jekyll-sitemap`,
+`jekyll-feed` (`/feed.xml`), `jemoji`. Standalone pages live in `_pages/` and each declares its own `permalink`.
