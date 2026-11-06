@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <!-- begin _includes/seo.html --><title>#07 - VelocityX and Flutter with Pawan Kumar - The Developers’ Bakery</title>
+<meta name="description" content="It’s time to talk about Flutter and Cross-platform development with Pawan Kumar and his framework VelocityX.">
+
+
+  <meta name="author" content="The Developers' Bakery">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_GB">
+<meta property="og:site_name" content="The Developers' Bakery">
+<meta property="og:title" content="#07 - VelocityX and Flutter with Pawan Kumar">
+<meta property="og:url" content="https://thebakery.dev/pr-preview/pr-263/07/">
+
+
+  <meta property="og:description" content="It’s time to talk about Flutter and Cross-platform development with Pawan Kumar and his framework VelocityX.">
+
+
+
+  <meta property="og:image" content="https://thebakery.dev/pr-preview/pr-263/assets/images/episodes/07-og.png">
+
+
+
+  <meta name="twitter:site" content="@thebakerydev">
+  <meta name="twitter:title" content="#07 - VelocityX and Flutter with Pawan Kumar">
+  <meta name="twitter:description" content="It’s time to talk about Flutter and Cross-platform development with Pawan Kumar and his framework VelocityX.">
+  <meta name="twitter:url" content="https://thebakery.dev/pr-preview/pr-263/07/">
+
+  
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://thebakery.dev/pr-preview/pr-263/assets/images/episodes/07-og.png">
+  
+
+  
+    <meta name="twitter:creator" content="@thebakerydev">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="The Developers' Bakery">
+  
+
+  
+    <meta name="twitter:label2" content="Published in">
+    <meta name="twitter:data2" content="">
+  
+
+
+
+  <meta property="article:published_time" content="2021-03-01T12:00:00+00:00">
+
+
+
+
+
+
+<link rel="canonical" href="https://thebakery.dev/pr-preview/pr-263/07/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "The Developers' Bakery",
+      "url": "https://thebakery.dev/pr-preview/pr-263",
+      "sameAs": ["https://x.com/thebakerydev","https://x.com/cortinico"]
+    }
+  </script>
+
+
+
+
+
+
+
+
+<link href="/podcast.xml" type="application/rss+xml" rel="alternate" title="The Developers' Bakery Podcast Feed">
+<!-- end _includes/seo.html -->
+
+  <link rel="alternate" type="application/rss+xml" title="The Developers' Bakery (podcast feed)" href="https://thebakery.dev/pr-preview/pr-263/podcast">
+  <link type="application/atom+xml" rel="alternate" href="https://thebakery.dev/pr-preview/pr-263/feed.xml" title="The Developers&apos; Bakery" />
+  <link rel="icon" href="/pr-preview/pr-263/favicon.ico">
+  <link rel="apple-touch-icon" href="/pr-preview/pr-263/assets/images/avatar.png">
+  <meta name="theme-color" content="#FED46D">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Icons used inside older show notes (fa-github, fa-link, ...) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="/pr-preview/pr-263/assets/css/main.css">
+</head>
+<body class="page-episode">
+<a class="skip" href="#main">Skip to content</a>
+<header class="wrap nav">
+  <a class="brand" href="/pr-preview/pr-263/" aria-label="The Developers' Bakery, home">
+    <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M17 22 L5 32 L17 42" fill="none" stroke="#45423D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><path d="M47 22 L59 32 L47 42" fill="none" stroke="#45423D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><g transform="rotate(26 32 32)"><rect x="28.5" y="3" width="7" height="12" rx="3.5" fill="#F0D6AB" stroke="#45423D" stroke-width="3"/><rect x="28.5" y="49" width="7" height="12" rx="3.5" fill="#F0D6AB" stroke="#45423D" stroke-width="3"/><rect x="24" y="14" width="16" height="36" rx="2" fill="#F0D6AB" stroke="#45423D" stroke-width="3"/></g></svg>
+
+    <span>The Developers<span class="apos">’</span><br>Bakery</span>
+  </a>
+  <nav aria-label="Main"><ul>
+    <li><a href="/pr-preview/pr-263/episodes" aria-current="page">Episodes</a></li>
+    <li><a href="/pr-preview/pr-263/#formats">Formats</a></li>
+    <li><a href="/pr-preview/pr-263/about">About</a></li>
+    <li><a href="/pr-preview/pr-263/guest">Be a guest</a></li>
+  </ul></nav>
+  <a class="btn" href="#player">Listen</a>
+</header>
+
+<main id="main">
+<section class="wrap ep-head">
+  <div>
+    <p class="crumb mono"><a href="/pr-preview/pr-263/episodes">Episodes</a> / #7</p>
+    <div class="numrow"><span class="n">#7</span><span class="stamp stamp--s1">Season 1</span></div>
+    <h1>VelocityX and Flutter with Pawan Kumar</h1>
+    <p class="excerpt">It's time to talk about Flutter and Cross-platform development with Pawan Kumar and his framework VelocityX.</p>
+    <div class="meta">
+      <span class="people"><img src="/pr-preview/pr-263/assets/images/guests/07.jpg" alt="Pawan Kumar" width="44" height="44" loading="lazy"></span>
+
+      <span class="mono">Pawan Kumar · 1 Mar 2021 · 43:02</span>
+    </div>
+  </div>
+  <img class="art" src="/pr-preview/pr-263/assets/images/episodes/07-cover.png" alt="Episode 7 artwork" width="340" height="340">
+</section>
+
+<section class="wrap player" id="player">
+  <div class="embed" data-player><iframe src="https://open.spotify.com/embed-podcast/episode/2j4DhpqS83zeCJWQGdidOF" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
+  <div class="also"><span class="mono" style="opacity:.7">Also on</span>
+    <a class="btn btn--ghost btn--sm" href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k">Spotify</a>
+    <a class="btn btn--ghost btn--sm" href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">Apple Podcasts</a>
+    <a class="btn btn--ghost btn--sm" href="https://pca.st/vq8ml6pl">Pocket Casts</a>
+    <a class="btn btn--ghost btn--sm" href="/pr-preview/pr-263/podcast">RSS</a>
+  </div>
+</section>
+
+<section class="paper notes">
+  <div class="wrap">
+    <article class="prose" data-notes>
+      
+
+<p>Do you know Flutter 💙 ? I bet you do, if you’re into mobile development. Today, we have <a href="https://twitter.com/imthepk">Pawan Kumar</a> on stage, he’s a <strong>Flutter &amp; Dart</strong> GDE and he is on stage to advocate for cross-platform development.</p>
+
+<p>Pawan is the author of <a href="https://velocityx.dev/"><strong>VelocityX</strong></a>, a framework that will make your UI development experience even faster. He will tell us more about this framework, how it started and what the inspiration came from.</p>
+
+<p>Also, make sure to don’t miss the bonus question <strong>Kotlin vs Dart</strong> (39:50) ⁉️</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00:37</strong> Intro</li>
+  <li><strong>01:12</strong> Episode Start</li>
+  <li><strong>02:02</strong> Pawan’s Introduction</li>
+  <li><strong>03:00</strong> What is Flutter?</li>
+  <li><strong>05:11</strong> Android Native vs Flutter?</li>
+  <li><strong>08:12</strong> Kotlin Multiplatform vs Flutter?</li>
+  <li><strong>10:43</strong> What is VelocityX?</li>
+  <li><strong>15:51</strong> VelocityX Key Features</li>
+  <li><strong>18:12</strong> State Management &amp; VelocityX</li>
+  <li><strong>20:41</strong> Who is using VelocityX?</li>
+  <li><strong>22:58</strong> Open-source examples?</li>
+  <li><strong>24:50</strong> What inspired VelocityX?</li>
+  <li><strong>28:30</strong> Is VelocityX production ready?</li>
+  <li><strong>30:02</strong> What’s missing in VelocityX?</li>
+  <li><strong>32:35</strong> Contributing to VelocityX</li>
+  <li><strong>34:50</strong> VelocityX’s future</li>
+  <li><strong>37:36</strong> Learning Material</li>
+  <li><strong>38:50</strong> Where to find Pawan online?</li>
+  <li><strong>39:50</strong> Bonus question: Kotlin vs Dart?</li>
+</ul>
+
+
+
+      <h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/iampawan/VelocityX">VelocityX on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://velocityx.dev/">VelocityX Official Documentation</a></li>
+  <li><i class="fab fa-youtube"></i> <a href="https://youtu.be/Peo5Wuos8CM">VxToast #1 - Flutter Meets VelocityX</a></li>
+  <li>
+    <p><i class="fab fa-github"></i> <a href="https://github.com/iampawan/PortfolioX">PortfolioX Sample App</a></p>
+  </li>
+  <li>Other mentioned frameworks and packages:
+    <ul>
+      <li><a href="https://pub.dev/packages/provider">provider package for Flutter</a></li>
+      <li><a href="https://tailwindcss.com/">Tailwind CSS</a></li>
+      <li><a href="https://developer.apple.com/xcode/swiftui">Swift UI</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="pawans-contacts">Pawan’s Contacts</h1>
+
+<ul>
+  <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/mtechviral">@mtechviral on Youtube</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/iampawan">@iampawan on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/imthepk">@imthepk on Twitter</a></li>
+</ul>
+
+
+    </article>
+
+    <aside class="side">
+      <div class="card card--butter mic">
+        <span class="mono">On the mic</span>
+        <div class="row"><img src="/pr-preview/pr-263/assets/images/guests/07.jpg" alt="Pawan Kumar" width="44" height="44" loading="lazy"><div><b>Pawan Kumar</b><small><a href="https://github.com/iampawan">@iampawan</a> · Guest</small></div></div>
+        <div class="row"><img src="/pr-preview/pr-263/assets/images/hosts/cortinico.jpg" alt="" width="44" height="44" loading="lazy"><div><b>Nicola Corti</b><small><a href="https://github.com/cortinico">@cortinico</a> · Host</small></div></div>
+      </div>
+      <div class="card share">
+        <span class="mono">Share this episode</span>
+        <b>thebakery.dev/7</b>
+        <button type="button" data-copy="https://thebakery.dev/pr-preview/pr-263/07/">Copy link</button> ·
+        <a href="https://x.com/intent/post?url=https%3A%2F%2Fthebakery.dev%2Fpr-preview%2Fpr-263%2F07%2F&amp;text=VelocityX+and+Flutter+with+Pawan+Kumar">X</a> ·
+        <a href="https://bsky.app/intent/compose?text=VelocityX+and+Flutter+with+Pawan+Kumar+https%3A%2F%2Fthebakery.dev%2Fpr-preview%2Fpr-263%2F07%2F">Bluesky</a> ·
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fthebakery.dev%2Fpr-preview%2Fpr-263%2F07%2F">LinkedIn</a>
+      </div>
+      <div class="card card--ink">
+        <b>Got a story worth baking?</b>
+        <a href="/pr-preview/pr-263/guest">We're looking for Deep Dive guests. Pitch an episode →</a>
+      </div>
+    </aside>
+  </div>
+</section>
+<section class="rack more" aria-labelledby="more-title">
+  <div class="wrap">
+    <div class="section-head">
+      <div><p class="mono eyebrow-label">Previous &amp; next</p><h2 class="title" id="more-title">More from the oven</h2></div>
+      <a class="btn btn--butter" href="/pr-preview/pr-263/episodes">All episodes</a>
+    </div>
+    <div class="bar" aria-hidden="true"></div>
+    <ol class="tickets tickets--wrap"><li class="ticket-wrap" style="--i:0" data-format="season-1" data-search="6 koin with arnaud giuliani with arnaud giuliani are you up for some dependency injection? because today we have arnaud giuliani on stage, to talk about koin, a di framework for kotlin, android and more!"><span class="clip" aria-hidden="true"></span><article class="ticket">
+  <div class="ticket__top"><span class="ticket__num">#6</span><span class="people"><img src="/pr-preview/pr-263/assets/images/guests/06.jpg" alt="Arnaud Giuliani" width="44" height="44" loading="lazy"></span>
+</div>
+  <span class="stamp stamp--s1">Season 1</span>
+  <h4><a href="/pr-preview/pr-263/06/">Koin</a></h4><p class="who">with Arnaud Giuliani</p>
+  <dl><dt>Bake time</dt><dd>51:03</dd><dt>Out</dt><dd>15 Feb 2021</dd></dl></article></li>
+<li class="ticket-wrap" style="--i:1" data-format="season-1" data-search="8 tuist with pedro piñera buendía with pedro piñera buendía today we have pedro on stage to tell us how to build ios projects with tuist!"><span class="clip" aria-hidden="true"></span><article class="ticket">
+  <div class="ticket__top"><span class="ticket__num">#8</span><span class="people"><img src="/pr-preview/pr-263/assets/images/guests/08.jpg" alt="Pedro Piñera Buendía" width="44" height="44" loading="lazy"></span>
+</div>
+  <span class="stamp stamp--s1">Season 1</span>
+  <h4><a href="/pr-preview/pr-263/08/">Tuist</a></h4><p class="who">with Pedro Piñera Buendía</p>
+  <dl><dt>Bake time</dt><dd>45:11</dd><dt>Out</dt><dd>15 Mar 2021</dd></dl></article></li>
+
+    </ol>
+    <div class="nextprev mono"><a href="/pr-preview/pr-263/06/">← Previous: #6</a><a href="/pr-preview/pr-263/08/">Next: #8 →</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <span>© 2026 The Developers' Bakery</span>
+    <nav aria-label="Footer">
+      <a href="https://x.com/thebakerydev">@thebakerydev</a>
+      <a href="mailto:info@thebakery.dev">info@thebakery.dev</a>
+      <a href="/pr-preview/pr-263/podcast">RSS feed</a>
+      <a href="https://buymeacoffee.com/cortinico">Buy us a coffee</a>
+    </nav>
+  </div>
+</footer>
+<script src="/pr-preview/pr-263/assets/js/site.js" defer></script>
+</body>
+</html>
