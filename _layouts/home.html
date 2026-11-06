@@ -17,9 +17,6 @@ body_class: home
       <a class="btn btn--ghost" href="{{ site.links.pocketcasts }}">Pocket Casts</a>
       <a class="btn btn--ghost" href="{{ site.links.rss | relative_url }}">RSS</a>
     </div>
-    {%- if embed contains '<iframe' %}{% unless embed contains '<!--' %}
-    <div class="embed hero__player">{{ embed | replace: 'height="352"', 'height="152"' | replace: 'height="232"', 'height="152"' }}</div>
-    {%- endunless %}{% endif %}
   </div>
 
   {%- if latest %}
@@ -31,7 +28,9 @@ body_class: home
     </div>
     <h2 id="now-title"><a href="{{ latest.url | relative_url }}">{{ ev_title }}</a></h2>
     <p>{{ latest.description | default: latest.excerpt | strip_html }}</p>
-    <a class="btn btn--sm now__listen" href="{{ latest.url | relative_url }}">Listen to #{{ ev_num }} <span aria-hidden="true">→</span></a>
+    {%- if embed contains '<iframe' %}{% unless embed contains '<!--' %}
+    <div class="embed">{{ embed | replace: 'height="352"', 'height="232"' | replace: 'height="152"', 'height="232"' }}</div>
+    {%- endunless %}{% endif %}
   </article>
   {%- endif %}
 </section>
