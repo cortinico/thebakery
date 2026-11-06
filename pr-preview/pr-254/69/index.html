@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <!-- begin _includes/seo.html --><title>#69 - compose-rules with Nacho Lopez - The Developers’ Bakery</title>
+<meta name="description" content="Linting and Inspecting Jetpack Compose code with Compose Rules and Nacho Lopez">
+
+
+  <meta name="author" content="The Developers' Bakery">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_GB">
+<meta property="og:site_name" content="The Developers' Bakery">
+<meta property="og:title" content="#69 - compose-rules with Nacho Lopez">
+<meta property="og:url" content="https://thebakery.dev/pr-preview/pr-254/69/">
+
+
+  <meta property="og:description" content="Linting and Inspecting Jetpack Compose code with Compose Rules and Nacho Lopez">
+
+
+
+  <meta property="og:image" content="https://thebakery.dev/pr-preview/pr-254/assets/images/episodes/69-og.png">
+
+
+
+  <meta name="twitter:site" content="@thebakerydev">
+  <meta name="twitter:title" content="#69 - compose-rules with Nacho Lopez">
+  <meta name="twitter:description" content="Linting and Inspecting Jetpack Compose code with Compose Rules and Nacho Lopez">
+  <meta name="twitter:url" content="https://thebakery.dev/pr-preview/pr-254/69/">
+
+  
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://thebakery.dev/pr-preview/pr-254/assets/images/episodes/69-og.png">
+  
+
+  
+    <meta name="twitter:creator" content="@thebakerydev">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="The Developers' Bakery">
+  
+
+  
+    <meta name="twitter:label2" content="Published in">
+    <meta name="twitter:data2" content="">
+  
+
+
+
+  <meta property="article:published_time" content="2023-10-25T13:00:00+01:00">
+
+
+
+
+
+
+<link rel="canonical" href="https://thebakery.dev/pr-preview/pr-254/69/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "The Developers' Bakery",
+      "url": "https://thebakery.dev/pr-preview/pr-254",
+      "sameAs": ["https://x.com/thebakerydev","https://x.com/cortinico"]
+    }
+  </script>
+
+
+
+
+
+
+
+
+<link href="/podcast.xml" type="application/rss+xml" rel="alternate" title="The Developers' Bakery Podcast Feed">
+<!-- end _includes/seo.html -->
+
+  <link rel="alternate" type="application/rss+xml" title="The Developers' Bakery (podcast feed)" href="https://thebakery.dev/pr-preview/pr-254/podcast">
+  <link type="application/atom+xml" rel="alternate" href="https://thebakery.dev/pr-preview/pr-254/feed.xml" title="The Developers&apos; Bakery" />
+  <link rel="icon" href="/pr-preview/pr-254/favicon.ico">
+  <link rel="apple-touch-icon" href="/pr-preview/pr-254/assets/images/avatar.png">
+  <meta name="theme-color" content="#FED46D">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Icons used inside older show notes (fa-github, fa-link, ...) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="/pr-preview/pr-254/assets/css/main.css">
+</head>
+<body class="page-episode">
+<a class="skip" href="#main">Skip to content</a>
+<header class="wrap nav">
+  <a class="brand" href="/pr-preview/pr-254/" aria-label="The Developers' Bakery, home">
+    <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M17 22 L5 32 L17 42" fill="none" stroke="#45423D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><path d="M47 22 L59 32 L47 42" fill="none" stroke="#45423D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><g transform="rotate(26 32 32)"><rect x="28.5" y="3" width="7" height="12" rx="3.5" fill="#F0D6AB" stroke="#45423D" stroke-width="3"/><rect x="28.5" y="49" width="7" height="12" rx="3.5" fill="#F0D6AB" stroke="#45423D" stroke-width="3"/><rect x="24" y="14" width="16" height="36" rx="2" fill="#F0D6AB" stroke="#45423D" stroke-width="3"/></g></svg>
+
+    <span>The Developers'<br>Bakery</span>
+  </a>
+  <nav aria-label="Main"><ul>
+    <li><a href="/pr-preview/pr-254/episodes" aria-current="page">Episodes</a></li>
+    <li><a href="/pr-preview/pr-254/#formats">Formats</a></li>
+    <li><a href="/pr-preview/pr-254/about">About</a></li>
+    <li><a href="/pr-preview/pr-254/guest">Be a guest</a></li>
+  </ul></nav>
+  <a class="btn" href="#player">Listen</a>
+</header>
+
+<main id="main">
+<section class="wrap ep-head">
+  <div>
+    <p class="crumb mono"><a href="/pr-preview/pr-254/episodes">Episodes</a> / #69</p>
+    <div class="numrow"><span class="n">#69</span><span class="stamp stamp--s1">Season 1</span></div>
+    <h1>compose-rules with Nacho Lopez</h1>
+    <p class="excerpt">Linting and Inspecting Jetpack Compose code with Compose Rules and Nacho Lopez</p>
+    <div class="meta">
+      <span class="people"><img src="/pr-preview/pr-254/assets/images/guests/69.jpg" alt="Nacho Lopez" width="44" height="44" loading="lazy"></span>
+
+      <span class="mono">Nacho Lopez · 25 Oct 2023 · 46:05</span>
+    </div>
+  </div>
+  <img class="art" src="/pr-preview/pr-254/assets/images/episodes/69-cover.png" alt="Episode 69 artwork" width="340" height="340">
+</section>
+
+<section class="wrap player" id="player">
+  <div class="embed" data-player><iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/2URBKbJ0dD58mCb8Cu6JPD?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+  <div class="also"><span class="mono" style="opacity:.7">Also on</span>
+    <a class="btn btn--ghost btn--sm" href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k">Spotify</a>
+    <a class="btn btn--ghost btn--sm" href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">Apple Podcasts</a>
+    <a class="btn btn--ghost btn--sm" href="https://pca.st/vq8ml6pl">Pocket Casts</a>
+    <a class="btn btn--ghost btn--sm" href="/pr-preview/pr-254/podcast">RSS</a>
+  </div>
+</section>
+
+<section class="paper notes">
+  <div class="wrap">
+    <article class="prose" data-notes>
+      
+
+<p>We’re back talking about <strong>static analysis</strong> today here at The Developers’ Bakery! We’re really excited to have on stage <a href="https://twitter.com/mrmans0n"><strong>Nacho Lopez</strong></a> to talk about <a href="https://github.com/mrmans0n/compose-rules"><strong>Compose Rules</strong></a>.</p>
+
+<p>This project is a collection of linting and inspection rules for Jetpack Compose, which prevents you from making common mistakes and helps you write better and more performant UI code.
+You can use this rule with either KtLint or Detekt.</p>
+
+<p>In this episode, we’ll also touch on how this project started inside Twitter, and now ends up living into Nacho’s personal fork.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.03</strong> Nacho’s Introduction</li>
+  <li><strong>04.21</strong> What is compose-rules?</li>
+  <li><strong>08.39</strong> Compose Antipatterns</li>
+  <li><strong>13.47</strong> How to use compose-rules?</li>
+  <li><strong>15.28</strong> Writing custom rules</li>
+  <li><strong>19.56</strong> The Twitter drama</li>
+  <li><strong>29.23</strong> Living in a fork</li>
+  <li><strong>36.09</strong> What’s next for compose-rules?</li>
+  <li><strong>42.39</strong> Further reading</li>
+  <li><strong>44.41</strong> Where people can find you online?</li>
+</ul>
+
+
+
+      <h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/mrmans0n/compose-rules">mrmans0n/compose-rules on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://mrmans0n.github.io/compose-rules/">Compose Rules Official Website</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://plugins.jetbrains.com/docs/intellij/psi.html">What is the PSI?</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://plugins.jetbrains.com/docs/intellij/psi-cookbook.html">PSI Cookbook</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/mrmans0n">@mrmans0n on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/mrmans0n">@mrmans0n on Twitter</a></li>
+  <li><i class="fab fa-mastodon"></i> <a href="https://androiddev.social/@nacho">@nacho on Mastodon</a></li>
+</ul>
+
+
+    </article>
+
+    <aside class="side">
+      <div class="card card--butter mic">
+        <span class="mono">On the mic</span>
+        <div class="row"><img src="/pr-preview/pr-254/assets/images/guests/69.jpg" alt="Nacho Lopez" width="44" height="44" loading="lazy"><div><b>Nacho Lopez</b><small><a href="https://github.com/mrmans0n">@mrmans0n</a> · Guest</small></div></div>
+        <div class="row"><img src="/pr-preview/pr-254/assets/images/hosts/cortinico.jpg" alt="" width="44" height="44" loading="lazy"><div><b>Nicola Corti</b><small><a href="https://github.com/cortinico">@cortinico</a> · Host</small></div></div>
+      </div>
+      <div class="card share">
+        <span class="mono">Share this episode</span>
+        <b>thebakery.dev/69</b>
+        <button type="button" data-copy="https://thebakery.dev/pr-preview/pr-254/69/">Copy link</button> ·
+        <a href="https://x.com/intent/post?url=https%3A%2F%2Fthebakery.dev%2Fpr-preview%2Fpr-254%2F69%2F&amp;text=compose-rules+with+Nacho+Lopez">X</a> ·
+        <a href="https://bsky.app/intent/compose?text=compose-rules+with+Nacho+Lopez+https%3A%2F%2Fthebakery.dev%2Fpr-preview%2Fpr-254%2F69%2F">Bluesky</a> ·
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fthebakery.dev%2Fpr-preview%2Fpr-254%2F69%2F">LinkedIn</a>
+      </div>
+      <div class="card card--ink">
+        <b>Got a story worth baking?</b>
+        <a href="/pr-preview/pr-254/guest">We're looking for Deep Dive guests. Pitch an episode →</a>
+      </div>
+    </aside>
+  </div>
+</section>
+<section class="rack more" aria-labelledby="more-title">
+  <div class="wrap">
+    <div class="section-head">
+      <div><p class="mono eyebrow-label">Previous &amp; next</p><h2 class="title" id="more-title">More from the oven</h2></div>
+      <a class="btn btn--butter" href="/pr-preview/pr-254/episodes">All episodes</a>
+    </div>
+    <div class="bar" aria-hidden="true"></div>
+    <ol class="tickets tickets--wrap"><li class="ticket-wrap" style="--i:0" data-format="season-1" data-search="68 pandas and polars with marco gorelli with marco gorelli data science and dataframes with pandas, polars and marco gorelli"><span class="clip" aria-hidden="true"></span><article class="ticket">
+  <div class="ticket__top"><span class="ticket__num">#68</span><span class="people"><img src="/pr-preview/pr-254/assets/images/guests/68.jpg" alt="Marco Gorelli" width="44" height="44" loading="lazy"></span>
+</div>
+  <span class="stamp stamp--s1">Season 1</span>
+  <h4><a href="/pr-preview/pr-254/68/">Pandas and Polars</a></h4><p class="who">with Marco Gorelli</p>
+  <dl><dt>Bake time</dt><dd>54:40</dd><dt>Out</dt><dd>10 Oct 2023</dd></dl></article></li>
+<li class="ticket-wrap" style="--i:1" data-format="season-1" data-search="70 the educator&#39;s path with marcin moskała with marcin moskała becoming a successful educator in it with marcin moskała"><span class="clip" aria-hidden="true"></span><article class="ticket">
+  <div class="ticket__top"><span class="ticket__num">#70</span><span class="people"><img src="/pr-preview/pr-254/assets/images/guests/70.jpg" alt="Marcin Moskała" width="44" height="44" loading="lazy"></span>
+</div>
+  <span class="stamp stamp--s1">Season 1</span>
+  <h4><a href="/pr-preview/pr-254/70/">The educator's path</a></h4><p class="who">with Marcin Moskała</p>
+  <dl><dt>Bake time</dt><dd>45:22</dd><dt>Out</dt><dd>14 Nov 2023</dd></dl></article></li>
+
+    </ol>
+    <div class="nextprev mono"><a href="/pr-preview/pr-254/68/">← Previous: #68</a><a href="/pr-preview/pr-254/70/">Next: #70 →</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <span>© 2026 The Developers' Bakery</span>
+    <nav aria-label="Footer">
+      <a href="https://x.com/thebakerydev">@thebakerydev</a>
+      <a href="mailto:info@thebakery.dev">info@thebakery.dev</a>
+      <a href="/pr-preview/pr-254/podcast">RSS feed</a>
+      <a href="https://buymeacoffee.com/cortinico">Buy us a coffee</a>
+    </nav>
+  </div>
+</footer>
+<script src="/pr-preview/pr-254/assets/js/site.js" defer></script>
+</body>
+</html>
