@@ -122,7 +122,9 @@ Season 2 fields, read only by the website (never by the feed):
   `assets/images/guests/NN.png` (160px, the cover's guest image cropped the same way) and links it; #101, #103 and #105
   use hand-made face crops of their covers (`NNN.jpg`). Replace either when a better photo turns up. Fresh from the Oven episodes always show the three hosts.
   Season 1 guests live in `_data/season1_guests.yml` instead (keyed by episode number, generated once from
-  `yarn backfill-artwork --dry-run`); edit that file to fix a Season 1 face.
+  `yarn backfill-artwork --dry-run`); single-guest episodes point `photo` at `assets/images/guests/NN.jpg`, a 160px
+  crop of the guest slot of their square cover, and multi-guest ones use GitHub avatars. Edit that file to fix a
+  Season 1 face.
 - `byline` — optional override for the line under the title on tickets (default: "with <guests>", or
   "Nicola, Marco & Paolo" for Fresh from the Oven), e.g. `"Nicola in the guest chair"`.
 - `recipes` — optional Recipe of the Week picks `{host, name, url, what}` (`host` is a GitHub id from
