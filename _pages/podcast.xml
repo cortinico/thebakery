@@ -45,12 +45,14 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 </itunes:category>
 {% for ep in site.posts %}
     <item>
+        {%- comment -%} Season 1 (no format, #0-#99) was hosted by Nicola alone. {%- endcomment -%}
+        {% if ep.format %}{% assign ep_author = site.podcast_author %}{% else %}{% assign ep_author = site.podcast_author_season1 %}{% endif %}
         {% assign title = ep.title | split: ' - ' %}
         <title>{{ title[1] | strip }}</title>
         <itunes:title>{{ title[1] | strip }}</itunes:title>
         <link>{{ site.url }}{{ ep.url }}</link>
         <pubDate>{{ ep.date | date: "%a, %d %b %Y %T %z" }}</pubDate>
-        <dc:creator>{{ site.podcast_author }}</dc:creator>
+        <dc:creator>{{ ep_author }}</dc:creator>
         <guid isPermaLink="true">{{ site.url }}{{ ep.url }}</guid>
         {% if ep.podcast_episode_type %}
             <itunes:episodeType>{{ ep.podcast_episode_type }}</itunes:episodeType>
@@ -74,7 +76,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
             <![CDATA[{{ content[1] | strip | expand_urls: site.url | cdata_escape }}]]>
         </content:encoded>
 
-        <itunes:author>{{ site.podcast_author }}</itunes:author>
+        <itunes:author>{{ ep_author }}</itunes:author>
         <itunes:image href="{{ site.url }}{{ ep.podcast_image }}" />
         <itunes:explicit>{{ site.podcast_explicit }}</itunes:explicit>
         <itunes:duration>{{ ep.podcast_duration }}</itunes:duration>
