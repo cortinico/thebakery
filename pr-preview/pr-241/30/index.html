@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <!-- begin _includes/seo.html --><title>#30 - Detekt with The Detekt Maintainers - The Developers’ Bakery</title>
+<meta name="description" content="We’re celebrating #30 with a special episode with the maintainers of Detekt, the Kotlin static analyizer">
+
+
+  <meta name="author" content="The Developers' Bakery">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_GB">
+<meta property="og:site_name" content="The Developers' Bakery">
+<meta property="og:title" content="#30 - Detekt with The Detekt Maintainers">
+<meta property="og:url" content="https://thebakery.dev/pr-preview/pr-241/30/">
+
+
+  <meta property="og:description" content="We’re celebrating #30 with a special episode with the maintainers of Detekt, the Kotlin static analyizer">
+
+
+
+  <meta property="og:image" content="https://thebakery.dev/pr-preview/pr-241/assets/images/episodes/30-og.png">
+
+
+
+  <meta name="twitter:site" content="@thebakerydev">
+  <meta name="twitter:title" content="#30 - Detekt with The Detekt Maintainers">
+  <meta name="twitter:description" content="We’re celebrating #30 with a special episode with the maintainers of Detekt, the Kotlin static analyizer">
+  <meta name="twitter:url" content="https://thebakery.dev/pr-preview/pr-241/30/">
+
+  
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://thebakery.dev/pr-preview/pr-241/assets/images/episodes/30-og.png">
+  
+
+  
+    <meta name="twitter:creator" content="@thebakerydev">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="The Developers' Bakery">
+  
+
+  
+    <meta name="twitter:label2" content="Published in">
+    <meta name="twitter:data2" content="">
+  
+
+
+
+  <meta property="article:published_time" content="2022-03-21T12:00:00+00:00">
+
+
+
+
+
+
+<link rel="canonical" href="https://thebakery.dev/pr-preview/pr-241/30/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "The Developers' Bakery",
+      "url": "https://thebakery.dev/pr-preview/pr-241",
+      "sameAs": ["https://x.com/thebakerydev","https://x.com/cortinico"]
+    }
+  </script>
+
+
+
+
+
+
+
+
+<link href="/podcast.xml" type="application/rss+xml" rel="alternate" title="The Developers' Bakery Podcast Feed">
+<!-- end _includes/seo.html -->
+
+  <link rel="alternate" type="application/rss+xml" title="The Developers' Bakery (podcast feed)" href="https://thebakery.dev/pr-preview/pr-241/podcast">
+  <link type="application/atom+xml" rel="alternate" href="https://thebakery.dev/pr-preview/pr-241/feed.xml" title="The Developers&apos; Bakery" />
+  <link rel="icon" href="/pr-preview/pr-241/favicon.ico">
+  <link rel="apple-touch-icon" href="/pr-preview/pr-241/assets/images/avatar.png">
+  <meta name="theme-color" content="#FED46D">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Icons used inside older show notes (fa-github, fa-link, ...) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="/pr-preview/pr-241/assets/css/main.css">
+</head>
+<body class="page-episode">
+<a class="skip" href="#main">Skip to content</a>
+<header class="wrap nav">
+  <a class="brand" href="/pr-preview/pr-241/" aria-label="The Developers' Bakery, home">
+    <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M17 22 L5 32 L17 42" fill="none" stroke="#45423D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><path d="M47 22 L59 32 L47 42" fill="none" stroke="#45423D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><g transform="rotate(26 32 32)"><rect x="28.5" y="3" width="7" height="12" rx="3.5" fill="#F0D6AB" stroke="#45423D" stroke-width="3"/><rect x="28.5" y="49" width="7" height="12" rx="3.5" fill="#F0D6AB" stroke="#45423D" stroke-width="3"/><rect x="24" y="14" width="16" height="36" rx="2" fill="#F0D6AB" stroke="#45423D" stroke-width="3"/></g></svg>
+
+    <span>The Developers'<br>Bakery</span>
+  </a>
+  <nav aria-label="Main"><ul>
+    <li><a href="/pr-preview/pr-241/episodes" aria-current="page">Episodes</a></li>
+    <li><a href="/pr-preview/pr-241/#formats">Formats</a></li>
+    <li><a href="/pr-preview/pr-241/about">About</a></li>
+    <li><a href="/pr-preview/pr-241/guest">Be a guest</a></li>
+  </ul></nav>
+  <a class="btn" href="#player">Listen</a>
+</header>
+
+<main id="main">
+<section class="wrap ep-head">
+  <div>
+    <p class="crumb mono"><a href="/pr-preview/pr-241/episodes">Episodes</a> / #30</p>
+    <div class="numrow"><span class="n">#30</span><span class="stamp stamp--s1">Season 1</span></div>
+    <h1>Detekt with The Detekt Maintainers</h1>
+    <p class="excerpt">We're celebrating #30 with a special episode with the maintainers of Detekt, the Kotlin static analyizer</p>
+    <div class="meta">
+      <span class="people"><img src="/pr-preview/pr-241/assets/images/guests/30.jpg" alt="The Detekt Maintainers" width="44" height="44" loading="lazy"></span>
+
+      <span class="mono">The Detekt Maintainers · 21 Mar 2022 · 01:16:43</span>
+    </div>
+  </div>
+  <img class="art" src="/pr-preview/pr-241/assets/images/episodes/30-cover.png" alt="Episode 30 artwork" width="340" height="340">
+</section>
+
+<section class="wrap player" id="player">
+  <div class="embed" data-player><iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/1OTCEfqNYkJfTzXVzvwcDd?utm_source=generator" width="100%" height="232" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe></div>
+  <div class="also"><span class="mono" style="opacity:.7">Also on</span>
+    <a class="btn btn--ghost btn--sm" href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k">Spotify</a>
+    <a class="btn btn--ghost btn--sm" href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">Apple Podcasts</a>
+    <a class="btn btn--ghost btn--sm" href="https://pca.st/vq8ml6pl">Pocket Casts</a>
+    <a class="btn btn--ghost btn--sm" href="/pr-preview/pr-241/podcast">RSS</a>
+  </div>
+</section>
+
+<section class="paper notes">
+  <div class="wrap">
+    <article class="prose" data-notes>
+      
+
+<p>Today, we celebrate <strong>episode #30</strong> of the Developers’ Bakery 🥐🎉</p>
+
+<p>We do so with a special episode and <strong>three special guests</strong>: <a href="https://twitter.com/BraisGabin"><strong>Brais Gabin</strong></a>, <a href="https://twitter.com/chao2zhang"><strong>Chao Zhang</strong></a> and <a href="https://twitter.com/marschwar"><strong>Markus Schwarz</strong></a>.</p>
+
+<p>They are, together with Nicola, some of the <strong>maintainers of <a href="https://detekt.dev/">Detekt</a></strong>, the Kotlin static analyzer.</p>
+
+<p>In this episode we will walk you through some of the features of Detekt, how it integrates with Android &amp; Kotlin Multiplatform projects and much more. You’ll get to hear some hidden gems like the maintainers <strong>favorite rules</strong> or some stories about <strong>the history</strong> of this project.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.14</strong> Intro</li>
+  <li><strong>01.00</strong> Episode Start</li>
+  <li><strong>01.54</strong> Markus’ Introduction</li>
+  <li><strong>02.33</strong> Chao’s Introduction</li>
+  <li><strong>03.07</strong> Brais’ Introduction</li>
+  <li><strong>04.56</strong> What is Detekt?</li>
+  <li><strong>08.10</strong> How to use Detekt?</li>
+  <li><strong>10.31</strong> Extending Detekt</li>
+  <li><strong>14.25</strong> Markus’ Favorite Rules</li>
+  <li><strong>15.43</strong> Brais’ Favorite Rules</li>
+  <li><strong>17.33</strong> Chao’s Favorite Rules</li>
+  <li><strong>19.48</strong> Nicola’s Favorite Rules</li>
+  <li><strong>22.56</strong> What is Type Resolution?</li>
+  <li><strong>26.44</strong> Using Detekt with Android &amp; Kotlin Multiplatform</li>
+  <li><strong>29.38</strong> Detekt’s Documentation Pipeline</li>
+  <li><strong>34.04</strong> What is SARIF?</li>
+  <li><strong>37.48</strong> How Chao got involved in this project</li>
+  <li><strong>39.50</strong> How Markus got involved in this project?</li>
+  <li><strong>43.04</strong> How Brais got involved in this project?</li>
+  <li><strong>46.14</strong> How Nicola got involved in this project?</li>
+  <li><strong>48.52</strong> How Detekt started?</li>
+  <li><strong>51.22</strong> How to get involved in this project?</li>
+  <li><strong>55.17</strong> Where to start contributing from?</li>
+  <li><strong>61.34</strong> What would like in the future of Detekt, Brais?</li>
+  <li><strong>63.05</strong> What would like in the future of Detekt, Chao?</li>
+  <li><strong>64.44</strong> What would like in the future of Detekt, Markus?</li>
+  <li><strong>66.48</strong> What would like in the future of Detekt, Nicola?</li>
+  <li><strong>71.36</strong> Further reading</li>
+  <li><strong>74.37</strong> Where people can find you online?</li>
+</ul>
+
+
+
+      <h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/detekt/detekt">detekt/detekt on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://detekt.dev/">Detekt Official Website</a></li>
+  <li><i class="fab fa-slack"></i> <a href="https://kotlinlang.slack.com/archives/C88E12QH4">#detekt on Kotlinlang Slack</a> (get an <a href="https://surveys.jetbrains.com/s3/kotlin-slack-sign-up">invite here</a>)</li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-book"></i> <a href="https://leanpub.com/effectivekotlin">Effective Kotlin by Marcin Moskala</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://sarifweb.azurewebsites.net/">SARIF Home Page</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/detekt/detekt-compiler-plugin">Detekt Compiler Plugin</a></li>
+      <li><i class="fab fa-youtube"></i> <a href="https://www.droidcon.com/2021/11/17/detekt-state-of-the-union-2/">Detekt - State of the Union - Droidcon London 2021</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://github.com/detekt/detekt#mentions">List of articles mentioning Detekt</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://www.jetbrains.com/help/idea/psi-viewer.html">PSI Viewer - IntelliJ Plugins</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="maintainers-contacts">Maintainers’ Contacts</h1>
+
+<ul>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/BraisGabin">@BraisGabin on Twitter</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/BraisGabin">@BraisGabin on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/chao2zhang">@chao2zhang on Twitter</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/chao2zhang">@chao2zhang on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/cortinico">@cortinico on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/marschwar">@marschwar on Twitter</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/marschwar">@marschwar on Github</a></li>
+</ul>
+
+
+    </article>
+
+    <aside class="side">
+      <div class="card card--butter mic">
+        <span class="mono">On the mic</span>
+        <div class="row"><img src="/pr-preview/pr-241/assets/images/guests/30.jpg" alt="The Detekt Maintainers" width="44" height="44" loading="lazy"><div><b>The Detekt Maintainers</b><small><a href="https://github.com/detekt">@detekt</a> · Guest</small></div></div>
+        <div class="row"><img src="/pr-preview/pr-241/assets/images/hosts/cortinico.jpg" alt="" width="44" height="44" loading="lazy"><div><b>Nicola Corti</b><small><a href="https://github.com/cortinico">@cortinico</a> · Host</small></div></div>
+      </div>
+      <div class="card share">
+        <span class="mono">Share this episode</span>
+        <b>thebakery.dev/30</b>
+        <button type="button" data-copy="https://thebakery.dev/pr-preview/pr-241/30/">Copy link</button> ·
+        <a href="https://x.com/intent/post?url=https%3A%2F%2Fthebakery.dev%2Fpr-preview%2Fpr-241%2F30%2F&amp;text=Detekt+with+The+Detekt+Maintainers">X</a> ·
+        <a href="https://bsky.app/intent/compose?text=Detekt+with+The+Detekt+Maintainers+https%3A%2F%2Fthebakery.dev%2Fpr-preview%2Fpr-241%2F30%2F">Bluesky</a> ·
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fthebakery.dev%2Fpr-preview%2Fpr-241%2F30%2F">LinkedIn</a>
+      </div>
+      <div class="card card--ink">
+        <b>Got a story worth baking?</b>
+        <a href="/pr-preview/pr-241/guest">We're looking for Deep Dive guests. Pitch an episode →</a>
+      </div>
+    </aside>
+  </div>
+</section>
+<section class="rack more" aria-labelledby="more-title">
+  <div class="wrap">
+    <div class="section-head">
+      <div><p class="mono eyebrow-label">Previous &amp; next</p><h2 class="title" id="more-title">More from the oven</h2></div>
+      <a class="btn btn--butter" href="/pr-preview/pr-241/episodes">All episodes</a>
+    </div>
+    <div class="bar" aria-hidden="true"></div>
+    <ol class="tickets tickets--wrap"><li class="ticket-wrap" style="--i:0" data-format="season-1" data-search="29 kodein with salomon brys with salomon brys it&#39;s time to spotlight another dependency injection framework for kotlin: please welcome salomon with kodein"><span class="clip" aria-hidden="true"></span><article class="ticket">
+  <div class="ticket__top"><span class="ticket__num">#29</span><span class="people"><img src="/pr-preview/pr-241/assets/images/guests/29.jpg" alt="Salomon Brys" width="44" height="44" loading="lazy"></span>
+</div>
+  <span class="stamp stamp--s1">Season 1</span>
+  <h4><a href="/pr-preview/pr-241/29/">Kodein</a></h4><p class="who">with Salomon Brys</p>
+  <dl><dt>Bake time</dt><dd>47:05</dd><dt>Out</dt><dd>7 Mar 2022</dd></dl></article></li>
+<li class="ticket-wrap" style="--i:1" data-format="season-1" data-search="31 dependency analysis android gradle plugin with tony robalik with tony robalik gradle, graphs and urban planning with tony robalik"><span class="clip" aria-hidden="true"></span><article class="ticket">
+  <div class="ticket__top"><span class="ticket__num">#31</span><span class="people"><img src="/pr-preview/pr-241/assets/images/guests/31.jpg" alt="Tony Robalik" width="44" height="44" loading="lazy"></span>
+</div>
+  <span class="stamp stamp--s1">Season 1</span>
+  <h4><a href="/pr-preview/pr-241/31/">Dependency Analysis Android Gradle Plugin</a></h4><p class="who">with Tony Robalik</p>
+  <dl><dt>Bake time</dt><dd>49:20</dd><dt>Out</dt><dd>5 Apr 2022</dd></dl></article></li>
+
+    </ol>
+    <div class="nextprev mono"><a href="/pr-preview/pr-241/29/">← Previous: #29</a><a href="/pr-preview/pr-241/31/">Next: #31 →</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <span>© 2026 The Developers' Bakery</span>
+    <nav aria-label="Footer">
+      <a href="https://x.com/thebakerydev">@thebakerydev</a>
+      <a href="mailto:info@thebakery.dev">info@thebakery.dev</a>
+      <a href="/pr-preview/pr-241/podcast">RSS feed</a>
+      <a href="https://buymeacoffee.com/cortinico">Buy us a coffee</a>
+    </nav>
+  </div>
+</footer>
+<script src="/pr-preview/pr-241/assets/js/site.js" defer></script>
+</body>
+</html>
