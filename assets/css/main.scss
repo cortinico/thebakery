@@ -172,7 +172,13 @@ img { max-width: 100%; }
   .now h2 a { text-decoration: none; }
   .now h2 a:hover { text-decoration: underline; }
   .now p { margin: 0 0 18px; font-size: 16px; }
-  @media (max-width: 900px) { .hero { grid-template-columns: 1fr; } .hero h1 { font-size: clamp(34px, 7vw, 68px); } .now { transform: rotate(.6deg); } }
+  .now-col { min-width: 0; }
+  .now-col__player { display: none; margin-top: 28px; border: 2.5px solid var(--ink); box-shadow: 6px 7px 0 var(--ink); }
+  @media (max-width: 900px) {
+    .hero { grid-template-columns: 1fr; } .hero h1 { font-size: clamp(34px, 7vw, 68px); } .now { transform: rotate(.6deg); }
+    .now__player { display: none; } .now p { margin-bottom: 0; }
+    .now-col__player { display: block; }
+  }
   @media (max-width: 480px) { .now { padding: 18px; box-shadow: 6px 8px 0 var(--ink); } }
   /* "DEVELOPERS'" is the longest word: keep it inside the gutter on small phones. */
   @media (max-width: 400px) { .hero h1 { font-size: 8.6vw; } }

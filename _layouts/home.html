@@ -3,7 +3,8 @@ layout: default
 body_class: home
 ---
 {%- assign latest = site.posts.first -%}
-{%- if latest %}{% assign embed = latest.content | split: '</iframe>' | first | append: '</iframe>' %}{% endif -%}
+{%- if latest %}{% assign embed = latest.content | split: '</iframe>' | first | append: '</iframe>' | replace: '<iframe', '<iframe loading="lazy"' %}{% endif -%}
+{%- assign has_player = false -%}{%- if embed contains '<iframe' %}{% unless embed contains '<!--' %}{% assign has_player = true %}{% endunless %}{% endif -%}
 {%- assign total = 0 -%}
 {%- for p in site.posts -%}{%- assign _n = p.title | split: ' - ' | first | remove: '#' | plus: 0 -%}{%- if _n > 0 -%}{%- assign total = total | plus: 1 -%}{%- endif -%}{%- endfor -%}
 <section class="wrap hero">
@@ -21,6 +22,7 @@ body_class: home
 
   {%- if latest %}
   {%- include episode-vars.html ep=latest %}
+  <div class="now-col">
   <article class="now" aria-labelledby="now-title">
     <div class="now__head">
       <span class="now__num">#{{ ev_num }}</span>
@@ -28,10 +30,16 @@ body_class: home
     </div>
     <h2 id="now-title"><a href="{{ latest.url | relative_url }}">{{ ev_title }}</a></h2>
     <p>{{ latest.description | default: latest.excerpt | strip_html }}</p>
-    {%- if embed contains '<iframe' %}{% unless embed contains '<!--' %}
-    <div class="embed">{{ embed | replace: 'height="352"', 'height="232"' | replace: 'height="152"', 'height="232"' }}</div>
-    {%- endunless %}{% endif %}
+    {%- comment %} The same player twice: in the ticket on wide screens, under it on phones. CSS shows one;
+    both are lazy, so the hidden one never loads. {% endcomment %}
+    {%- if has_player %}
+    <div class="embed now__player">{{ embed | replace: 'height="352"', 'height="232"' | replace: 'height="152"', 'height="232"' }}</div>
+    {%- endif %}
   </article>
+  {%- if has_player %}
+  <div class="embed now-col__player">{{ embed | replace: 'height="352"', 'height="152"' | replace: 'height="232"', 'height="152"' }}</div>
+  {%- endif %}
+  </div>
   {%- endif %}
 </section>
 
