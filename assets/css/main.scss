@@ -165,6 +165,7 @@ img { max-width: 100%; }
   .lede { font-size: clamp(18px, 1.6vw, 21px); max-width: 36ch; margin: 0 0 28px; }
   .lede strong { font-weight: 600; }
   .listen { display: flex; flex-wrap: wrap; gap: 10px; }
+  .hero__player { margin-top: 28px; box-shadow: 6px 7px 0 var(--ink); border: 2.5px solid var(--ink); }
   .now { position: relative; min-width: 0; background: var(--flour); border-radius: 6px; padding: 24px; border: 2.5px solid var(--ink); box-shadow: 10px 12px 0 var(--ink); transform: rotate(1.2deg); }
   .now__head { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; padding-bottom: 16px; border-bottom: 2.5px dashed var(--dough); }
   .now__num { font-family: var(--display); font-size: 26px; }

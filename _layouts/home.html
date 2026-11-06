@@ -3,6 +3,7 @@ layout: default
 body_class: home
 ---
 {%- assign latest = site.posts.first -%}
+{%- if latest %}{% assign embed = latest.content | split: '</iframe>' | first | append: '</iframe>' %}{% endif -%}
 {%- assign total = 0 -%}
 {%- for p in site.posts -%}{%- assign _n = p.title | split: ' - ' | first | remove: '#' | plus: 0 -%}{%- if _n > 0 -%}{%- assign total = total | plus: 1 -%}{%- endif -%}{%- endfor -%}
 <section class="wrap hero">
@@ -16,11 +17,13 @@ body_class: home
       <a class="btn btn--ghost" href="{{ site.links.pocketcasts }}">Pocket Casts</a>
       <a class="btn btn--ghost" href="{{ site.links.rss | relative_url }}">RSS</a>
     </div>
+    {%- if embed contains '<iframe' %}{% unless embed contains '<!--' %}
+    <div class="embed hero__player">{{ embed | replace: 'height="352"', 'height="152"' | replace: 'height="232"', 'height="152"' }}</div>
+    {%- endunless %}{% endif %}
   </div>
 
   {%- if latest %}
   {%- include episode-vars.html ep=latest %}
-  {%- assign embed = latest.content | split: '</iframe>' | first | append: '</iframe>' %}
   <article class="now" aria-labelledby="now-title">
     <div class="now__head">
       <span class="now__num">#{{ ev_num }}</span>
@@ -28,9 +31,7 @@ body_class: home
     </div>
     <h2 id="now-title"><a href="{{ latest.url | relative_url }}">{{ ev_title }}</a></h2>
     <p>{{ latest.description | default: latest.excerpt | strip_html }}</p>
-    {%- if embed contains '<iframe' %}{% unless embed contains '<!--' %}
-    <div class="embed">{{ embed | replace: 'height="352"', 'height="152"' }}</div>
-    {%- endunless %}{% endif %}
+    <a class="btn btn--sm now__listen" href="{{ latest.url | relative_url }}">Listen to #{{ ev_num }} <span aria-hidden="true">→</span></a>
   </article>
   {%- endif %}
 </section>
