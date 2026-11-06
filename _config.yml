@@ -8,7 +8,7 @@ locale: "en-GB"
 title: "The Developers' Bakery"
 title_separator: "-"
 name: "The Developers' Bakery"
-description: "A podcast about Developer Tools and productivity, freshly baked to you by Nicola Corti."
+description: "A podcast about developer tooling and the people who build and use it."
 url: "https://thebakery.dev"
 repository: "cortinico/thebakery"
 
@@ -44,7 +44,7 @@ social:
 author:
   name: "The Developers' Bakery"
   avatar: "/assets/images/avatar.png"
-  bio: "A Podcast about Developer tools and libraries"
+  bio: "A podcast about developer tooling and the people who build and use it."
   email: "info@thebakery.dev"
   twitter: "thebakerydev"
 
@@ -133,7 +133,7 @@ defaults:
 
 # Podcast Configuration (read by _pages/podcast.xml, the feed Apple Podcasts and Spotify use)
 podcast_url: "https://thebakery.dev/"
-podcast_copyright: "Copyright 2020 Nicola Corti"
+podcast_copyright: "© 2020–2026 The Developers' Bakery"
 podcast_album_art: "/assets/images/show-logo.png"
 podcast_title: "The Developers' Bakery"
 podcast_owner: "Nicola Corti"
@@ -142,7 +142,7 @@ podcast_category_one: "Technology"
 podcast_category_two: "Education"
 podcast_subcategory_one: "How To"
 podcast_explicit: "false"
-podcast_author: "Nicola Corti"
-podcast_description: "A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond."
-podcast_summary: "A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond."
-podcast_subtitle: "A developer podcast about tools, libraries, and productivity. Featuring open-source developers and maintainers sharing their own experiences."
+podcast_author: "Nicola Corti, Marco Gomiero, Paolo Rotolo"
+podcast_description: "The Developers' Bakery is a podcast about developer tooling and the people who build and use it. Hosted by Nicola Corti, Marco Gomiero and Paolo Rotolo, the show alternates between two formats. In Deep Dives we sit down with a guest and follow one story: a tool they built, a setup that changed how they work, a problem they couldn't stop thinking about. In Fresh from the Oven, the three of us pick a topic, from coding agents to Android platform changes, and dig in. Many episodes end with the Recipe of the Week: one small tool or trick from each host. Started in 2020, with 99 episodes of open source stories in the archive."
+podcast_summary: "The Developers' Bakery is a podcast about developer tooling and the people who build and use it. Hosted by Nicola Corti, Marco Gomiero and Paolo Rotolo, the show alternates between two formats. In Deep Dives we sit down with a guest and follow one story: a tool they built, a setup that changed how they work, a problem they couldn't stop thinking about. In Fresh from the Oven, the three of us pick a topic, from coding agents to Android platform changes, and dig in. Many episodes end with the Recipe of the Week: one small tool or trick from each host. Started in 2020, with 99 episodes of open source stories in the archive."
+podcast_subtitle: "Developer tooling and the people who build and use it. Deep Dives with guests and hot takes from three developer friends."
