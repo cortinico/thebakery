@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <!-- begin _includes/seo.html --><title>#25 - Realm with Christian Melchior - The Developers’ Bakery</title>
+<meta name="description" content="Today, we venture through the realm of mobile databases with Christian Melchior from MongoDB Realm">
+
+
+  <meta name="author" content="The Developers' Bakery">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_GB">
+<meta property="og:site_name" content="The Developers' Bakery">
+<meta property="og:title" content="#25 - Realm with Christian Melchior">
+<meta property="og:url" content="https://thebakery.dev/pr-preview/pr-233/25/">
+
+
+  <meta property="og:description" content="Today, we venture through the realm of mobile databases with Christian Melchior from MongoDB Realm">
+
+
+
+  <meta property="og:image" content="https://thebakery.dev/pr-preview/pr-233/assets/images/episodes/25-og.png">
+
+
+
+  <meta name="twitter:site" content="@thebakerydev">
+  <meta name="twitter:title" content="#25 - Realm with Christian Melchior">
+  <meta name="twitter:description" content="Today, we venture through the realm of mobile databases with Christian Melchior from MongoDB Realm">
+  <meta name="twitter:url" content="https://thebakery.dev/pr-preview/pr-233/25/">
+
+  
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://thebakery.dev/pr-preview/pr-233/assets/images/episodes/25-og.png">
+  
+
+  
+    <meta name="twitter:creator" content="@thebakerydev">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="The Developers' Bakery">
+  
+
+  
+    <meta name="twitter:label2" content="Published in">
+    <meta name="twitter:data2" content="">
+  
+
+
+
+  <meta property="article:published_time" content="2022-01-10T12:00:00+00:00">
+
+
+
+
+
+
+<link rel="canonical" href="https://thebakery.dev/pr-preview/pr-233/25/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "The Developers' Bakery",
+      "url": "https://thebakery.dev/pr-preview/pr-233",
+      "sameAs": ["https://x.com/thebakerydev","https://x.com/cortinico"]
+    }
+  </script>
+
+
+
+
+
+
+
+
+<link href="/podcast.xml" type="application/rss+xml" rel="alternate" title="The Developers' Bakery Podcast Feed">
+<!-- end _includes/seo.html -->
+
+  <link rel="alternate" type="application/rss+xml" title="The Developers' Bakery (podcast feed)" href="https://thebakery.dev/pr-preview/pr-233/podcast">
+  <link type="application/atom+xml" rel="alternate" href="https://thebakery.dev/pr-preview/pr-233/feed.xml" title="The Developers&apos; Bakery" />
+  <link rel="icon" href="/pr-preview/pr-233/favicon.ico">
+  <link rel="apple-touch-icon" href="/pr-preview/pr-233/assets/images/avatar.png">
+  <meta name="theme-color" content="#FED46D">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Icons used inside older show notes (fa-github, fa-link, ...) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="/pr-preview/pr-233/assets/css/main.css">
+</head>
+<body class="page-episode">
+<a class="skip" href="#main">Skip to content</a>
+<header class="wrap nav">
+  <a class="brand" href="/pr-preview/pr-233/" aria-label="The Developers' Bakery, home">
+    <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M17 22 L5 32 L17 42" fill="none" stroke="#45423D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><path d="M47 22 L59 32 L47 42" fill="none" stroke="#45423D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><g transform="rotate(26 32 32)"><rect x="28.5" y="3" width="7" height="12" rx="3.5" fill="#F0D6AB" stroke="#45423D" stroke-width="3"/><rect x="28.5" y="49" width="7" height="12" rx="3.5" fill="#F0D6AB" stroke="#45423D" stroke-width="3"/><rect x="24" y="14" width="16" height="36" rx="2" fill="#F0D6AB" stroke="#45423D" stroke-width="3"/></g></svg>
+
+    <span>The Developers'<br>Bakery</span>
+  </a>
+  <nav aria-label="Main"><ul>
+    <li><a href="/pr-preview/pr-233/episodes" aria-current="page">Episodes</a></li>
+    <li><a href="/pr-preview/pr-233/#formats">Formats</a></li>
+    <li><a href="/pr-preview/pr-233/about">About</a></li>
+    <li><a href="/pr-preview/pr-233/guest">Be a guest</a></li>
+  </ul></nav>
+  <a class="btn" href="#player">Listen</a>
+</header>
+
+<main id="main">
+<section class="wrap ep-head">
+  <div>
+    <p class="crumb mono"><a href="/pr-preview/pr-233/episodes">Episodes</a> / #25</p>
+    <div class="numrow"><span class="n">#25</span><span class="stamp stamp--s1">Season 1</span></div>
+    <h1>Realm with Christian Melchior</h1>
+    <p class="excerpt">Today, we venture through the realm of mobile databases with Christian Melchior from MongoDB Realm</p>
+    <div class="meta">
+      <span class="people"><img src="/pr-preview/pr-233/assets/images/guests/25.jpg" alt="Christian Melchior" width="44" height="44" loading="lazy"></span>
+
+      <span class="mono">Christian Melchior · 10 Jan 2022 · 41:59</span>
+    </div>
+  </div>
+  <img class="art" src="/pr-preview/pr-233/assets/images/episodes/25-cover.png" alt="Episode 25 artwork" width="340" height="340">
+</section>
+
+<section class="wrap player" id="player">
+  <div class="embed" data-player><iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/1SIaXMs2ZLKguCRR4M9J3J?utm_source=generator" width="100%" height="232" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe></div>
+  <div class="also"><span class="mono" style="opacity:.7">Also on</span>
+    <a class="btn btn--ghost btn--sm" href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k">Spotify</a>
+    <a class="btn btn--ghost btn--sm" href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">Apple Podcasts</a>
+    <a class="btn btn--ghost btn--sm" href="https://pca.st/vq8ml6pl">Pocket Casts</a>
+    <a class="btn btn--ghost btn--sm" href="/pr-preview/pr-233/podcast">RSS</a>
+  </div>
+</section>
+
+<section class="paper notes">
+  <div class="wrap">
+    <article class="prose" data-notes>
+      
+
+<p>Let’s start this new year venturing inside the realm of mobile databases, with <a href="https://twitter.com/cmelchior"><strong>Christian Melchior</strong></a> and the <a href="https://github.com/realm/realm-kotlin"><strong>Realm Kotlin SDK</strong></a>.</p>
+
+<p>Realm is an on-device database, that helps you handle your app state with a lot of convenient built-in features such as <strong>lazy loading</strong>, <strong>encryption</strong>, and <strong>cloud synchronization</strong>.</p>
+
+<p>In this episode, Christian is guiding us through the Realm SDK for Android developers. When using Realm on Android, you have the freedom to pick between the <a href="https://github.com/realm/realm-java">Java SDK</a> and the <a href="https://github.com/realm/realm-kotlin">Kotlin SDK</a>. During the show, we will look through the offering of the two and how Kotlin Multiplatform is going to shape the future for Realm.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.17</strong> Intro</li>
+  <li><strong>01.04</strong> Episode Start</li>
+  <li><strong>01.35</strong> Christian’s Introduction</li>
+  <li><strong>02.20</strong> What is Realm?</li>
+  <li><strong>03.55</strong> Which platforms are supported?</li>
+  <li><strong>05.21</strong> Why a separate Java and a Kotlin SDK?</li>
+  <li><strong>09.01</strong> Why pick Realm over Room?</li>
+  <li><strong>11.54</strong> Modelling domains that are relationship heavy</li>
+  <li><strong>12.51</strong> Native encryption support</li>
+  <li><strong>14.52</strong> Multiuser support</li>
+  <li><strong>16.59</strong> Realm Sync and offline-first apps</li>
+  <li><strong>19.15</strong> Multiplatform support</li>
+  <li><strong>20.33</strong> Kotlin Multiplatform to take over C++?</li>
+  <li><strong>22.53</strong> Is Realm KMP production ready?</li>
+  <li><strong>24.31</strong> How you got involved with Realm?</li>
+  <li><strong>25.22</strong> How is the releationship with the OSS community?</li>
+  <li><strong>27.48</strong> Which contribs are the most common?</li>
+  <li><strong>29.44</strong> The Mongo acquisition &amp; OSS</li>
+  <li><strong>31.29</strong> Any OSS app that is using Realm to use as inspiration?</li>
+  <li><strong>32.43</strong> Where do you interact with the Realm community?</li>
+  <li><strong>34.36</strong> Async vs Sync comms</li>
+  <li><strong>36.09</strong> How do you handle the incoming flow of Github issues?</li>
+  <li><strong>37.53</strong> The Realm roadmap</li>
+  <li><strong>40.13</strong> Further reading</li>
+  <li><strong>41.09</strong> Where to find Christian online?</li>
+</ul>
+
+
+
+      <h1 id="resources">Resources</h1>
+
+<ul>
+  <li>Realm Kotlin Multiplatform:
+    <ul>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/realm/realm-kotlin">realm/realm-kotlin on Github</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://docs.mongodb.com/realm/sdk/kotlin-multiplatform/">Realm Kotlin Documentation</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://github.com/realm/realm-kotlin-samples">Official Samples</a></li>
+    </ul>
+  </li>
+  <li>Realm Java:
+    <ul>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/realm/realm-java">realm/realm-java on Github</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://docs.mongodb.com/realm/sdk/android/">Realm Java Documentation</a></li>
+    </ul>
+  </li>
+  <li>Talks and Podcasts about Realm:
+    <ul>
+      <li><i class="fas fa-podcast"></i> <a href="https://www.youtube.com/watch?v=pU9yaCPmQ2g">Talking Kotlin #98 - Realm for Kotlin Multiplatform</a></li>
+      <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/gb/podcast/ep-45-mongodb-realm-mobile-for-android-christian-melchior/id1500452446?i=1000510453804">The MongoDB Podcast #45 - MongoDB Realm Mobile for Android</a></li>
+      <li><i class="fab fa-youtube"></i> <a href="https://www.droidcon.com/2021/10/08/painless-persistence-on-kotlin-multiplatform-with-realm-kotlin/">Droidcon Online - Painless Persistence on Kotlin Multiplatform with Realm Kotlin</a></li>
+      <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/watch?v=F1cEI9OKI-E&amp;ab_channel=MongoDB">Realm Meetup - Realm Kotlin Multiplatform for modern mobile apps Meetup recording</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/cmelchior">@cmelchior on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/chrmelchior">@chrmelchior on Twitter</a></li>
+</ul>
+
+
+    </article>
+
+    <aside class="side">
+      <div class="card card--butter mic">
+        <span class="mono">On the mic</span>
+        <div class="row"><img src="/pr-preview/pr-233/assets/images/guests/25.jpg" alt="Christian Melchior" width="44" height="44" loading="lazy"><div><b>Christian Melchior</b><small><a href="https://github.com/cmelchior">@cmelchior</a> · Guest</small></div></div>
+        <div class="row"><img src="/pr-preview/pr-233/assets/images/hosts/cortinico.jpg" alt="" width="44" height="44" loading="lazy"><div><b>Nicola Corti</b><small><a href="https://github.com/cortinico">@cortinico</a> · Host</small></div></div>
+      </div>
+      <div class="card share">
+        <span class="mono">Share this episode</span>
+        <b>thebakery.dev/25</b>
+        <button type="button" data-copy="https://thebakery.dev/pr-preview/pr-233/25/">Copy link</button> ·
+        <a href="https://x.com/intent/post?url=https%3A%2F%2Fthebakery.dev%2Fpr-preview%2Fpr-233%2F25%2F&amp;text=Realm+with+Christian+Melchior">X</a> ·
+        <a href="https://bsky.app/intent/compose?text=Realm+with+Christian+Melchior+https%3A%2F%2Fthebakery.dev%2Fpr-preview%2Fpr-233%2F25%2F">Bluesky</a> ·
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fthebakery.dev%2Fpr-preview%2Fpr-233%2F25%2F">LinkedIn</a>
+      </div>
+      <div class="card card--ink">
+        <b>Got a story worth baking?</b>
+        <a href="/pr-preview/pr-233/guest">We're looking for Deep Dive guests. Pitch an episode →</a>
+      </div>
+    </aside>
+  </div>
+</section>
+<section class="rack more" aria-labelledby="more-title">
+  <div class="wrap">
+    <div class="section-head">
+      <div><p class="mono eyebrow-label">Previous &amp; next</p><h2 class="title" id="more-title">More from the oven</h2></div>
+      <a class="btn btn--butter" href="/pr-preview/pr-233/episodes">All episodes</a>
+    </div>
+    <div class="bar" aria-hidden="true"></div>
+    <ol class="tickets tickets--wrap"><li class="ticket-wrap" style="--i:0" data-format="season-1" data-search="24 datadog for android with xavier f. gouchet with xavier f. gouchet time to talk about mobile app monitoring with xavier gouchet and datadog sdk"><span class="clip" aria-hidden="true"></span><article class="ticket">
+  <div class="ticket__top"><span class="ticket__num">#24</span><span class="people"><img src="/pr-preview/pr-233/assets/images/guests/24.jpg" alt="Xavier F. Gouchet" width="44" height="44" loading="lazy"></span>
+</div>
+  <span class="stamp stamp--s1">Season 1</span>
+  <h4><a href="/pr-preview/pr-233/24/">Datadog for Android</a></h4><p class="who">with Xavier F. Gouchet</p>
+  <dl><dt>Bake time</dt><dd>42:05</dd><dt>Out</dt><dd>6 Dec 2021</dd></dl></article></li>
+<li class="ticket-wrap" style="--i:1" data-format="season-1" data-search="26 material ui swing with vincenzo palazzo with vincenzo palazzo this time, we fly up to mars with vincenzo and material ui swing"><span class="clip" aria-hidden="true"></span><article class="ticket">
+  <div class="ticket__top"><span class="ticket__num">#26</span><span class="people"><img src="/pr-preview/pr-233/assets/images/guests/26.jpg" alt="Vincenzo Palazzo" width="44" height="44" loading="lazy"></span>
+</div>
+  <span class="stamp stamp--s1">Season 1</span>
+  <h4><a href="/pr-preview/pr-233/26/">Material UI Swing</a></h4><p class="who">with Vincenzo Palazzo</p>
+  <dl><dt>Bake time</dt><dd>49:02</dd><dt>Out</dt><dd>24 Jan 2022</dd></dl></article></li>
+
+    </ol>
+    <div class="nextprev mono"><a href="/pr-preview/pr-233/24/">← Previous: #24</a><a href="/pr-preview/pr-233/26/">Next: #26 →</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <span>© 2026 The Developers' Bakery</span>
+    <nav aria-label="Footer">
+      <a href="https://x.com/thebakerydev">@thebakerydev</a>
+      <a href="mailto:info@thebakery.dev">info@thebakery.dev</a>
+      <a href="/pr-preview/pr-233/podcast">RSS feed</a>
+      <a href="https://buymeacoffee.com/cortinico">Buy us a coffee</a>
+    </nav>
+  </div>
+</footer>
+<script src="/pr-preview/pr-233/assets/js/site.js" defer></script>
+</body>
+</html>
