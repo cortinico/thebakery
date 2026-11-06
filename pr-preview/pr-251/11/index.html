@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <!-- begin _includes/seo.html --><title>#11 - MoshiX and KSP with Zac Sweers - The Developers’ Bakery</title>
+<meta name="description" content="Today we deep dive into metaprogramming, code generation and compiler plugins with Zac Sweers, talking about his experience with MoshiX and KSP">
+
+
+  <meta name="author" content="The Developers' Bakery">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_GB">
+<meta property="og:site_name" content="The Developers' Bakery">
+<meta property="og:title" content="#11 - MoshiX and KSP with Zac Sweers">
+<meta property="og:url" content="https://thebakery.dev/pr-preview/pr-251/11/">
+
+
+  <meta property="og:description" content="Today we deep dive into metaprogramming, code generation and compiler plugins with Zac Sweers, talking about his experience with MoshiX and KSP">
+
+
+
+  <meta property="og:image" content="https://thebakery.dev/pr-preview/pr-251/assets/images/episodes/11-og.png">
+
+
+
+  <meta name="twitter:site" content="@thebakerydev">
+  <meta name="twitter:title" content="#11 - MoshiX and KSP with Zac Sweers">
+  <meta name="twitter:description" content="Today we deep dive into metaprogramming, code generation and compiler plugins with Zac Sweers, talking about his experience with MoshiX and KSP">
+  <meta name="twitter:url" content="https://thebakery.dev/pr-preview/pr-251/11/">
+
+  
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://thebakery.dev/pr-preview/pr-251/assets/images/episodes/11-og.png">
+  
+
+  
+    <meta name="twitter:creator" content="@thebakerydev">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="The Developers' Bakery">
+  
+
+  
+    <meta name="twitter:label2" content="Published in">
+    <meta name="twitter:data2" content="">
+  
+
+
+
+  <meta property="article:published_time" content="2021-04-27T13:00:00+01:00">
+
+
+
+
+
+
+<link rel="canonical" href="https://thebakery.dev/pr-preview/pr-251/11/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "The Developers' Bakery",
+      "url": "https://thebakery.dev/pr-preview/pr-251",
+      "sameAs": ["https://x.com/thebakerydev","https://x.com/cortinico"]
+    }
+  </script>
+
+
+
+
+
+
+
+
+<link href="/podcast.xml" type="application/rss+xml" rel="alternate" title="The Developers' Bakery Podcast Feed">
+<!-- end _includes/seo.html -->
+
+  <link rel="alternate" type="application/rss+xml" title="The Developers' Bakery (podcast feed)" href="https://thebakery.dev/pr-preview/pr-251/podcast">
+  <link type="application/atom+xml" rel="alternate" href="https://thebakery.dev/pr-preview/pr-251/feed.xml" title="The Developers&apos; Bakery" />
+  <link rel="icon" href="/pr-preview/pr-251/favicon.ico">
+  <link rel="apple-touch-icon" href="/pr-preview/pr-251/assets/images/avatar.png">
+  <meta name="theme-color" content="#FED46D">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Icons used inside older show notes (fa-github, fa-link, ...) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="/pr-preview/pr-251/assets/css/main.css">
+</head>
+<body class="page-episode">
+<a class="skip" href="#main">Skip to content</a>
+<header class="wrap nav">
+  <a class="brand" href="/pr-preview/pr-251/" aria-label="The Developers' Bakery, home">
+    <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M17 22 L5 32 L17 42" fill="none" stroke="#45423D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><path d="M47 22 L59 32 L47 42" fill="none" stroke="#45423D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><g transform="rotate(26 32 32)"><rect x="28.5" y="3" width="7" height="12" rx="3.5" fill="#F0D6AB" stroke="#45423D" stroke-width="3"/><rect x="28.5" y="49" width="7" height="12" rx="3.5" fill="#F0D6AB" stroke="#45423D" stroke-width="3"/><rect x="24" y="14" width="16" height="36" rx="2" fill="#F0D6AB" stroke="#45423D" stroke-width="3"/></g></svg>
+
+    <span>The Developers'<br>Bakery</span>
+  </a>
+  <nav aria-label="Main"><ul>
+    <li><a href="/pr-preview/pr-251/episodes" aria-current="page">Episodes</a></li>
+    <li><a href="/pr-preview/pr-251/#formats">Formats</a></li>
+    <li><a href="/pr-preview/pr-251/about">About</a></li>
+    <li><a href="/pr-preview/pr-251/guest">Be a guest</a></li>
+  </ul></nav>
+  <a class="btn" href="#player">Listen</a>
+</header>
+
+<main id="main">
+<section class="wrap ep-head">
+  <div>
+    <p class="crumb mono"><a href="/pr-preview/pr-251/episodes">Episodes</a> / #11</p>
+    <div class="numrow"><span class="n">#11</span><span class="stamp stamp--s1">Season 1</span></div>
+    <h1>MoshiX and KSP with Zac Sweers</h1>
+    <p class="excerpt">Today we deep dive into metaprogramming, code generation and compiler plugins with Zac Sweers, talking about his experience with MoshiX and KSP</p>
+    <div class="meta">
+      <span class="people"><img src="/pr-preview/pr-251/assets/images/guests/11.jpg" alt="Zac Sweers" width="44" height="44" loading="lazy"></span>
+
+      <span class="mono">Zac Sweers · 27 Apr 2021 · 01:01:46</span>
+    </div>
+  </div>
+  <img class="art" src="/pr-preview/pr-251/assets/images/episodes/11-cover.png" alt="Episode 11 artwork" width="340" height="340">
+</section>
+
+<section class="wrap player" id="player">
+  <div class="embed" data-player><iframe src="https://open.spotify.com/embed/episode/1b2W8hcerDw0BSbQAvqHLK" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
+  <div class="also"><span class="mono" style="opacity:.7">Also on</span>
+    <a class="btn btn--ghost btn--sm" href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k">Spotify</a>
+    <a class="btn btn--ghost btn--sm" href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">Apple Podcasts</a>
+    <a class="btn btn--ghost btn--sm" href="https://pca.st/vq8ml6pl">Pocket Casts</a>
+    <a class="btn btn--ghost btn--sm" href="/pr-preview/pr-251/podcast">RSS</a>
+  </div>
+</section>
+
+<section class="paper notes">
+  <div class="wrap">
+    <article class="prose" data-notes>
+      
+
+<p>It’s time to talk about <strong>meta-programming</strong>, <strong>annotation processors</strong> and <strong>compiler plugins</strong> 🧙‍♂️. Today we have <a href="https://twitter.com/ZacSweers"><strong>Zac Sweers</strong></a> on stage, Mobile Engineer @ Slack and maintainer of <a href="https://github.com/square/moshi">Moshi</a>, a popular Json library.</p>
+
+<p>Zac is the author of <a href="https://github.com/ZacSweers/MoshiX">MoshiX</a>, a set of extensions for Moshi. Between those, one that caught my attention was <code class="language-plaintext highlighter-rouge">moshi-ksp</code>. <a href="(https://github.com/google/ksp)">KSP (Kotlin Symbol Processing API)</a> is set to revolutionize the landscape of annotations processors in Kotlin. Join us on this deep dive on <strong>code generation</strong> and more.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.18</strong> Intro</li>
+  <li><strong>01.05</strong> Episode Start</li>
+  <li><strong>01.28</strong> Zac’s Introduction</li>
+  <li><strong>03.03</strong> What is Metaprogramming?</li>
+  <li><strong>04.42</strong> What is KSP?</li>
+  <li><strong>05.26</strong> What about KAPT</li>
+  <li><strong>08.20</strong> Overcoming KAPT costs</li>
+  <li><strong>09.50</strong> Beyond KAPT</li>
+  <li><strong>11.26</strong> KSP API &amp; Features</li>
+  <li><strong>15.02</strong> Your story of Moshi</li>
+  <li><strong>17.46</strong> Kotlin Metadata</li>
+  <li><strong>19.16</strong> Generating Moshi Adapters</li>
+  <li><strong>20.18</strong> What is MoshiX?</li>
+  <li><strong>23.44</strong> MoshiX &amp; KSP</li>
+  <li><strong>25.07</strong> Adopters and Success Stories</li>
+  <li><strong>28.02</strong> From MoshiX to Moshi</li>
+  <li><strong>30.57</strong> Kotlin Compiler Plugins</li>
+  <li><strong>36.20</strong> Compiler Plugin opportunities</li>
+  <li><strong>38.53</strong> A Moshi Compiler Plugin?</li>
+  <li><strong>41.00</strong> Metaprogramming beyond Java/Kotlin</li>
+  <li><strong>45.06</strong> What’s next for MoshiX?</li>
+  <li><strong>54.44</strong> Further reading</li>
+  <li><strong>60.15</strong> Where to find Zac online?</li>
+</ul>
+
+
+
+      <h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/ZacSweers/MoshiX">ZacSweers/MoshiX on Github</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/google/ksp">google/ksp on Github</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/square/moshi">square/moshi on Github</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/ZacSweers/redacted-compiler-plugin">ZacSweers/redacted-compiler-plugin on Github</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/square/kotlinpoet">square/kotlinpoet on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://github.com/google/ksp/blob/master/docs/quickstart.md">KSP Quick Start</a></li>
+  <li><i class="fab fa-youtube"></i> <a href="https://youtu.be/a2RoLFzrFG0">KotlinConf 2018 - Annotation Processing in a Kotlin World</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/ZacSweers">@ZacSweers on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://www.zacsweers.dev/">Zac’s Blog</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/ZacSweers">@ZacSweers on Twitter</a></li>
+</ul>
+
+
+    </article>
+
+    <aside class="side">
+      <div class="card card--butter mic">
+        <span class="mono">On the mic</span>
+        <div class="row"><img src="/pr-preview/pr-251/assets/images/guests/11.jpg" alt="Zac Sweers" width="44" height="44" loading="lazy"><div><b>Zac Sweers</b><small><a href="https://github.com/ZacSweers">@ZacSweers</a> · Guest</small></div></div>
+        <div class="row"><img src="/pr-preview/pr-251/assets/images/hosts/cortinico.jpg" alt="" width="44" height="44" loading="lazy"><div><b>Nicola Corti</b><small><a href="https://github.com/cortinico">@cortinico</a> · Host</small></div></div>
+      </div>
+      <div class="card share">
+        <span class="mono">Share this episode</span>
+        <b>thebakery.dev/11</b>
+        <button type="button" data-copy="https://thebakery.dev/pr-preview/pr-251/11/">Copy link</button> ·
+        <a href="https://x.com/intent/post?url=https%3A%2F%2Fthebakery.dev%2Fpr-preview%2Fpr-251%2F11%2F&amp;text=MoshiX+and+KSP+with+Zac+Sweers">X</a> ·
+        <a href="https://bsky.app/intent/compose?text=MoshiX+and+KSP+with+Zac+Sweers+https%3A%2F%2Fthebakery.dev%2Fpr-preview%2Fpr-251%2F11%2F">Bluesky</a> ·
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fthebakery.dev%2Fpr-preview%2Fpr-251%2F11%2F">LinkedIn</a>
+      </div>
+      <div class="card card--ink">
+        <b>Got a story worth baking?</b>
+        <a href="/pr-preview/pr-251/guest">We're looking for Deep Dive guests. Pitch an episode →</a>
+      </div>
+    </aside>
+  </div>
+</section>
+<section class="rack more" aria-labelledby="more-title">
+  <div class="wrap">
+    <div class="section-head">
+      <div><p class="mono eyebrow-label">Previous &amp; next</p><h2 class="title" id="more-title">More from the oven</h2></div>
+      <a class="btn btn--butter" href="/pr-preview/pr-251/episodes">All episodes</a>
+    </div>
+    <div class="bar" aria-hidden="true"></div>
+    <ol class="tickets tickets--wrap"><li class="ticket-wrap" style="--i:0" data-format="season-1" data-search="10 press with saket narayan with saket narayan it&#39;s time to discover a beautiful kotlin multiplatform mobile app: press with saket narayan"><span class="clip" aria-hidden="true"></span><article class="ticket">
+  <div class="ticket__top"><span class="ticket__num">#10</span><span class="people"><img src="/pr-preview/pr-251/assets/images/guests/10.jpg" alt="Saket Narayan" width="44" height="44" loading="lazy"></span>
+</div>
+  <span class="stamp stamp--s1">Season 1</span>
+  <h4><a href="/pr-preview/pr-251/10/">Press</a></h4><p class="who">with Saket Narayan</p>
+  <dl><dt>Bake time</dt><dd>32:12</dd><dt>Out</dt><dd>12 Apr 2021</dd></dl></article></li>
+<li class="ticket-wrap" style="--i:1" data-format="season-1" data-search="12 refreshversions with louis cad with louis cad in this episode we will talk about dependency hell and how to escape it, with louis cad and the refershversions project!"><span class="clip" aria-hidden="true"></span><article class="ticket">
+  <div class="ticket__top"><span class="ticket__num">#12</span><span class="people"><img src="/pr-preview/pr-251/assets/images/guests/12.jpg" alt="Louis CAD" width="44" height="44" loading="lazy"></span>
+</div>
+  <span class="stamp stamp--s1">Season 1</span>
+  <h4><a href="/pr-preview/pr-251/12/">refreshVersions</a></h4><p class="who">with Louis CAD</p>
+  <dl><dt>Bake time</dt><dd>45:19</dd><dt>Out</dt><dd>31 May 2021</dd></dl></article></li>
+
+    </ol>
+    <div class="nextprev mono"><a href="/pr-preview/pr-251/10/">← Previous: #10</a><a href="/pr-preview/pr-251/12/">Next: #12 →</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <span>© 2026 The Developers' Bakery</span>
+    <nav aria-label="Footer">
+      <a href="https://x.com/thebakerydev">@thebakerydev</a>
+      <a href="mailto:info@thebakery.dev">info@thebakery.dev</a>
+      <a href="/pr-preview/pr-251/podcast">RSS feed</a>
+      <a href="https://buymeacoffee.com/cortinico">Buy us a coffee</a>
+    </nav>
+  </div>
+</footer>
+<script src="/pr-preview/pr-251/assets/js/site.js" defer></script>
+</body>
+</html>

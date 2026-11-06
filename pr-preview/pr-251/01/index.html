@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <!-- begin _includes/seo.html --><title>#01 - Gradle Doctor with Nelson Osacky - The Developers’ Bakery</title>
+<meta name="description" content="Nelson presents gradle-doctor, a tool to get prescriptions for your inefficient Gradle build">
+
+
+  <meta name="author" content="The Developers' Bakery">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_GB">
+<meta property="og:site_name" content="The Developers' Bakery">
+<meta property="og:title" content="#01 - Gradle Doctor with Nelson Osacky">
+<meta property="og:url" content="https://thebakery.dev/pr-preview/pr-251/01/">
+
+
+  <meta property="og:description" content="Nelson presents gradle-doctor, a tool to get prescriptions for your inefficient Gradle build">
+
+
+
+  <meta property="og:image" content="https://thebakery.dev/pr-preview/pr-251/assets/images/episodes/01-og.png">
+
+
+
+  <meta name="twitter:site" content="@thebakerydev">
+  <meta name="twitter:title" content="#01 - Gradle Doctor with Nelson Osacky">
+  <meta name="twitter:description" content="Nelson presents gradle-doctor, a tool to get prescriptions for your inefficient Gradle build">
+  <meta name="twitter:url" content="https://thebakery.dev/pr-preview/pr-251/01/">
+
+  
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://thebakery.dev/pr-preview/pr-251/assets/images/episodes/01-og.png">
+  
+
+  
+    <meta name="twitter:creator" content="@thebakerydev">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="The Developers' Bakery">
+  
+
+  
+    <meta name="twitter:label2" content="Published in">
+    <meta name="twitter:data2" content="">
+  
+
+
+
+  <meta property="article:published_time" content="2020-12-07T12:00:00+00:00">
+
+
+
+
+
+
+<link rel="canonical" href="https://thebakery.dev/pr-preview/pr-251/01/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "The Developers' Bakery",
+      "url": "https://thebakery.dev/pr-preview/pr-251",
+      "sameAs": ["https://x.com/thebakerydev","https://x.com/cortinico"]
+    }
+  </script>
+
+
+
+
+
+
+
+
+<link href="/podcast.xml" type="application/rss+xml" rel="alternate" title="The Developers' Bakery Podcast Feed">
+<!-- end _includes/seo.html -->
+
+  <link rel="alternate" type="application/rss+xml" title="The Developers' Bakery (podcast feed)" href="https://thebakery.dev/pr-preview/pr-251/podcast">
+  <link type="application/atom+xml" rel="alternate" href="https://thebakery.dev/pr-preview/pr-251/feed.xml" title="The Developers&apos; Bakery" />
+  <link rel="icon" href="/pr-preview/pr-251/favicon.ico">
+  <link rel="apple-touch-icon" href="/pr-preview/pr-251/assets/images/avatar.png">
+  <meta name="theme-color" content="#FED46D">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Icons used inside older show notes (fa-github, fa-link, ...) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="/pr-preview/pr-251/assets/css/main.css">
+</head>
+<body class="page-episode">
+<a class="skip" href="#main">Skip to content</a>
+<header class="wrap nav">
+  <a class="brand" href="/pr-preview/pr-251/" aria-label="The Developers' Bakery, home">
+    <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M17 22 L5 32 L17 42" fill="none" stroke="#45423D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><path d="M47 22 L59 32 L47 42" fill="none" stroke="#45423D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><g transform="rotate(26 32 32)"><rect x="28.5" y="3" width="7" height="12" rx="3.5" fill="#F0D6AB" stroke="#45423D" stroke-width="3"/><rect x="28.5" y="49" width="7" height="12" rx="3.5" fill="#F0D6AB" stroke="#45423D" stroke-width="3"/><rect x="24" y="14" width="16" height="36" rx="2" fill="#F0D6AB" stroke="#45423D" stroke-width="3"/></g></svg>
+
+    <span>The Developers'<br>Bakery</span>
+  </a>
+  <nav aria-label="Main"><ul>
+    <li><a href="/pr-preview/pr-251/episodes" aria-current="page">Episodes</a></li>
+    <li><a href="/pr-preview/pr-251/#formats">Formats</a></li>
+    <li><a href="/pr-preview/pr-251/about">About</a></li>
+    <li><a href="/pr-preview/pr-251/guest">Be a guest</a></li>
+  </ul></nav>
+  <a class="btn" href="#player">Listen</a>
+</header>
+
+<main id="main">
+<section class="wrap ep-head">
+  <div>
+    <p class="crumb mono"><a href="/pr-preview/pr-251/episodes">Episodes</a> / #1</p>
+    <div class="numrow"><span class="n">#1</span><span class="stamp stamp--s1">Season 1</span></div>
+    <h1>Gradle Doctor with Nelson Osacky</h1>
+    <p class="excerpt">Nelson presents gradle-doctor, a tool to get prescriptions for your inefficient Gradle build</p>
+    <div class="meta">
+      <span class="people"><img src="/pr-preview/pr-251/assets/images/guests/01.jpg" alt="Nelson Osacky" width="44" height="44" loading="lazy"></span>
+
+      <span class="mono">Nelson Osacky · 7 Dec 2020 · 41:42</span>
+    </div>
+  </div>
+  <img class="art" src="/pr-preview/pr-251/assets/images/episodes/01-cover.png" alt="Episode 1 artwork" width="340" height="340">
+</section>
+
+<section class="wrap player" id="player">
+  <div class="embed" data-player><iframe src="https://open.spotify.com/embed-podcast/episode/472S9FHpiOL3SmhR16ZxpZ" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
+  <div class="also"><span class="mono" style="opacity:.7">Also on</span>
+    <a class="btn btn--ghost btn--sm" href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k">Spotify</a>
+    <a class="btn btn--ghost btn--sm" href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">Apple Podcasts</a>
+    <a class="btn btn--ghost btn--sm" href="https://pca.st/vq8ml6pl">Pocket Casts</a>
+    <a class="btn btn--ghost btn--sm" href="/pr-preview/pr-251/podcast">RSS</a>
+  </div>
+</section>
+
+<section class="paper notes">
+  <div class="wrap">
+    <article class="prose" data-notes>
+      
+
+<p>In this episode, we talk about <a href="https://github.com/runningcode/gradle-doctor">Gradle Doctor</a> with its author Nelson Osacky. Gradle doctor helps you fix performance problems and errors in your Gradle build. The tool works as a Gradle plugin - emitting prescriptions for all the problems found. Nelson tells us how he came up with the idea behind this tool, and what the future is for Gradle Doctor.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>0:20</strong> Intro</li>
+  <li><strong>1:06</strong> Episode Start</li>
+  <li><strong>1:49</strong> Nelson’s Introduction</li>
+  <li><strong>04:22</strong>	What is Gradle Doctor?</li>
+  <li><strong>08:44</strong>	Remote build cache</li>
+  <li><strong>16:19</strong> <code class="language-plaintext highlighter-rouge">JAVA_HOME</code> madness</li>
+  <li><strong>21:36</strong>	The most common mistake in your build.gradle</li>
+  <li><strong>24:34</strong> Gradle Doctor and performance</li>
+  <li><strong>31:17</strong>	Extensibility</li>
+  <li><strong>33:12</strong>	The future of Gradle Doctor</li>
+  <li><strong>39:56</strong>	Where to find Nelson online?</li>
+</ul>
+
+
+
+      <h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/runningcode/gradle-doctor">runningcode/gradle-doctor</a> on Github</li>
+  <li><i class="fab fa-github"></i> <a href="https://runningcode.github.io/gradle-doctor/">Gradle Doctor Documentation</a></li>
+  <li><i class="fab fa-medium"></i> How fast does my internet need to be to use the Gradle Remote Build Cache? - <a href="https://medium.com/swlh/how-fast-does-my-internet-need-to-be-to-use-the-gradle-remote-build-cache-part-1-4acaa6f9a2fa">Part 1</a> and <a href="https://medium.com/@runningcode/how-fast-does-my-internet-need-to-be-to-use-the-gradle-remote-build-cache-part-2-1bc2b171f19">Part 2</a></li>
+  <li><i class="fab fa-youtube"></i> The Secrets of the Build Scan Plugin and the internals of Gradle - <a href="https://www.youtube.com/watch?v=lgaqS0pmUzk">Video from Android Makers</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/nellyspageli">@nellyspageli on Twitter</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://osacky.com/">Nelson’s Website</a></li>
+</ul>
+
+
+    </article>
+
+    <aside class="side">
+      <div class="card card--butter mic">
+        <span class="mono">On the mic</span>
+        <div class="row"><img src="/pr-preview/pr-251/assets/images/guests/01.jpg" alt="Nelson Osacky" width="44" height="44" loading="lazy"><div><b>Nelson Osacky</b><small><a href="https://github.com/runningcode">@runningcode</a> · Guest</small></div></div>
+        <div class="row"><img src="/pr-preview/pr-251/assets/images/hosts/cortinico.jpg" alt="" width="44" height="44" loading="lazy"><div><b>Nicola Corti</b><small><a href="https://github.com/cortinico">@cortinico</a> · Host</small></div></div>
+      </div>
+      <div class="card share">
+        <span class="mono">Share this episode</span>
+        <b>thebakery.dev/1</b>
+        <button type="button" data-copy="https://thebakery.dev/pr-preview/pr-251/01/">Copy link</button> ·
+        <a href="https://x.com/intent/post?url=https%3A%2F%2Fthebakery.dev%2Fpr-preview%2Fpr-251%2F01%2F&amp;text=Gradle+Doctor+with+Nelson+Osacky">X</a> ·
+        <a href="https://bsky.app/intent/compose?text=Gradle+Doctor+with+Nelson+Osacky+https%3A%2F%2Fthebakery.dev%2Fpr-preview%2Fpr-251%2F01%2F">Bluesky</a> ·
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fthebakery.dev%2Fpr-preview%2Fpr-251%2F01%2F">LinkedIn</a>
+      </div>
+      <div class="card card--ink">
+        <b>Got a story worth baking?</b>
+        <a href="/pr-preview/pr-251/guest">We're looking for Deep Dive guests. Pitch an episode →</a>
+      </div>
+    </aside>
+  </div>
+</section>
+<section class="rack more" aria-labelledby="more-title">
+  <div class="wrap">
+    <div class="section-head">
+      <div><p class="mono eyebrow-label">Previous &amp; next</p><h2 class="title" id="more-title">More from the oven</h2></div>
+      <a class="btn btn--butter" href="/pr-preview/pr-251/episodes">All episodes</a>
+    </div>
+    <div class="bar" aria-hidden="true"></div>
+    <ol class="tickets tickets--wrap"><li class="ticket-wrap" style="--i:0" data-format="season-1" data-search="0 show trailer  welcome to the developers&#39;s bakery"><span class="clip" aria-hidden="true"></span><article class="ticket">
+  <div class="ticket__top"><span class="ticket__num">#0</span><span class="people"><img src="/pr-preview/pr-251/assets/images/hosts/cortinico.jpg" alt="Nicola Corti" width="44" height="44" loading="lazy"></span>
+</div>
+  <span class="stamp stamp--s1">Season 1</span>
+  <h4><a href="/pr-preview/pr-251/00/">Show Trailer</a></h4>
+  <dl><dt>Bake time</dt><dd>01:45</dd><dt>Out</dt><dd>1 Dec 2020</dd></dl></article></li>
+<li class="ticket-wrap" style="--i:1" data-format="season-1" data-search="2 coil with colin white with colin white colin is here to introduce coil, coroutine image loader. a library to reshape image loading on android"><span class="clip" aria-hidden="true"></span><article class="ticket">
+  <div class="ticket__top"><span class="ticket__num">#2</span><span class="people"><img src="/pr-preview/pr-251/assets/images/guests/02.jpg" alt="Colin White" width="44" height="44" loading="lazy"></span>
+</div>
+  <span class="stamp stamp--s1">Season 1</span>
+  <h4><a href="/pr-preview/pr-251/02/">Coil</a></h4><p class="who">with Colin White</p>
+  <dl><dt>Bake time</dt><dd>36:22</dd><dt>Out</dt><dd>21 Dec 2020</dd></dl></article></li>
+
+    </ol>
+    <div class="nextprev mono"><a href="/pr-preview/pr-251/00/">← Previous: #0</a><a href="/pr-preview/pr-251/02/">Next: #2 →</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <span>© 2026 The Developers' Bakery</span>
+    <nav aria-label="Footer">
+      <a href="https://x.com/thebakerydev">@thebakerydev</a>
+      <a href="mailto:info@thebakery.dev">info@thebakery.dev</a>
+      <a href="/pr-preview/pr-251/podcast">RSS feed</a>
+      <a href="https://buymeacoffee.com/cortinico">Buy us a coffee</a>
+    </nav>
+  </div>
+</footer>
+<script src="/pr-preview/pr-251/assets/js/site.js" defer></script>
+</body>
+</html>
