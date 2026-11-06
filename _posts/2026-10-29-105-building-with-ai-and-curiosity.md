@@ -31,7 +31,7 @@ podcast_duration: "55:44"
 podcast_length: 22497288
 ---
 
-<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/1g3uu2uINQFWChhlay8YoS?utm_source=generator&si=dba68748998841a9" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 What changes when AI can take care of the tedious parts of building software, and help you try ideas that once felt out of reach?
 
