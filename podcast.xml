@@ -13,14 +13,14 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <title>The Developers' Bakery</title>
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
-<description>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</description>
-<lastBuildDate>Fri, 06 Nov 2026 21:51:39 +0000</lastBuildDate>
+<description>The Developers' Bakery is a podcast about developer tooling and the people who build and use it. Hosted by Nicola Corti, Marco Gomiero and Paolo Rotolo, the show alternates between two formats. In Deep Dives we sit down with a guest and follow one story: a tool they built, a setup that changed how they work, a problem they couldn't stop thinking about. In Fresh from the Oven, the three of us pick a topic, from coding agents to Android platform changes, and dig in. Many episodes end with the Recipe of the Week: one small tool or trick from each host. Started in 2020, with 99 episodes of open source stories in the archive.</description>
+<lastBuildDate>Fri, 06 Nov 2026 23:34:32 +0000</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
 <generator>http://jekyllrb.com</generator>
-<itunes:summary>A developer podcast about tools, libraries, and productivity. The Developers' Bakery is a place for open-source developers and maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide baking great software daily. Join Nicola Corti through this journey among open source and beyond.</itunes:summary>
-<itunes:author>Nicola Corti</itunes:author>
+<itunes:summary>The Developers' Bakery is a podcast about developer tooling and the people who build and use it. Hosted by Nicola Corti, Marco Gomiero and Paolo Rotolo, the show alternates between two formats. In Deep Dives we sit down with a guest and follow one story: a tool they built, a setup that changed how they work, a problem they couldn't stop thinking about. In Fresh from the Oven, the three of us pick a topic, from coding agents to Android platform changes, and dig in. Many episodes end with the Recipe of the Week: one small tool or trick from each host. Started in 2020, with 99 episodes of open source stories in the archive.</itunes:summary>
+<itunes:author>Nicola Corti, Marco Gomiero, Paolo Rotolo</itunes:author>
 <itunes:explicit>false</itunes:explicit>
 <itunes:image href="https://thebakery.dev/assets/images/show-logo.png" />
 <itunes:owner>
@@ -28,13 +28,13 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:email>info@thebakery.dev</itunes:email>
 </itunes:owner>
 <managingEditor>info@thebakery.dev (Nicola Corti)</managingEditor>
-<itunes:subtitle>A developer podcast about tools, libraries, and productivity. Featuring open-source developers and maintainers sharing their own experiences.</itunes:subtitle>
+<itunes:subtitle>Developer tooling and the people who build and use it. Deep Dives with guests and hot takes from three developer friends.</itunes:subtitle>
 <image>
 <title>The Developers' Bakery</title>
 <url>https://thebakery.dev/assets/images/show-logo.png</url>
 <link>https://thebakery.dev</link>
 </image>
-<copyright>Copyright 2020 Nicola Corti</copyright>
+<copyright>© 2020–2026 The Developers' Bakery</copyright>
 <itunes:category text="Technology"/>
 <itunes:category text="Education">
 <itunes:category text="How To" />
@@ -46,7 +46,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
         <itunes:title>Building with AI and curiosity with Ivan Morgillo</itunes:title>
         <link>https://thebakery.dev/105/</link>
         <pubDate>Thu, 29 Oct 2026 12:00:00 +0000</pubDate>
-        <dc:creator>Nicola Corti</dc:creator>
+        <dc:creator>Nicola Corti, Marco Gomiero, Paolo Rotolo</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/105/</guid>
         
             <itunes:episodeType>full</itunes:episodeType>
@@ -134,7 +134,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 </ul>]]>
         </content:encoded>
 
-        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:author>Nicola Corti, Marco Gomiero, Paolo Rotolo</itunes:author>
         <itunes:image href="https://thebakery.dev/assets/images/episodes/105-cover.png" />
         <itunes:explicit>false</itunes:explicit>
         <itunes:duration>55:44</itunes:duration>
@@ -148,7 +148,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
         <itunes:title>Android developer verification and the future of sideloading</itunes:title>
         <link>https://thebakery.dev/104/</link>
         <pubDate>Thu, 15 Oct 2026 13:00:00 +0100</pubDate>
-        <dc:creator>Nicola Corti</dc:creator>
+        <dc:creator>Nicola Corti, Marco Gomiero, Paolo Rotolo</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/104/</guid>
         
             <itunes:episodeType>full</itunes:episodeType>
@@ -234,7 +234,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 </ul>]]>
         </content:encoded>
 
-        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:author>Nicola Corti, Marco Gomiero, Paolo Rotolo</itunes:author>
         <itunes:image href="https://thebakery.dev/assets/images/episodes/104-cover.png" />
         <itunes:explicit>false</itunes:explicit>
         <itunes:duration>43:08</itunes:duration>
@@ -248,7 +248,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
         <itunes:title>Building developer conferences with Greg Fawson</itunes:title>
         <link>https://thebakery.dev/103/</link>
         <pubDate>Thu, 01 Oct 2026 13:00:00 +0100</pubDate>
-        <dc:creator>Nicola Corti</dc:creator>
+        <dc:creator>Nicola Corti, Marco Gomiero, Paolo Rotolo</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/103/</guid>
         
             <itunes:episodeType>full</itunes:episodeType>
@@ -328,7 +328,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 </ul>]]>
         </content:encoded>
 
-        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:author>Nicola Corti, Marco Gomiero, Paolo Rotolo</itunes:author>
         <itunes:image href="https://thebakery.dev/assets/images/episodes/103-cover.png" />
         <itunes:explicit>false</itunes:explicit>
         <itunes:duration>53:38</itunes:duration>
@@ -342,7 +342,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
         <itunes:title>Difftray and the agentic code review loop</itunes:title>
         <link>https://thebakery.dev/102/</link>
         <pubDate>Thu, 24 Sep 2026 13:00:00 +0100</pubDate>
-        <dc:creator>Nicola Corti</dc:creator>
+        <dc:creator>Nicola Corti, Marco Gomiero, Paolo Rotolo</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/102/</guid>
         
             <itunes:episodeType>full</itunes:episodeType>
@@ -445,7 +445,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 </ul>]]>
         </content:encoded>
 
-        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:author>Nicola Corti, Marco Gomiero, Paolo Rotolo</itunes:author>
         <itunes:image href="https://thebakery.dev/assets/images/episodes/102-cover.png" />
         <itunes:explicit>false</itunes:explicit>
         <itunes:duration>49:29</itunes:duration>
@@ -459,7 +459,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
         <itunes:title>Making coding agents your own with Iury Souza</itunes:title>
         <link>https://thebakery.dev/101/</link>
         <pubDate>Thu, 10 Sep 2026 13:00:00 +0100</pubDate>
-        <dc:creator>Nicola Corti</dc:creator>
+        <dc:creator>Nicola Corti, Marco Gomiero, Paolo Rotolo</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/101/</guid>
         
             <itunes:episodeType>full</itunes:episodeType>
@@ -527,7 +527,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 </ul>]]>
         </content:encoded>
 
-        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:author>Nicola Corti, Marco Gomiero, Paolo Rotolo</itunes:author>
         <itunes:image href="https://thebakery.dev/assets/images/episodes/101-cover.png" />
         <itunes:explicit>false</itunes:explicit>
         <itunes:duration>21:29</itunes:duration>
@@ -541,7 +541,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
         <itunes:title>99 episodes, and everything I got wrong</itunes:title>
         <link>https://thebakery.dev/100/</link>
         <pubDate>Thu, 27 Aug 2026 13:00:00 +0100</pubDate>
-        <dc:creator>Nicola Corti</dc:creator>
+        <dc:creator>Nicola Corti, Marco Gomiero, Paolo Rotolo</dc:creator>
         <guid isPermaLink="true">https://thebakery.dev/100/</guid>
         
             <itunes:episodeType>full</itunes:episodeType>
@@ -644,7 +644,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 </ul>]]>
         </content:encoded>
 
-        <itunes:author>Nicola Corti</itunes:author>
+        <itunes:author>Nicola Corti, Marco Gomiero, Paolo Rotolo</itunes:author>
         <itunes:image href="https://thebakery.dev/assets/images/episodes/100-cover.png" />
         <itunes:explicit>false</itunes:explicit>
         <itunes:duration>47:12</itunes:duration>
