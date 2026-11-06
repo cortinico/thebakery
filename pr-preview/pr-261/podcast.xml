@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>The Developers' Bakery is a podcast about developer tooling and the people who build and use it. Hosted by Nicola Corti, Marco Gomiero and Paolo Rotolo, the show alternates between two formats. In Deep Dives we sit down with a guest and follow one story: a tool they built, a setup that changed how they work, a problem they couldn't stop thinking about. In Fresh from the Oven, the three of us pick a topic, from coding agents to Android platform changes, and dig in. Many episodes end with the Recipe of the Week: one small tool or trick from each host. Started in 2020, with 99 episodes of open source stories in the archive.</description>
-<lastBuildDate>Fri, 06 Nov 2026 23:36:09 +0000</lastBuildDate>
+<lastBuildDate>Fri, 06 Nov 2026 23:47:45 +0000</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
