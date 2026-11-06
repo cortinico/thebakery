@@ -5,6 +5,12 @@ author_profile: true
 
 description: "droidcon Global CEO Greg Fawson shares how developer conferences are built, how their communities changed after COVID, what AI means for talks and ticket sales, and how next.app DevCon is bringing the mobile ecosystems together."
 
+format: deep-dive
+byline: "with Greg Fawson, droidcon"
+guests:
+  - name: "Greg Fawson"
+    photo: "/assets/images/guests/103.jpg"
+
 header:
   teaser: "/assets/images/header-single-episode.png"
   overlay_image: "/assets/images/header-single-episode.png"

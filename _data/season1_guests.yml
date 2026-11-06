@@ -1,0 +1,406 @@
+# Season 1 guests (#0-#99) for the episode tickets, keyed by episode number.
+# Generated once from `yarn backfill-artwork --dry-run` (GitHub accounts in the show notes).
+# photo: a face cropped from the episode's square cover (assets/images/guests/NN.jpg); multi-guest episodes use GitHub avatars.
+# Season 2 episodes carry a `guests:` list in their own front matter instead.
+"0":
+  - name: "Nicola Corti"
+    github: cortinico
+"1":
+  - name: "Nelson Osacky"
+    github: runningcode
+    photo: /assets/images/guests/01.jpg
+"2":
+  - name: "Colin White"
+    github: colinrtwhite
+    photo: /assets/images/guests/02.jpg
+"3":
+  - name: "Franco Meloni"
+    github: f-meloni
+    photo: /assets/images/guests/03.jpg
+"4":
+  - name: "Sebastian Aigner"
+    github: SebastianAigner
+    photo: /assets/images/guests/04.jpg
+"5":
+  - name: "Matan Kushner"
+    github: matchai
+    photo: /assets/images/guests/05.jpg
+"6":
+  - name: "Arnaud Giuliani"
+    github: arnaudgiuliani
+    photo: /assets/images/guests/06.jpg
+"7":
+  - name: "Pawan Kumar"
+    github: iampawan
+    photo: /assets/images/guests/07.jpg
+"8":
+  - name: "Pedro Piñera Buendía"
+    github: pepicrft
+    photo: /assets/images/guests/08.jpg
+"9":
+  - name: "Evgeny Mandrikov"
+    github: Godin
+    photo: /assets/images/guests/09.jpg
+"10":
+  - name: "Saket Narayan"
+    github: saket
+    photo: /assets/images/guests/10.jpg
+"11":
+  - name: "Zac Sweers"
+    github: ZacSweers
+    photo: /assets/images/guests/11.jpg
+"12":
+  - name: "Louis CAD"
+    github: LouisCAD
+    photo: /assets/images/guests/12.jpg
+"13":
+  - name: "Martin Bonnin"
+    github: martinbonnin
+    photo: /assets/images/guests/13.jpg
+    github: martinbonnin
+    photo: /assets/images/guests/13.jpg
+"14":
+  - name: "Ralf Wondratschek"
+    github: vRallev
+    photo: /assets/images/guests/14.jpg
+"15":
+  - name: "Sebastiano Poggi"
+    github: rock3r
+    photo: /assets/images/guests/15.jpg
+"16":
+  - name: "Kosh Sergani"
+    github: k0shk0sh
+    photo: /assets/images/guests/16.jpg
+"17":
+  - name: "Patrick Arminio"
+    github: patrick91
+    photo: /assets/images/guests/17.jpg
+"18":
+  - name: "Joe Previte"
+    github: jsjoeio
+    photo: /assets/images/guests/18.jpg
+"19":
+  - name: "Simon Vergauwen"
+    github: nomisRev
+    photo: /assets/images/guests/19.jpg
+"20":
+  - name: "Enrique López-Mañas"
+    github: kikoso
+    photo: /assets/images/guests/20.jpg
+"21":
+  - name: "Sebastian Kaspari"
+    github: pocmo
+    photo: /assets/images/guests/21.jpg
+"22":
+  - name: "Geoffrey Huntley"
+    github: ghuntley
+    photo: /assets/images/guests/22.jpg
+"23":
+  - name: "Miguel Beltran"
+    github: miquelbeltran
+    photo: /assets/images/guests/23.jpg
+"24":
+  - name: "Xavier F. Gouchet"
+    github: xgouchet
+    photo: /assets/images/guests/24.jpg
+"25":
+  - name: "Christian Melchior"
+    github: cmelchior
+    photo: /assets/images/guests/25.jpg
+"26":
+  - name: "Vincenzo Palazzo"
+    github: vincenzopalazzo
+    photo: /assets/images/guests/26.jpg
+"27":
+  - name: "Michele Riva"
+    github: micheleriva
+    photo: /assets/images/guests/27.jpg
+"28":
+  - name: "Filip Babić"
+    github: filbabic
+    photo: /assets/images/guests/28.jpg
+"29":
+  - name: "Salomon Brys"
+    github: SalomonBrys
+    photo: /assets/images/guests/29.jpg
+"30":
+  - name: "The Detekt Maintainers"
+    github: detekt
+    photo: /assets/images/guests/30.jpg
+"31":
+  - name: "Tony Robalik"
+    github: autonomousapps
+    photo: /assets/images/guests/31.jpg
+"32":
+  - name: "Sergei Egorov"
+    github: bsideup
+    photo: /assets/images/guests/32.jpg
+"33":
+  - name: "Manoel Aranda Neto"
+    github: marandaneto
+  - name: "Roman Zavarnitsyn"
+    github: romtsn
+"34":
+  - name: "Andrea Cardaci"
+    github: cyrus-and
+    photo: /assets/images/guests/34.jpg
+"35":
+  - name: "Jonathan Leitschuh"
+    github: JLLeitschuh
+  - name: "Yahor Berdnikau"
+    github: Tapchicoma
+"36":
+  - name: "Marcos Holgado"
+    github: marcosholgado
+    photo: /assets/images/guests/36.jpg
+"37":
+  - name: "Gabriel Peal"
+    github: gpeal
+    photo: /assets/images/guests/37.jpg
+"38":
+  - name: "James Hamilton"
+    github: mrjameshamilton
+    photo: /assets/images/guests/38.jpg
+"39":
+  - name: "Sébastien Lorber"
+    github: slorber
+    photo: /assets/images/guests/39.jpg
+"40":
+  - name: "Nicola Corti"
+    github: cortinico
+"41":
+  - name: "Gabriel Ittner"
+    github: gabrielittner
+  - name: "Hannes Dorfmann"
+    github: sockeqwe
+"42":
+  - name: "Marcin Kuszczak"
+    github: aartiPl
+    photo: /assets/images/guests/42.jpg
+"43":
+  - name: "Kevin Galligan"
+    github: kpgalligan
+    photo: /assets/images/guests/43.jpg
+"44":
+  - name: "Said Turksever"
+    github: openstreetmap
+    photo: /assets/images/guests/44.jpg
+"45":
+  - name: "Jaewoong Eum"
+    github: skydoves
+    photo: /assets/images/guests/45.jpg
+"46":
+  - name: "Norbert de Langen"
+    github: ndelange
+    photo: /assets/images/guests/46.jpg
+"47":
+  - name: "Amos Gyamfi"
+    github: amosgyamfi
+    photo: /assets/images/guests/47.jpg
+"48":
+  - name: "Mattia Tommasone"
+    github: Raibaz
+    photo: /assets/images/guests/48.jpg
+"49":
+  - name: "Federico Terzi"
+    github: federico-terzi
+    photo: /assets/images/guests/49.jpg
+"50":
+  - name: "Schrödinger Hat"
+    github: 404answernotfound
+    photo: /assets/images/guests/50.jpg
+"51":
+  - name: "Federico Paolinelli"
+    github: fedepaol
+    photo: /assets/images/guests/51.jpg
+"52":
+  - name: "Marco Gomiero"
+    github: prof18
+    photo: /assets/images/guests/52.jpg
+"53":
+  - name: "Armin Nehzat"
+    photo: /assets/images/guests/53.jpg
+"54":
+  - name: "Camden Cheek"
+    github: camdencheek
+    photo: /assets/images/guests/54.jpg
+"55":
+  - name: "Mike McQuaid"
+    github: MikeMcQuaid
+    photo: /assets/images/guests/55.jpg
+"56":
+  - name: "Daniele Scasciafratte"
+    github: Mte90
+    photo: /assets/images/guests/56.jpg
+"57":
+  - name: "Giorgio Boa"
+    github: gioboa
+    photo: /assets/images/guests/57.jpg
+"58":
+  - name: "John O'Reilly"
+    github: joreilly
+  - name: "Martin Bonnin"
+    github: martinbonnin
+"59":
+  - name: "Adriel Café"
+    github: adrielcafe
+    photo: /assets/images/guests/59.jpg
+"60":
+  - name: "Jorge Castillo"
+    github: JorgeCastilloPrz
+    photo: /assets/images/guests/60.jpg
+"61":
+  - name: "Niccolò Venerandi"
+    github: veggero
+    photo: /assets/images/guests/61.jpg
+"62":
+  - name: "Anton Malinskiy"
+    github: Malinskiy
+    photo: /assets/images/guests/62.jpg
+"63":
+  - name: "Boris Farber"
+    github: borisf
+  - name: "Tomáš Mlynarič"
+    github: mlykotom
+"64":
+  - name: "Dmitry Kandalov"
+    github: dkandalov
+    photo: /assets/images/guests/64.jpg
+"65":
+  - name: "Christian Bromann"
+    github: christian-bromann
+    photo: /assets/images/guests/65.jpg
+"66":
+  - name: "Nicolò Ribaudo"
+    github: nicolo-ribaudo
+    photo: /assets/images/guests/66.jpg
+"67":
+  - name: "Michael Arnaldi"
+    github: mikearnaldi
+    photo: /assets/images/guests/67.jpg
+"68":
+  - name: "Marco Gorelli"
+    github: MarcoGorelli
+    photo: /assets/images/guests/68.jpg
+"69":
+  - name: "Nacho Lopez"
+    github: mrmans0n
+    photo: /assets/images/guests/69.jpg
+"70":
+  - name: "Marcin Moskała"
+    github: MarcinMoskala
+    photo: /assets/images/guests/70.jpg
+"71":
+  - name: "Emilio Coppola"
+    github: coppolaemilio
+    photo: /assets/images/guests/71.jpg
+"72":
+  - name: "François-Guillaume Fernandez"
+    github: frgfm
+    photo: /assets/images/guests/72.jpg
+"73":
+  - name: "Max Howell"
+    github: mxcl
+    photo: /assets/images/guests/73.jpg
+"74":
+  - name: "Tsavo Knott"
+    github: tsavo-at-pieces
+    photo: /assets/images/guests/74.jpg
+"75":
+  - name: "Pete Matsyburka"
+    github: omohokcoj
+    photo: /assets/images/guests/75.jpg
+"76":
+  - name: "Nicolas DUBIEN"
+    github: dubzzz
+    photo: /assets/images/guests/76.jpg
+"77":
+  - name: "Vincent Massol"
+    github: vmassol
+    photo: /assets/images/guests/77.jpg
+"78":
+  - name: "Takahiro Menju"
+    github: takahirom
+    photo: /assets/images/guests/78.jpg
+"79":
+  - name: "Guilherme Oenning"
+    github: goenning
+    photo: /assets/images/guests/79.jpg
+"80":
+  - name: "Xavier Damman"
+    github: xdamman
+    photo: /assets/images/guests/80.jpg
+"81":
+  - name: "Zach Wasserman"
+    github: zwass
+    photo: /assets/images/guests/81.jpg
+"82":
+  - name: "Ruth Cheesley"
+    github: RCheesley
+    photo: /assets/images/guests/82.jpg
+"83":
+  - name: "Tanmai Gopal"
+    github: coco98
+    photo: /assets/images/guests/83.jpg
+"84":
+  - name: "Adam Jacob"
+    github: adamhjk
+    photo: /assets/images/guests/84.jpg
+"85":
+  - name: "Marcello Galhardo"
+    github: marcellogalhardo
+    photo: /assets/images/guests/85.jpg
+"86":
+  - name: "Sandy Ryza"
+    github: sryza
+    photo: /assets/images/guests/86.jpg
+"87":
+  - name: "Christina Lin"
+    github: weimeilin79
+    photo: /assets/images/guests/87.jpg
+"88":
+  - name: "Himanshu Singh"
+    github: hi-manshu
+    photo: /assets/images/guests/88.jpg
+"89":
+  - name: "Gorkem Ercan"
+    github: gorkem
+    photo: /assets/images/guests/89.jpg
+"90":
+  - name: "Nicola Corti"
+    github: cortinico
+"91":
+  - name: "Aakansha Doshi"
+    github: ad1992
+    photo: /assets/images/guests/91.jpg
+"92":
+  - name: "Ivan Burazin"
+    github: ivan-burazin
+    photo: /assets/images/guests/92.jpg
+"93":
+  - name: "Egor Andreevich"
+    github: Egorand
+    photo: /assets/images/guests/93.jpg
+"94":
+  - name: "Elian Van Cutsem"
+    github: ElianCodes
+    photo: /assets/images/guests/94.jpg
+"95":
+  - name: "David Denton"
+    github: daviddenton
+    photo: /assets/images/guests/95.jpg
+"96":
+  - name: "Aayush Gupta"
+    photo: /assets/images/guests/96.jpg
+"97":
+  - name: "Gilad Shoham"
+    github: GiladShoham
+    photo: /assets/images/guests/97.jpg
+"98":
+  - name: "Sebastian Sellmair"
+    github: sellmair
+    photo: /assets/images/guests/98.jpg
+"99":
+  - name: "Jason Pearson"
+    github: kaeawc
+    photo: /assets/images/guests/99.jpg

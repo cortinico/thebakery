@@ -1,0 +1,15 @@
+{%- comment -%}
+  Overlapping faces for an episode. Call after episode-vars.html.
+  Fresh from the Oven shows the three hosts; otherwise the guests: `photo` if set, else the GitHub
+  avatar of `github`, else their initials. Optional include.size sets the avatar request size.
+{%- endcomment -%}
+{%- assign _size = include.size | default: 96 -%}
+<span class="people">
+{%- if ev_hosts -%}
+  {%- for h in site.data.hosts -%}<img src="{{ h.photo | relative_url }}" alt="{{ h.short }}" width="44" height="44" loading="lazy">{%- endfor -%}
+{%- elsif ev_guests -%}
+  {%- for g in ev_guests -%}{%- include avatar.html person=g size=_size -%}{%- endfor -%}
+{%- else -%}
+  <img src="{{ site.data.hosts[0].photo | relative_url }}" alt="{{ site.data.hosts[0].short }}" width="44" height="44" loading="lazy">
+{%- endif -%}
+</span>

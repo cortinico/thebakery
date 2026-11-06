@@ -1,0 +1,12 @@
+{%- comment -%} One round face for include.person ({name, github, photo}); initials when there is no picture. {%- endcomment -%}
+{%- assign _p = include.person -%}
+{%- assign _host = nil -%}
+{%- if _p.github -%}{%- assign _host = site.data.hosts | where: 'id', _p.github | first -%}{%- endif -%}
+{%- if _p.photo or _host -%}
+  <img src="{{ _p.photo | default: _host.photo | relative_url }}" alt="{{ _p.name }}" width="44" height="44" loading="lazy">
+{%- elsif _p.github -%}
+  <img src="https://github.com/{{ _p.github }}.png?size={{ include.size | default: 96 }}" alt="{{ _p.name }}" width="44" height="44" loading="lazy">
+{%- else -%}
+  {%- assign _w = _p.name | split: ' ' -%}
+  <span class="ph" title="{{ _p.name }}" role="img" aria-label="{{ _p.name }}">{{ _w.first | slice: 0 }}{% if _w.size > 1 %}{{ _w.last | slice: 0 }}{% endif %}</span>
+{%- endif -%}

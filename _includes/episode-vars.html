@@ -1,0 +1,47 @@
+{%- comment -%}
+  Reads one episode (include.ep) and sets, in the caller's scope:
+    ev_num      the episode number (integer)
+    ev_format   deep-dive | fresh-from-the-oven | special | season-1
+    ev_stamp    the stamp label;  ev_stamp_class  its CSS modifier
+    ev_title    the title without the "#N - " prefix
+    ev_short    ev_title without a trailing "with <guest>" (only when the episode has guests)
+    ev_guests   the guest list: front matter `guests:`, else _data/season1_guests.yml
+    ev_who      the line under the title ("with X", the three hosts, or front matter `byline:`)
+    ev_hosts    true when the faces to show are the three hosts (Fresh from the Oven)
+{%- endcomment -%}
+{%- assign ev = include.ep -%}
+{%- assign _parts = ev.title | split: ' - ' -%}
+{%- assign ev_num = _parts[0] | remove: '#' | plus: 0 -%}
+{%- assign ev_title = ev.title | remove_first: _parts[0] | remove_first: ' - ' -%}
+{%- assign ev_format = ev.format | default: 'season-1' -%}
+{%- case ev_format -%}
+  {%- when 'deep-dive' -%}{%- assign ev_stamp = 'Deep Dive' -%}{%- assign ev_stamp_class = 'dive' -%}
+  {%- when 'fresh-from-the-oven' -%}{%- assign ev_stamp = 'Fresh from the Oven' -%}{%- assign ev_stamp_class = 'oven' -%}
+  {%- when 'special' -%}{%- assign ev_stamp = 'Special' -%}{%- assign ev_stamp_class = 'special' -%}
+  {%- else -%}{%- assign ev_format = 'season-1' -%}{%- assign ev_stamp = 'Season 1' -%}{%- assign ev_stamp_class = 's1' -%}
+{%- endcase -%}
+{%- assign _key = ev_num | append: '' -%}
+{%- if ev.guests -%}
+  {%- assign ev_guests = ev.guests -%}
+{%- elsif ev_format == 'season-1' -%}
+  {%- assign ev_guests = site.data.season1_guests[_key] -%}
+{%- else -%}
+  {%- assign ev_guests = nil -%}
+{%- endif -%}
+{%- assign ev_hosts = false -%}
+{%- if ev_format == 'fresh-from-the-oven' -%}{%- assign ev_hosts = true -%}{%- endif -%}
+{%- assign ev_short = ev_title -%}
+{%- assign _with = ev_title | split: ' with ' -%}
+{%- if ev_guests and _with.size > 1 -%}
+  {%- assign _cut = ev_title.size | minus: _with.last.size | minus: 6 -%}
+  {%- assign ev_short = ev_title | slice: 0, _cut -%}
+{%- endif -%}
+{%- if ev.byline -%}
+  {%- assign ev_who = ev.byline -%}
+{%- elsif ev_hosts -%}
+  {%- assign ev_who = 'Nicola, Marco & Paolo' -%}
+{%- elsif ev_guests and ev_num > 0 -%}
+  {%- assign ev_who = ev_guests | map: 'name' | array_to_sentence_string | prepend: 'with ' -%}
+{%- else -%}
+  {%- assign ev_who = '' -%}
+{%- endif -%}

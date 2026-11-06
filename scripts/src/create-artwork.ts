@@ -8,10 +8,13 @@ import {
   artworkPath,
   artworkUrl,
   episodeId,
+  guestPhotoPath,
+  linkGuestPhoto,
   linkOgImage,
   loadImage,
   readEpisodeTitle,
   renderCover,
+  renderGuestPhoto,
   renderOg,
 } from './episode-artwork';
 
@@ -29,13 +32,14 @@ program
   .option('--host-episode', 'Use the three-host episode artwork layout')
   .option('--no-og', 'Only render the square cover')
   .option('--og-only', 'Only render the open graph artwork')
-  .option('--no-link', 'Do not point the episode post at the open graph artwork')
+  .option('--no-link', 'Do not point the episode post at the open graph artwork or the guest photo')
+  .option('--no-guest-photo', "Do not write the guest's photo for the website (assets/images/guests/)")
   .option('-o, --output <string>', 'Where to write the cover PNG, defaults to the episodes folder');
 
 program.parse(process.argv);
 
 const options = program.opts();
-const { number, image, project, guest, title, hostEpisode, og, ogOnly, link, output } = options;
+const { number, image, project, guest, title, hostEpisode, og, ogOnly, link, output, guestPhoto } = options;
 
 const FRESH_FROM_OVEN_HOSTS = [
   { name: 'Nicola', source: 'https://github.com/cortinico.png?size=512' },
@@ -144,6 +148,20 @@ async function main() {
       if (link) {
         const { episodePath } = linkOgImage(number);
         info(`Linked ${episodePath} to ${artworkUrl(number, 'og')}`);
+      }
+    }
+
+    // The same guest image, as the small round face the website shows on tickets. Only for posts with a
+    // guests: list (Deep Dives); with --no-link the file is written but the post is left alone.
+    if (cover && guestPhoto) {
+      const linked = link ? linkGuestPhoto(number) : undefined;
+      if (linked && !linked.linked) {
+        warn(`${linked.episodePath} has no guests: list, so no guest photo was written for the website.`);
+      } else {
+        const target = guestPhotoPath(number);
+        fs.mkdirSync('../assets/images/guests', { recursive: true });
+        fs.writeFileSync(target, renderGuestPhoto(cover));
+        info(`Guest photo: ${target}${linked ? `, linked from ${linked.episodePath}` : ''}`);
       }
     }
 

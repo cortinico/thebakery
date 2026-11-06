@@ -5,6 +5,21 @@ author_profile: true
 
 description: "Marco Gomiero takes us through his agentic development setup and Difftray, the local-first review app he built to track changing diffs, send feedback to coding agents, and review code remotely."
 
+format: fresh-from-the-oven
+recipes:
+  - host: prof18
+    name: "Archify"
+    url: "https://github.com/tt-a1i/archify"
+    what: "Turns plain descriptions or Mermaid into polished architecture diagrams."
+  - host: cortinico
+    name: "Zencastr"
+    url: "https://zencastr.com/home"
+    what: "Remote recording with a separate track per speaker."
+  - host: paolorotolo
+    name: "GitHub stacked pull requests"
+    url: "https://docs.github.com/en/pull-requests/how-tos/stacked-pull-requests"
+    what: "Split a big change into reviewable layers, natively."
+
 header:
   teaser: "/assets/images/header-single-episode.png"
   overlay_image: "/assets/images/header-single-episode.png"

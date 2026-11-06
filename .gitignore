@@ -4,3 +4,7 @@ _site/
 .jekyll-metadata
 .DS_Store
 node_modules/
+
+# Local Ruby setup (bundle config set --local path vendor/bundle)
+.bundle/
+vendor/

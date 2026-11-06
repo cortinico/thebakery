@@ -1,0 +1,10 @@
+{%- comment -%}
+  A paper ticket on the cooling rack for include.ep. include.i staggers the drop-in animation.
+  Carries data-format and data-search for the archive filters.
+{%- endcomment -%}
+{%- include episode-vars.html ep=include.ep -%}
+<li class="ticket-wrap" style="--i:{{ include.i | default: 0 }}" data-format="{{ ev_format }}" data-search="{{ ev_num }} {{ ev_title | downcase | escape }} {{ ev_who | downcase | escape }} {{ include.ep.excerpt | strip_html | downcase | escape }}"><span class="clip" aria-hidden="true"></span><article class="ticket">
+  <div class="ticket__top"><span class="ticket__num">#{{ ev_num }}</span>{% include people.html %}</div>
+  <span class="stamp stamp--{{ ev_stamp_class }}">{{ ev_stamp }}</span>
+  <h4><a href="{{ include.ep.url | relative_url }}">{{ ev_short }}</a></h4>{% if ev_who != '' %}<p class="who">{{ ev_who }}</p>{% endif %}
+  <dl><dt>Bake time</dt><dd>{{ include.ep.podcast_duration }}</dd><dt>Out</dt><dd>{{ include.ep.date | date: '%-d %b %Y' }}</dd></dl></article></li>

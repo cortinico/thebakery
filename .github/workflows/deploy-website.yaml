@@ -32,3 +32,5 @@ jobs:
       with:
         branch: gh-pages
         folder: _site/
+        # Keep the pull request previews that preview-website.yaml deploys next to the site.
+        clean-exclude: pr-preview/

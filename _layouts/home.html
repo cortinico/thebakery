@@ -1,0 +1,133 @@
+---
+layout: default
+body_class: home
+---
+{%- assign latest = site.posts.first -%}
+{%- if latest %}{% assign embed = latest.content | split: '</iframe>' | first | append: '</iframe>' | replace: '<iframe', '<iframe loading="lazy"' %}{% endif -%}
+{%- assign has_player = false -%}{%- if embed contains '<iframe' %}{% unless embed contains '<!--' %}{% assign has_player = true %}{% endunless %}{% endif -%}
+{%- assign total = 0 -%}
+{%- for p in site.posts -%}{%- assign _n = p.title | split: ' - ' | first | remove: '#' | plus: 0 -%}{%- if _n > 0 -%}{%- assign total = total | plus: 1 -%}{%- endif -%}{%- endfor -%}
+<section class="wrap hero">
+  <div>
+    <p class="eyebrow mono"><b>Season 2</b> Developer tools &amp; the people behind them</p>
+    <h1>The Developers' Bakery <em>Podcast</em></h1>
+    <p class="lede"><strong>What are you baking with?</strong> Developer tooling and the stories of the people who build and use it, with Nicola, Marco and Paolo.</p>
+    <div class="listen" id="listen">
+      <a class="btn" href="{{ site.links.spotify }}">Spotify</a>
+      <a class="btn btn--ghost" href="{{ site.links.apple }}">Apple Podcasts</a>
+      <a class="btn btn--ghost" href="{{ site.links.pocketcasts }}">Pocket Casts</a>
+      <a class="btn btn--ghost" href="{{ site.links.rss | relative_url }}">RSS</a>
+    </div>
+  </div>
+
+  {%- if latest %}
+  {%- include episode-vars.html ep=latest %}
+  <div class="now-col">
+  <article class="now" aria-labelledby="now-title">
+    <div class="now__head">
+      <span class="now__num">#{{ ev_num }}</span>
+      <span class="stamp stamp--{{ ev_stamp_class }}">{{ ev_stamp }}</span>
+    </div>
+    <h2 id="now-title"><a href="{{ latest.url | relative_url }}">{{ ev_title }}</a></h2>
+    <p>{{ latest.description | default: latest.excerpt | strip_html }}</p>
+    {%- comment %} The same player twice: in the ticket on wide screens, under it on phones. CSS shows one;
+    both are lazy, so the hidden one never loads. {% endcomment %}
+    {%- if has_player %}
+    <div class="embed now__player">{{ embed | replace: 'height="352"', 'height="232"' | replace: 'height="152"', 'height="232"' }}</div>
+    {%- endif %}
+  </article>
+  {%- if has_player %}
+  <div class="embed now-col__player">{{ embed | replace: 'height="352"', 'height="152"' | replace: 'height="232"', 'height="152"' }}</div>
+  {%- endif %}
+  </div>
+  {%- endif %}
+</section>
+
+<section class="rack" id="episodes" aria-labelledby="rack-title" data-rack>
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <p class="mono eyebrow-label">On the cooling rack</p>
+        <h2 class="title" id="rack-title">Latest episodes</h2>
+      </div>
+      <div class="rack__controls">
+        <button class="arrow" type="button" data-scroll="back" aria-label="Scroll to newer episodes">←</button>
+        <button class="arrow" type="button" data-scroll="forward" aria-label="Scroll to older episodes">→</button>
+        <a class="btn btn--butter" href="{{ '/episodes' | relative_url }}">All {{ total }} episodes</a>
+      </div>
+    </div>
+    <div class="bar" aria-hidden="true"></div>
+    <ol class="tickets" reversed>
+      {%- for post in site.posts limit: page.rack_size %}
+      {% include ticket.html ep=post i=forloop.index0 %}
+      {%- endfor %}
+    </ol>
+    <p class="mono rack__hint">Scroll or drag sideways · {{ total }} episodes on the rack</p>
+  </div>
+</section>
+
+<section class="wrap formats" id="formats" aria-labelledby="formats-title">
+  <div class="section-head" style="margin-bottom:0">
+    <div>
+      <p class="mono eyebrow-label">Two kinds of bread</p>
+      <h2 class="title" id="formats-title">On the menu</h2>
+    </div>
+    <p>We alternate between two formats, so there's always something new on the shelf.</p>
+  </div>
+  <div class="menu">
+    <article>
+      <span class="stamp stamp--dive">Deep Dive</span>
+      <h3>A guest, a story, the tools behind it</h3>
+      <p>We sit down with someone building or using developer tools and follow one story: the problem, the workaround, the thing that finally worked.</p>
+      <div class="meta mono"><span>With<b>A guest &amp; the hosts</b></span><span>Length<b>35–50 min</b></span></div>
+    </article>
+    <article>
+      <span class="stamp stamp--oven">Fresh from the Oven</span>
+      <h3>Just the three of us, one hot topic</h3>
+      <p>Nicola, Marco and Paolo pick what's on their minds: news, setups, hot takes, conference recaps. Opinions included, agreement optional.</p>
+      <div class="meta mono"><span>With<b>The three hosts</b></span><span>Length<b>20–50 min</b></span></div>
+    </article>
+  </div>
+</section>
+
+<section class="paper recipes" aria-labelledby="recipe-title">
+  <div class="wrap recipe-grid">
+    <div>
+      <p class="mono eyebrow-label">Recurring segment</p>
+      <h2 class="title" id="recipe-title">Recipe of the Week</h2>
+      <p>At the end of an episode, each of us brings one small thing that made our week easier: a CLI, a config trick, a hidden-gem library. Links in the show notes.</p>
+    </div>
+    <ul class="picks">
+      {%- assign shown = 0 %}
+      {%- for post in site.posts %}
+        {%- if post.recipes and shown < page.recipe_picks %}
+          {%- include episode-vars.html ep=post %}
+          {%- for r in post.recipes %}
+            {%- if shown < page.recipe_picks %}
+              {%- assign host = site.data.hosts | where: 'id', r.host | first %}
+      <li><span class="by">{{ host.short | default: r.host }}</span><span><strong>{% if r.url %}<a href="{{ r.url }}">{{ r.name }}</a>{% else %}{{ r.name }}{% endif %}</strong><span class="what">{{ r.what }}</span></span><a class="ep" href="{{ post.url | relative_url }}">#{{ ev_num }}</a></li>
+              {%- assign shown = shown | plus: 1 %}
+            {%- endif %}
+          {%- endfor %}
+        {%- endif %}
+      {%- endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="wrap hosts" id="hosts" aria-labelledby="hosts-title">
+  <p class="mono eyebrow-label">The bakers</p>
+  <h2 class="title" id="hosts-title">Three hosts, three kitchens</h2>
+  <div class="host-grid">
+    {%- for h in site.data.hosts %}
+    <article class="host">
+      <img src="{{ h.photo | relative_url }}" alt="{{ h.name }}" width="112" height="112" loading="lazy">
+      <h3>{{ h.name }}</h3><p class="role mono">{{ h.role }}</p>
+      <p>{{ h.bio_short }}</p>
+      <p class="links"><a href="https://github.com/{{ h.id }}">GitHub</a><a href="https://x.com/{{ h.x }}">X</a><a href="{{ h.website }}">{{ h.website_label }}</a></p>
+    </article>
+    {%- endfor %}
+  </div>
+</section>
+
+{% include guest-band.html long=true %}
