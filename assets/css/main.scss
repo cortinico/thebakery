@@ -36,7 +36,9 @@ h1, h2, h3 { font-family: var(--display); font-weight: 400; margin: 0; }
 .nav { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding-block: 22px; }
 .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; }
 .brand svg { width: 46px; height: 46px; flex: none; }
-.brand span { font-family: var(--display); font-size: 13px; line-height: 1.25; letter-spacing: .02em; }
+.brand span { font-family: var(--display); font-size: 13px; line-height: 1.25; letter-spacing: .02em; white-space: nowrap; }
+/* Rubik Mono One gives the apostrophe a full cell: tuck it against the S. */
+.apos { margin-left: -.42em; margin-right: -.18em; }
 .nav ul { display: flex; gap: 28px; list-style: none; margin: 0; padding: 0; font-weight: 500; }
 .nav ul a { text-decoration: none; border-bottom: 2px solid transparent; padding-bottom: 2px; }
 .nav ul a:hover, .nav ul a[aria-current] { border-color: var(--ink); }
@@ -160,7 +162,9 @@ img { max-width: 100%; }
   .hero { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr); gap: clamp(28px, 5vw, 64px); align-items: center; padding-block: clamp(24px, 5vw, 64px) clamp(64px, 9vw, 112px); }
   .eyebrow { display: inline-flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; margin-bottom: 22px; }
   .eyebrow b { background: var(--ink); color: var(--butter); padding: 5px 9px; border-radius: 4px; font-weight: 600; }
-  .hero h1 { font-size: clamp(34px, 4vw, 52px); line-height: 1; margin: 0 0 24px; overflow-wrap: break-word; }
+  .hero h1 { font-size: clamp(34px, 4vw, 52px); line-height: 1; margin: 0 0 24px; }
+  /* Never break "DEVELOPERS’" before its apostrophe. */
+  .hero h1 .word { white-space: nowrap; }
   .hero h1 em { font-style: normal; color: var(--crust); }
   .lede { font-size: clamp(18px, 1.6vw, 21px); max-width: 36ch; margin: 0 0 28px; }
   .lede strong { font-weight: 600; }
@@ -181,7 +185,7 @@ img { max-width: 100%; }
   }
   @media (max-width: 480px) { .now { padding: 18px; box-shadow: 6px 8px 0 var(--ink); } }
   /* "DEVELOPERS'" is the longest word: keep it inside the gutter on small phones. */
-  @media (max-width: 400px) { .hero h1 { font-size: 8.6vw; } }
+  @media (max-width: 560px) { .hero h1 { font-size: calc((100vw - 32px) / 10.6); } }
 
   .formats { padding-block: clamp(64px, 8vw, 110px); }
   .menu { display: grid; grid-template-columns: 1fr 1fr; margin-top: 40px; border: 2.5px solid var(--ink); border-radius: 8px; overflow: hidden; }
