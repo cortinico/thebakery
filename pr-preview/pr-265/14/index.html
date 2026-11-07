@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <!-- begin _includes/seo.html --><title>#14 - Anvil with Ralf Wondratschek - The Developers’ Bakery</title>
+<meta name="description" content="Forging a faster and easier dependency injection with Anvil!">
+
+
+  <meta name="author" content="The Developers' Bakery">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_GB">
+<meta property="og:site_name" content="The Developers' Bakery">
+<meta property="og:title" content="#14 - Anvil with Ralf Wondratschek">
+<meta property="og:url" content="https://thebakery.dev/pr-preview/pr-265/14/">
+
+
+  <meta property="og:description" content="Forging a faster and easier dependency injection with Anvil!">
+
+
+
+  <meta property="og:image" content="https://thebakery.dev/pr-preview/pr-265/assets/images/episodes/14-og.png">
+
+
+
+  <meta name="twitter:site" content="@thebakerydev">
+  <meta name="twitter:title" content="#14 - Anvil with Ralf Wondratschek">
+  <meta name="twitter:description" content="Forging a faster and easier dependency injection with Anvil!">
+  <meta name="twitter:url" content="https://thebakery.dev/pr-preview/pr-265/14/">
+
+  
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://thebakery.dev/pr-preview/pr-265/assets/images/episodes/14-og.png">
+  
+
+  
+    <meta name="twitter:creator" content="@thebakerydev">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="The Developers' Bakery">
+  
+
+  
+    <meta name="twitter:label2" content="Published in">
+    <meta name="twitter:data2" content="">
+  
+
+
+
+  <meta property="article:published_time" content="2021-06-28T13:00:00+01:00">
+
+
+
+
+
+
+<link rel="canonical" href="https://thebakery.dev/pr-preview/pr-265/14/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "The Developers' Bakery",
+      "url": "https://thebakery.dev/pr-preview/pr-265",
+      "sameAs": ["https://x.com/thebakerydev","https://x.com/cortinico"]
+    }
+  </script>
+
+
+
+
+
+
+
+
+<link href="/podcast.xml" type="application/rss+xml" rel="alternate" title="The Developers' Bakery Podcast Feed">
+<!-- end _includes/seo.html -->
+
+  <link rel="alternate" type="application/rss+xml" title="The Developers' Bakery (podcast feed)" href="https://thebakery.dev/pr-preview/pr-265/podcast">
+  <link type="application/atom+xml" rel="alternate" href="https://thebakery.dev/pr-preview/pr-265/feed.xml" title="The Developers&apos; Bakery" />
+  <link rel="icon" href="/pr-preview/pr-265/favicon.ico">
+  <link rel="apple-touch-icon" href="/pr-preview/pr-265/assets/images/avatar.png">
+  <meta name="theme-color" content="#FED46D">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Icons used inside older show notes (fa-github, fa-link, ...) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="/pr-preview/pr-265/assets/css/main.css">
+</head>
+<body class="page-episode">
+<a class="skip" href="#main">Skip to content</a>
+<header class="wrap nav">
+  <a class="brand" href="/pr-preview/pr-265/" aria-label="The Developers' Bakery, home">
+    <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M17 22 L5 32 L17 42" fill="none" stroke="#45423D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><path d="M47 22 L59 32 L47 42" fill="none" stroke="#45423D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><g transform="rotate(26 32 32)"><rect x="28.5" y="3" width="7" height="12" rx="3.5" fill="#F0D6AB" stroke="#45423D" stroke-width="3"/><rect x="28.5" y="49" width="7" height="12" rx="3.5" fill="#F0D6AB" stroke="#45423D" stroke-width="3"/><rect x="24" y="14" width="16" height="36" rx="2" fill="#F0D6AB" stroke="#45423D" stroke-width="3"/></g></svg>
+
+    <span>The Developers<span class="apos">’</span><br>Bakery</span>
+  </a>
+  <nav aria-label="Main"><ul>
+    <li><a href="/pr-preview/pr-265/episodes" aria-current="page">Episodes</a></li>
+    <li><a href="/pr-preview/pr-265/#formats">Formats</a></li>
+    <li><a href="/pr-preview/pr-265/about">About</a></li>
+    <li><a href="/pr-preview/pr-265/guest">Be a guest</a></li>
+  </ul></nav>
+  <a class="btn" href="#player">Listen</a>
+</header>
+
+<main id="main">
+<section class="wrap ep-head">
+  <div>
+    <p class="crumb mono"><a href="/pr-preview/pr-265/episodes">Episodes</a> / #14</p>
+    <div class="numrow"><span class="n">#14</span><span class="stamp stamp--s1">Season 1</span></div>
+    <h1>Anvil with Ralf Wondratschek</h1>
+    <p class="excerpt">Forging a faster and easier dependency injection with Anvil!</p>
+    <div class="meta">
+      <span class="people"><img src="/pr-preview/pr-265/assets/images/guests/14.jpg" alt="Ralf Wondratschek" width="44" height="44" loading="lazy"></span>
+
+      <span class="mono">Ralf Wondratschek · 28 Jun 2021 · 49:34</span>
+    </div>
+  </div>
+  <img class="art" src="/pr-preview/pr-265/assets/images/episodes/14-cover.png" alt="Episode 14 artwork" width="340" height="340">
+</section>
+
+<section class="wrap player" id="player">
+  <div class="embed" data-player><iframe src="https://open.spotify.com/embed/episode/06yvUIUdpAq8lsP7ynzVS1" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
+  <div class="also"><span class="mono" style="opacity:.7">Also on</span>
+    <a class="btn btn--ghost btn--sm" href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k">Spotify</a>
+    <a class="btn btn--ghost btn--sm" href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">Apple Podcasts</a>
+    <a class="btn btn--ghost btn--sm" href="https://pca.st/vq8ml6pl">Pocket Casts</a>
+    <a class="btn btn--ghost btn--sm" href="/pr-preview/pr-265/podcast">RSS</a>
+  </div>
+</section>
+
+<section class="paper notes">
+  <div class="wrap">
+    <article class="prose" data-notes>
+      
+
+<blockquote>
+  <p><em>“When all you have is an anvil, every problem looks like a hammer.”</em> - <a href="https://en.wikipedia.org/wiki/Law_of_the_instrument">Abraham Maslow</a></p>
+</blockquote>
+
+<p>So it starts the <a href="https://github.com/square/anvil"><strong>Anvil 🔨</strong></a> README.</p>
+
+<p>Anvil is a plugin to make your <strong>dependency injection</strong> with Dagger 2 <strong>easier</strong>.</p>
+
+<p>We have the pleasure to host <a href="https://twitter.com/vRallev"><strong>Ralf Wondratschek</strong></a>, Mobile Engineer @ Square. He’s going to tell us how Anvil can make your life with Dagger 2 easier and <strong>faster</strong>.</p>
+
+<p>Did you know that this project was originally called <a href="https://github.com/square/anvil/issues/12#issuecomment-663291099"><em>Hephaestus</em></a>? Make sure to don’t miss this episode if you want to learn this and other stories behind this project.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.19</strong> Intro</li>
+  <li><strong>01.05</strong> Episode Start</li>
+  <li><strong>01.31</strong> Ralf’s Introduction</li>
+  <li><strong>02.21</strong> What is Anvil?</li>
+  <li><strong>02.51</strong> What is Dagger?</li>
+  <li><strong>05.20</strong> Ralf’s opinion on Dependency Injection</li>
+  <li><strong>07.27</strong> Any bad experiences with Dagger?</li>
+  <li><strong>08.41</strong> What problem is Anvil solving?</li>
+  <li><strong>14.03</strong> Is Anvil useful if I have only one Android project?</li>
+  <li><strong>15.47</strong> What’s the story of Anvil?</li>
+  <li><strong>17.56</strong> Anvil Internals</li>
+  <li><strong>22.12</strong> How stable is Anvil?</li>
+  <li><strong>25.00</strong> Anvil vs Hilt</li>
+  <li><strong>28.57</strong> What do you recommend using in a fresh Android project?</li>
+  <li><strong>34.37</strong> Tips for project naming</li>
+  <li><strong>36.56</strong> Shiny new features</li>
+  <li><strong>37.24</strong> Anvil &amp; Dagger @Binds</li>
+  <li><strong>38.29</strong> Anvil &amp; Dagger Factories</li>
+  <li><strong>40.51</strong> Anvil extensibility</li>
+  <li><strong>44.53</strong> What to expect for Anvil in the future?</li>
+  <li><strong>47.18</strong> Further reading</li>
+  <li><strong>48.35</strong> Where to find Ralf online?</li>
+</ul>
+
+
+
+      <h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/square/anvil">square/anvil on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://github.com/square/anvil/blob/main/README.md">Official Documentation</a></li>
+  <li>Mentioned Resources &amp; Projects:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://dagger.dev/">Dagger Official Website</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://dagger.dev/hilt/">Hilt Documentation</a></li>
+      <li><i class="fab fa-youtube"></i> <a href="https://www.droidcon.com/media-detail?video=380843878">Android at Scale @Square - Droidcon San Francisco 2019</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/vRallev">@vRallev on Github</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/vRallev">@vRallev on Twitter</a></li>
+</ul>
+
+
+    </article>
+
+    <aside class="side">
+      <div class="card card--butter mic">
+        <span class="mono">On the mic</span>
+        <div class="row"><img src="/pr-preview/pr-265/assets/images/guests/14.jpg" alt="Ralf Wondratschek" width="44" height="44" loading="lazy"><div><b>Ralf Wondratschek</b><small><a href="https://github.com/vRallev">@vRallev</a> · Guest</small></div></div>
+        <div class="row"><img src="/pr-preview/pr-265/assets/images/hosts/cortinico.jpg" alt="" width="44" height="44" loading="lazy"><div><b>Nicola Corti</b><small><a href="https://github.com/cortinico">@cortinico</a> · Host</small></div></div>
+      </div>
+      <div class="card share">
+        <span class="mono">Share this episode</span>
+        <b>thebakery.dev/14</b>
+        <button type="button" data-copy="https://thebakery.dev/pr-preview/pr-265/14/">Copy link</button> ·
+        <a href="https://x.com/intent/post?url=https%3A%2F%2Fthebakery.dev%2Fpr-preview%2Fpr-265%2F14%2F&amp;text=Anvil+with+Ralf+Wondratschek">X</a> ·
+        <a href="https://bsky.app/intent/compose?text=Anvil+with+Ralf+Wondratschek+https%3A%2F%2Fthebakery.dev%2Fpr-preview%2Fpr-265%2F14%2F">Bluesky</a> ·
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fthebakery.dev%2Fpr-preview%2Fpr-265%2F14%2F">LinkedIn</a>
+      </div>
+      <div class="card card--ink">
+        <b>Got a story worth baking?</b>
+        <a href="/pr-preview/pr-265/guest">We're looking for Deep Dive guests. Pitch an episode →</a>
+      </div>
+    </aside>
+  </div>
+</section>
+<section class="rack more" aria-labelledby="more-title">
+  <div class="wrap">
+    <div class="section-head">
+      <div><p class="mono eyebrow-label">Previous &amp; next</p><h2 class="title" id="more-title">More from the oven</h2></div>
+      <a class="btn btn--butter" href="/pr-preview/pr-265/episodes">All episodes</a>
+    </div>
+    <div class="bar" aria-hidden="true"></div>
+    <ol class="tickets tickets--wrap"><li class="ticket-wrap" style="--i:0" data-format="season-1" data-search="13 apollo graphql with martin bonnin with martin bonnin martin is on stage to tell us about graphql and apollo android, the most popular graphql client for android"><span class="clip" aria-hidden="true"></span><article class="ticket">
+  <div class="ticket__top"><span class="ticket__num">#13</span><span class="people"><img src="/pr-preview/pr-265/assets/images/guests/13.jpg" alt="Martin Bonnin" width="44" height="44" loading="lazy"></span>
+</div>
+  <span class="stamp stamp--s1">Season 1</span>
+  <h4><a href="/pr-preview/pr-265/13/">Apollo GraphQL</a></h4><p class="who">with Martin Bonnin</p>
+  <dl><dt>Bake time</dt><dd>43:24</dd><dt>Out</dt><dd>14 Jun 2021</dd></dl></article></li>
+<li class="ticket-wrap" style="--i:1" data-format="season-1" data-search="15 deep-clean with sebastiano poggi with sebastiano poggi deep-clean is what happens when someone gets really frustrated. sebastiano is on stage to talk us about it."><span class="clip" aria-hidden="true"></span><article class="ticket">
+  <div class="ticket__top"><span class="ticket__num">#15</span><span class="people"><img src="/pr-preview/pr-265/assets/images/guests/15.jpg" alt="Sebastiano Poggi" width="44" height="44" loading="lazy"></span>
+</div>
+  <span class="stamp stamp--s1">Season 1</span>
+  <h4><a href="/pr-preview/pr-265/15/">Deep-clean</a></h4><p class="who">with Sebastiano Poggi</p>
+  <dl><dt>Bake time</dt><dd>45:02</dd><dt>Out</dt><dd>12 Jul 2021</dd></dl></article></li>
+
+    </ol>
+    <div class="nextprev mono"><a href="/pr-preview/pr-265/13/">← Previous: #13</a><a href="/pr-preview/pr-265/15/">Next: #15 →</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <span>© 2026 The Developers' Bakery</span>
+    <nav aria-label="Footer">
+      <a href="https://x.com/thebakerydev">@thebakerydev</a>
+      <a href="mailto:info@thebakery.dev">info@thebakery.dev</a>
+      <a href="/pr-preview/pr-265/podcast">RSS feed</a>
+      <a href="https://buymeacoffee.com/cortinico">Buy us a coffee</a>
+    </nav>
+  </div>
+</footer>
+<script src="/pr-preview/pr-265/assets/js/site.js" defer></script>
+</body>
+</html>
