@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <!-- begin _includes/seo.html --><title>#101 - Making coding agents your own with Iury Souza - The Developers’ Bakery</title>
+<meta name="description" content="Iury Souza shares how he customizes coding agents with OpenCode and Pi, keeps his setup portable, experiments with local models, and uses visual feedback to stay in the loop.">
+
+
+  <meta name="author" content="The Developers' Bakery">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_GB">
+<meta property="og:site_name" content="The Developers' Bakery">
+<meta property="og:title" content="#101 - Making coding agents your own with Iury Souza">
+<meta property="og:url" content="https://thebakery.dev/pr-preview/pr-266/101/">
+
+
+  <meta property="og:description" content="Iury Souza shares how he customizes coding agents with OpenCode and Pi, keeps his setup portable, experiments with local models, and uses visual feedback to stay in the loop.">
+
+
+
+  <meta property="og:image" content="https://thebakery.dev/pr-preview/pr-266/assets/images/episodes/101-og.png">
+
+
+
+  <meta name="twitter:site" content="@thebakerydev">
+  <meta name="twitter:title" content="#101 - Making coding agents your own with Iury Souza">
+  <meta name="twitter:description" content="Iury Souza shares how he customizes coding agents with OpenCode and Pi, keeps his setup portable, experiments with local models, and uses visual feedback to stay in the loop.">
+  <meta name="twitter:url" content="https://thebakery.dev/pr-preview/pr-266/101/">
+
+  
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://thebakery.dev/pr-preview/pr-266/assets/images/episodes/101-og.png">
+  
+
+  
+    <meta name="twitter:creator" content="@thebakerydev">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="The Developers' Bakery">
+  
+
+  
+    <meta name="twitter:label2" content="Published in">
+    <meta name="twitter:data2" content="">
+  
+
+
+
+  <meta property="article:published_time" content="2026-09-10T13:00:00+01:00">
+
+
+
+
+
+
+<link rel="canonical" href="https://thebakery.dev/pr-preview/pr-266/101/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "The Developers' Bakery",
+      "url": "https://thebakery.dev/pr-preview/pr-266",
+      "sameAs": ["https://x.com/thebakerydev","https://x.com/cortinico"]
+    }
+  </script>
+
+
+
+
+
+
+
+
+<link href="/podcast.xml" type="application/rss+xml" rel="alternate" title="The Developers' Bakery Podcast Feed">
+<!-- end _includes/seo.html -->
+
+  <link rel="alternate" type="application/rss+xml" title="The Developers' Bakery (podcast feed)" href="https://thebakery.dev/pr-preview/pr-266/podcast">
+  <link type="application/atom+xml" rel="alternate" href="https://thebakery.dev/pr-preview/pr-266/feed.xml" title="The Developers&apos; Bakery" />
+  <link rel="icon" href="/pr-preview/pr-266/favicon.ico">
+  <link rel="apple-touch-icon" href="/pr-preview/pr-266/assets/images/avatar.png">
+  <meta name="theme-color" content="#FED46D">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Icons used inside older show notes (fa-github, fa-link, ...) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="/pr-preview/pr-266/assets/css/main.css">
+</head>
+<body class="page-episode">
+<a class="skip" href="#main">Skip to content</a>
+<header class="wrap nav">
+  <a class="brand" href="/pr-preview/pr-266/" aria-label="The Developers' Bakery, home">
+    <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M17 22 L5 32 L17 42" fill="none" stroke="#45423D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><path d="M47 22 L59 32 L47 42" fill="none" stroke="#45423D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><g transform="rotate(26 32 32)"><rect x="28.5" y="3" width="7" height="12" rx="3.5" fill="#F0D6AB" stroke="#45423D" stroke-width="3"/><rect x="28.5" y="49" width="7" height="12" rx="3.5" fill="#F0D6AB" stroke="#45423D" stroke-width="3"/><rect x="24" y="14" width="16" height="36" rx="2" fill="#F0D6AB" stroke="#45423D" stroke-width="3"/></g></svg>
+
+    <span>The Developers<span class="apos">’</span><br>Bakery</span>
+  </a>
+  <nav aria-label="Main"><ul>
+    <li><a href="/pr-preview/pr-266/episodes" aria-current="page">Episodes</a></li>
+    <li><a href="/pr-preview/pr-266/#formats">Formats</a></li>
+    <li><a href="/pr-preview/pr-266/about">About</a></li>
+    <li><a href="/pr-preview/pr-266/guest">Be a guest</a></li>
+  </ul></nav>
+  <a class="btn" href="#player">Listen</a>
+</header>
+
+<main id="main">
+<section class="wrap ep-head">
+  <div>
+    <p class="crumb mono"><a href="/pr-preview/pr-266/episodes">Episodes</a> / #101</p>
+    <div class="numrow"><span class="n">#101</span><span class="stamp stamp--dive">Deep Dive</span></div>
+    <h1>Making coding agents your own with Iury Souza</h1>
+    <p class="excerpt">Custom harnesses, local models, and better ways to collaborate with coding agents</p>
+    <div class="meta">
+      <span class="people"><img src="/pr-preview/pr-266/assets/images/guests/101.jpg" alt="Iury Souza" width="44" height="44" loading="lazy"></span>
+
+      <span class="mono">Iury Souza · 10 Sep 2026 · 21:29</span>
+    </div>
+  </div>
+  <img class="art" src="/pr-preview/pr-266/assets/images/episodes/101-cover.png" alt="Episode 101 artwork" width="340" height="340">
+</section>
+
+<section class="wrap player" id="player">
+  <div class="embed" data-player><iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/6Aoe3umg8hLuP02bsqNdIV?utm_source=generator&amp;si=bf35f011e6cb4a87" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+  <div class="also"><span class="mono" style="opacity:.7">Also on</span>
+    <a class="btn btn--ghost btn--sm" href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k">Spotify</a>
+    <a class="btn btn--ghost btn--sm" href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">Apple Podcasts</a>
+    <a class="btn btn--ghost btn--sm" href="https://pca.st/vq8ml6pl">Pocket Casts</a>
+    <a class="btn btn--ghost btn--sm" href="/pr-preview/pr-266/podcast">RSS</a>
+  </div>
+</section>
+
+<section class="paper notes">
+  <div class="wrap">
+    <article class="prose" data-notes>
+      
+
+<p>How much of your coding agent can you make your own? Today we’re recording <strong>in person</strong> during the GDE Summit, with <a href="https://iurysouza.dev/"><strong>Iury Souza</strong></a>, a mobile developer and platform engineer who loves tinkering with his dev tools.</p>
+
+<p>Iury takes us through his agentic development setup with <a href="https://opencode.ai/"><strong>OpenCode</strong></a> and <a href="https://pi.dev/"><strong>Pi</strong></a>, from choosing models for planning and implementation to teaching an agent to build its own extensions. We explore what a harness actually does, how skills and <code class="language-plaintext highlighter-rouge">AGENTS.md</code> shape the context a model sees, and why sharing your perfect setup can be just as tricky as sharing your dotfiles.</p>
+
+<p>We also talk about the future of terminal interfaces, the reality of running local models on a laptop, and how to keep up when agents produce more work than you can comfortably review. Iury shares his experiments with annotated plans and his open-source <a href="https://github.com/iurysza/visual-artifact-renderer">Visual Artifact Renderer</a>, which turns agent output into visual explanations, code reviews, and dashboards.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.46</strong> Episode Start</li>
+  <li><strong>01.09</strong> Yuri’s Introduction</li>
+  <li><strong>02.00</strong> What is your AI stack?</li>
+  <li><strong>04.05</strong> Building your own harness</li>
+  <li><strong>05.57</strong> The first thing you change in your harness</li>
+  <li><strong>07.45</strong> Sharing your harness customization</li>
+  <li><strong>10.29</strong> Using Graphical IDEs with AI?</li>
+  <li><strong>12.32</strong> Local models</li>
+  <li><strong>15.46</strong> What’s next for agentic development?</li>
+  <li><strong>19.00</strong> Yuri’s favorite creators</li>
+  <li><strong>20.25</strong> Where people can find you online?</li>
+</ul>
+
+
+
+      <h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://opencode.ai/">OpenCode</a> - Iury’s main coding harness</li>
+  <li><i class="fas fa-link"></i> <a href="https://pi.dev/">Pi</a> - the extensible coding agent behind his experiments</li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/iurysza/visual-artifact-renderer">Visual Artifact Renderer on GitHub</a> - Iury’s tool for visual explanations, reviews, and dashboards</li>
+  <li><i class="fas fa-link"></i> <a href="https://iurysouza.dev/my-agentic-coding-workflow-26q1/">My 26-Q1 Agentic Coding Workflow</a> - more background on Iury’s setup</li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/iurysza">@iurysza on GitHub</a></li>
+  <li><i class="fab fa-x-twitter"></i> <a href="https://x.com/iurysza">@iurysza on x</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://iurysouza.dev/">Iury’s Website</a></li>
+</ul>
+
+
+    </article>
+
+    <aside class="side">
+      <div class="card card--butter mic">
+        <span class="mono">On the mic</span>
+        <div class="row"><img src="/pr-preview/pr-266/assets/images/guests/101.jpg" alt="Iury Souza" width="44" height="44" loading="lazy"><div><b>Iury Souza</b><small><a href="https://github.com/iurysza">@iurysza</a> · Guest</small></div></div>
+        <div class="row"><img src="/pr-preview/pr-266/assets/images/hosts/cortinico.jpg" alt="" width="44" height="44" loading="lazy"><div><b>Nicola Corti</b><small><a href="https://github.com/cortinico">@cortinico</a> · Host</small></div></div>
+        <div class="row"><img src="/pr-preview/pr-266/assets/images/hosts/prof18.jpg" alt="" width="44" height="44" loading="lazy"><div><b>Marco Gomiero</b><small><a href="https://github.com/prof18">@prof18</a> · Host</small></div></div>
+        <div class="row"><img src="/pr-preview/pr-266/assets/images/hosts/paolorotolo.jpg" alt="" width="44" height="44" loading="lazy"><div><b>Paolo Rotolo</b><small><a href="https://github.com/paolorotolo">@paolorotolo</a> · Host</small></div></div>
+      </div>
+      <div class="card share">
+        <span class="mono">Share this episode</span>
+        <b>thebakery.dev/101</b>
+        <button type="button" data-copy="https://thebakery.dev/pr-preview/pr-266/101/">Copy link</button> ·
+        <a href="https://x.com/intent/post?url=https%3A%2F%2Fthebakery.dev%2Fpr-preview%2Fpr-266%2F101%2F&amp;text=Making+coding+agents+your+own+with+Iury+Souza">X</a> ·
+        <a href="https://bsky.app/intent/compose?text=Making+coding+agents+your+own+with+Iury+Souza+https%3A%2F%2Fthebakery.dev%2Fpr-preview%2Fpr-266%2F101%2F">Bluesky</a> ·
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fthebakery.dev%2Fpr-preview%2Fpr-266%2F101%2F">LinkedIn</a>
+      </div>
+      <div class="card card--ink">
+        <b>Got a story worth baking?</b>
+        <a href="/pr-preview/pr-266/guest">We're looking for Deep Dive guests. Pitch an episode →</a>
+      </div>
+    </aside>
+  </div>
+</section>
+<section class="rack more" aria-labelledby="more-title">
+  <div class="wrap">
+    <div class="section-head">
+      <div><p class="mono eyebrow-label">Previous &amp; next</p><h2 class="title" id="more-title">More from the oven</h2></div>
+      <a class="btn btn--butter" href="/pr-preview/pr-266/episodes">All episodes</a>
+    </div>
+    <div class="bar" aria-hidden="true"></div>
+    <ol class="tickets tickets--wrap"><li class="ticket-wrap" style="--i:0" data-format="special" data-search="100 99 episodes, and everything i got wrong nicola in the guest chair 100 episodes later: how the bakery started, what i got wrong, and what&#39;s baking next"><span class="clip" aria-hidden="true"></span><article class="ticket">
+  <div class="ticket__top"><span class="ticket__num">#100</span><span class="people"><img src="/pr-preview/pr-266/assets/images/hosts/cortinico.jpg" alt="Nicola Corti" width="44" height="44" loading="lazy"></span>
+</div>
+  <span class="stamp stamp--special">Special</span>
+  <h4><a href="/pr-preview/pr-266/100/">99 episodes, and everything I got wrong</a></h4><p class="who">Nicola in the guest chair</p>
+  <dl><dt>Bake time</dt><dd>47:12</dd><dt>Out</dt><dd>27 Aug 2026</dd></dl></article></li>
+<li class="ticket-wrap" style="--i:1" data-format="fresh-from-the-oven" data-search="102 difftray and the agentic code review loop nicola, marco &amp; paolo review agent-written code, tracks changes across iterations, and keeps his development workflow moving from anywhere with difftray"><span class="clip" aria-hidden="true"></span><article class="ticket">
+  <div class="ticket__top"><span class="ticket__num">#102</span><span class="people"><img src="/pr-preview/pr-266/assets/images/hosts/cortinico.jpg" alt="Nicola" width="44" height="44" loading="lazy"><img src="/pr-preview/pr-266/assets/images/hosts/prof18.jpg" alt="Marco" width="44" height="44" loading="lazy"><img src="/pr-preview/pr-266/assets/images/hosts/paolorotolo.jpg" alt="Paolo" width="44" height="44" loading="lazy"></span>
+</div>
+  <span class="stamp stamp--oven">Fresh from the Oven</span>
+  <h4><a href="/pr-preview/pr-266/102/">Difftray and the agentic code review loop</a></h4><p class="who">Nicola, Marco & Paolo</p>
+  <dl><dt>Bake time</dt><dd>49:29</dd><dt>Out</dt><dd>24 Sep 2026</dd></dl></article></li>
+
+    </ol>
+    <div class="nextprev mono"><a href="/pr-preview/pr-266/100/">← Previous: #100</a><a href="/pr-preview/pr-266/102/">Next: #102 →</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <span>© 2026 The Developers' Bakery</span>
+    <nav aria-label="Footer">
+      <a href="https://x.com/thebakerydev">@thebakerydev</a>
+      <a href="mailto:info@thebakery.dev">info@thebakery.dev</a>
+      <a href="/pr-preview/pr-266/podcast">RSS feed</a>
+      <a href="https://buymeacoffee.com/cortinico">Buy us a coffee</a>
+    </nav>
+  </div>
+</footer>
+<script src="/pr-preview/pr-266/assets/js/site.js" defer></script>
+</body>
+</html>
