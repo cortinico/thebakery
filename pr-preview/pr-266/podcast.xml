@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="https://thebakery.dev/podcast.xml" rel="self" type="application/rss+xml" />
 <link>https://thebakery.dev</link>
 <description>The Developers' Bakery is a podcast about developer tooling and the people who build and use it. Hosted by Nicola Corti, Marco Gomiero and Paolo Rotolo, the show alternates between two formats. In Deep Dives we sit down with a guest and follow one story: a tool they built, a setup that changed how they work, a problem they couldn't stop thinking about. In Fresh from the Oven, the three of us pick a topic, from coding agents to Android platform changes, and dig in. Many episodes end with the Recipe of the Week: one small tool or trick from each host. Started in 2020, with 99 episodes of open source stories in the archive.</description>
-<lastBuildDate>Sat, 07 Nov 2026 12:53:50 +0000</lastBuildDate>
+<lastBuildDate>Thu, 12 Nov 2026 22:14:11 +0000</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -40,6 +40,96 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="How To" />
 </itunes:category>
 
+    <item>
+        
+        <title>Do we still need Android Studio?</title>
+        <itunes:title>Do we still need Android Studio?</itunes:title>
+        <link>https://thebakery.dev/106/</link>
+        <pubDate>Thu, 12 Nov 2026 12:00:00 +0000</pubDate>
+        <dc:creator>Nicola Corti, Marco Gomiero, Paolo Rotolo</dc:creator>
+        <guid isPermaLink="true">https://thebakery.dev/106/</guid>
+        
+            <itunes:episodeType>full</itunes:episodeType>
+        
+        
+            <itunes:episode>106</itunes:episode>
+        
+
+        <enclosure url="https://dts.podtrac.com/redirect.m4a/hosting.thebakery.dev/106-thedevelopersbakery-do-we-still-need-android-studio.m4a" length="18971814" type="audio/x-m4a" />
+
+        <itunes:subtitle>How AI agents are changing Android development, from the IDE to the command line</itunes:subtitle>
+        <itunes:summary>Nicola, Marco, and Paolo discuss whether Android Studio still belongs at the center of Android development, which IDE features remain essential, and how AI agents are changing the tools around them.</itunes:summary>
+
+        
+        <description>
+            <![CDATA[Do Android developers still need Android Studio, or just any IDE? With AI agents writing and navigating more of our code, the IDE’s role is changing. However some tools such as debuggers &amp; profilers are hard to replace. In this Fresh from the Oven episode, Nicola, Marco, and Paolo talk...]]>
+        </description>
+        <content:encoded>
+            <![CDATA[<p>Do Android developers still need Android Studio, or just any IDE? With AI agents writing and navigating more of our code, the IDE’s role is changing. However some tools such as debuggers &amp; profilers are hard to replace.</p>
+
+<p>In this <em>Fresh from the Oven</em> episode, <strong>Nicola</strong>, <strong>Marco</strong>, and <strong>Paolo</strong> talk through that shift. Marco shares a preview of his upcoming <a href="https://london.droidcon.com/droidcon-new26-speakers/marco-gomiero">droidcon London talk</a>, “Do we still need Android Studio?”, and the three compare how they use IDEs, terminals, desktop agent apps, and command-line tools in their day-to-day work.</p>
+
+<p>We dig into the features that still bring developers back to Android Studio, whether those tools should be available on their own, and how Android CLI is making more of the development workflow accessible to agents.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.52</strong> Episode Start</li>
+  <li><strong>01.35</strong> Do we still need Android Studio?</li>
+  <li><strong>05.00</strong> How AI is changing the role of IDEs</li>
+  <li><strong>12.31</strong> Where to run coding agents: terminal or desktop?</li>
+  <li><strong>21.26</strong> The Android Studio tools worth keeping</li>
+  <li><strong>29.55</strong> Should developer tools run outside the IDE?</li>
+  <li><strong>32.18</strong> Android CLI: built for agent workflows</li>
+  <li><strong>38.41</strong> Recipe of the week</li>
+  <li><strong>45.30</strong> Droidcon London and closing</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://london.droidcon.com/droidcon-new26-speakers/marco-gomiero">Marco Gomiero’s droidcon London speaker page</a> - his talk, “Do we still need Android Studio?”</li>
+  <li><i class="fas fa-link"></i> <a href="https://london.droidcon.com/">droidcon London 2026</a> - December 10–11 in London</li>
+  <li><i class="fas fa-link"></i> <a href="https://developer.android.com/tools/agents/android-cli">Android CLI</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://iterm2.com/documentation-session-status.html">iTerm2 Session Status and Toolbelt</a> - see which terminal sessions are working, waiting, or idle</li>
+  <li><i class="fas fa-link"></i> <a href="https://herdr.dev/tui/">Herdr</a> - a terminal workspace for running coding agents</li>
+  <li><i class="fas fa-link"></i> <a href="https://getmoshi.app/">Moshi</a> - a mobile terminal for coding agents and remote development</li>
+  <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/watch?v=QlqU3bHITUg">Clean Code Revisited in the Age of AI — Danny Preussler</a> - droidcon USA 2026 talk</li>
+</ul>
+
+<p>Hosts:</p>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/cortinico">@cortinico on GitHub</a></li>
+  <li><i class="fab fa-x-twitter"></i> <a href="https://x.com/cortinico">@cortinico on X</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/prof18">@prof18 on GitHub</a></li>
+  <li><i class="fab fa-x-twitter"></i> <a href="https://x.com/marcoGomier">@marcoGomier on X</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/paolorotolo">@paolorotolo on GitHub</a></li>
+  <li><i class="fab fa-x-twitter"></i> <a href="https://x.com/paolorotolo">@paolorotolo on X</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-x-twitter"></i> <a href="https://x.com/thebakerydev">@thebakerydev on X</a></li>
+</ul>]]>
+        </content:encoded>
+
+        <itunes:author>Nicola Corti, Marco Gomiero, Paolo Rotolo</itunes:author>
+        <itunes:image href="https://thebakery.dev/assets/images/episodes/106-cover.png" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:duration>46:51</itunes:duration>
+
+        
+    </item>
+    
     <item>
         
         <title>Building with AI and curiosity with Ivan Morgillo</title>
