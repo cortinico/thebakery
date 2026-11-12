@@ -1,4 +1,60 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://thebakery.dev/pr-preview/pr-267/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/pr-preview/pr-267/" rel="alternate" type="text/html" /><updated>2026-11-07T12:54:45+00:00</updated><id>https://thebakery.dev/pr-preview/pr-267/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about developer tooling and the people who build and use it.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#105 - Building with AI and curiosity with Ivan Morgillo</title><link href="https://thebakery.dev/pr-preview/pr-267/105/" rel="alternate" type="text/html" title="#105 - Building with AI and curiosity with Ivan Morgillo" /><published>2026-10-29T12:00:00+00:00</published><updated>2026-10-29T12:00:00+00:00</updated><id>https://thebakery.dev/pr-preview/pr-267/105-building-with-ai-and-curiosity</id><content type="html" xml:base="https://thebakery.dev/pr-preview/pr-267/105/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://thebakery.dev/pr-preview/pr-267/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/pr-preview/pr-267/" rel="alternate" type="text/html" /><updated>2026-11-12T22:14:51+00:00</updated><id>https://thebakery.dev/pr-preview/pr-267/feed.xml</id><title type="html">The Developers’ Bakery</title><subtitle>A podcast about developer tooling and the people who build and use it.</subtitle><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><entry><title type="html">#106 - Do we still need Android Studio?</title><link href="https://thebakery.dev/pr-preview/pr-267/106/" rel="alternate" type="text/html" title="#106 - Do we still need Android Studio?" /><published>2026-11-12T12:00:00+00:00</published><updated>2026-11-12T12:00:00+00:00</updated><id>https://thebakery.dev/pr-preview/pr-267/106-do-we-still-need-android-studio</id><content type="html" xml:base="https://thebakery.dev/pr-preview/pr-267/106/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>Do Android developers still need Android Studio, or just any IDE? With AI agents writing and navigating more of our code, the IDE’s role is changing. However some tools such as debuggers &amp; profilers are hard to replace.</p>
+
+<p>In this <em>Fresh from the Oven</em> episode, <strong>Nicola</strong>, <strong>Marco</strong>, and <strong>Paolo</strong> talk through that shift. Marco shares a preview of his upcoming <a href="https://london.droidcon.com/droidcon-new26-speakers/marco-gomiero">droidcon London talk</a>, “Do we still need Android Studio?”, and the three compare how they use IDEs, terminals, desktop agent apps, and command-line tools in their day-to-day work.</p>
+
+<p>We dig into the features that still bring developers back to Android Studio, whether those tools should be available on their own, and how Android CLI is making more of the development workflow accessible to agents.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.52</strong> Episode Start</li>
+  <li><strong>01.35</strong> Do we still need Android Studio?</li>
+  <li><strong>05.00</strong> How AI is changing the role of IDEs</li>
+  <li><strong>12.31</strong> Where to run coding agents: terminal or desktop?</li>
+  <li><strong>21.26</strong> The Android Studio tools worth keeping</li>
+  <li><strong>29.55</strong> Should developer tools run outside the IDE?</li>
+  <li><strong>32.18</strong> Android CLI: built for agent workflows</li>
+  <li><strong>38.41</strong> Recipe of the week</li>
+  <li><strong>45.30</strong> Droidcon London and closing</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://london.droidcon.com/droidcon-new26-speakers/marco-gomiero">Marco Gomiero’s droidcon London speaker page</a> - his talk, “Do we still need Android Studio?”</li>
+  <li><i class="fas fa-link"></i> <a href="https://london.droidcon.com/">droidcon London 2026</a> - December 10–11 in London</li>
+  <li><i class="fas fa-link"></i> <a href="https://developer.android.com/tools/agents/android-cli">Android CLI</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://iterm2.com/documentation-session-status.html">iTerm2 Session Status and Toolbelt</a> - see which terminal sessions are working, waiting, or idle</li>
+  <li><i class="fas fa-link"></i> <a href="https://herdr.dev/tui/">Herdr</a> - a terminal workspace for running coding agents</li>
+  <li><i class="fas fa-link"></i> <a href="https://getmoshi.app/">Moshi</a> - a mobile terminal for coding agents and remote development</li>
+  <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/watch?v=QlqU3bHITUg">Clean Code Revisited in the Age of AI — Danny Preussler</a> - droidcon USA 2026 talk</li>
+</ul>
+
+<p>Hosts:</p>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/cortinico">@cortinico on GitHub</a></li>
+  <li><i class="fab fa-x-twitter"></i> <a href="https://x.com/cortinico">@cortinico on X</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/prof18">@prof18 on GitHub</a></li>
+  <li><i class="fab fa-x-twitter"></i> <a href="https://x.com/marcoGomier">@marcoGomier on X</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/paolorotolo">@paolorotolo on GitHub</a></li>
+  <li><i class="fab fa-x-twitter"></i> <a href="https://x.com/paolorotolo">@paolorotolo on X</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-x-twitter"></i> <a href="https://x.com/thebakerydev">@thebakerydev on X</a></li>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Nicola, Marco, and Paolo discuss whether Android Studio still belongs at the center of Android development, which IDE features remain essential, and how AI agents are changing the tools around them.]]></summary></entry><entry><title type="html">#105 - Building with AI and curiosity with Ivan Morgillo</title><link href="https://thebakery.dev/pr-preview/pr-267/105/" rel="alternate" type="text/html" title="#105 - Building with AI and curiosity with Ivan Morgillo" /><published>2026-10-29T12:00:00+00:00</published><updated>2026-10-29T12:00:00+00:00</updated><id>https://thebakery.dev/pr-preview/pr-267/105-building-with-ai-and-curiosity</id><content type="html" xml:base="https://thebakery.dev/pr-preview/pr-267/105/"><![CDATA[<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/1g3uu2uINQFWChhlay8YoS?utm_source=generator&amp;si=dba68748998841a9" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <p>What changes when AI can take care of the tedious parts of building software, and help you try ideas that once felt out of reach?</p>
 
@@ -572,67 +628,4 @@
   <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
   <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Composable Architecture to scale your development workflow with Gilhad Shoham and bit.dev]]></summary></entry><entry><title type="html">#96 - Aurora Store with Aayush Gupta</title><link href="https://thebakery.dev/pr-preview/pr-267/96/" rel="alternate" type="text/html" title="#96 - Aurora Store with Aayush Gupta" /><published>2025-04-24T13:00:00+01:00</published><updated>2025-04-24T13:00:00+01:00</updated><id>https://thebakery.dev/pr-preview/pr-267/096-aurora-store</id><content type="html" xml:base="https://thebakery.dev/pr-preview/pr-267/96/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/222gXpJC1NOkr0UBcvIg81?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<p>We’re back with a fresh new episode at The Developer’s Bakery! 🎉</p>
-
-<p>In this episode, we chat with <a href="https://mastodon.social/@theimpulson"><strong>Aayush Gupta</strong></a>, the maintainer of <a href="https://gitlab.com/AuroraOSS/AuroraStore"><strong>Aurora Store</strong></a>, a popular alternative to the Google Play Store.</p>
-
-<p>Aayush will share what makes Aurora Store unique, including its features, security measures, and how it compares to other similar stores like FDroid.</p>
-
-<p>We’ll deep dive into some of the technical aspects of Aurora Store, discussing topics such as anonymous login, malware protection, and much more.</p>
-
-<p>As a bonus, Aayush is also a moderator at XDA Developers, one of the biggest Android community out there, and will share his journey getting into it.</p>
-
-<p>Enjoy the show 👨‍🍳</p>
-
-<h1 id="show-notes">Show Notes</h1>
-
-<ul>
-  <li><strong>00.00</strong> Intro</li>
-  <li><strong>00.51</strong> Episode Start</li>
-  <li><strong>01.13</strong> Aayush’s Introduction</li>
-  <li><strong>02.26</strong> Aayush’s story</li>
-  <li><strong>03.45</strong> What is Aurora Store?</li>
-  <li><strong>05.12</strong> Aurora Store vs FDroid</li>
-  <li><strong>06.10</strong> Aurora Store features</li>
-  <li><strong>08.48</strong> Trusting Aurora Store</li>
-  <li><strong>10.58</strong> Anonymous login</li>
-  <li><strong>13.30</strong> Protecting against malwares</li>
-  <li><strong>14.48</strong> Where to download Aurora Store?</li>
-  <li><strong>16.11</strong> GitLab vs GitHub</li>
-  <li><strong>17.21</strong> Discoverability on GitLab</li>
-  <li><strong>18.51</strong> The history of this project</li>
-  <li><strong>24.42</strong> Who’s maintaining Aurora Store now?</li>
-  <li><strong>25.59</strong> Material Design 3</li>
-  <li><strong>27.07</strong> Managing Translations</li>
-  <li><strong>29.01</strong> Contributing Translations</li>
-  <li><strong>30.26</strong> How to best contribute to Aurora Store?</li>
-  <li><strong>33.47</strong> The Aurora Store Community</li>
-  <li><strong>34.48</strong> Telegram Support Group</li>
-  <li><strong>35.39</strong> What’s next for Aurora Store?</li>
-  <li><strong>37.24</strong> Further reading</li>
-  <li><strong>38.41</strong> Being an XDA Moderator</li>
-  <li><strong>42.44</strong> Where people can find you online?</li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<ul>
-  <li><i class="fab fa-gitlab"></i> <a href="https://gitlab.com/AuroraOSS/AuroraStore">AuroraOSS/AuroraStore on GitLab</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://auroraoss.gitbook.io/wiki">AuroraOSS Wiki</a></li>
-  <li><i class="fab fa-gitlab"></i> <a href="https://gitlab.com/theimpulson">@theimpulson on GitLab</a></li>
-  <li><i class="fab fa-mastodon"></i> <a href="https://mastodon.social/@theimpulson">@theimpulson on Mastodon</a></li>
-  <li><i class="fas fa-link"></i> <a href="https://aayush.io/">Aayush’s website</a></li>
-</ul>
-
-<h1 id="show-links">Show links</h1>
-
-<ul>
-  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
-  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
-  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
-  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
-  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
-</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Maintaining and Open Source Alternative store with Aayush Gupta and Aurora Store]]></summary></entry></feed>
+</ul>]]></content><author><name>The Developers&apos; Bakery</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Composable Architecture to scale your development workflow with Gilhad Shoham and bit.dev]]></summary></entry></feed>
